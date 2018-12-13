@@ -134,6 +134,7 @@ function adjustRow(row,fornitore){
         let supplier = (_.is(opts.supplier))? opts.supplier : undefined;
         let supplier_id = supplierId(supplier);
         let model = row["Model"];
+        let model_id = modelId(model);
         let item_id = itemId(row["Item Code"]);
         let ean13 = (_.is(row["EAN13"]))? row["EAN13"] : undefined;
         let price = (_.is(row["Prezzo IVA Escl."]))? row["Prezzo IVA Escl."] : undefined;
@@ -152,9 +153,6 @@ function adjustRow(row,fornitore){
 
         
 
-        getColor(cleaned_desc_it, cleaned_desc_en);
-
-
         /*
         let category = getCategory(cleaned_name, cleaned_desc);
         let outdoor = isOutdoor(cleaned_name, cleaned_desc);
@@ -166,11 +164,13 @@ function adjustRow(row,fornitore){
             supplier:               supplier,                           // nome del fornitore
             supplier_id :           supplier_id,                        // identificativo del fonitore
             model:                  model,                              // modello/famiglia dell'articolo
-            model_id:               modelId(model),                     // identificativo della famiglia di articolo ottenuto con replace(" ","_");
-            item_id:                item_id,                            // codice utilizzato dal fornitore
+            model_id:               model_id,                     // identificativo della famiglia di articolo ottenuto con replace(" ","_");
+            item_id:                item_id,                            
             hicId:                  hicId(supplier_id, item_id),        // identificativo interno ottenuto come supplier_id + item_id
             ean13:                  ean13,                              // codice a barre
             price:                  getPrice(price),                    // imponibile
+            color:                  getColorFromId(item_id),            // prova a recuperare il colore dall'id
+            color_vecchio:          getColorSuperVECCHIO(cleaned_desc_it, cleaned_desc_en),
             desc_it:                cleaned_desc_it,                    // la descrizione in italiano epurata del nome dell'aritcolo
             desc_en:                cleaned_desc_en,                    // la descrizione in inglese epurata del nome dell'aritcolo
             dimmer:                 dimmer,                             // se ha il dimmer o meno
@@ -386,7 +386,7 @@ function adjustRow(row,fornitore){
             return 0;
         }
 
-        function getColorVECCHIO(desc_it, desc_en){
+        function getColorSuperVECCHIO(desc_it, desc_en){
            
             if(
                 desc_it.indexOf("picchetto") == 0 || desc_it.indexOf("cavalletto") == 0 || desc_it.indexOf("zavorra") == 0 || desc_it.indexOf("set") == 0 || desc_it.indexOf("mont") == 0 || desc_it.indexOf("base") == 0  || desc_it.indexOf("kit") == 0 || desc_it.indexOf("diff") == 0 || desc_it.indexOf("modul") == 0 || desc_it.indexOf("vetr") == 0 || desc_it.indexOf("rosone") == 0 || desc_it.indexOf("aste") == 0 || desc_it.indexOf("braccio") == 0 ||
@@ -398,7 +398,7 @@ function adjustRow(row,fornitore){
                     return "bianco"
                 }else{
                     if(desc_it.indexOf("grig") != -1 && desc_en.indexOf("grey") != -1 ){
-                        return "bianco"
+                        return "grigio"
                     }else{
                         if(desc_it.indexOf("blu") != -1 && desc_en.indexOf("blu") != -1 ){
                             return "blu"
@@ -597,6 +597,185 @@ function adjustRow(row,fornitore){
                 }
             }
         }
+
+        function getColorFromId(id){
+            let index = id.lastIndexOf("-");
+            let color_number = 0;
+
+            // rimuovo il led dal codice
+            if(id.indexOf("LD") != -1){
+                id = id.replace("LD","");
+            }
+
+            if(id.indexOf("-D") != -1){
+                id = id.replace("-D","");
+            }
+
+            if(id.indexOf("DR") != -1){
+                id = id.replace("DR","");
+            }
+
+            if(id.indexOf("DM") != -1){
+                id = id.replace("DM","");
+            }
+
+            if(id.indexOf("D") != -1){
+                _.log(id);
+            }
+
+            if(index != -1){
+                color_number = id.substr(index+1,3);
+            }
+            if(color_number == "80")
+                return "rame";
+
+            if(color_number == "10" || color_number == "11")
+                return "bianco";
+
+            if(color_number == "22")
+                return "grafite";
+            
+            if(color_number == "42")
+                return "verde acqua";
+            
+            if(color_number == "16")
+                return "bianco trasparente";
+                    
+            if(color_number == "52")
+                return "giallo oro";
+            
+            if(color_number == "55" || color_number == "56")
+                return "giallo";
+
+            if(color_number == "66")
+                return "multicolore";
+            
+            if(color_number == "20")
+                return "nero";
+
+            if(color_number == "25")
+                return "greige";
+
+            if(color_number == "67")
+                return "cremisi";
+        
+
+            if(color_number == "87")
+                return "indaco";
+        
+
+            if(color_number == "40")
+                return "bianco e verde";
+        
+
+            if(color_number == "65")
+                return "carminio";
+        
+
+            if(color_number == "01")
+                return "color 01";
+        
+
+            if(color_number == "02")
+                return "color 02";
+        
+            if(color_number == "03")
+                return "color 03";
+        
+
+            if(color_number == "04")
+                return "color 04";
+
+            if(color_number == "05")
+                return "color 05";
+        
+
+            if(color_number == "63" || color_number == "64" || color_number == "51")
+                return "rosso";
+        
+            if(color_number == "27")
+                return "antracite";
+        
+
+            if(color_number == "53" || color_number == "14")
+                return "arancione";
+
+            if(color_number == "65")
+                return "amaranto";
+        
+            if(color_number == "12")
+                return "bianco caldo";
+        
+            if(color_number == "24")
+                return "grigio";
+            
+            if(color_number == "43")
+                return "verde";
+            
+            if(color_number == "71")
+                return "oro";
+
+            if(color_number == "43")
+                return "verde";
+            
+            if(color_number == "78")
+                return "cromo nero";
+            
+            if(color_number == "73")
+                return "bronzo";
+
+            if(color_number == "26")
+                return "grigio chiaro";
+            
+            if(color_number == "61")
+                return "rosa";
+            
+            if(color_number == "33")
+                return "blu";
+
+            if(color_number == "54")
+                return "marrone";
+            
+            if(color_number == "51")
+                return "trasparente bianco";
+            
+            if(color_number == "06")
+                return "ruby jaypure";
+
+            if(color_number == "07")
+                return "izmir";
+            
+            if(color_number == "08")
+                return "emerald king";
+
+            if(color_number == "15")
+                return "bianco sfumato";
+            
+            if(color_number == "32")
+                return "turchese";
+            
+            if(color_number == "62")
+                return "ciliegia";
+
+            if(color_number == "30")
+                return "champagne";
+            
+                        
+            if(color_number == "50")
+                return "avorio";
+            
+            if(color_number == "xxxx")
+                return "xxxxx";
+            
+            if(color_number == "xxxx")
+                return "xxxxx";
+            
+            if(color_number == "xxxx")
+                return "xxxxx";
+                
+        
+                
+        }
     }
 }
 
@@ -614,18 +793,39 @@ function rigaVuota(row){
 }
 
 function supplierId(supplier){
-    let supplier_id = S(supplier).replaceAll(" ","").s.substr(0,5);
+    let supplier_id = S(supplier).replaceAll(" ","-").s.substr(0,5);
     return supplier_id;
 }
 
 
 function modelId(model){
-    let model_id = S(model).replaceAll(" ","_");
+    let model_id = S(model).replaceAll(" ","_").s;
     return model_id;
 }
 
 function itemId(item_id){
-    item_id = S(item_id).replaceAll(" ","");
+    // come prima cosa sostituiamo gli spazi vuoti con "-"
+    item_id = S(item_id).replaceAll(" ","-").s;
+    // capita che le ultime due cifre del codice (che potrebbero indicare il colore) non siano separate dal "-"
+    // quindi nel caso in cui gli ultimi caratteri dell'id sono numeri NON preceduti da "-" aggiungo un "-"
+    let ultimi_due_caratteri = item_id.substr(item_id.length-2);
+    if( !isNaN(ultimi_due_caratteri) ){
+        let terzultimo_carattere = item_id.substr(item_id.length-3, 1);
+        if(terzultimo_carattere != "-"){ 
+            let prima_parte = item_id.substr(0, item_id.length-2);
+            let restante_parte = item_id.substr(item_id.length-2);
+            let nuovo_codice = prima_parte+"-"+restante_parte;
+            item_id = nuovo_codice;
+        }
+        else{
+            if( terzultimo_carattere == "/" ){
+                let prima_parte = item_id.substr(0, item_id.length-3);
+                let restante_parte = item_id.substr(item_id.length-2);
+                let nuovo_codice = prima_parte+"-"+restante_parte;
+                item_id = nuovo_codice;
+            }
+        }
+    }
     return item_id;
 }
 
