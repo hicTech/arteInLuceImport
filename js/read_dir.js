@@ -126,7 +126,6 @@ function adjustRow(row,fornitore){
         // tolgo dalla descrizione in italiano e in inglese il nome dell'articolo
         var cleaned_desc_it = undefined;
         var cleaned_desc_en = undefined;
-        var material = undefined;
         var dimmer = undefined;
         var led = undefined;
         var switcher = undefined;
@@ -153,7 +152,6 @@ function adjustRow(row,fornitore){
             // tolgo dalla descrizione in italiano e in inglese il nome dell'articolo
             cleaned_desc_it = cleanedName(desc_it, model.toLowerCase());
             cleaned_desc_en = cleanedName(desc_en, model.toLowerCase());
-            material = getMaterial(item_id,cleaned_desc_it, cleaned_desc_en);
             dimmer = hasDimmer(cleaned_desc_it, cleaned_desc_en);
             led = hasLed(item_id);
             switcher = hasSwitcher(cleaned_desc_it);
@@ -392,8 +390,11 @@ function adjustRow(row,fornitore){
                 if(color_number == "80")
                     return "rame";
 
-                if(color_number == "10" || color_number == "11")
+                if(color_number == "10")
                     return "bianco";
+
+                if(color_number == "11")
+                    return "bianco,alluminio";
 
                 if(color_number == "22")
                     return "grafite";
@@ -428,7 +429,7 @@ function adjustRow(row,fornitore){
             
 
                 if(color_number == "40")
-                    return "bianco e verde";
+                    return "bianco,verde";
             
 
                 if(color_number == "65")
@@ -565,6 +566,9 @@ function adjustRow(row,fornitore){
                 price = getPrice(row["Prezzo"]);
                 color = getColor(row["Descrizione"]);
                 category = getCategory(row["Descrizione"]);
+                led = hasLed(row["Descrizione"]);
+                halogen = hasHalogen(row["Descrizione"]);
+                cleaned_desc_it = row["Descrizione"];
 
                 hicId = getHicId(supplier_id, item_id);
 
@@ -721,7 +725,7 @@ function adjustRow(row,fornitore){
 
 
 
-
+                    /// mancano "PIUMATO", "NUVOLA" e "AVENTUR" che non so cosa siano
                     if( indexOfInArray(desc_arr,"SFUMAT") != -1 ){
                         colors.push("sfumato");
                     }
@@ -799,12 +803,22 @@ function adjustRow(row,fornitore){
                     }
                     
                     
-                    return colors;
+                    return _.uniq(colors);
 
                         
                 }
-                
 
+                function hasLed(desc){
+                    if(desc.indexOf(" LED") != -1)
+                        return 1;
+                    return 0;
+                }
+                
+                function hasHalogen(desc){
+                    if( desc.indexOf(" ALO") != -1)
+                        return 1;
+                    return 0;
+                }
                 
                     
 
@@ -829,9 +843,8 @@ function adjustRow(row,fornitore){
             ean13:                  ean13,                              // codice a barre
             price:                  price,                              // imponibile
             color:                  color,                              // prova a recuperare il colore dall'id
-            desc_it:                cleaned_desc_it,                    // la descrizione in italiano epurata del nome dell'aritcolo
-            desc_en:                cleaned_desc_en,                    // la descrizione in inglese epurata del nome dell'aritcolo
-            material:               material,                           // materiale
+            desc_it:                cleaned_desc_it,                    // la descrizione in italiano
+            desc_en:                cleaned_desc_en,                    // la descrizione in inglese 
             dimmer:                 dimmer,                             // se ha il dimmer o meno
             led:                    led,                                // se ha il led o meno
             switcher:               switcher,                           // se ha l'interruttore o meno
