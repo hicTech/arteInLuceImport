@@ -22,6 +22,7 @@
   "homepage": "https://github.com/DataGarage/node-xls-json",
   "dependencies": {
     "csv": "~0.3.7",
+    "filehound": "^1.16.5",
     "json2xls": "^0.1.2",
     "string": "^3.3.3",
     "xls-to-json": "^0.5.1",

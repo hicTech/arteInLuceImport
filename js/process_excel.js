@@ -64,16 +64,11 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                             //_.log("FINITO");
                                         });
 
-                                        
-
                                         let xls = json2xls(json_aumentato);
 
                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_aumentato.xlsx', xls, 'binary');
                     
                                     }
-                                        
-                                        
-                                
                                 }
                         });
 
@@ -100,16 +95,24 @@ fs.readdir(path, function(err, cartella_fornitore) {
 function aumentaJson(json, fornitore){
 
     let ret = [];
-    _.each(json,function(row){
-        if(!rigaVuota(row))
-            ret.push(adjustRow(row,fornitore));
+
+    // prima provo a leggere il json delle immagini di ogni fornitore
+    // al success procedo con adjustRow
+    fs.readFile('./'+fornitore+'/files_json.json', 'utf8', function(err, contents) {
+        let files_json = JSON.parse(contents);
+        _.each(json,function(row){
+            if(!rigaVuota(row))
+                ret.push(adjustRow(row,fornitore,files_json));
+        });
+
     });
 
+    
    return ret;
 }
 
 
-function adjustRow(row,fornitore){
+function adjustRow(row,fornitore,files_json){
 
         var supplier = undefined;
         var supplier_id = undefined;
@@ -131,7 +134,9 @@ function adjustRow(row,fornitore){
         var switcher = undefined;
         var halogen = undefined;
         var category = undefined;
+        var type = undefined;
         var outdoor = undefined;
+        var path = undefined;
     
 
         /* ================================================================= FOSCARINI */
@@ -157,10 +162,9 @@ function adjustRow(row,fornitore){
             switcher = hasSwitcher(cleaned_desc_it);
             halogen = hasHalogen(item_id,cleaned_desc_it, cleaned_desc_en);
             category = getCategory(cleaned_desc_it, cleaned_desc_en);
+            type = undefined;
             outdoor = isOutdoor(cleaned_desc_it, cleaned_desc_en);
             
-
-        
             function cleanedName(desc, model){
                 let cleaned_name = desc.replace(model,"").trim();
                 if(cleaned_name == "")
@@ -566,9 +570,12 @@ function adjustRow(row,fornitore){
                 price = getPrice(row["Prezzo"]);
                 color = getColor(row["Descrizione"]);
                 category = getCategory(row["Descrizione"]);
+                type = getType(original_item_id);
                 led = hasLed(row["Descrizione"]);
                 halogen = hasHalogen(row["Descrizione"]);
                 cleaned_desc_it = row["Descrizione"];
+                path = getPath(row["Descrizione"]);
+                
 
                 hicId = getHicId(supplier_id, item_id);
 
@@ -819,7 +826,85 @@ function adjustRow(row,fornitore){
                         return 1;
                     return 0;
                 }
-                
+
+                function getPath(desc){
+
+                }
+            
+                function getType(id){
+                    let prefisso = id.substr(0,2);
+                    let prefisso3 = id.substr(0,3);
+
+                    if( 
+                        prefisso=="VT" || prefisso=="VZ" || prefisso=="VP" || prefisso=="VS" || prefisso=="VA" || prefisso=="VB" || prefisso=="VC" ||
+                        prefisso=="VR" || prefisso=="VM" || prefisso=="VL" || prefisso=="VE" || prefisso=="VF" || prefisso=="VD"
+                    )
+                        return "vetro"
+                    else{
+                        if(prefisso == "AP")
+                            return "applique";
+                        else{
+                            if(prefisso == "SP")
+                                return "sospensione";
+                            else{
+                                if(prefisso == "FA")
+                                    return "faretto";
+                                else{
+                                    if(prefisso == "PT")
+                                        return "piantana";
+                                    else{
+                                        if(prefisso == "PL")
+                                            return "plafone";
+                                        else{
+                                            if(prefisso == "RO")
+                                                return "rosone";
+                                            else{
+                                                if(prefisso == "PP")
+                                                    return "plafone/applique";
+                                                else{
+                                                    if(prefisso == "LT")
+                                                        return "lettura";
+                                                    else{
+                                                        if(prefisso == "CV" || prefisso == "CA" )
+                                                            return "cavo";
+                                                        else{
+                                                            if(prefisso == "FI" ){
+                                                                if( prefisso3 == "FIS")
+                                                                    return "fischer"
+                                                                else
+                                                                    return "vetro";
+                                                            }
+                                                            else{
+                                                                if(prefisso == "BI" ){
+                                                                    return "raccoglitore";
+                                                                }
+                                                                else{
+                                                                    if(prefisso == "KI" ){
+                                                                        return "kit";
+                                                                    }
+                                                                    else{
+                                                                        if(prefisso == "SC" ){
+                                                                            return "scatola";
+                                                                        }
+                                                                        else{
+                                                                           return undefined;
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                        
+                            
+                }
                     
 
                 
@@ -852,6 +937,7 @@ function adjustRow(row,fornitore){
             category:               category,                           // terra, tavolo, sospensione, soffitto, parete, montatura, kit, diffusore, set,
             outdoor:                outdoor,                            // se è da esterno o meno
             max_discount:           undefined,                          // massimo sconto applicabile
+            img:                    path,                               // array dei path delle immagini
         }
 }
 
