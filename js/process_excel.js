@@ -5,7 +5,6 @@ var json2xls = require('json2xls');
 var S = require('string');
  
 
- 
 var path = "../xls/";
 
 var count = 0;
@@ -54,19 +53,35 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                     if(files_length == 0){
                                         
                                         let path_fornitore = path_cartella +"/"+cartella;
-                                        var json_aumentato = aumentaJson(json_fornitore, cartella);
+
+
+                                        var json_aumentato = [];
+
+                                        // prima provo a leggere il json delle immagini di ogni fornitore
+                                        // al success procedo con adjustRow
+                                        fs.readFile('./'+cartella+'/files_json.json', 'utf8', function(err, contents) {
+                                            let files_json = JSON.parse(contents);
+                                            _.each(json_fornitore,function(row){
+                                                if(!rigaVuota(row)){
+                                                    json_aumentato.push(adjustRow(row,cartella,files_json));
+                                                }   
+                                            });
+
+                                            fs.writeFile(path_cartella +"/result/"+cartella+'.json', JSON.stringify(json_fornitore), 'utf8', function(){
+                                            //_.log("FINITO");
+                                            });
+
+                                            fs.writeFile(path_cartella +"/result/"+cartella+'_aumentato.json', JSON.stringify(json_aumentato), 'utf8', function(){
+                                                //_.log("FINITO");
+                                            });
+
+                                            let xls = json2xls(json_aumentato);
+
+                                            fs.writeFileSync(path_cartella +"/result/"+cartella+'_aumentato.xlsx', xls, 'binary');
+                                            
+                                        });
                                         
-                                        fs.writeFile(path_cartella +"/result/"+cartella+'.json', JSON.stringify(json_fornitore), 'utf8', function(){
-                                            //_.log("FINITO");
-                                        });
-
-                                        fs.writeFile(path_cartella +"/result/"+cartella+'_aumentato.json', JSON.stringify(json_aumentato), 'utf8', function(){
-                                            //_.log("FINITO");
-                                        });
-
-                                        let xls = json2xls(json_aumentato);
-
-                                        fs.writeFileSync(path_cartella +"/result/"+cartella+'_aumentato.xlsx', xls, 'binary');
+                                        
                     
                                     }
                                 }
@@ -92,24 +107,6 @@ fs.readdir(path, function(err, cartella_fornitore) {
 });
 
 
-function aumentaJson(json, fornitore){
-
-    let ret = [];
-
-    // prima provo a leggere il json delle immagini di ogni fornitore
-    // al success procedo con adjustRow
-    fs.readFile('./'+fornitore+'/files_json.json', 'utf8', function(err, contents) {
-        let files_json = JSON.parse(contents);
-        _.each(json,function(row){
-            if(!rigaVuota(row))
-                ret.push(adjustRow(row,fornitore,files_json));
-        });
-
-    });
-
-    
-   return ret;
-}
 
 
 function adjustRow(row,fornitore,files_json){
@@ -126,16 +123,18 @@ function adjustRow(row,fornitore,files_json){
         var color = undefined;
         var desc_it = undefined;
         var desc_en = undefined;
-        // tolgo dalla descrizione in italiano e in inglese il nome dell'articolo
         var cleaned_desc_it = undefined;
         var cleaned_desc_en = undefined;
         var dimmer = undefined;
         var led = undefined;
-        var switcher = undefined;
         var halogen = undefined;
+        var screw = undefined;
+        var switcher = undefined;
         var category = undefined;
         var type = undefined;
+        var size = undefined;
         var outdoor = undefined;
+        var max_discount = undefined;
         var path = undefined;
     
 
@@ -159,16 +158,20 @@ function adjustRow(row,fornitore,files_json){
             cleaned_desc_en = cleanedName(desc_en, model.toLowerCase());
             dimmer = hasDimmer(cleaned_desc_it, cleaned_desc_en);
             led = hasLed(item_id);
-            switcher = hasSwitcher(cleaned_desc_it);
             halogen = hasHalogen(item_id,cleaned_desc_it, cleaned_desc_en);
+            screw = getScrew(cleaned_desc_it, cleaned_desc_en);
+            switcher = hasSwitcher(cleaned_desc_it);
             category = getCategory(cleaned_desc_it, cleaned_desc_en);
             type = undefined;
+            size = getSize(cleaned_desc_it, cleaned_desc_en);;
             outdoor = isOutdoor(cleaned_desc_it, cleaned_desc_en);
+            max_discount = undefined;
+            path = undefined;
             
             function cleanedName(desc, model){
                 let cleaned_name = desc.replace(model,"").trim();
                 if(cleaned_name == "")
-                    _.log("ATTENZIONE! qualche articolo ha cleandeName vuoto");
+                    _.log("ATTENZIONE! qualche articolo ha cleanedName vuoto");
                 return cleaned_name.replace(/  +/g, ' ');
             }
 
@@ -267,7 +270,7 @@ function adjustRow(row,fornitore,files_json){
             }
 
             function getCategory(cleaned_desc_it, cleaned_desc_en){
-
+            
                 // parete/soffitto
                 var cleaned_it_en = cleaned_desc_it+" "+cleaned_desc_en;
                 if( cleaned_it_en.indexOf("parete/sof") != -1 || cleaned_it_en.indexOf("par./sof") != -1 || cleaned_it_en.indexOf("par/sof") != -1){
@@ -554,6 +557,58 @@ function adjustRow(row,fornitore,files_json){
                 return 0;
             }
 
+            function getSize(desc_it, desc_en){
+                if(desc_en.indexOf("large") != -1)
+                    return "grande";
+                else{
+                    if(desc_en.indexOf("small") != -1)
+                        return "piccola";
+                    else{
+                        if(desc_en.indexOf("medi") != -1 || desc_en.indexOf("med.") != -1)
+                            return "media";
+                        else{
+                            if(desc_en.indexOf("mini ") != -1)
+                                return "mini";
+                            else{
+                                if(desc_en.indexOf("xxs") != -1)
+                                    return "xxs";
+                                else{
+                                    if(desc_en.indexOf("xxl") != -1)
+                                        return "xxl";
+                                    else{
+                                        if(desc_en.indexOf("xl") != -1)
+                                            return "xl";
+                                        else{
+                                            if(desc_en.indexOf("xs") != -1)
+                                                return "xs";
+                                            else{
+                                                return undefined;
+                                            }  
+                                        }  
+                                    }   
+                                }   
+                            }   
+                        }    
+                    }    
+                }
+            }
+
+            function getScrew(desc_it,desc_en){
+                var desc_tot = desc_it+" "+desc_en;
+                var desc_arr = desc_tot.split(" ");
+                var ret = undefined;
+                _.each(desc_arr,function(str){
+                    if(str.length <= 3)
+                        _.log(str);
+                });
+
+                if(ret == "e27" || ret == "e14" || ret == "g9"){
+                    return ret;
+                }
+                return undefined
+                
+            }
+
             
 
         }
@@ -567,17 +622,29 @@ function adjustRow(row,fornitore,files_json){
                 model_id = modelId(model);
                 original_item_id = row["Codice articolo"];
                 item_id = itemId(original_item_id);
+                hicId = getHicId(supplier_id, item_id);
+                ean13 = undefined;
                 price = getPrice(row["Prezzo"]);
                 color = getColor(row["Descrizione"]);
-                category = getCategory(row["Descrizione"]);
-                type = getType(original_item_id);
+                desc_it = undefined; // da prendere dai word
+                desc_en = undefined; // da prendere dai word
+                cleaned_desc_it = undefined;
+                cleaned_desc_en = undefined;
+                dimmer = undefined;
                 led = hasLed(row["Descrizione"]);
                 halogen = hasHalogen(row["Descrizione"]);
-                cleaned_desc_it = row["Descrizione"];
+                screw = getScrew(row["Descrizione"]);
+                switcher = undefined;
+                category = getCategory(row["Descrizione"]);
+                type = getType(original_item_id);
+                size = getSize(row["Descrizione"]);;
+                outdoor = undefined;
+                max_discount = undefined;
+
                 path = getPath(row["Descrizione"]);
                 
 
-                hicId = getHicId(supplier_id, item_id);
+
 
                 function getModel(desc){
                     var desc_arr = descToArray(desc);
@@ -656,6 +723,8 @@ function adjustRow(row,fornitore,files_json){
                     
 
                     if( indexOfInArray(desc_arr,"BIANC") != -1 || indexOfInArray(desc_arr,"BCO") != -1 ){
+                        if(desc_arr.filter(i => i === "BIANCO").length > 1) // è il caso in cui c'è "BIANCO BIANCO"
+                            colors.push("bianco");
                         colors.push("bianco");
                     }
                     if( indexOfInArray(desc_arr," NER") != -1 ){
@@ -810,7 +879,7 @@ function adjustRow(row,fornitore,files_json){
                     }
                     
                     
-                    return _.uniq(colors);
+                    return colors;
 
                         
                 }
@@ -840,54 +909,54 @@ function adjustRow(row,fornitore,files_json){
                         prefisso=="VR" || prefisso=="VM" || prefisso=="VL" || prefisso=="VE" || prefisso=="VF" || prefisso=="VD"
                     )
                         return "vetro"
-                    else{
-                        if(prefisso == "AP")
+                    else {
+                        if (prefisso == "AP")
                             return "applique";
-                        else{
-                            if(prefisso == "SP")
+                        else {
+                            if (prefisso == "SP")
                                 return "sospensione";
-                            else{
-                                if(prefisso == "FA")
+                            else {
+                                if (prefisso == "FA")
                                     return "faretto";
-                                else{
-                                    if(prefisso == "PT")
+                                else {
+                                    if (prefisso == "PT")
                                         return "piantana";
-                                    else{
-                                        if(prefisso == "PL")
+                                    else {
+                                        if (prefisso == "PL")
                                             return "plafone";
-                                        else{
-                                            if(prefisso == "RO")
+                                        else {
+                                            if (prefisso == "RO")
                                                 return "rosone";
-                                            else{
-                                                if(prefisso == "PP")
+                                            else {
+                                                if (prefisso == "PP")
                                                     return "plafone/applique";
-                                                else{
-                                                    if(prefisso == "LT")
+                                                else {
+                                                    if (prefisso == "LT")
                                                         return "lettura";
-                                                    else{
-                                                        if(prefisso == "CV" || prefisso == "CA" )
+                                                    else {
+                                                        if (prefisso == "CV" || prefisso == "CA")
                                                             return "cavo";
-                                                        else{
-                                                            if(prefisso == "FI" ){
-                                                                if( prefisso3 == "FIS")
+                                                        else {
+                                                            if (prefisso == "FI") {
+                                                                if (prefisso3 == "FIS")
                                                                     return "fischer"
                                                                 else
                                                                     return "vetro";
                                                             }
-                                                            else{
-                                                                if(prefisso == "BI" ){
+                                                            else {
+                                                                if (prefisso == "BI") {
                                                                     return "raccoglitore";
                                                                 }
-                                                                else{
-                                                                    if(prefisso == "KI" ){
+                                                                else {
+                                                                    if (prefisso == "KI") {
                                                                         return "kit";
                                                                     }
-                                                                    else{
-                                                                        if(prefisso == "SC" ){
+                                                                    else {
+                                                                        if (prefisso == "SC") {
                                                                             return "scatola";
                                                                         }
-                                                                        else{
-                                                                           return undefined;
+                                                                        else {
+                                                                            return undefined;
                                                                         }
                                                                     }
                                                                 }
@@ -905,7 +974,101 @@ function adjustRow(row,fornitore,files_json){
                         
                             
                 }
+
+                function getSize(desc){
+                    if(desc.indexOf(" MINI") != -1){
+                        return "mini";
+                    }
+                    else{
+                        if(desc.indexOf(" PICCO") != -1){
+                            if(desc.indexOf(" PICCOD5") != -1){
+                                return "piccola d5";
+                            }
+                            if(desc.indexOf(" PICCOD4") != -1){
+                                return "piccola d4";
+                            }
+                            if(desc.indexOf(" PICCOD3") != -1){
+                                return "piccola d3";
+                            }
+                            if(desc.indexOf(" PICCOD2") != -1){
+                                return "piccola d2";
+                            }
+                            if(desc.indexOf(" PICCOD1") != -1){
+                                return "piccola d1";
+                            }
+                            else
+                                return "piccola";
+                        }
+                        else{
+                            if(desc.indexOf(" MEDIA") != -1){
+                                if(desc.indexOf(" MEDIAD5") != -1){
+                                    return "media d5";
+                                }
+                                if(desc.indexOf(" MEDIAD4") != -1){
+                                    return "media d4";
+                                }
+                                if(desc.indexOf(" MEDIAD3") != -1){
+                                    return "media d3";
+                                }
+                                if(desc.indexOf(" MEDIAD2") != -1){
+                                    return "media d2";
+                                }
+                                if(desc.indexOf(" MEDIAD1") != -1){
+                                    return "media d1";
+                                }
+                                else
+                                    return "media";
+                            }
+                            else{
+                                if(desc.indexOf(" GRAND") != -1){
+                                    if(desc.indexOf(" GRANDD5") != -1){
+                                        return "grande d5";
+                                    }
+                                    if(desc.indexOf(" GRANDD4") != -1){
+                                        return "grande d4";
+                                    }
+                                    if(desc.indexOf(" GRANDD3") != -1){
+                                        return "grande d3";
+                                    }
+                                    if(desc.indexOf(" GRANDD2") != -1){
+                                        return "grande d2";
+                                    }
+                                    if(desc.indexOf(" GRANDD1") != -1){
+                                        return "grande d1";
+                                    }
+                                    else
+                                        return "grande";
+                                }
+                                else{
+                                    if(desc.indexOf(" XL") != -1){
+                                        return "xl";
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
                     
+                function getScrew(desc){
+                    let finale = desc.substr(desc.lastIndexOf(" ")+1);
+                    if(
+                        finale == "E27" || finale == "J63" || finale == "GF3" || finale == "GE3" || finale == "J53" || finale == "CA2" ||
+                        finale == "14E" || finale == "G9" || finale == "FL" || finale == "AA2" || finale == "EB3" || finale == "FB3" ||
+                        finale == "I13" || finale == "GA3" || finale == "J13" || finale == "EA3" || finale == "I03" || finale == "FJ3" || 
+                        finale == "L13" || finale == "DB2" || finale == "DA2" || finale == "XA3" || finale == "W13" || finale == "U13" ||
+                        finale == "VA3" || finale == "3E" || finale == "FA3" || finale == "N13" || finale == "AO3" || finale == "EL" ||
+                        finale == "OA3" || finale == "Q13" || finale == "RA3" || finale == "TA3" || finale == "S13" || finale == "J03" ||
+                        finale == "GJ3" || finale == "I23" || finale == "J23" || finale == "GC3" || finale == "J33" || finale == "BA2" ||
+                        finale == "J73" || finale == "GG3" || finale == "I73" || finale == "FG3" || finale == "FC3" || finale == "OG3" || 
+                        finale == "N73" || finale == "I33" || finale == "N33" || finale == "N73" || finale == "OC3" || finale == "I53" || 
+                        finale == "FE3" || finale == "GB3" || finale == "FH3" || finale == "I83" || finale == "I33"
+
+                    )
+                        return finale ;
+                    else
+                        return undefined;
+                        
+                }
 
                 
                 
@@ -915,7 +1078,7 @@ function adjustRow(row,fornitore,files_json){
 
         
 
-       
+        
 
         return{
             supplier:               supplier,                           // nome del fornitore
@@ -932,12 +1095,15 @@ function adjustRow(row,fornitore,files_json){
             desc_en:                cleaned_desc_en,                    // la descrizione in inglese 
             dimmer:                 dimmer,                             // se ha il dimmer o meno
             led:                    led,                                // se ha il led o meno
-            switcher:               switcher,                           // se ha l'interruttore o meno
             halogen:                halogen,                            // se ha lampada alogena
+            screw:                  screw,                              // tipo di attacco
+            switcher:               switcher,                           // se ha l'interruttore o meno
             category:               category,                           // terra, tavolo, sospensione, soffitto, parete, montatura, kit, diffusore, set,
+            type:                   type,                               // tipo di lampada
+            size:                   size,                               // piuccola, media, grande,....
             outdoor:                outdoor,                            // se è da esterno o meno
             max_discount:           undefined,                          // massimo sconto applicabile
-            img:                    path,                               // array dei path delle immagini
+            path:                    path,                               // array dei path delle immagini
         }
 }
 
