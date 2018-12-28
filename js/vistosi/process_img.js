@@ -61,46 +61,46 @@ const files = FileHound.create()
 
         function getType(name){
             if(name.indexOf(" SP ") != -1 || name.indexOf(" SP-") != -1 || name.indexOf(" sp ") != -1 || name.indexOf(" SP.") != -1 || name.indexOf("-sp") != -1 || name.indexOf(" sosp") != -1){
-                return "sospensione";
+                return ["sospensione"];
             }
             else{
                 if(name.indexOf(" LT") != -1 || name.indexOf("-lt ") != -1){
-                    return "lettura";
+                    return ["lettura"];
                 }
                 else{
                     if(name.indexOf(" AP ") != -1 || name.indexOf(" ap ") != -1 || name.indexOf(" AP") != -1 || name.indexOf(" AP.") != -1 || name.indexOf(" Apl") != -1 || name.indexOf(" apl") != -1 || name.indexOf("-ap") != -1){
-                        return "applique";
+                        return ["applique"];
                     }
                     else{
                         if(name.indexOf(" PL ") != -1 || name.indexOf(" PL.") != -1 || name.indexOf("-PL-") != -1 || name.indexOf("plaf") != -1 || name.indexOf("-pl") != -1){
-                            return "plafone";
+                            return ["plafone"];
                         }
                         else{
                         if(name.indexOf(" PT ") != -1 || name.indexOf(" PT.") != -1 || name.indexOf("-pt-") != -1){
-                                return "piantana";
+                                return ["piantana"];
                             }
                             else{
                                 if(name.indexOf(" PP ") != -1 || name.indexOf(" PL-AP") != -1){
-                                    return "plafone/applique";
+                                    return ["plafone/applique"];
                                 }
                                 else{
                                     if(name.indexOf(" FA ") != -1 || name.indexOf("-fa ") != -1){
-                                        return "faretto";
+                                        return ["faretto"];
                                     }
                                     else{
                                         if(name.indexOf("PT-SP") != -1){
-                                            return "piantana/sospensione";
+                                            return ["piantana/sospensione"];
                                         }
                                         else{
                                             if(name.indexOf("AP-SP") != -1){
-                                                return "applique/sospensione";
+                                                return ["applique/sospensione"];
                                             }
                                             else{
                                                 if(name.indexOf("pl+tr") != -1){
-                                                    return "plafone/terra";
+                                                    return ["plafone/terra"];
                                                 }
                                                 else{
-                                                    return undefined;
+                                                    return ["altro"];
                                                 }
                                             }
                                         }

@@ -637,7 +637,7 @@ function adjustRow(row,fornitore,files_json){
                 outdoor = undefined;
                 max_discount = undefined;
 
-                path = getPath(row["Descrizione"],model, category);
+                path = getPath(model, type, color);
                 
 
 
@@ -892,12 +892,29 @@ function adjustRow(row,fornitore,files_json){
                     return 0;
                 }
 
-                function getPath(desc, model, category){
-                   _.each(files_json, function(file){
-                       if(file.model == model){
-                           _.log(file.path);
-                       }
-                   })
+                function getPath(model, type, color){
+                    model = model.toLowerCase();
+
+                    
+
+                    _.each(files_json, function(file){
+                        let file_model = file.model.toLowerCase();
+                        
+                        if(file_model == model){
+                            if(model == "aliki")
+                                _.log(count++);
+                                /*
+                                let type_intersection = _.intersection(file.type, type);
+                                let color_intersection = _.intersection(file.color, color);
+                                if(!_.isEmpty(type_intersection))
+                                    if(!_.isEmpty(color_intersection))
+                                        _.log(file.path)
+                                */
+                            
+                            
+                        }
+                    });
+                    
                 }
             
                 function getType(id){
@@ -908,55 +925,55 @@ function adjustRow(row,fornitore,files_json){
                         prefisso=="VT" || prefisso=="VZ" || prefisso=="VP" || prefisso=="VS" || prefisso=="VA" || prefisso=="VB" || prefisso=="VC" ||
                         prefisso=="VR" || prefisso=="VM" || prefisso=="VL" || prefisso=="VE" || prefisso=="VF" || prefisso=="VD"
                     )
-                        return "vetro"
+                        return ["vetro"];
                     else {
                         if (prefisso == "AP")
-                            return "applique";
+                            return ["applique"];
                         else {
                             if (prefisso == "SP")
-                                return "sospensione";
+                                return ["sospensione"];
                             else {
                                 if (prefisso == "FA")
-                                    return "faretto";
+                                    return ["faretto"];
                                 else {
                                     if (prefisso == "PT")
-                                        return "piantana";
+                                        return ["piantana"];
                                     else {
                                         if (prefisso == "PL")
-                                            return "plafone";
+                                            return ["plafone"];
                                         else {
                                             if (prefisso == "RO")
-                                                return "rosone";
+                                                return ["rosone"];
                                             else {
                                                 if (prefisso == "PP")
-                                                    return "plafone/applique";
+                                                    return ["plafone/applique"];
                                                 else {
                                                     if (prefisso == "LT")
-                                                        return "lettura";
+                                                        return ["lettura"];
                                                     else {
                                                         if (prefisso == "CV" || prefisso == "CA")
-                                                            return "cavo";
+                                                            return ["cavo"];
                                                         else {
                                                             if (prefisso == "FI") {
                                                                 if (prefisso3 == "FIS")
-                                                                    return "fischer"
+                                                                    return ["fischer"];
                                                                 else
-                                                                    return "vetro";
+                                                                    return ["vetro"];
                                                             }
                                                             else {
                                                                 if (prefisso == "BI") {
-                                                                    return "raccoglitore";
+                                                                    return ["raccoglitore"];
                                                                 }
                                                                 else {
                                                                     if (prefisso == "KI") {
-                                                                        return "kit";
+                                                                        return ["kit"];
                                                                     }
                                                                     else {
                                                                         if (prefisso == "SC") {
-                                                                            return "scatola";
+                                                                            return ["scatola"];
                                                                         }
                                                                         else {
-                                                                            return undefined;
+                                                                            return ["altro"];
                                                                         }
                                                                     }
                                                                 }
