@@ -130,7 +130,7 @@ function adjustRow(row,fornitore,files_json){
         var halogen = undefined;
         var screw = undefined;
         var switcher = undefined;
-        var category = undefined;
+        var category = undefined; // è un array di categorie, i possibili valori sono: terra | tavolo | parete | soffitto | sospensione | altro (nel caso di "altro" quando possibile viene anche specificato di cosa si tratta, tipo: kit, vetro....)
         var type = undefined;
         var size = undefined;
         var outdoor = undefined;
@@ -287,10 +287,6 @@ function adjustRow(row,fornitore,files_json){
                     return ["sospensione","tavolo"];
                 }
 
-
-
-
-
                 if( 
                     ( cleaned_desc_it.indexOf("terr") != -1 && cleaned_desc_en.indexOf("floor") != -1 ) ||
                     ( cleaned_desc_it.indexOf("lett") != -1 && cleaned_desc_en.indexOf("floor") != -1 ) ||
@@ -298,25 +294,25 @@ function adjustRow(row,fornitore,files_json){
                     ( cleaned_desc_it.indexOf("terra") != -1 ) 
                 
                 ){
-                    return "terra"
+                    return ["terra"];
                 }else{
                     if(
                         ( cleaned_desc_it.indexOf("sosp") != -1 && cleaned_desc_en.indexOf("hang") != -1  ) ||
                         ( cleaned_desc_it.indexOf("sosp") != -1 && cleaned_desc_en.indexOf("susp") != -1 )
                     ){
-                        return "sospensione"
+                        return ["sospensione"];
                     }else{
                         if(cleaned_desc_it.indexOf("pare") != -1 && cleaned_desc_en.indexOf("wall") != -1 ){
-                            return "parete"
+                            return ["parete"];
                         }else{
                             if(cleaned_desc_it.indexOf("soff") != -1 && cleaned_desc_en.indexOf("ceil") != -1 ){
-                                return "soffitto"
+                                return ["soffitto"]
                             }else{
                                 if(
                                     ( cleaned_desc_it.indexOf("tavo") != -1 && cleaned_desc_en.indexOf("tabl") != -1 ) ||
                                     ( cleaned_desc_it.indexOf("tav.") != -1 && cleaned_desc_en.indexOf("tab") != -1  )
                                 ){
-                                    return "tavolo"
+                                    return ["tavolo"]; 
                                 }else{
                                     
                                         /* ========== ALTRE CATEGORIE DIVERSE DA QUELLE PRINCIPALI */
@@ -324,23 +320,23 @@ function adjustRow(row,fornitore,files_json){
                                             ( cleaned_desc_it.indexOf("kit ") != -1 && cleaned_desc_en.indexOf("kit ") != -1 ) ||
                                             ( cleaned_desc_it.indexOf("set ") != -1 && cleaned_desc_en.indexOf("set ") != -1 )
                                         ){
-                                            return "kit"
+                                            return ["altro","kit"];
                                         }else{
                                             if( 
                                                 ( cleaned_desc_it.indexOf("diffu") != -1 && cleaned_desc_en.indexOf("diffu") != -1 ) ||
                                                 ( cleaned_desc_it.indexOf("vetr") != -1 && cleaned_desc_en.indexOf("glass") != -1 )
                                             ){
-                                                return "vetro"
+                                                return ["altro","vetro"]
                                             }else{
                                                 if( 
                                                     ( cleaned_desc_it.indexOf("diffu") != -1 && cleaned_desc_en.indexOf("diffu") != -1 ) ||
                                                     ( cleaned_desc_it.indexOf("vetr") != -1 && cleaned_desc_en.indexOf("glass") != -1 )
                                                 ){
-                                                    return "vetro"
+                                                    return ["altro","vetro"]
                                                 }else{
                                                     if(cleaned_desc_it.indexOf("lumie") != -1)
                                                         //_.log(cleaned_desc_it)
-                                                    return "altro"
+                                                    return ["altro"]
                                                 }
                                             }
                                         }
@@ -599,7 +595,7 @@ function adjustRow(row,fornitore,files_json){
                 var ret = undefined;
                 _.each(desc_arr,function(str){
                     if(str.length <= 3)
-                        _.log(str);
+                        ret = str;
                 });
 
                 if(ret == "e27" || ret == "e14" || ret == "g9"){
@@ -641,7 +637,7 @@ function adjustRow(row,fornitore,files_json){
                 outdoor = undefined;
                 max_discount = undefined;
 
-                path = getPath(row["Descrizione"]);
+                path = getPath(row["Descrizione"],model, category);
                 
 
 
@@ -676,36 +672,36 @@ function adjustRow(row,fornitore,files_json){
                     
 
                     if( indexOfInArray(desc_arr,"SOSP") != -1 ){
-                        return "sospensione";
+                        return ["sospensione"];
                     }
                     
                     else{
                         if( indexOfInArray(desc_arr,"TAVO") != -1 ){
-                            return "tavolo";
+                            return ["tavolo"];
                         }
                         
                         else{
                             if( indexOfInArray(desc_arr,"PLAFO") != -1 || indexOfInArray(desc_arr,"FARET") != -1 ){
-                                return "soffitto";
+                                return ["soffitto"];
                             }
                             
                             else{
                                 if( indexOfInArray(desc_arr,"APPLI") != -1 ){
-                                    return "parete";
+                                    return ["parete"];
                                 }
                                 
                                 else{
                                     if( indexOfInArray(desc_arr,"TERRA") != -1 ){
-                                        return "terra";
+                                        return ["terra"];
                                     }
                                     
                                     else{
                                         if( indexOfInArray(desc_arr,"PL/AP") != -1 ){
-                                            return "pl/ap";
+                                            return ["soffitto","parete"];
                                         }
                                         
                                         else{
-                                            return 0;
+                                            return ["altro"];
                                         }
                                     }
                                 }
@@ -896,8 +892,12 @@ function adjustRow(row,fornitore,files_json){
                     return 0;
                 }
 
-                function getPath(desc){
-
+                function getPath(desc, model, category){
+                   _.each(files_json, function(file){
+                       if(file.model == model){
+                           _.log(file.path);
+                       }
+                   })
                 }
             
                 function getType(id){

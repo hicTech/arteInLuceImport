@@ -28,6 +28,8 @@ const files = FileHound.create()
           let imgSize = stats.size;
           let type = getType(file_name);
           let size = getSize(file_name);
+          let color = getColor(file_name);
+          let model = getModel(file_id);
           
           if(!_.is(files_json[file_id])){
               files_json[file_id] = {
@@ -35,8 +37,10 @@ const files = FileHound.create()
                   id: file_id,
                   name: file_name,
                   imgSize: imgSize,
+                  model: model,
                   type: type,
                   size: size,
+                  color: color,
               }
           }else{
               if(imgSize > files_json[file_id].size){
@@ -45,8 +49,10 @@ const files = FileHound.create()
                     id: file_id,
                     name: file_name,
                     imgSize: imgSize,
+                    model: model,
                     type: type,
                     size: size,
+                    color: color,
                 }
               }
           }
@@ -128,9 +134,190 @@ const files = FileHound.create()
 
         }
 
+        function getColor(name){
+            let colors = [];
+            var str = name.toLowerCase();
+            
+            //  ripulisco la stringa da tutti i caratteri che non indicano colori e quindi potrebbero 
+            //  disturbare il recupero dei colori
+            str = str.substr(str.indexOf(" ")); // elimino la prima parola fino alla spazio (sarebbe il nome dell'articolo)
+
+            // se trova che iniziano per questi valori li elimina
+            if(str.indexOf("lt - ")==1)
+                str = str.replace("lt - ","");
+
+            if(str.indexOf("sp - ")==1)
+                str = str.replace("sp - ","");
+            
+            if(str.indexOf("pt - ")==1)
+                str = str.replace("pt - ","");
+
+            if(str.indexOf("pp - ")==1)
+                str = str.replace("pp - ","");
+            
+            if(str.indexOf("ap - ")==1)
+                str = str.replace("ap - ","");
+            
+            if(str.indexOf("pl - ")==1)
+                str = str.replace("pl - ","");
+
+
+            if(str.indexOf("lt ")==1)
+                str = str.replace("lt ","");
+
+            if(str.indexOf("sp ")==1)
+                str = str.replace("sp ","");
+            
+            if(str.indexOf("pt ")==1)
+                str = str.replace("pt ","");
+
+            if(str.indexOf("pp ")==1)
+                str = str.replace("pp ","");
+            
+            if(str.indexOf("ap ")==1)
+                str = str.replace("ap ","");
+            
+            if(str.indexOf("pl ")==1)
+                str = str.replace("pl ","");
+
+            // elimina tutte queste sossostringhe
+            str = S(str).replaceAll("copia","").replaceAll(".jpg","").replaceAll("apl","").replaceAll(" part","")
+                        .replaceAll("rev.","").replaceAll("rev","").replaceAll("led","").replaceAll("still","").replaceAll(" p ","")
+                        .replaceAll(" m ","").replaceAll(" p ","").replaceAll(" ap ","").replaceAll(" lt ","").replaceAll(" pl ","").replaceAll("grande","")
+                        .replaceAll("senza","").replaceAll("marmo","").replaceAll("parete","").replaceAll("istallo-particolare","").replaceAll("chiaro","")
+                        .replaceAll("apicolare","").replaceAll("apicolare","")
+                        .replaceAll(" g ","").s;
+
+            // elimino tutti i numeri
+            str = str.replace(/[0-9]/g, '');
+
+            
+
+            if(str.indexOf("bc") != -1){
+                for(var i=0; i< str.count("bc");i++)
+                    colors.push("bianco")
+            }
+            if(str.indexOf("white") != -1){
+                for(var i=0; i< str.count("white");i++)
+                    colors.push("bianco")
+            }
+            if(str.indexOf("bianca") != -1){
+                for(var i=0; i< str.count("bianca");i++)
+                    colors.push("bianca")
+            }
+            if(str.indexOf("sf") != -1){
+                for(var i=0; i< str.count("sf");i++)
+                    colors.push("sfumato")
+            }
+            if(str.indexOf("cr") != -1){
+                for(var i=0; i< str.count("cr");i++)
+                    colors.push("cromo")
+            }
+            if(str.indexOf("fu") != -1){
+                for(var i=0; i< str.count("fu");i++)
+                    colors.push("fume")
+            }
+            if(str.indexOf("amb") != -1){
+                for(var i=0; i< str.count("amb");i++)
+                    colors.push("ambra")
+            }
+            if(str.indexOf("am") != -1){
+                for(var i=0; i< str.count("am");i++)
+                    colors.push("ambra")
+            }
+            if(str.indexOf("to") != -1){
+                for(var i=0; i< str.count("to");i++)
+                    colors.push("topazio")
+            }
+            
+
+            if(str.indexOf("-ri") != -1 || str.indexOf(" ri ") != -1){
+                colors.push("rigato")
+            }
+
+            if(str.indexOf(" ne") != -1 || str.indexOf("-ne") != -1 || str.indexOf("ne") == 0){
+                colors.push("nero")
+            
+            }
+            if(str.indexOf(" or") != -1 ){
+                colors.push("oro")
+            }
+            if(str.indexOf(" gr") != -1 ){
+                colors.push("nero")
+            }
+            if(str.indexOf(" mc") != -1 ){
+                colors.push("multicolore")
+            }
+            if(str.indexOf(" ag") != -1 ){
+                colors.push("argento")
+            }
+            if(str.indexOf("-rs") != -1 ){
+                colors.push("rosa")
+            }
+            if(str.indexOf("-av") != -1 ){
+                colors.push("avorio")
+            }
+            if(str.indexOf(" se ") != -1 || str.indexOf("  se") != -1 ){
+                colors.push("seta")
+            }
+            if(str.indexOf("tabacco") != -1 ){
+                colors.push("tabacco")
+            }
+            if(str.indexOf("sabbia") != -1 ){
+                colors.push("sabbia")
+            }
+            if(str.indexOf("sb") != -1 ){
+                colors.push("sabbia")
+            }
+            if(str.indexOf("satin") != -1 ){
+                colors.push("satinato")
+            }
+            if(str.indexOf("lucido") != -1 ){
+                colors.push("lucido")
+            }
+            if(str.indexOf("-cm") != -1 ){
+                colors.push("metallizzato")
+            }
+            if(str.indexOf("fl") != -1 ){
+                colors.push("florescente")
+            }
+            if(str.indexOf("sp") != -1 ){
+                colors.push("specchiato")
+            }
+            if(str.indexOf("ar") != -1 ){
+                if(str.indexOf("arancio") != -1 ){
+                    colors.push("arancio")
+                }
+                else{
+                    if(str.indexOf(" ar") != -1 ){
+                        colors.push("arancio")
+                    }
+                }
+            }
+            
+
+            
+
+            return colors;
+        }
+
+        function getModel(file_id){
+            return S(file_id).substr(0,file_id.indexOf("_")).s;
+        }    
+            
+            
+            
+        
+
         fs.writeFile('files_json.json', JSON.stringify(files_json), 'utf8', function(){
             //_.log("FINITO");
         });
 
        
   }
+
+
+
+String.prototype.count=function(s1) { 
+    return (this.length - this.replace(new RegExp(s1,"g"), '').length) / s1.length;
+}
