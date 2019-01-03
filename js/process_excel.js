@@ -130,8 +130,8 @@ function adjustRow(row,fornitore,files_json){
         var halogen = undefined;
         var screw = undefined;
         var switcher = undefined;
-        var category = undefined; // è un array di categorie, i possibili valori sono: terra | tavolo | parete | soffitto | sospensione | altro (nel caso di "altro" quando possibile viene anche specificato di cosa si tratta, tipo: kit, vetro....)
-        var type = undefined;
+        var category = undefined;   // è un array di categorie, i possibili valori sono: terra | tavolo | parete | soffitto | sospensione | altro (nel caso di "altro" quando possibile viene anche specificato di cosa si tratta, tipo: kit, vetro....)
+        var type = undefined;       // è un valore unico ovvero una stringa
         var size = undefined;
         var outdoor = undefined;
         var max_discount = undefined;
@@ -637,7 +637,8 @@ function adjustRow(row,fornitore,files_json){
                 outdoor = undefined;
                 max_discount = undefined;
 
-                path = getPath(model, type, color);
+
+                path = getPath(model, size, category, type, color);
                 
 
 
@@ -892,29 +893,99 @@ function adjustRow(row,fornitore,files_json){
                     return 0;
                 }
 
-                function getPath(model, type, color){
+                function getPath(model){
                     model = model.toLowerCase();
-
-                    
-
+                    var ret = [];
+                        
                     _.each(files_json, function(file){
                         let file_model = file.model.toLowerCase();
-                        
-                        if(file_model == model){
-                            if(model == "aliki")
-                                _.log(count++);
-                                /*
-                                let type_intersection = _.intersection(file.type, type);
-                                let color_intersection = _.intersection(file.color, color);
-                                if(!_.isEmpty(type_intersection))
-                                    if(!_.isEmpty(color_intersection))
-                                        _.log(file.path)
-                                */
-                            
-                            
+                
+                        // confronto il modello
+                        if( file_model.substr(0,4) == model.substr(0,4) ){
+                            ret.push(file);
                         }
                     });
+
                     
+                    let ret_scremato = screma(ret,model,size,category,type,color);
+
+                    
+                    return ret_scremato;                    
+                }
+
+                function screma(ret,model,size,category,type,color){
+                    if(ret.length == 1)
+                        return ret;
+
+                    // screma per categoria
+                    var ret_scremato_per_category = _.filter(ret,function(elem){
+                                                        if(_.is(elem.category) && _.is(category)){
+                                                            //if(model == "aurora" && _.intersection(elem.category,category).length == 0)
+                                                                //_.log(elem.category+" - "+category)
+                                                            return _.intersection(elem.category,category).length > 0;
+                                                        }
+                                                        else{
+                                                            return true;
+                                                        }
+                                                    });
+                        if(ret_scremato_per_category.length == 1){
+                            return ret_scremato_per_category;
+                        }
+                        else{
+
+
+                            
+                            
+
+
+
+
+
+                            // scremo per tipo
+                            var ret_scremato_per_type =  _.filter(ret_scremato_per_category,function(elem){
+                                                    if(_.is(elem.type) && _.is(type)){
+                                                        return elem.type == type;
+                                                    }
+                                                    else{
+                                                        
+                                                        return true;
+                                                    }
+                                                        
+                                                });
+                            if(ret_scremato_per_type.length == 1)
+                                return ret_scremato_per_type;
+                            else{
+                                
+                                
+                                
+
+                                // scremo per size
+                                var ret_scremato_per_size =  _.filter(ret_scremato_per_type,function(elem){
+                                    if(_.is(elem.size) && _.is(size))
+                                        return _.isEqual(elem.size,size);
+                                    else
+                                        return true;
+                                });
+                                if(ret_scremato_per_size.length == 1)
+                                    return ret_scremato_per_size;
+                                else{
+
+                                    //_.log(ret_scremato_per_type.length);
+                                    return ret_scremato_per_type;
+                                    
+
+                                }
+                                
+                                
+
+                            }
+
+
+
+
+                        }
+                            
+                
                 }
             
                 function getType(id){
@@ -1105,25 +1176,38 @@ function adjustRow(row,fornitore,files_json){
             original_item_id:       original_item_id,                   // id originario (NON MANIPOLATO) dell'articolo
             item_id:                item_id,                            // l'id originario manipolato
             hicId:                  hicId,                              // identificativo interno ottenuto come supplier_id + item_id
-            ean13:                  ean13,                              // codice a barre
-            price:                  price,                              // imponibile
+            //ean13:                  ean13,                              // codice a barre
+            //price:                  price,                              // imponibile
             color:                  color,                              // prova a recuperare il colore dall'id
-            desc_it:                cleaned_desc_it,                    // la descrizione in italiano
-            desc_en:                cleaned_desc_en,                    // la descrizione in inglese 
-            dimmer:                 dimmer,                             // se ha il dimmer o meno
-            led:                    led,                                // se ha il led o meno
-            halogen:                halogen,                            // se ha lampada alogena
-            screw:                  screw,                              // tipo di attacco
-            switcher:               switcher,                           // se ha l'interruttore o meno
+            //desc_it:                cleaned_desc_it,                    // la descrizione in italiano
+            //desc_en:                cleaned_desc_en,                    // la descrizione in inglese 
+            //dimmer:                 dimmer,                             // se ha il dimmer o meno
+            //led:                    led,                                // se ha il led o meno
+            //halogen:                halogen,                            // se ha lampada alogena
+            //screw:                  screw,                              // tipo di attacco
+            //switcher:               switcher,                           // se ha l'interruttore o meno
             category:               category,                           // terra, tavolo, sospensione, soffitto, parete, montatura, kit, diffusore, set,
             type:                   type,                               // tipo di lampada
             size:                   size,                               // piuccola, media, grande,....
-            outdoor:                outdoor,                            // se è da esterno o meno
-            max_discount:           undefined,                          // massimo sconto applicabile
-            path:                    path,                               // array dei path delle immagini
+            //outdoor:                outdoor,                            // se è da esterno o meno
+            //max_discount:           undefined,                          // massimo sconto applicabile
+
+
+            path_length : (_.is(path))? path.length : "-",
+            files : (_.is(path))? stampaNomiFile(path) : "-",
+
+
+            //path:                    path,                              // array dei path delle immagini
         }
 }
 
+function stampaNomiFile(arr){
+    var ret = "";
+    _.each(arr,function(elem){
+        ret+= elem.id+", ";
+    })
+    return ret;
+}
 
 /* ================================================================= GLOBALI */
 

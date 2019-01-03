@@ -20,6 +20,12 @@ const files = FileHound.create()
         _.each(files,function(file){
           let file_name = file.substr(file.lastIndexOf("/")+1);
           let file_id = S(file_name).replaceAll(" ","_").s;
+
+          //alcuni file hanno un capia che ha nel nodme copia.jpg
+          file_id = file_id.replace("_copia.jpg",".jpg");
+
+
+          
           
           // siccome ho visto che ci sono doppioni, ovvero foto col medesimo nome,
           // costruisco un oggetto files_json nel quale elimino i doppioni
@@ -30,6 +36,8 @@ const files = FileHound.create()
           let size = getSize(file_name);
           let color = getColor(file_name);
           let model = getModel(file_id);
+          let led = hasLed(file_id);
+          let category = getCategory(type);
           
           if(!_.is(files_json[file_id])){
               files_json[file_id] = {
@@ -39,8 +47,10 @@ const files = FileHound.create()
                   imgSize: imgSize,
                   model: model,
                   type: type,
+                  category: category,
                   size: size,
                   color: color,
+                  led: led,
               }
           }else{
               if(imgSize > files_json[file_id].size){
@@ -51,8 +61,10 @@ const files = FileHound.create()
                     imgSize: imgSize,
                     model: model,
                     type: type,
+                    category: category,
                     size: size,
                     color: color,
+                    led: led,
                 }
               }
           }
@@ -60,52 +72,52 @@ const files = FileHound.create()
         });
 
         function getType(name){
+
+            if(name.indexOf(" PP ") != -1 || name.indexOf(" PL-AP") != -1 || name.indexOf("PL+AP") != -1 || name.indexOf("PL AP") != -1){
+                return "plafone/applique";
+            }
+            if(name.indexOf("PT-SP") != -1){
+                return "piantana/sospensione";
+            }
+            if(name.indexOf("AP-SP") != -1){
+                return "applique/sospensione";
+            }
+            if(name.indexOf("pl+tr") != -1){
+                return "plafone/terra";
+            }
+
             if(name.indexOf(" SP ") != -1 || name.indexOf(" SP-") != -1 || name.indexOf(" sp ") != -1 || name.indexOf(" SP.") != -1 || name.indexOf("-sp") != -1 || name.indexOf(" sosp") != -1){
-                return ["sospensione"];
+                return "sospensione";
             }
             else{
                 if(name.indexOf(" LT") != -1 || name.indexOf("-lt ") != -1){
-                    return ["lettura"];
+                    return "lettura";
                 }
                 else{
                     if(name.indexOf(" AP ") != -1 || name.indexOf(" ap ") != -1 || name.indexOf(" AP") != -1 || name.indexOf(" AP.") != -1 || name.indexOf(" Apl") != -1 || name.indexOf(" apl") != -1 || name.indexOf("-ap") != -1){
-                        return ["applique"];
+                        return "applique";
                     }
                     else{
                         if(name.indexOf(" PL ") != -1 || name.indexOf(" PL.") != -1 || name.indexOf("-PL-") != -1 || name.indexOf("plaf") != -1 || name.indexOf("-pl") != -1){
-                            return ["plafone"];
+                            return "plafone";
                         }
                         else{
                         if(name.indexOf(" PT ") != -1 || name.indexOf(" PT.") != -1 || name.indexOf("-pt-") != -1){
-                                return ["piantana"];
+                                return "piantana";
                             }
                             else{
-                                if(name.indexOf(" PP ") != -1 || name.indexOf(" PL-AP") != -1){
-                                    return ["plafone/applique"];
-                                }
-                                else{
+                                
+                                
                                     if(name.indexOf(" FA ") != -1 || name.indexOf("-fa ") != -1){
-                                        return ["faretto"];
+                                        return "faretto";
                                     }
-                                    else{
-                                        if(name.indexOf("PT-SP") != -1){
-                                            return ["piantana/sospensione"];
-                                        }
-                                        else{
-                                            if(name.indexOf("AP-SP") != -1){
-                                                return ["applique/sospensione"];
-                                            }
-                                            else{
-                                                if(name.indexOf("pl+tr") != -1){
-                                                    return ["plafone/terra"];
-                                                }
+                  
+                                                
                                                 else{
-                                                    return ["altro"];
+                                                    return undefined;
                                                 }
-                                            }
-                                        }
-                                    }
-                                }
+                                            
+                                
                             }
                         }
                     }
@@ -115,14 +127,38 @@ const files = FileHound.create()
             
         }
 
+        function getCategory(type){
+            if(type=="sospensione")
+                return ["sospensione"];
+            if(type=="lettura")
+                return ["tavolo"];
+            if(type=="applique")
+                return ["parete"];
+            if(type=="plafone")
+                return ["soffitto"];
+            if(type=="piantana")
+                return ["terra"];
+
+            if(type=="plafone/applique" || type =="applique/sospensione")
+                return ["soffitto","parete"];
+            if(type=="faretto")
+                return ["soffitto","parete"];
+            if(type=="piantana/sospensione")
+                return ["terra","sospensione"];
+            if(type=="plafone/terra")
+                return ["soffitto","terra"];
+            else
+                return undefined;
+        }
+
         function getSize(name){
-            if( name.indexOf(" G ") != -1 )
+            if( name.indexOf(" G ") != -1 || name.indexOf("grande") != -1 )
                 return "grande";
             else{
-                if( name.indexOf(" P ") != -1 )
+                if( name.indexOf(" P ") != -1 || name.indexOf("piccola") != -1)
                     return "piccola"
                 else{
-                    if( name.indexOf(" M ") != -1 )
+                    if( name.indexOf(" M ") != -1 || name.indexOf("media") != -1 )
                         return "media"
                     else{
                        return undefined;
@@ -251,9 +287,8 @@ const files = FileHound.create()
             if(str.indexOf(" ag") != -1 ){
                 colors.push("argento")
             }
-            if(str.indexOf("-rs") != -1 ){
-                colors.push("rosa")
-            }
+            
+            
             if(str.indexOf("-av") != -1 ){
                 colors.push("avorio")
             }
@@ -302,14 +337,30 @@ const files = FileHound.create()
         }
 
         function getModel(file_id){
-            return S(file_id).substr(0,file_id.indexOf("_")).s;
-        }    
+            var index = 0;
+            for(var i=0;i<file_id.length;i++){
+                if(file_id[i] != "_" && file_id[i] != "-")
+                    index++;
+                else
+                    break;
+            }
+            
+            return S(file_id).substr(0,index).s.toLowerCase();
+            
+        } 
+        
+        function hasLed(file_id){
+            if(file_id.indexOf("led") != -1)
+                return 1;
+            return 0;
+
+        }
             
             
-            
+        //_.log(_.keys(files_json).length)
         
 
-        fs.writeFile('files_json.json', JSON.stringify(files_json), 'utf8', function(){
+        fs.writeFile('files_json.json', JSON.stringify(files_json, null, 4), 'utf8', function(){
             //_.log("FINITO");
         });
 

@@ -72745,3 +72745,6 @@
 17:33:44: 317
 17:33:44: 318
 17:33:44: 319
+19:16:53: /usr/local/bin/node,/Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/createExcel.js
+19:17:41: foscarini
+19:18:27: ouuuu
