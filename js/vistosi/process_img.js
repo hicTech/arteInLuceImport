@@ -38,6 +38,7 @@ const files = FileHound.create()
           let model = getModel(file_id);
           let led = hasLed(file_id);
           let category = getCategory(type);
+          let more = getMore(file_id,model)
           
           if(!_.is(files_json[file_id])){
               files_json[file_id] = {
@@ -51,6 +52,8 @@ const files = FileHound.create()
                   size: size,
                   color: color,
                   led: led,
+                  more : more,
+                  
               }
           }else{
               if(imgSize > files_json[file_id].size){
@@ -65,6 +68,7 @@ const files = FileHound.create()
                     size: size,
                     color: color,
                     led: led,
+                    more, more,
                 }
               }
           }
@@ -354,6 +358,60 @@ const files = FileHound.create()
                 return 1;
             return 0;
 
+        }
+
+        function getMore(file_id,model){
+            file_id = file_id.replace(".jpg","").replace(model.toUpperCase()+"_","");
+            var file_id_arr = file_id.split("_");
+
+           // _.log(file_id_arr)
+            
+            var d = undefined;
+
+            for(var i=0; i<file_id_arr.length;i++){
+                if( _.is(getD(file_id_arr[i])) ){
+                    d = getD(file_id_arr[i]);
+                }
+            }
+
+            var screw = undefined;
+
+            for(var i=0; i<file_id_arr.length;i++){
+                var val = file_id_arr[i];
+                if( val.indexOf("E27") != -1){
+                    screw = "e27";
+                    break;
+                }
+                if( val.indexOf("G9") != -1){
+                    screw = "g9";
+                    break;
+                }
+                if( val.indexOf("GA3") != -1){
+                    screw = "ga3";
+                    break;
+                }
+            }
+
+
+            function getD(str){
+                if(str.indexOf("D1") != -1 )
+                    return "d1";
+                if(str.indexOf("D2") != -1)
+                    return "d2";
+                if(str.indexOf("D3") != -1)
+                    return "d3";
+                if(str.indexOf("D4") != -1)
+                    return "d4";
+                if(str.indexOf("D5") != -1)
+                    return "d5";
+                return undefined
+            }
+
+            return {
+                d : d,
+                screw: screw,
+            };
+            
         }
             
             

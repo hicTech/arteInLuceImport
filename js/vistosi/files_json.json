@@ -10,7 +10,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "24PEARLS_SP_K2_G9.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/24PEARLS SP K2 G9 copia.jpg",
@@ -23,7 +24,10 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {
+            "screw": "g9"
+        }
     },
     "24PEARLS_SP.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/24PEARLS SP copia.jpg",
@@ -36,7 +40,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ALEGA_LT_amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ALEGA LT amb copia.jpg",
@@ -52,7 +57,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ALEGA_LT.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ALEGA LT copia.jpg",
@@ -65,7 +71,8 @@
             "tavolo"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ALIKI_AP_2_BC_amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ALIKI AP 2 BC amb copia.jpg",
@@ -82,7 +89,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ALMA_AP_bco.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ALMA AP bco copia.jpg",
@@ -97,7 +105,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ALMA_SP_BC_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ALMA SP BC part copia.jpg",
@@ -112,7 +121,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ALMA_SP.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ALMA SP copia.jpg",
@@ -125,7 +135,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ALUM_AP_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ALUM AP rev. 1 copia.jpg",
@@ -138,7 +149,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ALUM_SP_D2_2009_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ALUM SP D2 2009 rev. 1 copia.jpg",
@@ -151,7 +163,10 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {
+            "d": "d2"
+        }
     },
     "ALUM_09_AP_rev.1_.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ALUM_09 AP rev.1  copia.jpg",
@@ -164,7 +179,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ALUM_09_PL_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ALUM_09 PL rev. 1 copia.jpg",
@@ -177,7 +193,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ALUM_09_SP.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ALUM_09 SP copia.jpg",
@@ -190,7 +207,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ASSIBA_AP_DX_BC-BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ASSIBA AP DX BC-BC copia.jpg",
@@ -206,7 +224,8 @@
             "bianco",
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ASSIBA_AP_SX_BC-CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ASSIBA AP SX BC-CR copia.jpg",
@@ -222,7 +241,8 @@
             "bianco",
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ASSIBA_LT_BC-AL.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ASSIBA LT BC-AL copia.jpg",
@@ -237,7 +257,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ASSIBA_PL_MIX_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ASSIBA PL MIX rev. 1 copia.jpg",
@@ -250,7 +271,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ASSIBA_SP_6_BC-BC_still.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ASSIBA SP 6 BC-BC still copia.jpg",
@@ -266,7 +288,8 @@
             "bianco",
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ASSIBA_SP_6_CR-CR_still.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ASSIBA SP 6 CR-CR still copia.jpg",
@@ -282,7 +305,8 @@
             "cromo",
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ASSIBA_SP_6_MC_2013.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ASSIBA SP 6 MC 2013 copia.jpg",
@@ -297,7 +321,8 @@
         "color": [
             "multicolore"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ASSIBA_SX_BC-BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ASSIBA SX BC-BC copia.jpg",
@@ -309,7 +334,8 @@
             "bianco",
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ASSIBA_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ASSIBA part copia.jpg",
@@ -318,7 +344,8 @@
         "imgSize": 7089847,
         "model": "assiba",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "AUREA_SP_24.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/AUREA SP 24 copia.jpg",
@@ -331,7 +358,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "AUREA_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/AUREA part copia.jpg",
@@ -340,7 +368,8 @@
         "imgSize": 2551887,
         "model": "aurea",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Accademia_AP-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Accademia AP-amb copia.jpg",
@@ -356,7 +385,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Accademia_Apl3F-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Accademia Apl3F-amb copia.jpg",
@@ -372,7 +402,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Aliki_SP_amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Aliki SP amb copia.jpg",
@@ -388,7 +419,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Aliki_sosp_led_grande.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Aliki sosp led grande copia.jpg",
@@ -404,7 +436,8 @@
         "color": [
             "specchiato"
         ],
-        "led": 1
+        "led": 1,
+        "more": {}
     },
     "Aliki_sosp_led_piccola.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Aliki sosp led piccola copia.jpg",
@@ -420,7 +453,8 @@
         "color": [
             "specchiato"
         ],
-        "led": 1
+        "led": 1,
+        "more": {}
     },
     "Aurora_PL_AP_amb_rev1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Aurora PL AP amb_rev1 copia.jpg",
@@ -437,7 +471,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Aurora_PL_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Aurora PL part copia.jpg",
@@ -450,7 +485,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Aurora_sospGR+MD.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Aurora sospGR+MD copia.jpg",
@@ -465,7 +501,8 @@
         "color": [
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Aurora_sospPC_rev1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Aurora sospPC_rev1 copia.jpg",
@@ -480,7 +517,8 @@
         "color": [
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "BACONA_AP_4_FB_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/BACONA AP 4 FB rev_1 copia.jpg",
@@ -493,7 +531,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "BALANCE_AP_G-M-P.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/BALANCE AP G-M-P copia.jpg",
@@ -506,7 +545,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "BALANCE_PL_G_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/BALANCE PL G rev. 1 copia.jpg",
@@ -520,7 +560,8 @@
         ],
         "size": "grande",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "BALANCE_PL_part_2013.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/BALANCE PL part 2013 copia.jpg",
@@ -533,7 +574,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "BALANCE_SP_G-P_BC_still_rev._3.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/BALANCE SP G-P BC still rev. 3 copia.jpg",
@@ -548,7 +590,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "BAUTA_SP_CR_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/BAUTA SP CR rev_1 copia.jpg",
@@ -563,7 +606,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "BIANCA_PL+AP_ex_Bianca_PL_bianca.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/BIANCA PL+AP ex Bianca PL bianca copia.jpg",
@@ -580,7 +624,8 @@
             "bianca",
             "bianca"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "BISSA_LT_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/BISSA LT part copia.jpg",
@@ -593,7 +638,8 @@
             "tavolo"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "BISSA-BISSONA_LT.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/BISSA-BISSONA LT copia.jpg",
@@ -606,7 +652,8 @@
             "tavolo"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "BOLLE_SP_45-35_BC_rev._2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/BOLLE SP 45-35 BC rev. 2 copia.jpg",
@@ -621,7 +668,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "BOLLE_SP_45-35-25-16_CR_still_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/BOLLE SP 45-35-25-16 CR still rev. 1 copia.jpg",
@@ -636,7 +684,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "BOLLE_SP_P_-_PL_G_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/BOLLE SP P - PL G CR copia.jpg",
@@ -652,7 +701,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "BOREALE_PL.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/BOREALE PL copia.jpg",
@@ -665,7 +715,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "BOREALE_SP.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/BOREALE SP copia.jpg",
@@ -678,7 +729,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "BOT_LT35-LT16-PL45-FA16.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/BOT LT35-LT16-PL45-FA16 copia.jpg",
@@ -691,7 +743,8 @@
             "tavolo"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "BOT_SP_35_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/BOT SP 35 BC copia.jpg",
@@ -706,7 +759,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "BOT_SP_mix_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/BOT SP mix rev. 1 copia.jpg",
@@ -719,7 +773,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Bianca_E27.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Bianca E27 copia.jpg",
@@ -728,7 +783,10 @@
         "imgSize": 2040544,
         "model": "bianca",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {
+            "screw": "e27"
+        }
     },
     "Bianca_SP_60_amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Bianca SP 60 amb copia.jpg",
@@ -744,7 +802,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Bianca_fluorescenza02.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Bianca fluorescenza02 copia.jpg",
@@ -755,7 +814,8 @@
         "color": [
             "florescente"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Bianca_led01.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Bianca led01 copia.jpg",
@@ -764,7 +824,8 @@
         "imgSize": 2067138,
         "model": "bianca",
         "color": [],
-        "led": 1
+        "led": 1,
+        "more": {}
     },
     "Bianca_led02.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Bianca led02 copia.jpg",
@@ -773,7 +834,8 @@
         "imgSize": 1963245,
         "model": "bianca",
         "color": [],
-        "led": 1
+        "led": 1,
+        "more": {}
     },
     "Bianca_sosp_led.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Bianca sosp led copia.jpg",
@@ -788,7 +850,8 @@
         "color": [
             "specchiato"
         ],
-        "led": 1
+        "led": 1,
+        "more": {}
     },
     "Boccia_apl31.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Boccia apl31 copia.jpg",
@@ -801,7 +864,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CANDELA_SP.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/CANDELA SP copia.jpg",
@@ -814,7 +878,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CHEOPE_SP_D2_ORO.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/CHEOPE SP D2 ORO copia.jpg",
@@ -829,7 +894,10 @@
         "color": [
             "oro"
         ],
-        "led": 0
+        "led": 0,
+        "more": {
+            "d": "d2"
+        }
     },
     "CHIMERA_AP_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/CHIMERA AP CR copia.jpg",
@@ -844,7 +912,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CHIMERA_SP_P_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/CHIMERA SP P CR copia.jpg",
@@ -860,7 +929,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CHIMERA_09_LT.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/CHIMERA_09 LT copia.jpg",
@@ -873,7 +943,8 @@
             "tavolo"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CILD_AP_BC-CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/CILD AP BC-CR copia.jpg",
@@ -889,7 +960,8 @@
             "bianco",
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CIONDO_AP_G.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/CIONDO AP G copia.jpg",
@@ -903,7 +975,8 @@
         ],
         "size": "grande",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CIONDO_SP_MIX_still.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/CIONDO SP MIX still copia.jpg",
@@ -916,7 +989,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CLEO_AP_G-P_BC_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/CLEO AP G-P BC_rev 1 copia.jpg",
@@ -931,7 +1005,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CLEO_BC-AV_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/CLEO BC-AV part copia.jpg",
@@ -943,7 +1018,8 @@
             "bianco",
             "avorio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CLEO_SP_BC_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/CLEO SP BC part copia.jpg",
@@ -958,7 +1034,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CLEO_SP_BC-AV_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/CLEO SP BC-AV part copia.jpg",
@@ -974,7 +1051,8 @@
             "bianco",
             "avorio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CLEO_SP_G-P_BC_e_BC-AV.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/CLEO SP G-P BC e BC-AV copia.jpg",
@@ -991,7 +1069,8 @@
             "bianco",
             "avorio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CLOTH_LT_G_BC_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/CLOTH LT G BC rev. 1 copia.jpg",
@@ -1007,7 +1086,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CLOTH_PT_G_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/CLOTH PT G BC copia.jpg",
@@ -1023,7 +1103,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CLOTH_SP_G_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/CLOTH SP G BC copia.jpg",
@@ -1039,7 +1120,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CLOTH_SP_G_OFF_part_rev_2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/CLOTH SP G OFF part rev 2 copia.jpg",
@@ -1053,7 +1135,8 @@
         ],
         "size": "grande",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CLOTH_SP_G_ON_part_rev_2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/CLOTH SP G ON part rev 2 copia.jpg",
@@ -1067,7 +1150,8 @@
         ],
         "size": "grande",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "COCUMIS_AP_GR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/COCUMIS AP GR copia.jpg",
@@ -1082,7 +1166,8 @@
         "color": [
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CORNER_AP_bco.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/CORNER AP bco copia.jpg",
@@ -1097,7 +1182,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Corner_apl_3colori.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Corner apl 3colori copia.jpg",
@@ -1110,7 +1196,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Corner_apl_lucido_ambra.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Corner apl lucido ambra copia.jpg",
@@ -1127,7 +1214,8 @@
             "ambra",
             "lucido"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Corner_apl_lucido_arancio_bruciato.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Corner apl lucido arancio bruciato copia.jpg",
@@ -1144,7 +1232,8 @@
             "lucido",
             "arancio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Corner_apl_lucido_grigio.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Corner apl lucido grigio copia.jpg",
@@ -1160,7 +1249,8 @@
             "nero",
             "lucido"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Corner_apl_lucido_sabbia.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Corner apl lucido sabbia copia.jpg",
@@ -1176,7 +1266,8 @@
             "sabbia",
             "lucido"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Corner_apl_lucido_tabacco.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Corner apl lucido tabacco copia.jpg",
@@ -1192,7 +1283,8 @@
             "tabacco",
             "lucido"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DAFNE_AP_amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DAFNE AP amb copia.jpg",
@@ -1208,7 +1300,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DAMASCO_AP_C_NE.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DAMASCO AP C NE copia.jpg",
@@ -1223,7 +1316,8 @@
         "color": [
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DAMASCO_AP_P_1B_BCO_-_AP_P_2B_NE.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DAMASCO AP P 1B BCO - AP P 2B NE copia.jpg",
@@ -1240,7 +1334,8 @@
             "bianco",
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DAMASCO_BC_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DAMASCO BC part copia.jpg",
@@ -1251,7 +1346,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DAMASCO_BC_part._sotto.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DAMASCO BC part. sotto copia.jpg",
@@ -1263,7 +1359,8 @@
             "bianco",
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DAMASCO_PT_G_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DAMASCO PT G CR copia.jpg",
@@ -1279,7 +1376,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DAMASCO_SP_6_P_CR_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DAMASCO SP 6 P CR rev. 1 copia.jpg",
@@ -1295,7 +1393,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DAMASCO_SP_C_cascata.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DAMASCO SP C cascata copia.jpg",
@@ -1308,7 +1407,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DAMASCO_SP_G_BC_-_LT30-LTP_TO.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DAMASCO SP G BC - LT30-LTP TO copia.jpg",
@@ -1325,7 +1425,8 @@
             "bianco",
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DAMASCO_SP_G-M-P-C_CR_still_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DAMASCO SP G-M-P-C CR still rev. 1 copia.jpg",
@@ -1340,7 +1441,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DIADEMA_AP_FL_CR_OK.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DIADEMA AP FL CR OK copia.jpg",
@@ -1356,7 +1458,8 @@
             "cromo",
             "florescente"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DIADEMA_AP_G9_CR-TO.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DIADEMA AP G9 CR-TO copia.jpg",
@@ -1372,7 +1475,10 @@
             "cromo",
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {
+            "screw": "g9"
+        }
     },
     "DIADEMA_AP_K1_TO.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DIADEMA AP K1 TO copia.jpg",
@@ -1387,7 +1493,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DIADEMA_FA_G9_CR_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DIADEMA FA G9 CR rev. 1 copia.jpg",
@@ -1403,7 +1510,10 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {
+            "screw": "g9"
+        }
     },
     "DIADEMA_PL_80_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DIADEMA PL 80 CR copia.jpg",
@@ -1418,7 +1528,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DIADEMA_SP_C1_TO_2fCR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DIADEMA SP C1 TO_2fCR copia.jpg",
@@ -1434,7 +1545,8 @@
             "cromo",
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DIADEMA_SP_O1_TO_2fCR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DIADEMA SP O1 TO_2fCR copia.jpg",
@@ -1450,7 +1562,8 @@
             "cromo",
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DIAMANTE_AP_-_AP_K_TO_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DIAMANTE AP - AP K TO rev. 1 copia.jpg",
@@ -1465,7 +1578,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DIAMANTE_PL_36_TO_part_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DIAMANTE PL 36 TO part_rev 1 copia.jpg",
@@ -1480,7 +1594,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DIAMANTE_SP_50_CR_part_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DIAMANTE SP 50 CR part_rev 1 copia.jpg",
@@ -1495,7 +1610,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DIAMANTE_SP_50_CR_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DIAMANTE SP 50 CR_rev 1 copia.jpg",
@@ -1510,7 +1626,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DIAMANTE_SP_CR_MIX_still.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DIAMANTE SP CR MIX still copia.jpg",
@@ -1525,7 +1642,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DIAMANTE_SP_G-P_TO.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DIAMANTE SP G-P TO copia.jpg",
@@ -1540,7 +1658,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DODO_PL_AP_amb_rev._2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DODO PL AP amb rev. 2 copia.jpg",
@@ -1557,7 +1676,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DOS_AP_BCO.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DOS AP BCO copia.jpg",
@@ -1572,7 +1692,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DOS_AP_G-P_NE_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DOS AP G-P NE rev_1 copia.jpg",
@@ -1587,7 +1708,8 @@
         "color": [
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DOS_SP_R_NE_sx_rev_1_libri_specchiati.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DOS SP R NE sx rev_1 libri specchiati copia.jpg",
@@ -1603,7 +1725,8 @@
             "nero",
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DRESS_AP_bco.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DRESS AP bco copia.jpg",
@@ -1618,7 +1741,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DRESS_PL_G_+_P_bco.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DRESS PL G + P bco copia.jpg",
@@ -1634,7 +1758,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DRESS_SP_G_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DRESS SP G BC copia.jpg",
@@ -1650,7 +1775,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DRESS_SP_G_vers._2006.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DRESS SP G vers. 2006 copia.jpg",
@@ -1664,7 +1790,8 @@
         ],
         "size": "grande",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DRESS_SP_P_ne_part_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/DRESS SP P ne part rev 1 copia.jpg",
@@ -1680,7 +1807,8 @@
         "color": [
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Dafne_Apl_lucido-R7s.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Dafne Apl lucido-R7s copia.jpg",
@@ -1695,7 +1823,8 @@
         "color": [
             "lucido"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Dafne_Apl_lucido-R7s-_ambra.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Dafne Apl lucido-R7s- ambra copia.jpg",
@@ -1712,7 +1841,8 @@
             "ambra",
             "lucido"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Dafne_Apl_lucido-R7s-_arancio_bruciato.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Dafne Apl lucido-R7s- arancio bruciato copia.jpg",
@@ -1729,7 +1859,8 @@
             "lucido",
             "arancio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Dafne_Apl_lucido-R7s-_tabacco.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Dafne Apl lucido-R7s- tabacco copia.jpg",
@@ -1745,7 +1876,8 @@
             "tabacco",
             "lucido"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Dafne_Apl_lucido-R7s-grigio.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Dafne Apl lucido-R7s-grigio copia.jpg",
@@ -1760,7 +1892,8 @@
         "color": [
             "lucido"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Dafne_Apl_lucido-R7s-sabbia.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Dafne Apl lucido-R7s-sabbia copia.jpg",
@@ -1776,7 +1909,8 @@
             "sabbia",
             "lucido"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Dafne_Apl_satinato-E27.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Dafne Apl satinato-E27 copia.jpg",
@@ -1792,7 +1926,10 @@
             "topazio",
             "satinato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {
+            "screw": "e27"
+        }
     },
     "Dafne_Apl_satinato-Led.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Dafne Apl satinato-Led copia.jpg",
@@ -1808,7 +1945,8 @@
             "topazio",
             "satinato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Dafne_Apl_satinato-R7s_ambra.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Dafne Apl satinato-R7s ambra copia.jpg",
@@ -1826,7 +1964,8 @@
             "topazio",
             "satinato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Dafne_Apl_satinato-R7s_arancio_bruciato.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Dafne Apl satinato-R7s arancio bruciato copia.jpg",
@@ -1844,7 +1983,8 @@
             "satinato",
             "arancio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Dafne_Apl_satinato-R7s.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Dafne Apl satinato-R7s copia.jpg",
@@ -1860,7 +2000,8 @@
             "topazio",
             "satinato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Dafne_Apl_satinato-R7s_grigio.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Dafne Apl satinato-R7s grigio copia.jpg",
@@ -1877,7 +2018,8 @@
             "nero",
             "satinato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Dafne_Apl_satinato-R7s_sabbia.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Dafne Apl satinato-R7s sabbia copia.jpg",
@@ -1894,7 +2036,8 @@
             "sabbia",
             "satinato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Dafne_Apl_satinato-R7s_tabacco.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Dafne Apl satinato-R7s tabacco copia.jpg",
@@ -1911,7 +2054,8 @@
             "tabacco",
             "satinato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Dafne_Apl_satinato-fluorescenza.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Dafne Apl satinato-fluorescenza copia.jpg",
@@ -1928,7 +2072,8 @@
             "satinato",
             "florescente"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Diadema_SP_K2_cr_+_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Diadema SP K2 cr + part copia.jpg",
@@ -1943,7 +2088,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Dogi_AP.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Dogi AP copia.jpg",
@@ -1956,7 +2102,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Dogi_plaf_GR-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Dogi plaf GR-amb copia.jpg",
@@ -1973,7 +2120,8 @@
             "ambra",
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ECOS_AP_NE_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ECOS AP NE rev. 1 copia.jpg",
@@ -1988,7 +2136,8 @@
         "color": [
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ECOS_PL_90_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ECOS PL 90 BC copia.jpg",
@@ -2003,7 +2152,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ECOS_SP_60B_AR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ECOS SP 60B AR copia.jpg",
@@ -2018,7 +2168,8 @@
         "color": [
             "arancio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ECOS_SP_90_AL.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ECOS SP 90 AL copia.jpg",
@@ -2031,7 +2182,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ECOS_SP_90_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ECOS SP 90 CR copia.jpg",
@@ -2046,7 +2198,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ECOS_SP_CR_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ECOS SP CR part copia.jpg",
@@ -2061,7 +2214,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ENNE_LUCI_AP_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ENNE LUCI AP BC copia.jpg",
@@ -2076,7 +2230,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ENNELUCI_PT_-_LT_SPEC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ENNELUCI PT - LT SPEC copia.jpg",
@@ -2091,7 +2246,8 @@
         "color": [
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "FEREA_PT_ritoccata.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/FEREA PT ritoccata copia.jpg",
@@ -2106,7 +2262,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "FEREA_SP.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/FEREA SP copia.jpg",
@@ -2119,7 +2276,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "FOLLIA_AP_2_TO.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/FOLLIA AP 2 TO copia.jpg",
@@ -2134,7 +2292,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "FOLLIA_LT_G_TO_-_P_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/FOLLIA LT G TO - P BC copia.jpg",
@@ -2151,7 +2310,8 @@
             "bianco",
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "FOLLIA_PL_42_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/FOLLIA PL 42 BC copia.jpg",
@@ -2166,7 +2326,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "FOLLIA_SP_42_TO.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/FOLLIA SP 42 TO copia.jpg",
@@ -2181,7 +2342,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "FOLLIA_SP_G_D2_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/FOLLIA SP G D2 BC copia.jpg",
@@ -2197,7 +2359,10 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {
+            "d": "d2"
+        }
     },
     "FOLLIA_SP_P_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/FOLLIA SP P BC copia.jpg",
@@ -2213,7 +2378,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Fuochi_AP12f-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Fuochi AP12f-amb copia.jpg",
@@ -2229,7 +2395,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "GIOGALI_AP_2_-_NV_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/GIOGALI AP 2 - NV CR copia.jpg",
@@ -2244,7 +2411,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "GIOGALI_CAS_1_CR_VALCUCINE.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/GIOGALI CAS 1 CR VALCUCINE copia.jpg",
@@ -2255,7 +2423,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "GIOGALI_PL_80-60-50-35_v2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/GIOGALI PL 80-60-50-35_v2 copia.jpg",
@@ -2268,7 +2437,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "GIOGALI_PL_CAS_2_NE.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/GIOGALI PL CAS 2 NE copia.jpg",
@@ -2283,7 +2453,8 @@
         "color": [
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "GIOGALI_PL_CAS_3_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/GIOGALI PL CAS 3 CR copia.jpg",
@@ -2298,7 +2469,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "GIOGALI_SP_35_CR_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/GIOGALI SP 35 CR rev. 1 copia.jpg",
@@ -2313,7 +2485,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "GIOGALI_SP_50_3E_NE.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/GIOGALI SP 50 3E NE copia.jpg",
@@ -2328,7 +2501,8 @@
         "color": [
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "GIOGALI_SP_60_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/GIOGALI SP 60 BC copia.jpg",
@@ -2343,7 +2517,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "GIOGALI_SP_80_BCO.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/GIOGALI SP 80 BCO copia.jpg",
@@ -2358,7 +2533,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "GIOGALI_SP_80A_NE.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/GIOGALI SP 80A NE copia.jpg",
@@ -2373,7 +2549,8 @@
         "color": [
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "GIOGALI_SP_RET_1_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/GIOGALI SP RET 1 CR copia.jpg",
@@ -2388,7 +2565,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "GIOGALI_SP_RET_2_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/GIOGALI SP RET 2 CR copia.jpg",
@@ -2403,7 +2581,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "GIOGALI_TENDA_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/GIOGALI TENDA CR copia.jpg",
@@ -2414,7 +2593,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "GIOGALI3D_PART.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/GIOGALI3D PART copia.jpg",
@@ -2423,7 +2603,8 @@
         "imgSize": 4790143,
         "model": "giogali3d",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "GIOGALI3D_SP_50.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/GIOGALI3D SP 50 copia.jpg",
@@ -2436,7 +2617,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "GIOGALI3D_SP_90.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/GIOGALI3D SP 90 copia.jpg",
@@ -2449,7 +2631,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "GOTO_LT_G-P_bianca.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/GOTO LT G-P bianca copia.jpg",
@@ -2464,7 +2647,8 @@
         "color": [
             "bianca"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Giglio-ap-p-g-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Giglio-ap-p-g-amb copia.jpg",
@@ -2477,7 +2661,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Giglio-ap-p-sx-dx-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Giglio-ap-p-sx-dx-amb copia.jpg",
@@ -2490,7 +2675,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Giogali_SP_OVALE_+_PL_QUADRATA_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Giogali SP OVALE + PL QUADRATA rev. 1 copia.jpg",
@@ -2503,7 +2689,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Giubileo_SP20F-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Giubileo SP20F-amb copia.jpg",
@@ -2516,7 +2703,8 @@
             "ambra",
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Giubileo_plaf28F-AP3F-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Giubileo plaf28F-AP3F-amb copia.jpg",
@@ -2532,7 +2720,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Giudecca-AP-SP-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Giudecca-AP-SP-amb copia.jpg",
@@ -2546,7 +2735,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Giudecca-PL-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Giudecca-PL-amb copia.jpg",
@@ -2559,7 +2749,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Goto_plaf_ambra.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Goto plaf ambra copia.jpg",
@@ -2575,7 +2766,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Goto_sosp_ok.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Goto sosp ok copia.jpg",
@@ -2590,7 +2782,8 @@
         "color": [
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Goto-PL-BC-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Goto-PL-BC-amb copia.jpg",
@@ -2603,7 +2796,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Goto-ap-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Goto-ap-amb copia.jpg",
@@ -2616,7 +2810,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "IMPLODE_FA_16_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/IMPLODE FA 16_rev 1 copia.jpg",
@@ -2630,7 +2825,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "IMPLODE_SP_16-38.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/IMPLODE SP 16-38 copia.jpg",
@@ -2643,7 +2839,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "IMPLODE_SP_50_BC_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/IMPLODE SP 50 BC_rev 1 copia.jpg",
@@ -2658,7 +2855,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "IMPLODE_SP_BC_part_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/IMPLODE SP BC part_rev 1 copia.jpg",
@@ -2673,7 +2871,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "IMPLODE_SP_part_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/IMPLODE SP part_rev 1 copia.jpg",
@@ -2686,7 +2885,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "INCASS_AP_2013.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/INCASS AP 2013 copia.jpg",
@@ -2699,7 +2899,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "INCASS_AP_2013_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/INCASS AP 2013 part copia.jpg",
@@ -2712,7 +2913,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "INCASS_PL_2013_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/INCASS PL 2013_rev 1 copia.jpg",
@@ -2725,7 +2927,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Infinita_sp_80.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Infinita sp 80 copia.jpg",
@@ -2738,7 +2941,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "JO_LT_BC-SB-GR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/JO LT BC-SB-GR copia.jpg",
@@ -2754,7 +2958,8 @@
             "bianco",
             "sabbia"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "JO_LT_SB_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/JO LT SB_rev 1 copia.jpg",
@@ -2769,7 +2974,8 @@
         "color": [
             "sabbia"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "LACRIMA_SP_G.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/LACRIMA SP G copia.jpg",
@@ -2783,7 +2989,8 @@
         ],
         "size": "grande",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "LACRIMA_SP_P.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/LACRIMA SP P copia.jpg",
@@ -2797,7 +3004,8 @@
         ],
         "size": "piccola",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "LAGUNA_AP-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/LAGUNA AP-amb copia.jpg",
@@ -2813,7 +3021,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "LEPANTO_PT_doppia.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/LEPANTO PT doppia copia.jpg",
@@ -2826,7 +3035,8 @@
             "terra"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "LEPANTO_SP_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/LEPANTO SP BC copia.jpg",
@@ -2841,7 +3051,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "LIO_AP_2_-_LT.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/LIO AP 2 - LT copia.jpg",
@@ -2854,7 +3065,8 @@
             "tavolo"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "LIO_AP_48-PT-LT50-LT40.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/LIO AP 48-PT-LT50-LT40 copia.jpg",
@@ -2867,7 +3079,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "LIO_FA_48.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/LIO FA 48 copia.jpg",
@@ -2881,7 +3094,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "LIO_PL_rev._2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/LIO PL rev. 2 copia.jpg",
@@ -2894,7 +3108,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "LIO_SP_5.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/LIO SP 5 copia.jpg",
@@ -2907,7 +3122,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "LIO_SP_P.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/LIO SP P copia.jpg",
@@ -2921,7 +3137,8 @@
         ],
         "size": "piccola",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "LUCCIOLA_LT_30_-_PT_M_SX.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/LUCCIOLA LT 30 - PT M SX copia.jpg",
@@ -2935,7 +3152,8 @@
         ],
         "size": "media",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "LUCCIOLA_LT_doppia_lampada_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/LUCCIOLA LT doppia lampada rev_1 copia.jpg",
@@ -2950,7 +3168,8 @@
         "color": [
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "LUNAE_AP_P_2013_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/LUNAE AP P 2013_rev 1 copia.jpg",
@@ -2964,7 +3183,8 @@
         ],
         "size": "piccola",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "LUNAE_AP_P_BC-CR_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/LUNAE AP P BC-CR part copia.jpg",
@@ -2981,7 +3201,8 @@
             "bianco",
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "LUXOR_AP_64_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/LUXOR AP 64 BC copia.jpg",
@@ -2996,7 +3217,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "LUXOR_AP_P_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/LUXOR AP P BC copia.jpg",
@@ -3012,7 +3234,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "LUXOR_SP_64_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/LUXOR SP 64 BC copia.jpg",
@@ -3027,7 +3250,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Laguna_SP-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Laguna SP-amb copia.jpg",
@@ -3044,7 +3268,8 @@
             "ambra",
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MAGIE_FA_BC_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MAGIE FA BC rev. 1 copia.jpg",
@@ -3060,7 +3285,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MAGIE_SP_BC_v2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MAGIE SP BC v2 copia.jpg",
@@ -3075,7 +3301,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MARBLE'_AP_23.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MARBLE' AP 23 copia.jpg",
@@ -3088,7 +3315,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MARBLE'_LT_45.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MARBLE' LT 45 copia.jpg",
@@ -3101,7 +3329,8 @@
             "tavolo"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MARBLE'_PL45.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MARBLE' PL45 copia.jpg",
@@ -3110,7 +3339,8 @@
         "imgSize": 3312034,
         "model": "marble'",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MARBLE'_PT_45.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MARBLE' PT 45 copia.jpg",
@@ -3123,7 +3353,8 @@
             "terra"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MAREA_AP_47_se.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MAREA AP 47 se copia.jpg",
@@ -3138,7 +3369,8 @@
         "color": [
             "seta"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MAREA_AP24.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MAREA AP24 copia.jpg",
@@ -3151,7 +3383,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MIA_PL_amb_solo_60.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MIA PL amb solo 60 copia.jpg",
@@ -3167,7 +3400,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MINIGIOGALI_AP_AG.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MINIGIOGALI AP AG copia.jpg",
@@ -3182,7 +3416,8 @@
         "color": [
             "argento"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MINIGIOGALI_CAS_3_CR_rev._3.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MINIGIOGALI CAS 3 CR rev. 3 copia.jpg",
@@ -3193,7 +3428,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MINIGIOGALI_LT_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MINIGIOGALI LT CR copia.jpg",
@@ -3208,7 +3444,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MINIGIOGALI_PL_80_CRcorr.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MINIGIOGALI PL 80 CRcorr copia.jpg",
@@ -3223,7 +3460,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MINIGIOGALI_PT_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MINIGIOGALI PT CR copia.jpg",
@@ -3238,7 +3476,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MINIGIOGALI_RET_2_OR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MINIGIOGALI RET 2 OR copia.jpg",
@@ -3249,7 +3488,8 @@
         "color": [
             "oro"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MINIGIOGALI_SP_50_AG.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MINIGIOGALI SP 50 AG copia.jpg",
@@ -3264,7 +3504,8 @@
         "color": [
             "argento"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MINIGIOGALI_dettaglio.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MINIGIOGALI dettaglio copia.jpg",
@@ -3273,7 +3514,8 @@
         "imgSize": 2714980,
         "model": "minigiogali",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MOBY_AP_amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MOBY AP amb copia.jpg",
@@ -3289,7 +3531,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MORIS_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MORIS 1 copia.jpg",
@@ -3298,7 +3541,8 @@
         "imgSize": 1991319,
         "model": "moris",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MORIS_2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MORIS 2 copia.jpg",
@@ -3307,7 +3551,8 @@
         "imgSize": 2092786,
         "model": "moris",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MORIS_AP_ex_LIO_AP_20L1_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MORIS AP ex LIO AP 20L1_rev 1 copia.jpg",
@@ -3320,7 +3565,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MUMBA_AP_G-P_BC_rev_2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MUMBA AP G-P BC_rev 2 copia.jpg",
@@ -3335,7 +3581,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MUMBA_SP_2G_BC_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MUMBA SP 2G BC_rev 1 copia.jpg",
@@ -3350,7 +3597,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MUMBA_SP_BC_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MUMBA SP BC part copia.jpg",
@@ -3365,7 +3613,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MUMBA_SP_G_-_P_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MUMBA SP G - P BC copia.jpg",
@@ -3381,7 +3630,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MUNEGA_LT_G_+_LT_P_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MUNEGA LT G + LT P rev 1 copia.jpg",
@@ -3395,7 +3645,8 @@
         ],
         "size": "grande",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MUNEGA_PL__55_+_35_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/MUNEGA PL  55 + 35 rev 1 copia.jpg",
@@ -3408,7 +3659,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Marble_sosp.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Marble sosp copia.jpg",
@@ -3423,7 +3675,8 @@
         "color": [
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NARANZA_BCO_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NARANZA BCO part copia.jpg",
@@ -3434,7 +3687,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NARANZA_G-P_BCO_OK.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NARANZA G-P BCO OK copia.jpg",
@@ -3445,7 +3699,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NARANZA_SP_G_AR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NARANZA SP G AR copia.jpg",
@@ -3459,7 +3714,8 @@
         ],
         "size": "grande",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NAXOS_LT_G-M-P-MINI_amb_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NAXOS LT G-M-P-MINI amb_rev 1 copia.jpg",
@@ -3475,7 +3731,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NAXOS_PT_bc_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NAXOS PT bc rev. 1 copia.jpg",
@@ -3490,7 +3747,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NAXOS_SP_50_part._luce#168F_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NAXOS SP 50 part. luce#168F_rev 1 copia.jpg",
@@ -3503,7 +3761,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NEBULA_SP_BC_2013.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NEBULA SP BC 2013 copia.jpg",
@@ -3518,7 +3777,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NEBULA_SP_BC_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NEBULA SP BC part copia.jpg",
@@ -3533,7 +3793,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NEOCHIC_AP_BC_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NEOCHIC AP BC part copia.jpg",
@@ -3548,7 +3809,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NEOCHIC_PL-AP_BC_def_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NEOCHIC PL-AP BC def rev. 1 copia.jpg",
@@ -3564,7 +3826,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NESSA_LT_specchiata.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NESSA LT specchiata copia.jpg",
@@ -3579,7 +3842,8 @@
         "color": [
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NINFEA_SP_G_BC_rev._4.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NINFEA SP G BC rev. 4 copia.jpg",
@@ -3595,7 +3859,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NINFEA_SP_P_8_TO_dett.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NINFEA SP P 8 TO dett copia.jpg",
@@ -3611,7 +3876,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NOON_SP_BC_doppia_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NOON SP BC doppia rev_1 copia.jpg",
@@ -3626,7 +3892,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NOON_SP_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NOON SP part copia.jpg",
@@ -3639,7 +3906,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NORMA_AP_BC_2013_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NORMA AP BC 2013 rev_1 copia.jpg",
@@ -3654,7 +3922,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NORMA_AP_BC_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NORMA AP BC part copia.jpg",
@@ -3669,7 +3938,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NOVECENTO_PL.CRISTALLO.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NOVECENTO PL.CRISTALLO copia.jpg",
@@ -3684,7 +3954,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NOVECENTO_SP.BIANCA_SU_TAVOLO_MARMO.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NOVECENTO SP.BIANCA SU TAVOLO MARMO copia.jpg",
@@ -3700,7 +3971,8 @@
             "bianca",
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NOVECENTO_cristallo_su_parete_vetrata.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NOVECENTO cristallo su parete vetrata copia.jpg",
@@ -3711,7 +3983,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NUVOLE_AP_amb_rev1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/NUVOLE AP amb rev1 copia.jpg",
@@ -3727,7 +4000,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Ninfea_ap_p_fu_rev._2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Ninfea ap p fu rev. 2 copia.jpg",
@@ -3742,7 +4016,8 @@
         "color": [
             "fume"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Novecento_plaf_Cristallo-particolare2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Novecento plaf Cristallo-particolare2 copia.jpg",
@@ -3757,7 +4032,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Nuvola_PL_amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Nuvola PL amb copia.jpg",
@@ -3773,7 +4049,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "OVALINA_AP_amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/OVALINA AP amb copia.jpg",
@@ -3789,7 +4066,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PAGODA_PL_51-1_OK.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/PAGODA PL 51-1 OK copia.jpg",
@@ -3802,7 +4080,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PAGODA_PL_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/PAGODA PL rev 1 copia.jpg",
@@ -3815,7 +4094,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PAGODA_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/PAGODA part copia.jpg",
@@ -3824,7 +4104,8 @@
         "imgSize": 1228803,
         "model": "pagoda",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PENTA_SP_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/PENTA SP BC copia.jpg",
@@ -3839,7 +4120,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PENTA_SP_part_alto_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/PENTA SP part alto_rev 1 copia.jpg",
@@ -3854,7 +4136,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PENTA_part._sotto.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/PENTA part. sotto copia.jpg",
@@ -3865,7 +4148,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PENTA_part_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/PENTA part_rev 1 copia.jpg",
@@ -3874,7 +4158,8 @@
         "imgSize": 2032224,
         "model": "penta",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "POC_AP_16_NE.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/POC AP 16 NE copia.jpg",
@@ -3889,7 +4174,8 @@
         "color": [
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "POC_LT_16_tecnica.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/POC LT 16 tecnica copia.jpg",
@@ -3902,7 +4188,8 @@
             "tavolo"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "POC_SP_16_NE.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/POC SP 16 NE copia.jpg",
@@ -3917,7 +4204,8 @@
         "color": [
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "POC_SP_45_BC_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/POC SP 45 BC rev. 1 copia.jpg",
@@ -3932,7 +4220,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "POC_SP_45-35-25-16_still.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/POC SP 45-35-25-16 still copia.jpg",
@@ -3945,7 +4234,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "POD_AP_G_P_hippie_2013.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/POD AP G P hippie 2013 copia.jpg",
@@ -3959,7 +4249,8 @@
         ],
         "size": "grande",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "POD_SP_P_2013.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/POD SP P 2013 copia.jpg",
@@ -3973,7 +4264,8 @@
         ],
         "size": "piccola",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "POD_SP_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/POD SP part copia.jpg",
@@ -3986,7 +4278,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "POD_SP_part_sotto.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/POD SP part sotto copia.jpg",
@@ -4001,7 +4294,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "QUADRA_PL_AP_nuvola_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/QUADRA PL AP nuvola rev. 1 copia.jpg",
@@ -4015,7 +4309,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "QUADRA_nuvola_dett.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/QUADRA nuvola dett copia.jpg",
@@ -4024,7 +4319,8 @@
         "imgSize": 2457947,
         "model": "quadra",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "REDER_AP_G.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/REDER AP G copia.jpg",
@@ -4038,7 +4334,8 @@
         ],
         "size": "grande",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "REDER_LT_G-PT_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/REDER LT G-PT BC copia.jpg",
@@ -4053,7 +4350,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "REDER_SP_G-P_BC_still_rev_2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/REDER SP G-P BC still rev_2 copia.jpg",
@@ -4068,7 +4366,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "RIALTO_AP12-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/RIALTO AP12-amb copia.jpg",
@@ -4084,7 +4383,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Redentore_AP15f-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Redentore AP15f-amb copia.jpg",
@@ -4100,7 +4400,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Rialto_AP7-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Rialto AP7-amb copia.jpg",
@@ -4116,7 +4417,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Riga_plaf6.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Riga plaf6 copia.jpg",
@@ -4129,7 +4431,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Riga_plaf8-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Riga plaf8-amb copia.jpg",
@@ -4145,7 +4448,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Riga30apl.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Riga30apl copia.jpg",
@@ -4154,7 +4458,8 @@
         "imgSize": 7247879,
         "model": "riga30apl.jpg",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Riga40apl.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Riga40apl copia.jpg",
@@ -4163,7 +4468,8 @@
         "imgSize": 7695276,
         "model": "riga40apl.jpg",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Rina_LT16_+_PT100_ambientata.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Rina LT16 + PT100 ambientata copia.jpg",
@@ -4179,7 +4485,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Rina_pl+tr_ambientata.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Rina pl+tr ambientata copia.jpg",
@@ -4196,7 +4503,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Rina_sp_60.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Rina sp 60 copia.jpg",
@@ -4209,7 +4517,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Romanza_AP-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Romanza AP-amb copia.jpg",
@@ -4225,7 +4534,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Romanza-PL30-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Romanza-PL30-amb copia.jpg",
@@ -4234,7 +4544,8 @@
         "imgSize": 7852894,
         "model": "romanza",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SABA_AP_BC_amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SABA AP BC amb copia.jpg",
@@ -4251,7 +4562,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SEGRETO_AP_BC_rev._3.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SEGRETO AP BC rev. 3 copia.jpg",
@@ -4266,7 +4578,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SEGRETO_SP_G_TO+chiaro_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SEGRETO SP G TO+chiaro rev 1 copia.jpg",
@@ -4282,7 +4595,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SEGRETO_SP_P_D2_BC_rev._2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SEGRETO SP P D2 BC rev. 2 copia.jpg",
@@ -4298,7 +4612,10 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {
+            "d": "d2"
+        }
     },
     "SISSI_SP_BC_GR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SISSI SP BC GR copia.jpg",
@@ -4314,7 +4631,8 @@
             "bianco",
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SISSI_SP_COMP.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SISSI SP COMP copia.jpg",
@@ -4327,7 +4645,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SMOKING_PT-SP_NE.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SMOKING PT-SP NE copia.jpg",
@@ -4344,7 +4663,8 @@
             "nero",
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SOGNO_PL_42_senza_montature_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SOGNO PL 42 senza montature rev 1 copia.jpg",
@@ -4357,7 +4677,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SPHERE_DET_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SPHERE DET BC copia.jpg",
@@ -4368,7 +4689,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SPHERE_SP_20_D2_BC_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SPHERE SP 20 D2 BC rev_1 copia.jpg",
@@ -4383,7 +4705,10 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {
+            "d": "d2"
+        }
     },
     "SPHERE_SP_5_MET_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SPHERE SP 5 MET rev_1 copia.jpg",
@@ -4396,7 +4721,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SPHERE_SP_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SPHERE SP BC copia.jpg",
@@ -4411,7 +4737,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SPIRIT_PL_CR_v4.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SPIRIT PL CR v4 copia.jpg",
@@ -4426,7 +4753,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SPROUT_AP_G_-_P_misti_OK.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SPROUT AP G - P misti OK copia.jpg",
@@ -4440,7 +4768,8 @@
         ],
         "size": "grande",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SPROUT_PL_TO_-_AP_BC_rev._3.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SPROUT PL TO - AP BC rev. 3 copia.jpg",
@@ -4456,7 +4785,8 @@
             "bianco",
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SanGiorgio_AP15f-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SanGiorgio AP15f-amb copia.jpg",
@@ -4472,7 +4802,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SanGiorgio_AP7f-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SanGiorgio AP7f-amb copia.jpg",
@@ -4488,7 +4819,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SanMarco_AP_tondo.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SanMarco AP tondo copia.jpg",
@@ -4503,7 +4835,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SanMarco_AP5f-tecnico.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SanMarco AP5f-tecnico copia.jpg",
@@ -4516,7 +4849,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SanMarco-pl16-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/SanMarco-pl16-amb copia.jpg",
@@ -4529,7 +4863,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Soffio_AP-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Soffio AP-amb copia.jpg",
@@ -4545,7 +4880,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Soffio-PL4-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Soffio-PL4-amb copia.jpg",
@@ -4554,7 +4890,8 @@
         "imgSize": 8401724,
         "model": "soffio",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Soft_plafoniera.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Soft_plafoniera copia.jpg",
@@ -4567,7 +4904,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Sogno_plaf-E27.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Sogno plaf-E27 copia.jpg",
@@ -4580,7 +4918,10 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {
+            "screw": "e27"
+        }
     },
     "Sogno_plaf-florescenza2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Sogno plaf-florescenza2 copia.jpg",
@@ -4595,7 +4936,8 @@
         "color": [
             "florescente"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Sogno_plaf-led01.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Sogno plaf-led01 copia.jpg",
@@ -4608,7 +4950,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 1
+        "led": 1,
+        "more": {}
     },
     "Sogno_plaf-led02.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Sogno plaf-led02 copia.jpg",
@@ -4621,7 +4964,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 1
+        "led": 1,
+        "more": {}
     },
     "Spirit_LT_amb_rev2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Spirit LT amb rev2 copia.jpg",
@@ -4637,7 +4981,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Spirit_plaf_bianco_scont.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Spirit plaf bianco scont copia.jpg",
@@ -4650,7 +4995,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Spirit_sp_amb_bagliore_v4.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Spirit sp amb bagliore v4 copia.jpg",
@@ -4666,7 +5012,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Style_PL_bco_risc.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Style PL bco risc copia.jpg",
@@ -4681,7 +5028,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "TABLO_LT_MA_MIX_still.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/TABLO LT MA MIX still copia.jpg",
@@ -4694,7 +5042,8 @@
             "tavolo"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "TABLO_PT_2A.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/TABLO PT 2A copia.jpg",
@@ -4707,7 +5056,8 @@
             "terra"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "TABLO_SP_MIX_still_rev._2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/TABLO SP MIX still rev. 2 copia.jpg",
@@ -4720,7 +5070,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "TAHOMA_AP_5_-_LT_11_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/TAHOMA AP 5 - LT 11 rev 1 copia.jpg",
@@ -4733,7 +5084,8 @@
             "tavolo"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "TAHOMA_ROUND_AP_BC_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/TAHOMA ROUND AP BC rev. 1 copia.jpg",
@@ -4748,7 +5100,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "TAHOMA_ROUND_SP_2_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/TAHOMA ROUND SP 2 rev 1 copia.jpg",
@@ -4763,7 +5116,8 @@
         "color": [
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "TAHOMA_ROUNS_SP_BC_still_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/TAHOMA ROUNS SP BC still rev 1 copia.jpg",
@@ -4779,7 +5133,8 @@
             "bianco",
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "TAHOMA_SP_11_-_5_BC_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/TAHOMA SP 11 - 5 BC rev 1 copia.jpg",
@@ -4794,7 +5149,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "THOR_LT_CR-SP_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/THOR LT CR-SP rev. 1 copia.jpg",
@@ -4810,7 +5166,8 @@
             "cromo",
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "THOR_PT_LT_NE_rev_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/THOR PT LT NE rev 1 copia.jpg",
@@ -4825,7 +5182,8 @@
         "color": [
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "THOR_SP_42_NE_ATLANTIC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/THOR SP 42 NE ATLANTIC copia.jpg",
@@ -4840,7 +5198,8 @@
         "color": [
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "THOR_SP_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/THOR SP BC copia.jpg",
@@ -4855,7 +5214,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "TORCELLO_AP_cr_amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/TORCELLO AP cr amb copia.jpg",
@@ -4872,7 +5232,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "TORCELLO_AP_part._acceso_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/TORCELLO AP part. acceso rev. 1 copia.jpg",
@@ -4885,7 +5246,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "TREPAI_PT_BC_amb_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/TREPAI PT BC amb rev. 1 copia.jpg",
@@ -4902,7 +5264,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "TREPAI_PT_GR_part._rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/TREPAI PT GR part. rev. 1 copia.jpg",
@@ -4917,7 +5280,8 @@
         "color": [
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "TREPAI_PT_GR_part._vetro_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/TREPAI PT GR part. vetro rev. 1 copia.jpg",
@@ -4932,7 +5296,8 @@
         "color": [
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "TREPAI_SP_BC_still.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/TREPAI SP BC still copia.jpg",
@@ -4947,7 +5312,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "TREPAI_SP_GR_still_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/TREPAI SP GR still rev. 1 copia.jpg",
@@ -4962,7 +5328,8 @@
         "color": [
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "TREPAI_movimento.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/TREPAI movimento copia.jpg",
@@ -4973,7 +5340,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "TREPAI_sotto.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/TREPAI sotto copia.jpg",
@@ -4984,7 +5352,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "TUBES_ATLANTA_ritoccata.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/TUBES ATLANTA ritoccata copia.jpg",
@@ -4995,7 +5364,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "Tubes_composizione.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/Tubes composizione copia.jpg",
@@ -5004,7 +5374,8 @@
         "imgSize": 3062765,
         "model": "tubes",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "VEGA_FA_BC_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/VEGA FA BC rev. 1 copia.jpg",
@@ -5020,7 +5391,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "VEGA_LT_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/VEGA LT BC copia.jpg",
@@ -5035,7 +5407,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "VEGA_LT_BC_mov._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/VEGA LT BC mov. 1 copia.jpg",
@@ -5050,7 +5423,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "VEGA_LT_BC_mov._2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/VEGA LT BC mov. 2 copia.jpg",
@@ -5065,7 +5439,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "VEGA_LT_LED_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/VEGA LT LED part copia.jpg",
@@ -5078,7 +5453,8 @@
             "tavolo"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "VEGA_LT_MC_MISTE_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/VEGA LT MC MISTE rev. 1 copia.jpg",
@@ -5093,7 +5469,8 @@
         "color": [
             "multicolore"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "VEGA_PT_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/VEGA PT BC copia.jpg",
@@ -5108,7 +5485,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "With_White_1_baby_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/With White 1 baby rev. 1 copia.jpg",
@@ -5119,7 +5497,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "With_White_2_baby_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/With White 2 baby rev. 1 copia.jpg",
@@ -5130,7 +5509,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "With_White_3_baby_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/With White 3 baby rev. 1 copia.jpg",
@@ -5141,7 +5521,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "With_White_4_baby_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/With White 4 baby rev. 1 copia.jpg",
@@ -5152,7 +5533,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "YUBA_AP_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/YUBA AP BC copia.jpg",
@@ -5167,7 +5549,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "YUBA_LT_BCO-NE.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/YUBA LT BCO-NE copia.jpg",
@@ -5183,7 +5566,8 @@
             "bianco",
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "YUBA_LT_BCO-NE_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/YUBA LT BCO-NE part copia.jpg",
@@ -5199,7 +5583,8 @@
             "bianco",
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "YUBA_PL_BC-NE.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/YUBA PL BC-NE copia.jpg",
@@ -5215,7 +5600,8 @@
             "bianco",
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "YUBA_PT_BCO-NE.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/YUBA PT BCO-NE copia.jpg",
@@ -5231,7 +5617,8 @@
             "bianco",
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "YUBA_SP_26_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/YUBA SP 26 CR copia.jpg",
@@ -5246,7 +5633,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "YUBA_SP_45_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/YUBA SP 45 BC copia.jpg",
@@ -5261,7 +5649,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "accademia-pl10-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/accademia-pl10-amb copia.jpg",
@@ -5274,7 +5663,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "accademia-pl30.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/accademia-pl30 copia.jpg",
@@ -5287,7 +5677,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "accademia-pl300-part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/accademia-pl300-part copia.jpg",
@@ -5300,7 +5691,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "accademia-pl30f-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/accademia-pl30f-amb copia.jpg",
@@ -5313,7 +5705,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "aliki-ap.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/aliki-ap copia.jpg",
@@ -5326,7 +5719,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "bauta-sp-part1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/bauta-sp-part1 copia.jpg",
@@ -5339,7 +5733,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "bauta-sp-part2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/bauta-sp-part2 copia.jpg",
@@ -5352,7 +5747,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "bianca-sp_60-50-40-30_rev1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/bianca-sp 60-50-40-30 rev1 copia.jpg",
@@ -5365,7 +5761,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "boccia-ap-31-47-60-bc_amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/boccia-ap-31-47-60-bc amb copia.jpg",
@@ -5381,7 +5778,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "cheope-spgr-b.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/cheope-spgr-b copia.jpg",
@@ -5394,7 +5792,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "cheope-spgr-spec.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/cheope-spgr-spec copia.jpg",
@@ -5407,7 +5806,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "cheope-spp.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/cheope-spp copia.jpg",
@@ -5420,7 +5820,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "chimera-09-pt-part1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/chimera-09-pt-part1 copia.jpg",
@@ -5433,7 +5834,8 @@
             "terra"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "chimera-09-pt-part2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/chimera-09-pt-part2 copia.jpg",
@@ -5446,7 +5848,8 @@
             "terra"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "cild-spbc-1_rev1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/cild-spbc-1 rev1 copia.jpg",
@@ -5459,7 +5862,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "cild-spbc-2_rev1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/cild-spbc-2 rev1 copia.jpg",
@@ -5472,7 +5876,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "cild-spbc-3_rev1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/cild-spbc-3 rev1 copia.jpg",
@@ -5485,7 +5890,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "cild-spcrbc-1_rev1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/cild-spcrbc-1 rev1 copia.jpg",
@@ -5498,7 +5904,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "cild-spcrbc-3_rev1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/cild-spcrbc-3 rev1 copia.jpg",
@@ -5511,7 +5918,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "cloth_sp_p_bc_rev_3.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/cloth sp p bc rev_3 copia.jpg",
@@ -5526,7 +5934,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "cocumis-part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/cocumis-part copia.jpg",
@@ -5535,7 +5944,8 @@
         "imgSize": 1414225,
         "model": "cocumis",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "comari_AP_COMARI_TO_OR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/comari AP COMARI TO OR copia.jpg",
@@ -5551,7 +5961,8 @@
             "topazio",
             "oro"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "comari_LT_COMARI_G+P_TO_OR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/comari LT COMARI G+P TO OR copia.jpg",
@@ -5567,7 +5978,8 @@
             "topazio",
             "oro"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "comari_LT_COMARI_G+P_TO_OR_dett.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/comari LT COMARI G+P TO OR dett copia.jpg",
@@ -5583,7 +5995,8 @@
             "topazio",
             "oro"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "comari_PL_COMARI_TO_OR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/comari PL COMARI TO OR copia.jpg",
@@ -5599,7 +6012,8 @@
             "topazio",
             "oro"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "comari_sosp01.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/comari sosp01 copia.jpg",
@@ -5614,7 +6028,8 @@
         "color": [
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "comari_sosp02.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/comari sosp02 copia.jpg",
@@ -5629,7 +6044,8 @@
         "color": [
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "david-ap-dx.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/david-ap-dx copia.jpg",
@@ -5642,7 +6058,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "diadema-18-cr.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/diadema-18-cr copia.jpg",
@@ -5651,7 +6068,8 @@
         "imgSize": 1913957,
         "model": "diadema",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "diadema-18-to.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/diadema-18-to copia.jpg",
@@ -5660,7 +6078,8 @@
         "imgSize": 2256188,
         "model": "diadema",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "diadema-30-to.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/diadema-30-to copia.jpg",
@@ -5669,7 +6088,8 @@
         "imgSize": 1794230,
         "model": "diadema",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "diadema-60-cr2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/diadema-60-cr2 copia.jpg",
@@ -5678,7 +6098,8 @@
         "imgSize": 2499896,
         "model": "diadema",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "diadema-pt-cr.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/diadema-pt-cr copia.jpg",
@@ -5691,7 +6112,8 @@
             "terra"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "diadema-pt-to.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/diadema-pt-to copia.jpg",
@@ -5704,7 +6126,8 @@
             "terra"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "diadema-sp-cr.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/diadema-sp-cr copia.jpg",
@@ -5717,7 +6140,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "diadema-sp-cr-2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/diadema-sp-cr-2 copia.jpg",
@@ -5730,7 +6154,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "diadema-sp-cr-3.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/diadema-sp-cr-3 copia.jpg",
@@ -5743,7 +6168,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "diadema-sp-to.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/diadema-sp-to copia.jpg",
@@ -5756,7 +6182,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "dogi_AP_DOGI_P_CR_OR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/dogi AP DOGI P CR OR copia.jpg",
@@ -5773,7 +6200,8 @@
             "cromo",
             "oro"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "enneluci-bianco-sp.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/enneluci-bianco-sp copia.jpg",
@@ -5786,7 +6214,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "enneluci-cromo-sp.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/enneluci-cromo-sp copia.jpg",
@@ -5799,7 +6228,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ferea-ap.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ferea-ap copia.jpg",
@@ -5812,7 +6242,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ferea-lt.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ferea-lt copia.jpg",
@@ -5825,7 +6256,8 @@
             "tavolo"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "fluo-calda.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/fluo-calda copia.jpg",
@@ -5834,7 +6266,8 @@
         "imgSize": 1621281,
         "model": "fluo",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "fluo-freddo.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/fluo-freddo copia.jpg",
@@ -5843,7 +6276,8 @@
         "imgSize": 1733197,
         "model": "fluo",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "fuochi_AP_FUOCHI_7_F_CR_OR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/fuochi AP FUOCHI 7 F CR OR copia.jpg",
@@ -5860,7 +6294,8 @@
             "fume",
             "oro"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "fuochi_AP_FUOCHI_CR_OR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/fuochi AP FUOCHI CR OR copia.jpg",
@@ -5877,7 +6312,8 @@
             "fume",
             "oro"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "fuochi_PL_FUOCHI_16_F_CR_OR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/fuochi PL FUOCHI 16 F CR OR copia.jpg",
@@ -5894,7 +6330,8 @@
             "fume",
             "oro"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "fuochi_PL_FUOCHI_46_F_CR_OR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/fuochi PL FUOCHI 46 F CR OR copia.jpg",
@@ -5911,7 +6348,8 @@
             "fume",
             "oro"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "fuochi_PL_FUOCHI_55.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/fuochi PL FUOCHI 55 copia.jpg",
@@ -5926,7 +6364,8 @@
         "color": [
             "fume"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "fuochi-pl92-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/fuochi-pl92-amb copia.jpg",
@@ -5939,7 +6378,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "giubileo_SP_20f_dettaglio.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/giubileo SP 20f dettaglio copia.jpg",
@@ -5952,7 +6392,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "gloria_AP_GLORIA_5_F_SE_OR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/gloria AP GLORIA 5 F SE OR copia.jpg",
@@ -5968,7 +6409,8 @@
             "oro",
             "seta"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "gloria_PL_GLORIA_10_F_SE_ORS.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/gloria PL GLORIA 10 F SE ORS copia.jpg",
@@ -5984,7 +6426,8 @@
             "oro",
             "seta"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "gloria_PT_GLORIA_SE_ORS.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/gloria PT GLORIA SE ORS copia.jpg",
@@ -6000,7 +6443,8 @@
             "oro",
             "seta"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "gloria_SP_GLORIA_9_F_SE_OR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/gloria SP GLORIA 9 F SE OR copia.jpg",
@@ -6016,7 +6460,8 @@
             "oro",
             "seta"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "gloria_SP_GLORIA_SE_OR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/gloria SP GLORIA SE OR copia.jpg",
@@ -6032,7 +6477,8 @@
             "oro",
             "seta"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "goccia-ap-bc-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/goccia-ap-bc-amb copia.jpg",
@@ -6045,7 +6491,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "goccia-ap-bc.cr-part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/goccia-ap-bc.cr-part copia.jpg",
@@ -6058,7 +6505,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "inc-alo_tung.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/inc-alo tung copia.jpg",
@@ -6067,7 +6515,8 @@
         "imgSize": 1674029,
         "model": "inc",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "infinita-pl80-pl53-pl37.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/infinita-pl80-pl53-pl37 copia.jpg",
@@ -6080,7 +6529,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "infinita-sp80-sp53-sp37.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/infinita-sp80-sp53-sp37 copia.jpg",
@@ -6093,7 +6543,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "jo_det.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/jo det copia.jpg",
@@ -6102,7 +6553,8 @@
         "imgSize": 2763505,
         "model": "jo",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "laguna_dettaglio.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/laguna dettaglio copia.jpg",
@@ -6111,7 +6563,8 @@
         "imgSize": 14428697,
         "model": "laguna",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "led-caldo.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/led-caldo copia.jpg",
@@ -6120,7 +6573,8 @@
         "imgSize": 1584207,
         "model": "led",
         "color": [],
-        "led": 1
+        "led": 1,
+        "more": {}
     },
     "led-freddo.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/led-freddo copia.jpg",
@@ -6129,7 +6583,8 @@
         "imgSize": 1499444,
         "model": "led",
         "color": [],
-        "led": 1
+        "led": 1,
+        "more": {}
     },
     "lepanto-pt-bc_rev1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/lepanto-pt-bc rev1 copia.jpg",
@@ -6142,7 +6597,8 @@
             "terra"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "lepanto-pt-bc-part3_rev1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/lepanto-pt-bc-part3 rev1 copia.jpg",
@@ -6155,7 +6611,8 @@
             "terra"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "lio-sp60-p-sp_rev2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/lio-sp60-p-sp rev2 copia.jpg",
@@ -6168,7 +6625,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "lucciola-fa.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/lucciola-fa copia.jpg",
@@ -6182,7 +6640,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "lucciola-sp-g-m-p-mini-27_rev.2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/lucciola-sp-g-m-p-mini-27 rev.2 copia.jpg",
@@ -6195,7 +6654,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "lunae-ap-part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/lunae-ap-part copia.jpg",
@@ -6208,7 +6668,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "marea_PL_MAREA_47_SE.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/marea PL MAREA 47 SE copia.jpg",
@@ -6223,7 +6684,8 @@
         "color": [
             "seta"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "mia-sp60-bc.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/mia-sp60-bc copia.jpg",
@@ -6236,7 +6698,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "moby-app-to.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/moby-app-to copia.jpg",
@@ -6249,7 +6712,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "morrise_AP_MORRISE_24_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/morrise AP MORRISE 24 CR copia.jpg",
@@ -6264,7 +6728,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "morrise_AP_MORRISE_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/morrise AP MORRISE CR copia.jpg",
@@ -6279,7 +6744,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "morrise_LT_MORRISE.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/morrise LT MORRISE copia.jpg",
@@ -6292,7 +6758,8 @@
             "tavolo"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "morrise-pl60-cr-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/morrise-pl60-cr-amb copia.jpg",
@@ -6305,7 +6772,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "naxos-sp50-bc_rev1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/naxos-sp50-bc rev1 copia.jpg",
@@ -6318,7 +6786,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "naxos-sp50-bc2_rev1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/naxos-sp50-bc2 rev1 copia.jpg",
@@ -6331,7 +6800,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "naxos-sp76-bc_rev1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/naxos-sp76-bc rev1 copia.jpg",
@@ -6344,7 +6814,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "nebula_sosp_part1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/nebula sosp part1 copia.jpg",
@@ -6359,7 +6830,8 @@
         "color": [
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "neochic-sp_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/neochic-sp rev. 1 copia.jpg",
@@ -6372,7 +6844,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "noon-sp-part-to.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/noon-sp-part-to copia.jpg",
@@ -6385,7 +6858,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "nuvola-part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/nuvola-part copia.jpg",
@@ -6394,7 +6868,8 @@
         "imgSize": 1834280,
         "model": "nuvola",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "nuvola-sp40-30-bc_rev1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/nuvola-sp40-30-bc rev1 copia.jpg",
@@ -6407,7 +6882,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "nuvola-sp50-bc_rev1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/nuvola-sp50-bc rev1 copia.jpg",
@@ -6420,7 +6896,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "nuvola-sp60-bc_rev1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/nuvola-sp60-bc rev1 copia.jpg",
@@ -6433,7 +6910,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ovalina-ap-avio.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ovalina-ap-avio copia.jpg",
@@ -6446,7 +6924,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ovalina-ap-bc.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ovalina-ap-bc copia.jpg",
@@ -6459,7 +6938,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ovalina-ap-grigio.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ovalina-ap-grigio copia.jpg",
@@ -6472,7 +6952,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ovalina-ap-lucida-bc.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ovalina-ap-lucida-bc copia.jpg",
@@ -6485,7 +6966,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ovalina-ap-lucida-grigio.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ovalina-ap-lucida-grigio copia.jpg",
@@ -6498,7 +6980,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ovalina-ap-lucida-verde.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ovalina-ap-lucida-verde copia.jpg",
@@ -6511,7 +6994,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ovalina-ap-lucido-avio.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ovalina-ap-lucido-avio copia.jpg",
@@ -6524,7 +7008,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ovalina-ap-verde.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/ovalina-ap-verde copia.jpg",
@@ -6537,7 +7022,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "redentore_AP_REDENT_5_FG_CR_OR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/redentore AP REDENT 5 FG CR OR copia.jpg",
@@ -6553,7 +7039,8 @@
             "cromo",
             "oro"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "redentore_AP_REDENT_7_FP_CR_OR_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/redentore AP REDENT 7 FP CR OR rev. 1 copia.jpg",
@@ -6569,7 +7056,8 @@
             "cromo",
             "oro"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "redentore_PL_REDENT_16_FG_CR_OR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/redentore PL REDENT 16 FG CR OR copia.jpg",
@@ -6585,7 +7073,8 @@
             "cromo",
             "oro"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "redentore_PL_REDENT_16_FP_CR_OR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/redentore PL REDENT 16 FP CR OR copia.jpg",
@@ -6601,7 +7090,8 @@
             "cromo",
             "oro"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "redentore-pl46.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/redentore-pl46 copia.jpg",
@@ -6614,7 +7104,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "rialto_AP7_particolare.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/rialto AP7 particolare copia.jpg",
@@ -6627,7 +7118,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "rialto-pl16.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/rialto-pl16 copia.jpg",
@@ -6640,7 +7132,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "rialto-pl46.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/rialto-pl46 copia.jpg",
@@ -6653,7 +7146,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "rialto-pl92-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/rialto-pl92-amb copia.jpg",
@@ -6666,7 +7160,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "riga-pl-30-45-60-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/riga-pl-30-45-60-amb copia.jpg",
@@ -6679,7 +7174,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "rina-sp60-45-35-25-16_rev._3.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/rina-sp60-45-35-25-16 rev. 3 copia.jpg",
@@ -6692,7 +7188,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "romanza_PL_ROMANZA_10_F_CR_OR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/romanza PL ROMANZA 10 F CR OR copia.jpg",
@@ -6708,7 +7205,8 @@
             "cromo",
             "oro"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "romanza_ap_3f_amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/romanza ap 3f amb copia.jpg",
@@ -6724,7 +7222,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "saba-plaf.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/saba-plaf copia.jpg",
@@ -6737,7 +7236,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "saba-sp_60-50-40-30.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/saba-sp 60-50-40-30 copia.jpg",
@@ -6750,7 +7250,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "sangiorgio-pl16.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/sangiorgio-pl16 copia.jpg",
@@ -6763,7 +7264,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "sangiorgio-pl46-amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/sangiorgio-pl46-amb copia.jpg",
@@ -6776,7 +7278,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "segreto-part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/segreto-part copia.jpg",
@@ -6785,7 +7288,8 @@
         "imgSize": 2211692,
         "model": "segreto",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "sissi_rev1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/sissi rev1 copia.jpg",
@@ -6794,7 +7298,8 @@
         "imgSize": 2916976,
         "model": "sissi",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "smoking-composizione.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/smoking-composizione copia.jpg",
@@ -6803,7 +7308,8 @@
         "imgSize": 2539942,
         "model": "smoking",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "smoking-pt-bianca.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/smoking-pt-bianca copia.jpg",
@@ -6816,7 +7322,8 @@
             "terra"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "sogno-sp55-42.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/sogno-sp55-42 copia.jpg",
@@ -6829,7 +7336,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "sphere-bc-to-part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/sphere-bc-to-part copia.jpg",
@@ -6838,7 +7346,8 @@
         "imgSize": 3276437,
         "model": "sphere",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "spirit-part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/spirit-part copia.jpg",
@@ -6847,7 +7356,8 @@
         "imgSize": 4719092,
         "model": "spirit",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "style-ap50-part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/style-ap50-part copia.jpg",
@@ -6860,7 +7370,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "style-sp-30.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/style-sp-30 copia.jpg",
@@ -6873,7 +7384,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "style-sp-40.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/style-sp-40 copia.jpg",
@@ -6886,7 +7398,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "style-sp-50.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/style-sp-50 copia.jpg",
@@ -6899,7 +7412,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "thor-ap.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/thor-ap copia.jpg",
@@ -6912,7 +7426,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "tubes_sp_120-90-60-40-20-still_rev._1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/tubes sp 120-90-60-40-20-still rev. 1 copia.jpg",
@@ -6925,7 +7440,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "withwhite-rosone_acceso.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/withwhite-rosone acceso copia.jpg",
@@ -6934,7 +7450,8 @@
         "imgSize": 3091934,
         "model": "withwhite",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "withwhite-rosone_spento.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/withwhite-rosone spento copia.jpg",
@@ -6946,7 +7463,8 @@
             "topazio",
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "withwhitesp-g-m-p-x.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI 14.15 jpg alta/withwhitesp-g-m-p-x copia.jpg",
@@ -6955,7 +7473,8 @@
         "imgSize": 2229445,
         "model": "withwhitesp",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ARIA_SP_-_BC-CM.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/ARIA SP - BC-CM.jpg",
@@ -6971,7 +7490,8 @@
             "bianco",
             "metallizzato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ARIA_SP_-_BC-SF_amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/ARIA SP - BC-SF amb.jpg",
@@ -6989,7 +7509,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ARIA_SP_-_BC-XX.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/ARIA SP - BC-XX.jpg",
@@ -7004,7 +7525,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ARIA_SP_MIX.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/ARIA SP MIX.jpg",
@@ -7017,7 +7539,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CRISTALLINA_SP_-_BC-SF.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/CRISTALLINA SP - BC-SF.jpg",
@@ -7033,7 +7556,8 @@
             "bianco",
             "sfumato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CRISTALLINA_SP_-_CR-CM.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/CRISTALLINA SP - CR-CM.jpg",
@@ -7049,7 +7573,8 @@
             "cromo",
             "metallizzato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CRISTALLINA_SP_-_NE-SF_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/CRISTALLINA SP - NE-SF part.jpg",
@@ -7065,7 +7590,8 @@
             "sfumato",
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "CRISTALLINA_SP_-_NE-SF.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/CRISTALLINA SP - NE-SF.jpg",
@@ -7081,7 +7607,8 @@
             "sfumato",
             "nero"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DIADEMA_PT_18_-_LT_G_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/DIADEMA PT 18 - LT G CR.jpg",
@@ -7097,7 +7624,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DIADEMA_PT_30_-_LT_P_TO.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/DIADEMA PT 30 - LT P TO.jpg",
@@ -7113,7 +7641,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "DIADEMA_SP_MIX_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/DIADEMA SP MIX CR.jpg",
@@ -7128,7 +7657,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ECOS_SP_35_-_PT_35_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/ECOS SP 35 - PT 35 CR.jpg",
@@ -7143,7 +7673,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ESSENCE_SP_5_TO_-_LT_CR_-_PT_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/ESSENCE SP 5 TO - LT CR - PT CR.jpg",
@@ -7160,7 +7691,8 @@
             "cromo",
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "ESSENCE_SP_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/ESSENCE SP CR.jpg",
@@ -7175,7 +7707,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "FUTURA_LT_M_BC_-_P_GR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/FUTURA LT M BC - P GR.jpg",
@@ -7191,7 +7724,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "FUTURA_MIX.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/FUTURA MIX copia.jpg",
@@ -7200,7 +7734,8 @@
         "imgSize": 2293969,
         "model": "futura",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "FUTURA_PL_G_TO.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/FUTURA PL G TO.jpg",
@@ -7216,7 +7751,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "FUTURA_PT_FU_-_AP_TO.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/FUTURA PT FU - AP TO.jpg",
@@ -7232,7 +7768,8 @@
             "fume",
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "FUTURA_SP_MIX.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/FUTURA SP MIX.jpg",
@@ -7245,7 +7782,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "GIOGALI_SP_CUB_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/GIOGALI SP CUB CR.jpg",
@@ -7260,7 +7798,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "GIOGALI_SP_JEL_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/GIOGALI SP JEL CR.jpg",
@@ -7275,7 +7814,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "IMPLODE_LT_38-16.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/IMPLODE LT 38-16.jpg",
@@ -7288,7 +7828,8 @@
             "tavolo"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "JUBE_SP_-_SP_1_MIX.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/JUBE SP - SP 1 MIX.jpg",
@@ -7301,7 +7842,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "JUBE_SP_1G.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/JUBE SP 1G.jpg",
@@ -7314,7 +7856,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "JUBE_SP_G_-_SP_P.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/JUBE SP G - SP P.jpg",
@@ -7330,7 +7873,8 @@
         "color": [
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "JUBE_SP_P_-_SP_G.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/JUBE SP P - SP G.jpg",
@@ -7346,7 +7890,8 @@
         "color": [
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "JUBE_SP_P.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/JUBE SP P.jpg",
@@ -7359,7 +7904,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "KIRA_SP_P_-_BV_OT_NO.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/KIRA SP P - BV_OT_NO.jpg",
@@ -7373,7 +7919,8 @@
         ],
         "size": "piccola",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "KIRA_SP_P_-_NO.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/KIRA SP P - NO.jpg",
@@ -7387,7 +7934,8 @@
         ],
         "size": "piccola",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MINIGIOGALI_SP_CHA_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/MINIGIOGALI SP CHA CR.jpg",
@@ -7402,7 +7950,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MINIGIOGALI_SP_RAI_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/MINIGIOGALI SP RAI CR.jpg",
@@ -7417,7 +7966,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MIRAGE_SP_-_AM_BC-CR_FU.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/MIRAGE SP - AM_BC-CR_FU.jpg",
@@ -7435,7 +7985,8 @@
             "fume",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MIRAGE_SP_-_FU_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/MIRAGE SP - FU part.jpg",
@@ -7450,7 +8001,8 @@
         "color": [
             "fume"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MIRAGE_SP_-_FU.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/MIRAGE SP - FU.jpg",
@@ -7465,7 +8017,8 @@
         "color": [
             "fume"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MUNEGA_SP_G.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/MUNEGA SP G.jpg",
@@ -7478,7 +8031,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MUNEGA_SP_P.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/MUNEGA SP P.jpg",
@@ -7491,7 +8045,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NODO_SP_40-25.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/NODO SP 40-25.jpg",
@@ -7504,7 +8059,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NODO_SP_DET.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/NODO SP DET.jpg",
@@ -7517,7 +8073,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NOVECENTO_LT_-_CR-RI.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/NOVECENTO LT - CR-RI.jpg",
@@ -7533,7 +8090,8 @@
             "cromo",
             "rigato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NOVECENTO_PP_-_CR-RI_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/NOVECENTO PP - CR-RI part.jpg",
@@ -7550,7 +8108,8 @@
             "cromo",
             "rigato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NOVECENTO_PP_-_CR-RI.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/NOVECENTO PP - CR-RI.jpg",
@@ -7567,7 +8126,8 @@
             "cromo",
             "rigato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NOVECENTO_PT.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/NOVECENTO PT.jpg",
@@ -7580,7 +8140,8 @@
             "terra"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NOVECENTO_SP_G_-_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/NOVECENTO SP G - BC.jpg",
@@ -7596,7 +8157,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NOVECENTO_SP_G_-_CR-RI.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/NOVECENTO SP G - CR-RI.jpg",
@@ -7613,7 +8175,8 @@
             "cromo",
             "rigato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NOVECENTO_SP_M_-_CR-RI.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/NOVECENTO SP M - CR-RI.jpg",
@@ -7630,7 +8193,8 @@
             "cromo",
             "rigato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "NOVECENTO_SP_P_-_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/NOVECENTO SP P - BC.jpg",
@@ -7646,7 +8210,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "OTO_SP_CHA_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/OTO SP CHA CR.jpg",
@@ -7661,7 +8226,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "OTO_SP_LIN.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/OTO SP LIN.jpg",
@@ -7674,7 +8240,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "OTO_SP_MIX.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/OTO SP MIX.jpg",
@@ -7687,7 +8254,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "OTO_SP_R55.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/OTO SP R55.jpg",
@@ -7700,7 +8268,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "OTO_SP_RC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/OTO SP RC.jpg",
@@ -7713,7 +8282,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "OTO_SP_SUR_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/OTO SP SUR CR.jpg",
@@ -7728,7 +8298,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PEGGY_AP.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/PEGGY AP.jpg",
@@ -7741,7 +8312,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PEGGY_SP_9_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/PEGGY SP 9 part.jpg",
@@ -7754,7 +8326,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PEGGY_SP_9.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/PEGGY SP 9.jpg",
@@ -7767,7 +8340,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PEGGY_SP.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/PEGGY SP.jpg",
@@ -7782,7 +8356,8 @@
         "color": [
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "POC_LT_35-25-16_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/POC LT 35-25-16 BC.jpg",
@@ -7797,7 +8372,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PUPPET_SP_12_BC_random.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/PUPPET SP 12 BC random.jpg",
@@ -7812,7 +8388,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PUPPET_SP_18_P_TO_double.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/PUPPET SP 18 P TO double.jpg",
@@ -7828,7 +8405,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PUPPET_SP_24_P_FU_circular.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/PUPPET SP 24 P FU circular.jpg",
@@ -7844,7 +8422,8 @@
         "color": [
             "fume"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PUPPET_SP_36_P_TO_sphere.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/PUPPET SP 36 P TO sphere.jpg",
@@ -7861,7 +8440,8 @@
             "topazio",
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PUPPET_SP_6_P_BC_circular.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/PUPPET SP 6 P BC circular.jpg",
@@ -7877,7 +8457,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PUPPET_SP_G_-_CR.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/PUPPET SP G - CR.jpg",
@@ -7893,7 +8474,8 @@
         "color": [
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PUPPET_SP_L9_FU.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/PUPPET SP L9 FU.jpg",
@@ -7908,7 +8490,8 @@
         "color": [
             "fume"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PUPPET_SP_MIX.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/PUPPET SP MIX.jpg",
@@ -7921,7 +8504,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PUPPET_SP_R12.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/PUPPET SP R12.jpg",
@@ -7934,7 +8518,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PUPPET_SP_R6_-_AP_P_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/PUPPET SP R6 - AP P BC.jpg",
@@ -7950,7 +8535,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SATA_LT_-_BC-SF.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/SATA LT - BC-SF.jpg",
@@ -7966,7 +8552,8 @@
             "bianco",
             "sfumato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SATA_PT_-_AM-SF_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/SATA PT - AM-SF part.jpg",
@@ -7982,7 +8569,8 @@
             "sfumato",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SATA_PT_-_AM-SF.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/SATA PT - AM-SF.jpg",
@@ -7998,7 +8586,8 @@
             "sfumato",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SATA_SP_-_BC-SF.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/SATA SP - BC-SF.jpg",
@@ -8014,7 +8603,8 @@
             "bianco",
             "sfumato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SEMAI_LT_P.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/SEMAI LT P.jpg",
@@ -8027,7 +8617,8 @@
             "tavolo"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SEMAI_PL_G-M-P.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/SEMAI PL G-M-P.jpg",
@@ -8040,7 +8631,8 @@
             "soffitto"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SEMAI_SP_DET_ON.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/SEMAI SP DET ON.jpg",
@@ -8053,7 +8645,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SEMAI_SP_G-M-P.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/SEMAI SP G-M-P.jpg",
@@ -8066,7 +8659,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SEMAI_SP_G.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/SEMAI SP G.jpg",
@@ -8079,7 +8673,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SEMAI_SP_P_D2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/SEMAI SP P D2.jpg",
@@ -8093,7 +8688,10 @@
         ],
         "size": "piccola",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {
+            "d": "d2"
+        }
     },
     "STARDUST_AP_3.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/STARDUST AP 3.jpg",
@@ -8106,7 +8704,8 @@
             "parete"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "STARDUST_SP_-_AP_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/STARDUST SP - AP 1.jpg",
@@ -8119,7 +8718,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "STARDUST_SP_DOP_still.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/STARDUST SP DOP still.jpg",
@@ -8132,7 +8732,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "STARDUST_SP_DOP.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/STARDUST SP DOP.jpg",
@@ -8145,7 +8746,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "STARDUST_SP_Q.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/STARDUST SP Q.jpg",
@@ -8158,7 +8760,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "STARDUST_SP_R_-_LT.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/STARDUST SP R - LT.jpg",
@@ -8171,7 +8774,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "STARNET_SP_1.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/STARNET SP 1.jpg",
@@ -8184,7 +8788,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "STARNET_SP_2.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/STARNET SP 2.jpg",
@@ -8197,7 +8802,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "STARNET_SP_DET.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/STARNET SP DET.jpg",
@@ -8210,7 +8816,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "STONE_SP_-_BC-CR_.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/STONE SP - BC-CR .jpg",
@@ -8226,7 +8833,8 @@
             "bianco",
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "STONE_SP_-_BC-CR_amb.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/STONE SP - BC-CR amb.jpg",
@@ -8244,7 +8852,8 @@
             "ambra",
             "ambra"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "STONE_SP_-_BC-CR_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/STONE SP - BC-CR part.jpg",
@@ -8260,7 +8869,8 @@
             "bianco",
             "cromo"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "STONE_SP_-_BC-FU.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/STONE SP - BC-FU.jpg",
@@ -8276,7 +8886,8 @@
             "bianco",
             "fume"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SURFACE_SP_G_-_BC-XX_part.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/SURFACE SP G - BC-XX part.jpg",
@@ -8292,7 +8903,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SURFACE_SP_G_-_XX.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/SURFACE SP G - XX.jpg",
@@ -8306,7 +8918,8 @@
         ],
         "size": "grande",
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SURFACE_SP_MIX.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/SURFACE SP MIX.jpg",
@@ -8319,7 +8932,8 @@
             "sospensione"
         ],
         "color": [],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "SURFACE_SP_P_-_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/SURFACE SP P - BC.jpg",
@@ -8335,7 +8949,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "TUBES_LT_40-20_BC.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS (15.16.17) (JPG alta qualità)/TUBES LT 40-20 BC.jpg",
@@ -8350,7 +8965,8 @@
         "color": [
             "bianco"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MINIGIOGALI_SP_CLA_FU.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS 15.16 (JPG alta qualità)/MINIGIOGALI SP CLA FU.jpg",
@@ -8365,7 +8981,8 @@
         "color": [
             "fume"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "MINIGIOGALI_SP_CLO_TO.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS 15.16 (JPG alta qualità)/MINIGIOGALI SP CLO TO.jpg",
@@ -8380,7 +8997,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PUPPET_PT_6_P-_LT_P_TO.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS 15.16 (JPG alta qualità)/PUPPET PT 6 P- LT P TO.jpg",
@@ -8396,7 +9014,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PUPPET_SP_24_P_TO_circular.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS 15.16 (JPG alta qualità)/PUPPET SP 24 P TO circular.jpg",
@@ -8412,7 +9031,8 @@
         "color": [
             "topazio"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     },
     "PUPPET_SP_36_P_FU_sphere.jpg": {
         "path": "/Volumes/SSD-32giga/fornitori arteinluce/vistosi/immagini/IMMAGINI CAT. VISTOSI NEWS 15.16 (JPG alta qualità)/PUPPET SP 36 P FU sphere.jpg",
@@ -8429,6 +9049,7 @@
             "fume",
             "specchiato"
         ],
-        "led": 0
+        "led": 0,
+        "more": {}
     }
 }

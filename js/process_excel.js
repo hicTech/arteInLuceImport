@@ -67,11 +67,11 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                 }   
                                             });
 
-                                            fs.writeFile(path_cartella +"/result/"+cartella+'.json', JSON.stringify(json_fornitore), 'utf8', function(){
+                                            fs.writeFile(path_cartella +"/result/"+cartella+'.json', JSON.stringify(json_fornitore, null, 4), 'utf8', function(){
                                             //_.log("FINITO");
                                             });
 
-                                            fs.writeFile(path_cartella +"/result/"+cartella+'_aumentato.json', JSON.stringify(json_aumentato), 'utf8', function(){
+                                            fs.writeFile(path_cartella +"/result/"+cartella+'_aumentato.json', JSON.stringify(json_aumentato, null, 4), 'utf8', function(){
                                                 //_.log("FINITO");
                                             });
 
@@ -135,7 +135,9 @@ function adjustRow(row,fornitore,files_json){
         var size = undefined;
         var outdoor = undefined;
         var max_discount = undefined;
+        var more = undefined;
         var path = undefined;
+
     
 
         /* ================================================================= FOSCARINI */
@@ -166,6 +168,7 @@ function adjustRow(row,fornitore,files_json){
             size = getSize(cleaned_desc_it, cleaned_desc_en);;
             outdoor = isOutdoor(cleaned_desc_it, cleaned_desc_en);
             max_discount = undefined;
+            more = undefined;
             path = undefined;
             
             function cleanedName(desc, model){
@@ -636,9 +639,10 @@ function adjustRow(row,fornitore,files_json){
                 size = getSize(row["Descrizione"]);;
                 outdoor = undefined;
                 max_discount = undefined;
+                more = getMore(row["Descrizione"],model);
+                path = getPath(model, size, category, type, color, more);
+                
 
-
-                path = getPath(model, size, category, type, color);
                 
 
 
@@ -893,7 +897,7 @@ function adjustRow(row,fornitore,files_json){
                     return 0;
                 }
 
-                function getPath(model){
+                function getPath(model, size, category, type, color, more){
                     model = model.toLowerCase();
                     var ret = [];
                         
@@ -907,21 +911,20 @@ function adjustRow(row,fornitore,files_json){
                     });
 
                     
-                    let ret_scremato = screma(ret,model,size,category,type,color);
+                    let ret_scremato = screma(ret,model,size,category,type,color, more);
 
                     
                     return ret_scremato;                    
                 }
 
-                function screma(ret,model,size,category,type,color){
+                function screma(ret,model,size,category,type,color,more){
                     if(ret.length == 1)
                         return ret;
 
                     // screma per categoria
                     var ret_scremato_per_category = _.filter(ret,function(elem){
                                                         if(_.is(elem.category) && _.is(category)){
-                                                            //if(model == "aurora" && _.intersection(elem.category,category).length == 0)
-                                                                //_.log(elem.category+" - "+category)
+
                                                             return _.intersection(elem.category,category).length > 0;
                                                         }
                                                         else{
@@ -933,36 +936,26 @@ function adjustRow(row,fornitore,files_json){
                         }
                         else{
 
-
-                            
-                            
-
-
-
-
-
                             // scremo per tipo
                             var ret_scremato_per_type =  _.filter(ret_scremato_per_category,function(elem){
                                                     if(_.is(elem.type) && _.is(type)){
                                                         return elem.type == type;
                                                     }
                                                     else{
-                                                        
                                                         return true;
                                                     }
                                                         
                                                 });
-                            if(ret_scremato_per_type.length == 1)
+                            if(ret_scremato_per_type.length == 1){
                                 return ret_scremato_per_type;
+                            }
+
                             else{
-                                
-                                
-                                
 
                                 // scremo per size
                                 var ret_scremato_per_size =  _.filter(ret_scremato_per_type,function(elem){
                                     if(_.is(elem.size) && _.is(size))
-                                        return _.isEqual(elem.size,size);
+                                        return elem.size == size;
                                     else
                                         return true;
                                 });
@@ -970,18 +963,25 @@ function adjustRow(row,fornitore,files_json){
                                     return ret_scremato_per_size;
                                 else{
 
-                                    //_.log(ret_scremato_per_type.length);
-                                    return ret_scremato_per_type;
-                                    
+                                    //scremo per more
+                                    if(_.is(more)){
+                                        if(_.is(more.model_number)){
 
+                                            var mod_num = more.model_number.replace("F","");                                            
+
+                                            var ret_scremato_per_model_number = _.filter(ret_scremato_per_size,function(elem){
+                                                return elem.name.indexOf(mod_num) != -1
+                                            });
+
+                                            if(ret_scremato_per_model_number.length > 0)
+                                                ret_scremato_per_size = ret_scremato_per_model_number;
+                                        }
+                                    }
+                                        
+                                    return ret_scremato_per_size;
                                 }
                                 
-                                
-
                             }
-
-
-
 
                         }
                             
@@ -1069,63 +1069,15 @@ function adjustRow(row,fornitore,files_json){
                     }
                     else{
                         if(desc.indexOf(" PICCO") != -1){
-                            if(desc.indexOf(" PICCOD5") != -1){
-                                return "piccola d5";
-                            }
-                            if(desc.indexOf(" PICCOD4") != -1){
-                                return "piccola d4";
-                            }
-                            if(desc.indexOf(" PICCOD3") != -1){
-                                return "piccola d3";
-                            }
-                            if(desc.indexOf(" PICCOD2") != -1){
-                                return "piccola d2";
-                            }
-                            if(desc.indexOf(" PICCOD1") != -1){
-                                return "piccola d1";
-                            }
-                            else
                                 return "piccola";
                         }
                         else{
                             if(desc.indexOf(" MEDIA") != -1){
-                                if(desc.indexOf(" MEDIAD5") != -1){
-                                    return "media d5";
-                                }
-                                if(desc.indexOf(" MEDIAD4") != -1){
-                                    return "media d4";
-                                }
-                                if(desc.indexOf(" MEDIAD3") != -1){
-                                    return "media d3";
-                                }
-                                if(desc.indexOf(" MEDIAD2") != -1){
-                                    return "media d2";
-                                }
-                                if(desc.indexOf(" MEDIAD1") != -1){
-                                    return "media d1";
-                                }
-                                else
-                                    return "media";
+                                return "media";
                             }
                             else{
                                 if(desc.indexOf(" GRAND") != -1){
-                                    if(desc.indexOf(" GRANDD5") != -1){
-                                        return "grande d5";
-                                    }
-                                    if(desc.indexOf(" GRANDD4") != -1){
-                                        return "grande d4";
-                                    }
-                                    if(desc.indexOf(" GRANDD3") != -1){
-                                        return "grande d3";
-                                    }
-                                    if(desc.indexOf(" GRANDD2") != -1){
-                                        return "grande d2";
-                                    }
-                                    if(desc.indexOf(" GRANDD1") != -1){
-                                        return "grande d1";
-                                    }
-                                    else
-                                        return "grande";
+                                    return "grande";
                                 }
                                 else{
                                     if(desc.indexOf(" XL") != -1){
@@ -1148,8 +1100,8 @@ function adjustRow(row,fornitore,files_json){
                         finale == "OA3" || finale == "Q13" || finale == "RA3" || finale == "TA3" || finale == "S13" || finale == "J03" ||
                         finale == "GJ3" || finale == "I23" || finale == "J23" || finale == "GC3" || finale == "J33" || finale == "BA2" ||
                         finale == "J73" || finale == "GG3" || finale == "I73" || finale == "FG3" || finale == "FC3" || finale == "OG3" || 
-                        finale == "N73" || finale == "I33" || finale == "N33" || finale == "N73" || finale == "OC3" || finale == "I53" || 
-                        finale == "FE3" || finale == "GB3" || finale == "FH3" || finale == "I83" || finale == "I33"
+                        finale == "N73" || finale == "I33" || finale == "N33" || finale == "OC3" || finale == "I53" || 
+                        finale == "FE3" || finale == "GB3" || finale == "FH3" || finale == "I83" 
 
                     )
                         return finale ;
@@ -1158,7 +1110,57 @@ function adjustRow(row,fornitore,files_json){
                         
                 }
 
-                
+                function getMore(desc, model){
+                    desc = desc.replace(/  +/g, ' '); // elimino spazi multipli
+                    desc = desc.replace(model+" ",""); // elimino il nome del modello
+                    var desc_arr = desc.split(" ");
+
+                    var d = undefined;
+
+                    for(var i=0; i<desc_arr.length;i++){
+                        if( _.is(getD(desc_arr[i])) ){
+                            d = getD(desc_arr[i]);
+                        }
+                    }
+
+
+                    var model_number = undefined;
+                    
+                    
+                    
+                    for(var i=0; i<desc_arr.length;i++){
+                        if( hasNumber(desc_arr[i])  && !_.is(d) ){
+                            model_number = desc_arr[i];
+                            break;
+                        }
+                    }
+
+                    function hasNumber(str) {
+                        return !![].filter.call(str, isFinite).length
+                    }
+
+                    function getD(str){
+                        if(str.indexOf("D1") != -1 )
+                            return "d1";
+                        if(str.indexOf("D2") != -1)
+                            return "d2";
+                        if(str.indexOf("D3") != -1)
+                            return "d3";
+                        if(str.indexOf("D4") != -1)
+                            return "d4";
+                        if(str.indexOf("D5") != -1)
+                            return "d5";
+                        return undefined
+                    }
+
+                    
+
+                    return {
+                        model_number : model_number,
+                        d : d,
+                    };
+
+                }
                 
                 
             }
@@ -1176,28 +1178,29 @@ function adjustRow(row,fornitore,files_json){
             original_item_id:       original_item_id,                   // id originario (NON MANIPOLATO) dell'articolo
             item_id:                item_id,                            // l'id originario manipolato
             hicId:                  hicId,                              // identificativo interno ottenuto come supplier_id + item_id
-            //ean13:                  ean13,                              // codice a barre
-            //price:                  price,                              // imponibile
+            ean13:                  ean13,                              // codice a barre
+            price:                  price,                              // imponibile
             color:                  color,                              // prova a recuperare il colore dall'id
-            //desc_it:                cleaned_desc_it,                    // la descrizione in italiano
-            //desc_en:                cleaned_desc_en,                    // la descrizione in inglese 
-            //dimmer:                 dimmer,                             // se ha il dimmer o meno
-            //led:                    led,                                // se ha il led o meno
-            //halogen:                halogen,                            // se ha lampada alogena
-            //screw:                  screw,                              // tipo di attacco
-            //switcher:               switcher,                           // se ha l'interruttore o meno
+            desc_it:                cleaned_desc_it,                    // la descrizione in italiano
+            desc_en:                cleaned_desc_en,                    // la descrizione in inglese 
+            dimmer:                 dimmer,                             // se ha il dimmer o meno
+            led:                    led,                                // se ha il led o meno
+            halogen:                halogen,                            // se ha lampada alogena
+            screw:                  screw,                              // tipo di attacco
+            switcher:               switcher,                           // se ha l'interruttore o meno
             category:               category,                           // terra, tavolo, sospensione, soffitto, parete, montatura, kit, diffusore, set,
             type:                   type,                               // tipo di lampada
             size:                   size,                               // piuccola, media, grande,....
-            //outdoor:                outdoor,                            // se è da esterno o meno
-            //max_discount:           undefined,                          // massimo sconto applicabile
+            more:                   more,                               // contiene dei campi aggiuntivi (custom per ogni fornitore)
+            outdoor:                outdoor,                            // se è da esterno o meno
+            max_discount:           undefined,                          // massimo sconto applicabile
 
 
             path_length : (_.is(path))? path.length : "-",
             files : (_.is(path))? stampaNomiFile(path) : "-",
 
 
-            //path:                    path,                              // array dei path delle immagini
+            path:                    path,                              // array dei path delle immagini
         }
 }
 
