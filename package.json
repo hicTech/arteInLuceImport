@@ -24,6 +24,7 @@
     "csv": "~0.3.7",
     "filehound": "^1.16.5",
     "json2xls": "^0.1.2",
+    "mammoth": "^1.4.7",
     "string": "^3.3.3",
     "xls-to-json": "^0.5.1",
     "xlsx": "0.12.8"

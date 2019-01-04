@@ -16,7 +16,7 @@ const files = FileHound.create()
 
   function processaImmagini(files){
         
-        var files_json = {};
+        var images_json = {};
         _.each(files,function(file){
           let file_name = file.substr(file.lastIndexOf("/")+1);
           let file_id = S(file_name).replaceAll(" ","_").s;
@@ -28,7 +28,7 @@ const files = FileHound.create()
           
           
           // siccome ho visto che ci sono doppioni, ovvero foto col medesimo nome,
-          // costruisco un oggetto files_json nel quale elimino i doppioni
+          // costruisco un oggetto images_json nel quale elimino i doppioni
           // per ogni doppione viene presa la foto di maggior peso
           let stats = fs.statSync(file);
           let imgSize = stats.size;
@@ -40,8 +40,8 @@ const files = FileHound.create()
           let category = getCategory(type);
           let more = getMore(file_id,model)
           
-          if(!_.is(files_json[file_id])){
-              files_json[file_id] = {
+          if(!_.is(images_json[file_id])){
+              images_json[file_id] = {
                   path: file,
                   id: file_id,
                   name: file_name,
@@ -56,8 +56,8 @@ const files = FileHound.create()
                   
               }
           }else{
-              if(imgSize > files_json[file_id].size){
-                files_json[file_id] = {
+              if(imgSize > images_json[file_id].size){
+                images_json[file_id] = {
                     path: file,
                     id: file_id,
                     name: file_name,
@@ -415,10 +415,10 @@ const files = FileHound.create()
         }
             
             
-        //_.log(_.keys(files_json).length)
+        //_.log(_.keys(images_json).length)
         
 
-        fs.writeFile('files_json.json', JSON.stringify(files_json, null, 4), 'utf8', function(){
+        fs.writeFile('images_json.json', JSON.stringify(images_json, null, 4), 'utf8', function(){
             //_.log("FINITO");
         });
 

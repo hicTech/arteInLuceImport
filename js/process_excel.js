@@ -57,29 +57,37 @@ fs.readdir(path, function(err, cartella_fornitore) {
 
                                         var json_aumentato = [];
 
-                                        // prima provo a leggere il json delle immagini di ogni fornitore
-                                        // al success procedo con adjustRow
-                                        fs.readFile('./'+cartella+'/files_json.json', 'utf8', function(err, contents) {
-                                            let files_json = JSON.parse(contents);
-                                            _.each(json_fornitore,function(row){
-                                                if(!rigaVuota(row)){
-                                                    json_aumentato.push(adjustRow(row,cartella,files_json));
-                                                }   
-                                            });
+                                        // provo a leggere il json delle descrizioni di ogni fornitore
+                                        fs.readFile('./'+cartella+'/docx_json.json', 'utf8', function(err, contents) {
+                                            let desc_json = ( _.is(contents) )? JSON.parse(contents) : {};
 
-                                            fs.writeFile(path_cartella +"/result/"+cartella+'.json', JSON.stringify(json_fornitore, null, 4), 'utf8', function(){
-                                            //_.log("FINITO");
-                                            });
+                                            // provo a leggere il json delle immagini di ogni fornitore
+                                            // al success procedo con adjustRow
+                                            fs.readFile('./'+cartella+'/images_json.json', 'utf8', function(err, contents) {
+                                               let images_json = ( _.is(contents) )? JSON.parse(contents) : {};
+                                                _.each(json_fornitore,function(row){
+                                                    if(!rigaVuota(row)){
+                                                        json_aumentato.push(adjustRow(row,cartella,images_json, desc_json));
+                                                    }   
+                                                });
 
-                                            fs.writeFile(path_cartella +"/result/"+cartella+'_aumentato.json', JSON.stringify(json_aumentato, null, 4), 'utf8', function(){
+                                                fs.writeFile(path_cartella +"/result/"+cartella+'.json', JSON.stringify(json_fornitore, null, 4), 'utf8', function(){
                                                 //_.log("FINITO");
+                                                });
+
+                                                fs.writeFile(path_cartella +"/result/"+cartella+'_aumentato.json', JSON.stringify(json_aumentato, null, 4), 'utf8', function(){
+                                                    //_.log("FINITO");
+                                                });
+
+                                                let xls = json2xls(json_aumentato);
+
+                                                fs.writeFileSync(path_cartella +"/result/"+cartella+'_aumentato.xlsx', xls, 'binary');
+                                                
                                             });
 
-                                            let xls = json2xls(json_aumentato);
-
-                                            fs.writeFileSync(path_cartella +"/result/"+cartella+'_aumentato.xlsx', xls, 'binary');
-                                            
                                         });
+
+                                        
                                         
                                         
                     
@@ -109,7 +117,7 @@ fs.readdir(path, function(err, cartella_fornitore) {
 
 
 
-function adjustRow(row,fornitore,files_json){
+function adjustRow(row,fornitore,images_json, desc_json){
 
         var supplier = undefined;
         var supplier_id = undefined;
@@ -142,6 +150,9 @@ function adjustRow(row,fornitore,files_json){
 
         /* ================================================================= FOSCARINI */
         if(fornitore == "foscarini"){
+
+            
+            return false;
 
             supplier = "foscarini";
             supplier_id = supplierId(supplier);
@@ -625,10 +636,10 @@ function adjustRow(row,fornitore,files_json){
                 ean13 = undefined;
                 price = getPrice(row["Prezzo"]);
                 color = getColor(row["Descrizione"]);
-                desc_it = undefined; // da prendere dai word
-                desc_en = undefined; // da prendere dai word
-                cleaned_desc_it = undefined;
-                cleaned_desc_en = undefined;
+                desc_it = getDescription(model,desc_json,"it"); // da prendere dai word
+                desc_en = getDescription(model,desc_json,"en"); // da prendere dai word
+                cleaned_desc_it = desc_it;
+                cleaned_desc_en = desc_en;
                 dimmer = undefined;
                 led = hasLed(row["Descrizione"]);
                 halogen = hasHalogen(row["Descrizione"]);
@@ -724,11 +735,11 @@ function adjustRow(row,fornitore,files_json){
                     
 
                     if( indexOfInArray(desc_arr,"BIANC") != -1 || indexOfInArray(desc_arr,"BCO") != -1 ){
-                        if(desc_arr.filter(i => i === "BIANCO").length > 1) // è il caso in cui c'è "BIANCO BIANCO"
+                        if(desc_arr.filter(i => i === "BIANCO").length > 1) // è il caso in cui c'è due volte
                             colors.push("bianco");
                         colors.push("bianco");
                     }
-                    if( indexOfInArray(desc_arr," NER") != -1 ){
+                    if( indexOfInArray(desc_arr,"NER") != -1 ){
                         colors.push("nero");
                     }
                     if( indexOfInArray(desc_arr,"BCO/NER") != -1 ){
@@ -781,7 +792,7 @@ function adjustRow(row,fornitore,files_json){
                     if( indexOfInArray(desc_arr,"AVIO") != -1 ){
                         colors.push("blu avio");
                     }
-                    if( indexOfInArray(desc_arr," BLU") != -1 ){
+                    if( indexOfInArray(desc_arr,"BLU") != -1 ){
                         colors.push("blu");
                     }
                     if( indexOfInArray(desc_arr,"MULTICOL") != -1 ){
@@ -795,7 +806,7 @@ function adjustRow(row,fornitore,files_json){
                         colors.push("alessandrite");
                         colors.push("bronzo");
                     }
-                    if( indexOfInArray(desc_arr,"NI NER") != -1 ){
+                    if( indexOfInArray(desc_arr,"NI") != -1 ){
                         colors.push("nichel");
                         colors.push("nero");
                     }
@@ -879,7 +890,6 @@ function adjustRow(row,fornitore,files_json){
                         colors.push("opaco");
                     }
                     
-                    
                     return colors;
 
                         
@@ -901,7 +911,7 @@ function adjustRow(row,fornitore,files_json){
                     model = model.toLowerCase();
                     var ret = [];
                         
-                    _.each(files_json, function(file){
+                    _.each(images_json, function(file){
                         let file_model = file.model.toLowerCase();
                 
                         // confronto il modello
@@ -1129,7 +1139,7 @@ function adjustRow(row,fornitore,files_json){
                     
                     
                     for(var i=0; i<desc_arr.length;i++){
-                        if( hasNumber(desc_arr[i])  && !_.is(d) ){
+                        if( hasNumber(desc_arr[i])  && !_.is(getD(desc_arr[i])) ){
                             model_number = desc_arr[i];
                             break;
                         }
@@ -1160,6 +1170,16 @@ function adjustRow(row,fornitore,files_json){
                         d : d,
                     };
 
+                }
+
+                function getDescription(model, desc_json, lingua){
+                    var ret = "";
+                    _.each(desc_json, function(elem){
+                        if(elem.model.toLowerCase() == model.toLowerCase())
+                           ret = elem[lingua];
+                    })
+
+                    return ret;
                 }
                 
                 

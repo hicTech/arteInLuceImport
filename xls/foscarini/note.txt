@@ -1,4 +1,0 @@
--   uno dei file aveva moltissime righe vuote finali, non so come mai ma capita che una volta convertito in json questo abbia moltissime righe vuote
-    per ora quando parserizzato viene dato un avviso che avvisa se l'excell ha più di 5000 righe, quindi queste vanno cancellate a mano
-
--   SE CI SONO PIU’ EXCEL: bisogna accertarsi che le intestazioni delle colonne siano identiche (esempio Prezzo IVA Escl. che in alcuni è in italiano in altri in inglese)
