@@ -5808,7 +5808,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -5826,7 +5827,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -5844,7 +5846,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -5934,7 +5937,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -5952,7 +5956,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -5970,7 +5975,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -8784,7 +8790,8 @@
         "price": "93",
         "color": [],
         "category": [
-            "sospensione"
+            "sospensione",
+            "soffitto"
         ],
         "path_length": "-",
         "files": "-"
@@ -8800,7 +8807,8 @@
         "price": "93",
         "color": [],
         "category": [
-            "sospensione"
+            "sospensione",
+            "soffitto"
         ],
         "path_length": "-",
         "files": "-"
@@ -9096,7 +9104,8 @@
             "bianco"
         ],
         "category": [
-            "sospensione"
+            "sospensione",
+            "tavolo"
         ],
         "path_length": "-",
         "files": "-"
@@ -9114,7 +9123,8 @@
             "bianco"
         ],
         "category": [
-            "sospensione"
+            "sospensione",
+            "tavolo"
         ],
         "path_length": "-",
         "files": "-"
@@ -9132,7 +9142,8 @@
             "giallo"
         ],
         "category": [
-            "sospensione"
+            "sospensione",
+            "tavolo"
         ],
         "path_length": "-",
         "files": "-"
@@ -9150,7 +9161,8 @@
             "giallo"
         ],
         "category": [
-            "sospensione"
+            "sospensione",
+            "tavolo"
         ],
         "path_length": "-",
         "files": "-"
@@ -9168,7 +9180,8 @@
             "arancio"
         ],
         "category": [
-            "sospensione"
+            "sospensione",
+            "tavolo"
         ],
         "path_length": "-",
         "files": "-"
@@ -9186,7 +9199,8 @@
             "arancio"
         ],
         "category": [
-            "sospensione"
+            "sospensione",
+            "tavolo"
         ],
         "path_length": "-",
         "files": "-"
@@ -9748,7 +9762,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -9766,7 +9781,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -9784,7 +9800,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -9802,7 +9819,8 @@
             "rosso"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -9820,7 +9838,8 @@
             "rosso"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -9838,7 +9857,8 @@
             "rosso"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -13902,7 +13922,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -13920,7 +13941,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -13938,7 +13960,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -13956,7 +13979,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -13974,7 +13998,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -13992,7 +14017,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -14010,7 +14036,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -23224,7 +23251,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -23242,7 +23270,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -23260,7 +23289,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -23278,7 +23308,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -23296,7 +23327,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -23314,7 +23346,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -23332,7 +23365,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -23350,7 +23384,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -23368,7 +23403,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -23386,7 +23422,8 @@
             "grigio"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -23404,7 +23441,8 @@
             "grigio"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -23422,7 +23460,8 @@
             "grigio"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -23494,7 +23533,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -23512,7 +23552,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -23530,7 +23571,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -23548,7 +23590,8 @@
             "grigio"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -23566,7 +23609,8 @@
             "grigio"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -23584,7 +23628,8 @@
             "grigio"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25222,7 +25267,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25240,7 +25286,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25258,7 +25305,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25276,7 +25324,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25294,7 +25343,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25312,7 +25362,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25330,7 +25381,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25348,7 +25400,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25598,7 +25651,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25616,7 +25670,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25635,7 +25690,8 @@
             "verde"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25654,7 +25710,8 @@
             "verde"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25672,7 +25729,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25690,7 +25748,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25709,7 +25768,8 @@
             "blu"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25728,7 +25788,8 @@
             "blu"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25746,7 +25807,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25764,7 +25826,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25783,7 +25846,8 @@
             "verde"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25802,7 +25866,8 @@
             "verde"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25820,7 +25885,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25838,7 +25904,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25857,7 +25924,8 @@
             "blu"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -25876,7 +25944,8 @@
             "blu"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -36979,7 +37048,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -36997,7 +37067,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -37015,7 +37086,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -37033,7 +37105,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -37051,7 +37124,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -37069,7 +37143,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -52215,7 +52290,8 @@
             "grigio"
         ],
         "category": [
-            "tavolo"
+            "tavolo",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -52232,7 +52308,8 @@
             "grigio"
         ],
         "category": [
-            "tavolo"
+            "tavolo",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -52249,7 +52326,8 @@
             "grigio"
         ],
         "category": [
-            "tavolo"
+            "tavolo",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -52266,7 +52344,8 @@
             "grigio"
         ],
         "category": [
-            "tavolo"
+            "tavolo",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -52283,7 +52362,8 @@
             "giallo"
         ],
         "category": [
-            "tavolo"
+            "tavolo",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -52300,7 +52380,8 @@
             "giallo"
         ],
         "category": [
-            "tavolo"
+            "tavolo",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -52317,7 +52398,8 @@
             "giallo"
         ],
         "category": [
-            "tavolo"
+            "tavolo",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -52334,7 +52416,8 @@
             "giallo"
         ],
         "category": [
-            "tavolo"
+            "tavolo",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -52352,7 +52435,8 @@
             "rame"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -52370,7 +52454,8 @@
             "rame"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -52388,7 +52473,8 @@
             "rame"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -52406,7 +52492,8 @@
             "rame"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -52423,7 +52510,8 @@
             "nero"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -52440,7 +52528,8 @@
             "nero"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -52457,7 +52546,8 @@
             "nero"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -52474,7 +52564,8 @@
             "nero"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -52631,7 +52722,8 @@
             "bianco"
         ],
         "category": [
-            "terra"
+            "terra",
+            "tavolo"
         ],
         "path_length": "-",
         "files": "-"
@@ -52648,7 +52740,8 @@
             "bianco"
         ],
         "category": [
-            "terra"
+            "terra",
+            "tavolo"
         ],
         "path_length": "-",
         "files": "-"
@@ -52665,7 +52758,8 @@
             "grigio"
         ],
         "category": [
-            "terra"
+            "terra",
+            "tavolo"
         ],
         "path_length": "-",
         "files": "-"
@@ -52682,7 +52776,8 @@
             "grigio"
         ],
         "category": [
-            "terra"
+            "terra",
+            "tavolo"
         ],
         "path_length": "-",
         "files": "-"
@@ -55309,7 +55404,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -55326,7 +55422,8 @@
             "bianco"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -55343,7 +55440,8 @@
             "oro"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"
@@ -55360,7 +55458,8 @@
             "oro"
         ],
         "category": [
-            "soffitto"
+            "soffitto",
+            "parete"
         ],
         "path_length": "-",
         "files": "-"

@@ -406,28 +406,25 @@ function adjustRow(row,fornitore,images_json, desc_json){
 
             function getCategory(articolo){
                 var category = [];
+                
                 if( articolo.indexOf(" SOS") != -1 ){
                     category.push("sospensione");
                 }
-                else{
-                    if( articolo.indexOf("TERRA") != -1 ){
-                        category.push("terra");
-                    }
-                    else{
-                        if( articolo.indexOf("TAV") != -1 ){
-                            category.push("tavolo");
-                        }
-                        else{
-                            if( articolo.indexOf("SOFFITTO") != -1 ){
-                                category.push("soffitto");
-                            }
-                            else{
-                                if( articolo.indexOf("PARETE") != -1 )
-                                    category.push("parete");
-                            }
-                        }
-                            
-                    }
+               
+                if( articolo.indexOf("TERRA") != -1 ){
+                    category.push("terra");
+                }
+
+                if( articolo.indexOf("TAV") != -1 ){
+                    category.push("tavolo");
+                }
+
+                if( articolo.indexOf("SOFFITTO") != -1 ){
+                    category.push("soffitto");
+                }
+
+                if( articolo.indexOf("PARETE") != -1 ){
+                    category.push("parete");
                 }
 
                 return category;
