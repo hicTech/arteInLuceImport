@@ -122,8 +122,8 @@ function adjustRow(row,fornitore,images_json, desc_json){
         var supplier = undefined;
         var supplier_id = undefined;
         var model = undefined;
+        var original_model_id = undefined;
         var model_id = undefined;
-        var original_item_id = undefined;
         var item_id = undefined;
         var hicId = undefined;
         var ean13 = undefined;
@@ -151,473 +151,265 @@ function adjustRow(row,fornitore,images_json, desc_json){
         /* ================================================================= FOSCARINI */
         if(fornitore == "foscarini"){
 
+            var model_names = [
+                "ALLEGRETTO",   // il nome del modello può contenere le stringhe vivace, assai, ritmico
+                "ALLEGRO",      // il nome del modello può contenere le stringhe vivace, assai, ritmico
+                "ANISHA",
+                "APLOMB",
+                "ARUMI",
+                "BAHIA",
+                "BAHIA MINI",
+                "BEHIVE",
+                "BIG BANG",
+                "BINIC",
+                "BIRDIE",
+                "BIT",
+                "BLOB S",
+                "BUDS",
+                "CABOCHE",
+                "CAIIGO",
+                "CHOUCHIN",
+                "CIRCUS",
+                "COLIBRI",
+                "CRI-CRI",
+                "DOLL",
+                "DOLMEN",
+                "DOUBLE",
+                "ELLEPI",
+                "ESA",
+                "FIELDS",
+                "FILO",
+                "FOLIO",
+                "GEM",
+                "GIGA-LITE",
+                "GREGG",
+                "HAVANA",
+                "INNERLIGHT",
+                "JAMAICA",
+                "KITE",
+                "KURAGE",
+                "LAKE",
+                "LE SOLEIL",
+                "LIGHTWING",
+                "LUMIERE",
+                "LUMIERE", // il nome del modello può contenere le stringhe 2th, xxl, xxs
+                "MAGNETO",
+                "MAKI",
+                "MITE",
+                "NUAGE",
+                "ORBITAL",
+                "O-SPACE",
+                "PLANET",
+                "PLASS",
+                "POLY GREGG",
+                "RITUALS",
+                "RITUALS XL",
+                "SATELLIGHT",
+                "SPOKES",
+                "SPOKES 2 LARGE",
+                "SUPERNOVA",
+                "TARTAN",
+                "TITE",
+                "TIVU",
+                "TRESS",
+                "TRESS STILO",
+                "TROAG",
+                "TROPICO",
+                "TUAREG",
+                "TUTU'",
+                "TWICE AS TWIGGY",
+                "TWIGGY",
+                "TWIGGY LETTURA",
+                "TWIGGY XL",
+                "UTO",
+                "YOKO"
+            ]
             
-            return false;
-
-            supplier = "foscarini";
-            supplier_id = supplierId(supplier);
-            model = row["Model"];
-            model_id = modelId(model);
-            original_item_id = row["Item Code"];
-            item_id = itemId(original_item_id);
-            hicId = getHicId(supplier_id, item_id);
-            ean13 = (_.is(row["EAN13"]))? row["EAN13"] : undefined;
-            price = (_.is(row["Prezzo IVA Escl."]))? row["Prezzo IVA Escl."] : undefined;
-            color = getColor(item_id);
-            desc_it = row["Item"].toLowerCase().replace(/  +/g, ' ');
-            desc_en = row["Item Descr"].toLowerCase().replace(/  +/g, ' ');
-            // tolgo dalla descrizione in italiano e in inglese il nome dell'articolo
-            cleaned_desc_it = cleanedName(desc_it, model.toLowerCase());
-            cleaned_desc_en = cleanedName(desc_en, model.toLowerCase());
-            dimmer = hasDimmer(cleaned_desc_it, cleaned_desc_en);
-            led = hasLed(item_id);
-            halogen = hasHalogen(item_id,cleaned_desc_it, cleaned_desc_en);
-            screw = getScrew(cleaned_desc_it, cleaned_desc_en);
-            switcher = hasSwitcher(cleaned_desc_it);
-            category = getCategory(cleaned_desc_it, cleaned_desc_en);
-            type = undefined;
-            size = getSize(cleaned_desc_it, cleaned_desc_en);;
-            outdoor = isOutdoor(cleaned_desc_it, cleaned_desc_en);
-            max_discount = undefined;
-            more = undefined;
-            path = undefined;
+            var articolo = row["Articolo"];
             
-            function cleanedName(desc, model){
-                let cleaned_name = desc.replace(model,"").trim();
-                if(cleaned_name == "")
-                    _.log("ATTENZIONE! qualche articolo ha cleanedName vuoto");
-                return cleaned_name.replace(/  +/g, ' ');
+            if(articolo.indexOf(" GB")!=-1){
+                return false; // escludiamo gli articoli per il mercato inglese
             }
-
-            function hasDimmer(desc_it, desc_en){
-                if( 
-                    ( desc_it.indexOf("dimmer") != -1  || desc_it.indexOf("dimm") != -1  || desc_it.indexOf("dimm.") != -1  || desc_it.indexOf("dim.") != -1 || desc_it.indexOf("dim") != -1 ) &&
-                    ( desc_en.indexOf("dimmer") != -1  || desc_en.indexOf("dimm") != -1  || desc_en.indexOf("dimm.") != -1  || desc_en.indexOf("dim.") != -1 || desc_en.indexOf("dim") != -1 )
-                )
-                    return 1;
-                return 0;
+            else{
+                articolo = articolo;
+                supplier = "foscarini";
+                supplier_id = supplierId(supplier);
+                model = getModel(articolo,model_names);
+                original_model_id = row["Codice Componente"];
+                model_id = S(original_model_id).replaceAll(" ","_").s; 
+                item_id = model_id;
+                hicId = getHicId(supplier_id, item_id);
+                ean13 = undefined;
+                price = row["Europa"];
+                color = getColor(articolo);
             }
+                
 
-            function hasLed(id){
-                var ret = 0;
-                if(id.indexOf("L") != -1){
-                    if(id.indexOf("LD") != -1){
-                        ret = 1;
-                    }else{
-                        if(id.indexOf("L/") != -1){
-                            ret = 1;
-                        }
-                        else{
-                            if(id.indexOf("L-") != -1){
-                                ret = 1;
-                            }
-                            else{
-                                if(id.indexOf("LR1") != -1){
-                                    ret = 1;
-                                }
-                                else{
-                                    if(id.indexOf("LS") != -1){
-                                        ret = 1;
-                                    }
-                                    else{
-                                        if(id.indexOf("L") == id.length-1){
-                                            ret = 1;
-                                        }
-                                    }
-                                }
-                                
-                            }
-                        }
+            function getColor(articolo){
+                colors = [];
+                if( articolo.indexOf("BIA") != -1 || articolo.indexOf("WHITE ") != -1 ){
+                    if( articolo.indexOf("BIANCO CALDO") != -1 ){
+                        colors.push("bianco caldo");
                     }
-                }
-
-                return ret;
-                    
-            }
-
-            function itemId(item_id){
-                // come prima cosa sostituiamo gli spazi vuoti con "-"
-                item_id = S(item_id).replaceAll(" ","-").s;
-                // capita che le ultime due cifre del codice (che potrebbero indicare il colore) non siano separate dal "-"
-                // quindi nel caso in cui gli ultimi caratteri dell'id sono numeri NON preceduti da "-" aggiungo un "-"
-                let ultimi_due_caratteri = item_id.substr(item_id.length-2);
-                if( !isNaN(ultimi_due_caratteri) ){
-                    let terzultimo_carattere = item_id.substr(item_id.length-3, 1);
-                    if(terzultimo_carattere != "-"){ 
-                        let prima_parte = item_id.substr(0, item_id.length-2);
-                        let restante_parte = item_id.substr(item_id.length-2);
-                        let nuovo_codice = prima_parte+"-"+restante_parte;
-                        item_id = nuovo_codice;
+                    if( articolo.indexOf("BIANCO CALDO") != -1 ){
+                        colors.push("bianco caldo");
                     }
                     else{
-                        if( terzultimo_carattere == "/" ){
-                            let prima_parte = item_id.substr(0, item_id.length-3);
-                            let restante_parte = item_id.substr(item_id.length-2);
-                            let nuovo_codice = prima_parte+"-"+restante_parte;
-                            item_id = nuovo_codice;
-                        }
+                        colors.push("bianco");
                     }
                 }
-                return item_id;
-            }
-
-            function hasSwitcher(desc_it){
-                if(desc_it.indexOf("on/off") != -1)
-                    return 1;
-                return 0;
-            }
-
-            function hasColor(it, en){
-                let it_readable_color = ["bianco", "grigio","blu","marrone","oro", "nero", "rosso","azzurro", "indaco","verde", "rame",  "bronzo","arancione", "greige","cremisi","viola","carminio","giallo","ghiaccio", "naturale","avorio","grafite","trasparente", "cromo", "turchese","ciliegia","multicolore","colorato", "champ","amethyst queen","eastern coral","koh-i-noor","teodora","southern talisman","ruby jaypure","izmir","emerald king","amaranto","antraccite", "rosa","clour 01","clour 02","clour 03","clour 04","clour 05"];
-                let it_colors = ["bia", "grig","blu","marr","oro", "nero", "ross","azzu", "indac","ver", "rame",  "bronz","ara", "greig","cremisi","viol","carminio","giall","ghia", "natural","avor","grafi","trasp", "crom", "turc","cilie","multic","colorat", "champ","amethyst queen","eastern coral","koh-i-noor","teodora","southern talisman","ruby jaypure","izmir","emerald king","amarant","antrac", "rosa","clour 01","clour 02","clour 03","clour 04","clour 05"];
-                let en_colors = ["whit","grey","blu","brow","gold","black","red", "light","indac","gree","copper","bronz","oran","greig","cremisi","viol","carminio","yell", "ice",  "natural","ivor","graph","transp","chrom","turq","cherr","multic","coloured","champ","amethyst queen","eastern coral","koh-i-noor","teodora","southern talisman","ruby jaypure","izmir","emerald king","amarant","anthrac","pink","clour 01","clour 02","clour 03","clour 04","clour 05"];
-
-                let ret = false;
-
-                _.each(it_colors,function(it_color,index){
-                    if(it.indexOf(it_color) != -1 && en.indexOf(en_colors[index]) != -1)
-                        ret = true;
-                });
-
-                return ret;
-            
-            }
-
-            function getCategory(cleaned_desc_it, cleaned_desc_en){
-            
-                // parete/soffitto
-                var cleaned_it_en = cleaned_desc_it+" "+cleaned_desc_en;
-                if( cleaned_it_en.indexOf("parete/sof") != -1 || cleaned_it_en.indexOf("par./sof") != -1 || cleaned_it_en.indexOf("par/sof") != -1){
-                    return ["parete","soffitto"];
+                if( articolo.indexOf("NERO") != -1 || articolo.indexOf("NERA") != -1 ){
+                    colors.push("nero");
                 }
-
-                // sospensione/soffitto
-                if( cleaned_it_en.indexOf("sosp/soff") != -1){
-                    return ["sospensione","soffitto"];
+                if( articolo.indexOf("CROMO") != -1 || articolo.indexOf("CR.") != -1 ){
+                    colors.push("cromo");
                 }
-
-                // sospensione/tavolo
-                if( cleaned_it_en.indexOf("sospensione/tavolo") != -1){
-                    return ["sospensione","tavolo"];
+                if( articolo.indexOf("ARANCIO") != -1 || articolo.indexOf("ARAN.") != -1 ){
+                    colors.push("arancio");
                 }
-
-                if( 
-                    ( cleaned_desc_it.indexOf("terr") != -1 && cleaned_desc_en.indexOf("floor") != -1 ) ||
-                    ( cleaned_desc_it.indexOf("lett") != -1 && cleaned_desc_en.indexOf("floor") != -1 ) ||
-                    ( cleaned_desc_it.indexOf("lettu") != -1 && cleaned_desc_en.indexOf("read") != -1 ) ||
-                    ( cleaned_desc_it.indexOf("terra") != -1 ) 
-                
-                ){
-                    return ["terra"];
-                }else{
-                    if(
-                        ( cleaned_desc_it.indexOf("sosp") != -1 && cleaned_desc_en.indexOf("hang") != -1  ) ||
-                        ( cleaned_desc_it.indexOf("sosp") != -1 && cleaned_desc_en.indexOf("susp") != -1 )
-                    ){
-                        return ["sospensione"];
-                    }else{
-                        if(cleaned_desc_it.indexOf("pare") != -1 && cleaned_desc_en.indexOf("wall") != -1 ){
-                            return ["parete"];
-                        }else{
-                            if(cleaned_desc_it.indexOf("soff") != -1 && cleaned_desc_en.indexOf("ceil") != -1 ){
-                                return ["soffitto"]
-                            }else{
-                                if(
-                                    ( cleaned_desc_it.indexOf("tavo") != -1 && cleaned_desc_en.indexOf("tabl") != -1 ) ||
-                                    ( cleaned_desc_it.indexOf("tav.") != -1 && cleaned_desc_en.indexOf("tab") != -1  )
-                                ){
-                                    return ["tavolo"]; 
-                                }else{
-                                    
-                                        /* ========== ALTRE CATEGORIE DIVERSE DA QUELLE PRINCIPALI */
-                                        if( 
-                                            ( cleaned_desc_it.indexOf("kit ") != -1 && cleaned_desc_en.indexOf("kit ") != -1 ) ||
-                                            ( cleaned_desc_it.indexOf("set ") != -1 && cleaned_desc_en.indexOf("set ") != -1 )
-                                        ){
-                                            return ["altro","kit"];
-                                        }else{
-                                            if( 
-                                                ( cleaned_desc_it.indexOf("diffu") != -1 && cleaned_desc_en.indexOf("diffu") != -1 ) ||
-                                                ( cleaned_desc_it.indexOf("vetr") != -1 && cleaned_desc_en.indexOf("glass") != -1 )
-                                            ){
-                                                return ["altro","vetro"]
-                                            }else{
-                                                if( 
-                                                    ( cleaned_desc_it.indexOf("diffu") != -1 && cleaned_desc_en.indexOf("diffu") != -1 ) ||
-                                                    ( cleaned_desc_it.indexOf("vetr") != -1 && cleaned_desc_en.indexOf("glass") != -1 )
-                                                ){
-                                                    return ["altro","vetro"]
-                                                }else{
-                                                    if(cleaned_desc_it.indexOf("lumie") != -1)
-                                                        //_.log(cleaned_desc_it)
-                                                    return ["altro"]
-                                                }
-                                            }
-                                        }
-
-                                }
-                            }
-                        }
+                if( articolo.indexOf("GIALLO") != -1 || articolo.indexOf("GIAL.") != -1 || articolo.indexOf("GIAL ") != -1 || articolo.indexOf("GIALL.") != -1  || articolo.indexOf("G.ORO") != -1 ){
+                    colors.push("giallo");
+                }
+                if( articolo.indexOf("ORO") != -1 ){
+                    colors.push("oro");
+                }
+                if( articolo.indexOf("ALLU") != -1){
+                    colors.push("alluminio");
+                }
+                if( articolo.indexOf("TURCHESE") != -1){
+                    colors.push("turchese");
+                }
+                if( articolo.indexOf("AVORIO") != -1){
+                    colors.push("avorio");
+                }
+                if( articolo.indexOf("VERDE") != -1){
+                    if( articolo.indexOf("VERDE ACQUA") != -1){
+                        colors.push("verde acqua");
                     }
-                }
-            }
-
-            function isOutdoor(item_name, item_desc){
-                if( item_name.indexOf("out") != -1 && item_desc.indexOf("out") != -1 )
-                    return 1;
-                return 0;
-            }
-
-            function getColor(id){
-                
-                // rimuovo il led dal codice
-                if(id.indexOf("LD") != -1){
-                    id = id.replace("LD","");
-                }
-
-                if(id.indexOf("-D") != -1){
-                    id = id.replace("-D","");
-                }
-
-                if(id.indexOf("DR") != -1){
-                    id = id.replace("DR","");
-                }
-
-                if(id.indexOf("DM") != -1){
-                    id = id.replace("DM","");
-                }
-
-                if(id.indexOf("D") != -1){
-                // _.log(id);
-                }
-
-                let index = id.lastIndexOf("-");
-
-                
-                let color_number = 0;
-
-                if(index != -1){
-                    color_number = id.substr(index+1,2);
-                    
-                }
-
-
-
-                
-                if(color_number == "80")
-                    return "rame";
-
-                if(color_number == "10")
-                    return "bianco";
-
-                if(color_number == "11")
-                    return "bianco,alluminio";
-
-                if(color_number == "22")
-                    return "grafite";
-                
-                if(color_number == "42")
-                    return "verde acqua";
-                
-                if(color_number == "16")
-                    return "bianco trasparente";
-                        
-                if(color_number == "52")
-                    return "giallo oro";
-                
-                if(color_number == "55" || color_number == "56")
-                    return "giallo";
-
-                if(color_number == "66")
-                    return "multicolore";
-                
-                if(color_number == "20")
-                    return "nero";
-
-                if(color_number == "25")
-                    return "greige";
-
-                if(color_number == "67")
-                    return "cremisi";
-            
-
-                if(color_number == "87")
-                    return "indaco";
-            
-
-                if(color_number == "40")
-                    return "bianco,verde";
-            
-
-                if(color_number == "65")
-                    return "carminio";
-            
-
-                if(color_number == "01")
-                    return "color 01";
-            
-
-                if(color_number == "02")
-                    return "color 02";
-            
-                if(color_number == "03")
-                    return "color 03";
-            
-
-                if(color_number == "04")
-                    return "color 04";
-
-                if(color_number == "05")
-                    return "color 05";
-            
-
-                if(color_number == "63" || color_number == "64" || color_number == "51")
-                    return "rosso";
-            
-                if(color_number == "27")
-                    return "antracite";
-            
-
-                if(color_number == "53" || color_number == "14")
-                    return "arancione";
-
-                if(color_number == "65")
-                    return "amaranto";
-            
-                if(color_number == "12")
-                    return "bianco caldo";
-            
-                if(color_number == "24")
-                    return "grigio";
-                
-                if(color_number == "43")
-                    return "verde";
-                
-                if(color_number == "71")
-                    return "oro";
-
-                if(color_number == "43")
-                    return "verde";
-                
-                if(color_number == "78")
-                    return "cromo nero";
-                
-                if(color_number == "73")
-                    return "bronzo";
-
-                if(color_number == "26")
-                    return "grigio chiaro";
-                
-                if(color_number == "61")
-                    return "rosa";
-                
-                if(color_number == "33")
-                    return "blu";
-
-                if(color_number == "54")
-                    return "marrone";
-                
-                if(color_number == "51")
-                    return "trasparente bianco";
-                
-                if(color_number == "06")
-                    return "ruby jaypure";
-
-                if(color_number == "07")
-                    return "izmir";
-                
-                if(color_number == "08")
-                    return "emerald king";
-
-                if(color_number == "15")
-                    return "bianco sfumato";
-                
-                if(color_number == "32")
-                    return "turchese";
-                
-                if(color_number == "62")
-                    return "ciliegia";
-
-                if(color_number == "30")
-                    return "champagne";
-                
-                            
-                if(color_number == "50")
-                    return "avorio";
-                
-            
-            
-                    
-            }
-
-            function getMaterial(id,desc_it, desc_en){
-                if(
-                    ( desc_it.indexOf(" all") != -1 && desc_en.indexOf(" alu") != -1) ||
-                    ( desc_it.indexOf(" alu") != -1 && desc_en.indexOf(" alu") != -1) 
-                ){
-                    return "alluminio";
-                }
-                return 0;
-                    
-            }
-
-            function hasHalogen(id,desc_it, desc_en){
-                if( desc_it.indexOf(" alo") != -1 && desc_en.indexOf(" halo") != -1)
-                    return 1;
-                return 0;
-            }
-
-            function getSize(desc_it, desc_en){
-                if(desc_en.indexOf("large") != -1)
-                    return "grande";
-                else{
-                    if(desc_en.indexOf("small") != -1)
-                        return "piccola";
                     else{
-                        if(desc_en.indexOf("medi") != -1 || desc_en.indexOf("med.") != -1)
-                            return "media";
-                        else{
-                            if(desc_en.indexOf("mini ") != -1)
-                                return "mini";
-                            else{
-                                if(desc_en.indexOf("xxs") != -1)
-                                    return "xxs";
-                                else{
-                                    if(desc_en.indexOf("xxl") != -1)
-                                        return "xxl";
-                                    else{
-                                        if(desc_en.indexOf("xl") != -1)
-                                            return "xl";
-                                        else{
-                                            if(desc_en.indexOf("xs") != -1)
-                                                return "xs";
-                                            else{
-                                                return undefined;
-                                            }  
-                                        }  
-                                    }   
-                                }   
-                            }   
-                        }    
-                    }    
+                        colors.push("verde");
+                    }
                 }
-            }
-
-            function getScrew(desc_it,desc_en){
-                var desc_tot = desc_it+" "+desc_en;
-                var desc_arr = desc_tot.split(" ");
-                var ret = undefined;
-                _.each(desc_arr,function(str){
-                    if(str.length <= 3)
-                        ret = str;
-                });
-
-                if(ret == "e27" || ret == "e14" || ret == "g9"){
-                    return ret;
+                if( articolo.indexOf("GRIG") != -1){
+                    colors.push("grigio");
                 }
-                return undefined
+                if( articolo.indexOf("AMBRA") != -1){
+                    colors.push("ambra");
+                }
+                if( articolo.indexOf("ROSSO") != -1){
+                    colors.push("rosso");
+                }
+                if( articolo.indexOf("ROSA") != -1){
+                    colors.push("rosa");
+                }
+                if( articolo.indexOf("CILIEGIA") != -1){
+                    colors.push("ciliegia");
+                }
+                if( articolo.indexOf("AZZURRO") != -1){
+                    colors.push("azzurro");
+                }
+                if( articolo.indexOf("CHAMP") != -1){
+                    colors.push("champagne");
+                }
+                if( articolo.indexOf("GR.CR.") != -1){
+                    colors.push("grigio cromo");
+                }
+                if( articolo.indexOf("MULTICOLORE") != -1){
+                    colors.push("multicolore");
+                }
+                if( articolo.indexOf("RAME") != -1){
+                    colors.push("rame");
+                }
+                if( articolo.indexOf("GRAFITE") != -1){
+                    colors.push("grafite");
+                }
+                if( articolo.indexOf("GREIGE") != -1){
+                    colors.push("greige");
+                }
+                if( articolo.indexOf("CREMISI") != -1){
+                    colors.push("cremisi");
+                }
+                if( articolo.indexOf("INDACO") != -1){
+                    colors.push("indaco");
+                }
+                if( articolo.indexOf("CARMINIO") != -1){
+                    colors.push("carminio");
+                }
+                if( articolo.indexOf("MARRONE") != -1){
+                    colors.push("marrone");
+                }
+                if( articolo.indexOf("ANTR") != -1){
+                    colors.push("antracite");
+                }
+                if( articolo.indexOf("AMARANTO") != -1){
+                    colors.push("amaranto");
+                }
+                if( articolo.indexOf("IZMIR") != -1){
+                    colors.push("izmin");
+                }
+                if( articolo.indexOf("EMERALD KING") != -1){
+                    colors.push("emerald king");
+                }
+                if( articolo.indexOf("RUBY JAYPURE") != -1){
+                    colors.push("ruby jaypure");
+                }
+                if( articolo.indexOf("TEODORA") != -1){
+                    colors.push("teodora");
+                }
+                if( articolo.indexOf("SOUTHERN TALISMAN") != -1){
+                    colors.push("southern talisman");
+                }
+                if( articolo.indexOf("EASTERN CORAL") != -1){
+                    colors.push("eastern coral");
+                }
+                if( articolo.indexOf("AMETHYST QUEEN") != -1){
+                    colors.push("amethyst queen");
+                }
+                if( articolo.indexOf("KOH-I-NOOR") != -1){
+                    colors.push("koh-i-noor");
+                }
+                if( articolo.indexOf("CARMINIO") != -1){
+                    colors.push("carminio");
+                }
+                if( articolo.indexOf("COLORATO") != -1){
+                    colors.push("colorato");
+                }
+                if( articolo.indexOf("BRONZO") != -1){
+                    colors.push("bronzo");
+                }
+                if( articolo.indexOf("BLU") != -1){
+                    colors.push("blu");
+                }
+                if( articolo.indexOf("TRAS") != -1){
+                    colors.push("trasparente");
+                }
+                if( articolo.indexOf("NATURALE") != -1){
+                    colors.push("naturale");
+                }
                 
+
+                return colors;
+
+                    
             }
+            
+
+
+            function getModel(articolo,model_names){
+                for(var i=0; i<model_names.length; i++){
+                    if( articolo.indexOf(model_names[i]) != -1 ){
+                        return model_names[i];
+                    }
+                }
+                _.log(articolo);
+            }
+
+            
+
+            
+            
+            
+            
 
             
 
@@ -629,9 +421,9 @@ function adjustRow(row,fornitore,images_json, desc_json){
                 supplier = "vistosi";
                 supplier_id = supplierId(supplier);
                 model = getModel(row["Descrizione"]);
+                original_model_id = row["Codice articolo"];
                 model_id = modelId(model);
-                original_item_id = row["Codice articolo"];
-                item_id = itemId(original_item_id);
+                item_id = itemId(original_model_id);
                 hicId = getHicId(supplier_id, item_id);
                 ean13 = undefined;
                 price = getPrice(row["Prezzo"]);
@@ -646,7 +438,7 @@ function adjustRow(row,fornitore,images_json, desc_json){
                 screw = getScrew(row["Descrizione"]);
                 switcher = undefined;
                 category = getCategory(row["Descrizione"]);
-                type = getType(original_item_id);
+                type = getType(original_model_id);
                 size = getSize(row["Descrizione"]);;
                 outdoor = undefined;
                 max_discount = undefined;
@@ -844,7 +636,7 @@ function adjustRow(row,fornitore,images_json, desc_json){
                     if( indexOfInArray(desc_arr,"FUME") != -1 ){
                         colors.push("fume");
                     }
-                    if( indexOfInArray(desc_arr,"TRASPAR") != -1 ){
+                    if( indexOfInArray(desc_arr,"TRAS") != -1 ){
                         colors.push("trasparente");
                     }
                     if( indexOfInArray(desc_arr,"CRISTAL") != -1 ){
@@ -1194,8 +986,8 @@ function adjustRow(row,fornitore,images_json, desc_json){
             supplier:               supplier,                           // nome del fornitore
             supplier_id :           supplier_id,                        // identificativo del fonitore
             model:                  model,                              // modello/famiglia dell'articolo
+            original_model_id:      original_model_id,                  // id originario (NON MANIPOLATO) dell'articolo
             model_id:               model_id,                           // identificativo della famiglia di articolo ottenuto con replace(" ","_");
-            original_item_id:       original_item_id,                   // id originario (NON MANIPOLATO) dell'articolo
             item_id:                item_id,                            // l'id originario manipolato
             hicId:                  hicId,                              // identificativo interno ottenuto come supplier_id + item_id
             ean13:                  ean13,                              // codice a barre
