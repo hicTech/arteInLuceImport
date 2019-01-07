@@ -242,6 +242,7 @@ function adjustRow(row,fornitore,images_json, desc_json){
                 ean13 = undefined;
                 price = row["Europa"];
                 color = getColor(articolo);
+                category = getCategory(articolo);
             }
                 
 
@@ -401,7 +402,36 @@ function adjustRow(row,fornitore,images_json, desc_json){
                         return model_names[i];
                     }
                 }
-                _.log(articolo);
+            }
+
+            function getCategory(articolo){
+                var category = [];
+                if( articolo.indexOf(" SOS") != -1 ){
+                    category.push("sospensione");
+                }
+                else{
+                    if( articolo.indexOf("TERRA") != -1 ){
+                        category.push("terra");
+                    }
+                    else{
+                        if( articolo.indexOf("TAV") != -1 ){
+                            category.push("tavolo");
+                        }
+                        else{
+                            if( articolo.indexOf("SOFFITTO") != -1 ){
+                                category.push("soffitto");
+                            }
+                            else{
+                                if( articolo.indexOf("PARETE") != -1 )
+                                    category.push("parete");
+                            }
+                        }
+                            
+                    }
+                }
+
+                return category;
+                    
             }
 
             
