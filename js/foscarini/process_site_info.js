@@ -33,7 +33,7 @@ avvia(index);
 
 function avvia(index){
     if(index == pages_number){
-        fs.writeFile('site_info.json', JSON.stringify(info, null, 4), 'utf8', function(){
+        fs.writeFile('site_info_remote.json', JSON.stringify(info, null, 4), 'utf8', function(){
             _.log("FINITO");
         });
         return true;
