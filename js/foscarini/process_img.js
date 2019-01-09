@@ -4,7 +4,7 @@ var S = require('string');
 const FileHound = require('filehound');
 
 const files = FileHound.create()
-  .paths('/Volumes/SSD-32giga/fornitori\ arteinluce/vistosi/immagini')
+  .paths('/Volumes/SSD-32giga/fornitori\ arteinluce/foscarini/immagini')
   .ext('jpg','jpeg')
   .find()
   .then( files => {
@@ -14,40 +14,22 @@ const files = FileHound.create()
 
   function processaImmagini(files){
         
-        var images_json = {};
+        var temp_arr = [];
         _.each(files,function(file){
-          let file_name = file.substr(file.lastIndexOf("/")+1);
-          let file_id = S(file_name).replaceAll(" ","_").s;
-          
-          // siccome ho visto che ci sono doppioni, ovvero foto col medesimo nome,
-          // costruisco un oggetto images_json nel quale elimino i doppioni
-          // per ogni doppione viene presa la foto di maggior peso
-          let stats = fs.statSync(file);
-          let size = stats.size;
-          
-          if(!_.is(images_json[file_id])){
-              images_json[file_id] = {
-                  path: file,
-                  id: file_id,
-                  name: file_name,
-                  size: size,
-              }
-          }else{
-              if(size > images_json[file_id].size){
-                images_json[file_id] = {
-                    path: file,
-                    id: file_id,
-                    name: file_name,
-                    size: size,
-                }
-              }
-          }
+            let file_name = file.substr(file.lastIndexOf("/")+1).toLowerCase();
+            let file_name_id = S(file_name).replaceAll(" ","_").replaceAll("__","_").replaceAll(".jpg","").s;
+            //let prefix_code = file_name_id.substr(0,file_name_id.indexOf("_"));
+            temp_arr.push(file_name_id);
+
           
         });
 
-        fs.writeFile('images_json.json', JSON.stringify(images_json), 'utf8', function(){
+        _.log(temp_arr.length)
+        
+
+        //fs.writeFile('images_json.json', JSON.stringify(images_json), 'utf8', function(){
             //_.log("FINITO");
-        });
+        //});
 
        
   }

@@ -152,10 +152,16 @@ function adjustRow(row,fornitore,images_json, desc_json){
         if(fornitore == "foscarini"){
 
             var model_names = [
-                "ALLEGRETTO",   // il nome del modello può contenere le stringhe vivace, assai, ritmico
-                "ALLEGRO",      // il nome del modello può contenere le stringhe vivace, assai, ritmico
+                "ALLEGRETTO VIVACE",
+                "ALLEGRETTO ASSAI",
+                "ALLEGRETTO RITMICO",   
+                "ALLEGRO VIVACE",
+                "ALLEGRO ASSAI",
+                "ALLEGRO RITMICO",      
                 "ANISHA",
                 "APLOMB",
+                "APLOMB MINI",
+                "APLOMB LARGE",
                 "ARUMI",
                 "BAHIA",
                 "BAHIA MINI",
@@ -163,12 +169,26 @@ function adjustRow(row,fornitore,images_json, desc_json){
                 "BIG BANG",
                 "BINIC",
                 "BIRDIE",
+                "BIRDIE LETTURA",
+                "BIRDIE LED LETTURA",
+                "BIRDIE 1",
+                "BIRDIE 3",
+                "BIRDIE 6",
+                "BIRDIE 9",
                 "BIT",
                 "BLOB S",
                 "BUDS",
                 "CABOCHE",
                 "CAIIGO",
-                "CHOUCHIN",
+                "CHOUCHIN 1",
+                "CHOUCHIN 2",
+                "CHOUCHIN 3",
+                "CHOUCHIN 1 REVERSE",
+                "CHOUCHIN 2 REVERSE",
+                "CHOUCHIN 3 REVERSE",
+                "CHOUCHIN 1 MINI",
+                "CHOUCHIN 2 MINI",
+                "CHOUCHIN 3 MINI",
                 "CIRCUS",
                 "COLIBRI",
                 "CRI-CRI",
@@ -192,7 +212,9 @@ function adjustRow(row,fornitore,images_json, desc_json){
                 "LE SOLEIL",
                 "LIGHTWING",
                 "LUMIERE",
-                "LUMIERE", // il nome del modello può contenere le stringhe 2th, xxl, xxs
+                "LUMIERE 25TH",
+                "LUMIERE XXS",
+                "LUMIERE XXL",
                 "MAGNETO",
                 "MAKI",
                 "MITE",
@@ -202,14 +224,18 @@ function adjustRow(row,fornitore,images_json, desc_json){
                 "PLANET",
                 "PLASS",
                 "POLY GREGG",
-                "RITUALS",
+                "RITUALS 1",
+                "RITUALS 2",
+                "RITUALS 3",
                 "RITUALS XL",
                 "SATELLIGHT",
-                "SPOKES",
+                "SPOKES 1",
+                "SPOKES 2",
                 "SPOKES 2 LARGE",
                 "SUPERNOVA",
                 "TARTAN",
-                "TITE",
+                "TITE 1",
+                "TITE 2",
                 "TIVU",
                 "TRESS",
                 "TRESS STILO",
@@ -243,6 +269,15 @@ function adjustRow(row,fornitore,images_json, desc_json){
                 price = row["Europa"];
                 color = getColor(articolo);
                 category = getCategory(articolo);
+                dimmer = (articolo.indexOf("DIM") != -1)? 1 : 0;
+                led = (articolo.indexOf("LED") != -1)? 1 : 0;
+                halogen = (articolo.indexOf("ALO") != -1)? 1 : 0;
+                screw = getScrew(articolo);
+                switcher = (articolo.indexOf("ON/OFF") != -1)? 1 : 0;
+                type = undefined;
+                size = getSize(articolo);
+                outdoor = (articolo.indexOf("OUTDOOR") != -1)? 1 : 0;
+                max_discount = 0;
             }
                 
 
@@ -393,15 +428,16 @@ function adjustRow(row,fornitore,images_json, desc_json){
 
                     
             }
-            
-
 
             function getModel(articolo,model_names){
+                var ret = "";
                 for(var i=0; i<model_names.length; i++){
                     if( articolo.indexOf(model_names[i]) != -1 ){
-                        return model_names[i];
+                        if(model_names[i].length > ret.length)
+                            ret = model_names[i];
                     }
                 }
+                return ret;
             }
 
             function getCategory(articolo){
@@ -431,6 +467,42 @@ function adjustRow(row,fornitore,images_json, desc_json){
                     
             }
 
+            function getScrew(articolo){
+                if(articolo.indexOf("G9") != -1)
+                    return "g9";
+                else{
+                    if(articolo.indexOf("E14") != -1)
+                        return "e14";
+                    else{
+                        if(articolo.indexOf("E27") != -1)
+                            return "e27";
+                        else{
+                           return undefined;
+                        }
+                    }
+                }
+            }
+
+            function getSize(articolo){
+                if(articolo.indexOf("PICCO") != -1 || articolo.indexOf("PICCC") != -1)
+                    return "piccola";
+                if(articolo.indexOf("GRAND") != -1)
+                    return "grande";
+                if(articolo.indexOf("MED") != -1)
+                    return "media";
+                if(articolo.indexOf(" MINI ") != -1)
+                    return "mini";
+                if(articolo.indexOf(" LARGE ") != -1)
+                    return "large";
+                if(articolo.indexOf(" XXS ") != -1)
+                    return "xxs";
+                if(articolo.indexOf(" XXL ") != -1)
+                    return "xxl";
+                if(articolo.indexOf(" XS ") != -1)
+                    return "xs";
+                if(articolo.indexOf(" XL ") != -1)
+                    return "xl";
+            }
             
 
             

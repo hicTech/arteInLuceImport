@@ -632,7 +632,7 @@
     {
         "Eire": "315",
         "Codice Articolo": "210071E-05",
-        "Articolo": "CHOUCHIN 1 SOSP.E27 RETROF.REVER.ARANCIO",
+        "Articolo": "CHOUCHIN 1 REVERSE SOSP.E27 RETROF.REVER.ARANCIO",
         "Codice Componente": "210S001E-05",
         "Componente": "VETRO CHOUCHIN 1 E27 REVERSE ARANCIO",
         "Sottofamiglia": "CHOUCHIN 1 SOSPENSIONE E27",
@@ -642,7 +642,7 @@
     {
         "Eire": "149",
         "Codice Articolo": "210071E-05",
-        "Articolo": "CHOUCHIN 1 SOSP.E27 RETROF.REVER.ARANCIO",
+        "Articolo": "CHOUCHIN 1 REVERSE SOSP.E27 RETROF.REVER.ARANCIO",
         "Codice Componente": "E27S07/3",
         "Componente": "MONTATURA CON PTL E27 H.3,5M.",
         "Sottofamiglia": "CHOUCHIN 1 SOSPENSIONE E27",
@@ -652,7 +652,7 @@
     {
         "Eire": "464",
         "Codice Articolo": "210071E-05",
-        "Articolo": "CHOUCHIN 1 SOSP.E27 RETROF.REVER.ARANCIO",
+        "Articolo": "CHOUCHIN 1 REVERSE SOSP.E27 RETROF.REVER.ARANCIO",
         "Codice Componente": "210071E-05",
         "Componente": "CHOUCHIN 1 SOSP.E27 RETROF.REVER.ARANCIO",
         "Sottofamiglia": "CHOUCHIN 1 SOSPENSIONE E27",
@@ -662,7 +662,7 @@
     {
         "Eire": "284",
         "Codice Articolo": "210072E-04",
-        "Articolo": "CHOUCHIN 2 SOSP.E27 RETROF.REVERSE VERDE",
+        "Articolo": "CHOUCHIN 2 REVERSE SOSP.E27 RETROF.REVERSE VERDE",
         "Codice Componente": "210S002E-04",
         "Componente": "VETRO CHOUCHIN 2 E27 REVERSE VERDE",
         "Sottofamiglia": "CHOUCHIN 2 SOSPENSIONE E27",
@@ -672,7 +672,7 @@
     {
         "Eire": "149",
         "Codice Articolo": "210072E-04",
-        "Articolo": "CHOUCHIN 2 SOSP.E27 RETROF.REVERSE VERDE",
+        "Articolo": "CHOUCHIN 2 REVERSE SOSP.E27 RETROF.REVERSE VERDE",
         "Codice Componente": "E27S07/3",
         "Componente": "MONTATURA CON PTL E27 H.3,5M.",
         "Sottofamiglia": "CHOUCHIN 2 SOSPENSIONE E27",
@@ -682,7 +682,7 @@
     {
         "Eire": "433",
         "Codice Articolo": "210072E-04",
-        "Articolo": "CHOUCHIN 2 SOSP.E27 RETROF.REVERSE VERDE",
+        "Articolo": "CHOUCHIN 2 REVERSE SOSP.E27 RETROF.REVERSE VERDE",
         "Codice Componente": "210072E-04",
         "Componente": "CHOUCHIN 2 SOSP.E27 RETROF.REVERSE VERDE",
         "Sottofamiglia": "CHOUCHIN 2 SOSPENSIONE E27",
@@ -692,7 +692,7 @@
     {
         "Eire": "222",
         "Codice Articolo": "210073E-02",
-        "Articolo": "CHOUCHIN 3 SOSP.E27 RETROFIT REV.GRIGIO",
+        "Articolo": "CHOUCHIN 3 REVERSE SOSP.E27 RETROFIT REV.GRIGIO",
         "Codice Componente": "210S003E-02",
         "Componente": "VETRO CHOUCHIN 3 E27 REVERSE GRIGIO",
         "Sottofamiglia": "CHOUCHIN 3 SOSPENSIONE E27",
@@ -702,7 +702,7 @@
     {
         "Eire": "149",
         "Codice Articolo": "210073E-02",
-        "Articolo": "CHOUCHIN 3 SOSP.E27 RETROFIT REV.GRIGIO",
+        "Articolo": "CHOUCHIN 3 REVERSE SOSP.E27 RETROFIT REV.GRIGIO",
         "Codice Componente": "E27S07/3",
         "Componente": "MONTATURA CON PTL E27 H.3,5M.",
         "Sottofamiglia": "CHOUCHIN 3 SOSPENSIONE E27",
@@ -712,7 +712,7 @@
     {
         "Eire": "371",
         "Codice Articolo": "210073E-02",
-        "Articolo": "CHOUCHIN 3 SOSP.E27 RETROFIT REV.GRIGIO",
+        "Articolo": "CHOUCHIN 3 REVERSE SOSP.E27 RETROFIT REV.GRIGIO",
         "Codice Componente": "210073E-02",
         "Componente": "CHOUCHIN 3 SOSP.E27 RETROFIT REV.GRIGIO",
         "Sottofamiglia": "CHOUCHIN 3 SOSPENSIONE E27",
@@ -1072,7 +1072,7 @@
     {
         "Eire": "",
         "Codice Articolo": "0260012R2 30",
-        "Articolo": "LUMIERE PICCOLA ALLUMINIO 25TH ON/OFF",
+        "Articolo": "LUMIERE 25TH PICCOLA ALLUMINIO 25TH ON/OFF",
         "Codice Componente": "026S002R 30",
         "Componente": "VETRO LUMIERE PICCOLA G9 25TH",
         "Sottofamiglia": "LUMIERE PICCOLA TAVOLO",
@@ -1082,7 +1082,7 @@
     {
         "Eire": "",
         "Codice Articolo": "0260012R2 30",
-        "Articolo": "LUMIERE PICCOLA ALLUMINIO 25TH ON/OFF",
+        "Articolo": "LUMIERE 25TH PICCOLA ALLUMINIO 25TH ON/OFF",
         "Codice Componente": "026S012R3",
         "Componente": "MONT.LUMIERE PICCOLA G9 ON/OFF ALLUMINIO",
         "Sottofamiglia": "LUMIERE PICCOLA TAVOLO",
@@ -1092,7 +1092,7 @@
     {
         "Eire": "",
         "Codice Articolo": "0260012R2 30",
-        "Articolo": "LUMIERE PICCOLA ALLUMINIO 25TH ON/OFF",
+        "Articolo": "LUMIERE 25TH PICCOLA ALLUMINIO 25TH ON/OFF",
         "Codice Componente": "0260012R2 30",
         "Componente": "LUMIERE PICCOLA ALLUMINIO 25TH ON/OFF",
         "Sottofamiglia": "LUMIERE PICCOLA TAVOLO",
@@ -1102,7 +1102,7 @@
     {
         "Eire": "",
         "Codice Articolo": "0260012R2 30D",
-        "Articolo": "LUMIERE PICCOLA ALLUMINIO 25TH DIMMER",
+        "Articolo": "LUMIERE 25TH PICCOLA ALLUMINIO 25TH DIMMER",
         "Codice Componente": "026S002R 30",
         "Componente": "VETRO LUMIERE PICCOLA G9 25TH",
         "Sottofamiglia": "LUMIERE PICCOLA TAVOLO",
@@ -1112,7 +1112,7 @@
     {
         "Eire": "",
         "Codice Articolo": "0260012R2 30D",
-        "Articolo": "LUMIERE PICCOLA ALLUMINIO 25TH DIMMER",
+        "Articolo": "LUMIERE 25TH PICCOLA ALLUMINIO 25TH DIMMER",
         "Codice Componente": "026S012R3 D",
         "Componente": "MONT.LUMIERE PICCOLA G9 ALLUM. DIMMER",
         "Sottofamiglia": "LUMIERE PICCOLA TAVOLO",
@@ -1122,7 +1122,7 @@
     {
         "Eire": "",
         "Codice Articolo": "0260012R2 30D",
-        "Articolo": "LUMIERE PICCOLA ALLUMINIO 25TH DIMMER",
+        "Articolo": "LUMIERE 25TH PICCOLA ALLUMINIO 25TH DIMMER",
         "Codice Componente": "0260012R2 30D",
         "Componente": "LUMIERE PICCOLA ALLUMINIO 25TH DIMMER",
         "Sottofamiglia": "LUMIERE PICCOLA TAVOLO",
@@ -1252,7 +1252,7 @@
     {
         "Eire": "",
         "Codice Articolo": "026001R2 30",
-        "Articolo": "LUMIERE GRANDE ALLUM 25TH ON/OFF",
+        "Articolo": "LUMIERE 25TH GRANDE ALLUM 25TH ON/OFF",
         "Codice Componente": "026S00 30",
         "Componente": "VETRO LUMIERE GRANDE 25TH",
         "Sottofamiglia": "LUMIERE GRANDE TAVOLO",
@@ -1262,7 +1262,7 @@
     {
         "Eire": "",
         "Codice Articolo": "026001R2 30",
-        "Articolo": "LUMIERE GRANDE ALLUM 25TH ON/OFF",
+        "Articolo": "LUMIERE 25TH GRANDE ALLUM 25TH ON/OFF",
         "Codice Componente": "026S01R2",
         "Componente": "MONT.LUMIERE GRANDE ALLUMINIO ON/OFF",
         "Sottofamiglia": "LUMIERE GRANDE TAVOLO",
@@ -1272,7 +1272,7 @@
     {
         "Eire": "",
         "Codice Articolo": "026001R2 30",
-        "Articolo": "LUMIERE GRANDE ALLUM 25TH ON/OFF",
+        "Articolo": "LUMIERE 25TH GRANDE ALLUM 25TH ON/OFF",
         "Codice Componente": "026001R2 30",
         "Componente": "LUMIERE GRANDE ALLUM 25TH ON/OFF",
         "Sottofamiglia": "LUMIERE GRANDE TAVOLO",
@@ -1282,7 +1282,7 @@
     {
         "Eire": "",
         "Codice Articolo": "026001R2 30 D",
-        "Articolo": "LUMIERE GRANDE ALLUM 25TH DIMMER",
+        "Articolo": "LUMIERE 25TH GRANDE ALLUM 25TH DIMMER",
         "Codice Componente": "026S00 30",
         "Componente": "VETRO LUMIERE GRANDE 25TH",
         "Sottofamiglia": "LUMIERE GRANDE TAVOLO",
@@ -1292,7 +1292,7 @@
     {
         "Eire": "",
         "Codice Articolo": "026001R2 30 D",
-        "Articolo": "LUMIERE GRANDE ALLUM 25TH DIMMER",
+        "Articolo": "LUMIERE 25TH GRANDE ALLUM 25TH DIMMER",
         "Codice Componente": "026S01R2 D",
         "Componente": "MONT.LUMIERE GRANDE ALLUMINIO DIMMER",
         "Sottofamiglia": "LUMIERE GRANDE TAVOLO",
@@ -1302,7 +1302,7 @@
     {
         "Eire": "",
         "Codice Articolo": "026001R2 30 D",
-        "Articolo": "LUMIERE GRANDE ALLUM 25TH DIMMER",
+        "Articolo": "LUMIERE 25TH GRANDE ALLUM 25TH DIMMER",
         "Codice Componente": "026001R2 30 D",
         "Componente": "LUMIERE GRANDE ALLUM 25TH DIMMER",
         "Sottofamiglia": "LUMIERE GRANDE TAVOLO",
@@ -1432,7 +1432,7 @@
     {
         "Eire": "",
         "Codice Articolo": "0260112R2 30",
-        "Articolo": "LUMIERE PICCOLA CROMO NERO 25TH ON/OFF",
+        "Articolo": "LUMIERE 25TH PICCOLA CROMO NERO 25TH ON/OFF",
         "Codice Componente": "026S002R 30",
         "Componente": "VETRO LUMIERE PICCOLA G9 25TH",
         "Sottofamiglia": "LUMIERE PICCOLA TAVOLO",
@@ -1442,7 +1442,7 @@
     {
         "Eire": "",
         "Codice Articolo": "0260112R2 30",
-        "Articolo": "LUMIERE PICCOLA CROMO NERO 25TH ON/OFF",
+        "Articolo": "LUMIERE 25TH PICCOLA CROMO NERO 25TH ON/OFF",
         "Codice Componente": "026S012R3 20",
         "Componente": "MONT.LUMIERE PICCOLA G9 ON/OFF CR.NERO",
         "Sottofamiglia": "LUMIERE PICCOLA TAVOLO",
@@ -1452,7 +1452,7 @@
     {
         "Eire": "",
         "Codice Articolo": "0260112R2 30",
-        "Articolo": "LUMIERE PICCOLA CROMO NERO 25TH ON/OFF",
+        "Articolo": "LUMIERE 25TH PICCOLA CROMO NERO 25TH ON/OFF",
         "Codice Componente": "0260112R2 30",
         "Componente": "LUMIERE PICCOLA CROMO NERO 25TH ON/OFF",
         "Sottofamiglia": "LUMIERE PICCOLA TAVOLO",
@@ -1462,7 +1462,7 @@
     {
         "Eire": "",
         "Codice Articolo": "0260112R2 30D",
-        "Articolo": "LUMIERE PICCOLA CROMO NERO 25TH DIMMER",
+        "Articolo": "LUMIERE 25TH PICCOLA CROMO NERO 25TH DIMMER",
         "Codice Componente": "026S002R 30",
         "Componente": "VETRO LUMIERE PICCOLA G9 25TH",
         "Sottofamiglia": "LUMIERE PICCOLA TAVOLO",
@@ -1472,7 +1472,7 @@
     {
         "Eire": "",
         "Codice Articolo": "0260112R2 30D",
-        "Articolo": "LUMIERE PICCOLA CROMO NERO 25TH DIMMER",
+        "Articolo": "LUMIERE 25TH PICCOLA CROMO NERO 25TH DIMMER",
         "Codice Componente": "026S012R3 20D",
         "Componente": "MONT.LUMIERE PICCOLA G9 CR.NERO DIMME",
         "Sottofamiglia": "LUMIERE PICCOLA TAVOLO",
@@ -1482,7 +1482,7 @@
     {
         "Eire": "",
         "Codice Articolo": "0260112R2 30D",
-        "Articolo": "LUMIERE PICCOLA CROMO NERO 25TH DIMMER",
+        "Articolo": "LUMIERE 25TH PICCOLA CROMO NERO 25TH DIMMER",
         "Codice Componente": "0260112R2 30D",
         "Componente": "LUMIERE PICCOLA CROMO NERO 25TH DIMMER",
         "Sottofamiglia": "LUMIERE PICCOLA TAVOLO",
@@ -1612,7 +1612,7 @@
     {
         "Eire": "",
         "Codice Articolo": "026011R2 30",
-        "Articolo": "LUMIERE GRANDE CR.NERO 25TH ON/OFF",
+        "Articolo": "LUMIERE 25TH GRANDE CR.NERO 25TH ON/OFF",
         "Codice Componente": "026S00 30",
         "Componente": "VETRO LUMIERE GRANDE 25TH",
         "Sottofamiglia": "LUMIERE GRANDE TAVOLO",
@@ -1622,7 +1622,7 @@
     {
         "Eire": "",
         "Codice Articolo": "026011R2 30",
-        "Articolo": "LUMIERE GRANDE CR.NERO 25TH ON/OFF",
+        "Articolo": "LUMIERE 25TH GRANDE CR.NERO 25TH ON/OFF",
         "Codice Componente": "026S01R2 20",
         "Componente": "MONT.LUMIERE GRANDE ON/OFF CROMO NERO",
         "Sottofamiglia": "LUMIERE GRANDE TAVOLO",
@@ -1632,7 +1632,7 @@
     {
         "Eire": "",
         "Codice Articolo": "026011R2 30",
-        "Articolo": "LUMIERE GRANDE CR.NERO 25TH ON/OFF",
+        "Articolo": "LUMIERE 25TH GRANDE CR.NERO 25TH ON/OFF",
         "Codice Componente": "026011R2 30",
         "Componente": "LUMIERE GRANDE CR.NERO 25TH ON/OFF",
         "Sottofamiglia": "LUMIERE GRANDE TAVOLO",
@@ -1642,7 +1642,7 @@
     {
         "Eire": "",
         "Codice Articolo": "026011R2 30 D",
-        "Articolo": "LUMIERE GRANDE CR.NERO 25TH DIMMER",
+        "Articolo": "LUMIERE 25TH GRANDE CR.NERO 25TH DIMMER",
         "Codice Componente": "026S00 30",
         "Componente": "VETRO LUMIERE GRANDE 25TH",
         "Sottofamiglia": "LUMIERE GRANDE TAVOLO",
@@ -1652,7 +1652,7 @@
     {
         "Eire": "",
         "Codice Articolo": "026011R2 30 D",
-        "Articolo": "LUMIERE GRANDE CR.NERO 25TH DIMMER",
+        "Articolo": "LUMIERE 25TH GRANDE CR.NERO 25TH DIMMER",
         "Codice Componente": "026S01R2 20D",
         "Componente": "MONT.LUMIERE GRANDE CROMO NERO DIMMER",
         "Sottofamiglia": "LUMIERE GRANDE TAVOLO",
@@ -1662,7 +1662,7 @@
     {
         "Eire": "",
         "Codice Articolo": "026011R2 30 D",
-        "Articolo": "LUMIERE GRANDE CR.NERO 25TH DIMMER",
+        "Articolo": "LUMIERE 25TH GRANDE CR.NERO 25TH DIMMER",
         "Codice Componente": "026011R2 30 D",
         "Componente": "LUMIERE GRANDE CR.NERO 25TH DIMMER",
         "Sottofamiglia": "LUMIERE GRANDE TAVOLO",
@@ -1792,7 +1792,7 @@
     {
         "Eire": "",
         "Codice Articolo": "0260212R2 30",
-        "Articolo": "LUMIERE PICCOLA CHAMPAGNE 25TH ON/OFF",
+        "Articolo": "LUMIERE 25TH PICCOLA CHAMPAGNE 25TH ON/OFF",
         "Codice Componente": "026S002R 30",
         "Componente": "VETRO LUMIERE PICCOLA G9 25TH",
         "Sottofamiglia": "LUMIERE PICCOLA TAVOLO",
@@ -1802,7 +1802,7 @@
     {
         "Eire": "",
         "Codice Articolo": "0260212R2 30",
-        "Articolo": "LUMIERE PICCOLA CHAMPAGNE 25TH ON/OFF",
+        "Articolo": "LUMIERE 25TH PICCOLA CHAMPAGNE 25TH ON/OFF",
         "Codice Componente": "026S012R3 50",
         "Componente": "MONT.LUMIERE PICCOLA G9 ON/OFF CHAMPAGNE",
         "Sottofamiglia": "LUMIERE PICCOLA TAVOLO",
@@ -1812,7 +1812,7 @@
     {
         "Eire": "",
         "Codice Articolo": "0260212R2 30",
-        "Articolo": "LUMIERE PICCOLA CHAMPAGNE 25TH ON/OFF",
+        "Articolo": "LUMIERE 25TH PICCOLA CHAMPAGNE 25TH ON/OFF",
         "Codice Componente": "0260212R2 30",
         "Componente": "LUMIERE PICCOLA CHAMPAGNE 25TH ON/OFF",
         "Sottofamiglia": "LUMIERE PICCOLA TAVOLO",
@@ -1822,7 +1822,7 @@
     {
         "Eire": "",
         "Codice Articolo": "0260212R2 30D",
-        "Articolo": "LUMIERE PICCOLA CHAMPAGNE 25TH DIMMER",
+        "Articolo": "LUMIERE 25TH PICCOLA CHAMPAGNE 25TH DIMMER",
         "Codice Componente": "026S002R 30",
         "Componente": "VETRO LUMIERE PICCOLA G9 25TH",
         "Sottofamiglia": "LUMIERE PICCOLA TAVOLO",
@@ -1832,7 +1832,7 @@
     {
         "Eire": "",
         "Codice Articolo": "0260212R2 30D",
-        "Articolo": "LUMIERE PICCOLA CHAMPAGNE 25TH DIMMER",
+        "Articolo": "LUMIERE 25TH PICCOLA CHAMPAGNE 25TH DIMMER",
         "Codice Componente": "026S012R3 50D",
         "Componente": "MONT.LUMIERE PICCOLA G9 CHAMPAGNE DIMM.",
         "Sottofamiglia": "LUMIERE PICCOLA TAVOLO",
@@ -1842,7 +1842,7 @@
     {
         "Eire": "",
         "Codice Articolo": "0260212R2 30D",
-        "Articolo": "LUMIERE PICCOLA CHAMPAGNE 25TH DIMMER",
+        "Articolo": "LUMIERE 25TH PICCOLA CHAMPAGNE 25TH DIMMER",
         "Codice Componente": "0260212R2 30D",
         "Componente": "LUMIERE PICCOLA CHAMPAGNE 25TH DIMMER",
         "Sottofamiglia": "LUMIERE PICCOLA TAVOLO",
@@ -1972,7 +1972,7 @@
     {
         "Eire": "",
         "Codice Articolo": "026021R2 30",
-        "Articolo": "LUMIERE GRANDE CHAMPAGNE 25TH ON/OFF",
+        "Articolo": "LUMIERE 25TH GRANDE CHAMPAGNE 25TH ON/OFF",
         "Codice Componente": "026S00 30",
         "Componente": "VETRO LUMIERE GRANDE 25TH",
         "Sottofamiglia": "LUMIERE GRANDE TAVOLO",
@@ -1982,7 +1982,7 @@
     {
         "Eire": "",
         "Codice Articolo": "026021R2 30",
-        "Articolo": "LUMIERE GRANDE CHAMPAGNE 25TH ON/OFF",
+        "Articolo": "LUMIERE 25TH GRANDE CHAMPAGNE 25TH ON/OFF",
         "Codice Componente": "026S01R2 50",
         "Componente": "MONT.LUMIERE GRANDE ON/OFF CHAMPAGNE",
         "Sottofamiglia": "LUMIERE GRANDE TAVOLO",
@@ -1992,7 +1992,7 @@
     {
         "Eire": "",
         "Codice Articolo": "026021R2 30",
-        "Articolo": "LUMIERE GRANDE CHAMPAGNE 25TH ON/OFF",
+        "Articolo": "LUMIERE 25TH GRANDE CHAMPAGNE 25TH ON/OFF",
         "Codice Componente": "026021R2 30",
         "Componente": "LUMIERE GRANDE CHAMPAGNE 25TH ON/OFF",
         "Sottofamiglia": "LUMIERE GRANDE TAVOLO",
@@ -2002,7 +2002,7 @@
     {
         "Eire": "",
         "Codice Articolo": "026021R2 30 D",
-        "Articolo": "LUMIERE GRANDE CHAMPAGNE 25TH DIMMER",
+        "Articolo": "LUMIERE 25TH GRANDE CHAMPAGNE 25TH DIMMER",
         "Codice Componente": "026S00 30",
         "Componente": "VETRO LUMIERE GRANDE 25TH",
         "Sottofamiglia": "LUMIERE GRANDE TAVOLO",
@@ -2012,7 +2012,7 @@
     {
         "Eire": "",
         "Codice Articolo": "026021R2 30 D",
-        "Articolo": "LUMIERE GRANDE CHAMPAGNE 25TH DIMMER",
+        "Articolo": "LUMIERE 25TH GRANDE CHAMPAGNE 25TH DIMMER",
         "Codice Componente": "026S01R2 50D",
         "Componente": "MONT.LUMIERE GRANDE CHAMPAGNE DIMMER",
         "Sottofamiglia": "LUMIERE GRANDE TAVOLO",
@@ -2022,7 +2022,7 @@
     {
         "Eire": "",
         "Codice Articolo": "026021R2 30 D",
-        "Articolo": "LUMIERE GRANDE CHAMPAGNE 25TH DIMMER",
+        "Articolo": "LUMIERE 25TH GRANDE CHAMPAGNE 25TH DIMMER",
         "Codice Componente": "026021R2 30 D",
         "Componente": "LUMIERE GRANDE CHAMPAGNE 25TH DIMMER",
         "Sottofamiglia": "LUMIERE GRANDE TAVOLO",
@@ -15402,7 +15402,7 @@
     {
         "Eire": "315",
         "Codice Articolo": "210071E/10-05",
-        "Articolo": "CHOUCHIN 1 SOSP.E27 RETROF.REV.ARAN.H.10M",
+        "Articolo": "CHOUCHIN 1 REVERSE SOSP.E27 RETROF.REV.ARAN.H.10M",
         "Codice Componente": "210S001E-05",
         "Componente": "VETRO CHOUCHIN 1 E27 REVERSE ARANCIO",
         "Sottofamiglia": "CHOUCHIN 1 SOSPENSIONE E27",
@@ -15412,7 +15412,7 @@
     {
         "Eire": "193",
         "Codice Articolo": "210071E/10-05",
-        "Articolo": "CHOUCHIN 1 SOSP.E27 RETROF.REV.ARAN.H.10M",
+        "Articolo": "CHOUCHIN 1 REVERSE SOSP.E27 RETROF.REV.ARAN.H.10M",
         "Codice Componente": "E27S07/10",
         "Componente": "MONTATURA CON PTL E27 H.10M.",
         "Sottofamiglia": "CHOUCHIN 1 SOSPENSIONE E27",
@@ -15422,7 +15422,7 @@
     {
         "Eire": "508",
         "Codice Articolo": "210071E/10-05",
-        "Articolo": "CHOUCHIN 1 SOSP.E27 RETROF.REV.ARAN.H.10M",
+        "Articolo": "CHOUCHIN 1 REVERSE SOSP.E27 RETROF.REV.ARAN.H.10M",
         "Codice Componente": "210071E/10-05",
         "Componente": "CHOUCHIN 1 SOSP.E27 RETROF.REV.ARAN.H.10M",
         "Sottofamiglia": "CHOUCHIN 1 SOSPENSIONE E27",
@@ -15462,7 +15462,7 @@
     {
         "Eire": "315",
         "Codice Articolo": "210071L 05",
-        "Articolo": "CHOUCHIN 1 SOSP.LED REVERSE ARANCIO",
+        "Articolo": "CHOUCHIN 1 REVERSE SOSP.LED REVERSE ARANCIO",
         "Codice Componente": "210S001R1 05",
         "Componente": "VETRO CHOUCHIN 1 REVERSE ARANCIO",
         "Sottofamiglia": "CHOUCHIN 1 SOSPENSIONE LED",
@@ -15472,7 +15472,7 @@
     {
         "Eire": "257",
         "Codice Articolo": "210071L 05",
-        "Articolo": "CHOUCHIN 1 SOSP.LED REVERSE ARANCIO",
+        "Articolo": "CHOUCHIN 1 REVERSE SOSP.LED REVERSE ARANCIO",
         "Codice Componente": "LMDS07/3",
         "Componente": "MODULO SOSPENSIONE LED 2700K CRI90 H.3,5M.",
         "Sottofamiglia": "CHOUCHIN 1 SOSPENSIONE LED",
@@ -15482,7 +15482,7 @@
     {
         "Eire": "572",
         "Codice Articolo": "210071L 05",
-        "Articolo": "CHOUCHIN 1 SOSP.LED REVERSE ARANCIO",
+        "Articolo": "CHOUCHIN 1 REVERSE SOSP.LED REVERSE ARANCIO",
         "Codice Componente": "210071L 05",
         "Componente": "CHOUCHIN 1 SOSP.LED REVERSE ARANCIO",
         "Sottofamiglia": "CHOUCHIN 1 SOSPENSIONE LED",
@@ -15522,7 +15522,7 @@
     {
         "Eire": "315",
         "Codice Articolo": "210071L/10-05",
-        "Articolo": "CHOUCHIN 1 SOSP.LED REVERSE ARANCIO H.10M",
+        "Articolo": "CHOUCHIN 1 REVERSE SOSP.LED REVERSE ARANCIO H.10M",
         "Codice Componente": "210S001R1 05",
         "Componente": "VETRO CHOUCHIN 1 REVERSE ARANCIO",
         "Sottofamiglia": "CHOUCHIN 1 SOSPENSIONE LED",
@@ -15532,7 +15532,7 @@
     {
         "Eire": "299",
         "Codice Articolo": "210071L/10-05",
-        "Articolo": "CHOUCHIN 1 SOSP.LED REVERSE ARANCIO H.10M",
+        "Articolo": "CHOUCHIN 1 REVERSE SOSP.LED REVERSE ARANCIO H.10M",
         "Codice Componente": "LMDS07/10",
         "Componente": "MODULO SOSPENSIONE LED 2700K CRI90 H.10M.",
         "Sottofamiglia": "CHOUCHIN 1 SOSPENSIONE LED",
@@ -15542,7 +15542,7 @@
     {
         "Eire": "614",
         "Codice Articolo": "210071L/10-05",
-        "Articolo": "CHOUCHIN 1 SOSP.LED REVERSE ARANCIO H.10M",
+        "Articolo": "CHOUCHIN 1 REVERSE SOSP.LED REVERSE ARANCIO H.10M",
         "Codice Componente": "210071L/10-05",
         "Componente": "CHOUCHIN 1 SOSP.LED REVERSE ARANCIO H.10M",
         "Sottofamiglia": "CHOUCHIN 1 SOSPENSIONE LED",
@@ -15582,7 +15582,7 @@
     {
         "Eire": "315",
         "Codice Articolo": "210071LD 05",
-        "Articolo": "CHOUCHIN 1 SOSP.LED DIMM.REVERSE ARANCIO",
+        "Articolo": "CHOUCHIN 1 REVERSE SOSP.LED DIMM.REVERSE ARANCIO",
         "Codice Componente": "210S001R1 05",
         "Componente": "VETRO CHOUCHIN 1 REVERSE ARANCIO",
         "Sottofamiglia": "CHOUCHIN 1 SOSPENSIONE LED",
@@ -15592,7 +15592,7 @@
     {
         "Eire": "313",
         "Codice Articolo": "210071LD 05",
-        "Articolo": "CHOUCHIN 1 SOSP.LED DIMM.REVERSE ARANCIO",
+        "Articolo": "CHOUCHIN 1 REVERSE SOSP.LED DIMM.REVERSE ARANCIO",
         "Codice Componente": "LMDS07D/3",
         "Componente": "MODULO SOSP.LED 2700K CRI90 DIMMERABILE H.3,5M.",
         "Sottofamiglia": "CHOUCHIN 1 SOSPENSIONE LED",
@@ -15602,7 +15602,7 @@
     {
         "Eire": "628",
         "Codice Articolo": "210071LD 05",
-        "Articolo": "CHOUCHIN 1 SOSP.LED DIMM.REVERSE ARANCIO",
+        "Articolo": "CHOUCHIN 1 REVERSE SOSP.LED DIMM.REVERSE ARANCIO",
         "Codice Componente": "210071LD 05",
         "Componente": "CHOUCHIN 1 SOSP.LED DIMM.REVERSE ARANCIO",
         "Sottofamiglia": "CHOUCHIN 1 SOSPENSIONE LED",
@@ -15642,7 +15642,7 @@
     {
         "Eire": "315",
         "Codice Articolo": "210071LD/1005",
-        "Articolo": "CHOUCHIN 1 SOSP.LED DIM.REV.ARANCIO H.10M",
+        "Articolo": "CHOUCHIN 1 REVERSE SOSP.LED DIM.REV.ARANCIO H.10M",
         "Codice Componente": "210S001R1 05",
         "Componente": "VETRO CHOUCHIN 1 REVERSE ARANCIO",
         "Sottofamiglia": "CHOUCHIN 1 SOSPENSIONE LED",
@@ -15652,7 +15652,7 @@
     {
         "Eire": "355",
         "Codice Articolo": "210071LD/1005",
-        "Articolo": "CHOUCHIN 1 SOSP.LED DIM.REV.ARANCIO H.10M",
+        "Articolo": "CHOUCHIN 1 REVERSE SOSP.LED DIM.REV.ARANCIO H.10M",
         "Codice Componente": "LMDS07D/10",
         "Componente": "MODULO SOSP.LED 2700K CRI90 10M.DIMMERABI",
         "Sottofamiglia": "CHOUCHIN 1 SOSPENSIONE LED",
@@ -15662,7 +15662,7 @@
     {
         "Eire": "670",
         "Codice Articolo": "210071LD/1005",
-        "Articolo": "CHOUCHIN 1 SOSP.LED DIM.REV.ARANCIO H.10M",
+        "Articolo": "CHOUCHIN 1 REVERSE SOSP.LED DIM.REV.ARANCIO H.10M",
         "Codice Componente": "210071LD/1005",
         "Componente": "CHOUCHIN 1 SOSP.LED DIM.REV.ARANCIO H.10M",
         "Sottofamiglia": "CHOUCHIN 1 SOSPENSIONE LED",
@@ -15702,7 +15702,7 @@
     {
         "Eire": "284",
         "Codice Articolo": "210072E/10-04",
-        "Articolo": "CHOUCHIN 2 SOS.E27 RETROF.REV.VERDE H.10M",
+        "Articolo": "CHOUCHIN 2 REVERSE SOS.E27 RETROF.REV.VERDE H.10M",
         "Codice Componente": "210S002E-04",
         "Componente": "VETRO CHOUCHIN 2 E27 REVERSE VERDE",
         "Sottofamiglia": "CHOUCHIN 2 SOSPENSIONE E27",
@@ -15712,7 +15712,7 @@
     {
         "Eire": "193",
         "Codice Articolo": "210072E/10-04",
-        "Articolo": "CHOUCHIN 2 SOS.E27 RETROF.REV.VERDE H.10M",
+        "Articolo": "CHOUCHIN 2 REVERSE SOS.E27 RETROF.REV.VERDE H.10M",
         "Codice Componente": "E27S07/10",
         "Componente": "MONTATURA CON PTL E27 H.10M.",
         "Sottofamiglia": "CHOUCHIN 2 SOSPENSIONE E27",
@@ -15722,7 +15722,7 @@
     {
         "Eire": "477",
         "Codice Articolo": "210072E/10-04",
-        "Articolo": "CHOUCHIN 2 SOS.E27 RETROF.REV.VERDE H.10M",
+        "Articolo": "CHOUCHIN 2 REVERSE SOS.E27 RETROF.REV.VERDE H.10M",
         "Codice Componente": "210072E/10-04",
         "Componente": "CHOUCHIN 2 SOS.E27 RETROF.REV.VERDE H.10M",
         "Sottofamiglia": "CHOUCHIN 2 SOSPENSIONE E27",
@@ -15762,7 +15762,7 @@
     {
         "Eire": "284",
         "Codice Articolo": "210072L 04",
-        "Articolo": "CHOUCHIN 2 SOSP.LED REVERSE VERDE",
+        "Articolo": "CHOUCHIN 2 REVERSE SOSP.LED REVERSE VERDE",
         "Codice Componente": "210S002R1 04",
         "Componente": "VETRO CHOUCHIN 2 REVERSE VERDE",
         "Sottofamiglia": "CHOUCHIN 2 SOSPENSIONE LED",
@@ -15772,7 +15772,7 @@
     {
         "Eire": "257",
         "Codice Articolo": "210072L 04",
-        "Articolo": "CHOUCHIN 2 SOSP.LED REVERSE VERDE",
+        "Articolo": "CHOUCHIN 2 REVERSE SOSP.LED REVERSE VERDE",
         "Codice Componente": "LMDS07/3",
         "Componente": "MODULO SOSPENSIONE LED 2700K CRI90 H.3,5M.",
         "Sottofamiglia": "CHOUCHIN 2 SOSPENSIONE LED",
@@ -15782,7 +15782,7 @@
     {
         "Eire": "541",
         "Codice Articolo": "210072L 04",
-        "Articolo": "CHOUCHIN 2 SOSP.LED REVERSE VERDE",
+        "Articolo": "CHOUCHIN 2 REVERSE SOSP.LED REVERSE VERDE",
         "Codice Componente": "210072L 04",
         "Componente": "CHOUCHIN 2 SOSP.LED REVERSE VERDE",
         "Sottofamiglia": "CHOUCHIN 2 SOSPENSIONE LED",
@@ -15822,7 +15822,7 @@
     {
         "Eire": "284",
         "Codice Articolo": "210072L/10-04",
-        "Articolo": "CHOUCHIN 2 SOSP.LED REVERSE VERDE H.10M",
+        "Articolo": "CHOUCHIN 2 REVERSE SOSP.LED REVERSE VERDE H.10M",
         "Codice Componente": "210S002R1 04",
         "Componente": "VETRO CHOUCHIN 2 REVERSE VERDE",
         "Sottofamiglia": "CHOUCHIN 2 SOSPENSIONE LED",
@@ -15832,7 +15832,7 @@
     {
         "Eire": "299",
         "Codice Articolo": "210072L/10-04",
-        "Articolo": "CHOUCHIN 2 SOSP.LED REVERSE VERDE H.10M",
+        "Articolo": "CHOUCHIN 2 REVERSE SOSP.LED REVERSE VERDE H.10M",
         "Codice Componente": "LMDS07/10",
         "Componente": "MODULO SOSPENSIONE LED 2700K CRI90 H.10M.",
         "Sottofamiglia": "CHOUCHIN 2 SOSPENSIONE LED",
@@ -15842,7 +15842,7 @@
     {
         "Eire": "583",
         "Codice Articolo": "210072L/10-04",
-        "Articolo": "CHOUCHIN 2 SOSP.LED REVERSE VERDE H.10M",
+        "Articolo": "CHOUCHIN 2 REVERSE SOSP.LED REVERSE VERDE H.10M",
         "Codice Componente": "210072L/10-04",
         "Componente": "CHOUCHIN 2 SOSP.LED REVERSE VERDE H.10M",
         "Sottofamiglia": "CHOUCHIN 2 SOSPENSIONE LED",
@@ -15882,7 +15882,7 @@
     {
         "Eire": "284",
         "Codice Articolo": "210072LD 04",
-        "Articolo": "CHOUCHIN 2 SOSP.LED DIMMER REVERSE VERDE",
+        "Articolo": "CHOUCHIN 2 REVERSE SOSP.LED DIMMER REVERSE VERDE",
         "Codice Componente": "210S002R1 04",
         "Componente": "VETRO CHOUCHIN 2 REVERSE VERDE",
         "Sottofamiglia": "CHOUCHIN 2 SOSPENSIONE LED",
@@ -15892,7 +15892,7 @@
     {
         "Eire": "313",
         "Codice Articolo": "210072LD 04",
-        "Articolo": "CHOUCHIN 2 SOSP.LED DIMMER REVERSE VERDE",
+        "Articolo": "CHOUCHIN 2 REVERSE SOSP.LED DIMMER REVERSE VERDE",
         "Codice Componente": "LMDS07D/3",
         "Componente": "MODULO SOSP.LED 2700K CRI90 DIMMERABILE H.3,5M.",
         "Sottofamiglia": "CHOUCHIN 2 SOSPENSIONE LED",
@@ -15902,7 +15902,7 @@
     {
         "Eire": "597",
         "Codice Articolo": "210072LD 04",
-        "Articolo": "CHOUCHIN 2 SOSP.LED DIMMER REVERSE VERDE",
+        "Articolo": "CHOUCHIN 2 REVERSE SOSP.LED DIMMER REVERSE VERDE",
         "Codice Componente": "210072LD 04",
         "Componente": "CHOUCHIN 2 SOSP.LED DIMMER REVERSE VERDE",
         "Sottofamiglia": "CHOUCHIN 2 SOSPENSIONE LED",
@@ -15942,7 +15942,7 @@
     {
         "Eire": "284",
         "Codice Articolo": "210072LD/1004",
-        "Articolo": "CHOUCHIN 2 SOSP.LED DIM.REV.VERDE H.10M",
+        "Articolo": "CHOUCHIN 2 REVERSE SOSP.LED DIM.REV.VERDE H.10M",
         "Codice Componente": "210S002R1 04",
         "Componente": "VETRO CHOUCHIN 2 REVERSE VERDE",
         "Sottofamiglia": "CHOUCHIN 2 SOSPENSIONE LED",
@@ -15952,7 +15952,7 @@
     {
         "Eire": "355",
         "Codice Articolo": "210072LD/1004",
-        "Articolo": "CHOUCHIN 2 SOSP.LED DIM.REV.VERDE H.10M",
+        "Articolo": "CHOUCHIN 2 REVERSE SOSP.LED DIM.REV.VERDE H.10M",
         "Codice Componente": "LMDS07D/10",
         "Componente": "MODULO SOSP.LED 2700K CRI90 10M.DIMMERABI",
         "Sottofamiglia": "CHOUCHIN 2 SOSPENSIONE LED",
@@ -15962,7 +15962,7 @@
     {
         "Eire": "639",
         "Codice Articolo": "210072LD/1004",
-        "Articolo": "CHOUCHIN 2 SOSP.LED DIM.REV.VERDE H.10M",
+        "Articolo": "CHOUCHIN 2 REVERSE SOSP.LED DIM.REV.VERDE H.10M",
         "Codice Componente": "210072LD/1004",
         "Componente": "CHOUCHIN 2 SOSP.LED DIM.REV.VERDE H.10M",
         "Sottofamiglia": "CHOUCHIN 2 SOSPENSIONE LED",
@@ -16002,7 +16002,7 @@
     {
         "Eire": "222",
         "Codice Articolo": "210073E/10-02",
-        "Articolo": "CHOUCHIN 3 SOSP.E27 RETR.REV.GRIGIO H.10M",
+        "Articolo": "CHOUCHIN 3 REVERSE SOSP.E27 RETR.REV.GRIGIO H.10M",
         "Codice Componente": "210S003E-02",
         "Componente": "VETRO CHOUCHIN 3 E27 REVERSE GRIGIO",
         "Sottofamiglia": "CHOUCHIN 3 SOSPENSIONE E27",
@@ -16012,7 +16012,7 @@
     {
         "Eire": "193",
         "Codice Articolo": "210073E/10-02",
-        "Articolo": "CHOUCHIN 3 SOSP.E27 RETR.REV.GRIGIO H.10M",
+        "Articolo": "CHOUCHIN 3 REVERSE SOSP.E27 RETR.REV.GRIGIO H.10M",
         "Codice Componente": "E27S07/10",
         "Componente": "MONTATURA CON PTL E27 H.10M.",
         "Sottofamiglia": "CHOUCHIN 3 SOSPENSIONE E27",
@@ -16022,7 +16022,7 @@
     {
         "Eire": "415",
         "Codice Articolo": "210073E/10-02",
-        "Articolo": "CHOUCHIN 3 SOSP.E27 RETR.REV.GRIGIO H.10M",
+        "Articolo": "CHOUCHIN 3 REVERSE SOSP.E27 RETR.REV.GRIGIO H.10M",
         "Codice Componente": "210073E/10-02",
         "Componente": "CHOUCHIN 3 SOSP.E27 RETR.REV.GRIGIO H.10M",
         "Sottofamiglia": "CHOUCHIN 3 SOSPENSIONE E27",
@@ -16062,7 +16062,7 @@
     {
         "Eire": "222",
         "Codice Articolo": "210073L 02",
-        "Articolo": "CHOUCHIN 3 SOSP.LED REVERSE GRIGIO",
+        "Articolo": "CHOUCHIN 3 REVERSE SOSP.LED REVERSE GRIGIO",
         "Codice Componente": "210S003R1 02",
         "Componente": "VETRO CHOUCHIN 3 REVERSE GRIGIO",
         "Sottofamiglia": "CHOUCHIN 3 SOSPENSIONE LED",
@@ -16072,7 +16072,7 @@
     {
         "Eire": "257",
         "Codice Articolo": "210073L 02",
-        "Articolo": "CHOUCHIN 3 SOSP.LED REVERSE GRIGIO",
+        "Articolo": "CHOUCHIN 3 REVERSE SOSP.LED REVERSE GRIGIO",
         "Codice Componente": "LMDS07/3",
         "Componente": "MODULO SOSPENSIONE LED 2700K CRI90 H.3,5M.",
         "Sottofamiglia": "CHOUCHIN 3 SOSPENSIONE LED",
@@ -16082,7 +16082,7 @@
     {
         "Eire": "479",
         "Codice Articolo": "210073L 02",
-        "Articolo": "CHOUCHIN 3 SOSP.LED REVERSE GRIGIO",
+        "Articolo": "CHOUCHIN 3 REVERSE SOSP.LED REVERSE GRIGIO",
         "Codice Componente": "210073L 02",
         "Componente": "CHOUCHIN 3 SOSP.LED REVERSE GRIGIO",
         "Sottofamiglia": "CHOUCHIN 3 SOSPENSIONE LED",
@@ -16122,7 +16122,7 @@
     {
         "Eire": "222",
         "Codice Articolo": "210073L/10-02",
-        "Articolo": "CHOUCHIN 3 SOSP.LED REVERSE GRIGIO H.10M",
+        "Articolo": "CHOUCHIN 3 REVERSE SOSP.LED REVERSE GRIGIO H.10M",
         "Codice Componente": "210S003R1 02",
         "Componente": "VETRO CHOUCHIN 3 REVERSE GRIGIO",
         "Sottofamiglia": "CHOUCHIN 3 SOSPENSIONE LED",
@@ -16132,7 +16132,7 @@
     {
         "Eire": "299",
         "Codice Articolo": "210073L/10-02",
-        "Articolo": "CHOUCHIN 3 SOSP.LED REVERSE GRIGIO H.10M",
+        "Articolo": "CHOUCHIN 3 REVERSE SOSP.LED REVERSE GRIGIO H.10M",
         "Codice Componente": "LMDS07/10",
         "Componente": "MODULO SOSPENSIONE LED 2700K CRI90 H.10M.",
         "Sottofamiglia": "CHOUCHIN 3 SOSPENSIONE LED",
@@ -16142,7 +16142,7 @@
     {
         "Eire": "521",
         "Codice Articolo": "210073L/10-02",
-        "Articolo": "CHOUCHIN 3 SOSP.LED REVERSE GRIGIO H.10M",
+        "Articolo": "CHOUCHIN 3 REVERSE SOSP.LED REVERSE GRIGIO H.10M",
         "Codice Componente": "210073L/10-02",
         "Componente": "CHOUCHIN 3 SOSP.LED REVERSE GRIGIO H.10M",
         "Sottofamiglia": "CHOUCHIN 3 SOSPENSIONE LED",
@@ -16182,7 +16182,7 @@
     {
         "Eire": "222",
         "Codice Articolo": "210073LD 02",
-        "Articolo": "CHOUCHIN 3 SOSP.LED DIMM.REVERSE GRIGIO",
+        "Articolo": "CHOUCHIN 3 REVERSE SOSP.LED DIMM.REVERSE GRIGIO",
         "Codice Componente": "210S003R1 02",
         "Componente": "VETRO CHOUCHIN 3 REVERSE GRIGIO",
         "Sottofamiglia": "CHOUCHIN 3 SOSPENSIONE LED",
@@ -16192,7 +16192,7 @@
     {
         "Eire": "313",
         "Codice Articolo": "210073LD 02",
-        "Articolo": "CHOUCHIN 3 SOSP.LED DIMM.REVERSE GRIGIO",
+        "Articolo": "CHOUCHIN 3 REVERSE SOSP.LED DIMM.REVERSE GRIGIO",
         "Codice Componente": "LMDS07D/3",
         "Componente": "MODULO SOSP.LED 2700K CRI90 DIMMERABILE H.3,5M.",
         "Sottofamiglia": "CHOUCHIN 3 SOSPENSIONE LED",
@@ -16202,7 +16202,7 @@
     {
         "Eire": "535",
         "Codice Articolo": "210073LD 02",
-        "Articolo": "CHOUCHIN 3 SOSP.LED DIMM.REVERSE GRIGIO",
+        "Articolo": "CHOUCHIN 3 REVERSE SOSP.LED DIMM.REVERSE GRIGIO",
         "Codice Componente": "210073LD 02",
         "Componente": "CHOUCHIN 3 SOSP.LED DIMM.REVERSE GRIGIO",
         "Sottofamiglia": "CHOUCHIN 3 SOSPENSIONE LED",
@@ -16242,7 +16242,7 @@
     {
         "Eire": "222",
         "Codice Articolo": "210073LD/1002",
-        "Articolo": "CHOUCHIN 3 SOSP.LED DIM.REV.GRIGIO H.10M",
+        "Articolo": "CHOUCHIN 3 REVERSE SOSP.LED DIM.REV.GRIGIO H.10M",
         "Codice Componente": "210S003R1 02",
         "Componente": "VETRO CHOUCHIN 3 REVERSE GRIGIO",
         "Sottofamiglia": "CHOUCHIN 3 SOSPENSIONE LED",
@@ -16252,7 +16252,7 @@
     {
         "Eire": "355",
         "Codice Articolo": "210073LD/1002",
-        "Articolo": "CHOUCHIN 3 SOSP.LED DIM.REV.GRIGIO H.10M",
+        "Articolo": "CHOUCHIN 3 REVERSE  SOSP.LED DIM.REV.GRIGIO H.10M",
         "Codice Componente": "LMDS07D/10",
         "Componente": "MODULO SOSP.LED 2700K CRI90 10M.DIMMERABI",
         "Sottofamiglia": "CHOUCHIN 3 SOSPENSIONE LED",
@@ -16262,7 +16262,7 @@
     {
         "Eire": "577",
         "Codice Articolo": "210073LD/1002",
-        "Articolo": "CHOUCHIN 3 SOSP.LED DIM.REV.GRIGIO H.10M",
+        "Articolo": "CHOUCHIN 3 REVERSE SOSP.LED DIM.REV.GRIGIO H.10M",
         "Codice Componente": "210073LD/1002",
         "Componente": "CHOUCHIN 3 SOSP.LED DIM.REV.GRIGIO H.10M",
         "Sottofamiglia": "CHOUCHIN 3 SOSPENSIONE LED",
@@ -16302,7 +16302,7 @@
     {
         "Eire": "278",
         "Codice Articolo": "210271R1/1053",
-        "Articolo": "CHOUCHIN MINI 1 SOSPENS.ARANCIO H.10 MT.",
+        "Articolo": "CHOUCHIN 1 MINI SOSPENS.ARANCIO H.10 MT.",
         "Codice Componente": "210271R1/1053",
         "Componente": "CHOUCHIN MINI 1 SOSPENS.ARANCIO H.10 MT.",
         "Sottofamiglia": "CHOUCHIN 1 MINI SOSPENSIONE",
@@ -16312,7 +16312,7 @@
     {
         "Eire": "278",
         "Codice Articolo": "210271R1/1053",
-        "Articolo": "CHOUCHIN MINI 1 SOSPENS.ARANCIO H.10 MT.",
+        "Articolo": "CHOUCHIN 1 MINI SOSPENS.ARANCIO H.10 MT.",
         "Codice Componente": "210271R1/1053",
         "Componente": "CHOUCHIN MINI 1 SOSPENS.ARANCIO H.10 MT.",
         "Sottofamiglia": "CHOUCHIN 1 MINI SOSPENSIONE",
@@ -16322,7 +16322,7 @@
     {
         "Eire": "234",
         "Codice Articolo": "210271R1-53",
-        "Articolo": "CHOUCHIN MINI 1 SOSPENSIONE ARANCIO",
+        "Articolo": "CHOUCHIN 1 MINI SOSPENSIONE ARANCIO",
         "Codice Componente": "210271R1-53",
         "Componente": "CHOUCHIN MINI 1 SOSPENSIONE ARANCIO",
         "Sottofamiglia": "CHOUCHIN 1 MINI SOSPENSIONE",
@@ -16332,7 +16332,7 @@
     {
         "Eire": "234",
         "Codice Articolo": "210271R1-53",
-        "Articolo": "CHOUCHIN MINI 1 SOSPENSIONE ARANCIO",
+        "Articolo": "CHOUCHIN 1 MINI SOSPENSIONE ARANCIO",
         "Codice Componente": "210271R1-53",
         "Componente": "CHOUCHIN MINI 1 SOSPENSIONE ARANCIO",
         "Sottofamiglia": "CHOUCHIN 1 MINI SOSPENSIONE",
@@ -16342,7 +16342,7 @@
     {
         "Eire": "301",
         "Codice Articolo": "210272R1/1040",
-        "Articolo": "CHOUCHIN MINI 2 SOSPENS.VERDE H.10 MT.",
+        "Articolo": "CHOUCHIN 2 MINI SOSPENS.VERDE H.10 MT.",
         "Codice Componente": "210272R1/1040",
         "Componente": "CHOUCHIN MINI 2 SOSPENS.VERDE H.10 MT.",
         "Sottofamiglia": "CHOUCHIN 2 MINI SOSPENSIONE",
@@ -16352,7 +16352,7 @@
     {
         "Eire": "301",
         "Codice Articolo": "210272R1/1040",
-        "Articolo": "CHOUCHIN MINI 2 SOSPENS.VERDE H.10 MT.",
+        "Articolo": "CHOUCHIN 2 MINI SOSPENS.VERDE H.10 MT.",
         "Codice Componente": "210272R1/1040",
         "Componente": "CHOUCHIN MINI 2 SOSPENS.VERDE H.10 MT.",
         "Sottofamiglia": "CHOUCHIN 2 MINI SOSPENSIONE",
@@ -16362,7 +16362,7 @@
     {
         "Eire": "257",
         "Codice Articolo": "210272R1-40",
-        "Articolo": "CHOUCHIN MINI 2 SOSPENSIONE VERDE",
+        "Articolo": "CHOUCHIN 2 MINI SOSPENSIONE VERDE",
         "Codice Componente": "210272R1-40",
         "Componente": "CHOUCHIN MINI 2 SOSPENSIONE VERDE",
         "Sottofamiglia": "CHOUCHIN 2 MINI SOSPENSIONE",
@@ -16372,7 +16372,7 @@
     {
         "Eire": "257",
         "Codice Articolo": "210272R1-40",
-        "Articolo": "CHOUCHIN MINI 2 SOSPENSIONE VERDE",
+        "Articolo": "CHOUCHIN 2 MINI SOSPENSIONE VERDE",
         "Codice Componente": "210272R1-40",
         "Componente": "CHOUCHIN MINI 2 SOSPENSIONE VERDE",
         "Sottofamiglia": "CHOUCHIN 2 MINI SOSPENSIONE",
@@ -16382,7 +16382,7 @@
     {
         "Eire": "120",
         "Codice Articolo": "210S021 53",
-        "Articolo": "VETRO CHOUCHIN MINI 1 ARANCIO (XRICAMBI)",
+        "Articolo": "VETRO CHOUCHIN 1 MINI ARANCIO (XRICAMBI)",
         "Codice Componente": "210S021 53",
         "Componente": "VETRO CHOUCHIN MINI 1 ARANCIO (XRICAMBI)",
         "Sottofamiglia": "RICAMBI",
@@ -16392,7 +16392,7 @@
     {
         "Eire": "120",
         "Codice Articolo": "210S021 53",
-        "Articolo": "VETRO CHOUCHIN MINI 1 ARANCIO (XRICAMBI)",
+        "Articolo": "VETRO CHOUCHIN 1 MINI ARANCIO (XRICAMBI)",
         "Codice Componente": "210S021 53",
         "Componente": "VETRO CHOUCHIN MINI 1 ARANCIO (XRICAMBI)",
         "Sottofamiglia": "RICAMBI",
@@ -16402,7 +16402,7 @@
     {
         "Eire": "120",
         "Codice Articolo": "210S022 40",
-        "Articolo": "VETRO CHOUCHIN MINI 2 VERDE  (X RICAMBI)",
+        "Articolo": "VETRO CHOUCHIN 2 MINI VERDE  (X RICAMBI)",
         "Codice Componente": "210S022 40",
         "Componente": "VETRO CHOUCHIN MINI 2 VERDE  (X RICAMBI)",
         "Sottofamiglia": "RICAMBI",
@@ -16412,7 +16412,7 @@
     {
         "Eire": "120",
         "Codice Articolo": "210S022 40",
-        "Articolo": "VETRO CHOUCHIN MINI 2 VERDE  (X RICAMBI)",
+        "Articolo": "VETRO CHOUCHIN 2 MINI VERDE  (X RICAMBI)",
         "Codice Componente": "210S022 40",
         "Componente": "VETRO CHOUCHIN MINI 2 VERDE  (X RICAMBI)",
         "Sottofamiglia": "RICAMBI",
@@ -17722,7 +17722,7 @@
     {
         "Eire": "118",
         "Codice Articolo": "221004L-22",
-        "Articolo": "BIRDIE LETTURA LED GRAFITE",
+        "Articolo": "BIRDIE LED LETTURA GRAFITE",
         "Codice Componente": "221S00-22",
         "Componente": "DIFFUSORE BIRDIE GRANDE GRAFITE",
         "Sottofamiglia": "BIRDIE LETTURA LED",
@@ -17732,7 +17732,7 @@
     {
         "Eire": "477",
         "Codice Articolo": "221004L-22",
-        "Articolo": "BIRDIE LETTURA LED GRAFITE",
+        "Articolo": "BIRDIE LED LETTURA GRAFITE",
         "Codice Componente": "221S04L-22",
         "Componente": "MONTATURA BIRDIE LED GRAFITE",
         "Sottofamiglia": "BIRDIE LETTURA LED",
@@ -17742,7 +17742,7 @@
     {
         "Eire": "595",
         "Codice Articolo": "221004L-22",
-        "Articolo": "BIRDIE LETTURA LED GRAFITE",
+        "Articolo": "BIRDIE LED LETTURA GRAFITE",
         "Codice Componente": "221004L-22",
         "Componente": "BIRDIE LETTURA LED GRAFITE",
         "Sottofamiglia": "BIRDIE LETTURA LED",
@@ -17752,7 +17752,7 @@
     {
         "Eire": "66",
         "Codice Articolo": "221004L-42",
-        "Articolo": "BIRDIE LETTURA LED VERDE ACQUA",
+        "Articolo": "BIRDIE LED LETTURA VERDE ACQUA",
         "Codice Componente": "221S00-42",
         "Componente": "DIFFUSORE BIRDIE GRANDE VERDE ACQUA",
         "Sottofamiglia": "BIRDIE LETTURA LED",
@@ -17762,7 +17762,7 @@
     {
         "Eire": "414",
         "Codice Articolo": "221004L-42",
-        "Articolo": "BIRDIE LETTURA LED VERDE ACQUA",
+        "Articolo": "BIRDIE LED LETTURA VERDE ACQUA",
         "Codice Componente": "221S04L-42",
         "Componente": "MONTATURA BIRDIE LED VERDE",
         "Sottofamiglia": "BIRDIE LETTURA LED",
@@ -17772,7 +17772,7 @@
     {
         "Eire": "480",
         "Codice Articolo": "221004L-42",
-        "Articolo": "BIRDIE LETTURA LED VERDE ACQUA",
+        "Articolo": "BIRDIE LED LETTURA VERDE ACQUA",
         "Codice Componente": "221004L-42",
         "Componente": "BIRDIE LETTURA LED VERDE ACQUA",
         "Sottofamiglia": "BIRDIE LETTURA LED",
@@ -17782,7 +17782,7 @@
     {
         "Eire": "118",
         "Codice Articolo": "221004L-80",
-        "Articolo": "BIRDIE LETTURA LED RAME",
+        "Articolo": "BIRDIE LED LETTURA RAME",
         "Codice Componente": "221S00-80",
         "Componente": "DIFFUSORE BIRDIE GRANDE RAME",
         "Sottofamiglia": "BIRDIE LETTURA LED",
@@ -17792,7 +17792,7 @@
     {
         "Eire": "477",
         "Codice Articolo": "221004L-80",
-        "Articolo": "BIRDIE LETTURA LED RAME",
+        "Articolo": "BIRDIE LED LETTURA RAME",
         "Codice Componente": "221S04L-80",
         "Componente": "MONTATURA BIRDIE LED RAME",
         "Sottofamiglia": "BIRDIE LETTURA LED",
@@ -17802,7 +17802,7 @@
     {
         "Eire": "595",
         "Codice Articolo": "221004L-80",
-        "Articolo": "BIRDIE LETTURA LED RAME",
+        "Articolo": "BIRDIE LED LETTURA RAME",
         "Codice Componente": "221004L-80",
         "Componente": "BIRDIE LETTURA LED RAME",
         "Sottofamiglia": "BIRDIE LETTURA LED",
