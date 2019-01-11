@@ -63,11 +63,11 @@ fs.readdir(path, function(err, cartella_fornitore) {
 
                                             // provo a leggere il json delle immagini di ogni fornitore
                                             // al success procedo con adjustRow
-                                            fs.readFile('./'+cartella+'/images_json.json', 'utf8', function(err, contents) {
-                                               let images_json = ( _.is(contents) )? JSON.parse(contents) : {};
+                                            fs.readFile('./'+cartella+'/assets_json.json', 'utf8', function(err, contents) {
+                                               let assets_json = ( _.is(contents) )? JSON.parse(contents) : {};
                                                 _.each(json_fornitore,function(row){
                                                     if(!rigaVuota(row)){
-                                                        json_aumentato.push(adjustRow(row,cartella,images_json, desc_json));
+                                                        json_aumentato.push(adjustRow(row,cartella,assets_json, desc_json));
                                                     }   
                                                 });
 
@@ -86,10 +86,6 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                             });
 
                                         });
-
-                                        
-                                        
-                                        
                     
                                     }
                                 }
@@ -98,13 +94,9 @@ fs.readdir(path, function(err, cartella_fornitore) {
                     }
                     
                 });
-
                 
             })
 
-            
-
-            
         }
             
     }
@@ -117,7 +109,7 @@ fs.readdir(path, function(err, cartella_fornitore) {
 
 
 
-function adjustRow(row,fornitore,images_json, desc_json){
+function adjustRow(row,fornitore,assets_json, desc_json){
 
         var supplier = undefined;
         var supplier_id = undefined;
@@ -144,13 +136,15 @@ function adjustRow(row,fornitore,images_json, desc_json){
         var outdoor = undefined;
         var max_discount = undefined;
         var more = undefined;
-        var path = undefined;
+        var pic = undefined;
+        var paths = undefined;
 
     
 
         /* ================================================================= FOSCARINI */
         if(fornitore == "foscarini"){
 
+            
             var model_names = [
                 "ALLEGRETTO VIVACE",
                 "ALLEGRETTO ASSAI",
@@ -177,7 +171,9 @@ function adjustRow(row,fornitore,images_json, desc_json){
                 "BIRDIE 9",
                 "BIT",
                 "BLOB S",
-                "BUDS",
+                "BUDS 1",
+                "BUDS 2",
+                "BUDS 3",
                 "CABOCHE",
                 "CAIIGO",
                 "CHOUCHIN 1",
@@ -229,9 +225,12 @@ function adjustRow(row,fornitore,images_json, desc_json){
                 "RITUALS 3",
                 "RITUALS XL",
                 "SATELLIGHT",
+                "SOFFIO",
+                "SOLAR",
                 "SPOKES 1",
                 "SPOKES 2",
                 "SPOKES 2 LARGE",
+                "SUPERFICIE",
                 "SUPERNOVA",
                 "TARTAN",
                 "TITE 1",
@@ -278,6 +277,9 @@ function adjustRow(row,fornitore,images_json, desc_json){
                 size = getSize(articolo);
                 outdoor = (articolo.indexOf("OUTDOOR") != -1)? 1 : 0;
                 max_discount = 0;
+                more = undefined;
+                pic = getPic(model, category);
+                paths = undefined;
             }
                 
 
@@ -504,6 +506,31 @@ function adjustRow(row,fornitore,images_json, desc_json){
                     return "xl";
             }
             
+            function getPic(model, category){
+                var ret;
+                category = category[0];
+                if(_.is(category)) // alcune righe non hanno il modello
+                    _.each(assets_json,function(elem){
+                        _.each(elem.related_imgs,function(related_model){
+
+                            // aggiustamenti per incongrunze con nomenclature sito
+                            var related_model_name = related_model.model;
+                            var related_model_cateogry = related_model.category;
+
+                            if(related_model_name == "CHOUCHIN REVERSE 1")
+                                related_model_name = "CHOUCHIN 1 REVERSE";
+                            if(related_model_name == "CHOUCHIN REVERSE 2")
+                                related_model_name = "CHOUCHIN 2 REVERSE";
+                            if(related_model_name == "CHOUCHIN REVERSE 3")
+                                related_model_name = "CHOUCHIN 3 REVERSE";
+
+                            if( model == related_model_name)
+                                if(category.toLowerCase() == related_model_cateogry.toLowerCase())
+                                    ret = related_model.img;
+                        });    
+                    });
+                return ret;
+            }
 
             
             
@@ -542,7 +569,8 @@ function adjustRow(row,fornitore,images_json, desc_json){
                 outdoor = undefined;
                 max_discount = undefined;
                 more = getMore(row["Descrizione"],model);
-                path = getPath(model, size, category, type, color, more);
+                pic = undefined;
+                paths = getPaths(model, size, category, type, color, more);
                 
 
                 
@@ -798,11 +826,11 @@ function adjustRow(row,fornitore,images_json, desc_json){
                     return 0;
                 }
 
-                function getPath(model, size, category, type, color, more){
+                function getPaths(model, size, category, type, color, more){
                     model = model.toLowerCase();
                     var ret = [];
                         
-                    _.each(images_json, function(file){
+                    _.each(assets_json, function(file){
                         let file_model = file.model.toLowerCase();
                 
                         // confronto il modello
@@ -1105,13 +1133,13 @@ function adjustRow(row,fornitore,images_json, desc_json){
             more:                   more,                               // contiene dei campi aggiuntivi (custom per ogni fornitore)
             outdoor:                outdoor,                            // se è da esterno o meno
             max_discount:           undefined,                          // massimo sconto applicabile
+            pic:                    pic,                                // contiene l'immagine primaria
+
+            paths_length : (_.is(paths))? paths.length : "-",
+            files : (_.is(paths))? stampaNomiFile(paths) : "-",
 
 
-            path_length : (_.is(path))? path.length : "-",
-            files : (_.is(path))? stampaNomiFile(path) : "-",
-
-
-            path:                    path,                              // array dei path delle immagini
+            paths:                    paths,                              // array dei path delle immagini
         }
 }
 

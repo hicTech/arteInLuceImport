@@ -418,7 +418,7 @@ const files = FileHound.create()
         //_.log(_.keys(images_json).length)
         
 
-        fs.writeFile('images_json.json', JSON.stringify(images_json, null, 4), 'utf8', function(){
+        fs.writeFile('assets_json.json', JSON.stringify(images_json, null, 4), 'utf8', function(){
             //_.log("FINITO");
         });
 
