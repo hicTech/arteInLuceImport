@@ -10,6 +10,7 @@ var download_queue_pdf = [];
 
 var count = 0;
 
+
 fs.readFile('./site_info_remote.json', 'utf8', function(err, contents) {
     var json = JSON.parse(contents);
     _.each(json,function(elem,key){
@@ -17,28 +18,28 @@ fs.readFile('./site_info_remote.json', 'utf8', function(err, contents) {
         // carousel
         _.each(elem.carousel,function(carousel_elem,index){
             var url = carousel_elem;
-            json[key].carousel[index] = localizeUrl(url,"/foscarini/assets/imgs");
+            json[key].carousel[index] = getAugmentedImg(url, elem.model, elem.category, "carousel");
             download_queue.push( url )
         });
 
         // other_imgs
         _.each(elem.other_imgs,function(other_imgs_elem,index){
             var url = other_imgs_elem;
-            json[key].other_imgs[index] = localizeUrl(url,"/foscarini/assets/imgs");
+            json[key].other_imgs[index] = getAugmentedImg(url, elem.model, elem.category, "others_images");
             download_queue.push( url )
         });
 
         // projects
         _.each(elem.projects,function(projects_elem,index){
             var url = projects_elem;
-            json[key].projects[index] = localizeUrl(url,"/foscarini/assets/imgs");
+            json[key].projects[index] = getAugmentedImg(url, elem.model, elem.category, "project");
             download_queue.push( url )
         });
 
         // related_imgs
         _.each(elem.related_imgs,function(related_imgs_elem,index){
             var url = related_imgs_elem.img;
-            json[key].related_imgs[index].img = localizeUrl(url,"/foscarini/assets/imgs");
+            json[key].related_imgs[index] = getAugmentedImg(url, elem.model, elem.category, "related_images");
             download_queue.push( url )
         });
 
@@ -46,7 +47,7 @@ fs.readFile('./site_info_remote.json', 'utf8', function(err, contents) {
         
         _.each(elem.specs,function(spec, spec_index){
                 var url = spec.light_schema;
-                json[key].specs[spec_index].light_schema = localizeUrl(url,"/foscarini/assets/imgs");
+                json[key].specs[spec_index].light_schema = getAugmentedImg(url, elem.model, elem.category, "light_schema");
                 download_queue.push( url )
         });
         
@@ -58,7 +59,7 @@ fs.readFile('./site_info_remote.json', 'utf8', function(err, contents) {
                 // considero solo il caso in cui c'è "url"
                 if( _.is(download.url) ){
                     var url = download.url;
-                    json[key].specs[spec_index].downloads[download_index].url = localizeDownload(url,"/foscarini/assets/pdfs");
+                    json[key].specs[spec_index].downloads[download_index].url = url;
                     download_queue_pdf.push( url )
                 }
                 
@@ -68,11 +69,15 @@ fs.readFile('./site_info_remote.json', 'utf8', function(err, contents) {
         
     });
 
+    
    
 
     fs.writeFile('assets_json.json', JSON.stringify(json, null, 4), 'utf8', function(){
         _.log("JSON localizzato");
     });
+
+
+
 
     function localizeUrl(url, path){
         if( !_.is(path))
@@ -88,6 +93,109 @@ fs.readFile('./site_info_remote.json', 'utf8', function(err, contents) {
 
     }
 
+    function getAugmentedImg(url, model, category, caso){
+        var file_name = url.substr(url.lastIndexOf("/")+1);
+        return{
+            url : url,
+            file_name: file_name,
+            model: model,
+            category: category,
+            img_type: caso, // "carousel","others_images","project","related_imgs","light_schema",
+            size: getSize(file_name),
+            primary: file_name.indexOf("_H.jpg") != -1,
+            colors: getColor(file_name),
+        }
+
+        function getSize(local_url){
+            if(local_url.indexOf("GRANDE") != -1)
+                return "grande";
+            if(local_url.indexOf("MEDIA") != -1)
+                return "media";
+            if(local_url.indexOf("PICCOLA") != -1)
+                return "piccola";  
+        }
+
+        function getColor(local_url){
+            var colors = [];
+            local_url = local_url.toLowerCase();
+            if(local_url.indexOf("_bianco") != -1 || local_url.indexOf("white") != -1 ){
+                if(local_url.indexOf("bianco-caldo") != -1)
+                    colors.push("bianco caldo");
+                else
+                    colors.push("bianco");
+            }
+                
+            
+            if(local_url.indexOf("nero") != -1 || local_url.indexOf("black") != -1)
+                colors.push("nero");
+            if(local_url.indexOf("cromo") != -1)
+                colors.push("cromo");
+            if(local_url.indexOf("yellow") != -1 || local_url.indexOf("giallo") != -1)
+                colors.push("giallo");
+            if(local_url.indexOf("arancio") != -1 || local_url.indexOf("orange") != -1)
+                colors.push("arancio");
+            if(local_url.indexOf("alluminio") != -1 || local_url.indexOf("alumin") != -1)
+                colors.push("alluminio");
+            if(local_url.indexOf("turchese") != -1)
+                colors.push("turchese");
+            if(local_url.indexOf("indaco") != -1)
+                colors.push("indaco");
+            if(local_url.indexOf("brown") != -1 || local_url.indexOf("marrone") != -1)
+                colors.push("marrone");
+             if(local_url.indexOf("grafite") != -1)
+                colors.push("grafite");
+            if(local_url.indexOf("azzurro") != -1)
+                colors.push("azzurro");
+            if(local_url.indexOf("rame") != -1)
+                colors.push("rame");
+            if(local_url.indexOf("avory") != -1 || local_url.indexOf("ivory") != -1)
+                colors.push("avorio");
+            if(local_url.indexOf("green") != -1 || local_url.indexOf("verde") != -1)
+                colors.push("verde");
+            if(local_url.indexOf("grey") != -1 || local_url.indexOf("grigio") != -1)
+                colors.push("grigio");
+            if(local_url.indexOf("_red") != -1 || local_url.indexOf("rosso") != -1)
+                colors.push("rosso");
+            if(local_url.indexOf("ciliegia") != -1)
+                colors.push("ciliegia");
+            if(local_url.indexOf("greige") != -1)
+                colors.push("greige");
+            if(local_url.indexOf("cremisi") != -1)
+                colors.push("cremisi");
+            if(local_url.indexOf("antracite") != -1)
+                colors.push("antracite");
+            if(local_url.indexOf("amaranto") != -1)
+                colors.push("amaranto");
+            if(local_url.indexOf("amethist") != -1)
+                colors.push("amethist queen");
+            if(local_url.indexOf("emerald-king") != -1)
+                colors.push("emerald king");
+            if(local_url.indexOf("ruby-jaypure") != -1)
+                colors.push("ruby jaypure");
+            if(local_url.indexOf("teodora") != -1)
+                colors.push("teodora");
+            if(local_url.indexOf("eastern") != -1)
+                colors.push("eastern coral");
+            if(local_url.indexOf("bronze") != -1)
+                colors.push("bronzo");
+            if(local_url.indexOf("blu") != -1)
+                colors.push("blu");
+            if(local_url.indexOf("trasparent") != -1 || local_url.indexOf("transparent") != -1)
+                colors.push("trasparente");
+            if(local_url.indexOf("natural") != -1)
+                colors.push("naturale");
+            if(local_url.indexOf("carminio") != -1)
+                colors.push("carminio");
+            
+
+            return colors;
+            
+            
+
+
+
+        }
+    }
 
     //////////// QUESTO SERVE PER SCARICARE I SOLI PDF
 

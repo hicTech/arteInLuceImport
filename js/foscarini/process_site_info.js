@@ -25,15 +25,18 @@ var arr_all_products = [
 arr_all_products = _.uniq(arr_all_products);
 var pages_number = arr_all_products.length;
 
-var info = {};
+var info = [];
 
 var index = 0;
 
 avvia(index);
 
 function avvia(index){
+
+
+
     if(index == pages_number){
-        fs.writeFile('site_info_remote.json', JSON.stringify(info, null, 4), 'utf8', function(){
+        fs.writeFile('nuovo_site_info_remote.json', JSON.stringify(info, null, 4), 'utf8', function(){
             _.log("FINITO");
         });
         return true;
@@ -199,7 +202,7 @@ function createJsonFromAPage(body){
             
     });
         
-    info[model]={
+    info.push({
         model : model,
         category: category,
         desc: desc,
@@ -209,7 +212,7 @@ function createJsonFromAPage(body){
         projects: hide_imgs,
         related_imgs : related_imgs,
         specs: specs_arr 
-    }
+    })
     
 
     index++;

@@ -8,6 +8,7 @@ var S = require('string');
 var path = "../xls/";
 
 var count = 0;
+var fatto = false;
  
 fs.readdir(path, function(err, cartella_fornitore) {
     
@@ -132,12 +133,14 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var switcher = undefined;
         var category = undefined;   // è un array di categorie, i possibili valori sono: terra | tavolo | parete | soffitto | sospensione | altro (nel caso di "altro" quando possibile viene anche specificato di cosa si tratta, tipo: kit, vetro....)
         var type = undefined;       // è un valore unico ovvero una stringa
+        var component = undefined;
         var size = undefined;
         var outdoor = undefined;
         var max_discount = undefined;
         var more = undefined;
+        var video = undefined;
         var pic = undefined;
-        var paths = undefined;
+        var otherPics = undefined;
 
     
 
@@ -250,6 +253,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 "YOKO"
             ]
             
+            
+
             var articolo = row["Articolo"];
             
             if(articolo.indexOf(" GB")!=-1){
@@ -267,19 +272,21 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 ean13 = undefined;
                 price = row["Europa"];
                 color = getColor(articolo);
-                category = getCategory(articolo);
+                category = getCategory(row["Sottofamiglia"]);
                 dimmer = (articolo.indexOf("DIM") != -1)? 1 : 0;
                 led = (articolo.indexOf("LED") != -1)? 1 : 0;
                 halogen = (articolo.indexOf("ALO") != -1)? 1 : 0;
                 screw = getScrew(articolo);
                 switcher = (articolo.indexOf("ON/OFF") != -1)? 1 : 0;
                 type = undefined;
+                component = isComponent(model_id,row["Componente"]);
                 size = getSize(articolo);
                 outdoor = (articolo.indexOf("OUTDOOR") != -1)? 1 : 0;
                 max_discount = 0;
                 more = undefined;
-                pic = getPic(model, category);
-                paths = undefined;
+                video = undefined;
+                pic = getPic(model, category,component, createAllImgsArr(assets_json) );
+                otherPics = undefined;
             }
                 
 
@@ -442,30 +449,45 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 return ret;
             }
 
-            function getCategory(articolo){
+            function getCategory(sottofamiglia){
+                // ritorna un array tipicamente di uno, dopo il primo valore c'è una sottocatagoria (esempio "parete","soffitto")
+                // se è outdoor questo viene messo come ultimo valore
                 var category = [];
                 
-                if( articolo.indexOf(" SOS") != -1 ){
+                if( sottofamiglia.indexOf("SOSPENSIONE") != -1 ){
                     category.push("sospensione");
                 }
+
+                if( sottofamiglia.indexOf("PARETE/SOFFITTO") != -1 ){
+                    category.push("parete");
+                    category.push("soffitto");
+                }
+                if( sottofamiglia.indexOf("PARETE") != -1 ){
+                    category.push("parete");
+                }
+                if( sottofamiglia.indexOf("SOFFITTO") != -1 ){
+                    category.push("soffitto");
+                }
                
-                if( articolo.indexOf("TERRA") != -1 ){
+                if( sottofamiglia.indexOf("TERRA") != -1 ){
                     category.push("terra");
                 }
 
-                if( articolo.indexOf("TAV") != -1 ){
+                if( sottofamiglia.indexOf("LETTURA") != -1 ){
+                    category.push("lettura");
+                }
+
+                if( sottofamiglia.indexOf("TAVOLO") != -1 ){
                     category.push("tavolo");
                 }
 
-                if( articolo.indexOf("SOFFITTO") != -1 ){
-                    category.push("soffitto");
+                if( sottofamiglia.indexOf("OUTDOOR") != -1 ){
+                    category.push("outdoor");
                 }
 
-                if( articolo.indexOf("PARETE") != -1 ){
-                    category.push("parete");
-                }
+               
 
-                return category;
+                return _.uniq(category);
                     
             }
 
@@ -506,16 +528,88 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     return "xl";
             }
             
-            function getPic(model, category){
-                var ret;
+            
+
+             /*
+                per recuperare le immagini mi creo un array di ausilio da assets_json
+                questo array è composto da elementi del tipo:
+
+                { 
+                    url: '/foscarini/assets/imgs/W_PA_Aplomb_White.jpg',
+                    model: 'APLOMB',
+                    category: 'PARETE',
+                    img_type: 'carousel', // "carousel","others_images","project","related_imgs","light_schema",
+                    primary: false,
+                    colors: [ 'bianco' ] 
+                }
+            */
+            function createAllImgsArr(assets_json){
+                let all_imgs = [];
+                _.each(assets_json,function(elem){
+
+                    _.each(elem.carousel,function(carousel_elem){
+                        all_imgs.push(carousel_elem.file_name);
+                    });
+                    _.each(elem.other_imgs,function(other_imgs_elem){
+                        all_imgs.push(other_imgs_elem.file_name);
+                    });
+
+                    _.each(elem.projects,function(projects_elem){
+                        all_imgs.push(projects_elem.file_name);
+                    });
+
+                    _.each(elem.related_imgs,function(related_imgs_elem){
+                        all_imgs.push(related_imgs_elem.file_name);
+                    });
+
+                    _.each(elem.specs,function(specs_elem){
+                        all_imgs.push(specs_elem.light_schema.file_name);
+                    });
+
+                });
+                
+                return all_imgs;
+                    
+            }
+
+            function getPic(model, category, component, all_images){
+                var ret = [];
+                if(!fatto){
+                    _.log(_.toStr(_.uniq(all_images)));
+                    fatto = true;
+                }
+                
+                
+                /*
+                if(fatto == false){
+                    var temp = [];
+                    _.each(all_images,function(elem){
+                        temp.push(elem.model);
+                    })
+                    _.log(_.uniq(temp))
+                    fatto = true;
+                }
+                */
+
+                //_.log(_.uniq(ret));
+
+
+
+                /*
                 category = category[0];
-                if(_.is(category)) // alcune righe non hanno il modello
+                if(component == 0){ // se non è un pezzo di ricambio
                     _.each(assets_json,function(elem){
+                        var main_model = {
+                            model : elem.model,
+                            category: elem.category,
+                            img: elem.carousel[0],
+
+                        }
                         _.each(elem.related_imgs,function(related_model){
 
                             // aggiustamenti per incongrunze con nomenclature sito
                             var related_model_name = related_model.model;
-                            var related_model_cateogry = related_model.category;
+                            
 
                             if(related_model_name == "CHOUCHIN REVERSE 1")
                                 related_model_name = "CHOUCHIN 1 REVERSE";
@@ -525,11 +619,66 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 related_model_name = "CHOUCHIN 3 REVERSE";
 
                             if( model == related_model_name)
-                                if(category.toLowerCase() == related_model_cateogry.toLowerCase())
-                                    ret = related_model.img;
+                                //if(category.toLowerCase() == related_model_cateogry.toLowerCase())
+                                    ret.push(related_model);
                         });    
                     });
-                return ret;
+
+                    if(ret.length == 1){
+                        //return ret;
+                    }
+                    if(ret.length == 2){
+                        
+                        ret = _.filter(ret,function(elem){
+                            return category.toLowerCase() == elem.category.toLowerCase()
+                        })
+
+                        
+                    }
+                    
+                } 
+
+                var arr_ret = [];
+                _.each(ret,function(elem){
+                    arr_ret.push(elem.img);
+                })
+                return arr_ret;
+                */
+            }
+
+            function isComponent(model_id, component){
+                    
+                    if(
+                        component.indexOf("MONT") == 0 || 
+                        component.indexOf("KIT ") == 0 || 
+                        component.indexOf("-KIT ") != -1 || 
+                        component.indexOf("SET ") == 0 || 
+                        component.indexOf("VETR") == 0 || 
+                        component.indexOf("BASE") == 0 || 
+                        component.indexOf("DIMMER") == 0 || 
+                        component.indexOf("ASTE") == 0 || 
+                        component.indexOf("ROSONE") == 0 || 
+                        component.indexOf("MODULO") == 0 || 
+                        component.indexOf("PYREX") == 0 || 
+                        component.indexOf("ZAVORRA") == 0 || 
+                        component.indexOf("CAVALLETTO") == 0 || 
+                        component.indexOf("SCHERMO") == 0 || 
+                        component.indexOf("GRUPPO") == 0 || 
+                        component.indexOf("PICCHETTO") == 0 || 
+                        component.indexOf("CILINDRO") == 0 || 
+                        component.indexOf("DISCO") == 0 || 
+                        component.indexOf("BRACCIO") == 0 || 
+                        component.indexOf("LENTE") == 0 || 
+                        component.indexOf("PESO ") == 0 || 
+                        component.indexOf("1/2 CIL") == 0 || 
+                        component.indexOf("3/4 CIL") == 0 || 
+                        component.indexOf("DIFF") == 0 
+                    ){
+                        return 1;
+                    }
+                    return 0;
+                
+                    
             }
 
             
@@ -544,6 +693,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             /* ================================================================= VISTOSI */
             if(fornitore == "vistosi"){
                 
+
+                
+
+
                 supplier = "vistosi";
                 supplier_id = supplierId(supplier);
                 model = getModel(row["Descrizione"]);
@@ -565,12 +718,14 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 switcher = undefined;
                 category = getCategory(row["Descrizione"]);
                 type = getType(original_model_id);
+                component = undefined;
                 size = getSize(row["Descrizione"]);;
                 outdoor = undefined;
                 max_discount = undefined;
                 more = getMore(row["Descrizione"],model);
+                video = undefined;
                 pic = undefined;
-                paths = getPaths(model, size, category, type, color, more);
+                otherPics = getOtherPics(model, size, category, type, color, more);
                 
 
                 
@@ -826,7 +981,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     return 0;
                 }
 
-                function getPaths(model, size, category, type, color, more){
+                function getOtherPics(model, size, category, type, color, more){
                     model = model.toLowerCase();
                     var ret = [];
                         
@@ -1129,27 +1284,18 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             switcher:               switcher,                           // se ha l'interruttore o meno
             category:               category,                           // terra, tavolo, sospensione, soffitto, parete, montatura, kit, diffusore, set,
             type:                   type,                               // tipo di lampada
+            component:              component,                          // indica se è un componente di una lampada (serve per distinguere i pezzi di ricambio dalle lampade)
             size:                   size,                               // piuccola, media, grande,....
-            more:                   more,                               // contiene dei campi aggiuntivi (custom per ogni fornitore)
+            more:                   more,                               // contiene dei campi aggiuntivi (custom per ogni fornitore) esempio link a pdf, pagine html
+            video:                  video,                              // link del video
             outdoor:                outdoor,                            // se è da esterno o meno
             max_discount:           undefined,                          // massimo sconto applicabile
             pic:                    pic,                                // contiene l'immagine primaria
-
-            paths_length : (_.is(paths))? paths.length : "-",
-            files : (_.is(paths))? stampaNomiFile(paths) : "-",
-
-
-            paths:                    paths,                              // array dei path delle immagini
+            otherPics:              otherPics,                              // array dei path delle immagini
         }
 }
 
-function stampaNomiFile(arr){
-    var ret = "";
-    _.each(arr,function(elem){
-        ret+= elem.id+", ";
-    })
-    return ret;
-}
+
 
 /* ================================================================= GLOBALI */
 
