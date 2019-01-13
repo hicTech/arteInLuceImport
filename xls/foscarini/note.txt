@@ -3,3 +3,4 @@
  - stessa cosa per lumiere  25TH che era “LUMIERE GRANDE CR.NERO 25TH ON/OFF” e ho trasformato in “LUMIERE 25TH GRANDE CR.NERO 25TH ON/OFF”
  - le “BIRDIE LETTURA LED” le ho modificate in “BIRDIE LED LETTURA” per uniformarsi alla nomenclatura del sito;ù
  - aggiunto SOSPENSIONE nelle celle E830 ed E831
+ - TWIGGY TAVOLO XL ....." sono diventati "TWIGGY XL TAVOLO....."

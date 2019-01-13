@@ -8,7 +8,6 @@ var S = require('string');
 var path = "../xls/";
 
 var count = 0;
-var fatto = false;
  
 fs.readdir(path, function(err, cartella_fornitore) {
     
@@ -185,9 +184,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 "CHOUCHIN 1 REVERSE",
                 "CHOUCHIN 2 REVERSE",
                 "CHOUCHIN 3 REVERSE",
-                "CHOUCHIN 1 MINI",
-                "CHOUCHIN 2 MINI",
-                "CHOUCHIN 3 MINI",
                 "CIRCUS",
                 "COLIBRI",
                 "CRI-CRI",
@@ -222,6 +218,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 "O-SPACE",
                 "PLANET",
                 "PLASS",
+                "PLASS MEDIA",
                 "POLY GREGG",
                 "RITUALS 1",
                 "RITUALS 2",
@@ -240,6 +237,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 "TITE 2",
                 "TIVU",
                 "TRESS",
+                "TRESS GRANDE",
                 "TRESS STILO",
                 "TROAG",
                 "TROPICO",
@@ -247,13 +245,36 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 "TUTU'",
                 "TWICE AS TWIGGY",
                 "TWIGGY",
+                "TWIGGY GRID",
                 "TWIGGY LETTURA",
                 "TWIGGY XL",
                 "UTO",
                 "YOKO"
             ]
             
-            
+            var model_no_longer_available = [
+                {
+                    model: "ESA",
+                },
+                {
+                    model: "TRESS",
+                    category: "tavolo"
+                },
+                {
+                    model: "ELLEPI",
+                },
+                {
+                    model: "JAMAICA",
+                },
+                {
+                    model: "LIGHTWEIGHT",
+                    category: "terra"
+                },
+                {
+                    model: "TRESS",
+                    category: "tavolo"
+                },
+            ]
 
             var articolo = row["Articolo"];
             
@@ -264,7 +285,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 articolo = articolo;
                 supplier = "foscarini";
                 supplier_id = supplierId(supplier);
-                model = getModel(articolo,model_names);
+                model = ( _.is(getModel(articolo,model_names)) )? getModel(articolo,model_names) : undefined;
                 original_model_id = row["Codice Componente"];
                 model_id = S(original_model_id).replaceAll(" ","_").s; 
                 item_id = model_id;
@@ -446,7 +467,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             ret = model_names[i];
                     }
                 }
-                return ret;
+                return (ret != "")? ret : undefined;
             }
 
             function getCategory(sottofamiglia){
@@ -535,35 +556,38 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 questo array è composto da elementi del tipo:
 
                 { 
-                    url: '/foscarini/assets/imgs/W_PA_Aplomb_White.jpg',
-                    model: 'APLOMB',
-                    category: 'PARETE',
-                    img_type: 'carousel', // "carousel","others_images","project","related_imgs","light_schema",
-                    primary: false,
-                    colors: [ 'bianco' ] 
+                    "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_EU_OUT-GREG-sosp-grande.png",
+                    "file_name": "OUT_EU_OUT-GREG-sosp-grande.png",
+                    "model": "GREGG SOSPENSIONE",
+                    "category": "OUTDOOR",
+                    "img_type": "light_schema",
+                    "primary": false,
+                    "colors": []
                 }
             */
             function createAllImgsArr(assets_json){
                 let all_imgs = [];
+
+                
                 _.each(assets_json,function(elem){
 
                     _.each(elem.carousel,function(carousel_elem){
-                        all_imgs.push(carousel_elem.file_name);
+                        all_imgs.push(carousel_elem);
                     });
                     _.each(elem.other_imgs,function(other_imgs_elem){
-                        all_imgs.push(other_imgs_elem.file_name);
+                        all_imgs.push(other_imgs_elem);
                     });
 
                     _.each(elem.projects,function(projects_elem){
-                        all_imgs.push(projects_elem.file_name);
+                        all_imgs.push(projects_elem);
                     });
 
                     _.each(elem.related_imgs,function(related_imgs_elem){
-                        all_imgs.push(related_imgs_elem.file_name);
+                        all_imgs.push(related_imgs_elem);
                     });
 
                     _.each(elem.specs,function(specs_elem){
-                        all_imgs.push(specs_elem.light_schema.file_name);
+                        all_imgs.push(specs_elem.light_schema);
                     });
 
                 });
@@ -573,11 +597,93 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             }
 
             function getPic(model, category, component, all_images){
-                var ret = [];
-                if(!fatto){
-                    _.log(_.toStr(_.uniq(all_images)));
-                    fatto = true;
+                if(component == 1){
+                    return undefined; // è un ricambio quindi per ora non ha foto
                 }
+                // sono 1417 righe di articoli di cui
+                // di cui 533 diesel
+
+
+                var ret = [];
+                var cat = category[0];
+
+                _.each(all_images,function(elem){
+                    if(elem.img_type != "light_schema"){ // escludo le immagini di tipo "light_schema"
+                        /** qui accordiamo le diverse nomencalute di alcuni prodotti presenti sul sito */
+                        var elem_model = elem.model;
+                        var elem_category = elem.category.toLowerCase();
+                        
+                        if(elem_model == "CHOUCHIN REVERSE 1") // su assets_json.json
+                            elem_model = "CHOUCHIN 1 REVERSE"; // da listino excel
+                        if(elem_model == "CHOUCHIN REVERSE 2")
+                            elem_model = "CHOUCHIN 2 REVERSE";
+                        if(elem_model == "CHOUCHIN REVERSE 3")
+                            elem_model = "CHOUCHIN 3 REVERSE";
+                        if(elem_model == "GIGA LITE")
+                            elem_model = "GIGA-LITE";
+                        if(elem_model == "TUTÙ")
+                            elem_model = "TUTU'";
+                        if(elem_model == "CRI CRI")
+                            elem_model = "CRI-CRI";
+                        
+                        if(elem_model == "MAGNETO" && elem_category == "terra"){
+                            elem_category = "lettura";
+                        }
+
+                        if(elem_model == "TWIGGY LETTURA"){
+                            elem_category = "lettura";
+                        }
+
+                        if(elem_model == "TWIGGY" && elem_category == "lettura"){
+                            elem_model = "TWIGGY LETTURA";
+                        }
+
+                        if(elem_model == "BIRDIE LED LETTURA" || elem_model == "BIRDIE LETTURA"){
+                            if(model == "BIRDIE LED LETTURA" || model == "BIRDIE LETTURA"){
+                                elem_category = "lettura";
+                            }
+                                
+                        }
+
+                        if(elem_model == "LUMIERE XXL" && elem_category == "terra"){
+                            elem_category = "lettura";
+                        }
+
+                        if(elem_model == "SOLAR"){
+                            elem_category = "terra";
+                        }
+
+
+
+                        if(model == elem_model)
+                            if(cat == elem_category)   
+                                ret.push(elem);
+                        }
+                    
+                });
+
+                var arr_pic = [];
+                _.each(ret,function(elem){
+                    if(elem.primary)
+                        arr_pic.push(elem);
+                });
+
+                arr_pic = uniqByFileName(arr_pic);
+
+                if(arr_pic.length == 1){
+                    return arr_pic[0].url;
+                }
+                else{
+                    if(arr_pic.length > 1){
+                        _.log("model: "+arr_pic[0].model+", category: "+arr_pic[0].category+" pics:"+ arr_pic[0].url);
+                        _.log("model: "+arr_pic[0].model+", category: "+arr_pic[0].category+" pics:"+ arr_pic[1].url);
+                        _.log("__________________________________");
+                    }
+                    
+                }
+                    
+
+                
                 
                 
                 /*
@@ -1350,6 +1456,20 @@ function indexOfInArray(arr,str){
     }
     return -1;
 
+}
+
+function uniqByFileName(arr){
+    var ret = [];
+    var register = [];
+    
+    _.each(arr,function(elem){
+        if(!_.contains(register,elem.file_name)){
+            register.push(elem.file_name);
+            ret.push(elem);
+        }
+    });
+    
+    return ret;
 }
 
 

@@ -179,22 +179,22 @@
             {
                 "model": "APLOMB",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB_GRIGIO-CEMENTO_H.jpg"
             },
             {
                 "model": "APLOMB MINI",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB-MINI_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB-MINI_GRIGIO-CEMENTO_H.jpg"
             },
             {
                 "model": "APLOMB LARGE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB-LARGE_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB-LARGE_GRIGIO-CEMENTO_H.jpg"
             },
             {
                 "model": "APLOMB",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_APLOMB_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_APLOMB_GRIGIO-CEMENTO_H.jpg"
             }
         ],
         "specs": [
@@ -277,62 +277,62 @@
             {
                 "model": "RITUALS XL",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -417,33 +417,33 @@
             {
                 "model": "GREGG SOSPENSIONE",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_sosp_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_sosp_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_GREGG_BIANCO_MEDIA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_GREGG_BIANCO_MEDIA_H.jpg",
                 "size": "media"
             },
             {
                 "model": "GREGG TERRA",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_terra_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_terra_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Gregg_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_Gregg_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_GREGG_BIANCO_MEDIA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_GREGG_BIANCO_MEDIA_H.jpg",
                 "size": "media"
             }
         ],
@@ -633,42 +633,42 @@
             {
                 "model": "TWIGGY",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY GRID",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/06/5_TwiggySos_segnapagina_640x1020.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/06/5_TwiggySos_segnapagina_640x1020.jpg"
             },
             {
                 "model": "TWICE AS TWIGGY",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWICE-AS-TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWICE-AS-TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWICE AS TWIGGY",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWICE-AS-TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWICE-AS-TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY LETTURA",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY-LETTURA_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY-LETTURA_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_TWIGGY-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_TWIGGY-XL_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -729,24 +729,24 @@
             {
                 "model": "CABOCHE",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_CABOCHE_TRASPARENTE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_CABOCHE_TRASPARENTE_H.jpg"
             },
             {
                 "model": "CABOCHE",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_CABOCHE_TRASPARENTE_PICCOLA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_CABOCHE_TRASPARENTE_PICCOLA_H.jpg",
                 "size": "piccola"
             },
             {
                 "model": "CABOCHE",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "CABOCHE",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_CABOCHE_TRASPARENTE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_CABOCHE_TRASPARENTE_H.jpg"
             }
         ],
         "specs": [
@@ -880,27 +880,27 @@
             {
                 "model": "BUDS 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-2_GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-2_GRIGIO_H.jpg"
             },
             {
                 "model": "BUDS 3",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-3_VERDE-BAMBU'_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-3_VERDE-BAMBU'_H.jpg"
             },
             {
                 "model": "BUDS 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-3_VERDE-BAMBU'_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-3_VERDE-BAMBU'_H.jpg"
             },
             {
                 "model": "BUDS 1",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-1_MARRONE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-1_MARRONE_H.jpg"
             },
             {
                 "model": "BUDS 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/04/SOS_BUDS-1_BIANCO-CALDO.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/04/SOS_BUDS-1_BIANCO-CALDO.jpg"
             }
         ],
         "specs": [
@@ -942,22 +942,22 @@
             {
                 "model": "APLOMB",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB_GRIGIO-CEMENTO_H.jpg"
             },
             {
                 "model": "APLOMB MINI",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB-MINI_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB-MINI_GRIGIO-CEMENTO_H.jpg"
             },
             {
                 "model": "APLOMB LARGE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB-LARGE_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB-LARGE_GRIGIO-CEMENTO_H.jpg"
             },
             {
                 "model": "APLOMB",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_APLOMB_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_APLOMB_GRIGIO-CEMENTO_H.jpg"
             }
         ],
         "specs": [
@@ -1046,42 +1046,42 @@
             {
                 "model": "TWIGGY GRID",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/04/5_TwiggyTe_segnapagina_640x1020.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/04/5_TwiggyTe_segnapagina_640x1020.jpg"
             },
             {
                 "model": "TWIGGY GRID",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/06/5_TwiggySos_segnapagina_640x1020.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/06/5_TwiggySos_segnapagina_640x1020.jpg"
             },
             {
                 "model": "TWICE AS TWIGGY",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWICE-AS-TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWICE-AS-TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWICE AS TWIGGY",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWICE-AS-TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWICE-AS-TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY LETTURA",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY-LETTURA_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY-LETTURA_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_TWIGGY-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_TWIGGY-XL_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -1182,12 +1182,12 @@
             {
                 "model": "FILO",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_FILO_TEODORA_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_FILO_TEODORA_H.jpg"
             },
             {
                 "model": "FILO",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_FILO_EMERALD-KING_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_FILO_EMERALD-KING_H.jpg"
             }
         ],
         "specs": [
@@ -1308,12 +1308,12 @@
             {
                 "model": "SPOKES 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Spokes-1_Bianco_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Spokes-1_Bianco_H.jpg"
             },
             {
                 "model": "SPOKES 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Spokes-2_Bianco_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Spokes-2_Bianco_H.jpg"
             }
         ],
         "specs": [
@@ -1372,24 +1372,24 @@
             {
                 "model": "BIRDIE",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BIRDIE_BIANCO_GRANDE_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BIRDIE_BIANCO_GRANDE_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "BIRDIE",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BIRDIE_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BIRDIE_BIANCO_H.jpg"
             },
             {
                 "model": "BIRDIE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BIRDIE_BIANCO_GRANDE_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BIRDIE_BIANCO_GRANDE_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "BIRDIE",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BIRDIE-6_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BIRDIE-6_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -1469,27 +1469,27 @@
             {
                 "model": "CHOUCHIN REVERSE 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-1_BIANCO-ARANCIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-1_BIANCO-ARANCIO_H.jpg"
             },
             {
                 "model": "CHOUCHIN 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-1_ARANCIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-1_ARANCIO_H.jpg"
             },
             {
                 "model": "CHOUCHIN 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-3_GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-3_GRIGIO_H.jpg"
             },
             {
                 "model": "CHOUCHIN REVERSE 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-2_BIANCO-VERDE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-2_BIANCO-VERDE_H.jpg"
             },
             {
                 "model": "CHOUCHIN REVERSE 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-3_BIANCO-GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-3_BIANCO-GRIGIO_H.jpg"
             }
         ],
         "specs": [
@@ -1587,28 +1587,28 @@
             {
                 "model": "LUMIERE 25TH",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-25_ALLUMINIO_PICCOLA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-25_ALLUMINIO_PICCOLA_H.jpg",
                 "size": "piccola"
             },
             {
                 "model": "LUMIERE XX",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
             },
             {
                 "model": "LUMIERE XXL",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
             },
             {
                 "model": "LUMIERE XX",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
             },
             {
                 "model": "LUMIERE XX",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
             }
         ],
         "specs": [
@@ -1704,62 +1704,62 @@
             {
                 "model": "RITUALS 2",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -1850,12 +1850,12 @@
             {
                 "model": "SPOKES 2 LARGE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Spokes-2L_Bianco_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Spokes-2L_Bianco_H.jpg"
             },
             {
                 "model": "SPOKES 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Spokes-2_Bianco_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Spokes-2_Bianco_H.jpg"
             }
         ],
         "specs": [
@@ -1900,12 +1900,12 @@
             {
                 "model": "SATELLIGHT",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_SATELLIGHT_BIANCO-E-TRASPARENTE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_SATELLIGHT_BIANCO-E-TRASPARENTE_H.jpg"
             },
             {
                 "model": "SATELLIGHT",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_SATELLIGHT_TRASPARENTE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_SATELLIGHT_TRASPARENTE_H.jpg"
             }
         ],
         "specs": [
@@ -1946,42 +1946,42 @@
             {
                 "model": "TWIGGY GRID",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/04/5_TwiggyTe_segnapagina_640x1020.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/04/5_TwiggyTe_segnapagina_640x1020.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWICE AS TWIGGY",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWICE-AS-TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWICE-AS-TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWICE AS TWIGGY",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWICE-AS-TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWICE-AS-TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY LETTURA",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY-LETTURA_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY-LETTURA_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_TWIGGY-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_TWIGGY-XL_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -2041,12 +2041,12 @@
             {
                 "model": "BIG BANG",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BIG-BANG_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BIG-BANG_BIANCO_H.jpg"
             },
             {
                 "model": "BIG BANG",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BIG-BANG_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BIG-BANG_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -2162,17 +2162,17 @@
             {
                 "model": "BAHIA MINI",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BAHIA-MINI_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BAHIA-MINI_BIANCO_H.jpg"
             },
             {
                 "model": "BAHIA MINI",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BAHIA-MINI_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BAHIA-MINI_BIANCO_H.jpg"
             },
             {
                 "model": "BAHIA",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BAHIA_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BAHIA_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -2286,7 +2286,7 @@
             {
                 "model": "LE SOLEIL",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_LE-SOLEIL_ROSSO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_LE-SOLEIL_ROSSO_H.jpg"
             }
         ],
         "specs": [
@@ -2380,28 +2380,28 @@
             {
                 "model": "TRESS GRANDE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-GRANDE_BIANCO_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-GRANDE_BIANCO_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "TRESS",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS_BIANCO_MINI_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS_BIANCO_MINI_H.jpg"
             },
             {
                 "model": "TRESS STILO",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS-STILO_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS-STILO_BIANCO_H.jpg"
             },
             {
                 "model": "TRESS STILO",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-STILO_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-STILO_BIANCO_H.jpg"
             },
             {
                 "model": "TRESS",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_TRESS_BIANCO_PICCOLA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_TRESS_BIANCO_PICCOLA_H.jpg",
                 "size": "piccola"
             }
         ],
@@ -2503,27 +2503,27 @@
             {
                 "model": "ALLEGRO RITMICO",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-RITMICO_GRAFITE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-RITMICO_GRAFITE_H.jpg"
             },
             {
                 "model": "ALLEGRETTO VIVACE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-VIVACE_RAME_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-VIVACE_RAME_H.jpg"
             },
             {
                 "model": "ALLEGRO VIVACE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-VIVACE_RAME_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-VIVACE_RAME_H.jpg"
             },
             {
                 "model": "ALLEGRETTO RITMICO",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-RITMICO_GRAFITE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-RITMICO_GRAFITE_H.jpg"
             },
             {
                 "model": "ALLEGRETTO ASSAI",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-ASSAI_ORO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-ASSAI_ORO_H.jpg"
             }
         ],
         "specs": [
@@ -2603,22 +2603,22 @@
             {
                 "model": "APLOMB",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB_GRIGIO-CEMENTO_H.jpg"
             },
             {
                 "model": "APLOMB",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB_GRIGIO-CEMENTO_H.jpg"
             },
             {
                 "model": "APLOMB LARGE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB-LARGE_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB-LARGE_GRIGIO-CEMENTO_H.jpg"
             },
             {
                 "model": "APLOMB",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_APLOMB_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_APLOMB_GRIGIO-CEMENTO_H.jpg"
             }
         ],
         "specs": [
@@ -2663,7 +2663,7 @@
             {
                 "model": "GEM",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_GEM_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_GEM_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -2748,42 +2748,42 @@
             {
                 "model": "TWIGGY GRID",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/04/5_TwiggyTe_segnapagina_640x1020.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/04/5_TwiggyTe_segnapagina_640x1020.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY GRID",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/06/5_TwiggySos_segnapagina_640x1020.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/06/5_TwiggySos_segnapagina_640x1020.jpg"
             },
             {
                 "model": "TWICE AS TWIGGY",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWICE-AS-TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWICE-AS-TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY LETTURA",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY-LETTURA_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY-LETTURA_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_TWIGGY-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_TWIGGY-XL_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -2831,7 +2831,7 @@
             {
                 "model": "DOLMEN",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_Dolmen_Arancio_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_Dolmen_Arancio_H.jpg"
             }
         ],
         "specs": [
@@ -2897,23 +2897,23 @@
             {
                 "model": "BIRDIE LETTURA",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_BIRDIE_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_BIRDIE_BIANCO_H.jpg"
             },
             {
                 "model": "BIRDIE",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BIRDIE_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BIRDIE_BIANCO_H.jpg"
             },
             {
                 "model": "BIRDIE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BIRDIE_BIANCO_GRANDE_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BIRDIE_BIANCO_GRANDE_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "BIRDIE",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BIRDIE-6_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BIRDIE-6_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -3044,62 +3044,62 @@
             {
                 "model": "RITUALS 2",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -3162,28 +3162,28 @@
             {
                 "model": "LUMIERE",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-GRANDE_BIANCO-CROMO-NERO_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-GRANDE_BIANCO-CROMO-NERO_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "LUMIERE XX",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
             },
             {
                 "model": "LUMIERE XXL",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
             },
             {
                 "model": "LUMIERE XX",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
             },
             {
                 "model": "LUMIERE XX",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
             }
         ],
         "specs": [
@@ -3260,27 +3260,27 @@
             {
                 "model": "CHOUCHIN 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-2_VERDE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-2_VERDE_H.jpg"
             },
             {
                 "model": "CHOUCHIN 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-1_ARANCIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-1_ARANCIO_H.jpg"
             },
             {
                 "model": "CHOUCHIN 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-3_GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-3_GRIGIO_H.jpg"
             },
             {
                 "model": "CHOUCHIN REVERSE 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-2_BIANCO-VERDE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-2_BIANCO-VERDE_H.jpg"
             },
             {
                 "model": "CHOUCHIN REVERSE 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-3_BIANCO-GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-3_BIANCO-GRIGIO_H.jpg"
             }
         ],
         "specs": [
@@ -3401,12 +3401,12 @@
             {
                 "model": "FILO",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_FILO_RUBY-JAYPURE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_FILO_RUBY-JAYPURE_H.jpg"
             },
             {
                 "model": "FILO",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_FILO_EMERALD-KING_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_FILO_EMERALD-KING_H.jpg"
             }
         ],
         "specs": [
@@ -3468,7 +3468,7 @@
             {
                 "model": "PLASS MEDIA",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_PLASS-MEDIA_AZZURRO_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_PLASS-MEDIA_AZZURRO_H.jpg",
                 "size": "media"
             }
         ],
@@ -3664,22 +3664,22 @@
             {
                 "model": "HAVANA",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Havana_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Havana_H.jpg"
             },
             {
                 "model": "HAVANA SOSPENSIONE",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Havana_sosp_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Havana_sosp_H.jpg"
             },
             {
                 "model": "HAVANA TERRA",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Havana_terra_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Havana_terra_H.jpg"
             },
             {
                 "model": "HAVANA",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Havana_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Havana_H.jpg"
             }
         ],
         "specs": [
@@ -3745,22 +3745,22 @@
             {
                 "model": "APLOMB",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB_GRIGIO-CEMENTO_H.jpg"
             },
             {
                 "model": "APLOMB",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB_GRIGIO-CEMENTO_H.jpg"
             },
             {
                 "model": "APLOMB MINI",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB-MINI_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB-MINI_GRIGIO-CEMENTO_H.jpg"
             },
             {
                 "model": "APLOMB",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_APLOMB_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_APLOMB_GRIGIO-CEMENTO_H.jpg"
             }
         ],
         "specs": [
@@ -3839,28 +3839,28 @@
             {
                 "model": "TRESS",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS_BIANCO_MEDIA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS_BIANCO_MEDIA_H.jpg",
                 "size": "media"
             },
             {
                 "model": "TRESS",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS_BIANCO_MINI_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS_BIANCO_MINI_H.jpg"
             },
             {
                 "model": "TRESS STILO",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS-STILO_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS-STILO_BIANCO_H.jpg"
             },
             {
                 "model": "TRESS STILO",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-STILO_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-STILO_BIANCO_H.jpg"
             },
             {
                 "model": "TRESS",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_TRESS_BIANCO_PICCOLA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_TRESS_BIANCO_PICCOLA_H.jpg",
                 "size": "piccola"
             }
         ],
@@ -3930,12 +3930,12 @@
             {
                 "model": "UTO",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_UTO_ARANCIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_UTO_ARANCIO_H.jpg"
             },
             {
                 "model": "UTO",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_UTO_ARANCIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_UTO_ARANCIO_H.jpg"
             }
         ],
         "specs": [
@@ -3996,24 +3996,24 @@
             {
                 "model": "BIRDIE LETTURA",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_BIRDIE_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_BIRDIE_BIANCO_H.jpg"
             },
             {
                 "model": "BIRDIE",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BIRDIE_BIANCO_GRANDE_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BIRDIE_BIANCO_GRANDE_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "BIRDIE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BIRDIE_BIANCO_GRANDE_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BIRDIE_BIANCO_GRANDE_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "BIRDIE",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BIRDIE-6_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BIRDIE-6_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -4119,29 +4119,29 @@
             {
                 "model": "LUMIERE",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-GRANDE_BIANCO-CROMO-NERO_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-GRANDE_BIANCO-CROMO-NERO_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "LUMIERE 25TH",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-25_ALLUMINIO_PICCOLA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-25_ALLUMINIO_PICCOLA_H.jpg",
                 "size": "piccola"
             },
             {
                 "model": "LUMIERE XXL",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
             },
             {
                 "model": "LUMIERE XX",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
             },
             {
                 "model": "LUMIERE XX",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
             }
         ],
         "specs": [
@@ -4208,27 +4208,27 @@
             {
                 "model": "BUDS 2",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-2_GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-2_GRIGIO_H.jpg"
             },
             {
                 "model": "BUDS 3",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-3_VERDE-BAMBU'_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-3_VERDE-BAMBU'_H.jpg"
             },
             {
                 "model": "BUDS 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-3_VERDE-BAMBU'_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-3_VERDE-BAMBU'_H.jpg"
             },
             {
                 "model": "BUDS 1",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-1_MARRONE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-1_MARRONE_H.jpg"
             },
             {
                 "model": "BUDS 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/04/SOS_BUDS-1_BIANCO-CALDO.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/04/SOS_BUDS-1_BIANCO-CALDO.jpg"
             }
         ],
         "specs": [
@@ -4296,7 +4296,7 @@
             {
                 "model": "GIGA LITE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_GIGA-LITE_NERO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_GIGA-LITE_NERO_H.jpg"
             }
         ],
         "specs": [
@@ -4354,25 +4354,25 @@
             {
                 "model": "CABOCHE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "CABOCHE",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_CABOCHE_TRASPARENTE_PICCOLA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_CABOCHE_TRASPARENTE_PICCOLA_H.jpg",
                 "size": "piccola"
             },
             {
                 "model": "CABOCHE",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "CABOCHE",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_CABOCHE_TRASPARENTE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_CABOCHE_TRASPARENTE_H.jpg"
             }
         ],
         "specs": [
@@ -4421,7 +4421,7 @@
             {
                 "model": "TITE 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TITE-2_NERO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TITE-2_NERO_H.jpg"
             }
         ],
         "specs": [
@@ -4557,42 +4557,42 @@
             {
                 "model": "TWIGGY GRID",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/04/5_TwiggyTe_segnapagina_640x1020.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/04/5_TwiggyTe_segnapagina_640x1020.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY GRID",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/06/5_TwiggySos_segnapagina_640x1020.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/06/5_TwiggySos_segnapagina_640x1020.jpg"
             },
             {
                 "model": "TWICE AS TWIGGY",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWICE-AS-TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWICE-AS-TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY LETTURA",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY-LETTURA_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY-LETTURA_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_TWIGGY-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_TWIGGY-XL_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -4664,12 +4664,12 @@
             {
                 "model": "SPOKES 2 LARGE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Spokes-2L_Bianco_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Spokes-2L_Bianco_H.jpg"
             },
             {
                 "model": "SPOKES 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Spokes-1_Bianco_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Spokes-1_Bianco_H.jpg"
             }
         ],
         "specs": [
@@ -4754,33 +4754,33 @@
             {
                 "model": "GREGG",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Gregg_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_GREGG_BIANCO_MEDIA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_GREGG_BIANCO_MEDIA_H.jpg",
                 "size": "media"
             },
             {
                 "model": "GREGG TERRA",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_terra_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_terra_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Gregg_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_Gregg_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_GREGG_BIANCO_MEDIA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_GREGG_BIANCO_MEDIA_H.jpg",
                 "size": "media"
             }
         ],
@@ -4896,62 +4896,62 @@
             {
                 "model": "RITUALS 2",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -5002,27 +5002,27 @@
             {
                 "model": "BUDS 2",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-2_GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-2_GRIGIO_H.jpg"
             },
             {
                 "model": "BUDS 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-2_GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-2_GRIGIO_H.jpg"
             },
             {
                 "model": "BUDS 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-3_VERDE-BAMBU'_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-3_VERDE-BAMBU'_H.jpg"
             },
             {
                 "model": "BUDS 1",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-1_MARRONE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-1_MARRONE_H.jpg"
             },
             {
                 "model": "BUDS 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/04/SOS_BUDS-1_BIANCO-CALDO.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/04/SOS_BUDS-1_BIANCO-CALDO.jpg"
             }
         ],
         "specs": [
@@ -5124,29 +5124,29 @@
             {
                 "model": "LUMIERE",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-GRANDE_BIANCO-CROMO-NERO_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-GRANDE_BIANCO-CROMO-NERO_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "LUMIERE 25TH",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-25_ALLUMINIO_PICCOLA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-25_ALLUMINIO_PICCOLA_H.jpg",
                 "size": "piccola"
             },
             {
                 "model": "LUMIERE XX",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
             },
             {
                 "model": "LUMIERE XX",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
             },
             {
                 "model": "LUMIERE XX",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
             }
         ],
         "specs": [
@@ -5225,29 +5225,29 @@
             {
                 "model": "TRESS",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS_BIANCO_MEDIA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS_BIANCO_MEDIA_H.jpg",
                 "size": "media"
             },
             {
                 "model": "TRESS GRANDE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-GRANDE_BIANCO_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-GRANDE_BIANCO_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "TRESS STILO",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS-STILO_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS-STILO_BIANCO_H.jpg"
             },
             {
                 "model": "TRESS STILO",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-STILO_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-STILO_BIANCO_H.jpg"
             },
             {
                 "model": "TRESS",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_TRESS_BIANCO_PICCOLA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_TRESS_BIANCO_PICCOLA_H.jpg",
                 "size": "piccola"
             }
         ],
@@ -5363,12 +5363,12 @@
             {
                 "model": "SATELLIGHT",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_SATELLIGHT_TRASPARENTE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_SATELLIGHT_TRASPARENTE_H.jpg"
             },
             {
                 "model": "SATELLIGHT",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_SATELLIGHT_TRASPARENTE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_SATELLIGHT_TRASPARENTE_H.jpg"
             }
         ],
         "specs": [
@@ -5429,24 +5429,24 @@
             {
                 "model": "CABOCHE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "CABOCHE",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_CABOCHE_TRASPARENTE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_CABOCHE_TRASPARENTE_H.jpg"
             },
             {
                 "model": "CABOCHE",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "CABOCHE",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_CABOCHE_TRASPARENTE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_CABOCHE_TRASPARENTE_H.jpg"
             }
         ],
         "specs": [
@@ -5547,12 +5547,12 @@
             {
                 "model": "UTO",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_SOS_UTO_ARANCIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_SOS_UTO_ARANCIO_H.jpg"
             },
             {
                 "model": "UTO",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_UTO_ARANCIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_UTO_ARANCIO_H.jpg"
             }
         ],
         "specs": [
@@ -5599,7 +5599,7 @@
             {
                 "model": "DOLMEN",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Dolmen_Arancio_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Dolmen_Arancio_H.jpg"
             }
         ],
         "specs": [
@@ -5678,42 +5678,42 @@
             {
                 "model": "TWIGGY GRID",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/04/5_TwiggyTe_segnapagina_640x1020.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/04/5_TwiggyTe_segnapagina_640x1020.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY GRID",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/06/5_TwiggySos_segnapagina_640x1020.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/06/5_TwiggySos_segnapagina_640x1020.jpg"
             },
             {
                 "model": "TWICE AS TWIGGY",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWICE-AS-TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWICE-AS-TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWICE AS TWIGGY",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWICE-AS-TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWICE-AS-TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY LETTURA",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY-LETTURA_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY-LETTURA_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_TWIGGY-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_TWIGGY-XL_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -5764,27 +5764,27 @@
             {
                 "model": "BUDS 2",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-2_GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-2_GRIGIO_H.jpg"
             },
             {
                 "model": "BUDS 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-2_GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-2_GRIGIO_H.jpg"
             },
             {
                 "model": "BUDS 3",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-3_VERDE-BAMBU'_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-3_VERDE-BAMBU'_H.jpg"
             },
             {
                 "model": "BUDS 1",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-1_MARRONE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-1_MARRONE_H.jpg"
             },
             {
                 "model": "BUDS 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/04/SOS_BUDS-1_BIANCO-CALDO.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/04/SOS_BUDS-1_BIANCO-CALDO.jpg"
             }
         ],
         "specs": [
@@ -5844,7 +5844,7 @@
             {
                 "model": "MAGNETO",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_MAGNETO_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_MAGNETO_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -5902,24 +5902,24 @@
             {
                 "model": "CABOCHE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "CABOCHE",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_CABOCHE_TRASPARENTE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_CABOCHE_TRASPARENTE_H.jpg"
             },
             {
                 "model": "CABOCHE",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_CABOCHE_TRASPARENTE_PICCOLA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_CABOCHE_TRASPARENTE_PICCOLA_H.jpg",
                 "size": "piccola"
             },
             {
                 "model": "CABOCHE",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_CABOCHE_TRASPARENTE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_CABOCHE_TRASPARENTE_H.jpg"
             }
         ],
         "specs": [
@@ -5985,17 +5985,17 @@
             {
                 "model": "BAHIA",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BAHIA_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BAHIA_BIANCO_H.jpg"
             },
             {
                 "model": "BAHIA MINI",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BAHIA-MINI_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BAHIA-MINI_BIANCO_H.jpg"
             },
             {
                 "model": "BAHIA",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BAHIA_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BAHIA_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -6101,12 +6101,12 @@
             {
                 "model": "UTO",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_SOS_UTO_ARANCIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_SOS_UTO_ARANCIO_H.jpg"
             },
             {
                 "model": "UTO",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_UTO_ARANCIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_UTO_ARANCIO_H.jpg"
             }
         ],
         "specs": [
@@ -6181,29 +6181,29 @@
             {
                 "model": "TRESS",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS_BIANCO_MEDIA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS_BIANCO_MEDIA_H.jpg",
                 "size": "media"
             },
             {
                 "model": "TRESS GRANDE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-GRANDE_BIANCO_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-GRANDE_BIANCO_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "TRESS",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS_BIANCO_MINI_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS_BIANCO_MINI_H.jpg"
             },
             {
                 "model": "TRESS STILO",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-STILO_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-STILO_BIANCO_H.jpg"
             },
             {
                 "model": "TRESS",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_TRESS_BIANCO_PICCOLA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_TRESS_BIANCO_PICCOLA_H.jpg",
                 "size": "piccola"
             }
         ],
@@ -6273,27 +6273,27 @@
             {
                 "model": "ALLEGRO ASSAI",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-ASSAI_ORO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-ASSAI_ORO_H.jpg"
             },
             {
                 "model": "ALLEGRETTO VIVACE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-VIVACE_RAME_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-VIVACE_RAME_H.jpg"
             },
             {
                 "model": "ALLEGRO VIVACE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-VIVACE_RAME_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-VIVACE_RAME_H.jpg"
             },
             {
                 "model": "ALLEGRETTO RITMICO",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-RITMICO_GRAFITE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-RITMICO_GRAFITE_H.jpg"
             },
             {
                 "model": "ALLEGRETTO ASSAI",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-ASSAI_ORO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-ASSAI_ORO_H.jpg"
             }
         ],
         "specs": [
@@ -6374,29 +6374,29 @@
             {
                 "model": "LUMIERE",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-GRANDE_BIANCO-CROMO-NERO_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-GRANDE_BIANCO-CROMO-NERO_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "LUMIERE 25TH",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-25_ALLUMINIO_PICCOLA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-25_ALLUMINIO_PICCOLA_H.jpg",
                 "size": "piccola"
             },
             {
                 "model": "LUMIERE XX",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
             },
             {
                 "model": "LUMIERE XXL",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
             },
             {
                 "model": "LUMIERE XX",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
             }
         ],
         "specs": [
@@ -6509,12 +6509,12 @@
             {
                 "model": "FILO",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_FILO_RUBY-JAYPURE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_FILO_RUBY-JAYPURE_H.jpg"
             },
             {
                 "model": "FILO",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_FILO_TEODORA_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_FILO_TEODORA_H.jpg"
             }
         ],
         "specs": [
@@ -6593,42 +6593,42 @@
             {
                 "model": "TWIGGY GRID",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/04/5_TwiggyTe_segnapagina_640x1020.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/04/5_TwiggyTe_segnapagina_640x1020.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY GRID",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/06/5_TwiggySos_segnapagina_640x1020.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/06/5_TwiggySos_segnapagina_640x1020.jpg"
             },
             {
                 "model": "TWICE AS TWIGGY",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWICE-AS-TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWICE-AS-TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWICE AS TWIGGY",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWICE-AS-TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWICE-AS-TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY LETTURA",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY-LETTURA_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY-LETTURA_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_TWIGGY-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_TWIGGY-XL_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -6687,22 +6687,22 @@
             {
                 "model": "HAVANA",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_HAVANA_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_HAVANA_H.jpg"
             },
             {
                 "model": "HAVANA SOSPENSIONE",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Havana_sosp_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Havana_sosp_H.jpg"
             },
             {
                 "model": "HAVANA TERRA",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Havana_terra_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Havana_terra_H.jpg"
             },
             {
                 "model": "HAVANA",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Havana_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Havana_H.jpg"
             }
         ],
         "specs": [
@@ -6819,27 +6819,27 @@
             {
                 "model": "ALLEGRO ASSAI",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-ASSAI_ORO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-ASSAI_ORO_H.jpg"
             },
             {
                 "model": "ALLEGRO RITMICO",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-RITMICO_GRAFITE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-RITMICO_GRAFITE_H.jpg"
             },
             {
                 "model": "ALLEGRO VIVACE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-VIVACE_RAME_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-VIVACE_RAME_H.jpg"
             },
             {
                 "model": "ALLEGRETTO RITMICO",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-RITMICO_GRAFITE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-RITMICO_GRAFITE_H.jpg"
             },
             {
                 "model": "ALLEGRETTO ASSAI",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-ASSAI_ORO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-ASSAI_ORO_H.jpg"
             }
         ],
         "specs": [
@@ -6889,27 +6889,27 @@
             {
                 "model": "BUDS 2",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-2_GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-2_GRIGIO_H.jpg"
             },
             {
                 "model": "BUDS 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-2_GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-2_GRIGIO_H.jpg"
             },
             {
                 "model": "BUDS 3",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-3_VERDE-BAMBU'_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-3_VERDE-BAMBU'_H.jpg"
             },
             {
                 "model": "BUDS 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-3_VERDE-BAMBU'_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-3_VERDE-BAMBU'_H.jpg"
             },
             {
                 "model": "BUDS 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/04/SOS_BUDS-1_BIANCO-CALDO.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/04/SOS_BUDS-1_BIANCO-CALDO.jpg"
             }
         ],
         "specs": [
@@ -6958,7 +6958,7 @@
             {
                 "model": "TITE 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TITE-1_NERO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TITE-1_NERO_H.jpg"
             }
         ],
         "specs": [
@@ -7003,12 +7003,12 @@
             {
                 "model": "SATELLIGHT",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_SATELLIGHT_TRASPARENTE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_SATELLIGHT_TRASPARENTE_H.jpg"
             },
             {
                 "model": "SATELLIGHT",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_SATELLIGHT_BIANCO-E-TRASPARENTE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_SATELLIGHT_BIANCO-E-TRASPARENTE_H.jpg"
             }
         ],
         "specs": [
@@ -7070,7 +7070,7 @@
             {
                 "model": "PLASS",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_PLASS-MEDIA_AZZURRO_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_PLASS-MEDIA_AZZURRO_H.jpg",
                 "size": "media"
             }
         ],
@@ -7120,7 +7120,7 @@
             {
                 "model": "MAGNETO",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_MAGNETO_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_MAGNETO_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -7203,62 +7203,62 @@
             {
                 "model": "RITUALS 2",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -7318,23 +7318,23 @@
             {
                 "model": "BIRDIE LETTURA",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_BIRDIE_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_BIRDIE_BIANCO_H.jpg"
             },
             {
                 "model": "BIRDIE",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BIRDIE_BIANCO_GRANDE_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BIRDIE_BIANCO_GRANDE_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "BIRDIE",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BIRDIE_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BIRDIE_BIANCO_H.jpg"
             },
             {
                 "model": "BIRDIE",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BIRDIE-6_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BIRDIE-6_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -7400,27 +7400,27 @@
             {
                 "model": "BUDS 2",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-2_GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-2_GRIGIO_H.jpg"
             },
             {
                 "model": "BUDS 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-2_GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-2_GRIGIO_H.jpg"
             },
             {
                 "model": "BUDS 3",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-3_VERDE-BAMBU'_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-3_VERDE-BAMBU'_H.jpg"
             },
             {
                 "model": "BUDS 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-3_VERDE-BAMBU'_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BUDS-3_VERDE-BAMBU'_H.jpg"
             },
             {
                 "model": "BUDS 1",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-1_MARRONE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BUDS-1_MARRONE_H.jpg"
             }
         ],
         "specs": [
@@ -7518,42 +7518,42 @@
             {
                 "model": "TWIGGY GRID",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/04/5_TwiggyTe_segnapagina_640x1020.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/04/5_TwiggyTe_segnapagina_640x1020.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY GRID",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/06/5_TwiggySos_segnapagina_640x1020.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/06/5_TwiggySos_segnapagina_640x1020.jpg"
             },
             {
                 "model": "TWICE AS TWIGGY",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWICE-AS-TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWICE-AS-TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWICE AS TWIGGY",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWICE-AS-TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWICE-AS-TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_TWIGGY-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_TWIGGY-XL_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -7597,7 +7597,7 @@
             {
                 "model": "BEHIVE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BEHIVE_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BEHIVE_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -7677,62 +7677,62 @@
             {
                 "model": "RITUALS 2",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -7790,12 +7790,12 @@
             {
                 "model": "BIG BANG",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BIG-BANG_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BIG-BANG_BIANCO_H.jpg"
             },
             {
                 "model": "BIG BANG",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BIG-BANG_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BIG-BANG_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -7874,42 +7874,42 @@
             {
                 "model": "TWIGGY GRID",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/04/5_TwiggyTe_segnapagina_640x1020.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/04/5_TwiggyTe_segnapagina_640x1020.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY GRID",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2018/06/5_TwiggySos_segnapagina_640x1020.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2018/06/5_TwiggySos_segnapagina_640x1020.jpg"
             },
             {
                 "model": "TWICE AS TWIGGY",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWICE-AS-TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWICE-AS-TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWICE AS TWIGGY",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWICE-AS-TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWICE-AS-TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_TWIGGY_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_TWIGGY_BIANCO_H.jpg"
             },
             {
                 "model": "TWIGGY LETTURA",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY-LETTURA_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TWIGGY-LETTURA_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -7985,29 +7985,29 @@
             {
                 "model": "TRESS",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS_BIANCO_MEDIA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS_BIANCO_MEDIA_H.jpg",
                 "size": "media"
             },
             {
                 "model": "TRESS GRANDE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-GRANDE_BIANCO_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-GRANDE_BIANCO_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "TRESS",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS_BIANCO_MINI_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS_BIANCO_MINI_H.jpg"
             },
             {
                 "model": "TRESS STILO",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS-STILO_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS-STILO_BIANCO_H.jpg"
             },
             {
                 "model": "TRESS",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_TRESS_BIANCO_PICCOLA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_TRESS_BIANCO_PICCOLA_H.jpg",
                 "size": "piccola"
             }
         ],
@@ -8077,27 +8077,27 @@
             {
                 "model": "ALLEGRO ASSAI",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-ASSAI_ORO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-ASSAI_ORO_H.jpg"
             },
             {
                 "model": "ALLEGRO RITMICO",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-RITMICO_GRAFITE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-RITMICO_GRAFITE_H.jpg"
             },
             {
                 "model": "ALLEGRETTO VIVACE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-VIVACE_RAME_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-VIVACE_RAME_H.jpg"
             },
             {
                 "model": "ALLEGRETTO RITMICO",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-RITMICO_GRAFITE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-RITMICO_GRAFITE_H.jpg"
             },
             {
                 "model": "ALLEGRETTO ASSAI",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-ASSAI_ORO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-ASSAI_ORO_H.jpg"
             }
         ],
         "specs": [
@@ -8196,62 +8196,62 @@
             {
                 "model": "RITUALS 2",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -8349,27 +8349,27 @@
             {
                 "model": "CHOUCHIN 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-2_VERDE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-2_VERDE_H.jpg"
             },
             {
                 "model": "CHOUCHIN REVERSE 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-1_BIANCO-ARANCIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-1_BIANCO-ARANCIO_H.jpg"
             },
             {
                 "model": "CHOUCHIN 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-3_GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-3_GRIGIO_H.jpg"
             },
             {
                 "model": "CHOUCHIN REVERSE 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-2_BIANCO-VERDE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-2_BIANCO-VERDE_H.jpg"
             },
             {
                 "model": "CHOUCHIN REVERSE 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-3_BIANCO-GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-3_BIANCO-GRIGIO_H.jpg"
             }
         ],
         "specs": [
@@ -8470,27 +8470,27 @@
             {
                 "model": "ALLEGRO ASSAI",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-ASSAI_ORO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-ASSAI_ORO_H.jpg"
             },
             {
                 "model": "ALLEGRO RITMICO",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-RITMICO_GRAFITE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-RITMICO_GRAFITE_H.jpg"
             },
             {
                 "model": "ALLEGRETTO VIVACE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-VIVACE_RAME_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-VIVACE_RAME_H.jpg"
             },
             {
                 "model": "ALLEGRO VIVACE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-VIVACE_RAME_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-VIVACE_RAME_H.jpg"
             },
             {
                 "model": "ALLEGRETTO ASSAI",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-ASSAI_ORO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-ASSAI_ORO_H.jpg"
             }
         ],
         "specs": [
@@ -8665,27 +8665,27 @@
             {
                 "model": "CHOUCHIN 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-2_VERDE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-2_VERDE_H.jpg"
             },
             {
                 "model": "CHOUCHIN REVERSE 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-1_BIANCO-ARANCIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-1_BIANCO-ARANCIO_H.jpg"
             },
             {
                 "model": "CHOUCHIN 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-1_ARANCIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-1_ARANCIO_H.jpg"
             },
             {
                 "model": "CHOUCHIN REVERSE 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-2_BIANCO-VERDE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-2_BIANCO-VERDE_H.jpg"
             },
             {
                 "model": "CHOUCHIN REVERSE 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-3_BIANCO-GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-3_BIANCO-GRIGIO_H.jpg"
             }
         ],
         "specs": [
@@ -8746,7 +8746,7 @@
             {
                 "model": "NUAGE",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_NUAGE_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_NUAGE_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -8845,22 +8845,22 @@
             {
                 "model": "HAVANA",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_HAVANA_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_HAVANA_H.jpg"
             },
             {
                 "model": "HAVANA",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Havana_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Havana_H.jpg"
             },
             {
                 "model": "HAVANA TERRA",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Havana_terra_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Havana_terra_H.jpg"
             },
             {
                 "model": "HAVANA",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Havana_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Havana_H.jpg"
             }
         ],
         "specs": [
@@ -8905,7 +8905,7 @@
             {
                 "model": "GEM",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_GEM_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_GEM_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -9001,62 +9001,62 @@
             {
                 "model": "RITUALS 2",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -9172,27 +9172,27 @@
             {
                 "model": "CHOUCHIN 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-2_VERDE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-2_VERDE_H.jpg"
             },
             {
                 "model": "CHOUCHIN REVERSE 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-1_BIANCO-ARANCIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-1_BIANCO-ARANCIO_H.jpg"
             },
             {
                 "model": "CHOUCHIN 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-1_ARANCIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-1_ARANCIO_H.jpg"
             },
             {
                 "model": "CHOUCHIN 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-3_GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-3_GRIGIO_H.jpg"
             },
             {
                 "model": "CHOUCHIN REVERSE 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-3_BIANCO-GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-3_BIANCO-GRIGIO_H.jpg"
             }
         ],
         "specs": [
@@ -9295,32 +9295,32 @@
             {
                 "model": "GREGG",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Gregg_H.jpg"
             },
             {
                 "model": "GREGG SOSPENSIONE",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_sosp_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_sosp_H.jpg"
             },
             {
                 "model": "GREGG TERRA",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_terra_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_terra_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Gregg_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_Gregg_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_GREGG_BIANCO_MEDIA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_GREGG_BIANCO_MEDIA_H.jpg",
                 "size": "media"
             }
         ],
@@ -9411,7 +9411,7 @@
             {
                 "model": "FOLIO",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Folio_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Folio_H.jpg"
             }
         ],
         "specs": [
@@ -9496,33 +9496,33 @@
             {
                 "model": "GREGG",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Gregg_H.jpg"
             },
             {
                 "model": "GREGG SOSPENSIONE",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_sosp_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_sosp_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_GREGG_BIANCO_MEDIA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_GREGG_BIANCO_MEDIA_H.jpg",
                 "size": "media"
             },
             {
                 "model": "GREGG",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Gregg_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_Gregg_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_GREGG_BIANCO_MEDIA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_GREGG_BIANCO_MEDIA_H.jpg",
                 "size": "media"
             }
         ],
@@ -9614,22 +9614,22 @@
             {
                 "model": "HAVANA",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_HAVANA_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_HAVANA_H.jpg"
             },
             {
                 "model": "HAVANA",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Havana_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Havana_H.jpg"
             },
             {
                 "model": "HAVANA SOSPENSIONE",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Havana_sosp_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Havana_sosp_H.jpg"
             },
             {
                 "model": "HAVANA",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Havana_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Havana_H.jpg"
             }
         ],
         "specs": [
@@ -9821,29 +9821,29 @@
             {
                 "model": "TRESS",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS_BIANCO_MEDIA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS_BIANCO_MEDIA_H.jpg",
                 "size": "media"
             },
             {
                 "model": "TRESS GRANDE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-GRANDE_BIANCO_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-GRANDE_BIANCO_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "TRESS",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS_BIANCO_MINI_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS_BIANCO_MINI_H.jpg"
             },
             {
                 "model": "TRESS STILO",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS-STILO_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_TRESS-STILO_BIANCO_H.jpg"
             },
             {
                 "model": "TRESS STILO",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-STILO_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_TRESS-STILO_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -9986,27 +9986,27 @@
             {
                 "model": "ALLEGRO ASSAI",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-ASSAI_ORO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-ASSAI_ORO_H.jpg"
             },
             {
                 "model": "ALLEGRO RITMICO",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-RITMICO_GRAFITE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-RITMICO_GRAFITE_H.jpg"
             },
             {
                 "model": "ALLEGRETTO VIVACE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-VIVACE_RAME_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-VIVACE_RAME_H.jpg"
             },
             {
                 "model": "ALLEGRO VIVACE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-VIVACE_RAME_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-VIVACE_RAME_H.jpg"
             },
             {
                 "model": "ALLEGRETTO RITMICO",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-RITMICO_GRAFITE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-RITMICO_GRAFITE_H.jpg"
             }
         ],
         "specs": [
@@ -10134,7 +10134,7 @@
             {
                 "model": "GIGA LITE",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_GIGA-LITE_NERO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_GIGA-LITE_NERO_H.jpg"
             }
         ],
         "specs": [
@@ -10192,24 +10192,24 @@
             {
                 "model": "CABOCHE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "CABOCHE",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_CABOCHE_TRASPARENTE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_CABOCHE_TRASPARENTE_H.jpg"
             },
             {
                 "model": "CABOCHE",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_CABOCHE_TRASPARENTE_PICCOLA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_CABOCHE_TRASPARENTE_PICCOLA_H.jpg",
                 "size": "piccola"
             },
             {
                 "model": "CABOCHE",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
                 "size": "grande"
             }
         ],
@@ -10295,33 +10295,33 @@
             {
                 "model": "GREGG",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Gregg_H.jpg"
             },
             {
                 "model": "GREGG SOSPENSIONE",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_sosp_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_sosp_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_GREGG_BIANCO_MEDIA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_GREGG_BIANCO_MEDIA_H.jpg",
                 "size": "media"
             },
             {
                 "model": "GREGG TERRA",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_terra_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_terra_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_Gregg_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_GREGG_BIANCO_MEDIA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_GREGG_BIANCO_MEDIA_H.jpg",
                 "size": "media"
             }
         ],
@@ -10434,62 +10434,62 @@
             {
                 "model": "RITUALS 2",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -10583,17 +10583,17 @@
             {
                 "model": "BAHIA",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BAHIA_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BAHIA_BIANCO_H.jpg"
             },
             {
                 "model": "BAHIA MINI",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BAHIA-MINI_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BAHIA-MINI_BIANCO_H.jpg"
             },
             {
                 "model": "BAHIA",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BAHIA_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BAHIA_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -10689,62 +10689,62 @@
             {
                 "model": "RITUALS 2",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -10805,27 +10805,27 @@
             {
                 "model": "CHOUCHIN 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-2_VERDE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-2_VERDE_H.jpg"
             },
             {
                 "model": "CHOUCHIN REVERSE 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-1_BIANCO-ARANCIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-1_BIANCO-ARANCIO_H.jpg"
             },
             {
                 "model": "CHOUCHIN 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-1_ARANCIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-1_ARANCIO_H.jpg"
             },
             {
                 "model": "CHOUCHIN 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-3_GRIGIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-3_GRIGIO_H.jpg"
             },
             {
                 "model": "CHOUCHIN REVERSE 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-2_BIANCO-VERDE_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CHOUCHIN-REVERSE-2_BIANCO-VERDE_H.jpg"
             }
         ],
         "specs": [
@@ -11021,7 +11021,7 @@
             {
                 "model": "LE SOLEIL",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Le-Soleil_Red_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Le-Soleil_Red_H.jpg"
             }
         ],
         "specs": [
@@ -11104,62 +11104,62 @@
             {
                 "model": "RITUALS 2",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -11224,29 +11224,29 @@
             {
                 "model": "LUMIERE",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-GRANDE_BIANCO-CROMO-NERO_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-GRANDE_BIANCO-CROMO-NERO_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "LUMIERE 25TH",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-25_ALLUMINIO_PICCOLA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-25_ALLUMINIO_PICCOLA_H.jpg",
                 "size": "piccola"
             },
             {
                 "model": "LUMIERE XX",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
             },
             {
                 "model": "LUMIERE XXL",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg"
             },
             {
                 "model": "LUMIERE XX",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_LUMIERE-XXL_GRIGIO-FREDDO-AL_H.jpg"
             }
         ],
         "specs": [
@@ -11410,62 +11410,62 @@
             {
                 "model": "RITUALS 2",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-3_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -11526,23 +11526,23 @@
             {
                 "model": "BIRDIE LETTURA",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_BIRDIE_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_BIRDIE_BIANCO_H.jpg"
             },
             {
                 "model": "BIRDIE",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BIRDIE_BIANCO_GRANDE_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BIRDIE_BIANCO_GRANDE_H.jpg",
                 "size": "grande"
             },
             {
                 "model": "BIRDIE",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BIRDIE_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BIRDIE_BIANCO_H.jpg"
             },
             {
                 "model": "BIRDIE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BIRDIE_BIANCO_GRANDE_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BIRDIE_BIANCO_GRANDE_H.jpg",
                 "size": "grande"
             }
         ],
@@ -11660,33 +11660,33 @@
             {
                 "model": "GREGG",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Gregg_H.jpg"
             },
             {
                 "model": "GREGG SOSPENSIONE",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_sosp_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_sosp_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_GREGG_BIANCO_MEDIA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_GREGG_BIANCO_MEDIA_H.jpg",
                 "size": "media"
             },
             {
                 "model": "GREGG TERRA",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_terra_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_terra_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Gregg_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_GREGG_BIANCO_MEDIA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_GREGG_BIANCO_MEDIA_H.jpg",
                 "size": "media"
             }
         ],
@@ -11760,7 +11760,7 @@
             {
                 "model": "CIRCUS",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_CIRCUS_BIANCO_PICCOLA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_CIRCUS_BIANCO_PICCOLA_H.jpg",
                 "size": "piccola"
             }
         ],
@@ -11822,7 +11822,7 @@
             {
                 "model": "NUAGE",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_NUAGE_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_NUAGE_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -11881,22 +11881,22 @@
             {
                 "model": "HAVANA",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_HAVANA_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_HAVANA_H.jpg"
             },
             {
                 "model": "HAVANA",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Havana_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Havana_H.jpg"
             },
             {
                 "model": "HAVANA SOSPENSIONE",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Havana_sosp_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Havana_sosp_H.jpg"
             },
             {
                 "model": "HAVANA TERRA",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Havana_terra_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Havana_terra_H.jpg"
             }
         ],
         "specs": [
@@ -11946,17 +11946,17 @@
             {
                 "model": "BAHIA",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BAHIA_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BAHIA_BIANCO_H.jpg"
             },
             {
                 "model": "BAHIA MINI",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BAHIA-MINI_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BAHIA-MINI_BIANCO_H.jpg"
             },
             {
                 "model": "BAHIA MINI",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BAHIA-MINI_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BAHIA-MINI_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -12036,22 +12036,22 @@
             {
                 "model": "APLOMB",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB_GRIGIO-CEMENTO_H.jpg"
             },
             {
                 "model": "APLOMB",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB_GRIGIO-CEMENTO_H.jpg"
             },
             {
                 "model": "APLOMB MINI",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB-MINI_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB-MINI_GRIGIO-CEMENTO_H.jpg"
             },
             {
                 "model": "APLOMB LARGE",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB-LARGE_GRIGIO-CEMENTO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_APLOMB-LARGE_GRIGIO-CEMENTO_H.jpg"
             }
         ],
         "specs": [
@@ -12109,12 +12109,12 @@
             {
                 "model": "BIG BANG",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BIG-BANG_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_BIG-BANG_BIANCO_H.jpg"
             },
             {
                 "model": "BIG BANG",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BIG-BANG_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_BIG-BANG_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -12194,62 +12194,62 @@
             {
                 "model": "RITUALS 2",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS XL",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-XL_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 2",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-2_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 3",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_RITUALS-3_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_RITUALS-1_BIANCO_H.jpg"
             },
             {
                 "model": "RITUALS 1",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_RITUALS-1_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -12293,7 +12293,7 @@
             {
                 "model": "BEHIVE",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BEHIVE_BIANCO_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_BEHIVE_BIANCO_H.jpg"
             }
         ],
         "specs": [
@@ -12378,33 +12378,33 @@
             {
                 "model": "GREGG",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Gregg_H.jpg"
             },
             {
                 "model": "GREGG SOSPENSIONE",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_sosp_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_sosp_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_GREGG_BIANCO_MEDIA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_GREGG_BIANCO_MEDIA_H.jpg",
                 "size": "media"
             },
             {
                 "model": "GREGG TERRA",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_terra_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_terra_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Gregg_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_Gregg_H.jpg"
             }
         ],
         "specs": [
@@ -12463,7 +12463,7 @@
             {
                 "model": "BLOB S",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_Blob-S_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_Blob-S_H.jpg"
             }
         ],
         "specs": [
@@ -12541,7 +12541,7 @@
             {
                 "model": "FOLIO",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_Folio_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_Folio_H.jpg"
             }
         ],
         "specs": [
@@ -12636,7 +12636,7 @@
             {
                 "model": "CIRCUS",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_CIRCUS_BIANCO_PICCOLA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_CIRCUS_BIANCO_PICCOLA_H.jpg",
                 "size": "piccola"
             }
         ],
@@ -12696,7 +12696,7 @@
             {
                 "model": "BLOB S",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Blob-S_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Blob-S_H.jpg"
             }
         ],
         "specs": [
@@ -12826,33 +12826,33 @@
             {
                 "model": "GREGG",
                 "category": "SOSPENSIONE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Gregg_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "TAVOLO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_GREGG_BIANCO_MEDIA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_GREGG_BIANCO_MEDIA_H.jpg",
                 "size": "media"
             },
             {
                 "model": "GREGG TERRA",
                 "category": "OUTDOOR",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_terra_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_Gregg_terra_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "PARETE",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_Gregg_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "SOFFITTO",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_Gregg_H.jpg"
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_Gregg_H.jpg"
             },
             {
                 "model": "GREGG",
                 "category": "TERRA",
-                "img": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_GREGG_BIANCO_MEDIA_H.jpg",
+                "url": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_GREGG_BIANCO_MEDIA_H.jpg",
                 "size": "media"
             }
         ],

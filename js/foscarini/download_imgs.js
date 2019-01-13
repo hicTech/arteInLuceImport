@@ -38,8 +38,10 @@ fs.readFile('./site_info_remote.json', 'utf8', function(err, contents) {
 
         // related_imgs
         _.each(elem.related_imgs,function(related_imgs_elem,index){
-            var url = related_imgs_elem.img;
-            json[key].related_imgs[index] = getAugmentedImg(url, elem.model, elem.category, "related_images");
+            var url = related_imgs_elem.url;
+            var model = related_imgs_elem.model;
+            var category = related_imgs_elem.category;
+            json[key].related_imgs[index] = getAugmentedImg(url, model, category, "related_images");
             download_queue.push( url )
         });
 
@@ -99,10 +101,11 @@ fs.readFile('./site_info_remote.json', 'utf8', function(err, contents) {
             url : url,
             file_name: file_name,
             model: model,
-            category: category,
+            // per la categoria provo a recuperarla dal nome della foto...se non trovo nessuna indicazione gli associo la categoria della pagina in cui la foto è contenuta (potrebbe ono esere la categorya giusta)
+            category: getCategory(file_name,category),
             img_type: caso, // "carousel","others_images","project","related_imgs","light_schema",
             size: getSize(file_name),
-            primary: file_name.indexOf("_H.jpg") != -1,
+            primary: caso == "related_images",
             colors: getColor(file_name),
         }
 
@@ -193,6 +196,36 @@ fs.readFile('./site_info_remote.json', 'utf8', function(err, contents) {
             
 
 
+
+        }
+
+        function getCategory(file_name, category){
+            file_name = file_name.toLowerCase();
+            if(file_name.indexOf("te_") != -1){
+                if( 
+                    file_name.indexOf("kite_") == -1 &&
+                    file_name.indexOf("lite_") == -1 &&
+                    file_name.indexOf("mite_") == -1 &&
+                    file_name.indexOf("trasparente_") == -1 &&
+                    file_name.indexOf("grafite_") == -1 &&
+                    file_name.indexOf("kite_") == -1 
+                )
+                return "TERRA";
+            }
+
+            if( file_name.indexOf("ta_") != -1)
+                return "TAVOLO" 
+            
+            if(file_name.indexOf("sos_") != -1)
+                return "SOSPENSIONE"
+            
+            if(file_name.indexOf("sof_") != -1)
+                return "SOFFITTO"
+            
+            if(file_name.indexOf("pa_") != -1)
+                return "PARETE"
+            else    
+                return category;
 
         }
     }

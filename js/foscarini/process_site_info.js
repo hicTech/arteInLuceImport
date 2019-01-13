@@ -36,7 +36,7 @@ function avvia(index){
 
 
     if(index == pages_number){
-        fs.writeFile('nuovo_site_info_remote.json', JSON.stringify(info, null, 4), 'utf8', function(){
+        fs.writeFile('site_info_remote.json', JSON.stringify(info, null, 4), 'utf8', function(){
             _.log("FINITO");
         });
         return true;
@@ -87,7 +87,7 @@ function createJsonFromAPage(body){
             related_imgs.push({
                 model: model,
                 category : category,
-                img: img,
+                url: img,
                 size: size,
             })
         })
@@ -99,7 +99,7 @@ function createJsonFromAPage(body){
     $body.find(".specs").remove();
     var specs_arr = [];
         $specs.find(".inner .tabs ul li").each(function(){
-            let model = $(this).html().toUpperCase();
+            let specs_model = $(this).html().toUpperCase();
             let index = $(this).index();
             let $panel = $(this).parents(".inner").find(".panel .variant").eq(index);
 
@@ -137,7 +137,7 @@ function createJsonFromAPage(body){
 
 
             specs_arr.push({
-                model: model,
+                model: specs_model,
                 light_schema: light_schema,
                 material: material,
                 source: source,
