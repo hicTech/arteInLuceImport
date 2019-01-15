@@ -46,7 +46,6 @@ fs.readFile('./site_info_remote.json', 'utf8', function(err, contents) {
         });
 
         // light_schema
-        
         _.each(elem.specs,function(spec, spec_index){
                 var url = spec.light_schema;
                 json[key].specs[spec_index].light_schema = getAugmentedImg(url, elem.model, elem.category, "light_schema");
@@ -100,7 +99,7 @@ fs.readFile('./site_info_remote.json', 'utf8', function(err, contents) {
         return{
             url : url,
             file_name: file_name,
-            model: model,
+            model: getModel(model,file_name), // serve per gestire casi particolari
             // per la categoria provo a recuperarla dal nome della foto...se non trovo nessuna indicazione gli associo la categoria della pagina in cui la foto è contenuta (potrebbe ono esere la categorya giusta)
             category: getCategory(file_name,category),
             img_type: caso, // "carousel","others_images","project","related_imgs","light_schema",
@@ -121,8 +120,8 @@ fs.readFile('./site_info_remote.json', 'utf8', function(err, contents) {
         function getColor(local_url){
             var colors = [];
             local_url = local_url.toLowerCase();
-            if(local_url.indexOf("_bianco") != -1 || local_url.indexOf("white") != -1 ){
-                if(local_url.indexOf("bianco-caldo") != -1)
+            if(local_url.indexOf("_bianc") != -1 || local_url.indexOf("white") != -1 ){
+                if(local_url.indexOf("bianco-caldo") != -1 || local_url.indexOf("warm-white") != -1)
                     colors.push("bianco caldo");
                 else
                     colors.push("bianco");
@@ -229,6 +228,18 @@ fs.readFile('./site_info_remote.json', 'utf8', function(err, contents) {
 
         }
     }
+
+    function getModel(model, file_name){
+            var new_model = model;
+            if(file_name.toLowerCase().indexOf("birdie-6") != -1)
+                new_model = "BIRDIE 6";
+            if(file_name.toLowerCase().indexOf("birdie-9") != -1)
+                new_model = "BIRDIE 9";
+            if(file_name.toLowerCase().indexOf("birdie-3") != -1)
+                new_model = "BIRDIE 3";
+
+            return new_model;
+        }
 
     //////////// QUESTO SERVE PER SCARICARE I SOLI PDF
 

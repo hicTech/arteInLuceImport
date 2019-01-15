@@ -5147,7 +5147,7 @@
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BIRDIE-6_BIANCO_H.jpg",
                 "file_name": "SOF_BIRDIE-6_BIANCO_H.jpg",
-                "model": "BIRDIE",
+                "model": "BIRDIE 6",
                 "category": "SOFFITTO",
                 "img_type": "related_images",
                 "primary": true,
@@ -5631,7 +5631,7 @@
                 "img_type": "carousel",
                 "primary": false,
                 "colors": [
-                    "bianco"
+                    "bianco caldo"
                 ]
             },
             {
@@ -10809,7 +10809,7 @@
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BIRDIE-6_BIANCO_H.jpg",
                 "file_name": "SOF_BIRDIE-6_BIANCO_H.jpg",
-                "model": "BIRDIE",
+                "model": "BIRDIE 6",
                 "category": "SOFFITTO",
                 "img_type": "related_images",
                 "primary": true,
@@ -14645,7 +14645,9 @@
                 "category": "PARETE",
                 "img_type": "carousel",
                 "primary": false,
-                "colors": []
+                "colors": [
+                    "bianco"
+                ]
             },
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/W_PA_Birdie_Grigio.jpg",
@@ -14891,7 +14893,7 @@
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BIRDIE-6_BIANCO_H.jpg",
                 "file_name": "SOF_BIRDIE-6_BIANCO_H.jpg",
-                "model": "BIRDIE",
+                "model": "BIRDIE 6",
                 "category": "SOFFITTO",
                 "img_type": "related_images",
                 "primary": true,
@@ -15062,7 +15064,9 @@
                 "category": "TAVOLO",
                 "img_type": "carousel",
                 "primary": false,
-                "colors": []
+                "colors": [
+                    "bianco"
+                ]
             },
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/W_TA_Lumiere-XXL_Grigia.jpg",
@@ -20593,7 +20597,9 @@
                 "category": "TAVOLO",
                 "img_type": "carousel",
                 "primary": false,
-                "colors": []
+                "colors": [
+                    "bianco"
+                ]
             },
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/W_TA_UTO_GIALLA.jpg",
@@ -27427,7 +27433,7 @@
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_BIRDIE-6_BIANCO_H.jpg",
                 "file_name": "SOF_BIRDIE-6_BIANCO_H.jpg",
-                "model": "BIRDIE",
+                "model": "BIRDIE 6",
                 "category": "SOFFITTO",
                 "img_type": "related_images",
                 "primary": true,
@@ -36314,7 +36320,9 @@
                 "category": "PARETE",
                 "img_type": "carousel",
                 "primary": false,
-                "colors": []
+                "colors": [
+                    "bianco"
+                ]
             },
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/W_PA_BIT_Colorata.jpg",
@@ -42908,7 +42916,7 @@
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/W_SOF_Birdie-6_Amaranto.jpg",
                 "file_name": "W_SOF_Birdie-6_Amaranto.jpg",
-                "model": "BIRDIE",
+                "model": "BIRDIE 6",
                 "category": "SOFFITTO",
                 "img_type": "carousel",
                 "primary": false,
@@ -42919,7 +42927,7 @@
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/W_SOF_Birdie-6_Arancio.jpg",
                 "file_name": "W_SOF_Birdie-6_Arancio.jpg",
-                "model": "BIRDIE",
+                "model": "BIRDIE 6",
                 "category": "SOFFITTO",
                 "img_type": "carousel",
                 "primary": false,
@@ -42930,7 +42938,7 @@
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/W_SOF_Birdie-6_Bianco.jpg",
                 "file_name": "W_SOF_Birdie-6_Bianco.jpg",
-                "model": "BIRDIE",
+                "model": "BIRDIE 6",
                 "category": "SOFFITTO",
                 "img_type": "carousel",
                 "primary": false,
@@ -42941,7 +42949,7 @@
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/W_SOF_Birdie-6_Grey.jpg",
                 "file_name": "W_SOF_Birdie-6_Grey.jpg",
-                "model": "BIRDIE",
+                "model": "BIRDIE 6",
                 "category": "SOFFITTO",
                 "img_type": "carousel",
                 "primary": false,
@@ -43197,7 +43205,7 @@
                 "light_schema": {
                     "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_EU_BIRDIE-3.png",
                     "file_name": "SOF_EU_BIRDIE-3.png",
-                    "model": "BIRDIE",
+                    "model": "BIRDIE 3",
                     "category": "SOFFITTO",
                     "img_type": "light_schema",
                     "primary": false,
@@ -43221,7 +43229,7 @@
                 "light_schema": {
                     "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_EU_BIRDIE-6.png",
                     "file_name": "SOF_EU_BIRDIE-6.png",
-                    "model": "BIRDIE",
+                    "model": "BIRDIE 6",
                     "category": "SOFFITTO",
                     "img_type": "light_schema",
                     "primary": false,
@@ -43245,7 +43253,7 @@
                 "light_schema": {
                     "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_EU_BIRDIE-9.png",
                     "file_name": "SOF_EU_BIRDIE-9.png",
-                    "model": "BIRDIE",
+                    "model": "BIRDIE 9",
                     "category": "SOFFITTO",
                     "img_type": "light_schema",
                     "primary": false,

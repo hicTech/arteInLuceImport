@@ -24,7 +24,9 @@ const files = FileHound.create()
           
         });
 
-        _.log(temp_arr.length)
+        _.each(temp_arr,function(elem){
+            _.log(elem)
+        })
         
 
         //fs.writeFile('images_json.json', JSON.stringify(images_json), 'utf8', function(){

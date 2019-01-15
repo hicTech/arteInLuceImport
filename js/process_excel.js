@@ -139,7 +139,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var more = undefined;
         var video = undefined;
         var pic = undefined;
-        var otherPics = undefined;
+        var otherColors = undefined;
 
     
 
@@ -171,7 +171,11 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 "BIRDIE 3",
                 "BIRDIE 6",
                 "BIRDIE 9",
-                "BIT",
+                "BIT 1",
+                "BIT 2",
+                "BIT 3",
+                "BIT 4",
+                "BIT 5",
                 "BLOB S",
                 "BUDS 1",
                 "BUDS 2",
@@ -269,11 +273,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 {
                     model: "LIGHTWEIGHT",
                     category: "terra"
-                },
-                {
-                    model: "TRESS",
-                    category: "tavolo"
-                },
+                }
             ]
 
             var articolo = row["Articolo"];
@@ -294,6 +294,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 price = row["Europa"];
                 color = getColor(articolo);
                 category = getCategory(row["Sottofamiglia"]);
+                cleaned_desc_it = getDesc(model,category,assets_json);
                 dimmer = (articolo.indexOf("DIM") != -1)? 1 : 0;
                 led = (articolo.indexOf("LED") != -1)? 1 : 0;
                 halogen = (articolo.indexOf("ALO") != -1)? 1 : 0;
@@ -306,24 +307,31 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 max_discount = 0;
                 more = undefined;
                 video = undefined;
-                pic = getPic(model, category,component, createAllImgsArr(assets_json) );
-                otherPics = undefined;
+                pic = getPics(model, category, color, component, createAllImgsArr(assets_json), "primary" );
+                otherColors = getPics(model, category, color, component, createAllImgsArr(assets_json), "colors" );
             }
                 
 
             function getColor(articolo){
                 colors = [];
-                if( articolo.indexOf("BIA") != -1 || articolo.indexOf("WHITE ") != -1 ){
-                    if( articolo.indexOf("BIANCO CALDO") != -1 ){
-                        colors.push("bianco caldo");
-                    }
-                    if( articolo.indexOf("BIANCO CALDO") != -1 ){
-                        colors.push("bianco caldo");
-                    }
-                    else{
-                        colors.push("bianco");
+                
+                if( articolo.indexOf("/BIANCO CALDO") != -1 || articolo.indexOf("/BIANC CALDO") != -1 || articolo.indexOf("/BIAN CALDO") != -1 || articolo.indexOf("/B.CO CALDO") != -1){
+                    colors.push("bianco caldo");
+                }else{
+                    if( articolo.indexOf("BIA") != -1 || articolo.indexOf("WHITE ") != -1 ){
+                        if( articolo.indexOf("BIANCO CALDO") != -1 ){
+                            colors.push("bianco caldo");
+                        }
+                        if( articolo.indexOf("BIANCO CALDO") != -1 ){
+                            colors.push("bianco caldo");
+                        }
+                        else{
+                            colors.push("bianco");
+                        }
                     }
                 }
+                colors = _.uniq(colors); // pezza volante per evitare che ci sia due volte "bianco caldo";
+
                 if( articolo.indexOf("NERO") != -1 || articolo.indexOf("NERA") != -1 ){
                     colors.push("nero");
                 }
@@ -551,21 +559,22 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             
             
 
-             /*
-                per recuperare le immagini mi creo un array di ausilio da assets_json
-                questo array è composto da elementi del tipo:
 
-                { 
-                    "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_EU_OUT-GREG-sosp-grande.png",
-                    "file_name": "OUT_EU_OUT-GREG-sosp-grande.png",
-                    "model": "GREGG SOSPENSIONE",
-                    "category": "OUTDOOR",
-                    "img_type": "light_schema",
-                    "primary": false,
-                    "colors": []
-                }
-            */
             function createAllImgsArr(assets_json){
+                /*
+                    per recuperare le immagini mi creo un array di ausilio da assets_json
+                    questo array è composto da elementi del tipo:
+
+                    { 
+                        "url": "https://www.foscarini.com/wp-content/uploads/2017/10/OUT_EU_OUT-GREG-sosp-grande.png",
+                        "file_name": "OUT_EU_OUT-GREG-sosp-grande.png",
+                        "model": "GREGG SOSPENSIONE",
+                        "category": "OUTDOOR",
+                        "img_type": "light_schema",
+                        "primary": false,
+                        "colors": []
+                    }
+                */
                 let all_imgs = [];
 
                 
@@ -596,7 +605,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     
             }
 
-            function getPic(model, category, component, all_images){
+            function getPics(model, category, colors, component, all_images, caso){
                 if(component == 1){
                     return undefined; // è un ricambio quindi per ora non ha foto
                 }
@@ -612,75 +621,114 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         /** qui accordiamo le diverse nomencalute di alcuni prodotti presenti sul sito */
                         var elem_model = elem.model;
                         var elem_category = elem.category.toLowerCase();
-                        
-                        if(elem_model == "CHOUCHIN REVERSE 1") // su assets_json.json
-                            elem_model = "CHOUCHIN 1 REVERSE"; // da listino excel
-                        if(elem_model == "CHOUCHIN REVERSE 2")
-                            elem_model = "CHOUCHIN 2 REVERSE";
-                        if(elem_model == "CHOUCHIN REVERSE 3")
-                            elem_model = "CHOUCHIN 3 REVERSE";
-                        if(elem_model == "GIGA LITE")
-                            elem_model = "GIGA-LITE";
-                        if(elem_model == "TUTÙ")
-                            elem_model = "TUTU'";
-                        if(elem_model == "CRI CRI")
-                            elem_model = "CRI-CRI";
-                        
-                        if(elem_model == "MAGNETO" && elem_category == "terra"){
-                            elem_category = "lettura";
+
+                        if( sameItem(model, cat, elem_model, elem_category, "pic") ){
+                             ret.push(elem);
                         }
-
-                        if(elem_model == "TWIGGY LETTURA"){
-                            elem_category = "lettura";
-                        }
-
-                        if(elem_model == "TWIGGY" && elem_category == "lettura"){
-                            elem_model = "TWIGGY LETTURA";
-                        }
-
-                        if(elem_model == "BIRDIE LED LETTURA" || elem_model == "BIRDIE LETTURA"){
-                            if(model == "BIRDIE LED LETTURA" || model == "BIRDIE LETTURA"){
-                                elem_category = "lettura";
-                            }
-                                
-                        }
-
-                        if(elem_model == "LUMIERE XXL" && elem_category == "terra"){
-                            elem_category = "lettura";
-                        }
-
-                        if(elem_model == "SOLAR"){
-                            elem_category = "terra";
-                        }
-
-
-
-                        if(model == elem_model)
-                            if(cat == elem_category)   
-                                ret.push(elem);
-                        }
+                               
+                    }
                     
                 });
 
                 var arr_pic = [];
+
+
+    
                 _.each(ret,function(elem){
-                    if(elem.primary)
-                        arr_pic.push(elem);
+                    if( caso == "primary" ){
+                        if(elem.primary)
+                            arr_pic.push(elem);
+                    }
+                    if( caso == "colors" ){
+                        if(elem.img_type == "carousel")
+                            arr_pic.push(elem);
+                    }
+                    
                 });
 
                 arr_pic = uniqByFileName(arr_pic);
 
-                if(arr_pic.length == 1){
-                    return arr_pic[0].url;
+                if(arr_pic.length == 1 && caso == "primary"){
+                    arr_pic = arr_pic[0].url;
                 }
                 else{
-                    if(arr_pic.length > 1){
-                        _.log("model: "+arr_pic[0].model+", category: "+arr_pic[0].category+" pics:"+ arr_pic[0].url);
-                        _.log("model: "+arr_pic[0].model+", category: "+arr_pic[0].category+" pics:"+ arr_pic[1].url);
-                        _.log("__________________________________");
+                    if(arr_pic.length == 1){
+                        arr_pic = "no colors";
+                    }
+                    else{
+                        if(arr_pic.length > 1){
+                            
+                            var new_arr_pic = _.filter(arr_pic,function(elem){
+                                return _.isEqual(elem.colors, colors);
+                            })
+
+
+                            if(new_arr_pic.length == 1){
+                                arr_pic = new_arr_pic;
+                            }
+                            else{
+                                // ho notato che in questo punto se fra i colori c'è l'alluminio questo non è determinante ai fini della verifica che elem.colors e colors siano uguali
+                                // quindi in questo caso elimino (se viene ritrovato) l'alluminio dai colori sia di arr_pic che colors
+
+                               
+                                    _.log("ecco");
+                                    _.log( _.difference(["bianco"],["bianco-caldo"]) )
+                                    _.log( _.difference(["bianco-clado"],["bianco"]) )
+
+                                var new_arr_pic_no_alluminio = _.filter(arr_pic,function(elem){
+
+                                    
+
+                                    var new_elem_colors = _.difference(elem.colors,["alluminio"]);// elimino "alluminio" dall'array
+                                    var new_colors = _.difference(colors,["alluminio"]);// elimino "alluminio" dall'array
+
+                                    
+                                   // _.log(new_colors+" - "+new_elem_colors+" ---- "+_.difference(new_colors,new_elem_colors).length)
+                                        
+                                    
+                                    
+                                    return _.difference(new_colors,new_elem_colors).length == 0;
+
+                                });
+
+                                
+
+                                if(new_arr_pic_no_alluminio.length == 1){
+                                    
+                                    arr_pic = new_arr_pic_no_alluminio;
+                                }
+                                    
+                                else{
+                                    
+
+                                    
+
+
+                                }
+
+
+
+                            }
+                                
+                        }
                     }
                     
+                    
                 }
+
+                //_.log(arr_pic)
+
+
+                if(!_.isArray(arr_pic))
+                    return arr_pic;
+                else{
+                    var arr_to_string = "";
+                    _.each(arr_pic,function(elem){
+                        arr_to_string += elem.file_name+" • ";
+                    })
+                    return arr_to_string;
+                }
+
                     
 
                 
@@ -787,6 +835,27 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     
             }
 
+            function getDesc(model,category,assets_json){
+                var ret = undefined;
+
+                        
+                var cat = category[0];
+                _.each(assets_json,function(elem){
+                    
+                    /** qui accordiamo le diverse nomencalute di alcuni prodotti presenti sul sito */
+                        var elem_model = elem.model;
+                        var elem_category = elem.category.toLowerCase();
+                        
+                        if( sameItem(model, cat, elem_model, elem_category,"desc") ){
+                             ret = elem.desc;
+                        }
+
+                    
+                        
+                });
+
+                return ret;
+            }
             
             
             
@@ -831,7 +900,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 more = getMore(row["Descrizione"],model);
                 video = undefined;
                 pic = undefined;
-                otherPics = getOtherPics(model, size, category, type, color, more);
+                otherColors = getOtherPics(model, size, category, type, color, more);
                 
 
                 
@@ -1371,33 +1440,33 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         
 
         return{
-            supplier:               supplier,                           // nome del fornitore
-            supplier_id :           supplier_id,                        // identificativo del fonitore
+            //supplier:               supplier,                           // nome del fornitore
+            //supplier_id :           supplier_id,                        // identificativo del fonitore
             model:                  model,                              // modello/famiglia dell'articolo
             original_model_id:      original_model_id,                  // id originario (NON MANIPOLATO) dell'articolo
             model_id:               model_id,                           // identificativo della famiglia di articolo ottenuto con replace(" ","_");
             item_id:                item_id,                            // l'id originario manipolato
-            hicId:                  hicId,                              // identificativo interno ottenuto come supplier_id + item_id
-            ean13:                  ean13,                              // codice a barre
-            price:                  price,                              // imponibile
+            //hicId:                  hicId,                              // identificativo interno ottenuto come supplier_id + item_id
+            //ean13:                  ean13,                              // codice a barre
+            //price:                  price,                              // imponibile
             color:                  color,                              // prova a recuperare il colore dall'id
-            desc_it:                cleaned_desc_it,                    // la descrizione in italiano
-            desc_en:                cleaned_desc_en,                    // la descrizione in inglese 
-            dimmer:                 dimmer,                             // se ha il dimmer o meno
-            led:                    led,                                // se ha il led o meno
-            halogen:                halogen,                            // se ha lampada alogena
-            screw:                  screw,                              // tipo di attacco
-            switcher:               switcher,                           // se ha l'interruttore o meno
+            //desc_it:                cleaned_desc_it,                    // la descrizione in italiano
+            //desc_en:                cleaned_desc_en,                    // la descrizione in inglese 
+            //dimmer:                 dimmer,                             // se ha il dimmer o meno
+            //led:                    led,                                // se ha il led o meno
+            //halogen:                halogen,                            // se ha lampada alogena
+            //screw:                  screw,                              // tipo di attacco
+            //switcher:               switcher,                           // se ha l'interruttore o meno
             category:               category,                           // terra, tavolo, sospensione, soffitto, parete, montatura, kit, diffusore, set,
-            type:                   type,                               // tipo di lampada
+            //type:                   type,                               // tipo di lampada
             component:              component,                          // indica se è un componente di una lampada (serve per distinguere i pezzi di ricambio dalle lampade)
             size:                   size,                               // piuccola, media, grande,....
-            more:                   more,                               // contiene dei campi aggiuntivi (custom per ogni fornitore) esempio link a pdf, pagine html
-            video:                  video,                              // link del video
+            //more:                   more,                               // contiene dei campi aggiuntivi (custom per ogni fornitore) esempio link a pdf, pagine html
+            //video:                  video,                              // link del video
             outdoor:                outdoor,                            // se è da esterno o meno
-            max_discount:           undefined,                          // massimo sconto applicabile
+            //max_discount:           undefined,                          // massimo sconto applicabile
             pic:                    pic,                                // contiene l'immagine primaria
-            otherPics:              otherPics,                              // array dei path delle immagini
+            otherColors:              otherColors,                              // array dei path delle immagini di altri colori dello stesso articolo
         }
 }
 
@@ -1470,6 +1539,98 @@ function uniqByFileName(arr){
     });
     
     return ret;
+}
+
+function sameItem(model, category, elem_model, elem_category, caso){
+    if(elem_model == "CHOUCHIN REVERSE 1") // su assets_json.json
+        elem_model = "CHOUCHIN 1 REVERSE"; // da listino excel
+    if(elem_model == "CHOUCHIN REVERSE 2")
+        elem_model = "CHOUCHIN 2 REVERSE";
+    if(elem_model == "CHOUCHIN REVERSE 3")
+        elem_model = "CHOUCHIN 3 REVERSE";
+    if(elem_model == "GIGA LITE")
+        elem_model = "GIGA-LITE";
+    if(elem_model == "TUTÙ")
+        elem_model = "TUTU'";
+    if(elem_model == "CRI CRI")
+        elem_model = "CRI-CRI";
+    
+    if(elem_model == "MAGNETO" && elem_category == "terra"){
+        elem_category = "lettura";
+    }
+
+    if(elem_model == "TWIGGY LETTURA"){
+        elem_category = "lettura";
+    }
+
+    if(elem_model == "TWIGGY GRIDD"){
+        category = "outdoor";
+    }
+
+    if(elem_model == "TWIGGY" && elem_category == "lettura"){
+        elem_model = "TWIGGY LETTURA";
+    }
+
+    if( model == "BIRDIE LETTURA" || model ==  "BIRDIE LED LETTURA" ){
+        model = "BIRDIE LETTURA";
+        category = "terra";
+    }
+    
+
+    if(elem_model == "LUMIERE XXL" && elem_category == "terra"){
+        elem_category = "lettura";
+    }
+
+    if(elem_model == "SOLAR"){
+        elem_category = "terra";
+    }
+
+    if(model == "PLASS MEDIA" && category == "sospensione"){
+        model = "PLASS";
+    }
+
+    if(model == "BIT 1" || model == "BIT 2" || model == "BIT 3" || model == "BIT 4" || model == "BIT 5"){
+        model = "BIT";
+    }
+
+   
+
+    if(model == "HAVANA" && elem_model=="HAVANA"){
+        //_.log(category+" - "+elem_category);
+    }
+
+    if(caso == "desc"){
+        if( model == "BIRDIE 1" || model == "BIRDIE 3" || model == "BIRDIE 6" || model == "BIRDIE 9"){
+            model = "BIRDIE";
+            category = "soffitto";
+        }
+    }
+
+    if( model == "LUMIERE XXL" || model == "LUMIERE XXS"){
+        model = "LUMIERE XX";
+        if(category == "lettura")
+            category = "tavolo";
+    }
+
+    if(caso == "desc"){
+        if( model == "FILO"){
+            if(category != "parete")
+                category = "terra";
+        }
+    }
+
+    if(caso == "desc"){
+        if(elem_model == "TWIGGY GRID"){
+            category = "outdoor";
+        }
+    }
+
+    
+    
+
+
+
+    return model == elem_model && category == elem_category;
 }
 
 
