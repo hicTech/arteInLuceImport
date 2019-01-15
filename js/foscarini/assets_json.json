@@ -2460,7 +2460,10 @@
                 "category": "SOSPENSIONE",
                 "img_type": "carousel",
                 "primary": false,
-                "colors": []
+                "colors": [
+                    "giallo",
+                    "oro"
+                ]
             },
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/W_SOS_Caboche-medium_Transparent.jpg",
@@ -8056,7 +8059,9 @@
                 "category": "SOSPENSIONE",
                 "img_type": "carousel",
                 "primary": false,
-                "colors": []
+                "colors": [
+                    "rame"
+                ]
             },
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/W_SOS_LeSoleil_Red.jpg",
@@ -9221,7 +9226,10 @@
                 "category": "SOSPENSIONE",
                 "img_type": "related_images",
                 "primary": true,
-                "colors": []
+                "colors": [
+                    "giallo",
+                    "oro"
+                ]
             }
         ],
         "specs": [
@@ -12226,7 +12234,9 @@
                 "category": "TERRA",
                 "img_type": "carousel",
                 "primary": false,
-                "colors": []
+                "colors": [
+                    "colorato"
+                ]
             },
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/W_TE_Orbital_White.jpg",
@@ -15075,7 +15085,9 @@
                 "category": "TAVOLO",
                 "img_type": "carousel",
                 "primary": false,
-                "colors": []
+                "colors": [
+                    "grigio"
+                ]
             }
         ],
         "video": "https://player.vimeo.com/video/245943847?background=1&title=0&byline=0&portrait=0&autoplay=1&loop=1",
@@ -15911,7 +15923,10 @@
                 "category": "TAVOLO",
                 "img_type": "carousel",
                 "primary": false,
-                "colors": []
+                "colors": [
+                    "giallo",
+                    "oro"
+                ]
             },
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/W_TA_Caboche_Transparent.jpg",
@@ -16408,7 +16423,9 @@
                 "category": "TAVOLO",
                 "img_type": "carousel",
                 "primary": false,
-                "colors": []
+                "colors": [
+                    "rosa"
+                ]
             },
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/W_TA_Binic_Verde-acqua.jpg",
@@ -20210,7 +20227,10 @@
                 "category": "PARETE",
                 "img_type": "carousel",
                 "primary": false,
-                "colors": []
+                "colors": [
+                    "giallo",
+                    "oro"
+                ]
             },
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/W_PA_Caboche-Medium_Transparent.jpg",
@@ -21856,7 +21876,10 @@
                 "category": "TERRA",
                 "img_type": "carousel",
                 "primary": false,
-                "colors": []
+                "colors": [
+                    "giallo",
+                    "oro"
+                ]
             },
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/W_TE_Caboche_Transparent.jpg",
@@ -23463,7 +23486,10 @@
                 "category": "SOSPENSIONE",
                 "img_type": "related_images",
                 "primary": true,
-                "colors": []
+                "colors": [
+                    "giallo",
+                    "oro"
+                ]
             },
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRETTO-VIVACE_RAME_H.jpg",
@@ -23505,7 +23531,10 @@
                 "category": "SOSPENSIONE",
                 "img_type": "related_images",
                 "primary": true,
-                "colors": []
+                "colors": [
+                    "giallo",
+                    "oro"
+                ]
             }
         ],
         "specs": [
@@ -25511,7 +25540,10 @@
                 "category": "SOSPENSIONE",
                 "img_type": "related_images",
                 "primary": true,
-                "colors": []
+                "colors": [
+                    "giallo",
+                    "oro"
+                ]
             },
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-RITMICO_GRAFITE_H.jpg",
@@ -25553,7 +25585,10 @@
                 "category": "SOSPENSIONE",
                 "img_type": "related_images",
                 "primary": true,
-                "colors": []
+                "colors": [
+                    "giallo",
+                    "oro"
+                ]
             }
         ],
         "specs": [
@@ -30514,7 +30549,10 @@
                 "category": "SOSPENSIONE",
                 "img_type": "related_images",
                 "primary": true,
-                "colors": []
+                "colors": [
+                    "giallo",
+                    "oro"
+                ]
             },
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-RITMICO_GRAFITE_H.jpg",
@@ -30556,7 +30594,10 @@
                 "category": "SOSPENSIONE",
                 "img_type": "related_images",
                 "primary": true,
-                "colors": []
+                "colors": [
+                    "giallo",
+                    "oro"
+                ]
             }
         ],
         "specs": [
@@ -31974,7 +32015,10 @@
                 "category": "SOSPENSIONE",
                 "img_type": "related_images",
                 "primary": true,
-                "colors": []
+                "colors": [
+                    "giallo",
+                    "oro"
+                ]
             },
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-RITMICO_GRAFITE_H.jpg",
@@ -32016,7 +32060,10 @@
                 "category": "SOSPENSIONE",
                 "img_type": "related_images",
                 "primary": true,
-                "colors": []
+                "colors": [
+                    "giallo",
+                    "oro"
+                ]
             }
         ],
         "specs": [
@@ -34702,7 +34749,10 @@
                 "category": "TAVOLO",
                 "img_type": "carousel",
                 "primary": false,
-                "colors": []
+                "colors": [
+                    "giallo",
+                    "oro"
+                ]
             },
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2018/04/Gregg-BeColours_antracite_Web.jpg",
@@ -36331,7 +36381,9 @@
                 "category": "PARETE",
                 "img_type": "carousel",
                 "primary": false,
-                "colors": []
+                "colors": [
+                    "colorato"
+                ]
             }
         ],
         "other_imgs": [
@@ -37469,7 +37521,10 @@
                 "category": "SOSPENSIONE",
                 "img_type": "related_images",
                 "primary": true,
-                "colors": []
+                "colors": [
+                    "giallo",
+                    "oro"
+                ]
             },
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_ALLEGRO-RITMICO_GRAFITE_H.jpg",
@@ -37967,7 +38022,10 @@
                 "category": "SOFFITTO",
                 "img_type": "carousel",
                 "primary": false,
-                "colors": []
+                "colors": [
+                    "giallo",
+                    "oro"
+                ]
             },
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/W_SOF_Caboche_Transparent.jpg",

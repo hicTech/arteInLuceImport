@@ -671,9 +671,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 // quindi in questo caso elimino (se viene ritrovato) l'alluminio dai colori sia di arr_pic che colors
 
                                
-                                    _.log("ecco");
-                                    _.log( _.difference(["bianco"],["bianco-caldo"]) )
-                                    _.log( _.difference(["bianco-clado"],["bianco"]) )
+                                   
 
                                 var new_arr_pic_no_alluminio = _.filter(arr_pic,function(elem){
 
@@ -687,7 +685,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                         
                                     
                                     
-                                    return _.difference(new_colors,new_elem_colors).length == 0;
+                                    return new_colors.diff(new_elem_colors).length == 0; //_.difference(new_colors,new_elem_colors).length == 0;
 
                                 });
 
@@ -1473,6 +1471,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
 
 /* ================================================================= GLOBALI */
+
+Array.prototype.diff = function(a) {
+    return this.filter(function(i) {return a.indexOf(i) < 0;});
+};
 
 
 function rigaVuota(row){

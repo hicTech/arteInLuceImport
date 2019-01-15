@@ -1115,7 +1115,7 @@
         "component": 0,
         "outdoor": 0,
         "pic": "",
-        "otherColors": "W_TE_Orbital_Coloured.jpg • W_TE_Orbital_White.jpg • "
+        "otherColors": "W_TE_Orbital_Coloured.jpg • "
     },
     {
         "model": "BIT 1",
@@ -1546,7 +1546,7 @@
         "size": "piccola",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-GRANDE_BIANCO-CROMO-NERO_H.jpg",
-        "otherColors": "W_TA_Lumiere_Ciliegia.jpg • W_TA_Lumiere_Turchese.jpg • W_TA_Lumiere_Warm-white.jpg • W_TA_Lumiere_White.jpg • "
+        "otherColors": "W_TA_Lumiere_White.jpg • "
     },
     {
         "model": "LUMIERE",
@@ -1840,7 +1840,7 @@
         "size": "grande",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-GRANDE_BIANCO-CROMO-NERO_H.jpg",
-        "otherColors": "W_TA_Lumiere_Ciliegia.jpg • W_TA_Lumiere_Turchese.jpg • W_TA_Lumiere_Warm-white.jpg • W_TA_Lumiere_White.jpg • "
+        "otherColors": "W_TA_Lumiere_White.jpg • "
     },
     {
         "model": "LUMIERE",
@@ -3428,7 +3428,7 @@
         "component": 0,
         "outdoor": 0,
         "pic": "",
-        "otherColors": "W_TE_Orbital_Coloured.jpg • W_TE_Orbital_White.jpg • "
+        "otherColors": "W_TE_Orbital_Coloured.jpg • "
     },
     {
         "model": "ORBITAL",
@@ -5319,7 +5319,7 @@
         "size": "media",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_CABOCHE_TRASPARENTE_PICCOLA_H.jpg",
-        "otherColors": "W_PA_Caboche-Medium_Gold.jpg • W_PA_Caboche-Medium_Transparent.jpg • "
+        "otherColors": "W_PA_Caboche-Medium_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -5416,7 +5416,7 @@
         "size": "media",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_CABOCHE_TRASPARENTE_PICCOLA_H.jpg",
-        "otherColors": "W_PA_Caboche-Medium_Gold.jpg • W_PA_Caboche-Medium_Transparent.jpg • "
+        "otherColors": "W_PA_Caboche-Medium_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -5513,7 +5513,7 @@
         "size": "media",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
-        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • W_SOS_Caboche-medium_Transparent.jpg • "
+        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -5610,7 +5610,7 @@
         "size": "media",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
-        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • W_SOS_Caboche-medium_Transparent.jpg • "
+        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -5707,7 +5707,7 @@
         "size": "media",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
-        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • W_SOS_Caboche-medium_Transparent.jpg • "
+        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -5804,7 +5804,7 @@
         "size": "media",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
-        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • W_SOS_Caboche-medium_Transparent.jpg • "
+        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -5901,7 +5901,7 @@
         "size": "media",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
-        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • W_SOS_Caboche-medium_Transparent.jpg • "
+        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -5998,7 +5998,7 @@
         "size": "media",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
-        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • W_SOS_Caboche-medium_Transparent.jpg • "
+        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -6292,7 +6292,7 @@
         "component": 0,
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOF_CABOCHE_TRASPARENTE_H.jpg",
-        "otherColors": "W_SOF_Caboche_Gold.jpg • W_SOF_Caboche_Transparent.jpg • "
+        "otherColors": "W_SOF_Caboche_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -6389,7 +6389,7 @@
         "size": "grande",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
-        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • W_SOS_Caboche-medium_Transparent.jpg • "
+        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -6486,7 +6486,7 @@
         "size": "grande",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
-        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • W_SOS_Caboche-medium_Transparent.jpg • "
+        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -6583,7 +6583,7 @@
         "size": "grande",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
-        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • W_SOS_Caboche-medium_Transparent.jpg • "
+        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -6680,7 +6680,7 @@
         "size": "grande",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
-        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • W_SOS_Caboche-medium_Transparent.jpg • "
+        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -6777,7 +6777,7 @@
         "size": "grande",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
-        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • W_SOS_Caboche-medium_Transparent.jpg • "
+        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -6874,7 +6874,7 @@
         "size": "grande",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
-        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • W_SOS_Caboche-medium_Transparent.jpg • "
+        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -6971,7 +6971,7 @@
         "size": "piccola",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_CABOCHE_TRASPARENTE_PICCOLA_H.jpg",
-        "otherColors": "W_PA_Caboche-Medium_Gold.jpg • W_PA_Caboche-Medium_Transparent.jpg • "
+        "otherColors": "W_PA_Caboche-Medium_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -7068,7 +7068,7 @@
         "size": "piccola",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/PA_CABOCHE_TRASPARENTE_PICCOLA_H.jpg",
-        "otherColors": "W_PA_Caboche-Medium_Gold.jpg • W_PA_Caboche-Medium_Transparent.jpg • "
+        "otherColors": "W_PA_Caboche-Medium_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -7165,7 +7165,7 @@
         "size": "piccola",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
-        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • W_SOS_Caboche-medium_Transparent.jpg • "
+        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -7262,7 +7262,7 @@
         "size": "piccola",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
-        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • W_SOS_Caboche-medium_Transparent.jpg • "
+        "otherColors": "W_SOS_Caboche-medium_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -14702,7 +14702,7 @@
         "component": 0,
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Le-Soleil_Red_H.jpg",
-        "otherColors": "W_SOS_LeSoleil_Bronze.jpg • W_SOS_LeSoleil_Copper.jpg • W_SOS_LeSoleil_Red.jpg • W_SOS_LeSoleil_White.jpg • "
+        "otherColors": "W_SOS_LeSoleil_Copper.jpg • "
     },
     {
         "model": "LE SOLEIL",
@@ -14790,7 +14790,7 @@
         "component": 0,
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Le-Soleil_Red_H.jpg",
-        "otherColors": "W_SOS_LeSoleil_Bronze.jpg • W_SOS_LeSoleil_Copper.jpg • W_SOS_LeSoleil_Red.jpg • W_SOS_LeSoleil_White.jpg • "
+        "otherColors": "W_SOS_LeSoleil_Copper.jpg • "
     },
     {
         "model": "LE SOLEIL",
@@ -14966,7 +14966,7 @@
         "component": 0,
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Le-Soleil_Red_H.jpg",
-        "otherColors": "W_SOS_LeSoleil_Bronze.jpg • W_SOS_LeSoleil_Copper.jpg • W_SOS_LeSoleil_Red.jpg • W_SOS_LeSoleil_White.jpg • "
+        "otherColors": "W_SOS_LeSoleil_Copper.jpg • "
     },
     {
         "model": "LE SOLEIL",
@@ -15142,7 +15142,7 @@
         "component": 0,
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Le-Soleil_Red_H.jpg",
-        "otherColors": "W_SOS_LeSoleil_Bronze.jpg • W_SOS_LeSoleil_Copper.jpg • W_SOS_LeSoleil_Red.jpg • W_SOS_LeSoleil_White.jpg • "
+        "otherColors": "W_SOS_LeSoleil_Copper.jpg • "
     },
     {
         "model": "LE SOLEIL",
@@ -15318,7 +15318,7 @@
         "component": 0,
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Le-Soleil_Red_H.jpg",
-        "otherColors": "W_SOS_LeSoleil_Bronze.jpg • W_SOS_LeSoleil_Copper.jpg • W_SOS_LeSoleil_Red.jpg • W_SOS_LeSoleil_White.jpg • "
+        "otherColors": "W_SOS_LeSoleil_Copper.jpg • "
     },
     {
         "model": "LE SOLEIL",
@@ -15494,7 +15494,7 @@
         "component": 0,
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/SOS_Le-Soleil_Red_H.jpg",
-        "otherColors": "W_SOS_LeSoleil_Bronze.jpg • W_SOS_LeSoleil_Copper.jpg • W_SOS_LeSoleil_Red.jpg • W_SOS_LeSoleil_White.jpg • "
+        "otherColors": "W_SOS_LeSoleil_Copper.jpg • "
     },
     {
         "original_model_id": "181RD03 63",
@@ -22439,7 +22439,7 @@
         "component": 0,
         "outdoor": 0,
         "pic": "",
-        "otherColors": "W_TA_Binic_Antracite.jpg • W_TA_Binic_Bianco.jpg • W_TA_Binic_Blu.jpg • W_TA_Binic_Giallo.jpg • W_TA_Binic_Rosa.jpg • W_TA_Binic_Verde-acqua.jpg • Binic_BeColours_05AWeb-1.jpg • Binic_BeColours_06Web.jpg • Binic_BeColours_09AWeb.jpg • Binic_BeColours_07Web.jpg • Binic_BeColours_08AWeb.jpg • "
+        "otherColors": "W_TA_Binic_Rosa.jpg • "
     },
     {
         "model": "BINIC",
@@ -22455,7 +22455,7 @@
         "component": 0,
         "outdoor": 0,
         "pic": "",
-        "otherColors": "W_TA_Binic_Antracite.jpg • W_TA_Binic_Bianco.jpg • W_TA_Binic_Blu.jpg • W_TA_Binic_Giallo.jpg • W_TA_Binic_Rosa.jpg • W_TA_Binic_Verde-acqua.jpg • Binic_BeColours_05AWeb-1.jpg • Binic_BeColours_06Web.jpg • Binic_BeColours_09AWeb.jpg • Binic_BeColours_07Web.jpg • Binic_BeColours_08AWeb.jpg • "
+        "otherColors": "W_TA_Binic_Rosa.jpg • "
     },
     {
         "model": "BINIC",
@@ -51086,7 +51086,7 @@
         "size": "xxl",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg",
-        "otherColors": "W_TA_Lumiere-XXL_Bianca.jpg • W_TA_Lumiere-XXL_Grigia.jpg • "
+        "otherColors": "W_TA_Lumiere-XXL_Grigia.jpg • "
     },
     {
         "model": "LUMIERE XXL",
@@ -51414,7 +51414,7 @@
         "size": "grande",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
-        "otherColors": "W_TE_Caboche_Gold.jpg • W_TE_Caboche_Transparent.jpg • "
+        "otherColors": "W_TE_Caboche_Gold.jpg • "
     },
     {
         "model": "CABOCHE",
@@ -51542,7 +51542,7 @@
         "size": "media",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/TE_CABOCHE_TRASPARENTE_GRANDE_H.jpg",
-        "otherColors": "W_TE_Caboche_Gold.jpg • W_TE_Caboche_Transparent.jpg • "
+        "otherColors": "W_TE_Caboche_Gold.jpg • "
     },
     {
         "model": "GREGG",
@@ -51742,7 +51742,7 @@
         "size": "piccola",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-GRANDE_BIANCO-CROMO-NERO_H.jpg",
-        "otherColors": "W_TA_Lumiere_Ciliegia.jpg • W_TA_Lumiere_Turchese.jpg • W_TA_Lumiere_Warm-white.jpg • W_TA_Lumiere_White.jpg • "
+        "otherColors": "W_TA_Lumiere_White.jpg • "
     },
     {
         "model": "LUMIERE",
@@ -52351,7 +52351,7 @@
         "size": "grande",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-GRANDE_BIANCO-CROMO-NERO_H.jpg",
-        "otherColors": "W_TA_Lumiere_Ciliegia.jpg • W_TA_Lumiere_Turchese.jpg • W_TA_Lumiere_Warm-white.jpg • W_TA_Lumiere_White.jpg • "
+        "otherColors": "W_TA_Lumiere_White.jpg • "
     },
     {
         "model": "LUMIERE",
@@ -53013,7 +53013,7 @@
         "size": "xxl",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg",
-        "otherColors": "W_TA_Lumiere-XXL_Bianca.jpg • W_TA_Lumiere-XXL_Grigia.jpg • "
+        "otherColors": "W_TA_Lumiere-XXL_Grigia.jpg • "
     },
     {
         "model": "LUMIERE XXL",
@@ -53313,7 +53313,7 @@
         "size": "xxs",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_LUMIERE-XXL_GRIGIO-FREDDO-ALLUMINIO_H.jpg",
-        "otherColors": "W_TA_Lumiere-XXL_Bianca.jpg • W_TA_Lumiere-XXL_Grigia.jpg • "
+        "otherColors": "W_TA_Lumiere-XXL_Grigia.jpg • "
     },
     {
         "model": "LUMIERE XXS",
@@ -53768,7 +53768,7 @@
         "size": "piccola",
         "outdoor": 0,
         "pic": "https://www.foscarini.com/wp-content/uploads/2017/10/TA_CABOCHE_TRASPARENTE_H.jpg",
-        "otherColors": "W_TA_Caboche_Gold.jpg • W_TA_Caboche_Transparent.jpg • "
+        "otherColors": "W_TA_Caboche_Gold.jpg • "
     },
     {
         "model": "BEHIVE",

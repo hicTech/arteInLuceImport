@@ -134,6 +134,11 @@ fs.readFile('./site_info_remote.json', 'utf8', function(err, contents) {
                 colors.push("cromo");
             if(local_url.indexOf("yellow") != -1 || local_url.indexOf("giallo") != -1)
                 colors.push("giallo");
+            if(local_url.indexOf("_oro") != -1 || local_url.indexOf("gold") != -1){
+                colors.push("giallo");
+                colors.push("oro");
+            }
+                
             if(local_url.indexOf("arancio") != -1 || local_url.indexOf("orange") != -1)
                 colors.push("arancio");
             if(local_url.indexOf("alluminio") != -1 || local_url.indexOf("alumin") != -1)
@@ -148,15 +153,17 @@ fs.readFile('./site_info_remote.json', 'utf8', function(err, contents) {
                 colors.push("grafite");
             if(local_url.indexOf("azzurro") != -1)
                 colors.push("azzurro");
-            if(local_url.indexOf("rame") != -1)
+            if(local_url.indexOf("rosa") != -1)
+                colors.push("rosa");
+            if(local_url.indexOf("rame") != -1 || local_url.indexOf("_copp") != -1)
                 colors.push("rame");
             if(local_url.indexOf("avory") != -1 || local_url.indexOf("ivory") != -1)
                 colors.push("avorio");
             if(local_url.indexOf("green") != -1 || local_url.indexOf("verde") != -1)
                 colors.push("verde");
-            if(local_url.indexOf("grey") != -1 || local_url.indexOf("grigio") != -1)
+            if(local_url.indexOf("grey") != -1 || local_url.indexOf("grigi") != -1)
                 colors.push("grigio");
-            if(local_url.indexOf("_red") != -1 || local_url.indexOf("rosso") != -1)
+            if(local_url.indexOf("_red") != -1 || local_url.indexOf("-red") != -1 || local_url.indexOf("rosso") != -1)
                 colors.push("rosso");
             if(local_url.indexOf("ciliegia") != -1)
                 colors.push("ciliegia");
@@ -188,6 +195,8 @@ fs.readFile('./site_info_remote.json', 'utf8', function(err, contents) {
                 colors.push("naturale");
             if(local_url.indexOf("carminio") != -1)
                 colors.push("carminio");
+            if(local_url.indexOf("_colo") != -1)
+                colors.push("colorato");
             
 
             return colors;
