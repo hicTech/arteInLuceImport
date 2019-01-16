@@ -2060,7 +2060,6 @@ function avvia(index){
         _.log("processo: "+uri+" mancano: "+parseInt(pages_number-1-index))
         request({
             uri: uri,
-            //uri : "https://www.foscarini.com/it/products/ta-twiggy-xl/",
 
         }, function(error, response, body) {
             createJsonFromAPage(body, uri, model, category, desc);
@@ -2080,6 +2079,30 @@ var arr_single_product = [];
 function createJsonFromAPage(body, uri, model, category, desc){
 
     var $body = $(body);
+    var variant = "";
+    var primary_pic = "";
+
+    // variante
+    $body.find(".portfolio-item.team.itemsmall").each(function(){
+        if( $(this).find('[data-lightbox="gallery-item"]').length > 0 )
+            variant = $(this).find(".team-title h4").html();
+    })
+
+    // primary piv
+    $body.find(".portfolio-item.team.itemsmall").each(function(){
+        if( $(this).find('[data-lightbox="gallery-item"]').length > 0 )
+            primary_pic = "https://www.vistosi.it/"+$(this).find("a").attr("href");
+    })
+
+    // projects
+    var arr_projects = [];
+    $body.find('.portfolio-overlay[data-lightbox="gallery"]').find("a").each(function(){
+        arr_projects.push( $(this).attr("href") )
+        //primary_pic = "https://www.vistosi.it/"+$(this).find("a").attr("href");
+    })
+
+    // more
+    var more = $body.find('[data-lightbox="iframe"]').attr("href");    
 
 
     
@@ -2088,7 +2111,11 @@ function createJsonFromAPage(body, uri, model, category, desc){
         uri: uri,
         model : model,
         category: category,
+        variant: variant,
         desc: desc,
+        primary_pic: primary_pic,
+        projects: arr_projects,
+        more: more,
         //carousel: car_imgs_arr,
         //video : video_url,
         //other_imgs : imgs_arr,

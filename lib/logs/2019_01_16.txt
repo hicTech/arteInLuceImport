@@ -65245,3 +65245,284 @@
 18:38:17: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 334
 18:38:17: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 333
 18:38:17: [object Object],[object Object],[object Object]
+23:08:24: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 335
+23:08:25: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 334
+23:08:25: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 333
+23:08:26: [object Object],[object Object],[object Object]
+23:09:35: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 335
+23:09:35: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 334
+23:09:36: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 333
+23:09:36: [object Object],[object Object],[object Object]
+23:09:46: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 335
+23:09:47: 
+
+							<a href="https://portal.vistosi.it/eprogen/epRichiesta_risorse_pubblica_v2.jsp?cdvisttp=SP&amp;cdvistfam=24PEA&amp;cdling=0&amp;fg_eur_usa=E" data-lightbox="iframe">
+
+
+								<div class="team-image imagescalein">
+									<img src="https://www.vistosi.it/assets/templates/vistosi/skin/images/vistosi/prodotto/ico-download2.png" alt="">
+									<div class="overlay"><div class="overlay-wrap"><i class="icon-line-plus"></i></div></div>
+								</div>
+								<div class="team-desc">
+									<div class="team-title">
+										<h4> AREA DOWNLOAD  </h4>
+									</div>
+								</div>
+							</a>
+						
+23:09:47: 
+  <a href="assets/immagini/Foto-2017/24-pearls/24-pearl-sospensione-k2.jpg" data-lightbox="gallery-item">
+	<div class="portfolio-image">
+	  <img src="/assets/image-cache/immagini/Foto-2017/24-pearls/24-pearl-sospensione-k2.c1c82384.jpg" alt="">
+	  <div class="team-overlay"></div>
+	</div>
+	<div class="team-desc">
+	  <div class="team-title">
+		<h4>SOSPENSIONE K2</h4>
+	  </div>
+	</div>
+  </a>
+
+23:09:47: 
+  <a href="assets/immagini/Foto-2017/24-pearls/24-pearl-sospensione-k1.jpg" data-lightbox="gallery-item">
+	<div class="portfolio-image">
+	  <img src="/assets/image-cache/immagini/Foto-2017/24-pearls/24-pearl-sospensione-k1.a2fe7318.jpg" alt="">
+	  <div class="team-overlay"></div>
+	</div>
+	<div class="team-desc">
+	  <div class="team-title">
+		<h4>SOSPENSIONE K1</h4>
+	  </div>
+	</div>
+  </a>
+
+23:09:47: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 334
+23:09:47: 
+
+							<a href="https://portal.vistosi.it/eprogen/epRichiesta_risorse_pubblica_v2.jsp?cdvisttp=PL&amp;cdvistfam=ACCAD&amp;cdling=0&amp;fg_eur_usa=E" data-lightbox="iframe">
+
+
+								<div class="team-image imagescalein">
+									<img src="https://www.vistosi.it/assets/templates/vistosi/skin/images/vistosi/prodotto/ico-download2.png" alt="">
+									<div class="overlay"><div class="overlay-wrap"><i class="icon-line-plus"></i></div></div>
+								</div>
+								<div class="team-desc">
+									<div class="team-title">
+										<h4> AREA DOWNLOAD  </h4>
+									</div>
+								</div>
+							</a>
+						
+23:09:47: 
+  <a href="assets/immagini/Foto-2017/Accademia/accademia-soffitto-30f.jpg" data-lightbox="gallery-item">
+	<div class="portfolio-image">
+	  <img src="/assets/image-cache/immagini/Foto-2017/Accademia/accademia-soffitto-30f.59d1a9b4.jpg" alt="">
+	  <div class="team-overlay"></div>
+	</div>
+	<div class="team-desc">
+	  <div class="team-title">
+		<h4>Soffitto 30F</h4>
+	  </div>
+	</div>
+  </a>
+
+23:09:47: 
+  <a href="assets/immagini/Foto-2017/Accademia/accademia-soffitto-10f.jpg" data-lightbox="gallery-item">
+	<div class="portfolio-image">
+	  <img src="/assets/image-cache/immagini/Foto-2017/Accademia/accademia-soffitto-10f.59d1a9b4.jpg" alt="">
+	  <div class="team-overlay"></div>
+	</div>
+	<div class="team-desc">
+	  <div class="team-title">
+		<h4>Soffitto 10F</h4>
+	  </div>
+	</div>
+  </a>
+
+23:09:47: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 333
+23:09:48: 
+
+							<a href="https://portal.vistosi.it/eprogen/epRichiesta_risorse_pubblica_v2.jsp?cdvisttp=AP&amp;cdvistfam=ACCAD&amp;cdling=0&amp;fg_eur_usa=E" data-lightbox="iframe">
+
+
+								<div class="team-image imagescalein">
+									<img src="https://www.vistosi.it/assets/templates/vistosi/skin/images/vistosi/prodotto/ico-download2.png" alt="">
+									<div class="overlay"><div class="overlay-wrap"><i class="icon-line-plus"></i></div></div>
+								</div>
+								<div class="team-desc">
+									<div class="team-title">
+										<h4> AREA DOWNLOAD  </h4>
+									</div>
+								</div>
+							</a>
+						
+23:09:48: 
+  <a href="assets/immagini/Foto-2017/Accademia/accademia-parete-3f.jpg" data-lightbox="gallery-item">
+	<div class="portfolio-image">
+	  <img src="/assets/image-cache/immagini/Foto-2017/Accademia/accademia-parete-3f.acd459af.jpg" alt="">
+	  <div class="team-overlay"></div>
+	</div>
+	<div class="team-desc">
+	  <div class="team-title">
+		<h4>Parete 3F</h4>
+	  </div>
+	</div>
+  </a>
+
+23:09:48: 
+  <a href="assets/immagini/Foto-2017/Accademia/accademia-parete-30.jpg" data-lightbox="gallery-item">
+	<div class="portfolio-image">
+	  <img src="/assets/image-cache/immagini/Foto-2017/Accademia/accademia-parete-30.59d1a9b4.jpg" alt="">
+	  <div class="team-overlay"></div>
+	</div>
+	<div class="team-desc">
+	  <div class="team-title">
+		<h4>Parete 30</h4>
+	  </div>
+	</div>
+  </a>
+
+23:09:48: [object Object],[object Object],[object Object]
+23:10:00: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 335
+23:10:01: 
+  <a href="assets/immagini/Foto-2017/24-pearls/24-pearl-sospensione-k2.jpg" data-lightbox="gallery-item">
+	<div class="portfolio-image">
+	  <img src="/assets/image-cache/immagini/Foto-2017/24-pearls/24-pearl-sospensione-k2.c1c82384.jpg" alt="">
+	  <div class="team-overlay"></div>
+	</div>
+	<div class="team-desc">
+	  <div class="team-title">
+		<h4>SOSPENSIONE K2</h4>
+	  </div>
+	</div>
+  </a>
+
+23:10:01: 
+  <a href="assets/immagini/Foto-2017/24-pearls/24-pearl-sospensione-k1.jpg" data-lightbox="gallery-item">
+	<div class="portfolio-image">
+	  <img src="/assets/image-cache/immagini/Foto-2017/24-pearls/24-pearl-sospensione-k1.a2fe7318.jpg" alt="">
+	  <div class="team-overlay"></div>
+	</div>
+	<div class="team-desc">
+	  <div class="team-title">
+		<h4>SOSPENSIONE K1</h4>
+	  </div>
+	</div>
+  </a>
+
+23:10:01: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 334
+23:10:01: 
+  <a href="assets/immagini/Foto-2017/Accademia/accademia-soffitto-30f.jpg" data-lightbox="gallery-item">
+	<div class="portfolio-image">
+	  <img src="/assets/image-cache/immagini/Foto-2017/Accademia/accademia-soffitto-30f.59d1a9b4.jpg" alt="">
+	  <div class="team-overlay"></div>
+	</div>
+	<div class="team-desc">
+	  <div class="team-title">
+		<h4>Soffitto 30F</h4>
+	  </div>
+	</div>
+  </a>
+
+23:10:01: 
+  <a href="assets/immagini/Foto-2017/Accademia/accademia-soffitto-10f.jpg" data-lightbox="gallery-item">
+	<div class="portfolio-image">
+	  <img src="/assets/image-cache/immagini/Foto-2017/Accademia/accademia-soffitto-10f.59d1a9b4.jpg" alt="">
+	  <div class="team-overlay"></div>
+	</div>
+	<div class="team-desc">
+	  <div class="team-title">
+		<h4>Soffitto 10F</h4>
+	  </div>
+	</div>
+  </a>
+
+23:10:01: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 333
+23:10:02: 
+  <a href="assets/immagini/Foto-2017/Accademia/accademia-parete-3f.jpg" data-lightbox="gallery-item">
+	<div class="portfolio-image">
+	  <img src="/assets/image-cache/immagini/Foto-2017/Accademia/accademia-parete-3f.acd459af.jpg" alt="">
+	  <div class="team-overlay"></div>
+	</div>
+	<div class="team-desc">
+	  <div class="team-title">
+		<h4>Parete 3F</h4>
+	  </div>
+	</div>
+  </a>
+
+23:10:02: 
+  <a href="assets/immagini/Foto-2017/Accademia/accademia-parete-30.jpg" data-lightbox="gallery-item">
+	<div class="portfolio-image">
+	  <img src="/assets/image-cache/immagini/Foto-2017/Accademia/accademia-parete-30.59d1a9b4.jpg" alt="">
+	  <div class="team-overlay"></div>
+	</div>
+	<div class="team-desc">
+	  <div class="team-title">
+		<h4>Parete 30</h4>
+	  </div>
+	</div>
+  </a>
+
+23:10:02: [object Object],[object Object],[object Object]
+23:12:11: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 335
+23:12:12: undefined
+23:12:12: undefined
+23:12:12: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 334
+23:12:12: undefined
+23:12:12: undefined
+23:12:12: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 333
+23:12:13: undefined
+23:12:13: undefined
+23:12:13: [object Object],[object Object],[object Object]
+23:12:21: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 335
+23:12:22: SOSPENSIONE K2
+23:12:22: SOSPENSIONE K1
+23:12:22: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 334
+23:12:22: Soffitto 30F
+23:12:22: Soffitto 10F
+23:12:22: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 333
+23:12:22: Parete 3F
+23:12:22: Parete 30
+23:12:22: [object Object],[object Object],[object Object]
+23:13:45: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 335
+23:13:46: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 334
+23:13:46: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 333
+23:13:47: [object Object],[object Object],[object Object]
+23:18:00: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 335
+23:18:00: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 334
+23:18:01: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 333
+23:18:01: [object Object],[object Object],[object Object]
+23:18:50: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 335
+23:18:51: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 334
+23:18:51: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 333
+23:18:52: [object Object],[object Object],[object Object]
+23:19:36: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 335
+23:19:36: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 334
+23:19:37: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 333
+23:19:37: [object Object],[object Object],[object Object]
+23:20:54: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 335
+23:20:55: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 334
+23:20:55: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 333
+23:20:55: [object Object],[object Object],[object Object]
+23:21:37: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 335
+23:21:38: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 334
+23:21:38: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 333
+23:21:38: [object Object],[object Object],[object Object]
+23:34:39: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 335
+23:34:40: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 334
+23:34:40: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 333
+23:34:40: [object Object],[object Object],[object Object]
+23:35:50: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 335
+23:35:50: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 334
+23:35:51: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 333
+23:35:51: [object Object],[object Object],[object Object]
+23:38:39: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 335
+23:38:40: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 334
+23:38:40: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 333
+23:38:41: [object Object],[object Object],[object Object]
+23:45:08: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 335
+23:45:28: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 335
+23:45:28: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 334
+23:45:29: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 333
+23:45:29: [object Object],[object Object],[object Object]
