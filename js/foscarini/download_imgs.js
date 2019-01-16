@@ -109,11 +109,12 @@ fs.readFile('./site_info_remote.json', 'utf8', function(err, contents) {
         }
 
         function getSize(local_url){
-            if(local_url.indexOf("GRANDE") != -1)
+            var url = local_url.toLowerCase();
+            if(url.indexOf("grande") != -1)
                 return "grande";
-            if(local_url.indexOf("MEDIA") != -1)
+            if(url.indexOf("media") != -1)
                 return "media";
-            if(local_url.indexOf("PICCOLA") != -1)
+            if(url.indexOf("piccola") != -1)
                 return "piccola";  
         }
 

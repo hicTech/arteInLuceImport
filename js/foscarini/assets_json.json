@@ -427,7 +427,9 @@
                 "category": "SOSPENSIONE",
                 "img_type": "carousel",
                 "primary": false,
-                "colors": []
+                "colors": [
+                    "rosso"
+                ]
             },
             {
                 "url": "https://www.foscarini.com/wp-content/uploads/2017/10/W_SOS_Aplomb_Brown.jpg",
@@ -1880,6 +1882,7 @@
                     "model": "GREGG",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -1904,6 +1907,7 @@
                     "model": "GREGG",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -1928,6 +1932,7 @@
                     "model": "GREGG",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "piccola",
                     "primary": false,
                     "colors": []
                 },
@@ -1952,6 +1957,7 @@
                     "model": "GREGG",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -1976,6 +1982,7 @@
                     "model": "GREGG",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -2737,6 +2744,7 @@
                     "model": "CABOCHE",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -2761,6 +2769,7 @@
                     "model": "CABOCHE",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -2785,6 +2794,7 @@
                     "model": "CABOCHE",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -2809,6 +2819,7 @@
                     "model": "CABOCHE",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -2833,6 +2844,7 @@
                     "model": "CABOCHE",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -2857,6 +2869,7 @@
                     "model": "CABOCHE",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "piccola",
                     "primary": false,
                     "colors": []
                 },
@@ -5956,6 +5969,7 @@
                     "model": "LUMIERE",
                     "category": "TAVOLO",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -5980,6 +5994,7 @@
                     "model": "LUMIERE",
                     "category": "TAVOLO",
                     "img_type": "light_schema",
+                    "size": "piccola",
                     "primary": false,
                     "colors": []
                 },
@@ -8801,6 +8816,7 @@
                     "model": "TRESS",
                     "category": "TERRA",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -8825,6 +8841,7 @@
                     "model": "TRESS",
                     "category": "TERRA",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -8849,6 +8866,7 @@
                     "model": "TRESS",
                     "category": "TERRA",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -10835,6 +10853,7 @@
                     "model": "BIRDIE",
                     "category": "TAVOLO",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -10859,6 +10878,7 @@
                     "model": "BIRDIE",
                     "category": "TAVOLO",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -10883,6 +10903,7 @@
                     "model": "BIRDIE",
                     "category": "TAVOLO",
                     "img_type": "light_schema",
+                    "size": "piccola",
                     "primary": false,
                     "colors": []
                 },
@@ -10907,6 +10928,7 @@
                     "model": "BIRDIE",
                     "category": "TAVOLO",
                     "img_type": "light_schema",
+                    "size": "piccola",
                     "primary": false,
                     "colors": []
                 },
@@ -11835,6 +11857,7 @@
                     "model": "LUMIERE 25TH",
                     "category": "TAVOLO",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -11859,6 +11882,7 @@
                     "model": "LUMIERE 25TH",
                     "category": "TAVOLO",
                     "img_type": "light_schema",
+                    "size": "piccola",
                     "primary": false,
                     "colors": []
                 },
@@ -12953,6 +12977,7 @@
                     "model": "PLASS",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -12977,6 +13002,7 @@
                     "model": "PLASS",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -13001,6 +13027,7 @@
                     "model": "PLASS",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -13025,6 +13052,7 @@
                     "model": "PLASS",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -13049,6 +13077,7 @@
                     "model": "PLASS",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -13073,6 +13102,7 @@
                     "model": "PLASS",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -13895,6 +13925,7 @@
                 "model": "TRESS GRANDE",
                 "category": "SOSPENSIONE",
                 "img_type": "carousel",
+                "size": "grande",
                 "primary": false,
                 "colors": [
                     "nero"
@@ -13906,6 +13937,7 @@
                 "model": "TRESS GRANDE",
                 "category": "SOSPENSIONE",
                 "img_type": "carousel",
+                "size": "grande",
                 "primary": false,
                 "colors": [
                     "cremisi"
@@ -13917,6 +13949,7 @@
                 "model": "TRESS GRANDE",
                 "category": "SOSPENSIONE",
                 "img_type": "carousel",
+                "size": "grande",
                 "primary": false,
                 "colors": [
                     "greige"
@@ -13928,6 +13961,7 @@
                 "model": "TRESS GRANDE",
                 "category": "SOSPENSIONE",
                 "img_type": "carousel",
+                "size": "grande",
                 "primary": false,
                 "colors": [
                     "indaco"
@@ -13939,6 +13973,7 @@
                 "model": "TRESS GRANDE",
                 "category": "SOSPENSIONE",
                 "img_type": "carousel",
+                "size": "grande",
                 "primary": false,
                 "colors": [
                     "bianco"
@@ -14359,6 +14394,7 @@
                     "model": "TRESS GRANDE",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -14383,6 +14419,7 @@
                     "model": "TRESS GRANDE",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -18107,6 +18144,7 @@
                     "model": "GREGG SOSPENSIONE",
                     "category": "OUTDOOR",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -18131,6 +18169,7 @@
                     "model": "GREGG SOSPENSIONE",
                     "category": "OUTDOOR",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -19905,6 +19944,7 @@
                     "model": "TRESS",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -19929,6 +19969,7 @@
                     "model": "TRESS",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "piccola",
                     "primary": false,
                     "colors": []
                 },
@@ -20504,6 +20545,7 @@
                     "model": "CABOCHE",
                     "category": "PARETE",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -20528,6 +20570,7 @@
                     "model": "CABOCHE",
                     "category": "PARETE",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -20552,6 +20595,7 @@
                     "model": "CABOCHE",
                     "category": "PARETE",
                     "img_type": "light_schema",
+                    "size": "piccola",
                     "primary": false,
                     "colors": []
                 },
@@ -20576,6 +20620,7 @@
                     "model": "CABOCHE",
                     "category": "PARETE",
                     "img_type": "light_schema",
+                    "size": "piccola",
                     "primary": false,
                     "colors": []
                 },
@@ -22134,6 +22179,7 @@
                     "model": "CABOCHE",
                     "category": "TERRA",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -22158,6 +22204,7 @@
                     "model": "CABOCHE",
                     "category": "TERRA",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -26421,6 +26468,7 @@
                     "model": "PLASS MEDIA",
                     "category": "TAVOLO",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -27486,6 +27534,7 @@
                     "model": "BIRDIE",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "piccola",
                     "primary": false,
                     "colors": []
                 },
@@ -27510,6 +27559,7 @@
                     "model": "BIRDIE",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -32578,6 +32628,7 @@
                     "model": "POLY GREGG",
                     "category": "TAVOLO",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -32602,6 +32653,7 @@
                     "model": "POLY GREGG",
                     "category": "TAVOLO",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -34322,6 +34374,7 @@
                     "model": "ANISHA",
                     "category": "TAVOLO",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -34346,6 +34399,7 @@
                     "model": "ANISHA",
                     "category": "TAVOLO",
                     "img_type": "light_schema",
+                    "size": "piccola",
                     "primary": false,
                     "colors": []
                 },
@@ -35270,6 +35324,7 @@
                     "model": "GREGG",
                     "category": "TAVOLO",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -35294,6 +35349,7 @@
                     "model": "GREGG",
                     "category": "TAVOLO",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -35318,6 +35374,7 @@
                     "model": "GREGG",
                     "category": "TAVOLO",
                     "img_type": "light_schema",
+                    "size": "piccola",
                     "primary": false,
                     "colors": []
                 },
@@ -36010,6 +36067,7 @@
                     "model": "GREGG TERRA",
                     "category": "OUTDOOR",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -36034,6 +36092,7 @@
                     "model": "GREGG TERRA",
                     "category": "OUTDOOR",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -36992,6 +37051,7 @@
                     "model": "TRESS",
                     "category": "PARETE",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -37016,6 +37076,7 @@
                     "model": "TRESS",
                     "category": "PARETE",
                     "img_type": "light_schema",
+                    "size": "piccola",
                     "primary": false,
                     "colors": []
                 },
@@ -37750,6 +37811,7 @@
                     "model": "TROAG",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -37774,6 +37836,7 @@
                     "model": "TROAG",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -37798,6 +37861,7 @@
                     "model": "TROAG",
                     "category": "SOSPENSIONE",
                     "img_type": "light_schema",
+                    "size": "piccola",
                     "primary": false,
                     "colors": []
                 },
@@ -38821,6 +38885,7 @@
                     "model": "GREGG",
                     "category": "PARETE",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -38845,6 +38910,7 @@
                     "model": "GREGG",
                     "category": "PARETE",
                     "img_type": "light_schema",
+                    "size": "piccola",
                     "primary": false,
                     "colors": []
                 },
@@ -43854,6 +43920,7 @@
                     "model": "GREGG",
                     "category": "SOFFITTO",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -43878,6 +43945,7 @@
                     "model": "GREGG",
                     "category": "SOFFITTO",
                     "img_type": "light_schema",
+                    "size": "piccola",
                     "primary": false,
                     "colors": []
                 },
@@ -43998,6 +44066,7 @@
                     "model": "CIRCUS",
                     "category": "PARETE",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -44022,6 +44091,7 @@
                     "model": "CIRCUS",
                     "category": "PARETE",
                     "img_type": "light_schema",
+                    "size": "piccola",
                     "primary": false,
                     "colors": []
                 },
@@ -46487,6 +46557,7 @@
                     "model": "GREGG",
                     "category": "TERRA",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -46511,6 +46582,7 @@
                     "model": "GREGG",
                     "category": "TERRA",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },
@@ -46820,6 +46892,7 @@
                     "model": "FOLIO",
                     "category": "PARETE",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -46844,6 +46917,7 @@
                     "model": "FOLIO",
                     "category": "PARETE",
                     "img_type": "light_schema",
+                    "size": "piccola",
                     "primary": false,
                     "colors": []
                 },
@@ -47054,6 +47128,7 @@
                     "model": "CIRCUS",
                     "category": "SOFFITTO",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -47078,6 +47153,7 @@
                     "model": "CIRCUS",
                     "category": "SOFFITTO",
                     "img_type": "light_schema",
+                    "size": "piccola",
                     "primary": false,
                     "colors": []
                 },
@@ -47932,6 +48008,7 @@
                     "model": "GREGG SOSPENSIONE",
                     "category": "OUTDOOR",
                     "img_type": "light_schema",
+                    "size": "grande",
                     "primary": false,
                     "colors": []
                 },
@@ -47956,6 +48033,7 @@
                     "model": "GREGG SOSPENSIONE",
                     "category": "OUTDOOR",
                     "img_type": "light_schema",
+                    "size": "media",
                     "primary": false,
                     "colors": []
                 },

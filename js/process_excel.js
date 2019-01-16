@@ -136,10 +136,12 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var size = undefined;
         var outdoor = undefined;
         var max_discount = undefined;
+
         var more = undefined;
-        var video = undefined;
+
         var pic = undefined;
         var otherColors = undefined;
+        
 
     
 
@@ -305,10 +307,12 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 size = getSize(articolo);
                 outdoor = (articolo.indexOf("OUTDOOR") != -1)? 1 : 0;
                 max_discount = 0;
-                more = undefined;
-                video = undefined;
                 pic = getPics(model, category, color, component, createAllImgsArr(assets_json), "primary" );
                 otherColors = getPics(model, category, color, component, createAllImgsArr(assets_json), "colors" );
+                more = JSON.stringify({
+                    video : getVideo(model, category, component, createAllVideosArr(assets_json)),
+                    link : getLink(model, category, component, createAllLinksArr(assets_json)),
+                });
             }
                 
 
@@ -605,6 +609,53 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     
             }
 
+            function createAllVideosArr(assets_json){
+              
+                let all_videos = [];
+
+                _.each(assets_json,function(elem){
+                    if( _.is(elem.video) ){
+                        all_videos.push({
+                            url : elem.video,
+                            model: elem.model,
+                            category: elem.category
+                        })
+                    }
+                    
+                    
+                });
+
+                
+                return all_videos;
+                    
+            }
+
+            function createAllLinksArr(assets_json){
+                
+                let all_links = [];
+
+                _.each(assets_json,function(elem){
+
+                    
+
+                    _.each(elem.specs,function(specs_elem){
+                       _.each(specs_elem.downloads,function(link){
+                           all_links.push({
+                               type: (link.label == "data_sheet")? "download" : "page",
+                               link_label : link.label,
+                               url: (_.is(link.link))? link.link : link.url,
+                               model: elem.model,
+                               category: elem.category
+                           })
+                        }); 
+                    });
+
+                });
+                
+                return all_links;
+                    
+            }
+
             function getPics(model, category, colors, component, all_images, caso){
                 if(component == 1){
                     return undefined; // è un ricambio quindi per ora non ha foto
@@ -669,52 +720,30 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             else{
                                 // ho notato che in questo punto se fra i colori c'è l'alluminio questo non è determinante ai fini della verifica che elem.colors e colors siano uguali
                                 // quindi in questo caso elimino (se viene ritrovato) l'alluminio dai colori sia di arr_pic che colors
-
-                               
-                                   
-
                                 var new_arr_pic_no_alluminio = _.filter(arr_pic,function(elem){
-
-                                    
 
                                     var new_elem_colors = _.difference(elem.colors,["alluminio"]);// elimino "alluminio" dall'array
                                     var new_colors = _.difference(colors,["alluminio"]);// elimino "alluminio" dall'array
-
                                     
-                                   // _.log(new_colors+" - "+new_elem_colors+" ---- "+_.difference(new_colors,new_elem_colors).length)
-                                        
-                                    
-                                    
+                                    // uso questo diff perchè _.diff ha quel bug segnalato a Fabris nella mail del 15 gennaio
                                     return new_colors.diff(new_elem_colors).length == 0; //_.difference(new_colors,new_elem_colors).length == 0;
 
                                 });
 
                                 
 
-                                if(new_arr_pic_no_alluminio.length == 1){
-                                    
+                                if(new_arr_pic_no_alluminio.length == 1){ 
                                     arr_pic = new_arr_pic_no_alluminio;
                                 }
                                     
                                 else{
-                                    
-
-                                    
-
-
+                                    // nulla
                                 }
-
-
-
                             }
-                                
                         }
                     }
                     
-                    
                 }
-
-                //_.log(arr_pic)
 
 
                 if(!_.isArray(arr_pic))
@@ -722,81 +751,51 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 else{
                     var arr_to_string = "";
                     _.each(arr_pic,function(elem){
-                        arr_to_string += elem.file_name+" • ";
+                        arr_to_string += elem.url+",";
                     })
                     return arr_to_string;
                 }
 
-                    
-
-                
-                
-                
-                /*
-                if(fatto == false){
-                    var temp = [];
-                    _.each(all_images,function(elem){
-                        temp.push(elem.model);
-                    })
-                    _.log(_.uniq(temp))
-                    fatto = true;
-                }
-                */
-
-                //_.log(_.uniq(ret));
-
-
-
-                /*
-                category = category[0];
-                if(component == 0){ // se non è un pezzo di ricambio
-                    _.each(assets_json,function(elem){
-                        var main_model = {
-                            model : elem.model,
-                            category: elem.category,
-                            img: elem.carousel[0],
-
-                        }
-                        _.each(elem.related_imgs,function(related_model){
-
-                            // aggiustamenti per incongrunze con nomenclature sito
-                            var related_model_name = related_model.model;
-                            
-
-                            if(related_model_name == "CHOUCHIN REVERSE 1")
-                                related_model_name = "CHOUCHIN 1 REVERSE";
-                            if(related_model_name == "CHOUCHIN REVERSE 2")
-                                related_model_name = "CHOUCHIN 2 REVERSE";
-                            if(related_model_name == "CHOUCHIN REVERSE 3")
-                                related_model_name = "CHOUCHIN 3 REVERSE";
-
-                            if( model == related_model_name)
-                                //if(category.toLowerCase() == related_model_cateogry.toLowerCase())
-                                    ret.push(related_model);
-                        });    
-                    });
-
-                    if(ret.length == 1){
-                        //return ret;
-                    }
-                    if(ret.length == 2){
-                        
-                        ret = _.filter(ret,function(elem){
-                            return category.toLowerCase() == elem.category.toLowerCase()
-                        })
-
-                        
-                    }
-                    
-                } 
-
-                var arr_ret = [];
-                _.each(ret,function(elem){
-                    arr_ret.push(elem.img);
-                })
-                return arr_ret;
-                */
+                 
             }
+
+            function getVideo(model, category, component, all_videos){
+                var ret = [];
+                if(component == 0){
+                    _.each(all_videos, function(video){
+                            if( _.is(model) ){ // gli articoli diesel ancora non hanno un model e quindi darebbe errore
+                                if( sameItemForVideo(model, category[0].toLowerCase(), video.model, video.category.toLowerCase()) ){
+                                    ret.push(escape(video.url));
+                                }
+                            }
+                            
+                    })
+                }
+            
+                return ret;
+
+            }
+
+            function getLink(model, category, component, all_links){
+                var ret = [];
+                if(component == 0){
+                    _.each(all_links, function(link){
+                            if( _.is(model) ){ // gli articoli diesel ancora non hanno un model e quindi darebbe errore
+                                if( sameItemForVideo(model, category[0].toLowerCase(), link.model, link.category.toLowerCase()) ){
+                                    ret.push(link)
+                                }
+                            }
+                            
+                    })
+                }
+                
+                return uniqByURL(ret);
+
+            }
+
+
+  
+           
 
             function isComponent(model_id, component){
                     
@@ -895,10 +894,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 size = getSize(row["Descrizione"]);;
                 outdoor = undefined;
                 max_discount = undefined;
-                more = getMore(row["Descrizione"],model);
-                video = undefined;
                 pic = undefined;
                 otherColors = getOtherPics(model, size, category, type, color, more);
+                 more = getMore(row["Descrizione"],model);
                 
 
                 
@@ -1438,33 +1436,32 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         
 
         return{
-            //supplier:               supplier,                           // nome del fornitore
-            //supplier_id :           supplier_id,                        // identificativo del fonitore
+            supplier:               supplier,                           // nome del fornitore
+            supplier_id :           supplier_id,                        // identificativo del fonitore
             model:                  model,                              // modello/famiglia dell'articolo
             original_model_id:      original_model_id,                  // id originario (NON MANIPOLATO) dell'articolo
             model_id:               model_id,                           // identificativo della famiglia di articolo ottenuto con replace(" ","_");
             item_id:                item_id,                            // l'id originario manipolato
-            //hicId:                  hicId,                              // identificativo interno ottenuto come supplier_id + item_id
-            //ean13:                  ean13,                              // codice a barre
-            //price:                  price,                              // imponibile
+            hicId:                  hicId,                              // identificativo interno ottenuto come supplier_id + item_id
+            ean13:                  ean13,                              // codice a barre
+            price:                  price,                              // imponibile
             color:                  color,                              // prova a recuperare il colore dall'id
-            //desc_it:                cleaned_desc_it,                    // la descrizione in italiano
-            //desc_en:                cleaned_desc_en,                    // la descrizione in inglese 
-            //dimmer:                 dimmer,                             // se ha il dimmer o meno
-            //led:                    led,                                // se ha il led o meno
-            //halogen:                halogen,                            // se ha lampada alogena
-            //screw:                  screw,                              // tipo di attacco
-            //switcher:               switcher,                           // se ha l'interruttore o meno
+            desc_it:                cleaned_desc_it,                    // la descrizione in italiano
+            desc_en:                cleaned_desc_en,                    // la descrizione in inglese 
+            dimmer:                 dimmer,                             // se ha il dimmer o meno
+            led:                    led,                                // se ha il led o meno
+            halogen:                halogen,                            // se ha lampada alogena
+            screw:                  screw,                              // tipo di attacco
+            switcher:               switcher,                           // se ha l'interruttore o meno
             category:               category,                           // terra, tavolo, sospensione, soffitto, parete, montatura, kit, diffusore, set,
-            //type:                   type,                               // tipo di lampada
+            type:                   type,                               // tipo di lampada
             component:              component,                          // indica se è un componente di una lampada (serve per distinguere i pezzi di ricambio dalle lampade)
             size:                   size,                               // piuccola, media, grande,....
-            //more:                   more,                               // contiene dei campi aggiuntivi (custom per ogni fornitore) esempio link a pdf, pagine html
-            //video:                  video,                              // link del video
             outdoor:                outdoor,                            // se è da esterno o meno
-            //max_discount:           undefined,                          // massimo sconto applicabile
+            max_discount:           undefined,                          // massimo sconto applicabile
             pic:                    pic,                                // contiene l'immagine primaria
-            otherColors:              otherColors,                              // array dei path delle immagini di altri colori dello stesso articolo
+            otherColors:            otherColors,                              // array dei path delle immagini di altri colori dello stesso articolo
+            more:                   more,                               // contiene dei campi aggiuntivi (custom per ogni fornitore) esempio video, link a pdf, pagine html     
         }
 }
 
@@ -1536,6 +1533,20 @@ function uniqByFileName(arr){
     _.each(arr,function(elem){
         if(!_.contains(register,elem.file_name)){
             register.push(elem.file_name);
+            ret.push(elem);
+        }
+    });
+    
+    return ret;
+}
+
+function uniqByURL(arr){
+    var ret = [];
+    var register = [];
+    
+    _.each(arr,function(elem){
+        if(!_.contains(register,elem.url)){
+            register.push(elem.url);
             ret.push(elem);
         }
     });
@@ -1627,12 +1638,58 @@ function sameItem(model, category, elem_model, elem_category, caso){
         }
     }
 
-    
-    
-
-
-
     return model == elem_model && category == elem_category;
 }
 
 
+
+
+function sameItemForVideo(model, category, elem_model, elem_category){
+   
+        
+        if(elem_model == "GIGA LITE")
+            elem_model = "GIGA-LITE";
+
+        if(model.indexOf("TRESS") != -1 && elem_model.indexOf("TRESS") != -1 ){
+            elem_model = "TRESS";
+            model = "TRESS";
+            elem_category = "terra";
+            category = "terra";
+        }
+
+        if(model.indexOf("CHOUC") != -1 && elem_model.indexOf("CHOUC") != -1 ){
+            elem_model = "CHOUCHIN 1";
+            model = "CHOUCHIN 1"
+        }
+
+        if(model.indexOf("FILO") != -1 && elem_model.indexOf("FILO") != -1 ){
+            elem_model = "FILO";
+            model = "FILO";
+            elem_category = "tavolo";
+            category = "tavolo";
+        }
+
+        if(model.indexOf("BUDS") != -1 && elem_model.indexOf("BUDS") != -1 ){
+            elem_model = "BUDS 2";
+            model = "BUDS 2";
+            elem_category = "tavolo";
+            category = "tavolo";
+        }
+
+        if(model.indexOf("PLASS") != -1 && elem_model.indexOf("PLASS") != -1 ){
+            elem_model = "PLASS MEDIA";
+            model = "PLASS MEDIA";
+            elem_category = "tavolo";
+            category = "tavolo";
+        }
+
+        if(model.indexOf("LUMIER") != -1 && elem_model.indexOf("LUMIER") != -1 ){
+            elem_model = "LUMIERE";
+            model = "LUMIERE";
+            elem_category = "tavolo";
+            category = "tavolo";
+        }
+    
+
+    return model == elem_model && category == elem_category;
+}
