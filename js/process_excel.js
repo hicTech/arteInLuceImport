@@ -937,6 +937,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         ret = "REDENTORE"
                     if(ret == "WITHWHIT")
                         ret = "WITHWHITE"
+                    if(ret == "NOVECENT")
+                        ret = "NOVECENTO"
                     
 
                     return ret;
@@ -1508,7 +1510,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         if(model=="CHIMERA 09"){
                             model = "chimera-09"
                         }
-                        if(model=="ANNE LUCI"){
+                        if(model=="ENNE LUCI"){
                             model = "enne-luci"
                         }
                         if(model == "TABLO'")

@@ -8194,7 +8194,8 @@
         "type": [
             "applique"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ENNE LUCI/ENNE LUCI PARETE.jpg"
     },
     {
         "supplier": "vistosi",
@@ -8220,7 +8221,8 @@
         "type": [
             "applique"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ENNE LUCI/ENNE LUCI PARETE.jpg"
     },
     {
         "supplier": "vistosi",
@@ -8245,7 +8247,8 @@
         "type": [
             "applique"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ENNE LUCI/ENNE LUCI PARETE.jpg"
     },
     {
         "supplier": "vistosi",
@@ -8271,7 +8274,8 @@
         "type": [
             "applique"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ENNE LUCI/ENNE LUCI PARETE.jpg"
     },
     {
         "supplier": "vistosi",
@@ -14342,7 +14346,8 @@
         "type": [
             "lettura"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ENNE LUCI/ENNE LUCI TAVOLO.jpg"
     },
     {
         "supplier": "vistosi",
@@ -14368,14 +14373,15 @@
         "type": [
             "lettura"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ENNE LUCI/ENNE LUCI TAVOLO.jpg"
     },
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "LTNOVEBCCR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "LTNOVEBCCR",
         "hicId": "visto_LTNOVEBCCR",
         "price": 380,
@@ -14384,8 +14390,8 @@
             "cromo",
             "cromo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "14E",
@@ -14393,14 +14399,15 @@
         "type": [
             "lettura"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO_tavolo.jpg"
     },
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "LTNOVECRRICR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "LTNOVECRRICR",
         "hicId": "visto_LTNOVECRRICR",
         "price": 440,
@@ -14410,8 +14417,8 @@
             "rigato",
             "cristallo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "14E",
@@ -14419,7 +14426,8 @@
         "type": [
             "lettura"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO_tavolo.jpg"
     },
     {
         "supplier": "vistosi",
@@ -25138,9 +25146,9 @@
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "PLNOVEBCCR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "PLNOVEBCCR",
         "hicId": "visto_PLNOVEBCCR",
         "price": 790,
@@ -25149,8 +25157,8 @@
             "cromo",
             "cromo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "14E",
@@ -25158,14 +25166,15 @@
         "type": [
             "plafone"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO SOFFITTO.jpg"
     },
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "PLNOVECRRICR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "PLNOVECRRICR",
         "hicId": "visto_PLNOVECRRICR",
         "price": 790,
@@ -25175,8 +25184,8 @@
             "rigato",
             "cristallo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "14E",
@@ -25184,7 +25193,8 @@
         "type": [
             "plafone"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO SOFFITTO.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33091,9 +33101,9 @@
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "PTNOVEBCCR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "PTNOVEBCCR",
         "hicId": "visto_PTNOVEBCCR",
         "price": 940,
@@ -33102,8 +33112,8 @@
             "cromo",
             "cromo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "E27",
@@ -33116,9 +33126,9 @@
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "PTNOVECRRICR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "PTNOVECRRICR",
         "hicId": "visto_PTNOVECRRICR",
         "price": 980,
@@ -33128,8 +33138,8 @@
             "rigato",
             "cristallo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "E27",
@@ -52640,7 +52650,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ENNE LUCI/ENNE LUCI SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
@@ -52665,7 +52676,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ENNE LUCI/ENNE LUCI SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
@@ -52691,7 +52703,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ENNE LUCI/ENNE LUCI SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
@@ -52717,7 +52730,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ENNE LUCI/ENNE LUCI SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
@@ -70585,7 +70599,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ENNE LUCI/ENNE LUCI SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
@@ -70610,7 +70625,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ENNE LUCI/ENNE LUCI SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
@@ -70636,7 +70652,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ENNE LUCI/ENNE LUCI SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
@@ -70661,7 +70678,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ENNE LUCI/ENNE LUCI SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
@@ -70687,7 +70705,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ENNE LUCI/ENNE LUCI SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
@@ -70713,7 +70732,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ENNE LUCI/ENNE LUCI SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
@@ -71149,9 +71169,9 @@
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "SPNOVEBCCR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "SPNOVEBCCR",
         "hicId": "visto_SPNOVEBCCR",
         "price": 1500,
@@ -71160,8 +71180,8 @@
             "cromo",
             "cromo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "14E",
@@ -71170,14 +71190,15 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "SPNOVECRRICR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "SPNOVECRRICR",
         "hicId": "visto_SPNOVECRRICR",
         "price": 1580,
@@ -71187,8 +71208,8 @@
             "rigato",
             "cristallo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "14E",
@@ -71197,14 +71218,15 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "SPNOVEMBCCR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "SPNOVEMBCCR",
         "hicId": "visto_SPNOVEMBCCR",
         "price": 490,
@@ -71213,8 +71235,8 @@
             "cromo",
             "cromo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "E27",
@@ -71223,14 +71245,15 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "media"
+        "size": "media",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "SPNOVEMCRRICR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "SPNOVEMCRRICR",
         "hicId": "visto_SPNOVEMCRRICR",
         "price": 530,
@@ -71240,8 +71263,8 @@
             "rigato",
             "cristallo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "E27",
@@ -71250,14 +71273,15 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "media"
+        "size": "media",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "SPNOVEMD1BCCR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "SPNOVEMD1BCCR",
         "hicId": "visto_SPNOVEMD1BCCR",
         "price": 510,
@@ -71266,8 +71290,8 @@
             "cromo",
             "cromo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "E27",
@@ -71276,14 +71300,15 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "media"
+        "size": "media",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "SPNOVEMD1CRRICR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "SPNOVEMD1CRRICR",
         "hicId": "visto_SPNOVEMD1CRRICR",
         "price": 550,
@@ -71293,8 +71318,8 @@
             "rigato",
             "cristallo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "E27",
@@ -71303,14 +71328,15 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "media"
+        "size": "media",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "SPNOVEMD2BCCR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "SPNOVEMD2BCCR",
         "hicId": "visto_SPNOVEMD2BCCR",
         "price": 1000,
@@ -71319,8 +71345,8 @@
             "cromo",
             "cromo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "E27",
@@ -71329,14 +71355,15 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "media"
+        "size": "media",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "SPNOVEMD2CRRICR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "SPNOVEMD2CRRICR",
         "hicId": "visto_SPNOVEMD2CRRICR",
         "price": 1080,
@@ -71346,8 +71373,8 @@
             "rigato",
             "cristallo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "E27",
@@ -71356,14 +71383,15 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "media"
+        "size": "media",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "SPNOVEPBCCR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "SPNOVEPBCCR",
         "hicId": "visto_SPNOVEPBCCR",
         "price": 260,
@@ -71372,8 +71400,8 @@
             "cromo",
             "cromo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "14E",
@@ -71382,14 +71410,15 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "SPNOVEPCRRICR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "SPNOVEPCRRICR",
         "hicId": "visto_SPNOVEPCRRICR",
         "price": 290,
@@ -71399,8 +71428,8 @@
             "rigato",
             "cristallo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "14E",
@@ -71409,14 +71438,15 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "SPNOVEPD1BCCR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "SPNOVEPD1BCCR",
         "hicId": "visto_SPNOVEPD1BCCR",
         "price": 280,
@@ -71425,8 +71455,8 @@
             "cromo",
             "cromo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "14E",
@@ -71435,14 +71465,15 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "SPNOVEPD1CRRICR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "SPNOVEPD1CRRICR",
         "hicId": "visto_SPNOVEPD1CRRICR",
         "price": 310,
@@ -71452,8 +71483,8 @@
             "rigato",
             "cristallo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "14E",
@@ -71462,14 +71493,15 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "SPNOVEPD2BCCR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "SPNOVEPD2BCCR",
         "hicId": "visto_SPNOVEPD2BCCR",
         "price": 540,
@@ -71478,8 +71510,8 @@
             "cromo",
             "cromo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "14E",
@@ -71488,14 +71520,15 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
-        "model": "NOVECENT",
+        "model": "NOVECENTO",
         "original_model_id": "SPNOVEPD2CRRICR",
-        "model_id": "NOVECENT",
+        "model_id": "NOVECENTO",
         "item_id": "SPNOVEPD2CRRICR",
         "hicId": "visto_SPNOVEPD2CRRICR",
         "price": 600,
@@ -71505,8 +71538,8 @@
             "rigato",
             "cristallo"
         ],
-        "desc_it": "",
-        "desc_en": "",
+        "desc_it": "La chiave di lettura della collezione Novecento è la volontà di sintetizzare la tradizione muranese del lampadario, nel suo elemento più riconoscibile: il profilo. Lo riproduce un guscio di cristallo che è il prodotto della rotazione a 360° della silhouette del lampadario, mantenendo così le caratteristiche delle forme originali, e risultando perfetto per atmosfere sia classiche che contemporanee.Tonalità del vetro: bianco, cristallo rigadin.Parti metalliche: cromo.",
+        "desc_en": "The idea behind the collection Novecento is to reduce the traditional Murano chandelier to its most reconizable elements, its profile. This shape is then reconstructed in a 360° glass outline, that keeps the same characteristics of the original design and is therefore suitable for both classic and contemporary ambiences.Glass colour tone: white, rigadin crystal.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
         "screw": "14E",
@@ -71515,7 +71548,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO SOSPENSIONE.jpg"
     },
     {
         "supplier": "vistosi",
