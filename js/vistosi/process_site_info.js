@@ -45,7 +45,6 @@ var arr_all_products = [
 
 
 
-
 // elimino eventuali doppioni
 arr_all_products = _.uniq(arr_all_products);
 var pages_number = arr_all_products.length;
@@ -70,7 +69,7 @@ function avvia(index){
         var uri = arr_all_products[index];
         _.log("processo: "+uri+" mancano: "+parseInt(pages_number-1-index))
         request({
-            uri: uri,
+            uri: encodeURI(uri),
             //uri : "https://www.foscarini.com/it/products/ta-twiggy-xl/",
 
         }, function(error, response, body) {

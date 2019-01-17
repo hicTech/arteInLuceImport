@@ -1,0 +1,3 @@
+ - il modello “ACCADEMIA” era sempre scritto attaccato alla categoria, quindi ho aggiunto degli spazi … tipo: “ACCADEMIAAPPLI” è diventato “ACCADEMIA  APPLI”
+
+ - similmente “CHIMERA” e “CHEOPE” nelle varianti 09 erano indicati come “CHIMER09” 

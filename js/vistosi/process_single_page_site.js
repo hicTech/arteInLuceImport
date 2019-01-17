@@ -1137,6 +1137,36 @@ var single_pages = [
         "desc": "Un colpo d'occhio suggestivo per questo modello che combina vetro bianco opaco e trasparente sulla superficie illuminante, creando un effetto scintillante."
     },
     {
+        "model": "marblè",
+        "category": "soffitto",
+        "uri": "https://www.vistosi.it/prodotti/marblè/soffitto.html",
+        "desc": "La particolarità della collezione Marblè sta nell'inserzione di scaglie argentate nel vetro fuso prima della soffiatura, con un effetto che rende ogni pezzo diverso dall'altro."
+    },
+    {
+        "model": "marblè",
+        "category": "sospensione",
+        "uri": "https://www.vistosi.it/prodotti/marblè/sospensione.html",
+        "desc": "La particolarità della collezione Marblè sta nell'inserzione di scaglie argentate nel vetro fuso prima della soffiatura, con un effetto che rende ogni pezzo diverso dall'altro."
+    },
+    {
+        "model": "marblè",
+        "category": "parete",
+        "uri": "https://www.vistosi.it/prodotti/marblè/parete.html",
+        "desc": "La particolarità della collezione Marblè sta nell'inserzione di scaglie argentate nel vetro fuso prima della soffiatura, con un effetto che rende ogni pezzo diverso dall'altro."
+    },
+    {
+        "model": "marblè",
+        "category": "tavolo",
+        "uri": "https://www.vistosi.it/prodotti/marblè/tavolo.html",
+        "desc": "La particolarità della collezione Marblè sta nell'inserzione di scaglie argentate nel vetro fuso prima della soffiatura, con un effetto che rende ogni pezzo diverso dall'altro."
+    },
+    {
+        "model": "marblè",
+        "category": "piantana",
+        "uri": "https://www.vistosi.it/prodotti/marblè/piantana.html",
+        "desc": "La particolarità della collezione Marblè sta nell'inserzione di scaglie argentate nel vetro fuso prima della soffiatura, con un effetto che rende ogni pezzo diverso dall'altro."
+    },
+    {
         "model": "marea",
         "category": "soffitto",
         "uri": "https://www.vistosi.it/prodotti/marea/soffitto.html",
@@ -2030,7 +2060,9 @@ var single_pages = [
         "uri": "https://www.vistosi.it/prodotti/yuba/piantana.html",
         "desc": "Ampia gamma di applique, caratterizzate dalla decorazione a fili neri di vetro fuso applicati alla superficie, che rendono ogni pezzo unico ed esaltano la fattura artigianale."
     }
-];
+]
+
+
 
 var pages_number = single_pages.length; // 336
 
@@ -2046,10 +2078,10 @@ function avvia(index){
 
 
 
-    if(index == 3){
-        //fs.writeFile('all_products_single_pages.json', JSON.stringify(arr_single_product, null, 4), 'utf8', function(){
-            _.log(info);
-        //});
+    if(index == pages_number){
+        fs.writeFile('assets_json.json', JSON.stringify(info, null, 4), 'utf8', function(){
+            _.log("FINITO");
+        });
         return true;
     }
     else{
@@ -2057,9 +2089,9 @@ function avvia(index){
         var model = single_pages[index].model;
         var category = single_pages[index].category;
         var desc = single_pages[index].desc;
-        _.log("processo: "+uri+" mancano: "+parseInt(pages_number-1-index))
+            _.log("processo: "+uri+" mancano: "+parseInt(pages_number-1-index))
         request({
-            uri: uri,
+            uri: encodeURI(uri),
 
         }, function(error, response, body) {
             createJsonFromAPage(body, uri, model, category, desc);
@@ -2079,26 +2111,31 @@ var arr_single_product = [];
 function createJsonFromAPage(body, uri, model, category, desc){
 
     var $body = $(body);
-    var variant = "";
-    var primary_pic = "";
+    var variants = [];
+    
 
-    // variante
+
+    // varianti
     $body.find(".portfolio-item.team.itemsmall").each(function(){
-        if( $(this).find('[data-lightbox="gallery-item"]').length > 0 )
-            variant = $(this).find(".team-title h4").html();
+        if( $(this).find('[data-lightbox="gallery-item"]').length > 0 ){
+            var name = $(this).find(".team-title h4").html().toString().toLowerCase();
+            variants.push({
+                name: name,
+                model: model,
+                category: category,
+                variant: (name != category)? name.replace(category+" ","") : undefined,
+                url:"https://www.vistosi.it/"+$(this).find("a").attr("href"),
+            });
+        }
+            
     })
 
-    // primary piv
-    $body.find(".portfolio-item.team.itemsmall").each(function(){
-        if( $(this).find('[data-lightbox="gallery-item"]').length > 0 )
-            primary_pic = "https://www.vistosi.it/"+$(this).find("a").attr("href");
-    })
-
+    
     // projects
     var arr_projects = [];
     $body.find('.portfolio-overlay[data-lightbox="gallery"]').find("a").each(function(){
-        arr_projects.push( $(this).attr("href") )
-        //primary_pic = "https://www.vistosi.it/"+$(this).find("a").attr("href");
+        arr_projects.push( "https://www.vistosi.it/"+$(this).attr("href") )
+        
     })
 
     // more
@@ -2111,9 +2148,8 @@ function createJsonFromAPage(body, uri, model, category, desc){
         uri: uri,
         model : model,
         category: category,
-        variant: variant,
         desc: desc,
-        primary_pic: primary_pic,
+        variants: variants,
         projects: arr_projects,
         more: more,
         //carousel: car_imgs_arr,

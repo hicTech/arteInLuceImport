@@ -146,7 +146,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
     
 
         /* ================================================================= FOSCARINI */
-        if(fornitore == "foscarini"){
+        if(false){
 
             
             var model_names = [
@@ -889,14 +889,15 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 screw = getScrew(row["Descrizione"]);
                 switcher = undefined;
                 category = getCategory(row["Descrizione"]);
+                
                 type = getType(original_model_id);
-                component = undefined;
+                component = (model=="VETRO" || model=="FISCHER")? 1 : 0;
                 size = getSize(row["Descrizione"]);;
                 outdoor = undefined;
                 max_discount = undefined;
-                pic = undefined;
-                otherColors = getOtherPics(model, size, category, type, color, more);
-                 more = getMore(row["Descrizione"],model);
+                pic = getPics(row["Descrizione"], model, category, type, assets_json,component, "primary");
+                //otherColors = getOtherPics(model, size, category, type, color, more);
+                //more = getMore(row["Descrizione"],model);
                 
 
                 
@@ -905,7 +906,40 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                 function getModel(desc){
                     var desc_arr = descToArray(desc);
-                    return desc_arr[0];
+                    var ret = desc_arr[0];
+
+                    // alcuni casi speciali
+                    if(ret == "FISC")
+                        ret = "FISCHER";
+                    if(ret == "VETR")
+                        ret = "VETRO";
+                    if(ret == "GIOGA")
+                        ret = "GIOGALI 3D";
+                    if(ret == "SANGIORG")
+                        ret = "SAN GIORGIO";
+                    if(ret == "SANMARCO")
+                        ret = "SAN MARCO";
+                    if(ret == "TAHOMARO")
+                        ret = "TAHOMA ROUND"
+                    if(ret == "ALUM" && desc_arr[1]=="09")
+                        ret = "ALUM 09"
+                    if(ret == "CHEOPE" && desc_arr[1]=="09")
+                        ret = "CHEOPE 09"
+                    if(ret == "CHIMERA" && desc_arr[1]=="09")
+                        ret = "CHIMERA 09"
+                    if(ret == "CRISTALL")
+                        ret = "CRISTALLINA"
+                    if(ret == "ENNELUCI")
+                        ret = "ENNE LUCI"
+                    if(ret == "MINIGIOG")
+                        ret = "MINIGIOGALI"
+                    if(ret == "REDENTOR")
+                        ret = "REDENTORE"
+                    if(ret == "WITHWHIT")
+                        ret = "WITHWHITE"
+                    
+
+                    return ret;
                 }
 
                 function descToArray(desc){
@@ -920,7 +954,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 }
 
                 function getPrice(str){
-                    var str_cleaned = str.replace("¤","");
+                    var str_cleaned = str.replace("¤","").replace("Û ","");
                         str_cleaned = str_cleaned.replace(/  +/g, ' '); // elimino spazi multipli
                         str_cleaned = str_cleaned.replace(",","").replace(".",",");
                         return parseFloat(str_cleaned);
@@ -1425,6 +1459,105 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     })
 
                     return ret;
+                }
+
+                function getPics(original_model, model, arr_category, type, assets_json, component, caso){
+                    var original_model_arr = descToArray(original_model);
+                    if(component == 0){
+
+                        
+
+                        ///////////////////////// uniformo alcuni nome che fra listino e sito differiscono
+                        if(model=="MINIGIOGALI"){
+                            model = "mini-giogali"
+                        }
+                        if(model=="GIOGALI 3D"){
+                            model = "giogali-3d"
+                        }
+                        if(model=="SAN MARCO"){
+                            model = "san-marco"
+                        }
+                        if(model=="SAN GIORGIO"){
+                            model = "san-giorgio"
+                        }
+                        if(model=="TAHOMA ROUND"){
+                            model = "tahoma-round"
+                        }
+                        if(model=="ALUM 09"){
+                            model = "alum09"
+                        }
+                        if(model=="CHEOPE 09"){
+                            model = "cheope-09"
+                        }
+                        if(model=="QUADRA09"){
+                            model = "quadra-09"
+                        }
+                        if(model=="CHIMERA 09"){
+                            model = "chimera-09"
+                        }
+                        if(model=="ANNE LUCI"){
+                            model = "enne-luci"
+                        }
+                        if(model == "TABLO'")
+                            model = "tablo"
+                            
+                        if(model == "MARBLE'")
+                            model = "marblè"
+                            
+                        
+                        var arr_varianti = [];
+                        _.each(assets_json,function(elem){
+                            _.each(elem.variants,function(variant){
+                                var variant_model = variant.model;
+                                var variant_category = variant.category;
+                                    model = model.toLowerCase();
+                                    category = arr_category[0];
+
+                            
+                                
+                                if(model == variant_model && category == variant_category){
+                                    arr_varianti.push(variant);
+                                }
+                                
+                            })    
+                        });
+
+                        if( arr_varianti.length == 1)
+                            return arr_varianti[0].url;
+                        else{
+                            
+
+
+
+                                var arr_varianti_fiter_1 = _.filter(arr_varianti,function(variant){
+                                    var ret = false;
+                                    _.each(original_model_arr,function(elem){
+                                        if( elem == variant.variant )
+                                            ret = true;
+                                    })
+                                    return ret;
+                                })
+
+                                if(arr_varianti_fiter_1.length == 1){
+                                    return arr_varianti_fiter_1[0].url;
+                                }else{
+                                    _.log(count++);
+                                    //_.log("----------------------model: "+model+"--------category: "+category);
+                                    //_.log("----------------------original model: "+original_model_arr);
+                                    //_.log(arr_varianti)
+                                }
+
+
+
+                                
+                                
+                            
+                            
+                        }
+                    }
+                    else{
+                        
+                    }
                 }
                 
                 
