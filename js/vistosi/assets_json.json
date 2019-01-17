@@ -369,27 +369,27 @@
     },
     {
         "uri": "https://www.vistosi.it/prodotti/assiba/soffitto.html",
-        "model": "",
+        "model": "assiba",
         "category": "soffitto",
         "desc": "Collezione ispirata a forme, colori e texture dell'oceano.",
         "variants": [
             {
                 "name": "soffitto 2",
-                "model": "",
+                "model": "assiba",
                 "category": "soffitto",
                 "variant": "2",
                 "url": "https://www.vistosi.it/assets/immagini/Foto-2017/Assiba/assiba-soffitto-pl-2.jpg"
             },
             {
                 "name": "soffitto g",
-                "model": "",
+                "model": "assiba",
                 "category": "soffitto",
                 "variant": "g",
                 "url": "https://www.vistosi.it/assets/immagini/Foto-2017/Assiba/assiba-soffitto-pl-g.jpg"
             },
             {
                 "name": "soffitto p",
-                "model": "",
+                "model": "assiba",
                 "category": "soffitto",
                 "variant": "p",
                 "url": "https://www.vistosi.it/assets/immagini/Foto-2017/Assiba/assiba-soffitto-pl-p.jpg"
@@ -412,13 +412,13 @@
     },
     {
         "uri": "https://www.vistosi.it/prodotti/assiba/sospensione.html",
-        "model": "",
+        "model": "assiba",
         "category": "sospensione",
         "desc": "Collezione ispirata a forme, colori e texture dell'oceano.",
         "variants": [
             {
                 "name": "sospensione 6",
-                "model": "",
+                "model": "assiba",
                 "category": "sospensione",
                 "variant": "6",
                 "url": "https://www.vistosi.it/assets/immagini/Foto-2017/Assiba/assiba-sospensione-pl-6.jpg"
@@ -441,20 +441,20 @@
     },
     {
         "uri": "https://www.vistosi.it/prodotti/assiba/parete.html",
-        "model": "",
+        "model": "assiba",
         "category": "parete",
         "desc": "Collezione ispirata a forme, colori e texture dell'oceano.",
         "variants": [
             {
                 "name": "parete sx",
-                "model": "",
+                "model": "assiba",
                 "category": "parete",
                 "variant": "sx",
                 "url": "https://www.vistosi.it/assets/immagini/Foto-2017/Assiba/assiba-parete-ap-sx.jpg"
             },
             {
                 "name": "parete dx",
-                "model": "",
+                "model": "assiba",
                 "category": "parete",
                 "variant": "dx",
                 "url": "https://www.vistosi.it/assets/immagini/Foto-2017/Assiba/assiba-parete-ap-dx.jpg"
@@ -477,13 +477,13 @@
     },
     {
         "uri": "https://www.vistosi.it/prodotti/assiba/tavolo.html",
-        "model": "",
+        "model": "assiba",
         "category": "tavolo",
         "desc": "Collezione ispirata a forme, colori e texture dell'oceano.",
         "variants": [
             {
                 "name": "tavolo",
-                "model": "",
+                "model": "assiba",
                 "category": "tavolo",
                 "url": "https://www.vistosi.it/assets/immagini/Foto-2017/Assiba/assiba-tavolo-lt.jpg"
             }
@@ -921,13 +921,13 @@
     },
     {
         "uri": "https://www.vistosi.it/prodotti/bolle/soffitto.html",
-        "model": "",
+        "model": "bolle",
         "category": "soffitto",
         "desc": "La caratteristica texture di questa collezione viene dalla tecnica baloton, che consiste nell'inserimento di bolle d'aria nel vetro durante la lavorazione.",
         "variants": [
             {
                 "name": "soffitto",
-                "model": "",
+                "model": "bolle",
                 "category": "soffitto",
                 "url": "https://www.vistosi.it/assets/immagini/prodotti2017/BOLLE/BOLLE SOFFITTO.jpg"
             }
@@ -942,13 +942,13 @@
     },
     {
         "uri": "https://www.vistosi.it/prodotti/bolle/sospensione.html",
-        "model": "",
+        "model": "bolle",
         "category": "sospensione",
         "desc": "La caratteristica texture di questa collezione viene dalla tecnica baloton, che consiste nell'inserimento di bolle d'aria nel vetro durante la lavorazione.",
         "variants": [
             {
                 "name": "sospensione",
-                "model": "",
+                "model": "bolle",
                 "category": "sospensione",
                 "url": "https://www.vistosi.it/assets/immagini/prodotti2017/BOLLE/BOLLE SOSPENSIONE.jpg"
             }
@@ -963,13 +963,13 @@
     },
     {
         "uri": "https://www.vistosi.it/prodotti/bolle/tavolo.html",
-        "model": "",
+        "model": "bolle",
         "category": "tavolo",
         "desc": "La caratteristica texture di questa collezione viene dalla tecnica baloton, che consiste nell'inserimento di bolle d'aria nel vetro durante la lavorazione.",
         "variants": [
             {
                 "name": "tavolo",
-                "model": "",
+                "model": "bolle",
                 "category": "tavolo",
                 "url": "https://www.vistosi.it/assets/immagini/prodotti2017/BOLLE/BOLLE TAVOLO.jpg"
             }
@@ -984,13 +984,13 @@
     },
     {
         "uri": "https://www.vistosi.it/prodotti/bolle/faretto.html",
-        "model": "",
+        "model": "bolle",
         "category": "faretto",
         "desc": "La caratteristica texture di questa collezione viene dalla tecnica baloton, che consiste nell'inserimento di bolle d'aria nel vetro durante la lavorazione.",
         "variants": [
             {
                 "name": "faretti",
-                "model": "",
+                "model": "bolle",
                 "category": "faretto",
                 "variant": "faretti",
                 "url": "https://www.vistosi.it/assets/immagini/prodotti2017/BOLLE/BOLLE FARETTO.jpg"
@@ -2977,13 +2977,13 @@
     },
     {
         "uri": "https://www.vistosi.it/prodotti/futura/soffitto.html",
-        "model": "",
+        "model": "futura",
         "category": "soffitto",
         "desc": "Collezione di lampade a sospensione in vetro soffiato disponibile in tre esclusive colorazioni abbinate a differenti finiture dell'anello metallico. Il vetro soffiato è in pezzo unico ma la particolare lavorazione lo rende di colore trasparente nella parte superiore e di colore diffusore nella parte inferiore.",
         "variants": [
             {
                 "name": "soffitto",
-                "model": "",
+                "model": "futura",
                 "category": "soffitto",
                 "url": "https://www.vistosi.it/assets/immagini/prodotti2017/FUTURA/FUTURA SOFFITTO.jpg"
             }
@@ -2999,13 +2999,13 @@
     },
     {
         "uri": "https://www.vistosi.it/prodotti/futura/sospensione.html",
-        "model": "",
+        "model": "futura",
         "category": "sospensione",
         "desc": "Collezione di lampade a sospensione in vetro soffiato disponibile in tre esclusive colorazioni abbinate a differenti finiture dell'anello metallico. Il vetro soffiato è in pezzo unico ma la particolare lavorazione lo rende di colore trasparente nella parte superiore e di colore diffusore nella parte inferiore.",
         "variants": [
             {
                 "name": "sospensione",
-                "model": "",
+                "model": "futura",
                 "category": "sospensione",
                 "url": "https://www.vistosi.it/assets/immagini/prodotti2017/FUTURA/FUTURA SOSPENSIONE.jpg"
             }
@@ -3021,13 +3021,13 @@
     },
     {
         "uri": "https://www.vistosi.it/prodotti/futura/parete.html",
-        "model": "",
+        "model": "futura",
         "category": "parete",
         "desc": "Collezione di lampade a sospensione in vetro soffiato disponibile in tre esclusive colorazioni abbinate a differenti finiture dell'anello metallico. Il vetro soffiato è in pezzo unico ma la particolare lavorazione lo rende di colore trasparente nella parte superiore e di colore diffusore nella parte inferiore.",
         "variants": [
             {
                 "name": "parete",
-                "model": "",
+                "model": "futura",
                 "category": "parete",
                 "url": "https://www.vistosi.it/assets/immagini/prodotti2017/FUTURA/FUTURA PARETE.jpg"
             }
@@ -3043,13 +3043,13 @@
     },
     {
         "uri": "https://www.vistosi.it/prodotti/futura/tavolo.html",
-        "model": "",
+        "model": "futura",
         "category": "tavolo",
         "desc": "Collezione di lampade a sospensione in vetro soffiato disponibile in tre esclusive colorazioni abbinate a differenti finiture dell'anello metallico. Il vetro soffiato è in pezzo unico ma la particolare lavorazione lo rende di colore trasparente nella parte superiore e di colore diffusore nella parte inferiore.",
         "variants": [
             {
                 "name": "tavolo",
-                "model": "",
+                "model": "futura",
                 "category": "tavolo",
                 "url": "https://www.vistosi.it/assets/immagini/prodotti2017/FUTURA/FUTURA TAVOLO.jpg"
             }
@@ -3065,13 +3065,13 @@
     },
     {
         "uri": "https://www.vistosi.it/prodotti/futura/piantana.html",
-        "model": "",
+        "model": "futura",
         "category": "piantana",
         "desc": "Collezione di lampade a sospensione in vetro soffiato disponibile in tre esclusive colorazioni abbinate a differenti finiture dell'anello metallico. Il vetro soffiato è in pezzo unico ma la particolare lavorazione lo rende di colore trasparente nella parte superiore e di colore diffusore nella parte inferiore.",
         "variants": [
             {
                 "name": "piantana",
-                "model": "",
+                "model": "futura",
                 "category": "piantana",
                 "url": "https://www.vistosi.it/assets/immagini/prodotti2017/FUTURA/FUTURA PIANTANA.jpg"
             }
@@ -5567,20 +5567,20 @@
     },
     {
         "uri": "https://www.vistosi.it/prodotti/peggy/sospensione.html",
-        "model": "",
+        "model": "peggy",
         "category": "sospensione",
         "desc": "Il vetro soffiato bianco lavorato a mano insieme al metallo lucido color piombo, interpretano la polarità cromatica del black&amp;white con la leggerezza di un segno razionale ed elegante. Con un’installazione di grande effetto, il lighting system Peggy illumina il Cafè del Peggy Guggenheim Museum di Venezia.<br>",
         "variants": [
             {
                 "name": "sospensione sp 9",
-                "model": "",
+                "model": "peggy",
                 "category": "sospensione",
                 "variant": "sp 9",
                 "url": "https://www.vistosi.it/assets/immagini/prodotti2017/PEGGY/PEGGY_SP-9_sospensione.jpg"
             },
             {
                 "name": "sospensione sp",
-                "model": "",
+                "model": "peggy",
                 "category": "sospensione",
                 "variant": "sp",
                 "url": "https://www.vistosi.it/assets/immagini/prodotti2017/PEGGY/PEGGY-SP_800X800.jpg"
@@ -5597,13 +5597,13 @@
     },
     {
         "uri": "https://www.vistosi.it/prodotti/peggy/parete.html",
-        "model": "",
+        "model": "peggy",
         "category": "parete",
         "desc": "Il vetro soffiato bianco lavorato a mano insieme al metallo lucido color piombo, interpretano la polarità cromatica del black&amp;white con la leggerezza di un segno razionale ed elegante. Con un’installazione di grande effetto, il lighting system Peggy illumina il Cafè del Peggy Guggenheim Museum di Venezia.<br>",
         "variants": [
             {
                 "name": "parete",
-                "model": "",
+                "model": "peggy",
                 "category": "parete",
                 "url": "https://www.vistosi.it/assets/immagini/prodotti2017/PEGGY/PEGGY_parete.jpg"
             }
@@ -6474,13 +6474,13 @@
     },
     {
         "uri": "https://www.vistosi.it/prodotti/sata/sospensione.html",
-        "model": "",
+        "model": "sata",
         "category": "sospensione",
         "desc": "Questo sistema di illuminazione prosegue la riflessione stilistica di Trepai, mettendo ancora più in risalto il legno, sulla cui struttura rigorosa e geometrica poggia il corpo illuminante in vetro soffiato. La collezione è declinata in più versioni per adattarsi a diversi contesti, sia classici sia moderni.",
         "variants": [
             {
                 "name": "sospensione",
-                "model": "",
+                "model": "sata",
                 "category": "sospensione",
                 "url": "https://www.vistosi.it/assets/immagini/prodotti2017/SATA/SATA_sospensione.jpg"
             }
@@ -6495,13 +6495,13 @@
     },
     {
         "uri": "https://www.vistosi.it/prodotti/sata/tavolo.html",
-        "model": "",
+        "model": "sata",
         "category": "tavolo",
         "desc": "Questo sistema di illuminazione prosegue la riflessione stilistica di Trepai, mettendo ancora più in risalto il legno, sulla cui struttura rigorosa e geometrica poggia il corpo illuminante in vetro soffiato. La collezione è declinata in più versioni per adattarsi a diversi contesti, sia classici sia moderni.",
         "variants": [
             {
                 "name": "tavolo",
-                "model": "",
+                "model": "sata",
                 "category": "tavolo",
                 "url": "https://www.vistosi.it/assets/immagini/prodotti2017/SATA/SATA_tavolo.jpg"
             }
@@ -6516,13 +6516,13 @@
     },
     {
         "uri": "https://www.vistosi.it/prodotti/sata/piantana.html",
-        "model": "",
+        "model": "sata",
         "category": "piantana",
         "desc": "Questo sistema di illuminazione prosegue la riflessione stilistica di Trepai, mettendo ancora più in risalto il legno, sulla cui struttura rigorosa e geometrica poggia il corpo illuminante in vetro soffiato. La collezione è declinata in più versioni per adattarsi a diversi contesti, sia classici sia moderni.",
         "variants": [
             {
                 "name": "piantana",
-                "model": "",
+                "model": "sata",
                 "category": "piantana",
                 "url": "https://www.vistosi.it/assets/immagini/prodotti2017/SATA/SATA_piantana.jpg"
             }
@@ -7013,13 +7013,13 @@
     },
     {
         "uri": "https://www.vistosi.it/prodotti/stone/sospensione.html",
-        "model": "",
+        "model": "stone",
         "category": "sospensione",
         "desc": "Stone è caratterizzata da volumi quasi scolpiti, dove la leggerezza del vetro soffiato si oppone alla solidità di geometrie lineari. In questo contrappunto, tra l’utilizzo di un materiale che naturalmente tende alla forma tonda e un design rigoroso che impone spigoli e linee ortogonali, si esprime l’equilibrio di una composizione luminosa di carattere, inedita.",
         "variants": [
             {
                 "name": "sospensione",
-                "model": "",
+                "model": "stone",
                 "category": "sospensione",
                 "url": "https://www.vistosi.it/assets/immagini/prodotti2017/STONE/STONE-sospensione_amb.jpg"
             }

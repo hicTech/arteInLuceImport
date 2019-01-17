@@ -891,7 +891,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 category = getCategory(row["Descrizione"]);
                 
                 type = getType(original_model_id);
-                component = (model=="VETRO" || model=="FISCHER")? 1 : 0;
+                component = (model=="VETRO" || model=="FISCHER" || model=="ROSONE" || model=="ROSO" || model=="SCATOLA")? 1 : 0;
                 size = getSize(row["Descrizione"]);;
                 outdoor = undefined;
                 max_discount = undefined;
@@ -1462,7 +1462,20 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 }
 
                 function getPics(original_model, model, arr_category, type, assets_json, component, caso){
+                    
+                    // predispongo un array contenente le stringhe delle descrizione originale per confrontarle con le varianti
                     var original_model_arr = descToArray(original_model);
+                        if( _.contains(original_model_arr,"GRAND"))
+                            original_model_arr.push("g");
+                        if( _.contains(original_model_arr,"MEDIA"))
+                            original_model_arr.push("m");
+                        if( _.contains(original_model_arr,"PICCO"))
+                            original_model_arr.push("p");
+                        if( _.contains(original_model_arr,"DEST"))
+                            original_model_arr.push("dx");
+                        if( _.contains(original_model_arr,"SIN"))
+                            original_model_arr.push("sx");
+
                     if(component == 0){
 
                         
@@ -1532,7 +1545,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 var arr_varianti_fiter_1 = _.filter(arr_varianti,function(variant){
                                     var ret = false;
                                     _.each(original_model_arr,function(elem){
-                                        if( elem == variant.variant )
+                                        if( elem.toLowerCase() == variant.variant.toLowerCase() )
                                             ret = true;
                                     })
                                     return ret;
@@ -1542,9 +1555,12 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                     return arr_varianti_fiter_1[0].url;
                                 }else{
                                     _.log(count++);
-                                    //_.log("----------------------model: "+model+"--------category: "+category);
-                                    //_.log("----------------------original model: "+original_model_arr);
-                                    //_.log(arr_varianti)
+                                   
+                                        _.log("----------------------model: "+model+"--------category: "+category);
+                                        _.log("----------------------original model: "+original_model_arr);
+                                        _.log(arr_varianti)
+                                    
+                                    
                                 }
 
 

@@ -44,7 +44,6 @@ var arr_all_products = [
 
 
 
-
 // elimino eventuali doppioni
 arr_all_products = _.uniq(arr_all_products);
 var pages_number = arr_all_products.length;
@@ -98,7 +97,12 @@ function createJsonFromAPage(body, uri){
 
 
    function getModel(uri){
-       return S(uri).between("prodotti/",".html").s 
+
+        // alcuni url finiscono per ".html" altri per "/"
+        if(uri.indexOf(".html") != -1)
+            return S(uri).between("prodotti/",".html").s;
+        else
+            return S(uri).between("prodotti/","/").s;
    }
 
 
