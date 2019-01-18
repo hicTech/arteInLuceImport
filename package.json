@@ -27,6 +27,7 @@
     "jsdom": "^13.1.0",
     "json2xls": "^0.1.2",
     "mammoth": "^1.4.7",
+    "nodemon": "^1.18.9",
     "request": "^2.88.0",
     "string": "^3.3.3",
     "xls-to-json": "^0.5.1",
