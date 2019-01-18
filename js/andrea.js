@@ -15,13 +15,12 @@ global.document = document;
 var $ = jQuery = require('jquery')(window);
 
 async function getDOM(url) {
-  return (await exec(url)).stdout
+  return (await exec(`curl -k \"${url}\"`)).stdout
+  
 }
 
 async function main() {
-  let res = await getDOM('https://portal.vistosi.it/eprogen/epRichiesta_risorse_pubblica_v2.jsp?cdvisttp=SP&cdvistfam=ASSIB&cdling=0&fg_eur_usa=console.error')
-    
-  console.log(res)
+  console.log(await getDOM('https://portal.vistosi.it/eprogen/epRichiesta_risorse_pubblica_v2.jsp?cdvisttp=SP&cdvistfam=ASSIB&cdling=0&fg_eur_usa=E'));
 }
 
 if (!!require.main) {
