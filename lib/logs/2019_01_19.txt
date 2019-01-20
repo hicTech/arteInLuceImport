@@ -1,0 +1,90 @@
+11:39:15: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 340
+11:39:15: FINITO
+11:41:10: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 340
+11:41:14: FINITO
+11:43:21: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 340
+11:43:24: FINITO
+11:46:10: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 340
+11:46:14: FINITO
+11:55:24: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+11:55:29: FINITO
+11:59:06: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+11:59:10: FINITO
+11:59:22: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+11:59:25: FINITO
+12:05:11: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+12:05:16: FINITO
+12:05:37: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+12:05:41: FINITO
+12:06:12: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+12:06:15: FINITO
+12:06:50: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+12:06:54: FINITO
+12:09:41: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+12:09:45: FINITO
+12:14:49: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+12:16:10: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+12:16:14: FINITO
+12:30:55: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+12:30:59: FINITO
+12:31:55: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+12:31:59: FINITO
+13:12:05: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:12:10: FINITO
+13:13:08: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:13:13: FINITO
+13:13:22: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:13:23: wewew
+13:13:25: FINITO
+13:13:37: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:13:39: wewew1
+13:13:39: wewew2
+13:13:41: FINITO
+13:14:12: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:14:13: wewew1
+13:14:14: wewew2
+13:14:16: FINITO
+13:15:41: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:15:42: wewew1
+13:15:43: wewew2
+13:15:46: FINITO
+13:16:43: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:16:44: wewew1
+13:16:46: wewew2
+13:16:48: FINITO
+13:17:22: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:17:25: wewew1
+13:17:27: wewew2
+13:17:27: FINITO
+13:18:38: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:18:42: wewew1
+13:18:42: wewew2
+13:18:42: FINITO
+13:19:36: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:19:40: FINITO
+13:21:33: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:21:38: FINITO
+13:22:27: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:22:31: FINITO
+13:23:34: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:23:38: FINITO
+13:24:07: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:24:10: FINITO
+13:24:27: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:24:31: FINITO
+13:26:43: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:27:20: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:27:25: FINITO
+13:29:29: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:29:34: FINITO
+13:30:35: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:30:48: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:30:55: FINITO
+13:32:01: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:32:06: FINITO
+13:34:46: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:34:52: FINITO
+13:35:29: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:35:33: FINITO
+13:39:12: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 0
+13:39:17: FINITO

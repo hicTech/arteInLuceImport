@@ -2,6 +2,7 @@ var _ = require("../../lib/_node.js");
 var S = require('string');
 var request = require("request");
 var fs = require('fs');
+const puppeteer = require('puppeteer');
 
 var jsdom = require("jsdom");
 const { JSDOM } = jsdom;
@@ -2062,6 +2063,16 @@ var single_pages = [
     }
 ]
 
+/*
+var single_pages = [
+    {
+        "model": "assiba",
+        "category": "sospensione",
+        "uri": "https://www.vistosi.it/prodotti/assiba/sospensione.html",
+        "desc": "Collezione ispirata a forme, colori e texture dell'oceano."
+    }
+]
+*/
 
 var pages_number = single_pages.length; // 336
 
@@ -2140,29 +2151,75 @@ function createJsonFromAPage(body, uri, model, category, desc){
     // more
     var more = $body.find('[data-lightbox="iframe"]').attr("href");    
 
-
+    // uso puppeteer per recuperare i contenuti dentro l'iframe
+    (async() => {
+        const browser = await puppeteer.launch();
+        const page = await browser.newPage();
+        
+        await page.goto(more);
+        await page.evaluate('window.scrollTo(0, 5000)');
     
         
-    info.push({
-        uri: uri,
-        model : model,
-        category: category,
-        desc: desc,
-        variants: variants,
-        projects: arr_projects,
-        more: more,
-        //carousel: car_imgs_arr,
-        //video : video_url,
-        //other_imgs : imgs_arr,
-        //projects: hide_imgs,
-        //related_imgs : related_imgs,
-        //specs: specs_arr 
-    })
+        let bodyHTML = await page.evaluate(() => document.body.innerHTML);
+        
+        
+        await browser.close();
+
+        info.push({
+            uri: uri,
+            model : model,
+            category: category,
+            desc: desc,
+            variants: variants,
+            projects: arr_projects,
+            more: {
+                more_url : more,
+                more: getMoreDate(bodyHTML),
+            },
+            //carousel: car_imgs_arr,
+            //video : video_url,
+            //other_imgs : imgs_arr,
+            //projects: hide_imgs,
+            //related_imgs : related_imgs,
+            //specs: specs_arr 
+        })
+        
+    
+        index++;
+        
+        avvia(index);
+
+
+      })();
+        
+    
     
 
-    index++;
-    
-    avvia(index);
-    
+}
+
+function getMoreDate(bodyHTML){
+    var $body = $(bodyHTML);
+    var $tables = $body.find("#table1 tbody");
+    var ret = [];
+    $tables.each(function(){
+        $(this).find("tbody").each(function(){
+                var $title = $(this).find("h3");
+                var model = $title.html();
+                var $tbody = $title.closest("tbody");
+                var light_schema = $tbody.find("img").attr("src");
+                var light_system = $tbody.find("div").eq(0).html();
+                var download = $tbody.find("div").eq(1).find("a").eq(0).attr("href");
+                ret.push({
+                    model : model,
+                    light_schema: encodeURI(light_schema),
+                    light_system: light_system,
+                    download : download,
+                    //html: $tbody.html()
+                });
+            
+        })
+    })
+
+    return ret;
 
 }

@@ -891,7 +891,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 category = getCategory(row["Descrizione"]);
                 
                 type = getType(original_model_id);
-                component = (model=="VETRO" || model=="FISCHER" || model=="ROSONE" || model=="ROSO" || model=="SCATOLA")? 1 : 0;
+                component = (model=="VETRO" || model=="FISCHER" || model=="ROSONE" || model=="ROSO" || model=="SCATOLA" || model=="KIT")? 1 : 0;
                 size = getSize(row["Descrizione"]);;
                 outdoor = undefined;
                 max_discount = undefined;
@@ -1464,7 +1464,17 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 }
 
                 function getPics(original_model, model, arr_category, type, assets_json, component, caso){
+                    // ==== ==== ==== ==== ==== ==== ==== articoli non presenti, fuori produzione
+                    if( 
+                        (model == "COCUMIS" || model == "MENDELEE" || model == "SCUSEV" || model == "PUSKIN" || category == "altro") ||
+                        (model == "DAMASCO" && arr_category[0] == "soffitto") ||
+                        (model == "STARDUST" && arr_category[0] == "tavolo") ||
+                        (model == "TUBES" && arr_category[0] == "tavolo") ||
+                        (model == "VEGA" && arr_category[0] == "parete")
                     
+                    )
+                        return "out of stock";
+
                     // predispongo un array contenente le stringhe delle descrizione originale per confrontarle con le varianti
                     var original_model_arr = descToArray(original_model);
                         if( _.contains(original_model_arr,"GRAND"))
@@ -1477,6 +1487,37 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             original_model_arr.push("dx");
                         if( _.contains(original_model_arr,"SIN"))
                             original_model_arr.push("sx");
+
+                        if(model=="PEGGY"){
+                            if( _.contains(original_model_arr,"SOSPE") && _.contains(original_model_arr,"9"))
+                                original_model_arr.push("sp 9");
+                            if( _.contains(original_model_arr,"SOSPE") && !_.contains(original_model_arr,"9"))
+                                original_model_arr.push("sp");
+                        }
+
+                        if(model=="JUBE"){
+                            if( _.contains(original_model_arr,"SOSPE") && !_.contains(original_model_arr,"1") )
+                                original_model_arr.push("sp");
+                            if( _.contains(original_model_arr,"SOSPE") && _.contains(original_model_arr,"1") )
+                                original_model_arr.push("sp 1g");
+                        }
+
+                        if(model=="ACCADEMIA"){
+                            if( _.contains(original_model_arr,"30") )
+                                original_model_arr.push("30f");    
+                        }
+
+                        if(model=="AURORA"){
+                            if( _.contains(original_model_arr,"30D1") || _.contains(original_model_arr,"30D2") )
+                                original_model_arr.push("30"); 
+                            if( _.contains(original_model_arr,"40D1") || _.contains(original_model_arr,"40D2") )
+                                original_model_arr.push("40"); 
+                            if( _.contains(original_model_arr,"50D1") || _.contains(original_model_arr,"50D2") )
+                                original_model_arr.push("50");    
+                        }
+
+                        
+
 
                     if(component == 0){
 
@@ -1518,6 +1559,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             
                         if(model == "MARBLE'")
                             model = "marblè"
+                    
+                        
                             
                         
                         var arr_varianti = [];
@@ -1528,7 +1571,24 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                     model = model.toLowerCase();
                                     category = arr_category[0];
 
-                            
+                                    if(model=="lunae"){
+                                        category = "parete";
+                                    }
+                                    if(model=="magie" && category=="soffitto"){
+                                        category = "faretto";
+                                    }
+
+                                    if(model=="poc" && category=="soffitto"){
+                                        category = "faretto";
+                                    }
+
+                                    if(model=="tahoma" && category=="soffitto"){
+                                        category = "faretto";
+                                    }
+
+                                    if(category=="terra"){
+                                        category = "piantana";
+                                    }
                                 
                                 if(model == variant_model && category == variant_category){
                                     arr_varianti.push(variant);
@@ -1556,11 +1616,11 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 if(arr_varianti_fiter_1.length == 1){
                                     return arr_varianti_fiter_1[0].url;
                                 }else{
-                                    _.log(count++);
+                                    //_.log(count++);
                                    
-                                        _.log("----------------------model: "+model+"--------category: "+category);
-                                        _.log("----------------------original model: "+original_model_arr);
-                                        _.log(arr_varianti)
+                                        //_.log("----------------------model: "+model+"--------category: "+category);
+                                        //_.log("----------------------original model: "+original_model_arr);
+                                        return arr_varianti.toString;
                                     
                                     
                                 }

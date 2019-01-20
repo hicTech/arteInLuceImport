@@ -1970,11 +1970,14 @@
         "desc_en": "",
         "led": 0,
         "halogen": 1,
-        "category": "parete",
+        "category": [
+            "parete"
+        ],
         "type": [
             "applique"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -1994,11 +1997,14 @@
         "desc_en": "",
         "led": 0,
         "halogen": 1,
-        "category": "parete",
+        "category": [
+            "parete"
+        ],
         "type": [
             "applique"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -2019,11 +2025,14 @@
         "led": 0,
         "halogen": 0,
         "screw": "L13",
-        "category": "parete",
+        "category": [
+            "parete"
+        ],
         "type": [
             "applique"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -2044,11 +2053,14 @@
         "led": 0,
         "halogen": 0,
         "screw": "L13",
-        "category": "parete",
+        "category": [
+            "parete"
+        ],
         "type": [
             "applique"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -2069,11 +2081,14 @@
         "led": 0,
         "halogen": 0,
         "screw": "L13",
-        "category": "parete",
+        "category": [
+            "parete"
+        ],
         "type": [
             "applique"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -2093,11 +2108,14 @@
         "desc_en": "",
         "led": 0,
         "halogen": 1,
-        "category": "parete",
+        "category": [
+            "parete"
+        ],
         "type": [
             "applique"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -7480,12 +7498,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "soffitto",
+        "category": "parete",
         "type": [
             "applique"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LUNAE/LUNAE PARETE.jpg"
     },
     {
         "supplier": "vistosi",
@@ -7507,12 +7526,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "soffitto",
+        "category": "parete",
         "type": [
             "applique"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LUNAE/LUNAE PARETE.jpg"
     },
     {
         "supplier": "vistosi",
@@ -7643,11 +7663,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "soffitto",
+        "category": "faretto",
         "type": [
             "applique"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MAGIE/MAGIE FARETTO.jpg"
     },
     {
         "supplier": "vistosi",
@@ -7670,11 +7691,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "soffitto",
+        "category": "faretto",
         "type": [
             "applique"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MAGIE/MAGIE FARETTO.jpg"
     },
     {
         "supplier": "vistosi",
@@ -9876,11 +9898,14 @@
         "desc_en": "",
         "led": 0,
         "halogen": 1,
-        "category": "parete",
+        "category": [
+            "parete"
+        ],
         "type": [
             "applique"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -9899,11 +9924,14 @@
         "desc_en": "",
         "led": 0,
         "halogen": 1,
-        "category": "parete",
+        "category": [
+            "parete"
+        ],
         "type": [
             "applique"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -9922,11 +9950,14 @@
         "desc_en": "",
         "led": 0,
         "halogen": 1,
-        "category": "parete",
+        "category": [
+            "parete"
+        ],
         "type": [
             "applique"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10000,11 +10031,14 @@
         "desc_en": "",
         "led": 0,
         "halogen": 0,
-        "category": "altro",
+        "category": [
+            "altro"
+        ],
         "type": [
             "raccoglitore"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10072,11 +10106,14 @@
         "desc_en": "",
         "led": 0,
         "halogen": 0,
-        "category": "altro",
+        "category": [
+            "altro"
+        ],
         "type": [
             "cavo"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10092,11 +10129,14 @@
         "desc_en": "",
         "led": 0,
         "halogen": 0,
-        "category": "altro",
+        "category": [
+            "altro"
+        ],
         "type": [
             "cavo"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10112,11 +10152,14 @@
         "desc_en": "",
         "led": 0,
         "halogen": 0,
-        "category": "altro",
+        "category": [
+            "altro"
+        ],
         "type": [
             "cavo"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10164,7 +10207,8 @@
         "type": [
             "cavo"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10212,7 +10256,8 @@
         "type": [
             "cavo"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10401,11 +10446,14 @@
         "led": 0,
         "halogen": 0,
         "screw": "DB2",
-        "category": "soffitto",
+        "category": [
+            "soffitto"
+        ],
         "type": [
             "faretto"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10427,11 +10475,14 @@
         "led": 0,
         "halogen": 0,
         "screw": "DB2",
-        "category": "soffitto",
+        "category": [
+            "soffitto"
+        ],
         "type": [
             "faretto"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10454,11 +10505,14 @@
         "led": 0,
         "halogen": 0,
         "screw": "DB2",
-        "category": "soffitto",
+        "category": [
+            "soffitto"
+        ],
         "type": [
             "faretto"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10481,11 +10535,14 @@
         "led": 0,
         "halogen": 0,
         "screw": "DB2",
-        "category": "soffitto",
+        "category": [
+            "soffitto"
+        ],
         "type": [
             "faretto"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10508,12 +10565,15 @@
         "led": 0,
         "halogen": 0,
         "screw": "DA2",
-        "category": "soffitto",
+        "category": [
+            "soffitto"
+        ],
         "type": [
             "faretto"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10536,12 +10596,15 @@
         "led": 0,
         "halogen": 0,
         "screw": "DA2",
-        "category": "soffitto",
+        "category": [
+            "soffitto"
+        ],
         "type": [
             "faretto"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10564,11 +10627,14 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "soffitto",
+        "category": [
+            "soffitto"
+        ],
         "type": [
             "faretto"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10590,11 +10656,14 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "soffitto",
+        "category": [
+            "soffitto"
+        ],
         "type": [
             "faretto"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10617,11 +10686,14 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "soffitto",
+        "category": [
+            "soffitto"
+        ],
         "type": [
             "faretto"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10644,11 +10716,14 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "soffitto",
+        "category": [
+            "soffitto"
+        ],
         "type": [
             "faretto"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10671,12 +10746,15 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "soffitto",
+        "category": [
+            "soffitto"
+        ],
         "type": [
             "faretto"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10699,12 +10777,15 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "soffitto",
+        "category": [
+            "soffitto"
+        ],
         "type": [
             "faretto"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -11017,11 +11098,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "DB2",
-        "category": "soffitto",
+        "category": "faretto",
         "type": [
             "faretto"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/POC/POC FARETTO.jpg"
     },
     {
         "supplier": "vistosi",
@@ -11047,11 +11129,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "DB2",
-        "category": "soffitto",
+        "category": "faretto",
         "type": [
             "faretto"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/POC/POC FARETTO.jpg"
     },
     {
         "supplier": "vistosi",
@@ -11074,11 +11157,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "soffitto",
+        "category": "faretto",
         "type": [
             "faretto"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/POC/POC FARETTO.jpg"
     },
     {
         "supplier": "vistosi",
@@ -11104,11 +11188,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "soffitto",
+        "category": "faretto",
         "type": [
             "faretto"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/POC/POC FARETTO.jpg"
     },
     {
         "supplier": "vistosi",
@@ -11186,11 +11271,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "soffitto",
+        "category": "faretto",
         "type": [
             "faretto"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TAHOMA/TAHOMA FARETTO.jpg"
     },
     {
         "supplier": "vistosi",
@@ -11216,7 +11302,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -11242,7 +11329,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "media"
+        "size": "media",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -11268,7 +11356,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -11294,7 +11383,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -11320,7 +11410,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -11344,7 +11435,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -11368,7 +11460,8 @@
         "type": [
             "fischer"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -11393,7 +11486,8 @@
         "type": [
             "fischer"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -11419,7 +11513,8 @@
         "type": [
             "fischer"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -11445,7 +11540,8 @@
         "type": [
             "fischer"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -11471,7 +11567,8 @@
         "type": [
             "fischer"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -11496,7 +11593,8 @@
         "type": [
             "fischer"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -11522,7 +11620,8 @@
         "type": [
             "fischer"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -11540,11 +11639,13 @@
         "desc_en": "",
         "led": 0,
         "halogen": 0,
-        "category": "sospensione",
+        "category": [
+            "sospensione"
+        ],
         "type": [
             "kit"
         ],
-        "component": 0
+        "component": 1
     },
     {
         "supplier": "vistosi",
@@ -15064,11 +15165,14 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "tavolo",
+        "category": [
+            "tavolo"
+        ],
         "type": [
             "lettura"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -15431,11 +15535,14 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "tavolo",
+        "category": [
+            "tavolo"
+        ],
         "type": [
             "lettura"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -15457,11 +15564,14 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "tavolo",
+        "category": [
+            "tavolo"
+        ],
         "type": [
             "lettura"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -15483,11 +15593,14 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "tavolo",
+        "category": [
+            "tavolo"
+        ],
         "type": [
             "lettura"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -15509,11 +15622,14 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "tavolo",
+        "category": [
+            "tavolo"
+        ],
         "type": [
             "lettura"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -15694,7 +15810,8 @@
         "type": [
             "plafone"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Accademia/accademia-soffitto-30f.jpg"
     },
     {
         "supplier": "vistosi",
@@ -30761,11 +30878,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/CHIMERA/CHIMERA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -30787,11 +30905,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/CHIMERA09/CHIMERA09 PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -30813,12 +30932,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/CLOTH/CLOTH PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -30840,12 +30960,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/CLOTH/CLOTH PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -30868,11 +30989,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -30895,11 +31017,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -30922,11 +31045,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -30949,11 +31073,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -30976,11 +31101,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31003,12 +31129,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31030,12 +31157,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31058,12 +31186,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31086,12 +31215,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31113,12 +31243,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "media"
+        "size": "media",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31141,12 +31272,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "media"
+        "size": "media",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31169,12 +31301,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31196,12 +31329,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31224,12 +31358,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31252,12 +31387,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31280,12 +31416,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31307,12 +31444,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31335,12 +31473,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31363,12 +31502,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31391,12 +31531,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31418,12 +31559,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31446,12 +31588,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31474,12 +31617,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31500,11 +31644,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DIADEMA/DIADEMA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31525,11 +31670,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DIADEMA/DIADEMA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31550,11 +31696,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DIADEMA/DIADEMA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31575,11 +31722,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DIADEMA/DIADEMA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31600,11 +31748,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ECOS/ECOS PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31626,11 +31775,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ECOS/ECOS PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31651,11 +31801,12 @@
         "desc_en": "Collection of lamps with diffuser in handmade glass rods. The surface is partially opaque by sandblasting nuanced. LED light source.Glass colour tone: dégradé crystal, dégradé topaz.Metal parts: light bronze.",
         "led": 1,
         "halogen": 0,
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ESSENCE/ESSENCE PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31676,11 +31827,12 @@
         "desc_en": "Collection of lamps with diffuser in handmade glass rods. The surface is partially opaque by sandblasting nuanced. LED light source.Glass colour tone: dégradé crystal, dégradé topaz.Metal parts: light bronze.",
         "led": 1,
         "halogen": 0,
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ESSENCE/ESSENCE PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31700,11 +31852,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/FEREA/FEREA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31725,12 +31878,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/FUTURA/FUTURA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31751,12 +31905,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/FUTURA/FUTURA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31777,12 +31932,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/FUTURA/FUTURA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31803,12 +31959,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/FUTURA/FUTURA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31829,11 +31986,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31855,11 +32013,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31880,11 +32039,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31904,11 +32064,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31929,11 +32090,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31954,11 +32116,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -31978,11 +32141,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32004,11 +32168,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32030,11 +32195,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32055,11 +32221,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32081,11 +32248,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32105,11 +32273,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32130,11 +32299,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32155,11 +32325,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32182,11 +32353,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32210,11 +32382,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32235,11 +32408,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32261,11 +32435,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32286,11 +32461,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32312,11 +32488,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIOGALI/GIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32339,11 +32516,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32367,11 +32545,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32394,11 +32573,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32422,11 +32602,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32448,11 +32629,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32475,11 +32657,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32501,11 +32684,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32529,11 +32713,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32556,11 +32741,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32584,11 +32770,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32611,11 +32798,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32639,11 +32827,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32665,11 +32854,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32692,11 +32882,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32719,11 +32910,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32747,11 +32939,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32774,11 +32967,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32802,11 +32996,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32829,11 +33024,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32857,11 +33053,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MINIGIOGALI/MINIGIOGALI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32881,11 +33078,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GLORIA/GLORIA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32908,11 +33106,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "FL",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LEPANTO/LEPANTO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32935,11 +33134,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LIO/LIO PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32961,12 +33161,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "media"
+        "size": "media",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LUCCIOLA/LUCCIOLA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -32988,12 +33189,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LUCCIOLA/LUCCIOLA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33016,11 +33218,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/MARBLE/MARBLEPIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33041,11 +33244,12 @@
         "desc_en": "",
         "led": 0,
         "halogen": 0,
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NAXOS/NAXOS PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33066,11 +33270,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ENNE LUCI/ENNE LUCI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33092,11 +33297,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/ENNE LUCI/ENNE LUCI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33117,11 +33323,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO_piantana.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33143,11 +33350,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NOVECENTO/NOVECENTO_piantana.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33169,12 +33377,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PUPPET/PUPPET PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33196,12 +33405,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PUPPET/PUPPET PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33222,12 +33432,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PUPPET/PUPPET PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33248,12 +33459,13 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PUPPET/PUPPET PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33273,11 +33485,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/REDER/REDER PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33299,11 +33512,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/REDER/REDER PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33326,11 +33540,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/RINA/RINA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33353,11 +33568,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/RINA/RINA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33380,11 +33596,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "G9",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/RINA/RINA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33405,11 +33622,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/SATA/SATA_piantana.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33430,11 +33648,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/SATA/SATA_piantana.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33457,11 +33676,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/SMOKING/SMOKING PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33484,11 +33704,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/SMOKING/SMOKING PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33508,11 +33729,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "FL",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOPIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33532,11 +33754,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "FL",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOPIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33558,11 +33781,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "FL",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOPIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33582,11 +33806,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "FL",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOPIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33606,11 +33831,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "FL",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOPIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33632,11 +33858,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "FL",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOPIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33656,11 +33883,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "FL",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOPIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33680,11 +33908,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "FL",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOPIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33706,11 +33935,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "FL",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOPIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33732,11 +33962,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/THOR/THOR PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33759,11 +33990,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/THOR/THOR PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33786,11 +34018,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/THOR/THOR PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33811,11 +34044,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TREPAI/TREPAI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33836,11 +34070,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TREPAI/TREPAI PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33859,11 +34094,12 @@
         "desc_en": "",
         "led": 0,
         "halogen": 1,
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/VEGA/VEGA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33882,11 +34118,12 @@
         "desc_en": "",
         "led": 0,
         "halogen": 1,
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/VEGA/VEGA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33905,11 +34142,12 @@
         "desc_en": "",
         "led": 0,
         "halogen": 1,
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/VEGA/VEGA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33932,11 +34170,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/YUBA/YUBA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33959,11 +34198,12 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "terra",
+        "category": "piantana",
         "type": [
             "piantana"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/YUBA/YUBA PIANTANA.jpg"
     },
     {
         "supplier": "vistosi",
@@ -33988,7 +34228,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34014,7 +34255,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34041,7 +34283,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34068,7 +34311,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34095,7 +34339,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34122,7 +34367,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34149,7 +34395,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34176,7 +34423,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34279,7 +34527,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34304,7 +34553,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34330,7 +34580,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34354,7 +34605,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34379,7 +34631,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34404,7 +34657,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34429,7 +34683,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34455,7 +34710,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34481,7 +34737,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34507,7 +34764,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34533,7 +34791,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34559,7 +34818,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34585,7 +34845,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34611,7 +34872,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34637,7 +34899,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34663,7 +34926,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34689,7 +34953,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34715,7 +34980,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34740,7 +35006,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34765,7 +35032,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34791,7 +35059,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34815,7 +35084,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34839,7 +35109,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34864,7 +35135,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34890,7 +35162,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34914,7 +35187,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34939,7 +35213,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34965,7 +35240,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -34991,7 +35267,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -35015,7 +35292,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -35041,7 +35319,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -35067,7 +35346,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -35092,7 +35372,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -35118,7 +35399,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -35142,7 +35424,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -35167,7 +35450,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -35192,7 +35476,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -35219,7 +35504,8 @@
         "type": [
             "rosone"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -35241,7 +35527,8 @@
         "type": [
             "scatola"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -38532,7 +38819,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aurora/aurora-sospensione-30.jpg"
     },
     {
         "supplier": "vistosi",
@@ -38559,7 +38847,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aurora/aurora-sospensione-30.jpg"
     },
     {
         "supplier": "vistosi",
@@ -38642,7 +38931,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aurora/aurora-sospensione-40.jpg"
     },
     {
         "supplier": "vistosi",
@@ -38669,7 +38959,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aurora/aurora-sospensione-40.jpg"
     },
     {
         "supplier": "vistosi",
@@ -38752,7 +39043,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aurora/aurora-sospensione-50.jpg"
     },
     {
         "supplier": "vistosi",
@@ -38779,7 +39071,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aurora/aurora-sospensione-50.jpg"
     },
     {
         "supplier": "vistosi",
@@ -38834,7 +39127,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aurora/aurora-sospensione-30.jpg"
     },
     {
         "supplier": "vistosi",
@@ -38861,7 +39155,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aurora/aurora-sospensione-30.jpg"
     },
     {
         "supplier": "vistosi",
@@ -38916,7 +39211,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aurora/aurora-sospensione-40.jpg"
     },
     {
         "supplier": "vistosi",
@@ -38943,7 +39239,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aurora/aurora-sospensione-40.jpg"
     },
     {
         "supplier": "vistosi",
@@ -38998,7 +39295,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aurora/aurora-sospensione-50.jpg"
     },
     {
         "supplier": "vistosi",
@@ -39025,7 +39323,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aurora/aurora-sospensione-50.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64361,7 +64660,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64385,7 +64685,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64409,7 +64710,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64433,7 +64735,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64456,7 +64759,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64480,7 +64784,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64503,7 +64808,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64527,7 +64833,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64551,7 +64858,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64575,7 +64883,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64599,7 +64908,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64623,7 +64933,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64646,7 +64957,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64670,7 +64982,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64693,7 +65006,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64717,7 +65031,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64742,7 +65057,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/JUBE_SP_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64767,7 +65083,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/JUBE_SP_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64792,7 +65109,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64817,7 +65135,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64841,7 +65160,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64866,7 +65186,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64890,7 +65211,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/JUBE_SP_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64915,7 +65237,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/JUBE_SP_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64940,7 +65263,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/JUBE_SP_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64965,7 +65289,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/JUBE_SP_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -64990,7 +65315,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -65015,7 +65341,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -65039,7 +65366,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -65064,7 +65392,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -65088,7 +65417,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/JUBE_SP_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -65113,7 +65443,8 @@
             "sospensione"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/JUBE_SP_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -65136,11 +65467,14 @@
         "led": 0,
         "halogen": 0,
         "screw": "CA2",
-        "category": "sospensione",
+        "category": [
+            "sospensione"
+        ],
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -65163,11 +65497,14 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "sospensione",
+        "category": [
+            "sospensione"
+        ],
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -67794,11 +68131,14 @@
         "desc_en": "",
         "led": 1,
         "halogen": 0,
-        "category": "sospensione",
+        "category": [
+            "sospensione"
+        ],
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -67820,11 +68160,14 @@
         "desc_en": "",
         "led": 0,
         "halogen": 0,
-        "category": "sospensione",
+        "category": [
+            "sospensione"
+        ],
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -74247,7 +74590,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PEGGY/PEGGY_SP-9_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -74271,7 +74615,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PEGGY/PEGGY_SP-9_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -74295,7 +74640,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PEGGY/PEGGY_SP-9_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -74319,7 +74665,8 @@
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PEGGY/PEGGY_SP-9_sospensione.jpg"
     },
     {
         "supplier": "vistosi",
@@ -77219,11 +77566,14 @@
         "led": 0,
         "halogen": 0,
         "screw": "E27",
-        "category": "sospensione",
+        "category": [
+            "sospensione"
+        ],
         "type": [
             "sospensione"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -90090,7 +90440,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -90114,7 +90465,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91163,7 +91515,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91189,7 +91542,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91215,7 +91569,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91241,7 +91596,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91267,7 +91623,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91293,7 +91650,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91319,7 +91677,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91345,7 +91704,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91371,7 +91731,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91397,7 +91758,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91422,7 +91784,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91447,7 +91810,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91472,7 +91836,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91497,7 +91862,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91522,7 +91888,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91547,7 +91914,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91572,7 +91940,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91597,7 +91966,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91622,7 +91992,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91647,7 +92018,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91672,7 +92044,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92002,7 +92375,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92029,7 +92403,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92056,7 +92431,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92082,7 +92458,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92154,7 +92531,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92178,7 +92556,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92302,7 +92681,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92326,7 +92706,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92350,7 +92731,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92374,7 +92756,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92424,7 +92807,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92450,7 +92834,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92475,7 +92860,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92501,7 +92887,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92574,7 +92961,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92598,7 +92986,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92696,7 +93085,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92720,7 +93110,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92745,7 +93136,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92770,7 +93162,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92795,7 +93188,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92820,7 +93214,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92845,7 +93240,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92870,7 +93266,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92919,7 +93316,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -92944,7 +93342,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -93165,7 +93564,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -93240,7 +93640,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -93653,7 +94054,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -93678,7 +94080,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -93702,7 +94105,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -93726,7 +94130,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -93750,7 +94155,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -93774,7 +94180,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -93798,7 +94205,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -93822,7 +94230,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -93846,7 +94255,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -93870,7 +94280,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -93894,7 +94305,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -93918,7 +94330,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -93942,7 +94355,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -93966,7 +94380,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -93990,7 +94405,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94014,7 +94430,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94038,7 +94455,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94062,7 +94480,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94086,7 +94505,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94110,7 +94530,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94134,7 +94555,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94158,7 +94580,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94182,7 +94605,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94206,7 +94630,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94230,7 +94655,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94254,7 +94680,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94278,7 +94705,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94302,7 +94730,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94326,7 +94755,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94350,7 +94780,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94447,7 +94878,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94472,7 +94904,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94539,11 +94972,14 @@
         "desc_en": "A decorative lighting system based on a single element, the handmade glass link. It is available in different colours, as standard table, ceiling, pendant, wall fixture and floor or that can be arranged to offer chandeliers and structures of any dimension.Glass colour tone: crystal, white, black, chrome, gold, bronze, or custom colour.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
-        "category": "altro",
+        "category": [
+            "altro"
+        ],
         "type": [
             "vetro"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94561,11 +94997,14 @@
         "desc_en": "A decorative lighting system based on a single element, the handmade glass link. It is available in different colours, as standard table, ceiling, pendant, wall fixture and floor or that can be arranged to offer chandeliers and structures of any dimension.Glass colour tone: crystal, white, black, chrome, gold, bronze, or custom colour.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
-        "category": "altro",
+        "category": [
+            "altro"
+        ],
         "type": [
             "vetro"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94584,11 +95023,14 @@
         "desc_en": "A decorative lighting system based on a single element, the handmade glass link. It is available in different colours, as standard table, ceiling, pendant, wall fixture and floor or that can be arranged to offer chandeliers and structures of any dimension.Glass colour tone: crystal, white, black, chrome, gold, bronze, or custom colour.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
-        "category": "altro",
+        "category": [
+            "altro"
+        ],
         "type": [
             "vetro"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94607,11 +95049,14 @@
         "desc_en": "A decorative lighting system based on a single element, the handmade glass link. It is available in different colours, as standard table, ceiling, pendant, wall fixture and floor or that can be arranged to offer chandeliers and structures of any dimension.Glass colour tone: crystal, white, black, chrome, gold, bronze, or custom colour.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
-        "category": "altro",
+        "category": [
+            "altro"
+        ],
         "type": [
             "vetro"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94629,11 +95074,14 @@
         "desc_en": "A decorative lighting system based on a single element, the handmade glass link. It is available in different colours, as standard table, ceiling, pendant, wall fixture and floor or that can be arranged to offer chandeliers and structures of any dimension.Glass colour tone: crystal, white, black, chrome, gold, bronze, or custom colour.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
-        "category": "altro",
+        "category": [
+            "altro"
+        ],
         "type": [
             "vetro"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94652,11 +95100,14 @@
         "desc_en": "A decorative lighting system based on a single element, the handmade glass link. It is available in different colours, as standard table, ceiling, pendant, wall fixture and floor or that can be arranged to offer chandeliers and structures of any dimension.Glass colour tone: crystal, white, black, chrome, gold, bronze, or custom colour.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
-        "category": "altro",
+        "category": [
+            "altro"
+        ],
         "type": [
             "vetro"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94677,11 +95128,14 @@
         "desc_en": "The small size version that helps to expand the range of Giogali to smaller, both standard and custom made.Glass colour tone: crystal, white, black, chrome, gold, bronze or custom colour.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
-        "category": "altro",
+        "category": [
+            "altro"
+        ],
         "type": [
             "vetro"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94701,11 +95155,14 @@
         "desc_en": "The small size version that helps to expand the range of Giogali to smaller, both standard and custom made.Glass colour tone: crystal, white, black, chrome, gold, bronze or custom colour.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
-        "category": "altro",
+        "category": [
+            "altro"
+        ],
         "type": [
             "vetro"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94726,11 +95183,14 @@
         "desc_en": "The small size version that helps to expand the range of Giogali to smaller, both standard and custom made.Glass colour tone: crystal, white, black, chrome, gold, bronze or custom colour.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
-        "category": "altro",
+        "category": [
+            "altro"
+        ],
         "type": [
             "vetro"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94751,11 +95211,14 @@
         "desc_en": "The small size version that helps to expand the range of Giogali to smaller, both standard and custom made.Glass colour tone: crystal, white, black, chrome, gold, bronze or custom colour.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
-        "category": "altro",
+        "category": [
+            "altro"
+        ],
         "type": [
             "vetro"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94775,11 +95238,14 @@
         "desc_en": "The small size version that helps to expand the range of Giogali to smaller, both standard and custom made.Glass colour tone: crystal, white, black, chrome, gold, bronze or custom colour.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
-        "category": "altro",
+        "category": [
+            "altro"
+        ],
         "type": [
             "vetro"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94800,11 +95266,14 @@
         "desc_en": "The small size version that helps to expand the range of Giogali to smaller, both standard and custom made.Glass colour tone: crystal, white, black, chrome, gold, bronze or custom colour.Metal parts: chrome.",
         "led": 0,
         "halogen": 0,
-        "category": "altro",
+        "category": [
+            "altro"
+        ],
         "type": [
             "vetro"
         ],
-        "component": 0
+        "component": 0,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94828,7 +95297,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94853,7 +95323,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94877,7 +95348,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94901,7 +95373,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94925,7 +95398,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94949,7 +95423,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94973,7 +95448,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -94997,7 +95473,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95021,7 +95498,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95045,7 +95523,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95069,7 +95548,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95093,7 +95573,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95245,7 +95726,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95270,7 +95752,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95295,7 +95778,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95320,7 +95804,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95345,7 +95830,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95371,7 +95857,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95395,7 +95882,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95419,7 +95907,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95444,7 +95933,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95468,7 +95958,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95492,7 +95983,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95516,7 +96008,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95541,7 +96034,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95566,7 +96060,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95591,7 +96086,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95616,7 +96112,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95641,7 +96138,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95666,7 +96164,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95691,7 +96190,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95816,7 +96316,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95841,7 +96342,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95865,7 +96367,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95890,7 +96393,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -95992,7 +96496,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -96018,7 +96523,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -96068,7 +96574,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -96094,7 +96601,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -96119,7 +96627,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -96144,7 +96653,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -96169,7 +96679,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -96194,7 +96705,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -96219,7 +96731,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -96269,7 +96782,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -96294,7 +96808,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -96318,7 +96833,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -96344,7 +96860,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -96368,7 +96885,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -96392,7 +96910,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -96417,7 +96936,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -96441,7 +96961,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -96489,7 +97010,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -96513,7 +97035,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -96634,7 +97157,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -97134,7 +97658,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -97257,7 +97782,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -97281,7 +97807,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -97305,7 +97832,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -97378,7 +97906,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -97404,7 +97933,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -97430,7 +97960,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -97456,7 +97987,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -97482,7 +98014,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -97507,7 +98040,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -97533,7 +98067,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -97559,7 +98094,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -97733,7 +98269,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -97758,7 +98295,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "media"
+        "size": "media",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -97783,7 +98321,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -97904,7 +98443,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -98249,7 +98789,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -98275,7 +98816,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -98301,7 +98843,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -98424,7 +98967,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -98448,7 +98992,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -98472,7 +99017,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -98496,7 +99042,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -98643,7 +99190,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -98668,7 +99216,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -98693,7 +99242,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "media"
+        "size": "media",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -98718,7 +99268,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -98742,7 +99293,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -98767,7 +99319,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -98887,7 +99440,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -98911,7 +99465,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -98935,7 +99490,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -98959,7 +99515,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -98983,7 +99540,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99008,7 +99566,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99032,7 +99591,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99080,7 +99640,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99104,7 +99665,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99128,7 +99690,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99152,7 +99715,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99176,7 +99740,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99327,7 +99892,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99351,7 +99917,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99375,7 +99942,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99399,7 +99967,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99423,7 +99992,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99448,7 +100018,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99520,7 +100091,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99544,7 +100116,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99568,7 +100141,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99786,7 +100360,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99907,7 +100482,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99931,7 +100507,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -99980,7 +100557,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100029,7 +100607,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100054,7 +100633,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100278,7 +100858,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100302,7 +100883,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100327,7 +100909,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100352,7 +100935,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100496,7 +101080,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100520,7 +101105,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100544,7 +101130,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100568,7 +101155,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100593,7 +101181,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100618,7 +101207,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100642,7 +101232,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100667,7 +101258,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100691,7 +101283,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100764,7 +101357,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100789,7 +101383,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100814,7 +101409,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100838,7 +101434,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100862,7 +101459,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100886,7 +101484,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100910,7 +101509,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100934,7 +101534,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100958,7 +101559,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -100984,7 +101586,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -101010,7 +101613,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -101036,7 +101640,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -101062,7 +101667,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -101494,7 +102100,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -101518,7 +102125,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -101917,7 +102525,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -101942,7 +102551,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -101967,7 +102577,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -101993,7 +102604,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102019,7 +102631,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102045,7 +102658,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102071,7 +102685,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102097,7 +102712,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102123,7 +102739,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102275,7 +102892,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102300,7 +102918,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102422,7 +103041,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102446,7 +103066,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102471,7 +103092,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102496,7 +103118,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "media"
+        "size": "media",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102521,7 +103144,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102619,7 +103243,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102694,7 +103319,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102719,7 +103345,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102744,7 +103371,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102769,7 +103397,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102794,7 +103423,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102819,7 +103449,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102846,7 +103477,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102873,7 +103505,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102900,7 +103533,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102927,7 +103561,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102954,7 +103589,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -102981,7 +103617,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103005,7 +103642,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103030,7 +103668,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103055,7 +103694,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103080,7 +103720,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103104,7 +103745,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103128,7 +103770,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103152,7 +103795,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103177,7 +103821,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103201,7 +103846,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103226,7 +103872,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103250,7 +103897,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103275,7 +103923,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103299,7 +103948,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103324,7 +103974,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103352,7 +104003,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103377,7 +104029,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103405,7 +104058,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103430,7 +104084,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103458,7 +104113,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103483,7 +104139,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103507,7 +104164,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103531,7 +104189,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103556,7 +104215,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103581,7 +104241,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103605,7 +104266,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103629,7 +104291,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103653,7 +104316,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103678,7 +104342,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103702,7 +104367,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103726,7 +104392,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103751,7 +104418,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103775,7 +104443,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103800,7 +104469,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103825,7 +104495,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103850,7 +104521,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103876,7 +104548,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103902,7 +104575,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103928,7 +104602,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103954,7 +104629,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -103978,7 +104654,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104003,7 +104680,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104027,7 +104705,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104051,7 +104730,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104173,7 +104853,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104198,7 +104879,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104222,7 +104904,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104246,7 +104929,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104271,7 +104955,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104295,7 +104980,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104319,7 +105005,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104344,7 +105031,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104368,7 +105056,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104393,7 +105082,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104418,7 +105108,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104442,7 +105133,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104563,7 +105255,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104589,7 +105282,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "grande"
+        "size": "grande",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104615,7 +105309,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "media"
+        "size": "media",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104641,7 +105336,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "piccola"
+        "size": "piccola",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104667,7 +105363,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "xl"
+        "size": "xl",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104792,7 +105489,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104817,7 +105515,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104842,7 +105541,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104867,7 +105567,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104892,7 +105593,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -104988,7 +105690,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -105013,7 +105716,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -105038,7 +105742,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -105062,7 +105767,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -105086,7 +105792,8 @@
         "type": [
             "vetro"
         ],
-        "component": 1
+        "component": 1,
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -105113,7 +105820,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "mini"
+        "size": "mini",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -105141,7 +105849,8 @@
             "vetro"
         ],
         "component": 1,
-        "size": "mini"
+        "size": "mini",
+        "pic": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -105168,6 +105877,7 @@
             "vetro"
         ],
         "component": 1,
-        "size": "mini"
+        "size": "mini",
+        "pic": "out of stock"
     }
 ]
