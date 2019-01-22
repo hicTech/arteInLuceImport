@@ -140,13 +140,14 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var more = undefined;
 
         var pic = undefined;
+        var light_schema = undefined;
         var otherColors = undefined;
         
 
     
 
         /* ================================================================= FOSCARINI */
-        if(false){
+        if( false /* fornitore == "foscarini" */){
 
             
             var model_names = [
@@ -308,6 +309,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 outdoor = (articolo.indexOf("OUTDOOR") != -1)? 1 : 0;
                 max_discount = 0;
                 pic = getPics(model, category, color, component, createAllImgsArr(assets_json), "primary" );
+                light_schema = undefined;
                 otherColors = getPics(model, category, color, component, createAllImgsArr(assets_json), "colors" );
                 more = JSON.stringify({
                     video : getVideo(model, category, component, createAllVideosArr(assets_json)),
@@ -889,13 +891,15 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 screw = getScrew(row["Descrizione"]);
                 switcher = undefined;
                 category = getCategory(row["Descrizione"]);
+                var clone = category.slice();
                 
                 type = getType(original_model_id);
-                component = (model=="VETRO" || model=="FISCHER" || model=="ROSONE" || model=="ROSO" || model=="SCATOLA" || model=="KIT")? 1 : 0;
+                component = ( (model=="VETRO" || model=="FISCHER" || model=="ROSONE" || model=="ROSO" || model=="SCATOLA" || model=="KIT") || row["Descrizione"].indexOf(" KIT ") !=-1 )? 1 : 0;
                 size = getSize(row["Descrizione"]);;
                 outdoor = undefined;
                 max_discount = undefined;
                 pic = getPics(row["Descrizione"], model, category, type, assets_json,component, "primary");
+                light_schema = getLightSchema(row["Descrizione"], model, clone, type, assets_json,component, halogen, "primary");;
                 //otherColors = getOtherPics(model, size, category, type, color, more);
                 //more = getMore(row["Descrizione"],model);
                 
@@ -1637,6 +1641,553 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         
                     }
                 }
+
+                function getLightSchema(original_model, model, arr_category, type, assets_json, component, halogen, caso){
+                    // ==== ==== ==== ==== ==== ==== ==== articoli non presenti, fuori produzione
+                    if( 
+                        (model == "COCUMIS" || model == "MENDELEE" || model == "SCUSEV" || model == "PUSKIN" || category == "altro") ||
+                        (model == "DAMASCO" && arr_category[0] == "soffitto") ||
+                        (model == "STARDUST" && arr_category[0] == "tavolo") ||
+                        (model == "TUBES" && arr_category[0] == "tavolo") ||
+                        (model == "VEGA" && arr_category[0] == "parete")
+                    
+                    )
+                        return "out of stock";
+                    
+                   
+                   // predispongo un array contenente le stringhe delle descrizione originale per confrontarle con le varianti
+                    var original_model_arr = descToArray(original_model);
+                    //var original_model_arr_length = original_model_arr.length();
+                        if(halogen==1)
+                            original_model_arr.push("ALOGENO");
+                        
+                        if( _.contains(original_model_arr,"GA3") || _.contains(original_model_arr,"XA3")  || _.contains(original_model_arr,"I83")  || _.contains(original_model_arr,"I13")  || _.contains(original_model_arr,"N13") ){
+                            var led_string = "led 17,5w - 230 volt - 3000k - 1300 lumens - dimmerabile";
+                            original_model_arr.push(led_string.toUpperCase());
+                        }
+
+                        if( _.contains(original_model_arr,"J13") || _.contains(original_model_arr,"W13") ){
+                            var led_string = "led 19,5w - (driver incluso) - 3000k - 2850 lumens - dimmerabile";
+                            original_model_arr.push(led_string.toUpperCase());
+                        }
+
+                        if( _.contains(original_model_arr,"FA3") || _.contains(original_model_arr,"FH3") ){
+                            var led_string = "led 12,5w - (driver incluso) - 3000k - 1650 lumens - dimmerabile";
+                            original_model_arr.push(led_string.toUpperCase());
+                        }
+
+                        if( _.contains(original_model_arr,"L13") ){
+                            var led_string = "led 13w - 230 volt - 3000k - 940 lumens - dimmerabile";
+                            original_model_arr.push(led_string.toUpperCase());
+                        }
+
+                        if( _.contains(original_model_arr,"14E") ){
+                            var led_string = "led 13w - 230 volt - 4000k - 940 lumens - dimmerabile";
+                            original_model_arr.push(led_string.toUpperCase());
+                            var led_string_2 = "e14";
+                            original_model_arr.push(led_string_2.toUpperCase());
+
+                        }
+                            
+                        
+                        if( contains(original_model_arr,"FL"))
+                            original_model_arr.push("FLUORESCENTE");
+                       
+                        if( _.contains(original_model_arr,"GRAND"))
+                            original_model_arr.push("G");
+                        if( _.contains(original_model_arr,"MEDIA"))
+                            original_model_arr.push("M");
+                        if( _.contains(original_model_arr,"PICCO"))
+                            original_model_arr.push("P");
+                        if( _.contains(original_model_arr,"DEST"))
+                            original_model_arr.push("DX");
+                        if( _.contains(original_model_arr,"SIN"))
+                            original_model_arr.push("SX");
+
+                        if(model == "DAMASCO" && arr_category[0] == "sospensione"){
+                            if( contains(original_model_arr,"3") && contains(original_model_arr,"PICCO") )
+                                original_model_arr.push("3P");
+                            if( contains(original_model_arr,"3") && contains(original_model_arr,"C") )
+                                original_model_arr.push("3C");
+                            if( contains(original_model_arr,"4") && contains(original_model_arr,"C") )
+                                original_model_arr.push("4C");
+                            if( contains(original_model_arr,"5") && contains(original_model_arr,"PICCO") )
+                                original_model_arr.push("5P");
+                            if( contains(original_model_arr,"5") && contains(original_model_arr,"C") )
+                                original_model_arr.push("5C");
+                            if( contains(original_model_arr,"6") && contains(original_model_arr,"P") )
+                                original_model_arr.push("6P");
+                            if( contains(original_model_arr,"MEDIAD1") )
+                                original_model_arr.push("MD1");
+                            if( contains(original_model_arr,"MEDIAD2") )
+                                original_model_arr.push("MD2");
+                            if( contains(original_model_arr,"GRANDD1") )
+                                original_model_arr.push("GD1");
+                            if( contains(original_model_arr,"GRANDD2") )
+                                original_model_arr.push("GD2");
+                        }
+
+
+                        if(model == "GIOGALI" && arr_category[0] == "sospensione"){
+                            if( contains(original_model_arr,"CUBE") )
+                                original_model_arr.push("CUB");
+                            if( contains(original_model_arr,"JELL") )
+                                original_model_arr.push("JEL");
+                        }
+
+                        if(model == "FOLLIA" && arr_category[0] == "parete"){
+                            if( contains(original_model_arr,"1") && contains(original_model_arr,"PICCO")  )
+                                original_model_arr.push("1P");
+                            if( contains(original_model_arr,"2") && contains(original_model_arr,"PICCO")  )
+                                original_model_arr.push("2P");
+                           
+                        }
+
+                        if(model == "MINIGIOGALI" && arr_category[0] == "sospensione"){
+                            if( contains(original_model_arr,"CLAS") )
+                                original_model_arr.push("CLA");
+                            if( contains(original_model_arr,"CHAN") )
+                                original_model_arr.push("CHA");
+                            if( contains(original_model_arr,"CLOU") )
+                                original_model_arr.push("CLO");
+                            if( contains(original_model_arr,"RAIN") )
+                                original_model_arr.push("RAI");
+                        }
+
+                        if(model == "OTO" && arr_category[0] == "sospensione"){
+                            if( contains(original_model_arr,"CUBE") )
+                                original_model_arr.push("CUB");
+                            if( contains(original_model_arr,"CHAN") )
+                                original_model_arr.push("CHA");
+                            if( contains(original_model_arr,"LINE") )
+                                original_model_arr.push("LIN");
+                            
+                            if( contains(original_model_arr,"PEAR") && contains(original_model_arr,"A") )
+                                original_model_arr.push("PEAA");
+                            if( contains(original_model_arr,"PEAR") && contains(original_model_arr,"B") )
+                                original_model_arr.push("PEAB");
+                            if( contains(original_model_arr,"PEAR") && contains(original_model_arr,"C") )
+                                original_model_arr.push("PEAC");
+                            if( contains(original_model_arr,"PEAR") && contains(original_model_arr,"D") )
+                                original_model_arr.push("PEAD");
+                            if( contains(original_model_arr,"RC55"))
+                                original_model_arr.push("R55");
+                           
+                        }
+
+
+                        if(model == "WITHWHITE" && arr_category[0] == "sospensione"){
+                            if( contains(original_model_arr,"26") && contains(original_model_arr,"XL") )
+                                original_model_arr.push("26X");
+                            if( contains(original_model_arr,"18") && contains(original_model_arr,"XL") )
+                                original_model_arr.push("18X");
+                        }
+
+                        if(model == "REDENTORE" && arr_category[0] == "parete"){
+                            if( contains(original_model_arr,"15F") )
+                                original_model_arr.push("15FP");
+                            if( contains(original_model_arr,"5F") )
+                                original_model_arr.push("5FG");
+                            if( contains(original_model_arr,"7F") )
+                                original_model_arr.push("7FP");
+                        }
+
+                        if(model == "SAN GIORGIO" && arr_category[0] == "parete"){
+                            if( contains(original_model_arr,"15F") )
+                                original_model_arr.push("15FP");
+                            if( contains(original_model_arr,"7F") )
+                                original_model_arr.push("7FP");
+                        }
+
+                        if(model == "SAN MARCO" && arr_category[0] == "parete"){
+                            if( contains(original_model_arr,"5F") )
+                                original_model_arr.push("5FG");
+                        }
+                        
+
+                        if(model == "RINA" && arr_category[0] == "sospensione"){
+                            if( contains(original_model_arr,"35/3") )
+                                original_model_arr.push("35C");
+                            if( contains(original_model_arr,"35/3D1") )
+                                original_model_arr.push("35CD1");
+                            if( contains(original_model_arr,"35/3D2") )
+                                original_model_arr.push("35CD2");
+                            if( contains(original_model_arr,"45/3") )
+                                original_model_arr.push("45C");
+                            if( contains(original_model_arr,"45/3D1") )
+                                original_model_arr.push("45CD1");
+                            if( contains(original_model_arr,"45/3D2") )
+                                original_model_arr.push("45CD2");
+                        }
+                        
+
+                       
+                       
+
+                        if(model == "FOLLIA" && arr_category[0] == "sospensione"){
+                            if( contains(original_model_arr,"1") && contains(original_model_arr,"PICCO") )
+                                original_model_arr.push("1P");
+                            if( contains(original_model_arr,"3") && contains(original_model_arr,"PICCO") )
+                                original_model_arr.push("3P");
+                            if( contains(original_model_arr,"5") && contains(original_model_arr,"PICCO") )
+                                original_model_arr.push("5P");
+                            if( contains(original_model_arr,"GRANDD1") )
+                                original_model_arr.push("GD1");
+                            if( contains(original_model_arr,"GRANDD2") )
+                                original_model_arr.push("GD2");
+                        }
+
+                        if(model == "DIADEMA" && arr_category[0] == "sospensione"){
+                            
+                            if( contains(original_model_arr,"07") && contains(original_model_arr,"A") )
+                                original_model_arr.push("07A");
+                            if( contains(original_model_arr,"07") && contains(original_model_arr,"AD1") )
+                                original_model_arr.push("07AD1");
+                            if( contains(original_model_arr,"07") && contains(original_model_arr,"AD2") )
+                                original_model_arr.push("07AD2");
+
+                            if( contains(original_model_arr,"07") && contains(original_model_arr,"B") )
+                                original_model_arr.push("07B");
+                            if( contains(original_model_arr,"07") && contains(original_model_arr,"BD1") )
+                                original_model_arr.push("07BD1");
+                            if( contains(original_model_arr,"07") && contains(original_model_arr,"BD2") )
+                                original_model_arr.push("07BD2");
+
+                            if( contains(original_model_arr,"07") && contains(original_model_arr,"C") )
+                                original_model_arr.push("07C");
+                            if( contains(original_model_arr,"07") && contains(original_model_arr,"CD1") )
+                                original_model_arr.push("07CD1");
+                            if( contains(original_model_arr,"07") && contains(original_model_arr,"CD2") )
+                                original_model_arr.push("07CD2");
+
+                            if( contains(original_model_arr,"12") && contains(original_model_arr,"A") )
+                                original_model_arr.push("12A");
+                            if( contains(original_model_arr,"12") && contains(original_model_arr,"AD1") )
+                                original_model_arr.push("12AD1");
+                            if( contains(original_model_arr,"12") && contains(original_model_arr,"AD2") )
+                                original_model_arr.push("12AD2");
+
+                            if( contains(original_model_arr,"12") && contains(original_model_arr,"B") )
+                                original_model_arr.push("12B");
+                            if( contains(original_model_arr,"12") && contains(original_model_arr,"BD1") )
+                                original_model_arr.push("12BD1");
+                            if( contains(original_model_arr,"12") && contains(original_model_arr,"BD2") )
+                                original_model_arr.push("12BD2");
+
+                            if( contains(original_model_arr,"12") && contains(original_model_arr,"C") )
+                                original_model_arr.push("12C");
+                            if( contains(original_model_arr,"12") && contains(original_model_arr,"CD1") )
+                                original_model_arr.push("12CD1");
+                            if( contains(original_model_arr,"12") && contains(original_model_arr,"CD2") )
+                                original_model_arr.push("12CD2");
+
+                            if( contains(original_model_arr,"18") && contains(original_model_arr,"A") )
+                                original_model_arr.push("18A");
+                            if( contains(original_model_arr,"18") && contains(original_model_arr,"AD1") )
+                                original_model_arr.push("18AD1");
+                            if( contains(original_model_arr,"18") && contains(original_model_arr,"AD2") )
+                                original_model_arr.push("18AD2");
+
+                            if( contains(original_model_arr,"18") && contains(original_model_arr,"B") )
+                                original_model_arr.push("18B");
+                            if( contains(original_model_arr,"18") && contains(original_model_arr,"BD1") )
+                                original_model_arr.push("18BD1");
+                            if( contains(original_model_arr,"18") && contains(original_model_arr,"BD2") )
+                                original_model_arr.push("18BD2");
+
+                            if( contains(original_model_arr,"18") && contains(original_model_arr,"C") )
+                                original_model_arr.push("18C");
+                            if( contains(original_model_arr,"18") && contains(original_model_arr,"CD1") )
+                                original_model_arr.push("18CD1");
+                            if( contains(original_model_arr,"18") && contains(original_model_arr,"CD2") )
+                                original_model_arr.push("18CD2");
+
+                            if( contains(original_model_arr,"30") && contains(original_model_arr,"A") )
+                                original_model_arr.push("30A");
+                            if( contains(original_model_arr,"30") && contains(original_model_arr,"AD1") )
+                                original_model_arr.push("30AD1");
+                            if( contains(original_model_arr,"30") && contains(original_model_arr,"AD2") )
+                                original_model_arr.push("30AD2");
+
+                            if( contains(original_model_arr,"30") && contains(original_model_arr,"B") )
+                                original_model_arr.push("30B");
+                            if( contains(original_model_arr,"30") && contains(original_model_arr,"BD1") )
+                                original_model_arr.push("30BD1");
+                            if( contains(original_model_arr,"30") && contains(original_model_arr,"BD2") )
+                                original_model_arr.push("30BD2");
+
+                            if( contains(original_model_arr,"30") && contains(original_model_arr,"C") )
+                                original_model_arr.push("30C");
+                            if( contains(original_model_arr,"30") && contains(original_model_arr,"CD1") )
+                                original_model_arr.push("30CD1");
+                            if( contains(original_model_arr,"30") && contains(original_model_arr,"CD2") )
+                                original_model_arr.push("30CD2");
+                            
+
+                            
+                            
+                            
+                        }
+                       
+                       
+                        
+
+                       
+
+/* 
+                       
+                        if(model=="PEGGY"){
+                            if( _.contains(original_model_arr,"SOSPE") && _.contains(original_model_arr,"9"))
+                                original_model_arr.push("sp 9");
+                            if( _.contains(original_model_arr,"SOSPE") && !_.contains(original_model_arr,"9"))
+                                original_model_arr.push("sp");
+                        }
+
+                        if(model=="JUBE"){
+                            if( _.contains(original_model_arr,"SOSPE") && !_.contains(original_model_arr,"1") )
+                                original_model_arr.push("sp");
+                            if( _.contains(original_model_arr,"SOSPE") && _.contains(original_model_arr,"1") )
+                                original_model_arr.push("sp 1g");
+                        }
+
+                        if(model=="ACCADEMIA"){
+                            if( _.contains(original_model_arr,"30") )
+                                original_model_arr.push("30f");    
+                        }
+
+                        if(model=="AURORA"){
+                            if( _.contains(original_model_arr,"30D1") || _.contains(original_model_arr,"30D2") )
+                                original_model_arr.push("30"); 
+                            if( _.contains(original_model_arr,"40D1") || _.contains(original_model_arr,"40D2") )
+                                original_model_arr.push("40"); 
+                            if( _.contains(original_model_arr,"50D1") || _.contains(original_model_arr,"50D2") )
+                                original_model_arr.push("50");    
+                        }
+                        */
+
+
+                    if(component == 0){
+
+                        
+
+                        ///////////////////////// uniformo alcuni nome che fra listino e sito differiscono
+                        if(model=="MINIGIOGALI"){
+                            model = "mini-giogali"
+                        }
+                        if(model=="GIOGALI 3D"){
+                            model = "giogali-3d"
+                        }
+                        if(model=="SAN MARCO"){
+                            model = "san-marco"
+                        }
+                        if(model=="SAN GIORGIO"){
+                            model = "san-giorgio"
+                        }
+                        if(model=="TAHOMA ROUND"){
+                            model = "tahoma-round"
+                        }
+                        if(model=="ALUM 09"){
+                            model = "alum09"
+                        }
+                        if(model=="CHEOPE 09"){
+                            model = "cheope-09"
+                        }
+                        if(model=="QUADRA09"){
+                            model = "quadra-09"
+                        }
+                        if(model=="CHIMERA 09"){
+                            model = "chimera-09"
+                        }
+                        if(model=="ENNE LUCI"){
+                            model = "enne-luci"
+                        }
+                        if(model == "TABLO'")
+                            model = "tablo"
+                            
+                        if(model == "MARBLE'")
+                            model = "marblè"
+
+                        var arr_varianti = [];
+                        _.each(assets_json,function(elem){
+                            _.each(elem.more.more,function(variant){
+                                var variant_model = variant.root_model;
+                                
+                                var variant_category = variant.category;
+                                    model = model.toLowerCase();
+                                    category = arr_category[0];
+
+                                    if(model=="lunae"){
+                                        category = "parete";
+                                    }
+                                    if(model=="magie" && category=="soffitto"){
+                                        category = "faretto";
+                                    }
+
+                                    if(model=="poc" && category=="soffitto"){
+                                        category = "faretto";
+                                    }
+
+                                    if(model=="tahoma" && category=="soffitto"){
+                                        category = "faretto";
+                                    }
+
+                                    if(category=="terra"){
+                                        category = "piantana";
+                                    }
+                                
+                                    if(model == variant_model && category == variant_category){
+                                        arr_varianti.push(variant);
+                                    }
+
+
+
+                                
+                            })    
+                        });
+                        
+                        if( arr_varianti.length == 1){
+                            return arr_varianti[0].url;     
+                        }
+                            
+                        else{
+                                
+                                var arr_varianti_fiter_1 = _.filter(arr_varianti,function(variant){
+
+                                    // casi particolari
+                                    var variante_rettificata = variant.variant;
+                                    
+
+                                    if( variant.root_model == "damasco" ){
+                                        // per damasco piantana
+                                        variante_rettificata = variante_rettificata.replace("100p","100").replace("140p","140").replace("180p","180");
+
+                                        // per damasco parete
+                                        variante_rettificata = variante_rettificata.replace("1ap","1a").replace("1bp","1b").replace("2ap","2a").replace("2bp","2b")
+                                    }
+
+                                    if( variant.root_model == "mini-giogali" ){
+                                        variante_rettificata = variante_rettificata.replace("minigiog","");
+                                    }
+
+                                    if( variant.root_model == "cheope-09" ){
+                                        variante_rettificata = variante_rettificata.replace("cheope09","");
+                                    }
+
+                                    if( variant.root_model == "alum09" ){
+                                        variante_rettificata = variante_rettificata.replace("alum ","");
+                                    }
+
+                                    if( variant.root_model == "tablo" ){
+                                        variante_rettificata = variante_rettificata.replace("tablo'","");
+                                    }
+
+                                    if( variant.root_model == "withwhite" ){
+                                        variante_rettificata = variante_rettificata.replace("withwhit","");
+                                    }
+
+                                    if( variant.root_model == "cheope-09" ){
+                                        variante_rettificata = variante_rettificata.replace("cheope09","");
+                                    }
+                                    if( variant.root_model == "chimera-09" ){
+                                        variante_rettificata = variante_rettificata.replace("chimer09","");
+                                    }
+
+                                    if( variant.root_model == "cristallina" ){
+                                        variante_rettificata = variante_rettificata.replace("cristall","");
+                                    }
+
+                                    if( variant.root_model == "enne-luci" ){
+                                        variante_rettificata = variante_rettificata.replace("enneluci","");
+                                    }
+                                    if( variant.root_model == "giogali-3d" ){
+                                        variante_rettificata = variante_rettificata.replace("gioga 3d","");
+                                    }
+                                    if( variant.root_model == "marblè" ){
+                                        variante_rettificata = variante_rettificata.replace("marble'","");
+                                    }
+                                    if( variant.root_model == "quadra-09" ){
+                                        variante_rettificata = variante_rettificata.replace("quadra09'","");
+                                    }
+                                    if( variant.root_model == "redentore" ){
+                                        variante_rettificata = variante_rettificata.replace("redentor","");
+                                    }
+                                    if( variant.root_model == "san-giorgio" ){
+                                        variante_rettificata = variante_rettificata.replace("sangiorg","");
+                                    }
+                                    if( variant.root_model == "san-marco" ){
+                                        variante_rettificata = variante_rettificata.replace("sanmarco","");
+                                    }
+                                    if( variant.root_model == "tahoma-round" ){
+                                        variante_rettificata = variante_rettificata.replace("tahomaro","");
+                                    }
+
+                                    if(variante_rettificata == "")
+                                        return true;
+                                    else
+                                        return contains(original_model_arr,variante_rettificata.toUpperCase()) 
+                                    
+
+                                })
+
+                                
+                                
+
+                                // capita alcune volte che l'array risultate contiene più volte la stessa immagine e ai fini dell'immagine appunto me ne basta una
+                                // quindi elimino i doppioni
+                                var arr_varianti_fiter_2 = uniqByProp(arr_varianti_fiter_1,"light_schema")
+
+                                if( arr_varianti_fiter_2.length == 1){
+                                    return arr_varianti_fiter_2[0].url;     
+                                }
+                                else{
+                                        var arr_varianti_fiter_3 = _.filter(arr_varianti_fiter_2,function(variant){
+                                            return contains(original_model_arr,variant.light_system.toUpperCase())
+                                        })
+
+                                            if( arr_varianti_fiter_3.length == 1){
+                                                return arr_varianti_fiter_3[0].url;     
+                                            }
+                                            else{
+                                                   
+
+                                                        
+                                                        _.log("----------------------model: "+model+"--------category: "+category);
+                                                        _.log("----------------------original model: "+original_model_arr);
+                                                        _.log("----------------------arr_varianti:");
+                                                        _.log(arr_varianti_fiter_1);
+                                                        
+                                                        
+                                                    
+                                                        
+                                                        
+                                                    
+                                                
+                                            }
+                                            
+                                        
+                                            
+                                            
+                                        
+                                    
+                                }
+                                             
+                            
+                            
+                        }
+
+                        _.log(count++);
+
+                        
+                            
+
+
+                        
+
+                    }
+                    
+                }
+
+                
                 
                 
             }
@@ -1655,7 +2206,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             item_id:                item_id,                            // l'id originario manipolato
             hicId:                  hicId,                              // identificativo interno ottenuto come supplier_id + item_id
             ean13:                  ean13,                              // codice a barre
-            price:                  price,                              // imponibile
+            
+            //price:                  price,                              // imponibile
+            
             color:                  color,                              // prova a recuperare il colore dall'id
             desc_it:                cleaned_desc_it,                    // la descrizione in italiano
             desc_en:                cleaned_desc_en,                    // la descrizione in inglese 
@@ -1671,8 +2224,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             outdoor:                outdoor,                            // se è da esterno o meno
             max_discount:           undefined,                          // massimo sconto applicabile
             pic:                    pic,                                // contiene l'immagine primaria
-            otherColors:            otherColors,                              // array dei path delle immagini di altri colori dello stesso articolo
+            light_schema:           light_schema,                       // schema dell'articolo
+            otherColors:            otherColors,                        // array dei path delle immagini di altri colori dello stesso articolo
             more:                   more,                               // contiene dei campi aggiuntivi (custom per ogni fornitore) esempio video, link a pdf, pagine html     
+            
         }
 }
 
@@ -1683,6 +2238,16 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 Array.prototype.diff = function(a) {
     return this.filter(function(i) {return a.indexOf(i) < 0;});
 };
+
+function contains(arr,str){
+    for(var i=0; i<arr.length; i++){
+        if(arr[i]==str){
+            return true;
+            break
+        }
+    }
+    return false;
+}
 
 
 function rigaVuota(row){
@@ -1735,6 +2300,20 @@ function indexOfInArray(arr,str){
     }
     return -1;
 
+}
+
+function uniqByProp(arr,prop){
+    var ret = [];
+    var register = [];
+    
+    _.each(arr,function(elem){
+        if(!contains(register,elem.prop)){
+            register.push(elem.prop);
+            ret.push(elem);
+        }
+    });
+    
+    return ret;
 }
 
 function uniqByFileName(arr){

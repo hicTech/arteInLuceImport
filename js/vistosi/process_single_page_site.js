@@ -2066,13 +2066,33 @@ var single_pages = [
 /*
 var single_pages = [
     {
-        "model": "assiba",
+        "model": "accademia",
+        "category": "soffitto",
+        "uri": "https://www.vistosi.it/prodotti/accademia/soffitto.html",
+        "desc": "Riprende la forma classica della foglia, ma l'arricchisce di una nuova decorazione a fili di vetro, con il bordo in vetro fuso, coniugando così la bellezza di un effetto luminoso unico alla funzionalità della sorgente nascosta."
+    },
+    {
+        "model": "diadema",
         "category": "sospensione",
-        "uri": "https://www.vistosi.it/prodotti/assiba/sospensione.html",
-        "desc": "Collezione ispirata a forme, colori e texture dell'oceano."
-    }
+        "uri": "https://www.vistosi.it/prodotti/diadema/sospensione.html",
+        "desc": "Diadema è un sistema di illuminazione basato sul singolo elemento della canna in puro vetro. Combinando canne di diverse dimensioni, la luce si riflette e si trasmette in una sensazione di movimento."
+    },
+     {
+        "model": "24pearls",
+        "category": "sospensione",
+        "uri": "https://www.vistosi.it/prodotti/24pearls/sospensione.html",
+        "desc": "Caratterizzano questa collezione due corolle di sfere in vetro soffiato nei colori bianco e cromato, disposte sugli anelli della montatura a due livelli, per creare un caleidoscopico effetto di luce e riflessi."
+    },
+    {
+        "model": "aliki",
+        "category": "parete",
+        "uri": "https://www.vistosi.it/prodotti/aliki/parete.html",
+        "desc": "Modello caratterizzato dalla forma a base conica e dal taglio ovoidale, in vetro soffiato satinato."
+    },
 ]
 */
+
+
 
 var pages_number = single_pages.length; // 336
 
@@ -2155,9 +2175,67 @@ function createJsonFromAPage(body, uri, model, category, desc){
     (async() => {
         const browser = await puppeteer.launch();
         const page = await browser.newPage();
+
+        
         
         await page.goto(more);
-        await page.evaluate('window.scrollTo(0, 5000)');
+
+       
+        
+        let preloaded_bodyHTML = await page.evaluate(() => document.body.innerHTML);
+        var trovati = $(preloaded_bodyHTML).find("#table1 tbody").length;
+
+        if(trovati > 17 ){
+            _.log("faccio super scroll della pagina");
+            await page.waitFor(200);
+            await page.evaluate('window.scrollTo(0, 13000)');
+            await page.evaluate('window.scrollTo(0, 13000)');
+            await page.evaluate('window.scrollTo(0, 13000)');
+            await page.evaluate('window.scrollTo(0, 13000)');
+            await page.evaluate('window.scrollTo(0, 13000)');
+            await page.evaluate('window.scrollTo(0, 15000)');
+            await page.evaluate('window.scrollTo(0, 15000)');
+            await page.evaluate('window.scrollTo(0, 15000)');
+            await page.evaluate('window.scrollTo(0, 15000)');
+            await page.evaluate('window.scrollTo(0, 15000)');
+            await page.evaluate('window.scrollTo(0, 15000)');
+            await page.evaluate('window.scrollTo(0, 17000)');
+            await page.evaluate('window.scrollTo(0, 17000)');
+            await page.evaluate('window.scrollTo(0, 17000)');
+            await page.waitFor(200);
+            await page.evaluate('window.scrollTo(0, 17000)');
+            await page.evaluate('window.scrollTo(0, 18000)');
+            await page.evaluate('window.scrollTo(0, 18000)');
+            await page.evaluate('window.scrollTo(0, 18000)');
+            await page.evaluate('window.scrollTo(0, 18000)');
+            await page.evaluate('window.scrollTo(0, 20000)');
+            await page.evaluate('window.scrollTo(0, 20000)');
+            await page.evaluate('window.scrollTo(0, 20000)');
+            await page.evaluate('window.scrollTo(0, 20000)');
+            await page.evaluate('window.scrollTo(0, 20000)');
+            await page.evaluate('window.scrollTo(0, 20000)');
+            await page.evaluate('window.scrollTo(0, 21000)');
+            await page.evaluate('window.scrollTo(0, 21000)');
+            await page.evaluate('window.scrollTo(0, 21000)');
+            await page.evaluate('window.scrollTo(0, 21000)');
+            await page.waitFor(200);
+            await page.evaluate('window.scrollTo(0, 21000)');
+            await page.evaluate('window.scrollTo(0, 22000)');
+            await page.evaluate('window.scrollTo(0, 22000)');
+            await page.evaluate('window.scrollTo(0, 22000)');
+            await page.evaluate('window.scrollTo(0, 23000)');
+            await page.evaluate('window.scrollTo(0, 23000)');
+            await page.evaluate('window.scrollTo(0, 23000)');
+        }
+        
+
+
+
+
+
+
+        
+
     
         
         let bodyHTML = await page.evaluate(() => document.body.innerHTML);
@@ -2174,7 +2252,7 @@ function createJsonFromAPage(body, uri, model, category, desc){
             projects: arr_projects,
             more: {
                 more_url : more,
-                more: getMoreDate(bodyHTML),
+                more: getMoreDate(bodyHTML, model, category),
             },
             //carousel: car_imgs_arr,
             //video : video_url,
@@ -2197,20 +2275,23 @@ function createJsonFromAPage(body, uri, model, category, desc){
 
 }
 
-function getMoreDate(bodyHTML){
+function getMoreDate(bodyHTML, root_model, category){
     var $body = $(bodyHTML);
     var $tables = $body.find("#table1 tbody");
     var ret = [];
     $tables.each(function(){
         $(this).find("tbody").each(function(){
                 var $title = $(this).find("h3");
-                var model = $title.html();
+                var model = $title.html().trim();
                 var $tbody = $title.closest("tbody");
                 var light_schema = $tbody.find("img").attr("src");
                 var light_system = $tbody.find("div").eq(0).html();
                 var download = $tbody.find("div").eq(1).find("a").eq(0).attr("href");
                 ret.push({
-                    model : model,
+                    name : model,
+                    root_model: root_model,
+                    category: category,
+                    variant: model.toLowerCase().replace(root_model+" ","").replace("sp","").replace("ap","").replace("lt","").replace("pl","").replace("pt","").replace("fa","").trim().replace("  ",""),
                     light_schema: encodeURI(light_schema),
                     light_system: light_system,
                     download : download,
