@@ -2090,7 +2090,7 @@ function avvia(index){
 
 
 
-    if(index == pages_number){
+    if(index == pages_number ){
         fs.writeFile('assets_json.json', JSON.stringify(info, null, 4), 'utf8', function(){
             _.log("FINITO");
         });
@@ -2180,10 +2180,6 @@ function createJsonFromAPage(body, uri, model, category, desc){
             await page.evaluate('window.scrollTo(0, 15000)');
             await page.evaluate('window.scrollTo(0, 15000)');
             await page.evaluate('window.scrollTo(0, 15000)');
-            await page.evaluate('window.scrollTo(0, 15000)');
-            await page.evaluate('window.scrollTo(0, 17000)');
-            await page.evaluate('window.scrollTo(0, 17000)');
-            await page.evaluate('window.scrollTo(0, 17000)');
             await page.waitFor(200);
             await page.evaluate('window.scrollTo(0, 17000)');
             await page.evaluate('window.scrollTo(0, 18000)');
@@ -2195,32 +2191,21 @@ function createJsonFromAPage(body, uri, model, category, desc){
             await page.evaluate('window.scrollTo(0, 20000)');
             await page.evaluate('window.scrollTo(0, 20000)');
             await page.evaluate('window.scrollTo(0, 20000)');
-            await page.evaluate('window.scrollTo(0, 20000)');
-            await page.evaluate('window.scrollTo(0, 21000)');
-            await page.evaluate('window.scrollTo(0, 21000)');
-            await page.evaluate('window.scrollTo(0, 21000)');
-            await page.evaluate('window.scrollTo(0, 21000)');
             await page.waitFor(200);
             await page.evaluate('window.scrollTo(0, 21000)');
             await page.evaluate('window.scrollTo(0, 22000)');
             await page.evaluate('window.scrollTo(0, 22000)');
             await page.evaluate('window.scrollTo(0, 22000)');
             await page.evaluate('window.scrollTo(0, 23000)');
-            await page.evaluate('window.scrollTo(0, 23000)');
-            await page.evaluate('window.scrollTo(0, 23000)');
+
+            preloaded_bodyHTML = await page.evaluate(() => document.body.innerHTML);
         }
         
-
-
-
-
-
-
+        var bodyHTML = preloaded_bodyHTML;
+        
         
 
-    
         
-        let bodyHTML = await page.evaluate(() => document.body.innerHTML);
         
         
         await browser.close();

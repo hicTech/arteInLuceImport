@@ -138,7 +138,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var max_discount = undefined;
 
         var more = undefined;
-
+        var title = undefined;
+        var subtitle = undefined;
         var pic = undefined;
         var light_schema = undefined;
         var otherColors = undefined;
@@ -147,7 +148,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
     
 
         /* ================================================================= FOSCARINI */
-        if( false /* fornitore == "foscarini" */){
+        if( fornitore == "foscarini" ){
 
             
             var model_names = [
@@ -308,6 +309,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 size = getSize(articolo);
                 outdoor = (articolo.indexOf("OUTDOOR") != -1)? 1 : 0;
                 max_discount = 0;
+                title = row["Articolo"];
+                subtitle = undefined;
                 pic = getPics(model, category, color, component, createAllImgsArr(assets_json), "primary" );
                 light_schema = undefined;
                 otherColors = getPics(model, category, color, component, createAllImgsArr(assets_json), "colors" );
@@ -315,6 +318,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     video : getVideo(model, category, component, createAllVideosArr(assets_json)),
                     link : getLink(model, category, component, createAllLinksArr(assets_json)),
                 });
+                
             }
                 
 
@@ -494,8 +498,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 }
 
                 if( sottofamiglia.indexOf("PARETE/SOFFITTO") != -1 ){
-                    category.push("parete");
                     category.push("soffitto");
+                    category.push("parete");
                 }
                 if( sottofamiglia.indexOf("PARETE") != -1 ){
                     category.push("parete");
@@ -866,10 +870,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         else{
             /* ================================================================= VISTOSI */
             if(fornitore == "vistosi"){
-                
-
-                
-
 
                 supplier = "vistosi";
                 supplier_id = supplierId(supplier);
@@ -881,10 +881,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 ean13 = undefined;
                 price = getPrice(row["Prezzo"]);
                 color = getColor(row["Descrizione"]);
-                desc_it = getDescription(model,desc_json,"it"); // da prendere dai word
-                desc_en = getDescription(model,desc_json,"en"); // da prendere dai word
-                cleaned_desc_it = desc_it;
-                cleaned_desc_en = desc_en;
+                
                 dimmer = undefined;
                 led = hasLed(row["Descrizione"]);
                 halogen = hasHalogen(row["Descrizione"]);
@@ -894,12 +891,20 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 var clone = category.slice();
                 
                 type = getType(original_model_id);
-                component = ( (model=="VETRO" || model=="FISCHER" || model=="ROSONE" || model=="ROSO" || model=="SCATOLA" || model=="KIT") || row["Descrizione"].indexOf(" KIT ") !=-1 )? 1 : 0;
+                component = ( (model=="VETRO" || model=="FISCHER" || model=="ROSONE" || model=="ROSO" || model=="SCATOLA" || model=="KIT" || model=="CAVO" || model=="RACCOGLITORE" ) || row["Descrizione"].indexOf(" KIT ") !=-1 )? 1 : 0;
                 size = getSize(row["Descrizione"]);;
                 outdoor = undefined;
-                max_discount = undefined;
+                max_discount = 15;
                 pic = getPics(row["Descrizione"], model, category, type, assets_json,component, "primary");
-                light_schema = getLightSchema(row["Descrizione"], model, clone, type, assets_json,component, halogen, "primary");;
+                light_schema = getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "light_schema");
+                title = getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "title");
+                subtitle = row["Descrizione"];
+                
+                desc_it = getDescription(model,category,component,assets_json);
+                desc_en = desc_it;
+                cleaned_desc_it = desc_it;
+                cleaned_desc_en = desc_en;
+
                 //otherColors = getOtherPics(model, size, category, type, color, more);
                 //more = getMore(row["Descrizione"],model);
                 
@@ -1295,52 +1300,50 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     else {
                         if (prefisso == "AP")
                             return ["applique"];
+                        
+                            
                         else {
-                            if (prefisso == "SP")
-                                return ["sospensione"];
+                            if (prefisso == "FA")
+                                return ["faretto"];
                             else {
-                                if (prefisso == "FA")
-                                    return ["faretto"];
+                                if (prefisso == "PT")
+                                    return ["piantana"];
                                 else {
-                                    if (prefisso == "PT")
-                                        return ["piantana"];
+                                    if (prefisso == "PL")
+                                        return ["plafone"];
                                     else {
-                                        if (prefisso == "PL")
-                                            return ["plafone"];
+                                        if (prefisso == "RO")
+                                            return ["rosone"];
                                         else {
-                                            if (prefisso == "RO")
-                                                return ["rosone"];
+                                            if (prefisso == "PP")
+                                                return ["plafone/applique"];
                                             else {
-                                                if (prefisso == "PP")
-                                                    return ["plafone/applique"];
+                                                if (prefisso == "LT")
+                                                    return ["lettura"];
                                                 else {
-                                                    if (prefisso == "LT")
-                                                        return ["lettura"];
+                                                    if (prefisso == "CV" || prefisso == "CA")
+                                                        return ["cavo"];
                                                     else {
-                                                        if (prefisso == "CV" || prefisso == "CA")
-                                                            return ["cavo"];
+                                                        if (prefisso == "FI") {
+                                                            if (prefisso3 == "FIS")
+                                                                return ["fischer"];
+                                                            else
+                                                                return ["vetro"];
+                                                        }
                                                         else {
-                                                            if (prefisso == "FI") {
-                                                                if (prefisso3 == "FIS")
-                                                                    return ["fischer"];
-                                                                else
-                                                                    return ["vetro"];
+                                                            if (prefisso == "BI") {
+                                                                return ["raccoglitore"];
                                                             }
                                                             else {
-                                                                if (prefisso == "BI") {
-                                                                    return ["raccoglitore"];
+                                                                if (prefisso == "KI") {
+                                                                    return ["kit"];
                                                                 }
                                                                 else {
-                                                                    if (prefisso == "KI") {
-                                                                        return ["kit"];
+                                                                    if (prefisso == "SC") {
+                                                                        return ["scatola"];
                                                                     }
                                                                     else {
-                                                                        if (prefisso == "SC") {
-                                                                            return ["scatola"];
-                                                                        }
-                                                                        else {
-                                                                            return ["altro"];
-                                                                        }
+                                                                        return ["altro"];
                                                                     }
                                                                 }
                                                             }
@@ -1353,6 +1356,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 }
                             }
                         }
+                        
                     }
                         
                             
@@ -1457,14 +1461,18 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                 }
 
-                function getDescription(model, desc_json, lingua){
-                    var ret = "";
-                    _.each(desc_json, function(elem){
-                        if(elem.model.toLowerCase() == model.toLowerCase())
-                           ret = elem[lingua];
-                    })
-
-                    return ret;
+                function getDescription(model,category,component,assets_json){
+                    if(component == 0){
+                        _.each(assets_json,function(elem){
+                            if(model.toLowerCase() == elem.model && category == elem.category)
+                                ret = elem.desc;
+                        });
+                    }
+                    if(!_.is(ret))
+                        _.log("Attenzione descrizione non trovata per model: "+ model+" category: "+category);
+                    else
+                        return ret;
+                        
                 }
 
                 function getPics(original_model, model, arr_category, type, assets_json, component, caso){
@@ -1642,7 +1650,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     }
                 }
 
-                function getLightSchema(original_model, model, arr_category, type, assets_json, component, halogen, caso){
+                function getLightSchemaOrName(original_model, model, arr_category, type, assets_json, component, halogen, caso){
 
                         // predispongo un array contenente le stringhe delle descrizione originale per confrontarle con le varianti
                         var original_model_arr = descToArray(original_model);
@@ -2173,7 +2181,13 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         });
                         
                         if( arr_varianti.length == 1){
-                            return arr_varianti[0].url;     
+                            if(caso == "light_schema"){
+                                return arr_varianti[0].light_schema;     
+                            }
+                            if(caso == "title"){
+                                return arr_varianti[0].name;     
+                            }
+                                
                         }
                             
                         else{
@@ -2264,7 +2278,14 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 var arr_varianti_fiter_2 = uniqByProp(arr_varianti_fiter_1,"light_schema")
 
                                 if( arr_varianti_fiter_2.length == 1){
-                                    return arr_varianti_fiter_2[0].light_schema;     
+                                         
+
+                                    if(caso == "light_schema"){
+                                        return arr_varianti_fiter_2[0].light_schema;     
+                                    }
+                                    if(caso == "title"){
+                                        return arr_varianti_fiter_2[0].name;     
+                                    }
                                 }
                                 else{
                                         var arr_varianti_fiter_3 = _.filter(arr_varianti_fiter_2,function(variant){
@@ -2272,7 +2293,12 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                         })
 
                                             if( arr_varianti_fiter_3.length == 1){
-                                                return arr_varianti_fiter_3[0].light_schema;     
+                                                if(caso == "light_schema"){
+                                                    return arr_varianti_fiter_3[0].light_schema;     
+                                                }
+                                                if(caso == "title"){
+                                                    return arr_varianti_fiter_3[0].name;     
+                                                }   
                                             }
                                             else{
                                                    
@@ -2345,7 +2371,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             component:              component,                          // indica se è un componente di una lampada (serve per distinguere i pezzi di ricambio dalle lampade)
             size:                   size,                               // piuccola, media, grande,....
             outdoor:                outdoor,                            // se è da esterno o meno
-            max_discount:           undefined,                          // massimo sconto applicabile
+            max_discount:           max_discount,                       // massimo sconto applicabile
+            title:                  title,                              // se possibile ricostruiamo un title da mettere nella pagina dell'articolo
+            subtitle:               subtitle,                           // se possibile ricostruiamo un sottotitolo da mettere bella pagina dell'articolo
             pic:                    pic,                                // contiene l'immagine primaria
             light_schema:           light_schema,                       // schema dell'articolo
             otherColors:            otherColors,                        // array dei path delle immagini di altri colori dello stesso articolo
