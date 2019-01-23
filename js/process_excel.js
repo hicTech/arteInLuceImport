@@ -1804,6 +1804,13 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 original_model_arr.push("5FG");
                         }
                         
+                        if(model == "GIGLIO" && arr_category[0] == "parete"){
+                            if( contains(original_model_arr,"DEST") && contains(original_model_arr,"GRAND") )
+                                original_model_arr.push("DESTG");
+                            if( contains(original_model_arr,"SIN") && contains(original_model_arr,"GRAND") )
+                                original_model_arr.push("SING");
+                        }
+                        
 
                         if(model == "RINA" && arr_category[0] == "sospensione"){
                             if( contains(original_model_arr,"35/3") )
@@ -2137,7 +2144,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 var arr_varianti_fiter_2 = uniqByProp(arr_varianti_fiter_1,"light_schema")
 
                                 if( arr_varianti_fiter_2.length == 1){
-                                    return arr_varianti_fiter_2[0].url;     
+                                    return arr_varianti_fiter_2[0].light_schema;     
                                 }
                                 else{
                                         var arr_varianti_fiter_3 = _.filter(arr_varianti_fiter_2,function(variant){
@@ -2145,22 +2152,18 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                         })
 
                                             if( arr_varianti_fiter_3.length == 1){
-                                                return arr_varianti_fiter_3[0].url;     
+                                                return arr_varianti_fiter_3[0].light_schema;     
                                             }
                                             else{
                                                    
-
-                                                        
-                                                        _.log("----------------------model: "+model+"--------category: "+category);
-                                                        _.log("----------------------original model: "+original_model_arr);
-                                                        _.log("----------------------arr_varianti:");
-                                                        _.log(arr_varianti_fiter_1);
-                                                        
-                                                        
+    
                                                     
-                                                        
-                                                        
+                                                    _.log("----------------------model: "+model+"--------category: "+category);
+                                                    _.log("----------------------original model: "+original_model_arr);
+                                                    _.log("----------------------arr_varianti:");
+                                                    _.log(arr_varianti_fiter_1);
                                                     
+                                                      
                                                 
                                             }
                                             
