@@ -2065,33 +2065,15 @@ var single_pages = [
 
 /*
 var single_pages = [
-    {
-        "model": "accademia",
-        "category": "soffitto",
-        "uri": "https://www.vistosi.it/prodotti/accademia/soffitto.html",
-        "desc": "Riprende la forma classica della foglia, ma l'arricchisce di una nuova decorazione a fili di vetro, con il bordo in vetro fuso, coniugando così la bellezza di un effetto luminoso unico alla funzionalità della sorgente nascosta."
-    },
-    {
-        "model": "diadema",
+        {
+        "model": "tablo",
         "category": "sospensione",
-        "uri": "https://www.vistosi.it/prodotti/diadema/sospensione.html",
-        "desc": "Diadema è un sistema di illuminazione basato sul singolo elemento della canna in puro vetro. Combinando canne di diverse dimensioni, la luce si riflette e si trasmette in una sensazione di movimento."
-    },
-     {
-        "model": "24pearls",
-        "category": "sospensione",
-        "uri": "https://www.vistosi.it/prodotti/24pearls/sospensione.html",
-        "desc": "Caratterizzano questa collezione due corolle di sfere in vetro soffiato nei colori bianco e cromato, disposte sugli anelli della montatura a due livelli, per creare un caleidoscopico effetto di luce e riflessi."
-    },
-    {
-        "model": "aliki",
-        "category": "parete",
-        "uri": "https://www.vistosi.it/prodotti/aliki/parete.html",
-        "desc": "Modello caratterizzato dalla forma a base conica e dal taglio ovoidale, in vetro soffiato satinato."
-    },
+        "uri": "https://www.vistosi.it/prodotti/tablo/sospensione.html",
+        "desc": "La peculiarità di questa linea sta nella grande accuratezza e abilità che richiedono soffiatura e taglio di un vetro unico. L'elemento vitreo viene fissato alla struttura di laminato personalizzato in esclusiva da Abet Laminati, senza l'ausilio di alcuna parte metallica. La forma trae ispirazione dai caratteri maschile e femminile ed è disponibile in differenti combinazioni e opzioni d'illuminazione."
+    }
 ]
-*/
 
+*/
 
 
 var pages_number = single_pages.length; // 336
@@ -2291,7 +2273,7 @@ function getMoreDate(bodyHTML, root_model, category){
                     name : model,
                     root_model: root_model,
                     category: category,
-                    variant: model.toLowerCase().replace(root_model+" ","").replace("sp","").replace("ap","").replace("lt","").replace("pl","").replace("pt","").replace("fa","").trim().replace("  ",""),
+                    variant: adjustVariant(model,root_model),
                     light_schema: encodeURI(light_schema),
                     light_system: light_system,
                     download : download,
@@ -2303,4 +2285,11 @@ function getMoreDate(bodyHTML, root_model, category){
 
     return ret;
 
+}
+
+function adjustVariant(model, root_model){
+    var ret = model.toLowerCase().replace(root_model+" ","").replace("sp","").replace("lt","").replace("pl","").replace("pt","").replace("fa","").trim().replace("  ","");
+    if(ret.indexOf("2ap") == -1)
+        ret = ret.replace("ap","");
+    return ret;
 }

@@ -1643,21 +1643,57 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 }
 
                 function getLightSchema(original_model, model, arr_category, type, assets_json, component, halogen, caso){
-                    // ==== ==== ==== ==== ==== ==== ==== articoli non presenti, fuori produzione
-                    if( 
-                        (model == "COCUMIS" || model == "MENDELEE" || model == "SCUSEV" || model == "PUSKIN" || category == "altro") ||
-                        (model == "DAMASCO" && arr_category[0] == "soffitto") ||
-                        (model == "STARDUST" && arr_category[0] == "tavolo") ||
-                        (model == "TUBES" && arr_category[0] == "tavolo") ||
-                        (model == "VEGA" && arr_category[0] == "parete")
-                    
-                    )
+
+                        // predispongo un array contenente le stringhe delle descrizione originale per confrontarle con le varianti
+                        var original_model_arr = descToArray(original_model);
+
+                        // ==== ==== ==== ==== ==== ==== ==== articoli non presenti, fuori produzione
+                        // ciò è stato determinato in qui casi in cui l'articolo non è presente nel sito
+                        
+                        if( 
+                            (model == "COCUMIS" || model == "MENDELEE" || model == "SCUSEV" || model == "PUSKIN" || category == "altro") ||
+                            (model == "DAMASCO" && arr_category[0] == "soffitto") ||
+                            (model == "STARDUST" && arr_category[0] == "tavolo") ||
+                            (model == "TUBES" && arr_category[0] == "tavolo") ||
+                            (model == "VEGA" && arr_category[0] == "parete") ||
+                            (model == "SEMAI" && arr_category[0] == "soffitto") ||
+                            (model == "SEMAI" && arr_category[0] == "tavolo") ||
+                            (model == "LUNAE") ||
+
+                            // da qui in poi sono quei casi in cui non esiste una specifica variante di un dato articolo
+                            // perchè questa non esiste nella sezione download
+                            (_.isEqual(original_model_arr,["WITHWHIT","SOSPE","XL","BIANCO","BIANCO","E27"])) ||
+                            (_.isEqual(original_model_arr,["WITHWHIT","SOSPE","36","XL","BIANCO","BIANCO","E27"])) ||
+                            (_.isEqual(original_model_arr,["WITHWHIT","SOSPE","46","XL","BIANCO","BIANCO","E27"])) ||
+                            (_.isEqual(original_model_arr,["WITHWHIT","SOSPE","XL","BIANCO","BIANCO","CA2"])) ||
+                            (_.isEqual(original_model_arr,["WITHWHIT","SOSPE","36","XL","BIANCO","BIANCO","CA2"])) ||
+                            (_.isEqual(original_model_arr,["WITHWHIT","SOSPE","46","XL","BIANCO","BIANCO","CA2"])) ||
+
+                            ( model == "OTO" && arr_category[0] == "sospensione" && contains(original_model_arr,"RC60") ) ||
+                            ( model == "OTO" && arr_category[0] == "sospensione" && contains(original_model_arr,"SURF") ) ||
+                            ( model == "OTO" && arr_category[0] == "sospensione" && contains(original_model_arr,"SPHE") ) ||
+
+                            ( model == "IMPLODE" && arr_category[0] == "soffitto" && contains(original_model_arr,"16") ) ||
+                            ( model == "LUCCIOLA" && arr_category[0] == "soffitto" && contains(original_model_arr,"18") ) ||
+
+                            ( model == "DAMASCO" && arr_category[0] == "tavolo" && contains(original_model_arr,"C") ) ||
+
+                            ( model == "BOT" && arr_category[0] == "soffitto" && contains(original_model_arr,"16") ) ||
+
+                            ( model == "DIADEMA" && arr_category[0] == "sospensione" && contains(original_model_arr,"C1") ) ||
+
+                            ( model == "CHEOPE 09" && arr_category[0] == "sospensione" && contains(original_model_arr,"PICCO") ) ||
+                            ( model == "CHEOPE 09" && arr_category[0] == "sospensione" && contains(original_model_arr,"PICCOD1") ) ||
+                            ( model == "CHEOPE 09" && arr_category[0] == "sospensione" && contains(original_model_arr,"PICCOD2") )  ||
+
+                            ( model == "TAHOMA ROUND" && arr_category[0] == "soffitto"  )
+                        
+                        )
                         return "out of stock";
                     
                    
-                   // predispongo un array contenente le stringhe delle descrizione originale per confrontarle con le varianti
-                    var original_model_arr = descToArray(original_model);
-                    //var original_model_arr_length = original_model_arr.length();
+
+                    
                         if(halogen==1)
                             original_model_arr.push("ALOGENO");
                         
@@ -1735,12 +1771,53 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 original_model_arr.push("JEL");
                         }
 
+                        if(model == "NAXOS" && arr_category[0] == "tavolo"){
+                            if( contains(original_model_arr,"MINI") )
+                                original_model_arr.push("MN");
+                        }
+
                         if(model == "FOLLIA" && arr_category[0] == "parete"){
                             if( contains(original_model_arr,"1") && contains(original_model_arr,"PICCO")  )
                                 original_model_arr.push("1P");
                             if( contains(original_model_arr,"2") && contains(original_model_arr,"PICCO")  )
                                 original_model_arr.push("2P");
-                           
+                        }
+
+                        if(model == "TABLO'" && arr_category[0] == "sospensione"){
+                            if( contains(original_model_arr,"1") && contains(original_model_arr,"GRAND")  )
+                                original_model_arr.push("1G");
+                            if( contains(original_model_arr,"1") && contains(original_model_arr,"PICCO")  )
+                                original_model_arr.push("1P");
+                            if( contains(original_model_arr,"2A") && contains(original_model_arr,"GRAND")  )
+                                original_model_arr.push("2AG");
+                            if( contains(original_model_arr,"2A") && contains(original_model_arr,"PICCO")  )
+                                original_model_arr.push("2AP");
+                            if( contains(original_model_arr,"2S") && contains(original_model_arr,"GRAND")  )
+                                original_model_arr.push("2SG");
+                            if( contains(original_model_arr,"2S") && contains(original_model_arr,"PICCO")  )
+                                original_model_arr.push("2SP");
+                        }
+
+                        if(model == "PAGODA" && arr_category[0] == "sospensione"){
+                            if( contains(original_model_arr,"51") && contains(original_model_arr,"1")  )
+                                original_model_arr.push("511");
+                            if( contains(original_model_arr,"51") && contains(original_model_arr,"2")  )
+                                original_model_arr.push("512");
+                            if( contains(original_model_arr,"51") && contains(original_model_arr,"3")  )
+                                original_model_arr.push("513");
+                            if( contains(original_model_arr,"51") && contains(original_model_arr,"4")  )
+                                original_model_arr.push("514");
+                        }
+
+                        if(model == "PAGODA" && arr_category[0] == "soffitto"){
+                            if( contains(original_model_arr,"51") && contains(original_model_arr,"1")  )
+                                original_model_arr.push("511");
+                            if( contains(original_model_arr,"51") && contains(original_model_arr,"2")  )
+                                original_model_arr.push("512");
+                            if( contains(original_model_arr,"51") && contains(original_model_arr,"3")  )
+                                original_model_arr.push("513");
+                            if( contains(original_model_arr,"51") && contains(original_model_arr,"4")  )
+                                original_model_arr.push("514");
                         }
 
                         if(model == "MINIGIOGALI" && arr_category[0] == "sospensione"){
@@ -1783,6 +1860,13 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 original_model_arr.push("18X");
                         }
 
+                        if(model == "WITHWHITE" && arr_category[0] == "soffitto"){
+                            if( contains(original_model_arr,"XL") )
+                                original_model_arr.push("X");
+                        }
+
+                        
+
                         if(model == "REDENTORE" && arr_category[0] == "parete"){
                             if( contains(original_model_arr,"15F") )
                                 original_model_arr.push("15FP");
@@ -1792,6 +1876,27 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 original_model_arr.push("7FP");
                         }
 
+                        if(model == "LIO" && arr_category[0] == "parete"){
+                            if( contains(original_model_arr,"L1") && contains(original_model_arr,"PICCO") )
+                                original_model_arr.push("L1P");
+                            if( contains(original_model_arr,"L2") && contains(original_model_arr,"PICCO") )
+                                original_model_arr.push("L2P");
+                        }
+
+
+                        if(model == "REDENTORE" && arr_category[0] == "soffitto"){
+                            if( contains(original_model_arr,"16F") && contains(original_model_arr,"PICCO") )
+                                original_model_arr.push("16FP");
+                            if( contains(original_model_arr,"16F") && contains(original_model_arr,"GRAND") )
+                                original_model_arr.push("16FG");
+                            if( contains(original_model_arr,"46F") && contains(original_model_arr,"PICCO") )
+                                original_model_arr.push("46FP");
+                            if( contains(original_model_arr,"46F") && contains(original_model_arr,"GRAND") )
+                                original_model_arr.push("46FG");
+                            
+                        }
+
+
                         if(model == "SAN GIORGIO" && arr_category[0] == "parete"){
                             if( contains(original_model_arr,"15F") )
                                 original_model_arr.push("15FP");
@@ -1799,17 +1904,45 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 original_model_arr.push("7FP");
                         }
 
+                        if(model == "SAN GIORGIO" && arr_category[0] == "soffitto"){
+                            if( contains(original_model_arr,"16F") )
+                                original_model_arr.push("16FP");
+                            if( contains(original_model_arr,"46F") )
+                                original_model_arr.push("46FP");
+                        }
+
                         if(model == "SAN MARCO" && arr_category[0] == "parete"){
                             if( contains(original_model_arr,"5F") )
                                 original_model_arr.push("5FG");
                         }
+
+                        if(model == "SAN MARCO" && arr_category[0] == "soffitto"){
+                            if( contains(original_model_arr,"16F") )
+                                original_model_arr.push("16FG");
+                            if( contains(original_model_arr,"46F") )
+                                original_model_arr.push("46FG");
+                        }
+
+                        
                         
                         if(model == "GIGLIO" && arr_category[0] == "parete"){
                             if( contains(original_model_arr,"DEST") && contains(original_model_arr,"GRAND") )
-                                original_model_arr.push("DESTG");
+                                original_model_arr.push("DESG");
                             if( contains(original_model_arr,"SIN") && contains(original_model_arr,"GRAND") )
                                 original_model_arr.push("SING");
+                            if( contains(original_model_arr,"DEST") && !contains(original_model_arr,"GRAND") )
+                                original_model_arr.push("DES");
+                            if( contains(original_model_arr,"SIN") && !contains(original_model_arr,"GRAND") )
+                                original_model_arr.push("SIN");
                         }
+
+                        if(model == "ASSIBA" && arr_category[0] == "parete"){
+                            if( contains(original_model_arr,"DEST") && !contains(original_model_arr,"GRAND") )
+                                original_model_arr.push("DES");
+                            if( contains(original_model_arr,"SIN") && !contains(original_model_arr,"GRAND") )
+                                original_model_arr.push("SIN");
+                        }
+
                         
 
                         if(model == "RINA" && arr_category[0] == "sospensione"){
@@ -2005,10 +2138,29 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                     if(model=="tahoma" && category=="soffitto"){
                                         category = "faretto";
                                     }
+                                    
 
                                     if(category=="terra"){
                                         category = "piantana";
                                     }
+
+                                    if(model=="bolle" && variant_model=="bolle" && category=="soffitto" && variant_category=="faretto"){
+                                        category = "faretto";
+                                    }
+
+                                    if(model=="diamante" && variant_model=="diamante" && category=="soffitto" && variant_category=="faretto"){
+                                        category = "faretto";
+                                    }
+
+                                    if(model=="rina" && variant_model=="rina" && category=="soffitto" && variant_category=="faretto"){
+                                        category = "faretto";
+                                    }
+
+                                    if(model=="lio" && variant_model=="lio" && category=="soffitto" && variant_category=="faretto"){
+                                        category = "faretto";
+                                    }
+
+
                                 
                                     if(model == variant_model && category == variant_category){
                                         arr_varianti.push(variant);
@@ -2125,12 +2277,12 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                             else{
                                                    
     
-                                                    /*
+                                                    _.log("Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema")
                                                     _.log("----------------------model: "+model+"--------category: "+category);
                                                     _.log("----------------------original model: "+original_model_arr);
                                                     _.log("----------------------arr_varianti:");
                                                     _.log(arr_varianti_fiter_1);
-                                                    */
+                                                    
                                                       
                                                 
                                             }

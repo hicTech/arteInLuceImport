@@ -2,6 +2,1276 @@
     {
         "supplier": "vistosi",
         "supplier_id": "visto",
+        "model": "ACCADEMIA",
+        "original_model_id": "APACCAD3FCR",
+        "model_id": "ACCADEMIA",
+        "item_id": "APACCAD3FCR",
+        "hicId": "visto_APACCAD3FCR",
+        "price": 460,
+        "color": [
+            "nichel",
+            "nero",
+            "oro",
+            "cristallo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "E27",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Accademia/accademia-parete-3f.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ACCADAP%20%203F%20%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ACCADEMIA",
+        "original_model_id": "APACCADCR",
+        "model_id": "ACCADEMIA",
+        "item_id": "APACCADCR",
+        "hicId": "visto_APACCADCR",
+        "price": 190,
+        "color": [
+            "nichel",
+            "nero",
+            "oro",
+            "cristallo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "E27",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Accademia/accademia-parete-30.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ACCADAP%20%2030%20%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKI0002L13E",
+        "model_id": "ALIKI",
+        "item_id": "APALIKI0002L13E",
+        "hicId": "visto_APALIKI0002L13E",
+        "price": 452,
+        "color": [
+            "bianco",
+            "cromo",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "L13",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-2.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%202%20%20%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKI0007L13E",
+        "model_id": "ALIKI",
+        "item_id": "APALIKI0007L13E",
+        "hicId": "visto_APALIKI0007L13E",
+        "price": 452,
+        "color": [
+            "cromo",
+            "topazio",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "L13",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-2.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%202%20%20%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKI0011L13E",
+        "model_id": "ALIKI",
+        "item_id": "APALIKI0011L13E",
+        "hicId": "visto_APALIKI0011L13E",
+        "price": 349,
+        "color": [
+            "bianco",
+            "cromo",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "L13",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-G.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20G%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKI0014L13E",
+        "model_id": "ALIKI",
+        "item_id": "APALIKI0014L13E",
+        "hicId": "visto_APALIKI0014L13E",
+        "price": 349,
+        "color": [
+            "bianco",
+            "oro"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "L13",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-G.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20G%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKI0015L13E",
+        "model_id": "ALIKI",
+        "item_id": "APALIKI0015L13E",
+        "hicId": "visto_APALIKI0015L13E",
+        "price": 349,
+        "color": [
+            "cromo",
+            "topazio",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "L13",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-G.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20G%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKI0017L13E",
+        "model_id": "ALIKI",
+        "item_id": "APALIKI0017L13E",
+        "hicId": "visto_APALIKI0017L13E",
+        "price": 349,
+        "color": [
+            "topazio",
+            "oro"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "L13",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-G.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20G%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKI0019L13E",
+        "model_id": "ALIKI",
+        "item_id": "APALIKI0019L13E",
+        "hicId": "visto_APALIKI0019L13E",
+        "price": 237,
+        "color": [
+            "bianco",
+            "cromo",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "L13",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "media",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-M.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20M%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKI0021L13E",
+        "model_id": "ALIKI",
+        "item_id": "APALIKI0021L13E",
+        "hicId": "visto_APALIKI0021L13E",
+        "price": 237,
+        "color": [
+            "bianco",
+            "oro"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "L13",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "media",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-M.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20M%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKI0023L13E",
+        "model_id": "ALIKI",
+        "item_id": "APALIKI0023L13E",
+        "hicId": "visto_APALIKI0023L13E",
+        "price": 237,
+        "color": [
+            "cromo",
+            "topazio",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "L13",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "media",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-M.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20M%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKI0025L13E",
+        "model_id": "ALIKI",
+        "item_id": "APALIKI0025L13E",
+        "hicId": "visto_APALIKI0025L13E",
+        "price": 237,
+        "color": [
+            "topazio",
+            "oro"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "L13",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "media",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-M.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20M%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKI0027L13E",
+        "model_id": "ALIKI",
+        "item_id": "APALIKI0027L13E",
+        "hicId": "visto_APALIKI0027L13E",
+        "price": 223,
+        "color": [
+            "bianco",
+            "cromo",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "L13",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-P.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20P%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKI0029L13E",
+        "model_id": "ALIKI",
+        "item_id": "APALIKI0029L13E",
+        "hicId": "visto_APALIKI0029L13E",
+        "price": 223,
+        "color": [
+            "bianco",
+            "oro"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "L13",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-P.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20P%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKI0031L13E",
+        "model_id": "ALIKI",
+        "item_id": "APALIKI0031L13E",
+        "hicId": "visto_APALIKI0031L13E",
+        "price": 223,
+        "color": [
+            "cromo",
+            "topazio",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "L13",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-P.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20P%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKI0034L13E",
+        "model_id": "ALIKI",
+        "item_id": "APALIKI0034L13E",
+        "hicId": "visto_APALIKI0034L13E",
+        "price": 223,
+        "color": [
+            "topazio",
+            "oro"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "L13",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-P.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20P%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKI2BCCR",
+        "model_id": "ALIKI",
+        "item_id": "APALIKI2BCCR",
+        "hicId": "visto_APALIKI2BCCR",
+        "price": 302,
+        "color": [
+            "bianco",
+            "cromo",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "E27",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-2.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%202%20%20%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKI2BCOR",
+        "model_id": "ALIKI",
+        "item_id": "APALIKI2BCOR",
+        "hicId": "visto_APALIKI2BCOR",
+        "price": 302,
+        "color": [
+            "bianco",
+            "oro"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "E27",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-2.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%202%20%20%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKI2TOCR",
+        "model_id": "ALIKI",
+        "item_id": "APALIKI2TOCR",
+        "hicId": "visto_APALIKI2TOCR",
+        "price": 302,
+        "color": [
+            "cromo",
+            "topazio",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "E27",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-2.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%202%20%20%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKI2TOOR",
+        "model_id": "ALIKI",
+        "item_id": "APALIKI2TOOR",
+        "hicId": "visto_APALIKI2TOOR",
+        "price": 302,
+        "color": [
+            "topazio",
+            "oro"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "E27",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-2.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%202%20%20%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKIGRBCCR",
+        "model_id": "ALIKI",
+        "item_id": "APALIKIGRBCCR",
+        "hicId": "visto_APALIKIGRBCCR",
+        "price": 274,
+        "color": [
+            "bianco",
+            "cromo",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 1,
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-G.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20G%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKIGRBCOR",
+        "model_id": "ALIKI",
+        "item_id": "APALIKIGRBCOR",
+        "hicId": "visto_APALIKIGRBCOR",
+        "price": 274,
+        "color": [
+            "bianco",
+            "oro"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 1,
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-G.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20G%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKIGRTOCR",
+        "model_id": "ALIKI",
+        "item_id": "APALIKIGRTOCR",
+        "hicId": "visto_APALIKIGRTOCR",
+        "price": 274,
+        "color": [
+            "cromo",
+            "topazio",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 1,
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-G.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20G%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKIGRTOOR",
+        "model_id": "ALIKI",
+        "item_id": "APALIKIGRTOOR",
+        "hicId": "visto_APALIKIGRTOOR",
+        "price": 274,
+        "color": [
+            "topazio",
+            "oro"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 1,
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "grande",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-G.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20G%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKIMDBCCR",
+        "model_id": "ALIKI",
+        "item_id": "APALIKIMDBCCR",
+        "hicId": "visto_APALIKIMDBCCR",
+        "price": 162,
+        "color": [
+            "bianco",
+            "cromo",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 1,
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "media",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-M.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20M%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKIMDBCOR",
+        "model_id": "ALIKI",
+        "item_id": "APALIKIMDBCOR",
+        "hicId": "visto_APALIKIMDBCOR",
+        "price": 162,
+        "color": [
+            "bianco",
+            "oro"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 1,
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "media",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-M.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20M%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKIMDTOCR",
+        "model_id": "ALIKI",
+        "item_id": "APALIKIMDTOCR",
+        "hicId": "visto_APALIKIMDTOCR",
+        "price": 162,
+        "color": [
+            "cromo",
+            "topazio",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 1,
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "media",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-M.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20M%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKIMDTOOR",
+        "model_id": "ALIKI",
+        "item_id": "APALIKIMDTOOR",
+        "hicId": "visto_APALIKIMDTOOR",
+        "price": 162,
+        "color": [
+            "topazio",
+            "oro"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 1,
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "media",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-M.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20M%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKIPIBCCR",
+        "model_id": "ALIKI",
+        "item_id": "APALIKIPIBCCR",
+        "hicId": "visto_APALIKIPIBCCR",
+        "price": 148,
+        "color": [
+            "bianco",
+            "cromo",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 1,
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-P.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20P%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKIPIBCOR",
+        "model_id": "ALIKI",
+        "item_id": "APALIKIPIBCOR",
+        "hicId": "visto_APALIKIPIBCOR",
+        "price": 148,
+        "color": [
+            "bianco",
+            "oro"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 1,
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-P.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20P%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKIPITOCR",
+        "model_id": "ALIKI",
+        "item_id": "APALIKIPITOCR",
+        "hicId": "visto_APALIKIPITOCR",
+        "price": 148,
+        "color": [
+            "cromo",
+            "topazio",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 1,
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-P.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20P%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALIKI",
+        "original_model_id": "APALIKIPITOOR",
+        "model_id": "ALIKI",
+        "item_id": "APALIKIPITOOR",
+        "hicId": "visto_APALIKIPITOOR",
+        "price": 148,
+        "color": [
+            "topazio",
+            "oro"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 1,
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "size": "piccola",
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Aliki/aliki-parete-P.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALIKIAP%20%20%20%20%20P%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALMA",
+        "original_model_id": "APALMA0001L13E",
+        "model_id": "ALMA",
+        "item_id": "APALMA0001L13E",
+        "hicId": "visto_APALMA0001L13E",
+        "price": 209,
+        "color": [
+            "bianco",
+            "cromo",
+            "sfumato",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "L13",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Alma/alma-parete.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALMA%20AP%20%20%20%20%20%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALMA",
+        "original_model_id": "APALMA0003L13E",
+        "model_id": "ALMA",
+        "item_id": "APALMA0003L13E",
+        "hicId": "visto_APALMA0003L13E",
+        "price": 209,
+        "color": [
+            "cromo",
+            "topazio",
+            "sfumato",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "L13",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Alma/alma-parete.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALMA%20AP%20%20%20%20%20%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALMA",
+        "original_model_id": "APALMABC",
+        "model_id": "ALMA",
+        "item_id": "APALMABC",
+        "hicId": "visto_APALMABC",
+        "price": 134,
+        "color": [
+            "bianco",
+            "cromo",
+            "sfumato",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 1,
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Alma/alma-parete.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALMA%20AP%20%20%20%20%20%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALMA",
+        "original_model_id": "APALMATO",
+        "model_id": "ALMA",
+        "item_id": "APALMATO",
+        "hicId": "visto_APALMATO",
+        "price": 134,
+        "color": [
+            "cromo",
+            "topazio",
+            "sfumato",
+            "cromo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 1,
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Alma/alma-parete.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALMA%20AP%20%20%20%20%20%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALUM 09",
+        "original_model_id": "APALUM09CR",
+        "model_id": "ALUM_09",
+        "item_id": "APALUM09CR",
+        "hicId": "visto_APALUM09CR",
+        "price": 284,
+        "color": [
+            "cromo",
+            "cromo",
+            "cristallo",
+            "specchiato"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 1,
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Alum 09/alum-09-parete.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALUM9AP%20%20%20%20%20%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALUM 09",
+        "original_model_id": "APALUM90001L13E",
+        "model_id": "ALUM_09",
+        "item_id": "APALUM90001L13E",
+        "hicId": "visto_APALUM90001L13E",
+        "price": 359,
+        "color": [
+            "cromo",
+            "cromo",
+            "cristallo",
+            "specchiato"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "L13",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Alum 09/alum-09-parete.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ALUM9AP%20%20%20%20%20%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ALUM",
+        "original_model_id": "APALUMMETCR",
+        "model_id": "ALUM",
+        "item_id": "APALUMMETCR",
+        "hicId": "visto_APALUMMETCR",
+        "price": 414,
+        "color": [
+            "cromo",
+            "cromo",
+            "cristallo",
+            "specchiato"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "E27",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Alum/alum-parete.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ASSIBA",
+        "original_model_id": "APASSIDXBCAL",
+        "model_id": "ASSIBA",
+        "item_id": "APASSIDXBCAL",
+        "hicId": "visto_APASSIDXBCAL",
+        "price": 495,
+        "color": [
+            "bianco",
+            "bianco",
+            "alessandrite"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "E27",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Assiba/assiba-parete-ap-dx.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ASSIBAP%20%20DES%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ASSIBA",
+        "original_model_id": "APASSIDXBCAT",
+        "model_id": "ASSIBA",
+        "item_id": "APASSIDXBCAT",
+        "hicId": "visto_APASSIDXBCAT",
+        "price": 495,
+        "color": [
+            "bianco",
+            "bianco",
+            "ametista"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "E27",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Assiba/assiba-parete-ap-dx.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ASSIBAP%20%20DES%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ASSIBA",
+        "original_model_id": "APASSIDXBCBC",
+        "model_id": "ASSIBA",
+        "item_id": "APASSIDXBCBC",
+        "hicId": "visto_APASSIDXBCBC",
+        "price": 380,
+        "color": [
+            "bianco",
+            "bianco"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "E27",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Assiba/assiba-parete-ap-dx.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ASSIBAP%20%20DES%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ASSIBA",
+        "original_model_id": "APASSIDXBCCR",
+        "model_id": "ASSIBA",
+        "item_id": "APASSIDXBCCR",
+        "hicId": "visto_APASSIDXBCCR",
+        "price": 390,
+        "color": [
+            "bianco",
+            "bianco",
+            "cristallo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "E27",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Assiba/assiba-parete-ap-dx.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ASSIBAP%20%20DES%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ASSIBA",
+        "original_model_id": "APASSISXBCAL",
+        "model_id": "ASSIBA",
+        "item_id": "APASSISXBCAL",
+        "hicId": "visto_APASSISXBCAL",
+        "price": 495,
+        "color": [
+            "bianco",
+            "bianco",
+            "alessandrite"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "E27",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Assiba/assiba-parete-ap-sx.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ASSIBAP%20%20SIN%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ASSIBA",
+        "original_model_id": "APASSISXBCAT",
+        "model_id": "ASSIBA",
+        "item_id": "APASSISXBCAT",
+        "hicId": "visto_APASSISXBCAT",
+        "price": 495,
+        "color": [
+            "bianco",
+            "bianco",
+            "ametista"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "E27",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Assiba/assiba-parete-ap-sx.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ASSIBAP%20%20SIN%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ASSIBA",
+        "original_model_id": "APASSISXBCBC",
+        "model_id": "ASSIBA",
+        "item_id": "APASSISXBCBC",
+        "hicId": "visto_APASSISXBCBC",
+        "price": 380,
+        "color": [
+            "bianco",
+            "bianco"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "E27",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Assiba/assiba-parete-ap-sx.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ASSIBAP%20%20SIN%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
+        "model": "ASSIBA",
+        "original_model_id": "APASSISXBCCR",
+        "model_id": "ASSIBA",
+        "item_id": "APASSISXBCCR",
+        "hicId": "visto_APASSISXBCCR",
+        "price": 390,
+        "color": [
+            "bianco",
+            "bianco",
+            "cristallo"
+        ],
+        "desc_it": "",
+        "desc_en": "",
+        "led": 0,
+        "halogen": 0,
+        "screw": "E27",
+        "category": "parete",
+        "type": [
+            "applique"
+        ],
+        "component": 0,
+        "pic": "https://www.vistosi.it/assets/immagini/Foto-2017/Assiba/assiba-parete-ap-sx.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ASSIBAP%20%20SIN%20%20%20-.jpg"
+    },
+    {
+        "supplier": "vistosi",
+        "supplier_id": "visto",
         "model": "BACO",
         "original_model_id": "APBACOCRNINV",
         "model_id": "BACO",
@@ -3754,7 +5024,8 @@
             "applique"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIGLIO/GIGLIO PARETE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIGLIO/GIGLIO PARETE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/GIGLIAP%20%20DES%20%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -3782,7 +5053,8 @@
         ],
         "component": 0,
         "size": "grande",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIGLIO/GIGLIO PARETE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/GIGLIO/GIGLIO PARETE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/GIGLIAP%20%20DESG%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -6399,7 +7671,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LIO/LIO PARETE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LIO/LIO PARETE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/LIO%20%20AP%20%20L1%20P%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -6428,7 +7701,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LIO/LIO PARETE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LIO/LIO PARETE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/LIO%20%20AP%20%20L2%20P%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -6484,7 +7758,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LUNAE/LUNAE PARETE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LUNAE/LUNAE PARETE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -6512,7 +7787,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LUNAE/LUNAE PARETE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LUNAE/LUNAE PARETE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -9349,7 +10625,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/BOLLE/BOLLE SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/BOLLE/BOLLE SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/BOLLEFA%20%20%20%20%20P%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -9378,7 +10655,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/BOLLE/BOLLE SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/BOLLE/BOLLE SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/BOLLEFA%20%20%20%20%20P%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -9406,7 +10684,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/BOLLE/BOLLE SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/BOLLE/BOLLE SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/BOLLEFA%20%20%20%20%20P%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -9435,7 +10714,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/BOLLE/BOLLE SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/BOLLE/BOLLE SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/BOLLEFA%20%20%20%20%20P%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -9461,7 +10741,8 @@
             "faretto"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/BOT/BOT SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/BOT/BOT SOFFITTO.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -9487,7 +10768,8 @@
             "faretto"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/BOT/BOT SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/BOT/BOT SOFFITTO.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -9940,7 +11222,8 @@
             "faretto"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DIAMANTE/DIAMANTE SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DIAMANTE/DIAMANTE SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/DIAMAFA%20%20%20%20%20%20%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -9967,7 +11250,8 @@
             "faretto"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DIAMANTE/DIAMANTE SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DIAMANTE/DIAMANTE SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/DIAMAFA%20%20%20%20%20%20%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -9994,7 +11278,8 @@
             "faretto"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DIAMANTE/DIAMANTE SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DIAMANTE/DIAMANTE SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/DIAMAFA%20%20%20%20%20%20%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -10021,7 +11306,8 @@
             "faretto"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DIAMANTE/DIAMANTE SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DIAMANTE/DIAMANTE SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/DIAMAFA%20%20%20%20%20%20%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -10047,7 +11333,8 @@
             "faretto"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/IMPLODE/IMPLODE SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/IMPLODE/IMPLODE SOFFITTO.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10073,7 +11360,8 @@
             "faretto"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/IMPLODE/IMPLODE SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/IMPLODE/IMPLODE SOFFITTO.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10101,7 +11389,8 @@
             "faretto"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LIO/LIO SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LIO/LIO SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/LIO%20%20FA%20%20%20%20%20%20%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -10126,7 +11415,8 @@
             "faretto"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LUCCIOLA/LUCCIOLA SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LUCCIOLA/LUCCIOLA SOFFITTO.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10151,7 +11441,8 @@
             "faretto"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LUCCIOLA/LUCCIOLA SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/LUCCIOLA/LUCCIOLA SOFFITTO.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -10301,7 +11592,8 @@
             "faretto"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/RINA/RINA SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/RINA/RINA SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/RINA%20FA%20%2016%20%20%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -10329,7 +11621,8 @@
             "faretto"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/RINA/RINA SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/RINA/RINA SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/RINA%20FA%20%2016%20%20%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -11278,7 +12571,8 @@
             "lettura"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO TAVOLO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO TAVOLO.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -11306,7 +12600,8 @@
             "lettura"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO TAVOLO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DAMASCO/DAMASCO TAVOLO.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -13389,7 +14684,8 @@
         ],
         "component": 0,
         "size": "mini",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NAXOS/NAXOS TAVOLO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/NAXOS/NAXOS TAVOLO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/NAXOSLT%20%20MN%20%20%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -14245,7 +15541,8 @@
             "lettura"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -24949,7 +26246,8 @@
             "plafone"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PAGODA/PAGODA SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PAGODA/PAGODA SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/PAGODPL%20%2051%201%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -24975,7 +26273,8 @@
             "plafone"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PAGODA/PAGODA SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PAGODA/PAGODA SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/PAGODPL%20%2051%202%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -25001,7 +26300,8 @@
             "plafone"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PAGODA/PAGODA SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PAGODA/PAGODA SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/PAGODPL%20%2051%203%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -25027,7 +26327,8 @@
             "plafone"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PAGODA/PAGODA SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PAGODA/PAGODA SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/PAGODPL%20%2051%204%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -25301,7 +26602,8 @@
         ],
         "component": 0,
         "size": "grande",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/REDENTORE/REDENTORE SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/REDENTORE/REDENTORE SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/REDENPL%20%2016FG%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -25329,7 +26631,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/REDENTORE/REDENTORE SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/REDENTORE/REDENTORE SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/REDENPL%20%2016FP%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -25357,7 +26660,8 @@
         ],
         "component": 0,
         "size": "grande",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/REDENTORE/REDENTORE SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/REDENTORE/REDENTORE SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/REDENPL%20%2046FG%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -25385,7 +26689,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/REDENTORE/REDENTORE SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/REDENTORE/REDENTORE SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/REDENPL%20%2046FP%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -26077,7 +27382,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/SAN GIORGIO/SAN GIORGIO SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/SAN GIORGIO/SAN GIORGIO SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/SANGIPL%20%2016FP%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -26133,7 +27439,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/SAN GIORGIO/SAN GIORGIO SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/SAN GIORGIO/SAN GIORGIO SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/SANGIPL%20%2046FP%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -26161,7 +27468,8 @@
         ],
         "component": 0,
         "size": "grande",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/SAN MARCO/SAN MARCO SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/SAN MARCO/SAN MARCO SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/SANMAPL%20%2016FG%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -26217,7 +27525,8 @@
         ],
         "component": 0,
         "size": "grande",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/SAN MARCO/SAN MARCO SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/SAN MARCO/SAN MARCO SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/SANMAPL%20%2046FG%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -26243,7 +27552,8 @@
             "plafone"
         ],
         "component": 0,
-        "size": "media"
+        "size": "media",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -26269,7 +27579,8 @@
             "plafone"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -26295,7 +27606,8 @@
             "plafone"
         ],
         "component": 0,
-        "size": "media"
+        "size": "media",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -26321,7 +27633,8 @@
             "plafone"
         ],
         "component": 0,
-        "size": "piccola"
+        "size": "piccola",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -26837,7 +28150,8 @@
             "plafone"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TAHOMA ROUND/TAHOMA ROUND SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TAHOMA ROUND/TAHOMA ROUND SOFFITTO.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -27754,7 +29068,8 @@
         ],
         "component": 0,
         "size": "xl",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/WITHWHITE/WITHWHITE SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/WITHWHITE/WITHWHITE SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/WITHWPL%20%20%20%20%20X%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -27887,7 +29202,8 @@
         ],
         "component": 0,
         "size": "xl",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/WITHWHITE/WITHWHITE SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/WITHWHITE/WITHWHITE SOFFITTO.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/WITHWPL%20%20%20%20%20X%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -29945,7 +31261,8 @@
             "plafone/applique"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -29971,7 +31288,8 @@
             "plafone/applique"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -29997,7 +31315,8 @@
             "plafone/applique"
         ],
         "component": 0,
-        "size": "grande"
+        "size": "grande",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -30556,7 +31875,8 @@
             "plafone/applique"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TAHOMA ROUND/TAHOMA ROUND SOFFITTO.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TAHOMA ROUND/TAHOMA ROUND SOFFITTO.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -42528,7 +43848,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/CHEOPE09/CHEOPE09 SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/CHEOPE09/CHEOPE09 SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -42556,7 +43877,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/CHEOPE09/CHEOPE09 SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/CHEOPE09/CHEOPE09 SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -42696,7 +44018,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/CHEOPE09/CHEOPE09 SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/CHEOPE09/CHEOPE09 SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -42752,7 +44075,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/CHEOPE09/CHEOPE09 SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/CHEOPE09/CHEOPE09 SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -42780,7 +44104,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/CHEOPE09/CHEOPE09 SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/CHEOPE09/CHEOPE09 SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -50835,7 +52160,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DIADEMA/DIADEMA SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DIADEMA/DIADEMA SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -50861,7 +52187,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DIADEMA/DIADEMA SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DIADEMA/DIADEMA SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -50887,7 +52214,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DIADEMA/DIADEMA SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/DIADEMA/DIADEMA SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -75039,7 +76367,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -75065,7 +76394,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -75093,7 +76423,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -75118,7 +76449,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -75144,7 +76476,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -75172,7 +76505,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -75361,7 +76695,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -75387,7 +76722,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -75415,7 +76751,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -75440,7 +76777,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -75466,7 +76804,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -75494,7 +76833,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -75519,7 +76859,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -75545,7 +76886,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -75573,7 +76915,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -75598,7 +76941,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -75624,7 +76968,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -75652,7 +76997,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/OTO/OTO SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -75678,7 +77024,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PAGODA/PAGODA SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PAGODA/PAGODA SOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/PAGODSP%20%2051%201%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -75704,7 +77051,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PAGODA/PAGODA SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PAGODA/PAGODA SOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/PAGODSP%20%2051%202%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -75730,7 +77078,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PAGODA/PAGODA SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PAGODA/PAGODA SOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/PAGODSP%20%2051%203%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -75756,7 +77105,8 @@
             "sospensione"
         ],
         "component": 0,
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PAGODA/PAGODA SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/PAGODA/PAGODA SOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/PAGODSP%20%2051%204%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -87785,7 +89135,8 @@
         ],
         "component": 0,
         "size": "grande",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%201%20%20G%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -87811,7 +89162,8 @@
         ],
         "component": 0,
         "size": "grande",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%201%20%20G%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -87839,7 +89191,8 @@
         ],
         "component": 0,
         "size": "grande",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%201%20%20G%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -87865,7 +89218,8 @@
         ],
         "component": 0,
         "size": "grande",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%202A%20G%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -87891,7 +89245,8 @@
         ],
         "component": 0,
         "size": "grande",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%202A%20G%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -87919,7 +89274,8 @@
         ],
         "component": 0,
         "size": "grande",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%202A%20G%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -87945,7 +89301,8 @@
         ],
         "component": 0,
         "size": "grande",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%202S%20G%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -87971,7 +89328,8 @@
         ],
         "component": 0,
         "size": "grande",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%202S%20G%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -87999,7 +89357,8 @@
         ],
         "component": 0,
         "size": "grande",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%202S%20G%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -88025,7 +89384,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%201%20%20P%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -88051,7 +89411,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%201%20%20P%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -88079,7 +89440,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%201%20%20P%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -88105,7 +89467,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%202A%20P%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -88131,7 +89494,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%202A%20P%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -88159,7 +89523,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%202A%20P%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -88185,7 +89550,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%202S%20P%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -88211,7 +89577,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%202S%20P%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -88239,7 +89606,8 @@
         ],
         "component": 0,
         "size": "piccola",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/TABLO/TABLOSOSPENSIONE.jpg",
+        "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%202S%20P%20%20-.jpg"
     },
     {
         "supplier": "vistosi",
@@ -90890,7 +92258,8 @@
         ],
         "component": 0,
         "size": "xl",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/WITHWHITE/WITHWHITE SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/WITHWHITE/WITHWHITE SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -90997,7 +92366,8 @@
         ],
         "component": 0,
         "size": "xl",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/WITHWHITE/WITHWHITE SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/WITHWHITE/WITHWHITE SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91104,7 +92474,8 @@
         ],
         "component": 0,
         "size": "xl",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/WITHWHITE/WITHWHITE SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/WITHWHITE/WITHWHITE SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91427,7 +92798,8 @@
         ],
         "component": 0,
         "size": "xl",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/WITHWHITE/WITHWHITE SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/WITHWHITE/WITHWHITE SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91534,7 +92906,8 @@
         ],
         "component": 0,
         "size": "xl",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/WITHWHITE/WITHWHITE SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/WITHWHITE/WITHWHITE SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
@@ -91641,7 +93014,8 @@
         ],
         "component": 0,
         "size": "xl",
-        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/WITHWHITE/WITHWHITE SOSPENSIONE.jpg"
+        "pic": "https://www.vistosi.it/assets/immagini/prodotti2017/WITHWHITE/WITHWHITE SOSPENSIONE.jpg",
+        "light_schema": "out of stock"
     },
     {
         "supplier": "vistosi",
