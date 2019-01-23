@@ -960,7 +960,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 }
 
                 function getPrice(str){
-                    var str_cleaned = str.replace("¤","").replace("Û ","");
+                    var str_cleaned = str.replace("¤","").replace("Û ","").replace("ó ",""); 
                         str_cleaned = str_cleaned.replace(/  +/g, ' '); // elimino spazi multipli
                         str_cleaned = str_cleaned.replace(",","").replace(".",",");
                         return parseFloat(str_cleaned);
@@ -1939,38 +1939,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                        
                         
 
-                       
-
-/* 
-                       
-                        if(model=="PEGGY"){
-                            if( _.contains(original_model_arr,"SOSPE") && _.contains(original_model_arr,"9"))
-                                original_model_arr.push("sp 9");
-                            if( _.contains(original_model_arr,"SOSPE") && !_.contains(original_model_arr,"9"))
-                                original_model_arr.push("sp");
-                        }
-
-                        if(model=="JUBE"){
-                            if( _.contains(original_model_arr,"SOSPE") && !_.contains(original_model_arr,"1") )
-                                original_model_arr.push("sp");
-                            if( _.contains(original_model_arr,"SOSPE") && _.contains(original_model_arr,"1") )
-                                original_model_arr.push("sp 1g");
-                        }
-
-                        if(model=="ACCADEMIA"){
-                            if( _.contains(original_model_arr,"30") )
-                                original_model_arr.push("30f");    
-                        }
-
-                        if(model=="AURORA"){
-                            if( _.contains(original_model_arr,"30D1") || _.contains(original_model_arr,"30D2") )
-                                original_model_arr.push("30"); 
-                            if( _.contains(original_model_arr,"40D1") || _.contains(original_model_arr,"40D2") )
-                                original_model_arr.push("40"); 
-                            if( _.contains(original_model_arr,"50D1") || _.contains(original_model_arr,"50D2") )
-                                original_model_arr.push("50");    
-                        }
-                        */
 
 
                     if(component == 0){
@@ -2157,12 +2125,12 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                             else{
                                                    
     
-                                                    
+                                                    /*
                                                     _.log("----------------------model: "+model+"--------category: "+category);
                                                     _.log("----------------------original model: "+original_model_arr);
                                                     _.log("----------------------arr_varianti:");
                                                     _.log(arr_varianti_fiter_1);
-                                                    
+                                                    */
                                                       
                                                 
                                             }
@@ -2210,7 +2178,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             hicId:                  hicId,                              // identificativo interno ottenuto come supplier_id + item_id
             ean13:                  ean13,                              // codice a barre
             
-            //price:                  price,                              // imponibile
+            price:                  price,                              // imponibile
             
             color:                  color,                              // prova a recuperare il colore dall'id
             desc_it:                cleaned_desc_it,                    // la descrizione in italiano
