@@ -2273,8 +2273,6 @@ function getMoreDate(bodyHTML, root_model, category){
 }
 
 function adjustVariant(model, root_model){
-    var ret = model.toLowerCase().replace(root_model+" ","").replace("sp","").replace("lt","").replace("pl","").replace("pt","").replace("fa","").trim().replace("  ","");
-    if(ret.indexOf("2ap") == -1)
-        ret = ret.replace("ap","");
+    var ret = model.toLowerCase().replace(root_model+" ","").replace("sp","").replace("lt","").replace("pl","").replace("pt","").replace("fa","").replace("ap","").trim().replace("  ","");
     return ret;
 }
