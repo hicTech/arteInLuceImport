@@ -136,13 +136,13 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var size = undefined;
         var outdoor = undefined;
         var max_discount = undefined;
-
         var more = undefined;
         var title = undefined;
         var subtitle = undefined;
         var pic = undefined;
         var light_schema = undefined;
         var otherColors = undefined;
+        var projects = undefined;
         
 
     
@@ -318,6 +318,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     video : getVideo(model, category, component, createAllVideosArr(assets_json)),
                     link : getLink(model, category, component, createAllLinksArr(assets_json)),
                 });
+                projects = getProjects(model,category,assets_json);;
                 
             }
                 
@@ -778,7 +779,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     })
                 }
             
-                return ret;
+                return _.uniq(ret);
 
             }
 
@@ -840,20 +841,37 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
             function getDesc(model,category,assets_json){
                 var ret = undefined;
-
                         
                 var cat = category[0];
                 _.each(assets_json,function(elem){
                     
                     /** qui accordiamo le diverse nomencalute di alcuni prodotti presenti sul sito */
-                        var elem_model = elem.model;
-                        var elem_category = elem.category.toLowerCase();
-                        
-                        if( sameItem(model, cat, elem_model, elem_category,"desc") ){
-                             ret = elem.desc;
-                        }
-
+                    var elem_model = elem.model;
+                    var elem_category = elem.category.toLowerCase();
                     
+                    if( sameItem(model, cat, elem_model, elem_category,"desc") ){
+                            ret = elem.desc;
+                    }
+                        
+                });
+
+                return ret;
+            }
+
+            function getProjects(model,category,assets_json){
+                var ret = [];
+                var cat = category[0];
+
+                _.each(assets_json,function(elem){
+                    /** qui accordiamo le diverse nomencalute di alcuni prodotti presenti sul sito */
+                    var elem_model = elem.model;
+                    var elem_category = elem.category.toLowerCase();
+                    
+                    if( sameItem(model, cat, elem_model, elem_category,"desc") ){
+                        _.each(elem.projects,function(project){
+                            ret.push(project.url);
+                        })
+                    }
                         
                 });
 
@@ -904,6 +922,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 desc_en = desc_it;
                 cleaned_desc_it = desc_it;
                 cleaned_desc_en = desc_en;
+
+                projects = getProjects(model,category,component,assets_json);;
 
                 //otherColors = getOtherPics(model, size, category, type, color, more);
                 //more = getMore(row["Descrizione"],model);
@@ -1470,6 +1490,20 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     }
                     if(!_.is(ret))
                         _.log("Attenzione descrizione non trovata per model: "+ model+" category: "+category);
+                    else
+                        return ret;
+                        
+                }
+
+                function getProjects(model,category,component,assets_json){
+                    if(component == 0){
+                        _.each(assets_json,function(elem){
+                            if(model.toLowerCase() == elem.model && category == elem.category)
+                                ret = elem.projects;
+                        });
+                    }
+                    if(!_.is(ret))
+                        _.log("Attenzione projects non trovati per model: "+ model+" category: "+category);
                     else
                         return ret;
                         
@@ -2377,6 +2411,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             pic:                    pic,                                // contiene l'immagine primaria
             light_schema:           light_schema,                       // schema dell'articolo
             otherColors:            otherColors,                        // array dei path delle immagini di altri colori dello stesso articolo
+            projects:               projects,                           // sono le immagini di progetti
             more:                   more,                               // contiene dei campi aggiuntivi (custom per ogni fornitore) esempio video, link a pdf, pagine html     
             
         }

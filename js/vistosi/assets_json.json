@@ -5764,7 +5764,7 @@
                     "name": "DAMASCO AP 2AP",
                     "root_model": "damasco",
                     "category": "parete",
-                    "variant": "2",
+                    "variant": "2ap",
                     "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/DAMASAP%20%202A%20P%20%20-.jpg",
                     "light_system": "g9",
                     "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/APDAMASCOP2A.PDF', true, 'Istruzioni montaggio DAMASCO AP 2A PICCOLO G9 ', 'TECHSHEET', 'DAMASAP  2A P  -', 'G9');"
@@ -21908,7 +21908,7 @@
                     "name": "TABLO' SP 2AP",
                     "root_model": "tablo",
                     "category": "sospensione",
-                    "variant": "tablo'2",
+                    "variant": "tablo'2ap",
                     "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%202A%20P%20%20-.jpg",
                     "light_system": "fluorescente",
                     "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPTABLOP.PDF', true, 'Istruzioni montaggio TABLO\\' SP 2A PICCOLO FLUORESCENTE ', 'TECHSHEET', 'TABLOSP  2A P  -', 'FL');"

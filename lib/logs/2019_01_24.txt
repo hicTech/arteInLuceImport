@@ -1052,3 +1052,140 @@
 09:26:38: ----------------------arr_varianti:
 09:26:38: 
 09:26:38: 13
+09:56:30: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:56:30: ----------------------model: damasco--------category: parete
+09:56:30: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,BIANCO,NICHEL,G9,P
+09:56:30: ----------------------arr_varianti:
+09:56:30: 
+09:56:30: 0
+09:56:30: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:56:30: ----------------------model: damasco--------category: parete
+09:56:30: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,BIANCO,NICHEL,G9,P
+09:56:30: ----------------------arr_varianti:
+09:56:30: 
+09:56:30: 1
+09:56:30: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:56:30: ----------------------model: damasco--------category: parete
+09:56:30: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,CRISTAL,NICHEL,G9,P
+09:56:30: ----------------------arr_varianti:
+09:56:30: 
+09:56:30: 2
+09:56:30: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:56:30: ----------------------model: damasco--------category: parete
+09:56:30: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,CRISTAL,NICHEL,G9,P
+09:56:30: ----------------------arr_varianti:
+09:56:30: 
+09:56:30: 3
+09:56:30: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:56:30: ----------------------model: damasco--------category: parete
+09:56:30: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,NERO,NICHEL,G9,P
+09:56:30: ----------------------arr_varianti:
+09:56:30: 
+09:56:30: 4
+09:56:30: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:56:30: ----------------------model: damasco--------category: parete
+09:56:30: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,NERO,NICHEL,G9,P
+09:56:30: ----------------------arr_varianti:
+09:56:30: 
+09:56:30: 5
+09:56:30: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:56:30: ----------------------model: damasco--------category: parete
+09:56:30: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,TOPAZIO,NICHEL,G9,P
+09:56:30: ----------------------arr_varianti:
+09:56:30: 
+09:56:30: 6
+09:56:30: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:56:30: ----------------------model: damasco--------category: parete
+09:56:30: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,TOPAZIO,NICHEL,G9,P
+09:56:30: ----------------------arr_varianti:
+09:56:30: 
+09:56:30: 7
+09:56:32: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:56:32: ----------------------model: tablo--------category: sospensione
+09:56:32: ----------------------original model: TABLO',SOSPE,2A,PICCO,BIANCO,BIANCO,FL,FLUORESCENTE,P,2AP
+09:56:32: ----------------------arr_varianti:
+09:56:32: 
+09:56:32: 8
+09:56:32: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:56:32: ----------------------model: tablo--------category: sospensione
+09:56:32: ----------------------original model: TABLO',SOSPE,2A,PICCO,BIANCO,BIANCO,FL,FLUORESCENTE,P,2AP
+09:56:32: ----------------------arr_varianti:
+09:56:32: 
+09:56:32: 9
+09:56:32: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:56:32: ----------------------model: tablo--------category: sospensione
+09:56:32: ----------------------original model: TABLO',SOSPE,2A,PICCO,BIANCO,MARRON,FL,FLUORESCENTE,P,2AP
+09:56:32: ----------------------arr_varianti:
+09:56:32: 
+09:56:32: 10
+09:56:32: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:56:32: ----------------------model: tablo--------category: sospensione
+09:56:32: ----------------------original model: TABLO',SOSPE,2A,PICCO,BIANCO,MARRON,FL,FLUORESCENTE,P,2AP
+09:56:32: ----------------------arr_varianti:
+09:56:32: 
+09:56:32: 11
+09:56:32: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:56:32: ----------------------model: tablo--------category: sospensione
+09:56:32: ----------------------original model: TABLO',SOSPE,2A,PICCO,BIANCO,MA/BLU,FL,FLUORESCENTE,P,2AP
+09:56:32: ----------------------arr_varianti:
+09:56:32: 
+09:56:32: 12
+09:56:32: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:56:32: ----------------------model: tablo--------category: sospensione
+09:56:32: ----------------------original model: TABLO',SOSPE,2A,PICCO,BIANCO,MA/BLU,FL,FLUORESCENTE,P,2AP
+09:56:32: ----------------------arr_varianti:
+09:56:32: 
+09:56:32: 13
+10:06:06: processo: https://www.vistosi.it/prodotti/tablo/sospensione.html mancano: 0
+10:07:24: processo: https://www.vistosi.it/prodotti/tablo/sospensione.html mancano: 0
+10:09:48: processo: https://www.vistosi.it/prodotti/tablo/sospensione.html mancano: 0
+10:11:07: processo: https://www.vistosi.it/prodotti/tablo/sospensione.html mancano: 0
+10:12:43: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+10:12:43: ----------------------model: damasco--------category: parete
+10:12:43: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,BIANCO,NICHEL,G9,P
+10:12:43: ----------------------arr_varianti:
+10:12:43: 
+10:12:43: 0
+10:12:43: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+10:12:43: ----------------------model: damasco--------category: parete
+10:12:43: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,BIANCO,NICHEL,G9,P
+10:12:43: ----------------------arr_varianti:
+10:12:43: 
+10:12:43: 1
+10:12:43: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+10:12:43: ----------------------model: damasco--------category: parete
+10:12:43: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,CRISTAL,NICHEL,G9,P
+10:12:43: ----------------------arr_varianti:
+10:12:43: 
+10:12:43: 2
+10:12:43: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+10:12:43: ----------------------model: damasco--------category: parete
+10:12:43: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,CRISTAL,NICHEL,G9,P
+10:12:43: ----------------------arr_varianti:
+10:12:43: 
+10:12:43: 3
+10:12:43: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+10:12:43: ----------------------model: damasco--------category: parete
+10:12:43: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,NERO,NICHEL,G9,P
+10:12:43: ----------------------arr_varianti:
+10:12:43: 
+10:12:43: 4
+10:12:43: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+10:12:43: ----------------------model: damasco--------category: parete
+10:12:43: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,NERO,NICHEL,G9,P
+10:12:43: ----------------------arr_varianti:
+10:12:43: 
+10:12:43: 5
+10:12:43: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+10:12:43: ----------------------model: damasco--------category: parete
+10:12:43: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,TOPAZIO,NICHEL,G9,P
+10:12:43: ----------------------arr_varianti:
+10:12:43: 
+10:12:43: 6
+10:12:43: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+10:12:43: ----------------------model: damasco--------category: parete
+10:12:43: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,TOPAZIO,NICHEL,G9,P
+10:12:43: ----------------------arr_varianti:
+10:12:43: 
+10:12:43: 7
+10:53:18: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 340

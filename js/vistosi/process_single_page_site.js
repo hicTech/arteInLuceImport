@@ -2070,10 +2070,11 @@ var single_pages = [
         "category": "sospensione",
         "uri": "https://www.vistosi.it/prodotti/tablo/sospensione.html",
         "desc": "La peculiarità di questa linea sta nella grande accuratezza e abilità che richiedono soffiatura e taglio di un vetro unico. L'elemento vitreo viene fissato alla struttura di laminato personalizzato in esclusiva da Abet Laminati, senza l'ausilio di alcuna parte metallica. La forma trae ispirazione dai caratteri maschile e femminile ed è disponibile in differenti combinazioni e opzioni d'illuminazione."
-    }
+    },
 ]
-
 */
+
+
 
 
 var pages_number = single_pages.length; // 336
@@ -2273,11 +2274,16 @@ function getMoreDate(bodyHTML, root_model, category){
 }
 
 function adjustVariant(model, root_model){
-    // caso particolare per TABLO' sospensione
+    // caso particolare per TABLO' sospensione 
     var model_low = model.toLowerCase();
-    if(model_low.indexOf("2ap") != -1){
-        model_low = model_low.replace("2ap","2");
+    if(model_low == "tablo' sp 2ap"){
+        return "tablo'2ap"
     }
-    var ret = model_low.replace(root_model+" ","").replace("sp","").replace("lt","").replace("pl","").replace("pt","").replace("fa","").replace("ap","").trim().replace("  ","");
+    else{
+        var ret = model_low.replace(root_model+" ","").replace("sp","").replace("lt","").replace("pl","").replace("pt","").replace("fa","").replace("ap","").trim().replace("  ","");
+    }
+
+    
+    
     return ret;
 }
