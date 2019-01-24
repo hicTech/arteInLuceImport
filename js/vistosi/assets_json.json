@@ -2125,9 +2125,9 @@
                     "root_model": "balance",
                     "category": "soffitto",
                     "variant": "m",
-                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/BALANPL%20%20%20%20%20M%20%20-.jpg",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/BALANPP%20%20%20%20%20M%20%20-.jpg",
                     "light_system": "e27",
-                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/PLBALANCE.PDF', true, 'Istruzioni montaggio BALANCE PL MEDIA E27 ', 'TECHSHEET', 'BALANPL     M  -', 'E27');"
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/PLBALANCE.PDF', true, 'Istruzioni montaggio BALANCE PL MEDIA E27 ', 'TECHSHEET', 'BALANPP     M  -', 'E27');"
                 },
                 {
                     "name": "BALANCE PL M",
@@ -2376,6 +2376,15 @@
                     "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/BALANAP%20%20%20%20%20G%20%20-.jpg",
                     "light_system": "e27",
                     "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/PLBALANCE.PDF', true, 'Istruzioni montaggio BALANCE AP GRANDE E27 ', 'TECHSHEET', 'BALANAP     G  -', 'E27');"
+                },
+                {
+                    "name": "BALANCE AP M",
+                    "root_model": "balance",
+                    "category": "parete",
+                    "variant": "m",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/BALANPP%20%20%20%20%20M%20%20-.jpg",
+                    "light_system": "e27",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/PLBALANCE.PDF', true, 'Istruzioni montaggio BALANCE AP MEDIA E27 ', 'TECHSHEET', 'BALANPP     M  -', 'E27');"
                 }
             ]
         }
@@ -5390,7 +5399,7 @@
                     "variant": "cristalld1",
                     "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/CRISTSP%20%20%20%20%20%20D1-.jpg",
                     "light_system": "led",
-                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/IM|L|SP|CRIST|||D1|LED', false, 'Istruzioni montaggio CRISTALL SP DECENTRAMENTO 1 LUCE LED ', 'TECHSHEET', 'CRISTSP      D1-', 'LED');"
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPCRISTALLINAD1.PDF', true, 'Istruzioni montaggio CRISTALL SP DECENTRAMENTO 1 LUCE LED ', 'TECHSHEET', 'CRISTSP      D1-', 'LED');"
                 },
                 {
                     "name": "CRISTALL SP",
@@ -5755,7 +5764,7 @@
                     "name": "DAMASCO AP 2AP",
                     "root_model": "damasco",
                     "category": "parete",
-                    "variant": "2ap",
+                    "variant": "2",
                     "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/DAMASAP%20%202A%20P%20%20-.jpg",
                     "light_system": "g9",
                     "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/APDAMASCOP2A.PDF', true, 'Istruzioni montaggio DAMASCO AP 2A PICCOLO G9 ', 'TECHSHEET', 'DAMASAP  2A P  -', 'G9');"
@@ -11133,7 +11142,7 @@
                     "variant": "1gd1",
                     "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/JUBE%20SP%20%201%20%20GD1-.jpg",
                     "light_system": "led",
-                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPJUBEG-P.PDF', true, 'Istruzioni montaggio JUBE SP 1 GRANDE DECENTRAMENTO 1 LUCE LED ', 'TECHSHEET', 'JUBE SP  1  GD1-', 'LED');"
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPJUBE1G-PD1.PDF', true, 'Istruzioni montaggio JUBE SP 1 GRANDE DECENTRAMENTO 1 LUCE LED ', 'TECHSHEET', 'JUBE SP  1  GD1-', 'LED');"
                 },
                 {
                     "name": "JUBE SP 1G",
@@ -11142,7 +11151,7 @@
                     "variant": "1g",
                     "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/JUBE%20SP%20%201%20%20G%20%20-.jpg",
                     "light_system": "led",
-                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPJUBEG-P.PDF', true, 'Istruzioni montaggio JUBE SP 1 GRANDE LED ', 'TECHSHEET', 'JUBE SP  1  G  -', 'LED');"
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPJUBE1G-PD1.PDF', true, 'Istruzioni montaggio JUBE SP 1 GRANDE LED ', 'TECHSHEET', 'JUBE SP  1  G  -', 'LED');"
                 },
                 {
                     "name": "JUBE SP 1PD1",
@@ -11151,7 +11160,7 @@
                     "variant": "1pd1",
                     "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/JUBE%20SP%20%201%20%20PD1-.jpg",
                     "light_system": "led",
-                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPJUBEG-P.PDF', true, 'Istruzioni montaggio JUBE SP 1 PICCOLO DECENTRAMENTO 1 LUCE LED ', 'TECHSHEET', 'JUBE SP  1  PD1-', 'LED');"
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPJUBE1G-PD1.PDF', true, 'Istruzioni montaggio JUBE SP 1 PICCOLO DECENTRAMENTO 1 LUCE LED ', 'TECHSHEET', 'JUBE SP  1  PD1-', 'LED');"
                 },
                 {
                     "name": "JUBE SP 1P",
@@ -11160,7 +11169,7 @@
                     "variant": "1p",
                     "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/JUBE%20SP%20%201%20%20P%20%20-.jpg",
                     "light_system": "led",
-                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPJUBEG-P.PDF', true, 'Istruzioni montaggio JUBE SP 1 PICCOLO LED ', 'TECHSHEET', 'JUBE SP  1  P  -', 'LED');"
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPJUBE1G-PD1.PDF', true, 'Istruzioni montaggio JUBE SP 1 PICCOLO LED ', 'TECHSHEET', 'JUBE SP  1  P  -', 'LED');"
                 },
                 {
                     "name": "JUBE SP GD1",
@@ -21899,7 +21908,7 @@
                     "name": "TABLO' SP 2AP",
                     "root_model": "tablo",
                     "category": "sospensione",
-                    "variant": "tablo'2ap",
+                    "variant": "tablo'2",
                     "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TABLOSP%20%202A%20P%20%20-.jpg",
                     "light_system": "fluorescente",
                     "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPTABLOP.PDF', true, 'Istruzioni montaggio TABLO\\' SP 2A PICCOLO FLUORESCENTE ', 'TECHSHEET', 'TABLOSP  2A P  -', 'FL');"

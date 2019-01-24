@@ -2273,6 +2273,11 @@ function getMoreDate(bodyHTML, root_model, category){
 }
 
 function adjustVariant(model, root_model){
-    var ret = model.toLowerCase().replace(root_model+" ","").replace("sp","").replace("lt","").replace("pl","").replace("pt","").replace("fa","").replace("ap","").trim().replace("  ","");
+    // caso particolare per TABLO' sospensione
+    var model_low = model.toLowerCase();
+    if(model_low.indexOf("2ap") != -1){
+        model_low = model_low.replace("2ap","2");
+    }
+    var ret = model_low.replace(root_model+" ","").replace("sp","").replace("lt","").replace("pl","").replace("pt","").replace("fa","").replace("ap","").trim().replace("  ","");
     return ret;
 }

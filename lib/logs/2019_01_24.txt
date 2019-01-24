@@ -186,3 +186,869 @@
 08:34:13: processo: https://www.vistosi.it/prodotti/morrise/parete.html mancano: 133
 08:34:16: processo: https://www.vistosi.it/prodotti/morrise/tavolo.html mancano: 132
 08:34:19: processo: https://www.vistosi.it/prodotti/mumba/sospensione.html mancano: 131
+08:43:41: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 340
+08:43:45: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 339
+08:43:47: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 338
+08:43:51: processo: https://www.vistosi.it/prodotti/alega/tavolo.html mancano: 337
+08:43:53: processo: https://www.vistosi.it/prodotti/aliki/soffitto.html mancano: 336
+08:43:56: processo: https://www.vistosi.it/prodotti/aliki/sospensione.html mancano: 335
+08:43:59: processo: https://www.vistosi.it/prodotti/aliki/parete.html mancano: 334
+08:44:02: faccio super scroll della pagina
+08:44:03: processo: https://www.vistosi.it/prodotti/alma/sospensione.html mancano: 333
+08:44:06: processo: https://www.vistosi.it/prodotti/alma/parete.html mancano: 332
+08:44:08: processo: https://www.vistosi.it/prodotti/alum/sospensione.html mancano: 331
+08:44:11: processo: https://www.vistosi.it/prodotti/alum/parete.html mancano: 330
+08:44:14: processo: https://www.vistosi.it/prodotti/alum09/soffitto.html mancano: 329
+08:44:17: processo: https://www.vistosi.it/prodotti/alum09/sospensione.html mancano: 328
+08:44:20: processo: https://www.vistosi.it/prodotti/alum09/parete.html mancano: 327
+08:44:23: processo: https://www.vistosi.it/prodotti/aria/sospensione.html mancano: 326
+08:44:26: processo: https://www.vistosi.it/prodotti/assiba/soffitto.html mancano: 325
+08:44:29: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 324
+08:44:32: faccio super scroll della pagina
+08:44:33: processo: https://www.vistosi.it/prodotti/assiba/parete.html mancano: 323
+08:44:36: processo: https://www.vistosi.it/prodotti/assiba/tavolo.html mancano: 322
+08:44:39: processo: https://www.vistosi.it/prodotti/aurea/sospensione.html mancano: 321
+08:45:17: processo: https://www.vistosi.it/prodotti/aurora/soffitto.html mancano: 320
+08:45:20: processo: https://www.vistosi.it/prodotti/aurora/sospensione.html mancano: 319
+08:45:23: faccio super scroll della pagina
+08:45:25: processo: https://www.vistosi.it/prodotti/aurora/parete.html mancano: 318
+08:45:27: processo: https://www.vistosi.it/prodotti/baco/sospensione.html mancano: 317
+08:45:30: processo: https://www.vistosi.it/prodotti/baco/parete.html mancano: 316
+08:45:33: processo: https://www.vistosi.it/prodotti/bacona/sospensione.html mancano: 315
+08:45:36: processo: https://www.vistosi.it/prodotti/bacona/parete.html mancano: 314
+08:45:39: processo: https://www.vistosi.it/prodotti/balance/soffitto.html mancano: 313
+08:45:42: processo: https://www.vistosi.it/prodotti/balance/sospensione.html mancano: 312
+08:45:45: faccio super scroll della pagina
+08:45:47: processo: https://www.vistosi.it/prodotti/balance/parete.html mancano: 311
+08:45:50: processo: https://www.vistosi.it/prodotti/bauta/sospensione.html mancano: 310
+08:45:53: processo: https://www.vistosi.it/prodotti/bianca/soffitto.html mancano: 309
+08:45:56: faccio super scroll della pagina
+08:45:56: processo: https://www.vistosi.it/prodotti/bianca/sospensione.html mancano: 308
+08:46:00: faccio super scroll della pagina
+08:46:01: processo: https://www.vistosi.it/prodotti/bianca/parete.html mancano: 307
+08:46:04: processo: https://www.vistosi.it/prodotti/bissa/tavolo.html mancano: 306
+08:46:07: processo: https://www.vistosi.it/prodotti/bissona/tavolo.html mancano: 305
+08:46:09: processo: https://www.vistosi.it/prodotti/boccia/parete.html mancano: 304
+08:46:12: processo: https://www.vistosi.it/prodotti/bolle/soffitto.html mancano: 303
+08:46:16: processo: https://www.vistosi.it/prodotti/bolle/sospensione.html mancano: 302
+08:46:19: faccio super scroll della pagina
+08:46:20: processo: https://www.vistosi.it/prodotti/bolle/tavolo.html mancano: 301
+08:46:23: processo: https://www.vistosi.it/prodotti/bolle/faretto.html mancano: 300
+08:46:25: processo: https://www.vistosi.it/prodotti/boreale/soffitto.html mancano: 299
+08:46:28: processo: https://www.vistosi.it/prodotti/boreale/sospensione.html mancano: 298
+08:46:31: processo: https://www.vistosi.it/prodotti/bot/soffitto.html mancano: 297
+08:46:34: processo: https://www.vistosi.it/prodotti/bot/sospensione.html mancano: 296
+08:46:37: faccio super scroll della pagina
+08:46:38: processo: https://www.vistosi.it/prodotti/bot/parete.html mancano: 295
+08:46:41: processo: https://www.vistosi.it/prodotti/bot/tavolo.html mancano: 294
+08:46:44: processo: https://www.vistosi.it/prodotti/bot/faretto.html mancano: 293
+08:46:47: processo: https://www.vistosi.it/prodotti/candela/sospensione.html mancano: 292
+08:46:50: processo: https://www.vistosi.it/prodotti/cheope/sospensione.html mancano: 291
+08:46:53: processo: https://www.vistosi.it/prodotti/cheope-09/sospensione.html mancano: 290
+08:46:56: processo: https://www.vistosi.it/prodotti/chimera/soffitto.html mancano: 289
+08:46:59: processo: https://www.vistosi.it/prodotti/chimera/sospensione.html mancano: 288
+08:47:02: processo: https://www.vistosi.it/prodotti/chimera/parete.html mancano: 287
+08:47:05: processo: https://www.vistosi.it/prodotti/chimera/tavolo.html mancano: 286
+08:47:07: processo: https://www.vistosi.it/prodotti/chimera/piantana.html mancano: 285
+08:47:10: processo: https://www.vistosi.it/prodotti/chimera-09/soffitto.html mancano: 284
+08:47:48: processo: https://www.vistosi.it/prodotti/chimera-09/sospensione.html mancano: 283
+08:47:51: processo: https://www.vistosi.it/prodotti/chimera-09/parete.html mancano: 282
+08:47:54: processo: https://www.vistosi.it/prodotti/chimera-09/tavolo.html mancano: 281
+08:47:57: processo: https://www.vistosi.it/prodotti/chimera-09/piantana.html mancano: 280
+08:48:00: processo: https://www.vistosi.it/prodotti/cild/sospensione.html mancano: 279
+08:48:04: faccio super scroll della pagina
+08:48:05: processo: https://www.vistosi.it/prodotti/cild/parete.html mancano: 278
+08:48:08: processo: https://www.vistosi.it/prodotti/ciondo/sospensione.html mancano: 277
+08:48:11: processo: https://www.vistosi.it/prodotti/ciondo/parete.html mancano: 276
+08:48:14: processo: https://www.vistosi.it/prodotti/cleo/sospensione.html mancano: 275
+08:48:17: processo: https://www.vistosi.it/prodotti/cleo/parete.html mancano: 274
+08:48:20: processo: https://www.vistosi.it/prodotti/cloth/sospensione.html mancano: 273
+08:48:23: processo: https://www.vistosi.it/prodotti/cloth/parete.html mancano: 272
+08:48:26: processo: https://www.vistosi.it/prodotti/cloth/tavolo.html mancano: 271
+08:48:28: processo: https://www.vistosi.it/prodotti/cloth/piantana.html mancano: 270
+08:48:31: processo: https://www.vistosi.it/prodotti/comari/soffitto.html mancano: 269
+08:48:34: processo: https://www.vistosi.it/prodotti/comari/sospensione.html mancano: 268
+08:48:37: processo: https://www.vistosi.it/prodotti/comari/parete.html mancano: 267
+08:48:40: processo: https://www.vistosi.it/prodotti/comari/tavolo.html mancano: 266
+08:48:42: processo: https://www.vistosi.it/prodotti/corner/parete.html mancano: 265
+08:48:45: processo: https://www.vistosi.it/prodotti/cristallina/sospensione.html mancano: 264
+08:48:48: processo: https://www.vistosi.it/prodotti/dafne/parete.html mancano: 263
+08:48:51: processo: https://www.vistosi.it/prodotti/damasco/sospensione.html mancano: 262
+08:48:54: faccio super scroll della pagina
+08:48:56: processo: https://www.vistosi.it/prodotti/damasco/parete.html mancano: 261
+08:48:59: processo: https://www.vistosi.it/prodotti/damasco/tavolo.html mancano: 260
+08:49:01: processo: https://www.vistosi.it/prodotti/damasco/piantana.html mancano: 259
+08:49:04: processo: https://www.vistosi.it/prodotti/damasco/faretto.html mancano: 258
+08:49:07: processo: https://www.vistosi.it/prodotti/diadema/soffitto.html mancano: 257
+08:49:10: processo: https://www.vistosi.it/prodotti/diadema/sospensione.html mancano: 256
+08:49:13: faccio super scroll della pagina
+08:49:17: processo: https://www.vistosi.it/prodotti/diadema/parete.html mancano: 255
+08:49:20: processo: https://www.vistosi.it/prodotti/diadema/tavolo.html mancano: 254
+08:49:23: processo: https://www.vistosi.it/prodotti/diadema/piantana.html mancano: 253
+08:49:26: processo: https://www.vistosi.it/prodotti/diadema/faretto.html mancano: 252
+08:49:29: processo: https://www.vistosi.it/prodotti/diamante/soffitto.html mancano: 251
+08:49:32: processo: https://www.vistosi.it/prodotti/diamante/sospensione.html mancano: 250
+08:49:35: processo: https://www.vistosi.it/prodotti/diamante/parete.html mancano: 249
+08:49:38: processo: https://www.vistosi.it/prodotti/diamante/tavolo.html mancano: 248
+08:49:40: processo: https://www.vistosi.it/prodotti/diamante/faretto.html mancano: 247
+08:49:43: processo: https://www.vistosi.it/prodotti/dodo/soffitto.html mancano: 246
+08:49:46: processo: https://www.vistosi.it/prodotti/dodo/parete.html mancano: 245
+08:49:49: processo: https://www.vistosi.it/prodotti/dogi/soffitto.html mancano: 244
+08:49:52: processo: https://www.vistosi.it/prodotti/dogi/parete.html mancano: 243
+08:49:54: processo: https://www.vistosi.it/prodotti/dos/sospensione.html mancano: 242
+08:49:58: processo: https://www.vistosi.it/prodotti/dos/parete.html mancano: 241
+08:50:01: processo: https://www.vistosi.it/prodotti/dress/soffitto.html mancano: 240
+08:50:03: processo: https://www.vistosi.it/prodotti/dress/sospensione.html mancano: 239
+08:50:06: processo: https://www.vistosi.it/prodotti/dress/parete.html mancano: 238
+08:50:09: processo: https://www.vistosi.it/prodotti/ecos/soffitto.html mancano: 237
+08:50:12: processo: https://www.vistosi.it/prodotti/ecos/sospensione.html mancano: 236
+08:50:15: processo: https://www.vistosi.it/prodotti/ecos/parete.html mancano: 235
+08:50:18: processo: https://www.vistosi.it/prodotti/ecos/piantana.html mancano: 234
+08:50:20: processo: https://www.vistosi.it/prodotti/enne-luci/sospensione.html mancano: 233
+08:50:23: processo: https://www.vistosi.it/prodotti/enne-luci/parete.html mancano: 232
+08:50:26: processo: https://www.vistosi.it/prodotti/enne-luci/tavolo.html mancano: 231
+08:50:29: processo: https://www.vistosi.it/prodotti/enne-luci/piantana.html mancano: 230
+08:50:32: processo: https://www.vistosi.it/prodotti/essence/sospensione.html mancano: 229
+08:50:34: processo: https://www.vistosi.it/prodotti/essence/tavolo.html mancano: 228
+08:50:37: processo: https://www.vistosi.it/prodotti/essence/piantana.html mancano: 227
+08:50:40: processo: https://www.vistosi.it/prodotti/ferea/sospensione.html mancano: 226
+08:50:43: processo: https://www.vistosi.it/prodotti/ferea/parete.html mancano: 225
+08:50:46: processo: https://www.vistosi.it/prodotti/ferea/tavolo.html mancano: 224
+08:50:49: processo: https://www.vistosi.it/prodotti/ferea/piantana.html mancano: 223
+08:50:51: processo: https://www.vistosi.it/prodotti/follia/soffitto.html mancano: 222
+08:50:54: processo: https://www.vistosi.it/prodotti/follia/sospensione.html mancano: 221
+08:50:57: faccio super scroll della pagina
+08:50:58: processo: https://www.vistosi.it/prodotti/follia/parete.html mancano: 220
+08:51:01: processo: https://www.vistosi.it/prodotti/follia/tavolo.html mancano: 219
+08:51:04: processo: https://www.vistosi.it/prodotti/fuochi/soffitto.html mancano: 218
+08:51:07: processo: https://www.vistosi.it/prodotti/fuochi/parete.html mancano: 217
+08:51:10: processo: https://www.vistosi.it/prodotti/futura/soffitto.html mancano: 216
+08:51:13: processo: https://www.vistosi.it/prodotti/futura/sospensione.html mancano: 215
+08:51:16: processo: https://www.vistosi.it/prodotti/futura/parete.html mancano: 214
+08:51:18: processo: https://www.vistosi.it/prodotti/futura/tavolo.html mancano: 213
+08:51:21: processo: https://www.vistosi.it/prodotti/futura/piantana.html mancano: 212
+08:51:24: processo: https://www.vistosi.it/prodotti/giglio/parete.html mancano: 211
+08:51:27: processo: https://www.vistosi.it/prodotti/giogali/soffitto.html mancano: 210
+08:51:30: processo: https://www.vistosi.it/prodotti/giogali/sospensione.html mancano: 209
+08:51:33: processo: https://www.vistosi.it/prodotti/giogali/parete.html mancano: 208
+08:51:36: processo: https://www.vistosi.it/prodotti/giogali/piantana.html mancano: 207
+08:51:39: processo: https://www.vistosi.it/prodotti/giogali-3d/sospensione.html mancano: 206
+08:51:42: processo: https://www.vistosi.it/prodotti/giubileo/soffitto.html mancano: 205
+08:51:45: processo: https://www.vistosi.it/prodotti/giubileo/sospensione.html mancano: 204
+08:51:48: processo: https://www.vistosi.it/prodotti/giubileo/parete.html mancano: 203
+08:51:50: processo: https://www.vistosi.it/prodotti/giudecca/soffitto.html mancano: 202
+08:51:53: processo: https://www.vistosi.it/prodotti/giudecca/sospensione.html mancano: 201
+08:51:56: processo: https://www.vistosi.it/prodotti/giudecca/parete.html mancano: 200
+08:51:59: processo: https://www.vistosi.it/prodotti/gloria/soffitto.html mancano: 199
+08:52:01: processo: https://www.vistosi.it/prodotti/gloria/sospensione.html mancano: 198
+08:52:04: processo: https://www.vistosi.it/prodotti/gloria/parete.html mancano: 197
+08:52:07: processo: https://www.vistosi.it/prodotti/gloria/tavolo.html mancano: 196
+08:52:10: processo: https://www.vistosi.it/prodotti/gloria/piantana.html mancano: 195
+08:52:13: processo: https://www.vistosi.it/prodotti/goccia/parete.html mancano: 194
+08:52:16: processo: https://www.vistosi.it/prodotti/goto/soffitto.html mancano: 193
+08:52:18: processo: https://www.vistosi.it/prodotti/goto/sospensione.html mancano: 192
+08:52:21: processo: https://www.vistosi.it/prodotti/goto/parete.html mancano: 191
+08:52:24: processo: https://www.vistosi.it/prodotti/goto/tavolo.html mancano: 190
+08:52:27: processo: https://www.vistosi.it/prodotti/implode/soffitto.html mancano: 189
+08:52:30: processo: https://www.vistosi.it/prodotti/implode/sospensione.html mancano: 188
+08:52:33: faccio super scroll della pagina
+08:52:34: processo: https://www.vistosi.it/prodotti/implode/tavolo.html mancano: 187
+08:52:37: processo: https://www.vistosi.it/prodotti/implode/faretto.html mancano: 186
+08:52:40: processo: https://www.vistosi.it/prodotti/incass/soffitto.html mancano: 185
+08:52:43: processo: https://www.vistosi.it/prodotti/incass/parete.html mancano: 184
+08:52:45: processo: https://www.vistosi.it/prodotti/infinita/soffitto.html mancano: 183
+08:52:49: processo: https://www.vistosi.it/prodotti/infinita/sospensione.html mancano: 182
+08:52:52: faccio super scroll della pagina
+08:52:54: processo: https://www.vistosi.it/prodotti/infinita/parete.html mancano: 181
+08:52:56: processo: https://www.vistosi.it/prodotti/jo/tavolo.html mancano: 180
+08:52:59: processo: https://www.vistosi.it/prodotti/jube/sospensione.html mancano: 179
+08:53:02: processo: https://www.vistosi.it/prodotti/kira/sospensione.html mancano: 178
+08:53:05: processo: https://www.vistosi.it/prodotti/lacrima/sospensione.html mancano: 177
+08:53:08: processo: https://www.vistosi.it/prodotti/laguna/sospensione.html mancano: 176
+08:53:11: processo: https://www.vistosi.it/prodotti/laguna/parete.html mancano: 175
+08:53:14: processo: https://www.vistosi.it/prodotti/laguna/tavolo.html mancano: 174
+08:53:17: processo: https://www.vistosi.it/prodotti/laguna/piantana.html mancano: 173
+08:53:19: processo: https://www.vistosi.it/prodotti/lepanto/sospensione.html mancano: 172
+08:53:23: processo: https://www.vistosi.it/prodotti/lepanto/piantana.html mancano: 171
+08:53:26: processo: https://www.vistosi.it/prodotti/lio/soffitto.html mancano: 170
+08:53:29: processo: https://www.vistosi.it/prodotti/lio/sospensione.html mancano: 169
+08:53:32: faccio super scroll della pagina
+08:53:33: processo: https://www.vistosi.it/prodotti/lio/parete.html mancano: 168
+08:53:36: processo: https://www.vistosi.it/prodotti/lio/tavolo.html mancano: 167
+08:53:39: processo: https://www.vistosi.it/prodotti/lio/piantana.html mancano: 166
+08:53:41: processo: https://www.vistosi.it/prodotti/lio/faretto.html mancano: 165
+08:53:44: processo: https://www.vistosi.it/prodotti/lucciola/soffitto.html mancano: 164
+08:53:47: processo: https://www.vistosi.it/prodotti/lucciola/sospensione.html mancano: 163
+08:53:50: faccio super scroll della pagina
+08:53:52: processo: https://www.vistosi.it/prodotti/lucciola/parete.html mancano: 162
+08:53:55: processo: https://www.vistosi.it/prodotti/lucciola/tavolo.html mancano: 161
+08:53:58: processo: https://www.vistosi.it/prodotti/lucciola/piantana.html mancano: 160
+08:54:01: processo: https://www.vistosi.it/prodotti/lucciola/faretto.html mancano: 159
+08:54:04: processo: https://www.vistosi.it/prodotti/lunae/parete.html mancano: 158
+08:54:06: processo: https://www.vistosi.it/prodotti/luxor/sospensione.html mancano: 157
+08:54:09: processo: https://www.vistosi.it/prodotti/luxor/parete.html mancano: 156
+08:54:12: processo: https://www.vistosi.it/prodotti/magie/sospensione.html mancano: 155
+08:54:15: processo: https://www.vistosi.it/prodotti/magie/faretto.html mancano: 154
+08:54:17: processo: https://www.vistosi.it/prodotti/marblè/soffitto.html mancano: 153
+08:54:20: processo: https://www.vistosi.it/prodotti/marblè/sospensione.html mancano: 152
+08:54:23: processo: https://www.vistosi.it/prodotti/marblè/parete.html mancano: 151
+08:54:26: processo: https://www.vistosi.it/prodotti/marblè/tavolo.html mancano: 150
+08:54:28: processo: https://www.vistosi.it/prodotti/marblè/piantana.html mancano: 149
+08:54:31: processo: https://www.vistosi.it/prodotti/marea/soffitto.html mancano: 148
+08:54:34: processo: https://www.vistosi.it/prodotti/marea/parete.html mancano: 147
+08:54:37: processo: https://www.vistosi.it/prodotti/mia/soffitto.html mancano: 146
+08:54:40: processo: https://www.vistosi.it/prodotti/mia/sospensione.html mancano: 145
+08:54:43: processo: https://www.vistosi.it/prodotti/mia/parete.html mancano: 144
+08:54:46: processo: https://www.vistosi.it/prodotti/mini-giogali/soffitto.html mancano: 143
+08:54:49: processo: https://www.vistosi.it/prodotti/mini-giogali/sospensione.html mancano: 142
+08:54:52: processo: https://www.vistosi.it/prodotti/mini-giogali/parete.html mancano: 141
+08:54:55: processo: https://www.vistosi.it/prodotti/mini-giogali/tavolo.html mancano: 140
+08:54:57: processo: https://www.vistosi.it/prodotti/mini-giogali/piantana.html mancano: 139
+08:55:00: processo: https://www.vistosi.it/prodotti/mirage/sospensione.html mancano: 138
+08:55:03: processo: https://www.vistosi.it/prodotti/moby/parete.html mancano: 137
+08:55:06: processo: https://www.vistosi.it/prodotti/moris/soffitto.html mancano: 136
+08:55:09: processo: https://www.vistosi.it/prodotti/moris/parete.html mancano: 135
+08:55:11: processo: https://www.vistosi.it/prodotti/morrise/soffitto.html mancano: 134
+08:55:14: processo: https://www.vistosi.it/prodotti/morrise/parete.html mancano: 133
+08:55:17: processo: https://www.vistosi.it/prodotti/morrise/tavolo.html mancano: 132
+08:55:20: processo: https://www.vistosi.it/prodotti/mumba/sospensione.html mancano: 131
+08:55:23: processo: https://www.vistosi.it/prodotti/mumba/parete.html mancano: 130
+08:55:26: processo: https://www.vistosi.it/prodotti/munega/soffitto.html mancano: 129
+08:55:29: processo: https://www.vistosi.it/prodotti/munega/sospensione.html mancano: 128
+08:55:32: processo: https://www.vistosi.it/prodotti/munega/tavolo.html mancano: 127
+08:55:34: processo: https://www.vistosi.it/prodotti/naranza/sospensione.html mancano: 126
+08:55:37: processo: https://www.vistosi.it/prodotti/naxos/sospensione.html mancano: 125
+08:55:40: processo: https://www.vistosi.it/prodotti/naxos/tavolo.html mancano: 124
+08:55:43: processo: https://www.vistosi.it/prodotti/naxos/piantana.html mancano: 123
+08:55:46: processo: https://www.vistosi.it/prodotti/nebula/soffitto.html mancano: 122
+08:55:49: processo: https://www.vistosi.it/prodotti/nebula/sospensione.html mancano: 121
+08:55:52: processo: https://www.vistosi.it/prodotti/neochic/soffitto.html mancano: 120
+08:55:55: processo: https://www.vistosi.it/prodotti/neochic/sospensione.html mancano: 119
+08:55:58: faccio super scroll della pagina
+08:56:00: processo: https://www.vistosi.it/prodotti/neochic/parete.html mancano: 118
+08:56:02: processo: https://www.vistosi.it/prodotti/nessa/tavolo.html mancano: 117
+08:56:05: processo: https://www.vistosi.it/prodotti/ninfea/sospensione.html mancano: 116
+08:56:08: processo: https://www.vistosi.it/prodotti/ninfea/parete.html mancano: 115
+08:56:11: processo: https://www.vistosi.it/prodotti/nodo/sospensione.html mancano: 114
+08:56:14: processo: https://www.vistosi.it/prodotti/noon/sospensione.html mancano: 113
+08:56:17: processo: https://www.vistosi.it/prodotti/norma/parete.html mancano: 112
+08:56:19: processo: https://www.vistosi.it/prodotti/novecento/soffitto.html mancano: 111
+08:56:22: processo: https://www.vistosi.it/prodotti/novecento/sospensione.html mancano: 110
+08:56:25: processo: https://www.vistosi.it/prodotti/novecento/tavolo.html mancano: 109
+08:56:28: processo: https://www.vistosi.it/prodotti/novecento/piantana.html mancano: 108
+08:56:31: processo: https://www.vistosi.it/prodotti/nuvole/soffitto.html mancano: 107
+08:56:34: faccio super scroll della pagina
+08:56:35: processo: https://www.vistosi.it/prodotti/nuvole/sospensione.html mancano: 106
+08:56:38: faccio super scroll della pagina
+08:56:39: processo: https://www.vistosi.it/prodotti/nuvole/parete.html mancano: 105
+08:56:42: processo: https://www.vistosi.it/prodotti/oto/sospensione.html mancano: 104
+08:56:45: faccio super scroll della pagina
+08:56:47: processo: https://www.vistosi.it/prodotti/ovalina/parete.html mancano: 103
+08:56:49: processo: https://www.vistosi.it/prodotti/pagoda/soffitto.html mancano: 102
+08:56:52: processo: https://www.vistosi.it/prodotti/pagoda/sospensione.html mancano: 101
+08:56:55: processo: https://www.vistosi.it/prodotti/peggy/sospensione.html mancano: 100
+08:56:58: processo: https://www.vistosi.it/prodotti/peggy/parete.html mancano: 99
+08:57:01: processo: https://www.vistosi.it/prodotti/penta/soffitto.html mancano: 98
+08:57:04: processo: https://www.vistosi.it/prodotti/penta/sospensione.html mancano: 97
+08:57:07: processo: https://www.vistosi.it/prodotti/poc/sospensione.html mancano: 96
+08:57:10: faccio super scroll della pagina
+08:57:11: processo: https://www.vistosi.it/prodotti/poc/tavolo.html mancano: 95
+08:57:14: processo: https://www.vistosi.it/prodotti/poc/faretto.html mancano: 94
+08:57:17: processo: https://www.vistosi.it/prodotti/pod/soffitto.html mancano: 93
+08:57:20: processo: https://www.vistosi.it/prodotti/pod/sospensione.html mancano: 92
+08:57:22: processo: https://www.vistosi.it/prodotti/pod/parete.html mancano: 91
+08:57:25: processo: https://www.vistosi.it/prodotti/puppet/sospensione.html mancano: 90
+08:57:28: faccio super scroll della pagina
+08:57:30: processo: https://www.vistosi.it/prodotti/puppet/parete.html mancano: 89
+08:57:32: processo: https://www.vistosi.it/prodotti/puppet/tavolo.html mancano: 88
+08:57:35: processo: https://www.vistosi.it/prodotti/puppet/piantana.html mancano: 87
+08:57:38: processo: https://www.vistosi.it/prodotti/quadra/soffitto.html mancano: 86
+08:57:41: processo: https://www.vistosi.it/prodotti/quadra/parete.html mancano: 85
+08:57:44: processo: https://www.vistosi.it/prodotti/quadra-09/soffitto.html mancano: 84
+08:57:47: processo: https://www.vistosi.it/prodotti/quadra-09/parete.html mancano: 83
+08:57:49: processo: https://www.vistosi.it/prodotti/redentore/soffitto.html mancano: 82
+08:57:52: processo: https://www.vistosi.it/prodotti/redentore/parete.html mancano: 81
+08:57:55: processo: https://www.vistosi.it/prodotti/reder/sospensione.html mancano: 80
+08:57:58: processo: https://www.vistosi.it/prodotti/reder/parete.html mancano: 79
+08:58:02: processo: https://www.vistosi.it/prodotti/reder/tavolo.html mancano: 78
+08:58:05: processo: https://www.vistosi.it/prodotti/reder/piantana.html mancano: 77
+08:58:08: processo: https://www.vistosi.it/prodotti/rialto/soffitto.html mancano: 76
+08:58:10: processo: https://www.vistosi.it/prodotti/rialto/parete.html mancano: 75
+08:58:13: processo: https://www.vistosi.it/prodotti/riga/soffitto.html mancano: 74
+08:58:16: processo: https://www.vistosi.it/prodotti/riga/parete.html mancano: 73
+08:58:19: processo: https://www.vistosi.it/prodotti/rina/soffitto.html mancano: 72
+08:58:22: processo: https://www.vistosi.it/prodotti/rina/sospensione.html mancano: 71
+08:58:25: faccio super scroll della pagina
+08:58:27: processo: https://www.vistosi.it/prodotti/rina/tavolo.html mancano: 70
+08:58:30: processo: https://www.vistosi.it/prodotti/rina/piantana.html mancano: 69
+08:58:33: processo: https://www.vistosi.it/prodotti/rina/faretto.html mancano: 68
+08:58:36: processo: https://www.vistosi.it/prodotti/romanza/soffitto.html mancano: 67
+08:58:38: processo: https://www.vistosi.it/prodotti/romanza/parete.html mancano: 66
+08:58:41: processo: https://www.vistosi.it/prodotti/saba/soffitto.html mancano: 65
+08:58:44: processo: https://www.vistosi.it/prodotti/saba/sospensione.html mancano: 64
+08:58:47: faccio super scroll della pagina
+08:58:49: processo: https://www.vistosi.it/prodotti/saba/parete.html mancano: 63
+08:58:52: processo: https://www.vistosi.it/prodotti/san-giorgio/soffitto.html mancano: 62
+08:58:54: processo: https://www.vistosi.it/prodotti/san-giorgio/parete.html mancano: 61
+08:58:58: processo: https://www.vistosi.it/prodotti/san-marco/soffitto.html mancano: 60
+08:59:00: processo: https://www.vistosi.it/prodotti/san-marco/parete.html mancano: 59
+08:59:06: processo: https://www.vistosi.it/prodotti/sata/sospensione.html mancano: 58
+08:59:09: processo: https://www.vistosi.it/prodotti/sata/tavolo.html mancano: 57
+08:59:11: processo: https://www.vistosi.it/prodotti/sata/piantana.html mancano: 56
+08:59:49: processo: https://www.vistosi.it/prodotti/segreto/sospensione.html mancano: 55
+08:59:52: processo: https://www.vistosi.it/prodotti/segreto/parete.html mancano: 54
+08:59:55: processo: https://www.vistosi.it/prodotti/semai/sospensione.html mancano: 53
+08:59:58: faccio super scroll della pagina
+08:59:59: processo: https://www.vistosi.it/prodotti/sissi/sospensione.html mancano: 52
+09:00:02: processo: https://www.vistosi.it/prodotti/smoking/sospensione.html mancano: 51
+09:00:06: processo: https://www.vistosi.it/prodotti/smoking/piantana.html mancano: 50
+09:00:09: processo: https://www.vistosi.it/prodotti/soffio/soffitto.html mancano: 49
+09:00:11: processo: https://www.vistosi.it/prodotti/soffio/parete.html mancano: 48
+09:00:14: processo: https://www.vistosi.it/prodotti/soft/soffitto.html mancano: 47
+09:00:17: processo: https://www.vistosi.it/prodotti/soft/parete.html mancano: 46
+09:00:20: processo: https://www.vistosi.it/prodotti/sogno/soffitto.html mancano: 45
+09:00:23: processo: https://www.vistosi.it/prodotti/sogno/sospensione.html mancano: 44
+09:00:27: faccio super scroll della pagina
+09:00:27: processo: https://www.vistosi.it/prodotti/sogno/parete.html mancano: 43
+09:00:30: processo: https://www.vistosi.it/prodotti/sphere/sospensione.html mancano: 42
+09:00:33: processo: https://www.vistosi.it/prodotti/spirit/soffitto.html mancano: 41
+09:00:37: processo: https://www.vistosi.it/prodotti/spirit/sospensione.html mancano: 40
+09:00:40: faccio super scroll della pagina
+09:00:41: processo: https://www.vistosi.it/prodotti/spirit/parete.html mancano: 39
+09:00:44: processo: https://www.vistosi.it/prodotti/spirit/tavolo.html mancano: 38
+09:00:46: processo: https://www.vistosi.it/prodotti/sprout/soffitto.html mancano: 37
+09:00:49: processo: https://www.vistosi.it/prodotti/sprout/parete.html mancano: 36
+09:00:52: processo: https://www.vistosi.it/prodotti/stardust/sospensione.html mancano: 35
+09:00:55: processo: https://www.vistosi.it/prodotti/stardust/parete.html mancano: 34
+09:00:58: processo: https://www.vistosi.it/prodotti/starnet/sospensione.html mancano: 33
+09:01:01: processo: https://www.vistosi.it/prodotti/stone/sospensione.html mancano: 32
+09:01:04: processo: https://www.vistosi.it/prodotti/style/soffitto.html mancano: 31
+09:01:07: processo: https://www.vistosi.it/prodotti/style/sospensione.html mancano: 30
+09:01:10: faccio super scroll della pagina
+09:01:12: processo: https://www.vistosi.it/prodotti/style/parete.html mancano: 29
+09:01:14: processo: https://www.vistosi.it/prodotti/surface/sospensione.html mancano: 28
+09:01:18: processo: https://www.vistosi.it/prodotti/tablo/sospensione.html mancano: 27
+09:01:21: processo: https://www.vistosi.it/prodotti/tablo/tavolo.html mancano: 26
+09:01:23: processo: https://www.vistosi.it/prodotti/tablo/piantana.html mancano: 25
+09:01:26: processo: https://www.vistosi.it/prodotti/tahoma/sospensione.html mancano: 24
+09:01:29: processo: https://www.vistosi.it/prodotti/tahoma/parete.html mancano: 23
+09:01:32: processo: https://www.vistosi.it/prodotti/tahoma/tavolo.html mancano: 22
+09:01:35: processo: https://www.vistosi.it/prodotti/tahoma/faretto.html mancano: 21
+09:01:37: processo: https://www.vistosi.it/prodotti/tahoma-round/soffitto.html mancano: 20
+09:01:40: processo: https://www.vistosi.it/prodotti/tahoma-round/sospensione.html mancano: 19
+09:01:43: processo: https://www.vistosi.it/prodotti/tahoma-round/parete.html mancano: 18
+09:01:46: processo: https://www.vistosi.it/prodotti/thor/sospensione.html mancano: 17
+09:01:49: processo: https://www.vistosi.it/prodotti/thor/parete.html mancano: 16
+09:01:52: processo: https://www.vistosi.it/prodotti/thor/tavolo.html mancano: 15
+09:01:54: processo: https://www.vistosi.it/prodotti/thor/piantana.html mancano: 14
+09:01:57: processo: https://www.vistosi.it/prodotti/torcello/parete.html mancano: 13
+09:02:00: processo: https://www.vistosi.it/prodotti/trepai/sospensione.html mancano: 12
+09:02:03: processo: https://www.vistosi.it/prodotti/trepai/piantana.html mancano: 11
+09:02:05: processo: https://www.vistosi.it/prodotti/tubes/soffitto.html mancano: 10
+09:02:08: faccio super scroll della pagina
+09:02:09: processo: https://www.vistosi.it/prodotti/tubes/sospensione.html mancano: 9
+09:02:12: faccio super scroll della pagina
+09:02:14: processo: https://www.vistosi.it/prodotti/vega/tavolo.html mancano: 8
+09:02:17: processo: https://www.vistosi.it/prodotti/vega/piantana.html mancano: 7
+09:02:19: processo: https://www.vistosi.it/prodotti/withwhite/soffitto.html mancano: 6
+09:02:23: processo: https://www.vistosi.it/prodotti/withwhite/sospensione.html mancano: 5
+09:02:26: faccio super scroll della pagina
+09:02:29: processo: https://www.vistosi.it/prodotti/yuba/soffitto.html mancano: 4
+09:02:51: processo: https://www.vistosi.it/prodotti/yuba/sospensione.html mancano: 3
+09:02:54: processo: https://www.vistosi.it/prodotti/yuba/parete.html mancano: 2
+09:02:56: processo: https://www.vistosi.it/prodotti/yuba/tavolo.html mancano: 1
+09:02:59: processo: https://www.vistosi.it/prodotti/yuba/piantana.html mancano: 0
+09:03:02: FINITO
+09:03:47: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:03:47: ----------------------model: tablo--------category: sospensione
+09:03:47: ----------------------original model: TABLO',SOSPE,2A,PICCO,BIANCO,BIANCO,FL,FLUORESCENTE,P,2AP
+09:03:47: ----------------------arr_varianti:
+09:03:47: 
+09:03:47: 0
+09:03:47: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:03:47: ----------------------model: tablo--------category: sospensione
+09:03:47: ----------------------original model: TABLO',SOSPE,2A,PICCO,BIANCO,BIANCO,FL,FLUORESCENTE,P,2AP
+09:03:47: ----------------------arr_varianti:
+09:03:47: 
+09:03:47: 1
+09:03:47: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:03:47: ----------------------model: tablo--------category: sospensione
+09:03:47: ----------------------original model: TABLO',SOSPE,2A,PICCO,BIANCO,MARRON,FL,FLUORESCENTE,P,2AP
+09:03:47: ----------------------arr_varianti:
+09:03:47: 
+09:03:47: 2
+09:03:47: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:03:47: ----------------------model: tablo--------category: sospensione
+09:03:47: ----------------------original model: TABLO',SOSPE,2A,PICCO,BIANCO,MARRON,FL,FLUORESCENTE,P,2AP
+09:03:47: ----------------------arr_varianti:
+09:03:47: 
+09:03:47: 3
+09:03:47: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:03:47: ----------------------model: tablo--------category: sospensione
+09:03:47: ----------------------original model: TABLO',SOSPE,2A,PICCO,BIANCO,MA/BLU,FL,FLUORESCENTE,P,2AP
+09:03:47: ----------------------arr_varianti:
+09:03:47: 
+09:03:47: 4
+09:03:47: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:03:47: ----------------------model: tablo--------category: sospensione
+09:03:47: ----------------------original model: TABLO',SOSPE,2A,PICCO,BIANCO,MA/BLU,FL,FLUORESCENTE,P,2AP
+09:03:47: ----------------------arr_varianti:
+09:03:47: 
+09:03:47: 5
+09:08:04: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 340
+09:08:07: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 339
+09:08:10: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 338
+09:08:13: processo: https://www.vistosi.it/prodotti/alega/tavolo.html mancano: 337
+09:08:16: processo: https://www.vistosi.it/prodotti/aliki/soffitto.html mancano: 336
+09:08:18: processo: https://www.vistosi.it/prodotti/aliki/sospensione.html mancano: 335
+09:08:21: processo: https://www.vistosi.it/prodotti/aliki/parete.html mancano: 334
+09:08:24: faccio super scroll della pagina
+09:08:25: processo: https://www.vistosi.it/prodotti/alma/sospensione.html mancano: 333
+09:08:28: processo: https://www.vistosi.it/prodotti/alma/parete.html mancano: 332
+09:08:31: processo: https://www.vistosi.it/prodotti/alum/sospensione.html mancano: 331
+09:08:34: processo: https://www.vistosi.it/prodotti/alum/parete.html mancano: 330
+09:08:36: processo: https://www.vistosi.it/prodotti/alum09/soffitto.html mancano: 329
+09:08:39: processo: https://www.vistosi.it/prodotti/alum09/sospensione.html mancano: 328
+09:08:42: processo: https://www.vistosi.it/prodotti/alum09/parete.html mancano: 327
+09:08:45: processo: https://www.vistosi.it/prodotti/aria/sospensione.html mancano: 326
+09:08:47: processo: https://www.vistosi.it/prodotti/assiba/soffitto.html mancano: 325
+09:08:51: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 324
+09:08:54: faccio super scroll della pagina
+09:08:55: processo: https://www.vistosi.it/prodotti/assiba/parete.html mancano: 323
+09:08:58: processo: https://www.vistosi.it/prodotti/assiba/tavolo.html mancano: 322
+09:09:00: processo: https://www.vistosi.it/prodotti/aurea/sospensione.html mancano: 321
+09:09:03: processo: https://www.vistosi.it/prodotti/aurora/soffitto.html mancano: 320
+09:09:06: processo: https://www.vistosi.it/prodotti/aurora/sospensione.html mancano: 319
+09:09:09: faccio super scroll della pagina
+09:09:11: processo: https://www.vistosi.it/prodotti/aurora/parete.html mancano: 318
+09:09:14: processo: https://www.vistosi.it/prodotti/baco/sospensione.html mancano: 317
+09:09:16: processo: https://www.vistosi.it/prodotti/baco/parete.html mancano: 316
+09:09:19: processo: https://www.vistosi.it/prodotti/bacona/sospensione.html mancano: 315
+09:09:22: processo: https://www.vistosi.it/prodotti/bacona/parete.html mancano: 314
+09:09:25: processo: https://www.vistosi.it/prodotti/balance/soffitto.html mancano: 313
+09:09:27: processo: https://www.vistosi.it/prodotti/balance/sospensione.html mancano: 312
+09:09:30: faccio super scroll della pagina
+09:09:32: processo: https://www.vistosi.it/prodotti/balance/parete.html mancano: 311
+09:09:35: processo: https://www.vistosi.it/prodotti/bauta/sospensione.html mancano: 310
+09:09:38: processo: https://www.vistosi.it/prodotti/bianca/soffitto.html mancano: 309
+09:09:41: faccio super scroll della pagina
+09:09:42: processo: https://www.vistosi.it/prodotti/bianca/sospensione.html mancano: 308
+09:09:45: faccio super scroll della pagina
+09:09:46: processo: https://www.vistosi.it/prodotti/bianca/parete.html mancano: 307
+09:09:49: processo: https://www.vistosi.it/prodotti/bissa/tavolo.html mancano: 306
+09:09:52: processo: https://www.vistosi.it/prodotti/bissona/tavolo.html mancano: 305
+09:09:54: processo: https://www.vistosi.it/prodotti/boccia/parete.html mancano: 304
+09:09:57: processo: https://www.vistosi.it/prodotti/bolle/soffitto.html mancano: 303
+09:10:00: processo: https://www.vistosi.it/prodotti/bolle/sospensione.html mancano: 302
+09:10:03: faccio super scroll della pagina
+09:10:05: processo: https://www.vistosi.it/prodotti/bolle/tavolo.html mancano: 301
+09:10:07: processo: https://www.vistosi.it/prodotti/bolle/faretto.html mancano: 300
+09:10:10: processo: https://www.vistosi.it/prodotti/boreale/soffitto.html mancano: 299
+09:10:13: processo: https://www.vistosi.it/prodotti/boreale/sospensione.html mancano: 298
+09:10:16: processo: https://www.vistosi.it/prodotti/bot/soffitto.html mancano: 297
+09:10:18: processo: https://www.vistosi.it/prodotti/bot/sospensione.html mancano: 296
+09:10:21: faccio super scroll della pagina
+09:10:23: processo: https://www.vistosi.it/prodotti/bot/parete.html mancano: 295
+09:10:25: processo: https://www.vistosi.it/prodotti/bot/tavolo.html mancano: 294
+09:10:28: processo: https://www.vistosi.it/prodotti/bot/faretto.html mancano: 293
+09:10:31: processo: https://www.vistosi.it/prodotti/candela/sospensione.html mancano: 292
+09:10:33: processo: https://www.vistosi.it/prodotti/cheope/sospensione.html mancano: 291
+09:10:36: processo: https://www.vistosi.it/prodotti/cheope-09/sospensione.html mancano: 290
+09:10:39: processo: https://www.vistosi.it/prodotti/chimera/soffitto.html mancano: 289
+09:10:42: processo: https://www.vistosi.it/prodotti/chimera/sospensione.html mancano: 288
+09:10:45: processo: https://www.vistosi.it/prodotti/chimera/parete.html mancano: 287
+09:10:47: processo: https://www.vistosi.it/prodotti/chimera/tavolo.html mancano: 286
+09:10:50: processo: https://www.vistosi.it/prodotti/chimera/piantana.html mancano: 285
+09:10:53: processo: https://www.vistosi.it/prodotti/chimera-09/soffitto.html mancano: 284
+09:10:55: processo: https://www.vistosi.it/prodotti/chimera-09/sospensione.html mancano: 283
+09:10:58: processo: https://www.vistosi.it/prodotti/chimera-09/parete.html mancano: 282
+09:11:01: processo: https://www.vistosi.it/prodotti/chimera-09/tavolo.html mancano: 281
+09:11:03: processo: https://www.vistosi.it/prodotti/chimera-09/piantana.html mancano: 280
+09:11:06: processo: https://www.vistosi.it/prodotti/cild/sospensione.html mancano: 279
+09:11:09: faccio super scroll della pagina
+09:11:11: processo: https://www.vistosi.it/prodotti/cild/parete.html mancano: 278
+09:11:14: processo: https://www.vistosi.it/prodotti/ciondo/sospensione.html mancano: 277
+09:11:17: processo: https://www.vistosi.it/prodotti/ciondo/parete.html mancano: 276
+09:11:19: processo: https://www.vistosi.it/prodotti/cleo/sospensione.html mancano: 275
+09:11:22: processo: https://www.vistosi.it/prodotti/cleo/parete.html mancano: 274
+09:11:25: processo: https://www.vistosi.it/prodotti/cloth/sospensione.html mancano: 273
+09:11:28: processo: https://www.vistosi.it/prodotti/cloth/parete.html mancano: 272
+09:11:31: processo: https://www.vistosi.it/prodotti/cloth/tavolo.html mancano: 271
+09:11:34: processo: https://www.vistosi.it/prodotti/cloth/piantana.html mancano: 270
+09:11:36: processo: https://www.vistosi.it/prodotti/comari/soffitto.html mancano: 269
+09:11:39: processo: https://www.vistosi.it/prodotti/comari/sospensione.html mancano: 268
+09:11:42: processo: https://www.vistosi.it/prodotti/comari/parete.html mancano: 267
+09:11:45: processo: https://www.vistosi.it/prodotti/comari/tavolo.html mancano: 266
+09:11:47: processo: https://www.vistosi.it/prodotti/corner/parete.html mancano: 265
+09:11:50: processo: https://www.vistosi.it/prodotti/cristallina/sospensione.html mancano: 264
+09:11:53: processo: https://www.vistosi.it/prodotti/dafne/parete.html mancano: 263
+09:11:56: processo: https://www.vistosi.it/prodotti/damasco/sospensione.html mancano: 262
+09:11:59: faccio super scroll della pagina
+09:12:00: processo: https://www.vistosi.it/prodotti/damasco/parete.html mancano: 261
+09:12:04: processo: https://www.vistosi.it/prodotti/damasco/tavolo.html mancano: 260
+09:12:07: processo: https://www.vistosi.it/prodotti/damasco/piantana.html mancano: 259
+09:12:10: processo: https://www.vistosi.it/prodotti/damasco/faretto.html mancano: 258
+09:12:12: processo: https://www.vistosi.it/prodotti/diadema/soffitto.html mancano: 257
+09:12:15: processo: https://www.vistosi.it/prodotti/diadema/sospensione.html mancano: 256
+09:12:18: faccio super scroll della pagina
+09:12:23: processo: https://www.vistosi.it/prodotti/diadema/parete.html mancano: 255
+09:12:26: processo: https://www.vistosi.it/prodotti/diadema/tavolo.html mancano: 254
+09:12:28: processo: https://www.vistosi.it/prodotti/diadema/piantana.html mancano: 253
+09:12:31: processo: https://www.vistosi.it/prodotti/diadema/faretto.html mancano: 252
+09:12:34: processo: https://www.vistosi.it/prodotti/diamante/soffitto.html mancano: 251
+09:12:37: processo: https://www.vistosi.it/prodotti/diamante/sospensione.html mancano: 250
+09:12:40: processo: https://www.vistosi.it/prodotti/diamante/parete.html mancano: 249
+09:12:42: processo: https://www.vistosi.it/prodotti/diamante/tavolo.html mancano: 248
+09:12:45: processo: https://www.vistosi.it/prodotti/diamante/faretto.html mancano: 247
+09:12:48: processo: https://www.vistosi.it/prodotti/dodo/soffitto.html mancano: 246
+09:12:51: processo: https://www.vistosi.it/prodotti/dodo/parete.html mancano: 245
+09:12:54: processo: https://www.vistosi.it/prodotti/dogi/soffitto.html mancano: 244
+09:12:57: processo: https://www.vistosi.it/prodotti/dogi/parete.html mancano: 243
+09:13:00: processo: https://www.vistosi.it/prodotti/dos/sospensione.html mancano: 242
+09:13:03: processo: https://www.vistosi.it/prodotti/dos/parete.html mancano: 241
+09:13:05: processo: https://www.vistosi.it/prodotti/dress/soffitto.html mancano: 240
+09:13:09: processo: https://www.vistosi.it/prodotti/dress/sospensione.html mancano: 239
+09:13:11: processo: https://www.vistosi.it/prodotti/dress/parete.html mancano: 238
+09:13:14: processo: https://www.vistosi.it/prodotti/ecos/soffitto.html mancano: 237
+09:13:17: processo: https://www.vistosi.it/prodotti/ecos/sospensione.html mancano: 236
+09:13:20: processo: https://www.vistosi.it/prodotti/ecos/parete.html mancano: 235
+09:13:23: processo: https://www.vistosi.it/prodotti/ecos/piantana.html mancano: 234
+09:13:25: processo: https://www.vistosi.it/prodotti/enne-luci/sospensione.html mancano: 233
+09:13:28: processo: https://www.vistosi.it/prodotti/enne-luci/parete.html mancano: 232
+09:13:31: processo: https://www.vistosi.it/prodotti/enne-luci/tavolo.html mancano: 231
+09:13:33: processo: https://www.vistosi.it/prodotti/enne-luci/piantana.html mancano: 230
+09:13:36: processo: https://www.vistosi.it/prodotti/essence/sospensione.html mancano: 229
+09:13:39: processo: https://www.vistosi.it/prodotti/essence/tavolo.html mancano: 228
+09:13:42: processo: https://www.vistosi.it/prodotti/essence/piantana.html mancano: 227
+09:13:44: processo: https://www.vistosi.it/prodotti/ferea/sospensione.html mancano: 226
+09:13:47: processo: https://www.vistosi.it/prodotti/ferea/parete.html mancano: 225
+09:13:50: processo: https://www.vistosi.it/prodotti/ferea/tavolo.html mancano: 224
+09:13:52: processo: https://www.vistosi.it/prodotti/ferea/piantana.html mancano: 223
+09:13:55: processo: https://www.vistosi.it/prodotti/follia/soffitto.html mancano: 222
+09:13:58: processo: https://www.vistosi.it/prodotti/follia/sospensione.html mancano: 221
+09:14:01: faccio super scroll della pagina
+09:14:02: processo: https://www.vistosi.it/prodotti/follia/parete.html mancano: 220
+09:14:05: processo: https://www.vistosi.it/prodotti/follia/tavolo.html mancano: 219
+09:14:08: processo: https://www.vistosi.it/prodotti/fuochi/soffitto.html mancano: 218
+09:14:11: processo: https://www.vistosi.it/prodotti/fuochi/parete.html mancano: 217
+09:14:13: processo: https://www.vistosi.it/prodotti/futura/soffitto.html mancano: 216
+09:14:16: processo: https://www.vistosi.it/prodotti/futura/sospensione.html mancano: 215
+09:14:19: processo: https://www.vistosi.it/prodotti/futura/parete.html mancano: 214
+09:14:22: processo: https://www.vistosi.it/prodotti/futura/tavolo.html mancano: 213
+09:14:24: processo: https://www.vistosi.it/prodotti/futura/piantana.html mancano: 212
+09:14:27: processo: https://www.vistosi.it/prodotti/giglio/parete.html mancano: 211
+09:14:30: processo: https://www.vistosi.it/prodotti/giogali/soffitto.html mancano: 210
+09:14:33: processo: https://www.vistosi.it/prodotti/giogali/sospensione.html mancano: 209
+09:14:36: processo: https://www.vistosi.it/prodotti/giogali/parete.html mancano: 208
+09:14:39: processo: https://www.vistosi.it/prodotti/giogali/piantana.html mancano: 207
+09:14:42: processo: https://www.vistosi.it/prodotti/giogali-3d/sospensione.html mancano: 206
+09:14:44: processo: https://www.vistosi.it/prodotti/giubileo/soffitto.html mancano: 205
+09:14:47: processo: https://www.vistosi.it/prodotti/giubileo/sospensione.html mancano: 204
+09:14:50: processo: https://www.vistosi.it/prodotti/giubileo/parete.html mancano: 203
+09:14:53: processo: https://www.vistosi.it/prodotti/giudecca/soffitto.html mancano: 202
+09:14:56: processo: https://www.vistosi.it/prodotti/giudecca/sospensione.html mancano: 201
+09:14:59: processo: https://www.vistosi.it/prodotti/giudecca/parete.html mancano: 200
+09:15:01: processo: https://www.vistosi.it/prodotti/gloria/soffitto.html mancano: 199
+09:15:04: processo: https://www.vistosi.it/prodotti/gloria/sospensione.html mancano: 198
+09:15:07: processo: https://www.vistosi.it/prodotti/gloria/parete.html mancano: 197
+09:15:10: processo: https://www.vistosi.it/prodotti/gloria/tavolo.html mancano: 196
+09:15:13: processo: https://www.vistosi.it/prodotti/gloria/piantana.html mancano: 195
+09:15:15: processo: https://www.vistosi.it/prodotti/goccia/parete.html mancano: 194
+09:15:18: processo: https://www.vistosi.it/prodotti/goto/soffitto.html mancano: 193
+09:15:21: processo: https://www.vistosi.it/prodotti/goto/sospensione.html mancano: 192
+09:15:24: processo: https://www.vistosi.it/prodotti/goto/parete.html mancano: 191
+09:15:27: processo: https://www.vistosi.it/prodotti/goto/tavolo.html mancano: 190
+09:15:30: processo: https://www.vistosi.it/prodotti/implode/soffitto.html mancano: 189
+09:15:33: processo: https://www.vistosi.it/prodotti/implode/sospensione.html mancano: 188
+09:15:36: faccio super scroll della pagina
+09:15:37: processo: https://www.vistosi.it/prodotti/implode/tavolo.html mancano: 187
+09:15:40: processo: https://www.vistosi.it/prodotti/implode/faretto.html mancano: 186
+09:15:43: processo: https://www.vistosi.it/prodotti/incass/soffitto.html mancano: 185
+09:15:46: processo: https://www.vistosi.it/prodotti/incass/parete.html mancano: 184
+09:15:49: processo: https://www.vistosi.it/prodotti/infinita/soffitto.html mancano: 183
+09:15:52: processo: https://www.vistosi.it/prodotti/infinita/sospensione.html mancano: 182
+09:15:55: faccio super scroll della pagina
+09:15:57: processo: https://www.vistosi.it/prodotti/infinita/parete.html mancano: 181
+09:16:00: processo: https://www.vistosi.it/prodotti/jo/tavolo.html mancano: 180
+09:16:02: processo: https://www.vistosi.it/prodotti/jube/sospensione.html mancano: 179
+09:16:06: processo: https://www.vistosi.it/prodotti/kira/sospensione.html mancano: 178
+09:16:09: processo: https://www.vistosi.it/prodotti/lacrima/sospensione.html mancano: 177
+09:16:12: processo: https://www.vistosi.it/prodotti/laguna/sospensione.html mancano: 176
+09:16:15: processo: https://www.vistosi.it/prodotti/laguna/parete.html mancano: 175
+09:16:18: processo: https://www.vistosi.it/prodotti/laguna/tavolo.html mancano: 174
+09:16:20: processo: https://www.vistosi.it/prodotti/laguna/piantana.html mancano: 173
+09:16:23: processo: https://www.vistosi.it/prodotti/lepanto/sospensione.html mancano: 172
+09:16:26: processo: https://www.vistosi.it/prodotti/lepanto/piantana.html mancano: 171
+09:16:29: processo: https://www.vistosi.it/prodotti/lio/soffitto.html mancano: 170
+09:16:31: processo: https://www.vistosi.it/prodotti/lio/sospensione.html mancano: 169
+09:16:34: faccio super scroll della pagina
+09:16:36: processo: https://www.vistosi.it/prodotti/lio/parete.html mancano: 168
+09:16:39: processo: https://www.vistosi.it/prodotti/lio/tavolo.html mancano: 167
+09:16:41: processo: https://www.vistosi.it/prodotti/lio/piantana.html mancano: 166
+09:16:44: processo: https://www.vistosi.it/prodotti/lio/faretto.html mancano: 165
+09:16:47: processo: https://www.vistosi.it/prodotti/lucciola/soffitto.html mancano: 164
+09:16:50: processo: https://www.vistosi.it/prodotti/lucciola/sospensione.html mancano: 163
+09:16:53: faccio super scroll della pagina
+09:16:55: processo: https://www.vistosi.it/prodotti/lucciola/parete.html mancano: 162
+09:16:58: processo: https://www.vistosi.it/prodotti/lucciola/tavolo.html mancano: 161
+09:17:01: processo: https://www.vistosi.it/prodotti/lucciola/piantana.html mancano: 160
+09:17:04: processo: https://www.vistosi.it/prodotti/lucciola/faretto.html mancano: 159
+09:17:06: processo: https://www.vistosi.it/prodotti/lunae/parete.html mancano: 158
+09:17:09: processo: https://www.vistosi.it/prodotti/luxor/sospensione.html mancano: 157
+09:17:12: processo: https://www.vistosi.it/prodotti/luxor/parete.html mancano: 156
+09:17:15: processo: https://www.vistosi.it/prodotti/magie/sospensione.html mancano: 155
+09:17:18: processo: https://www.vistosi.it/prodotti/magie/faretto.html mancano: 154
+09:17:55: processo: https://www.vistosi.it/prodotti/marblè/soffitto.html mancano: 153
+09:17:58: processo: https://www.vistosi.it/prodotti/marblè/sospensione.html mancano: 152
+09:18:01: processo: https://www.vistosi.it/prodotti/marblè/parete.html mancano: 151
+09:18:05: processo: https://www.vistosi.it/prodotti/marblè/tavolo.html mancano: 150
+09:18:08: processo: https://www.vistosi.it/prodotti/marblè/piantana.html mancano: 149
+09:18:11: processo: https://www.vistosi.it/prodotti/marea/soffitto.html mancano: 148
+09:18:15: processo: https://www.vistosi.it/prodotti/marea/parete.html mancano: 147
+09:18:18: processo: https://www.vistosi.it/prodotti/mia/soffitto.html mancano: 146
+09:18:21: processo: https://www.vistosi.it/prodotti/mia/sospensione.html mancano: 145
+09:18:24: processo: https://www.vistosi.it/prodotti/mia/parete.html mancano: 144
+09:18:27: processo: https://www.vistosi.it/prodotti/mini-giogali/soffitto.html mancano: 143
+09:18:31: processo: https://www.vistosi.it/prodotti/mini-giogali/sospensione.html mancano: 142
+09:18:34: processo: https://www.vistosi.it/prodotti/mini-giogali/parete.html mancano: 141
+09:18:37: processo: https://www.vistosi.it/prodotti/mini-giogali/tavolo.html mancano: 140
+09:18:40: processo: https://www.vistosi.it/prodotti/mini-giogali/piantana.html mancano: 139
+09:18:43: processo: https://www.vistosi.it/prodotti/mirage/sospensione.html mancano: 138
+09:18:46: processo: https://www.vistosi.it/prodotti/moby/parete.html mancano: 137
+09:18:49: processo: https://www.vistosi.it/prodotti/moris/soffitto.html mancano: 136
+09:18:52: processo: https://www.vistosi.it/prodotti/moris/parete.html mancano: 135
+09:18:55: processo: https://www.vistosi.it/prodotti/morrise/soffitto.html mancano: 134
+09:18:58: processo: https://www.vistosi.it/prodotti/morrise/parete.html mancano: 133
+09:19:01: processo: https://www.vistosi.it/prodotti/morrise/tavolo.html mancano: 132
+09:19:04: processo: https://www.vistosi.it/prodotti/mumba/sospensione.html mancano: 131
+09:19:07: processo: https://www.vistosi.it/prodotti/mumba/parete.html mancano: 130
+09:19:10: processo: https://www.vistosi.it/prodotti/munega/soffitto.html mancano: 129
+09:19:13: processo: https://www.vistosi.it/prodotti/munega/sospensione.html mancano: 128
+09:19:16: processo: https://www.vistosi.it/prodotti/munega/tavolo.html mancano: 127
+09:19:19: processo: https://www.vistosi.it/prodotti/naranza/sospensione.html mancano: 126
+09:19:23: processo: https://www.vistosi.it/prodotti/naxos/sospensione.html mancano: 125
+09:19:26: processo: https://www.vistosi.it/prodotti/naxos/tavolo.html mancano: 124
+09:19:29: processo: https://www.vistosi.it/prodotti/naxos/piantana.html mancano: 123
+09:19:31: processo: https://www.vistosi.it/prodotti/nebula/soffitto.html mancano: 122
+09:19:34: processo: https://www.vistosi.it/prodotti/nebula/sospensione.html mancano: 121
+09:19:38: processo: https://www.vistosi.it/prodotti/neochic/soffitto.html mancano: 120
+09:19:41: processo: https://www.vistosi.it/prodotti/neochic/sospensione.html mancano: 119
+09:19:44: faccio super scroll della pagina
+09:19:46: processo: https://www.vistosi.it/prodotti/neochic/parete.html mancano: 118
+09:19:49: processo: https://www.vistosi.it/prodotti/nessa/tavolo.html mancano: 117
+09:19:52: processo: https://www.vistosi.it/prodotti/ninfea/sospensione.html mancano: 116
+09:19:55: processo: https://www.vistosi.it/prodotti/ninfea/parete.html mancano: 115
+09:19:58: processo: https://www.vistosi.it/prodotti/nodo/sospensione.html mancano: 114
+09:20:01: processo: https://www.vistosi.it/prodotti/noon/sospensione.html mancano: 113
+09:20:04: processo: https://www.vistosi.it/prodotti/norma/parete.html mancano: 112
+09:20:07: processo: https://www.vistosi.it/prodotti/novecento/soffitto.html mancano: 111
+09:20:10: processo: https://www.vistosi.it/prodotti/novecento/sospensione.html mancano: 110
+09:20:13: processo: https://www.vistosi.it/prodotti/novecento/tavolo.html mancano: 109
+09:20:16: processo: https://www.vistosi.it/prodotti/novecento/piantana.html mancano: 108
+09:20:19: processo: https://www.vistosi.it/prodotti/nuvole/soffitto.html mancano: 107
+09:20:22: faccio super scroll della pagina
+09:20:23: processo: https://www.vistosi.it/prodotti/nuvole/sospensione.html mancano: 106
+09:20:27: faccio super scroll della pagina
+09:20:28: processo: https://www.vistosi.it/prodotti/nuvole/parete.html mancano: 105
+09:20:31: processo: https://www.vistosi.it/prodotti/oto/sospensione.html mancano: 104
+09:20:35: faccio super scroll della pagina
+09:20:37: processo: https://www.vistosi.it/prodotti/ovalina/parete.html mancano: 103
+09:20:40: processo: https://www.vistosi.it/prodotti/pagoda/soffitto.html mancano: 102
+09:20:43: processo: https://www.vistosi.it/prodotti/pagoda/sospensione.html mancano: 101
+09:20:46: processo: https://www.vistosi.it/prodotti/peggy/sospensione.html mancano: 100
+09:20:49: processo: https://www.vistosi.it/prodotti/peggy/parete.html mancano: 99
+09:20:52: processo: https://www.vistosi.it/prodotti/penta/soffitto.html mancano: 98
+09:20:55: processo: https://www.vistosi.it/prodotti/penta/sospensione.html mancano: 97
+09:20:58: processo: https://www.vistosi.it/prodotti/poc/sospensione.html mancano: 96
+09:21:01: faccio super scroll della pagina
+09:21:02: processo: https://www.vistosi.it/prodotti/poc/tavolo.html mancano: 95
+09:21:05: processo: https://www.vistosi.it/prodotti/poc/faretto.html mancano: 94
+09:21:08: processo: https://www.vistosi.it/prodotti/pod/soffitto.html mancano: 93
+09:21:11: processo: https://www.vistosi.it/prodotti/pod/sospensione.html mancano: 92
+09:21:14: processo: https://www.vistosi.it/prodotti/pod/parete.html mancano: 91
+09:21:17: processo: https://www.vistosi.it/prodotti/puppet/sospensione.html mancano: 90
+09:21:20: faccio super scroll della pagina
+09:21:22: processo: https://www.vistosi.it/prodotti/puppet/parete.html mancano: 89
+09:21:24: processo: https://www.vistosi.it/prodotti/puppet/tavolo.html mancano: 88
+09:21:27: processo: https://www.vistosi.it/prodotti/puppet/piantana.html mancano: 87
+09:21:30: processo: https://www.vistosi.it/prodotti/quadra/soffitto.html mancano: 86
+09:21:33: processo: https://www.vistosi.it/prodotti/quadra/parete.html mancano: 85
+09:21:36: processo: https://www.vistosi.it/prodotti/quadra-09/soffitto.html mancano: 84
+09:21:39: processo: https://www.vistosi.it/prodotti/quadra-09/parete.html mancano: 83
+09:21:42: processo: https://www.vistosi.it/prodotti/redentore/soffitto.html mancano: 82
+09:21:45: processo: https://www.vistosi.it/prodotti/redentore/parete.html mancano: 81
+09:21:48: processo: https://www.vistosi.it/prodotti/reder/sospensione.html mancano: 80
+09:21:51: processo: https://www.vistosi.it/prodotti/reder/parete.html mancano: 79
+09:21:54: processo: https://www.vistosi.it/prodotti/reder/tavolo.html mancano: 78
+09:21:57: processo: https://www.vistosi.it/prodotti/reder/piantana.html mancano: 77
+09:22:00: processo: https://www.vistosi.it/prodotti/rialto/soffitto.html mancano: 76
+09:22:03: processo: https://www.vistosi.it/prodotti/rialto/parete.html mancano: 75
+09:22:06: processo: https://www.vistosi.it/prodotti/riga/soffitto.html mancano: 74
+09:22:09: processo: https://www.vistosi.it/prodotti/riga/parete.html mancano: 73
+09:22:12: processo: https://www.vistosi.it/prodotti/rina/soffitto.html mancano: 72
+09:22:15: processo: https://www.vistosi.it/prodotti/rina/sospensione.html mancano: 71
+09:22:19: faccio super scroll della pagina
+09:22:21: processo: https://www.vistosi.it/prodotti/rina/tavolo.html mancano: 70
+09:22:24: processo: https://www.vistosi.it/prodotti/rina/piantana.html mancano: 69
+09:22:27: processo: https://www.vistosi.it/prodotti/rina/faretto.html mancano: 68
+09:22:30: processo: https://www.vistosi.it/prodotti/romanza/soffitto.html mancano: 67
+09:22:33: processo: https://www.vistosi.it/prodotti/romanza/parete.html mancano: 66
+09:22:36: processo: https://www.vistosi.it/prodotti/saba/soffitto.html mancano: 65
+09:22:40: processo: https://www.vistosi.it/prodotti/saba/sospensione.html mancano: 64
+09:22:43: faccio super scroll della pagina
+09:22:44: processo: https://www.vistosi.it/prodotti/saba/parete.html mancano: 63
+09:22:47: processo: https://www.vistosi.it/prodotti/san-giorgio/soffitto.html mancano: 62
+09:22:50: processo: https://www.vistosi.it/prodotti/san-giorgio/parete.html mancano: 61
+09:22:53: processo: https://www.vistosi.it/prodotti/san-marco/soffitto.html mancano: 60
+09:22:56: processo: https://www.vistosi.it/prodotti/san-marco/parete.html mancano: 59
+09:22:59: processo: https://www.vistosi.it/prodotti/sata/sospensione.html mancano: 58
+09:23:02: processo: https://www.vistosi.it/prodotti/sata/tavolo.html mancano: 57
+09:23:05: processo: https://www.vistosi.it/prodotti/sata/piantana.html mancano: 56
+09:23:08: processo: https://www.vistosi.it/prodotti/segreto/sospensione.html mancano: 55
+09:23:11: processo: https://www.vistosi.it/prodotti/segreto/parete.html mancano: 54
+09:23:14: processo: https://www.vistosi.it/prodotti/semai/sospensione.html mancano: 53
+09:23:17: faccio super scroll della pagina
+09:23:19: processo: https://www.vistosi.it/prodotti/sissi/sospensione.html mancano: 52
+09:23:22: processo: https://www.vistosi.it/prodotti/smoking/sospensione.html mancano: 51
+09:23:25: processo: https://www.vistosi.it/prodotti/smoking/piantana.html mancano: 50
+09:23:28: processo: https://www.vistosi.it/prodotti/soffio/soffitto.html mancano: 49
+09:23:31: processo: https://www.vistosi.it/prodotti/soffio/parete.html mancano: 48
+09:23:34: processo: https://www.vistosi.it/prodotti/soft/soffitto.html mancano: 47
+09:23:37: processo: https://www.vistosi.it/prodotti/soft/parete.html mancano: 46
+09:23:40: processo: https://www.vistosi.it/prodotti/sogno/soffitto.html mancano: 45
+09:23:43: processo: https://www.vistosi.it/prodotti/sogno/sospensione.html mancano: 44
+09:23:46: faccio super scroll della pagina
+09:23:47: processo: https://www.vistosi.it/prodotti/sogno/parete.html mancano: 43
+09:23:50: processo: https://www.vistosi.it/prodotti/sphere/sospensione.html mancano: 42
+09:23:53: processo: https://www.vistosi.it/prodotti/spirit/soffitto.html mancano: 41
+09:23:56: processo: https://www.vistosi.it/prodotti/spirit/sospensione.html mancano: 40
+09:23:59: faccio super scroll della pagina
+09:24:00: processo: https://www.vistosi.it/prodotti/spirit/parete.html mancano: 39
+09:24:03: processo: https://www.vistosi.it/prodotti/spirit/tavolo.html mancano: 38
+09:24:06: processo: https://www.vistosi.it/prodotti/sprout/soffitto.html mancano: 37
+09:24:09: processo: https://www.vistosi.it/prodotti/sprout/parete.html mancano: 36
+09:24:12: processo: https://www.vistosi.it/prodotti/stardust/sospensione.html mancano: 35
+09:24:15: processo: https://www.vistosi.it/prodotti/stardust/parete.html mancano: 34
+09:24:18: processo: https://www.vistosi.it/prodotti/starnet/sospensione.html mancano: 33
+09:24:21: processo: https://www.vistosi.it/prodotti/stone/sospensione.html mancano: 32
+09:24:24: processo: https://www.vistosi.it/prodotti/style/soffitto.html mancano: 31
+09:24:28: processo: https://www.vistosi.it/prodotti/style/sospensione.html mancano: 30
+09:24:31: faccio super scroll della pagina
+09:24:32: processo: https://www.vistosi.it/prodotti/style/parete.html mancano: 29
+09:24:35: processo: https://www.vistosi.it/prodotti/surface/sospensione.html mancano: 28
+09:24:38: processo: https://www.vistosi.it/prodotti/tablo/sospensione.html mancano: 27
+09:24:41: processo: https://www.vistosi.it/prodotti/tablo/tavolo.html mancano: 26
+09:24:44: processo: https://www.vistosi.it/prodotti/tablo/piantana.html mancano: 25
+09:24:47: processo: https://www.vistosi.it/prodotti/tahoma/sospensione.html mancano: 24
+09:24:51: processo: https://www.vistosi.it/prodotti/tahoma/parete.html mancano: 23
+09:24:53: processo: https://www.vistosi.it/prodotti/tahoma/tavolo.html mancano: 22
+09:24:56: processo: https://www.vistosi.it/prodotti/tahoma/faretto.html mancano: 21
+09:24:59: processo: https://www.vistosi.it/prodotti/tahoma-round/soffitto.html mancano: 20
+09:25:02: processo: https://www.vistosi.it/prodotti/tahoma-round/sospensione.html mancano: 19
+09:25:05: processo: https://www.vistosi.it/prodotti/tahoma-round/parete.html mancano: 18
+09:25:08: processo: https://www.vistosi.it/prodotti/thor/sospensione.html mancano: 17
+09:25:11: processo: https://www.vistosi.it/prodotti/thor/parete.html mancano: 16
+09:25:14: processo: https://www.vistosi.it/prodotti/thor/tavolo.html mancano: 15
+09:25:17: processo: https://www.vistosi.it/prodotti/thor/piantana.html mancano: 14
+09:25:20: processo: https://www.vistosi.it/prodotti/torcello/parete.html mancano: 13
+09:25:23: processo: https://www.vistosi.it/prodotti/trepai/sospensione.html mancano: 12
+09:25:26: processo: https://www.vistosi.it/prodotti/trepai/piantana.html mancano: 11
+09:25:29: processo: https://www.vistosi.it/prodotti/tubes/soffitto.html mancano: 10
+09:25:32: faccio super scroll della pagina
+09:25:33: processo: https://www.vistosi.it/prodotti/tubes/sospensione.html mancano: 9
+09:25:36: faccio super scroll della pagina
+09:25:38: processo: https://www.vistosi.it/prodotti/vega/tavolo.html mancano: 8
+09:25:41: processo: https://www.vistosi.it/prodotti/vega/piantana.html mancano: 7
+09:25:44: processo: https://www.vistosi.it/prodotti/withwhite/soffitto.html mancano: 6
+09:25:47: processo: https://www.vistosi.it/prodotti/withwhite/sospensione.html mancano: 5
+09:25:50: faccio super scroll della pagina
+09:25:53: processo: https://www.vistosi.it/prodotti/yuba/soffitto.html mancano: 4
+09:25:56: processo: https://www.vistosi.it/prodotti/yuba/sospensione.html mancano: 3
+09:25:59: processo: https://www.vistosi.it/prodotti/yuba/parete.html mancano: 2
+09:26:01: processo: https://www.vistosi.it/prodotti/yuba/tavolo.html mancano: 1
+09:26:04: processo: https://www.vistosi.it/prodotti/yuba/piantana.html mancano: 0
+09:26:07: FINITO
+09:26:36: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:26:36: ----------------------model: damasco--------category: parete
+09:26:36: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,BIANCO,NICHEL,G9,P
+09:26:36: ----------------------arr_varianti:
+09:26:36: 
+09:26:36: 0
+09:26:36: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:26:36: ----------------------model: damasco--------category: parete
+09:26:36: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,BIANCO,NICHEL,G9,P
+09:26:36: ----------------------arr_varianti:
+09:26:36: 
+09:26:36: 1
+09:26:36: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:26:36: ----------------------model: damasco--------category: parete
+09:26:36: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,CRISTAL,NICHEL,G9,P
+09:26:36: ----------------------arr_varianti:
+09:26:36: 
+09:26:36: 2
+09:26:36: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:26:36: ----------------------model: damasco--------category: parete
+09:26:36: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,CRISTAL,NICHEL,G9,P
+09:26:36: ----------------------arr_varianti:
+09:26:36: 
+09:26:36: 3
+09:26:36: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:26:36: ----------------------model: damasco--------category: parete
+09:26:36: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,NERO,NICHEL,G9,P
+09:26:36: ----------------------arr_varianti:
+09:26:36: 
+09:26:36: 4
+09:26:36: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:26:36: ----------------------model: damasco--------category: parete
+09:26:36: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,NERO,NICHEL,G9,P
+09:26:36: ----------------------arr_varianti:
+09:26:36: 
+09:26:36: 5
+09:26:36: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:26:36: ----------------------model: damasco--------category: parete
+09:26:36: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,TOPAZIO,NICHEL,G9,P
+09:26:36: ----------------------arr_varianti:
+09:26:36: 
+09:26:36: 6
+09:26:36: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:26:36: ----------------------model: damasco--------category: parete
+09:26:36: ----------------------original model: DAMASCO,APPLI,2A,PICCO,CRISTALL,TOPAZIO,NICHEL,G9,P
+09:26:36: ----------------------arr_varianti:
+09:26:36: 
+09:26:36: 7
+09:26:38: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:26:38: ----------------------model: tablo--------category: sospensione
+09:26:38: ----------------------original model: TABLO',SOSPE,2A,PICCO,BIANCO,BIANCO,FL,FLUORESCENTE,P,2AP
+09:26:38: ----------------------arr_varianti:
+09:26:38: 
+09:26:38: 8
+09:26:38: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:26:38: ----------------------model: tablo--------category: sospensione
+09:26:38: ----------------------original model: TABLO',SOSPE,2A,PICCO,BIANCO,BIANCO,FL,FLUORESCENTE,P,2AP
+09:26:38: ----------------------arr_varianti:
+09:26:38: 
+09:26:38: 9
+09:26:38: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:26:38: ----------------------model: tablo--------category: sospensione
+09:26:38: ----------------------original model: TABLO',SOSPE,2A,PICCO,BIANCO,MARRON,FL,FLUORESCENTE,P,2AP
+09:26:38: ----------------------arr_varianti:
+09:26:38: 
+09:26:38: 10
+09:26:38: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:26:38: ----------------------model: tablo--------category: sospensione
+09:26:38: ----------------------original model: TABLO',SOSPE,2A,PICCO,BIANCO,MARRON,FL,FLUORESCENTE,P,2AP
+09:26:38: ----------------------arr_varianti:
+09:26:38: 
+09:26:38: 11
+09:26:38: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:26:38: ----------------------model: tablo--------category: sospensione
+09:26:38: ----------------------original model: TABLO',SOSPE,2A,PICCO,BIANCO,MA/BLU,FL,FLUORESCENTE,P,2AP
+09:26:38: ----------------------arr_varianti:
+09:26:38: 
+09:26:38: 12
+09:26:38: Attenzione per questo articolo c'è qualche problema nel recupero dell'immagine light_schema
+09:26:38: ----------------------model: tablo--------category: sospensione
+09:26:38: ----------------------original model: TABLO',SOSPE,2A,PICCO,BIANCO,MA/BLU,FL,FLUORESCENTE,P,2AP
+09:26:38: ----------------------arr_varianti:
+09:26:38: 
+09:26:38: 13
