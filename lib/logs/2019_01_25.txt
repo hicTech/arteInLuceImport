@@ -14,3 +14,7 @@
 09:27:31: processo: https://www.vistosi.it/prodotti/alum09/sospensione.html mancano: 328
 09:27:34: processo: https://www.vistosi.it/prodotti/alum09/parete.html mancano: 327
 09:27:36: processo: https://www.vistosi.it/prodotti/aria/sospensione.html mancano: 326
+09:27:37: processo: https://www.vistosi.it/prodotti/assiba/soffitto.html mancano: 325
+09:27:40: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 324
+09:27:42: faccio super scroll della pagina
+09:27:43: processo: https://www.vistosi.it/prodotti/assiba/parete.html mancano: 323
