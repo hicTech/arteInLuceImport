@@ -8,6 +8,7 @@ var S = require('string');
 var path = "../xls/";
 
 var count = 0;
+
  
 fs.readdir(path, function(err, cartella_fornitore) {
     
@@ -71,6 +72,8 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                     }   
                                                 });
 
+                                                
+
                                                 fs.writeFile(path_cartella +"/result/"+cartella+'.json', JSON.stringify(json_fornitore, null, 4), 'utf8', function(){
                                                 //_.log("FINITO");
                                                 });
@@ -133,6 +136,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var category = undefined;   // è un array di categorie, i possibili valori sono: terra | tavolo | parete | soffitto | sospensione | altro (nel caso di "altro" quando possibile viene anche specificato di cosa si tratta, tipo: kit, vetro....)
         var type = undefined;       // è un valore unico ovvero una stringa
         var component = undefined;
+        var component_of = undefined;
         var size = undefined;
         var outdoor = undefined;
         var max_discount = undefined;
@@ -306,6 +310,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 switcher = (articolo.indexOf("ON/OFF") != -1)? 1 : 0;
                 type = undefined;
                 component = isComponent(model_id,row["Componente"]);
+                component_of = (component == 1)? model : "";
                 size = getSize(articolo);
                 outdoor = (articolo.indexOf("OUTDOOR") != -1)? 1 : 0;
                 max_discount = 0;
@@ -839,6 +844,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     
             }
 
+            
+
             function getDesc(model,category,assets_json){
                 var ret = undefined;
                         
@@ -889,6 +896,19 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             /* ================================================================= VISTOSI */
             if(fornitore == "vistosi"){
 
+                 var all_models_name = [
+                                    "ACCADEMIA","ALIKI","ALMA","ALUM 09","ASSIBA","BACO","BACONA","BIANCA","BOCCIA","CHIMERA","CHIMERA 09",
+                                    "CILD","CLEO","CLOTH","COCUMIS","COMARI","CORNER","DAFNE","DAMASCO","DIADEMA","DIAMANTE","DODO","DOGI","DOS",
+                                    "DRESS","ECOS","FEREA","FOLLIA","FUOCHI","FUTURA","GIGLIO","GIOGALI","MINIGIOGALI","GIUBILEO","GIUDECCA","GLORIA",
+                                    "GOCCIA","GOTO","LAGUNA","LUNAE","LUXOR","MAGIE","MARBLE'","MAREA","MOBY","MORRISE","MUMBA","NINFEA","ENNE LUCI","NORMA",
+                                    "OVALINA","PEGGY","PUPPET","REDENTORE","REDER","RIALTO","RIGA","ROMANZA","SAN GIORGIO","SAN MARCO","SEGRETO","SPROUT","STARDUST",
+                                    "TAHOMA","THOR","TORCELLO","VEGA","YUBA","CANDELA","BOLLE","BOT","IMPLODE","LUCCIOLA","POC","RINA",
+                                    "ALEGA","BISSA","BISSONA","ESSENCE","JO","NAXOS","MUNEGA","NESSA","NOVECENTO","SATA","SEMAI","SPIRIT","TABLO'","TUBES",
+                                    "AURORA","BALANCE","BOREALE","INCASS","INFINITA","MORIS","NEBULA","NEOCHIC","NUVOLE","PAGODA","PENTA","POD","QUADRA","QUADRA09","SABA",
+                                    "SOFFIO","SOFT","SOGNO","STYLE","TAHOMA ROUND","WITHWHITE","LEPANTO","SMOKING","TREPAI","24PEARLS","ARIA","AUREA",
+                                    "BAUTA","CHEOPE 09","CRISTALLINA","GIOGALI 3D","JUBE","SCUSEV","KIRA","LACRIMA","MENDELEE","MIRAGE","NARANZA","NODO","NOON","PUSKIN","SISSI",
+                                    "SPHERE","STARNET","STONE","SURFACE"];
+
                 supplier = "vistosi";
                 supplier_id = supplierId(supplier);
                 model = getModel(row["Descrizione"]);
@@ -909,7 +929,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 var clone = category.slice();
                 
                 type = getType(original_model_id);
-                component = ( (model=="VETRO" || model=="FISCHER" || model=="ROSONE" || model=="ROSO" || model=="SCATOLA" || model=="KIT" || model=="CAVO" || model=="RACCOGLITORE" ) || row["Descrizione"].indexOf(" KIT ") !=-1 )? 1 : 0;
+                component = isComponent(row["Descrizione"]);
+                component_of = getComponentOf(component, row["Descrizione"]);
                 size = getSize(row["Descrizione"]);;
                 outdoor = undefined;
                 max_discount = 15;
@@ -930,18 +951,17 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 
 
                 
-
+               
 
 
                 function getModel(desc){
                     var desc_arr = descToArray(desc);
                     var ret = desc_arr[0];
 
+                    if(contains(desc_arr,"VETR") || contains(desc_arr,"FISC") || contains(desc_arr,"ROSONE") || contains(desc_arr,"ROSO") || contains(desc_arr,"SCATOLA") || contains(desc_arr,"KIT") || contains(desc_arr,"CAVO") || contains(desc_arr,"RACCOGLITORE"))
+                        return "ricambio";
+
                     // alcuni casi speciali
-                    if(ret == "FISC")
-                        ret = "FISCHER";
-                    if(ret == "VETR")
-                        ret = "VETRO";
                     if(ret == "GIOGA")
                         ret = "GIOGALI 3D";
                     if(ret == "SANGIORG")
@@ -967,8 +987,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     if(ret == "WITHWHIT")
                         ret = "WITHWHITE"
                     if(ret == "NOVECENT")
-                        ret = "NOVECENTO"
-                    
+                        ret = "NOVECENTO"         
 
                     return ret;
                 }
@@ -1381,6 +1400,73 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         
                             
                 }
+
+                function isComponent(desc){
+                    var desc_arr = descToArray(desc);
+                    if(contains(desc_arr,"VETR") || contains(desc_arr,"FISC") || contains(desc_arr,"ROSONE") || contains(desc_arr,"ROSO") || contains(desc_arr,"SCATOLA") || contains(desc_arr,"KIT") || contains(desc_arr,"CAVO") || contains(desc_arr,"RACCOGLITORE"))
+                        return 1;
+                    return 0;
+                }
+
+                function getComponentOf(component, desc){
+                    var desc_arr = descToArray(desc);
+                    var ret = "";
+                    if(component == 1){
+                        var trovato = false;
+                        desc_arr.map(function(elem){
+                                
+                                var elem_rettificato = elem;
+                                // alcuni casi speciali
+                                if(elem_rettificato == "GIOGA")
+                                    elem_rettificato = "GIOGALI 3D";
+                                if(elem_rettificato == "SANGIORG")
+                                    elem_rettificato = "SAN GIORGIO";
+                                if(elem_rettificato == "SANMARCO")
+                                    elem_rettificato = "SAN MARCO";
+                                if(elem_rettificato == "TAHOMARO")
+                                    elem_rettificato = "TAHOMA ROUND"
+                                if(elem_rettificato == "ALUM" && desc_arr[1]=="09")
+                                    elem_rettificato = "ALUM 09"
+                                if(elem_rettificato == "CHEOPE" && desc_arr[1]=="09")
+                                    elem_rettificato = "CHEOPE 09"
+                                if(elem_rettificato == "CHIMERA" && desc_arr[1]=="09")
+                                    elem_rettificato = "CHIMERA 09"
+                                if(elem_rettificato == "CRISTALL")
+                                    elem_rettificato = "CRISTALLINA"
+                                if(elem_rettificato == "ENNELUCI")
+                                    elem_rettificato = "ENNE LUCI"
+                                if(elem_rettificato == "MINIGIOG")
+                                    elem_rettificato = "MINIGIOGALI"
+                                if(elem_rettificato == "REDENTOR")
+                                    elem_rettificato = "REDENTORE"
+                                if(elem_rettificato == "WITHWHIT")
+                                    elem_rettificato = "WITHWHITE"
+                                if(elem_rettificato == "NOVECENT")
+                                    elem_rettificato = "NOVECENTO"         
+                               
+
+                            _.each(all_models_name,function(model){
+
+                                
+                                
+                                if(model.indexOf(elem_rettificato) != -1 ){
+                                   ret =  model;
+                                }
+
+
+                            })
+                        })
+                        if(ret != "")
+                            return ret;
+                        else
+                            return "universale";
+                    }
+                    
+                    
+
+                }
+
+
 
                 function getSize(desc){
                     if(desc.indexOf(" MINI") != -1){
@@ -2403,6 +2489,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             category:               category,                           // terra, tavolo, sospensione, soffitto, parete, montatura, kit, diffusore, set,
             type:                   type,                               // tipo di lampada
             component:              component,                          // indica se è un componente di una lampada (serve per distinguere i pezzi di ricambio dalle lampade)
+            component_of:           component_of,                       // se l'articolo è un componente ritorna il modello di cui è componente
             size:                   size,                               // piuccola, media, grande,....
             outdoor:                outdoor,                            // se è da esterno o meno
             max_discount:           max_discount,                       // massimo sconto applicabile
