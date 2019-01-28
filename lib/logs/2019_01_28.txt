@@ -4031,3 +4031,122 @@ Served from: flos.com @ 2019-01-28 11:57:50 by W3 Total Cache
 12:52:18: processo: https://flos.com/it/prodotti/lampade-terra/toio/toio/ mancano: 1
 12:52:18: processo: https://flos.com/it/prodotti/lampade-terra/toio/toio-limited-edition-matt-black/ mancano: 0
 12:52:19: FINITO
+15:35:50: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 205
+15:39:32: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 205
+15:39:32: processo: https://flos.com/it/prodotti/lampade-tavolo/bellhop/bellhop/ mancano: 204
+15:39:33: [object Object],[object Object]
+15:40:23: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 205
+15:40:23: processo: https://flos.com/it/prodotti/lampade-tavolo/bellhop/bellhop/ mancano: 204
+15:40:24: [object Object],[object Object]
+15:41:46: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 205
+15:41:46: processo: https://flos.com/it/prodotti/lampade-tavolo/bellhop/bellhop/ mancano: 204
+15:41:47: [object Object],[object Object]
+15:44:35: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 205
+15:44:36: processo: https://flos.com/it/prodotti/lampade-tavolo/bellhop/bellhop/ mancano: 204
+15:44:37: [object Object],[object Object]
+15:44:51: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 205
+15:44:51: processo: https://flos.com/it/prodotti/lampade-tavolo/bellhop/bellhop/ mancano: 204
+15:44:52: [object Object],[object Object]
+15:45:55: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 205
+15:45:55: processo: https://flos.com/it/prodotti/lampade-tavolo/bellhop/bellhop/ mancano: 204
+15:45:59: [object Object],[object Object]
+15:50:17: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 3
+15:50:18: processo: https://flos.com/it/prodotti/plafoniere/romeo-moon/romeo-babe-w/ mancano: 2
+15:50:21: [object Object],[object Object]
+15:50:37: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 3
+15:50:39: processo: https://flos.com/it/prodotti/plafoniere/romeo-moon/romeo-babe-w/ mancano: 2
+15:50:41: processo: https://flos.com/it/prodotti/lampade-terra/kelvin-led/kelvin-led-f/ mancano: 1
+15:50:42: processo: https://flos.com/it/prodotti/lampadari-sospensione/tatou/tatou-s2/ mancano: 0
+15:50:43: [object Object],[object Object],[object Object],[object Object]
+15:56:12: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 3
+15:56:13: processo: https://flos.com/it/prodotti/plafoniere/romeo-moon/romeo-babe-w/ mancano: 2
+15:56:14: processo: https://flos.com/it/prodotti/lampade-terra/kelvin-led/kelvin-led-f/ mancano: 1
+15:56:15: processo: https://flos.com/it/prodotti/lampadari-sospensione/tatou/tatou-s2/ mancano: 0
+15:56:16: [object Object],[object Object],[object Object],[object Object]
+15:58:45: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 3
+15:58:47: processo: https://flos.com/it/prodotti/plafoniere/romeo-moon/romeo-babe-w/ mancano: 2
+15:58:47: processo: https://flos.com/it/prodotti/lampade-terra/kelvin-led/kelvin-led-f/ mancano: 1
+15:58:48: processo: https://flos.com/it/prodotti/lampadari-sospensione/tatou/tatou-s2/ mancano: 0
+15:58:49: [object Object],[object Object],[object Object],[object Object]
+16:00:50: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 3
+16:00:51: processo: https://flos.com/it/prodotti/plafoniere/romeo-moon/romeo-babe-w/ mancano: 2
+16:00:52: processo: https://flos.com/it/prodotti/lampade-terra/kelvin-led/kelvin-led-f/ mancano: 1
+16:00:52: processo: https://flos.com/it/prodotti/lampadari-sospensione/tatou/tatou-s2/ mancano: 0
+16:00:53: [object Object],[object Object],[object Object],[object Object]
+18:12:27: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 3
+18:12:30: processo: https://flos.com/it/prodotti/plafoniere/romeo-moon/romeo-babe-w/ mancano: 2
+18:12:31: processo: https://flos.com/it/prodotti/lampade-terra/kelvin-led/kelvin-led-f/ mancano: 1
+18:12:31: processo: https://flos.com/it/prodotti/lampadari-sospensione/tatou/tatou-s2/ mancano: 0
+18:12:35: [object Object],[object Object],[object Object],[object Object]
+18:37:25: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 3
+18:37:26: processo: https://flos.com/it/prodotti/plafoniere/romeo-moon/romeo-babe-w/ mancano: 2
+18:37:27: processo: https://flos.com/it/prodotti/lampade-terra/kelvin-led/kelvin-led-f/ mancano: 1
+18:37:28: processo: https://flos.com/it/prodotti/lampadari-sospensione/tatou/tatou-s2/ mancano: 0
+18:37:29: [object Object],[object Object],[object Object],[object Object]
+18:38:44: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 3
+18:38:45: processo: https://flos.com/it/prodotti/plafoniere/romeo-moon/romeo-babe-w/ mancano: 2
+18:38:45: processo: https://flos.com/it/prodotti/lampade-terra/kelvin-led/kelvin-led-f/ mancano: 1
+18:38:46: processo: https://flos.com/it/prodotti/lampadari-sospensione/tatou/tatou-s2/ mancano: 0
+18:38:48: [object Object],[object Object],[object Object],[object Object]
+18:39:16: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 3
+18:39:17: processo: https://flos.com/it/prodotti/plafoniere/romeo-moon/romeo-babe-w/ mancano: 2
+18:39:18: processo: https://flos.com/it/prodotti/lampade-terra/kelvin-led/kelvin-led-f/ mancano: 1
+18:39:18: processo: https://flos.com/it/prodotti/lampadari-sospensione/tatou/tatou-s2/ mancano: 0
+18:39:19: FINITO
+18:42:02: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 3
+18:42:43: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 3
+18:42:44: processo: https://flos.com/it/prodotti/plafoniere/romeo-moon/romeo-babe-w/ mancano: 2
+18:42:45: processo: https://flos.com/it/prodotti/lampade-terra/kelvin-led/kelvin-led-f/ mancano: 1
+18:42:45: processo: https://flos.com/it/prodotti/lampadari-sospensione/tatou/tatou-s2/ mancano: 0
+18:42:46: FINITO
+18:42:57: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 3
+18:42:58: processo: https://flos.com/it/prodotti/plafoniere/romeo-moon/romeo-babe-w/ mancano: 2
+18:42:59: processo: https://flos.com/it/prodotti/lampade-terra/kelvin-led/kelvin-led-f/ mancano: 1
+18:42:59: processo: https://flos.com/it/prodotti/lampadari-sospensione/tatou/tatou-s2/ mancano: 0
+18:43:00: FINITO
+18:51:04: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 3
+18:51:06: processo: https://flos.com/it/prodotti/plafoniere/romeo-moon/romeo-babe-w/ mancano: 2
+18:51:07: processo: https://flos.com/it/prodotti/lampade-terra/kelvin-led/kelvin-led-f/ mancano: 1
+18:51:08: processo: https://flos.com/it/prodotti/lampadari-sospensione/tatou/tatou-s2/ mancano: 0
+18:51:09: FINITO
+18:55:46: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 205
+18:55:47: processo: https://flos.com/it/prodotti/lampade-tavolo/bellhop/bellhop/ mancano: 204
+18:55:48: processo: https://flos.com/it/prodotti/lampade-tavolo/biagio/biagio/ mancano: 203
+18:55:52: processo: https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour/ mancano: 202
+18:55:57: processo: https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour-unplugged/ mancano: 201
+18:55:58: processo: https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour-versailles/ mancano: 200
+18:55:59: processo: https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour-versailles-small/ mancano: 199
+18:56:03: processo: https://flos.com/it/prodotti/lampade-tavolo/chapo/chapo/ mancano: 198
+18:56:05: processo: https://flos.com/it/prodotti/lampade-tavolo/cocoon/gatto/ mancano: 197
+18:56:09: processo: https://flos.com/it/prodotti/lampade-tavolo/cocoon/gatto-piccolo/ mancano: 196
+18:56:13: processo: https://flos.com/it/prodotti/lampade-tavolo/copycat/copycat/ mancano: 195
+18:56:17: processo: https://flos.com/it/prodotti/lampade-tavolo/de-light/de-light/ mancano: 194
+18:56:18: processo: https://flos.com/it/prodotti/lampade-tavolo/extra-t2/extra-t/ mancano: 193
+18:56:19: processo: https://flos.com/it/prodotti/lampade-tavolo/gaku/gaku-wire/ mancano: 192
+18:56:23: processo: https://flos.com/it/prodotti/lampade-tavolo/gaku/gaku-wireless/ mancano: 191
+18:56:27: processo: https://flos.com/it/prodotti/lampade-tavolo/glo-ball/glo-ball-basic-2/ mancano: 190
+18:56:27: processo: https://flos.com/it/prodotti/lampade-tavolo/glo-ball/glo-ball-basic-1/ mancano: 189
+18:56:30: processo: https://flos.com/it/prodotti/lampade-tavolo/glo-ball/glo-ball-basic-zero-dimmer/ mancano: 188
+18:56:34: processo: https://flos.com/it/prodotti/lampade-tavolo/glo-ball/glo-ball-basic-zero-switch/ mancano: 187
+18:56:38: processo: https://flos.com/it/prodotti/lampade-tavolo/glo-ball/mini-glo-ball-t/ mancano: 186
+18:56:39: processo: https://flos.com/it/prodotti/lampade-tavolo/glo-ball/glo-ball-t2/ mancano: 185
+18:56:40: processo: https://flos.com/it/prodotti/lampade-tavolo/glo-ball/glo-ball-t1/ mancano: 184
+18:56:43: processo: https://flos.com/it/prodotti/lampade-tavolo/goldman/goldman/ mancano: 183
+18:56:43: processo: https://flos.com/it/prodotti/lampade-tavolo/ic-lights/ic-lights-t1-high/ mancano: 182
+18:56:44: processo: https://flos.com/it/prodotti/lampade-tavolo/ic-lights/ic-lights-t1-low/ mancano: 181
+18:56:45: processo: https://flos.com/it/prodotti/lampade-tavolo/ic-lights/ic-lights-t2/ mancano: 180
+18:56:50: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-edge-base/ mancano: 179
+18:56:50: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-edge-clamp/ mancano: 178
+18:56:55: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-edge-desk-support-visible-cable/ mancano: 177
+18:56:58: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-edge-desk-support-hidden-cable/ mancano: 176
+18:57:02: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-edge-wall-support/ mancano: 175
+18:57:05: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-led-base/ mancano: 174
+18:57:06: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-led-clamp/ mancano: 173
+18:57:10: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-led-desk-support-visible-cable/ mancano: 172
+18:57:10: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-led-desk-support-hidden-cable/ mancano: 171
+18:57:14: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-led-wall-support/ mancano: 170
+18:57:28: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 3
+18:57:29: processo: https://flos.com/it/prodotti/plafoniere/romeo-moon/romeo-babe-w/ mancano: 2
+18:57:30: processo: https://flos.com/it/prodotti/lampade-terra/kelvin-led/kelvin-led-f/ mancano: 1
+18:57:31: processo: https://flos.com/it/prodotti/lampadari-sospensione/tatou/tatou-s2/ mancano: 0
+18:57:32: FINITO
