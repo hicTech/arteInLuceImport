@@ -6,26 +6,6 @@ const fs = require('fs')
 const https = require('https')
 
 
-async function crawler() {
-
-  let url = 'fileresources/assembling_instructions/SP24PEK2.PDF'
-  let opt = await request(url, true, 'Istruzioni montaggio 24PEARLS SP K2 G9 ', 'TECHSHEET', '24PEASP  K2    -', 'G9')
-  let resp = await fetch(...opt)
-  let json = await resp.json()
-  let data = Object.entries(json)
-    .filter(([_, value]) => value)
-    .reduce((data, [key, value]) => {
-      data.append(key, value)
-      return data
-    }, new FormData)
-
-
-  let resp = await fetch(url, ...opt)
-
-  //let selector = '#table1 > tbody:nth-child(1) > tr > td:nth-child(1) > table > tbody > tr:nth-child(3) > td > div > a:nth-child(1)'
-  //document.querySelector(selector).click();
-}
-
 async function main() {
   fs.copyFileSync('./assets_json.json', './assets_json_andrea.json');
 
@@ -33,9 +13,13 @@ async function main() {
   const browser = await puppeteer.launch({ headless: true, devtools: true })
   const page = (await browser.pages())[0];
   for (const {more:{more_url:url, more:resources}} of assets) {
+    if (url !== 'https://portal.vistosi.it/eprogen/epRichiesta_risorse_pubblica_v2.jsp?cdvisttp=PL&cdvistfam=AUROR&cdling=0&fg_eur_usa=E') {
+      continue;
+    }
+
     await page.goto(url)
     await page.evaluate(()=> {
-      window.crawler = async function (file_req, res_exist, dsfile, tiporisorsa, nome_modello, cdvistelet) {
+      window.crawler = async function (url, file_req, res_exist, dsfile, tiporisorsa, nome_modello, cdvistelet) {
         if (!res_exist == null) return;
 
         document.querySelector(`[name="file_req"]`).value = file_req;
@@ -60,6 +44,12 @@ async function main() {
           }
         )
 
+        // if ((await response.text()).indexOf('org.postgresql.util.PSQLException:') >=0 ) {
+        //   return [url, file_req]
+        // } else {
+        //   return 'ok'
+        // }
+
         let {il_token} = await response.json()
 
         let action = new URL(`https://portal.vistosi.it/portal/download/${file_req}`)
@@ -73,16 +63,42 @@ async function main() {
       }
     })
 
-    for (const [i, {name, category, download}] of resources.entries()) {
+    for (const [i, resource] of resources.entries()) {
+      let { name, category, download } = resource;
       
       let params = download
         .replace(/(.*atk_send_mail_risorsa\()(.*)(\);$)/g, '$2')
         .split(/,\s*/g)
-        .map(d => d[0] == "'"? d.substring(1, d.length-1) : d)
+      
+      if (params.length === 7) {
+        params = [
+          params[0],
+          params[1],
+          params[2] + params[3],
+          params[4],
+          params[5],
+          params[6],
+        ]
+      }
+      params = params.map(d => d[0] == "'"? d.substring(1, d.length-1) : d)
 
+      
+      // if (params[2] !== 'Istruzioni montaggio AURORA PL 30 LED 1') {
+      //   continue
+      // }
 
-      let link = await page.evaluate(async (params) => await crawler(...params), params)
-      let file = fs.createWriteStream(`pdf/${category}_${name}-${i}.pdf`);
+      // if (params[3] !== '5W - (DRIVER INCLUSO) - 3000K - 1650 LUMENS - DIMMERABILE \'') {
+      //   continue
+      // } 
+      console.log(params);
+      
+      
+      let link = await page.evaluate(async (params) =>
+        await crawler(...params)
+      , [url, ...params])
+      
+      resource.filename = `pdf/${category}_${name}-${i}.pdf`
+      let file = fs.createWriteStream(resource.filename);
       https.get(link, response => response.pipe(file));
 
     }
