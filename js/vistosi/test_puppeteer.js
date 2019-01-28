@@ -82,17 +82,6 @@ async function main() {
       }
       params = params.map(d => d[0] == "'"? d.substring(1, d.length-1) : d)
 
-      
-      // if (params[2] !== 'Istruzioni montaggio AURORA PL 30 LED 1') {
-      //   continue
-      // }
-
-      // if (params[3] !== '5W - (DRIVER INCLUSO) - 3000K - 1650 LUMENS - DIMMERABILE \'') {
-      //   continue
-      // } 
-      console.log(params);
-      
-      
       let link = await page.evaluate(async (params) =>
         await crawler(...params)
       , [url, ...params])
