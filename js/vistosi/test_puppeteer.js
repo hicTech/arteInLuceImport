@@ -82,15 +82,10 @@ async function main() {
 
 
       let link = await page.evaluate(async (params) => await crawler(...params), params)
-      let file = fs.createWriteStream(`pdf/${category}_${name}_${i}.pdf`);
+      let file = fs.createWriteStream(`pdf/${category}_${name}-${i}.pdf`);
       https.get(link, response => response.pipe(file));
 
-      break
-      
     }
-    
-
-    break;
     
   }
 
