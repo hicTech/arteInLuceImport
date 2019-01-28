@@ -152,7 +152,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
     
 
         /* ================================================================= FOSCARINI */
-        if( fornitore == "foscarini" ){
+        if( false /*fornitore == "foscarini"*/ ){
 
             
             var model_names = [
@@ -894,7 +894,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         }
         else{
             /* ================================================================= VISTOSI */
-            if(fornitore == "vistosi"){
+            if( false /*fornitore == "vistosi"*/ ){
 
                  var all_models_name = [
                                     "ACCADEMIA","ALIKI","ALMA","ALUM 09","ASSIBA","BACO","BACONA","BIANCA","BOCCIA","CHIMERA","CHIMERA 09",
@@ -2460,6 +2460,54 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 
                 
             }
+            else{
+                if( fornitore == "flos"){
+
+                    /*
+                        nella pagina prodotto cerca:
+                            <form class="variations_form cart" method="post" enctype="multipart/form-data" data-product_id="8339" data-product_variations="
+                        ci trovi un json con le varianti del prodotto stesso
+                    */
+                    
+                    supplier = "flos";
+                    supplier_id = supplierId(supplier);
+                    model = undefined;
+                    original_model_id = undefined;
+                    model_id = undefined;
+                    item_id = undefined;
+                    hicId = undefined;
+                    ean13 = undefined;
+                    price = undefined;
+                    color = undefined;
+                    desc_it = undefined;
+                    desc_en = undefined;
+                    cleaned_desc_it = undefined;
+                    cleaned_desc_en = undefined;
+                    dimmer = undefined;
+                    led = undefined;
+                    halogen = undefined;
+                    screw = undefined;
+                    switcher = undefined;
+                    category = undefined;   // è un array di categorie, i possibili valori sono: terra | tavolo | parete | soffitto | sospensione | altro (nel caso di "altro" quando possibile viene anche specificato di cosa si tratta, tipo: kit, vetro....)
+                    type = undefined;       // è un valore unico ovvero una stringa
+                    component = undefined;
+                    component_of = undefined;
+                    size = undefined;
+                    outdoor = undefined;
+                    max_discount = undefined;
+                    more = undefined;
+                    title = undefined;
+                    subtitle = undefined;
+                    pic = undefined;
+                    light_schema = undefined;
+                    otherColors = undefined;
+                    projects = undefined;
+        
+
+                }
+            }
+
+
         }
 
         
