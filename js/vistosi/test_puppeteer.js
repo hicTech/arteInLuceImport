@@ -13,9 +13,9 @@ async function main() {
   const browser = await puppeteer.launch({ headless: true, devtools: true })
   const page = (await browser.pages())[0];
   for (const {more:{more_url:url, more:resources}} of assets) {
-    if (url !== 'https://portal.vistosi.it/eprogen/epRichiesta_risorse_pubblica_v2.jsp?cdvisttp=PL&cdvistfam=AUROR&cdling=0&fg_eur_usa=E') {
-      continue;
-    }
+    // if (url !== 'https://portal.vistosi.it/eprogen/epRichiesta_risorse_pubblica_v2.jsp?cdvisttp=PL&cdvistfam=AUROR&cdling=0&fg_eur_usa=E') {
+    //   continue;
+    // }
 
     await page.goto(url)
     await page.evaluate(()=> {
