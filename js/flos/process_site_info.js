@@ -67,6 +67,11 @@ var arr_all_products = [
 ]
 
 
+var arr_all_products = [
+    "https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/",
+    
+]
+
 
 
 
@@ -127,6 +132,16 @@ function createJsonFromAPage(body, uri){
 
     var $more_info = $body.find("ul.more-info-list");
 
+    
+
+
+
+    var other_images = [];
+    $body.find("figure.addModalSlider img").each(function(){
+        other_images.push($(this).attr("src"));
+    })   
+
+
 
     var size_image = $summary.find(".bg-image img").attr("data-src");
 
@@ -134,16 +149,66 @@ function createJsonFromAPage(body, uri){
         color_variations = S(color_variations).replaceAll('\"','"').s;
         color_variations = JSON.parse(color_variations);
 
+    var secondary_image = $body.find(".masonry").eq(0).find("figure").eq(0).find("img").attr("src");
+
+    var $summary_media = $body.find(".summary-media img");
+    summary_media = [];
+    $summary_media.each(function(){
+        var src = $(this).attr("data-src");
+        if(src.indexOf(".svg")!=-1)
+            summary_media.push(src);
+    });
+
+    var $downloads = $body.find("ul.list-download li");
+    var downloads = [];
+    $downloads.each(function(){
+        var type = $(this).find("strong").html();
+        if(type.indexOf("Istruzioni")!=-1)
+            downloads.push({
+                label: "istruzioni",
+                url : $(this).find("a").attr("href"),
+            })
+        if(type.indexOf("Parti")!=-1)
+            downloads.push({
+                label: "ricambi",
+                url : $(this).find("a").attr("href"),
+            })
+    });
+
+    var $more_info = $body.find("ul.more-info-list li");
+
+    _.log($more_info.length);
+
+    var more = {};
+
+    $more_info.each(function(){
+        var label = $(this).find("strong").html().toLowerCase().replace(" ","_");
+        var value = $(this).find("span").html();
+            if( !_.is(value) ){
+                var $cleaned = $(this);
+                value = $cleaned.html();
+            }
+
+        more[label] = value;
+    })
+
+
+    
     _.each(color_variations,function(variation){
         arr_single_product.push({
             uri: uri,
             model : model,
             category: (category == "Tavolo")? "tavolo" : (category == "Pavimento")? "terra" : (category == "Muro/Soffitto")? "soffitto" : "sospensione",
+            code: variation.sku,
             desc :desc,
             size_image: size_image,
             color: variation.attributes.attribute_pa_color,
             image: variation.image.url,
-            code: variation.sku,
+            secondary_image: secondary_image,
+            summary_media : summary_media,
+            other_images: other_images,
+            downloads : downloads,
+            more: more
         })
     })
 
