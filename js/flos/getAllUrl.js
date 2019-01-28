@@ -15,11 +15,11 @@ var $ = jQuery = require('jquery')(window);
 
 
 var single_pages = [
+
     {
         "category": "tavolo",
         "uri": "https://flos.com/it/illuminazione-home-collection/lampade-tavolo/",
     },
-    /*
     {
         "category": "sospensione",
         "uri": "https://flos.com/it/illuminazione-home-collection/lampadari-sospensione/"
@@ -32,7 +32,7 @@ var single_pages = [
         "category": "terra",
         "uri": "https://flos.com/it/illuminazione-home-collection/lampade-terra/"
     }
-    */
+
 ]
 
 
@@ -54,7 +54,7 @@ function avvia(index){
 
 
     if(index == pages_number ){
-        fs.writeFile('assets_json.json', JSON.stringify(info, null, 4), 'utf8', function(){
+        fs.writeFile('getAllUrl_json.json', JSON.stringify(info, null, 4), 'utf8', function(){
             _.log("FINITO");
         });
         return true;
@@ -107,7 +107,7 @@ function createJsonFromAPage(body, uri, category){
         // ci clicco una sola volta perchè ho visto che in tutte e 4 le categorie non si va oltre un solo load more
 
         await page.click(".load-more");
-        await page.waitFor(10000);
+        await page.waitFor(6000);
 
         let preloaded_bodyHTML = await page.evaluate(() => document.body.innerHTML);
 
