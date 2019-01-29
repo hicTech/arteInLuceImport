@@ -1,41 +1,78 @@
 [
     {
-        "uri": "https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/",
-        "model": "Aoy",
+        "uri": "https://flos.com/it/prodotti/lampade-tavolo/gaku/gaku-wire/#tech-specs",
+        "model": "Gaku Wire",
         "category": "tavolo",
-        "code": "F0200071",
-        "desc": "Lampada da tavolo a luce diffusa. Corpo lampada cilindrico in cristallo trasparente. Diffusore e riflettore in vetro bianco opalino.",
-        "size_image": "https://flos.com/wp-content/uploads/2017/10/aoy-table-castiglioni-flos-F0200071-product-Thumbnail-1.jpg",
-        "color": "colour_op",
-        "image": "https://flos.com/wp-content/uploads/2017/10/aoy-table-castiglioni-flos-F0200071-product-still-life-big-6.jpg",
-        "secondary_image": "https://flos.com/wp-content/uploads/2017/10/aoy-table-castiglioni-flos-home-decorative.jpg",
+        "code": "F2521009",
+        "desc": "<p class=\"p1\"></p>\n<p class=\"p1\"></p>\n<p class=\"p1\"></p>\n<p class=\"p1\"></p>\n<p class=\"p1\"></p>",
+        "size_image": "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F2521030-product-thumbnail.jpg",
+        "color": "colour_bianco",
+        "image": "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F2521009-product-still-life-big-.jpg",
+        "secondary_image": "https://flos.com/wp-content/uploads/2018/11/590X1200-launch-product.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/aoy-table-castiglioni-flos-F0200071-spech-tech-02-300x263-2.svg",
-            "https://flos.com/wp-content/uploads/2017/10/aoy-table-castiglioni-flos-F0200071_curva_fotometrica-01.svg"
+            "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F25210-spech-tech-01-300x263-01-01-01.svg"
         ],
         "other_images": [
-            "https://flos.com/wp-content/uploads/2017/10/aoy-table-castiglioni-flos-F0200071-product-still-life-big-5.jpg",
-            "https://flos.com/wp-content/uploads/2017/10/aoy-table-castiglioni-flos-F0200071-product-life-01-1440x802.jpg",
-            "https://flos.com/wp-content/uploads/2017/10/aoy-table-castiglioni-flos-F0200071-product-life-02-571x385.jpg",
-            "https://flos.com/wp-content/uploads/2017/10/aoy-table-castiglioni-flos-F0200071-product-life-03-720x498.jpg"
+            "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F2521009-product-still-life-big-.jpg",
+            "https://flos.com/wp-content/uploads/2018/11/gaku-wireless-table-nendo-flos-F25200-product-life-02-1440x802.jpg",
+            "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F2521030-product-life-04-571x835.jpg",
+            "https://flos.com/wp-content/uploads/2018/11/stories-gaku-nendo-flos-10b-2.jpg",
+            "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F2521030-product-life-02-571x835.jpg",
+            "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F2521030-product-life-05-590.jpg",
+            "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F2521030-product-life-05-590x844.jpg",
+            "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F2521030-product-life-06-590x844.jpg"
         ],
         "downloads": [
             {
                 "label": "istruzioni",
-                "url": "https://flos.com/wp-content/uploads/2017/10/AOY.pdf"
-            },
-            {
-                "label": "ricambi",
-                "url": "https://flos.com/wp-content/uploads/2017/10/PS_AOY.pdf"
+                "url": "https://flos.com/wp-content/uploads/2018/11/GAKU-EU-US-CN-SA-2.pdf"
             }
         ],
         "more": {
-            "codice_articolo": "F0200071",
-            "famiglia": "\n                                <strong>Famiglia</strong><br>\n                                <a href=\"https://flos.com/it/prodotti/aoy-t/\">Aoy</a>                            ",
-            "ambiente": "\n                                <strong>Ambiente</strong><br>\n                                Per interni                            ",
-            "finitura": "\n                                <strong>Finitura</strong><br>\n                                Vetro opalino                            ",
-            "materiale": "\n                                    <strong>Materiale</strong><br>\n                                    Vetro                                ",
-            "fonti_luminose disponibili": "\n                                <strong>Fonti luminose disponibili</strong><br>\n                                1 x LED 8W E27 740lm 3000K [e] cod. RF25317 DIMMER<br>1 x LED 8W E27 740lm 2700K [e] cod. RF25323 DIMMER<br>1 x LED 8W E27 525lm 2700K [e] cod. RF25570 DIMMER                            "
+            "codice_articolo": "F2521009",
+            "famiglia": "Gaku",
+            "ambiente": "Per interni",
+            "finitura": "Nero, Bianco",
+            "materiale": "Legno, Policarbonato",
+            "fonti_luminose disponibili": "30 x LED ARRAY 5,5W 2700K 100lm CRI90"
+        }
+    },
+    {
+        "uri": "https://flos.com/it/prodotti/lampade-tavolo/gaku/gaku-wire/#tech-specs",
+        "model": "Gaku Wire",
+        "category": "tavolo",
+        "code": "F2521030",
+        "desc": "<p class=\"p1\"></p>\n<p class=\"p1\"></p>\n<p class=\"p1\"></p>\n<p class=\"p1\"></p>\n<p class=\"p1\"></p>",
+        "size_image": "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F2521030-product-thumbnail.jpg",
+        "color": "colour_cancan_black",
+        "image": "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F2521030product-still-life-big-.jpg",
+        "secondary_image": "https://flos.com/wp-content/uploads/2018/11/590X1200-launch-product.jpg",
+        "summary_media": [
+            "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F25210-spech-tech-01-300x263-01-01-01.svg"
+        ],
+        "other_images": [
+            "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F2521009-product-still-life-big-.jpg",
+            "https://flos.com/wp-content/uploads/2018/11/gaku-wireless-table-nendo-flos-F25200-product-life-02-1440x802.jpg",
+            "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F2521030-product-life-04-571x835.jpg",
+            "https://flos.com/wp-content/uploads/2018/11/stories-gaku-nendo-flos-10b-2.jpg",
+            "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F2521030-product-life-02-571x835.jpg",
+            "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F2521030-product-life-05-590.jpg",
+            "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F2521030-product-life-05-590x844.jpg",
+            "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F2521030-product-life-06-590x844.jpg"
+        ],
+        "downloads": [
+            {
+                "label": "istruzioni",
+                "url": "https://flos.com/wp-content/uploads/2018/11/GAKU-EU-US-CN-SA-2.pdf"
+            }
+        ],
+        "more": {
+            "codice_articolo": "F2521009",
+            "famiglia": "Gaku",
+            "ambiente": "Per interni",
+            "finitura": "Nero, Bianco",
+            "materiale": "Legno, Policarbonato",
+            "fonti_luminose disponibili": "30 x LED ARRAY 5,5W 2700K 100lm CRI90"
         }
     }
 ]

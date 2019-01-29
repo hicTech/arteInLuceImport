@@ -60,7 +60,7 @@ var arr_all_products = [
     "https://flos.com/it/prodotti/lampade-terra/stylos/stylos/", "https://flos.com/it/prodotti/lampade-terra/superloon/superloon/", "https://flos.com/it/prodotti/lampade-terra/tab/tab-f/", "https://flos.com/it/prodotti/lampade-terra/tatou/tatou-f/", "https://flos.com/it/prodotti/lampade-terra/toio/toio/", "https://flos.com/it/prodotti/lampade-terra/toio/toio-limited-edition-matt-black/",
 ]
 
-
+/*
 var arr_all_products = [
     "https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/", "https://flos.com/it/prodotti/plafoniere/romeo-moon/romeo-babe-w/",
     "https://flos.com/it/prodotti/lampade-terra/kelvin-led/kelvin-led-f/", "https://flos.com/it/prodotti/lampadari-sospensione/tatou/tatou-s2/"
@@ -68,10 +68,10 @@ var arr_all_products = [
 
 
 var arr_all_products = [
-    "https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/",
+    "https://flos.com/it/prodotti/lampade-tavolo/gaku/gaku-wire/#tech-specs",
     
 ]
-
+*/
 
 
 
@@ -185,8 +185,17 @@ function createJsonFromAPage(body, uri){
         var label = $(this).find("strong").html().toLowerCase().replace(" ","_");
         var value = $(this).find("span").html();
             if( !_.is(value) ){
-                var $cleaned = $(this);
-                value = $cleaned.html();
+                var $cleaned = $(this).clone();
+                value = S($cleaned.html()).replaceAll("\n","").s.trim();
+                var da_eliminare = S(value).between("<strong>","</strong>").s;
+
+                value = value.replace("<strong>"+da_eliminare+"</strong>","").replace(/ +(?= )/g,'').replace("<br> ","")
+
+                var $value = $("<div>"+value+"</div>");
+                $value = ($value.find("a").length != 0)? $value.find("a") : $value;
+                value = $value.html();
+                value = (value.indexOf("<br>") != -1) ? value.split("<br>") : value;
+                //value = $cleaned.find("strong").html();
             }
 
         more[label] = value;

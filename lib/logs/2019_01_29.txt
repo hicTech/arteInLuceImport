@@ -1,0 +1,222 @@
+08:38:49: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:38:53: 6
+08:38:53: FINITO
+08:39:52: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:39:53: 6
+08:39:53: FINITO
+08:40:13: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:40:14: 6
+08:40:14: FINITO
+08:41:00: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:41:01: 6
+08:41:01: FINITO
+08:42:50: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:42:51: 6
+08:42:51: FINITO
+08:44:17: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:44:18: 6
+08:44:18: FINITO
+08:44:29: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:44:30: 6
+08:44:30: FINITO
+08:44:44: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:44:45: 6
+08:44:45: FINITO
+08:46:01: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:46:02: 6
+08:46:02: FINITO
+08:46:22: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:46:23: 6
+08:46:23: FINITO
+08:47:16: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:47:17: 6
+08:47:28: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:47:31: 6
+08:47:31: FINITO
+08:47:45: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:47:46: 6
+08:47:46: FINITO
+08:48:13: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:48:14: 6
+08:48:14: FINITO
+08:49:17: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:49:18: 6
+08:49:18: FINITO
+08:49:50: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:49:51: 6
+08:49:51: FINITO
+08:50:14: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:50:16: 6
+08:50:16: FINITO
+08:50:22: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:50:23: 6
+08:50:23: <div><strong>Famiglia</strong><br>                                <a href="https://flos.com/it/prodotti/aoy-t/">Aoy</a></div>
+08:50:23: <div><strong>Ambiente</strong><br>                                Per interni</div>
+08:50:23: <div><strong>Finitura</strong><br>                                Vetro opalino</div>
+08:50:23: <div><strong>Materiale</strong><br>                                    Vetro</div>
+08:50:23: <div><strong>Fonti luminose disponibili</strong><br>                                1 x LED 8W E27 740lm 3000K [e] cod. RF25317 DIMMER<br>1 x LED 8W E27 740lm 2700K [e] cod. RF25323 DIMMER<br>1 x LED 8W E27 525lm 2700K [e] cod. RF25570 DIMMER</div>
+08:50:23: FINITO
+08:51:08: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:51:09: 6
+08:51:09: Famiglia
+08:51:09: Ambiente
+08:51:09: Finitura
+08:51:09: Materiale
+08:51:09: Fonti luminose disponibili
+08:51:09: FINITO
+08:51:29: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:51:30: 6
+08:51:30: <strong>Famiglia</strong><br>                                <a href="https://flos.com/it/prodotti/aoy-t/">Aoy</a>
+08:51:30: <strong>Ambiente</strong><br>                                Per interni
+08:51:30: <strong>Finitura</strong><br>                                Vetro opalino
+08:51:30: <strong>Materiale</strong><br>                                    Vetro
+08:51:30: <strong>Fonti luminose disponibili</strong><br>                                1 x LED 8W E27 740lm 3000K [e] cod. RF25317 DIMMER<br>1 x LED 8W E27 740lm 2700K [e] cod. RF25323 DIMMER<br>1 x LED 8W E27 525lm 2700K [e] cod. RF25570 DIMMER
+08:51:30: FINITO
+08:53:47: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:53:48: 6
+08:53:48: undefined<br>                                <a href="https://flos.com/it/prodotti/aoy-t/">Aoy</a>
+08:53:48: undefined<br>                                Per interni
+08:53:48: undefined<br>                                Vetro opalino
+08:53:48: undefined<br>                                    Vetro
+08:53:48: undefined<br>                                1 x LED 8W E27 740lm 3000K [e] cod. RF25317 DIMMER<br>1 x LED 8W E27 740lm 2700K [e] cod. RF25323 DIMMER<br>1 x LED 8W E27 525lm 2700K [e] cod. RF25570 DIMMER
+08:53:48: FINITO
+08:54:08: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:54:09: 6
+08:54:09: <br>                                <a href="https://flos.com/it/prodotti/aoy-t/">Aoy</a>
+08:54:09: <br>                                Per interni
+08:54:09: <br>                                Vetro opalino
+08:54:09: <br>                                    Vetro
+08:54:09: <br>                                1 x LED 8W E27 740lm 3000K [e] cod. RF25317 DIMMER<br>1 x LED 8W E27 740lm 2700K [e] cod. RF25323 DIMMER<br>1 x LED 8W E27 525lm 2700K [e] cod. RF25570 DIMMER
+08:54:09: FINITO
+08:54:59: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:55:00: 6
+08:55:00: <br>                                <a href="https://flos.com/it/prodotti/aoy-t/">Aoy</a>
+08:55:00: <br>                                Per interni
+08:55:00: <br>                                Vetro opalino
+08:55:00: <br>                                    Vetro
+08:55:00: <br>                                1 x LED 8W E27 740lm 3000K [e] cod. RF25317 DIMMER<br>1 x LED 8W E27 740lm 2700K [e] cod. RF25323 DIMMER<br>1 x LED 8W E27 525lm 2700K [e] cod. RF25570 DIMMER
+08:55:00: FINITO
+08:56:40: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:56:41: 6
+08:56:41: <br> <a href="https://flos.com/it/prodotti/aoy-t/">Aoy</a>
+08:56:41: <br> Per interni
+08:56:41: <br> Vetro opalino
+08:56:41: <br> Vetro
+08:56:41: <br> 1 x LED 8W E27 740lm 3000K [e] cod. RF25317 DIMMER<br>1 x LED 8W E27 740lm 2700K [e] cod. RF25323 DIMMER<br>1 x LED 8W E27 525lm 2700K [e] cod. RF25570 DIMMER
+08:56:41: FINITO
+08:57:18: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:57:19: 6
+08:57:19:  <a href="https://flos.com/it/prodotti/aoy-t/">Aoy</a>
+08:57:19:  Per interni
+08:57:19:  Vetro opalino
+08:57:19:  Vetro
+08:57:19:  1 x LED 8W E27 740lm 3000K [e] cod. RF25317 DIMMER<br>1 x LED 8W E27 740lm 2700K [e] cod. RF25323 DIMMER<br>1 x LED 8W E27 525lm 2700K [e] cod. RF25570 DIMMER
+08:57:19: FINITO
+08:57:32: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:57:33: 6
+08:57:33: <a href="https://flos.com/it/prodotti/aoy-t/">Aoy</a>
+08:57:33: Per interni
+08:57:33: Vetro opalino
+08:57:33: Vetro
+08:57:33: 1 x LED 8W E27 740lm 3000K [e] cod. RF25317 DIMMER<br>1 x LED 8W E27 740lm 2700K [e] cod. RF25323 DIMMER<br>1 x LED 8W E27 525lm 2700K [e] cod. RF25570 DIMMER
+08:57:33: FINITO
+08:58:11: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:58:13: 6
+08:58:13: <a href="https://flos.com/it/prodotti/aoy-t/">Aoy</a>
+08:58:13: Per interni
+08:58:13: Vetro opalino
+08:58:13: Vetro
+08:58:13: 1 x LED 8W E27 740lm 3000K [e] cod. RF25317 DIMMER<br>1 x LED 8W E27 740lm 2700K [e] cod. RF25323 DIMMER<br>1 x LED 8W E27 525lm 2700K [e] cod. RF25570 DIMMER
+08:58:13: FINITO
+08:59:13: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:59:14: 6
+08:59:14: <a href="https://flos.com/it/prodotti/aoy-t/">Aoy</a>
+08:59:14: Per interni
+08:59:14: Vetro opalino
+08:59:14: Vetro
+08:59:14: 1 x LED 8W E27 740lm 3000K [e] cod. RF25317 DIMMER<br>1 x LED 8W E27 740lm 2700K [e] cod. RF25323 DIMMER<br>1 x LED 8W E27 525lm 2700K [e] cod. RF25570 DIMMER
+08:59:14: FINITO
+08:59:49: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+08:59:50: 6
+08:59:50: <a href="https://flos.com/it/prodotti/aoy-t/">Aoy</a>
+08:59:50: Per interni
+08:59:50: Vetro opalino
+08:59:50: Vetro
+08:59:50: 1 x LED 8W E27 740lm 3000K [e] cod. RF25317 DIMMER<br>1 x LED 8W E27 740lm 2700K [e] cod. RF25323 DIMMER<br>1 x LED 8W E27 525lm 2700K [e] cod. RF25570 DIMMER
+08:59:50: FINITO
+09:00:26: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 0
+09:00:27: 6
+09:00:27: <a href="https://flos.com/it/prodotti/aoy-t/">Aoy</a>
+09:00:27: Per interni
+09:00:27: Vetro opalino
+09:00:27: Vetro
+09:00:27: 1 x LED 8W E27 740lm 3000K [e] cod. RF25317 DIMMER<br>1 x LED 8W E27 740lm 2700K [e] cod. RF25323 DIMMER<br>1 x LED 8W E27 525lm 2700K [e] cod. RF25570 DIMMER
+09:00:27: FINITO
+09:00:47: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 205
+09:00:48: 6
+09:00:48: <a href="https://flos.com/it/prodotti/aoy-t/">Aoy</a>
+09:00:48: Per interni
+09:00:48: Vetro opalino
+09:00:48: Vetro
+09:00:48: 1 x LED 8W E27 740lm 3000K [e] cod. RF25317 DIMMER<br>1 x LED 8W E27 740lm 2700K [e] cod. RF25323 DIMMER<br>1 x LED 8W E27 525lm 2700K [e] cod. RF25570 DIMMER
+09:00:48: processo: https://flos.com/it/prodotti/lampade-tavolo/bellhop/bellhop/ mancano: 204
+09:00:48: 5
+09:00:48: <a href="https://flos.com/it/prodotti/bellhop-t/">Bellhop</a>
+09:00:48: Per interni
+09:00:48: Policarbonato
+09:00:48: 84 x LED 2,5W 250lm 2700K CRI90 [i]
+09:00:48: processo: https://flos.com/it/prodotti/lampade-tavolo/biagio/biagio/ mancano: 203
+09:00:51: 6
+09:00:51: <a href="https://flos.com/it/prodotti/biagio-t/">Biagio</a>
+09:00:51: Per interni
+09:00:51: Marmo bianco
+09:00:51: Marmo
+09:00:51: 1 x LED 8W E27 740lm 2700K [e] cod. RF25323 DIMMER<br>1 x LED 8W E27 740lm 3000K [e] cod. RF25317 DIMMER
+09:00:51: processo: https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour/ mancano: 202
+09:00:54: 5
+09:00:54: <a href="https://flos.com/it/prodotti/bon-jour-t/">Bon Jour</a>
+09:00:54: Per interni
+09:00:54: Bianco, Rame, Cromo, Cromo opaco
+09:00:54: 1 x EDGE LIGHTING 13W 811lm 2700K CRI90 [i] DIMMER
+09:00:54: processo: https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour-unplugged/ mancano: 201
+09:01:16: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 205
+09:01:18: 6
+09:01:18: processo: https://flos.com/it/prodotti/lampade-tavolo/bellhop/bellhop/ mancano: 204
+09:01:19: 5
+09:01:19: processo: https://flos.com/it/prodotti/lampade-tavolo/biagio/biagio/ mancano: 203
+09:01:19: 6
+09:01:20: processo: https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour/ mancano: 202
+09:01:20: 5
+09:01:20: processo: https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour-unplugged/ mancano: 201
+09:01:21: 6
+09:01:21: processo: https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour-versailles/ mancano: 200
+09:01:24: 5
+09:01:24: processo: https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour-versailles-small/ mancano: 199
+09:01:27: 6
+09:01:27: FINITO
+09:03:12: processo: https://flos.com/it/prodotti/lampade-tavolo/gaku/gaku-wire/#tech-specs mancano: 0
+09:03:16: 6
+09:03:16: FINITO
+09:06:03: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 205
+09:06:05: 6
+09:06:05: processo: https://flos.com/it/prodotti/lampade-tavolo/bellhop/bellhop/ mancano: 204
+09:06:06: 5
+09:06:06: processo: https://flos.com/it/prodotti/lampade-tavolo/biagio/biagio/ mancano: 203
+09:06:07: 6
+09:06:07: processo: https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour/ mancano: 202
+09:06:07: 5
+09:06:07: processo: https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour-unplugged/ mancano: 201
+09:06:08: 6
+09:06:08: processo: https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour-versailles/ mancano: 200
+09:06:09: 5
+09:06:09: processo: https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour-versailles-small/ mancano: 199
+09:06:09: 6
+09:06:09: processo: https://flos.com/it/prodotti/lampade-tavolo/chapo/chapo/ mancano: 198
+09:06:12: 6
+09:06:12: processo: https://flos.com/it/prodotti/lampade-tavolo/cocoon/gatto/ mancano: 197
+09:06:12: 6
+09:06:12: processo: https://flos.com/it/prodotti/lampade-tavolo/cocoon/gatto-piccolo/ mancano: 196
+09:06:16: 6
+09:06:16: processo: https://flos.com/it/prodotti/lampade-tavolo/copycat/copycat/ mancano: 195
+09:06:17: 5
+09:06:17: processo: https://flos.com/it/prodotti/lampade-tavolo/de-light/de-light/ mancano: 194
