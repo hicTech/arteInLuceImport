@@ -16,7 +16,7 @@ async function main() {
     // if (url !== 'https://portal.vistosi.it/eprogen/epRichiesta_risorse_pubblica_v2.jsp?cdvisttp=PL&cdvistfam=AUROR&cdling=0&fg_eur_usa=E') {
     //   continue;
     // }
-
+/*
     await page.goto(url)
     await page.evaluate(()=> {
       window.crawler = async function (url, file_req, res_exist, dsfile, tiporisorsa, nome_modello, cdvistelet) {
@@ -62,7 +62,7 @@ async function main() {
         return action.toString()
       }
     })
-
+*/
     for (const [i, resource] of resources.entries()) {
       let { name, category, download } = resource;
       
@@ -82,16 +82,28 @@ async function main() {
       }
       params = params.map(d => d[0] == "'"? d.substring(1, d.length-1) : d)
 
-      let link = await page.evaluate(async (params) =>
-        await crawler(...params)
-      , [url, ...params])
+      // let link = await page.evaluate(async (params) =>
+      //   await crawler(...params)
+      // , [url, ...params])
       
       resource.filename = `pdf/${category}_${name}-${i}.pdf`
-      let file = fs.createWriteStream(resource.filename);
-      https.get(link, response => response.pipe(file));
 
+      const size = fs.statSync(resource.filename).size;
+      if ( size === 0 ){
+        console.log(params[0], params[1]);
+        delete resource.filename
+      }
+      
+
+      // let file = fs.createWriteStream(resource.filename);
+      // https.get(link, response => response.pipe(file)).on('error', () => {
+      //   console.log('ERRORE NEL URL ' + url + '\nRISORSA ' + resource.filename);
+      // });
     }
     
+
+    fs.writeFileSync('./assets_json_andrea.json', JSON.stringify(assets, null, '\t'), 'utf8')
+    await browser.close();
   }
 
 }
@@ -99,15 +111,6 @@ async function main() {
 (async() => {
   try {
     await main()
-
-
-
-    // await page.goto('https://portal.vistosi.it/eprogen/epRichiesta_risorse_pubblica_v2.jsp?cdvisttp=SP&cdvistfam=24PEA&cdling=0&fg_eur_usa=E');
-    // let requests = await page.evaluate(() => {
-    //   let selector = '#table1 > tbody:nth-child(1) > tr > td:nth-child(1) > table > tbody > tr:nth-child(3) > td > div > a:nth-child(1)'
-    //   document.querySelector(selector).click();
-    // })
-    //await page.waitForSelector('#blue-button');
   } catch(e) {
     console.log('errore', e)
   }
