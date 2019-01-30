@@ -2471,7 +2471,24 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     
                     supplier = "flos";
                     supplier_id = supplierId(supplier);
-                    model = undefined;
+                    model = row["Codice articolo"];
+
+                    var trovato = false;
+
+                    _.each(assets_json,function(asset){
+                        if(asset.code == model)
+                            trovato = true;
+                        else{
+                            _.each(asset.accessories,function(accessory){
+                                if(accessory.id == model)
+                                    trovato = true;
+                            })
+                        }
+                    });
+
+                    if(trovato)
+                        _.log(count++)
+
                     original_model_id = undefined;
                     model_id = undefined;
                     item_id = undefined;
