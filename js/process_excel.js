@@ -152,7 +152,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
     
 
         /* ================================================================= FOSCARINI */
-        if( false /*fornitore == "foscarini"*/ ){
+        if( fornitore == "foscarini" ){
 
             
             var model_names = [
@@ -319,6 +319,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 pic = getPics(model, category, color, component, createAllImgsArr(assets_json), "primary" );
                 light_schema = undefined;
                 otherColors = getPics(model, category, color, component, createAllImgsArr(assets_json), "colors" );
+                
                 more = JSON.stringify({
                     video : getVideo(model, category, component, createAllVideosArr(assets_json)),
                     link : getLink(model, category, component, createAllLinksArr(assets_json)),

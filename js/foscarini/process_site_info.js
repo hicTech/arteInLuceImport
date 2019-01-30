@@ -19,7 +19,9 @@ var arr_all_products = [
 
 ];
 
-
+/*
+arr_all_products = ["https://www.foscarini.com/it/products/sos-buds-3/?color=3374"];
+*/
 
 // elimino eventuali doppioni
 arr_all_products = _.uniq(arr_all_products);
@@ -174,11 +176,11 @@ function createJsonFromAPage(body){
     }
 
     // immagini nascoste
-    var $hide = $body.find(".hide a");
-    var hide_imgs = [];
-    $hide.each(function(){
+    var $projects = $body.find('a[data-overlay="gallery-projects"]');
+    var projects = [];
+    $projects.each(function(){
         var attr_href = $(this).attr("href");
-        hide_imgs.push(attr_href);
+        projects.push(attr_href);
     });
 
     // immagini spuree
@@ -209,7 +211,7 @@ function createJsonFromAPage(body){
         carousel: car_imgs_arr,
         video : video_url,
         other_imgs : imgs_arr,
-        projects: hide_imgs,
+        projects: projects,
         related_imgs : related_imgs,
         specs: specs_arr 
     })
