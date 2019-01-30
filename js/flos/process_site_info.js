@@ -67,11 +67,13 @@ var arr_all_products = [
 ]
 
 
+
 var arr_all_products = [
-    "https://flos.com/it/prodotti/lampade-tavolo/gaku/gaku-wire/#tech-specs",
+    "https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour/#tech-specs",
     
 ]
 */
+
 
 
 
@@ -119,21 +121,28 @@ var arr_single_product = [];
 
 function createJsonFromAPage(body, uri){
 
+    //_.log(body)
+
+    
+
     var $body = $(body);
     var $model = $body.find("h1.product_title.entry-title");
         $model.find("a").remove();
     var model = $model.html();    
+
+    
+    $body.find("h2").each(function(){
+        if( $(this).html() == "Accessori" )
+            _.log("------------------------------------------------------------------------------------------ACCESSORI")
+    })
+
+
 
     var $summary = $body.find(".summary.entry-summary");
     var category = $summary.find("ul").eq(0).find(".active a").html();
     var $desc = $summary.find(".product-description");
         $desc.find("span").remove();
     var desc = $desc.html();
-
-    var $more_info = $body.find("ul.more-info-list");
-
-    
-
 
 
     var other_images = [];
@@ -175,30 +184,41 @@ function createJsonFromAPage(body, uri){
             })
     });
 
-    var $more_info = $body.find("ul.more-info-list li");
+    var $rows = $body.find(".summery-details .row");
 
-    _.log($more_info.length);
+    
 
     var more = {};
 
-    $more_info.each(function(){
-        var label = $(this).find("strong").html().toLowerCase().replace(" ","_");
+    $rows.each(function(){
+        var label = $(this).find("strong").html().toLowerCase().replace(" ","_").replace(" ","_").replace(" ","_");
         var value = $(this).find("span").html();
-            if( !_.is(value) ){
-                var $cleaned = $(this).clone();
-                value = S($cleaned.html()).replaceAll("\n","").s.trim();
-                var da_eliminare = S(value).between("<strong>","</strong>").s;
+            value = (_.is(value))? S(value).replaceAll("  ","").replaceAll("\n","").replaceAll("\n ","").s.trim() : undefined;
 
-                value = value.replace("<strong>"+da_eliminare+"</strong>","").replace(/ +(?= )/g,'').replace("<br> ","")
-
-                var $value = $("<div>"+value+"</div>");
-                $value = ($value.find("a").length != 0)? $value.find("a") : $value;
-                value = $value.html();
-                value = (value.indexOf("<br>") != -1) ? value.split("<br>") : value;
-                //value = $cleaned.find("strong").html();
-            }
+        if(label == "colori"){
+            value = value.split("<br>");
+            var colors = [];
+            _.each(value,function(elem){
+                    colors.push({
+                        name: S(elem).between("</span>").s.split(" - ")[1],
+                        id: S(elem).between("</span>").s.split(" - ")[0],
+                    })
+                
+            });
+            value = colors;
+        }
 
         more[label] = value;
+    })
+
+    var $accessories = $body.find(".related-accessories .item");
+    var accessories = [];
+    $accessories.each(function(){
+        accessories.push({
+            id : $(this).find("h3").html(),
+            name : $(this).find("p").html(),
+            img : $(this).find("figure img").attr("src")
+        })
     })
 
 
@@ -217,7 +237,8 @@ function createJsonFromAPage(body, uri){
             summary_media : summary_media,
             other_images: other_images,
             downloads : downloads,
-            more: more
+            more: more,
+            accessories: accessories,
         })
     })
 
