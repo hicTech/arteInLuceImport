@@ -69,7 +69,7 @@ var arr_all_products = [
 
 
 var arr_all_products = [
-    "https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour/#tech-specs",
+    "https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour/",
     
 ]
 */
@@ -216,7 +216,9 @@ function createJsonFromAPage(body, uri){
     $accessories.each(function(){
         accessories.push({
             id : $(this).find("h3").html(),
-            name : $(this).find("p").html(),
+            fullname : $(this).find("p").html(),
+            name: ( $(this).find("p").html().indexOf(" - ") != -1) ? $(this).find("p").html().split(" - ")[0] : $(this).find("p").html(),
+            color: ( $(this).find("p").html().indexOf(" - ") != -1) ? $(this).find("p").html().split(" - ")[1] : undefined,
             img : $(this).find("figure img").attr("src")
         })
     })
@@ -228,7 +230,7 @@ function createJsonFromAPage(body, uri){
             uri: uri,
             model : model,
             category: (category == "Tavolo")? "tavolo" : (category == "Pavimento")? "terra" : (category == "Muro/Soffitto")? "soffitto" : "sospensione",
-            code: variation.sku,
+            code: getCode(variation.sku),
             desc :desc,
             size_image: size_image,
             color: variation.attributes.attribute_pa_color,
@@ -244,7 +246,35 @@ function createJsonFromAPage(body, uri){
 
     
     
-    
+    function getCode(sku){
+        // trovati casi particolari, guarda note.txt si FLOS
+        if(sku == "F29550")
+            return "F2955000";
+        if(sku == "F31730")
+            return "F3173030";
+        if(sku == "f9550039")
+            return "F9550039";
+        if(sku == "F95140030")
+            return "F9514030";
+        if(sku == "F9512020")
+            return "F9513020";
+        if(sku == "F63070")
+            return "F6307007";
+        if(sku == "F63050")
+            return "F6305007";
+        if(sku == "F62650")
+            return "F6265007";
+        if(sku == "F3120030")
+            return "F3150030";
+        if(sku == "F3120046")
+            return "F3150046";
+        if(sku == "F3120054")
+            return "F3150054";
+
+        else
+            return sku;
+
+    }
 
 
   

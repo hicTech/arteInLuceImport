@@ -9,18 +9,30 @@ var path = "../xls/";
 
 var count = 0;
 
+// node process_excel.js -flos          per fare un solo fornitore
+// node process_excel.js                per farli tutti
  
 fs.readdir(path, function(err, cartella_fornitore) {
     
     for (var i=0; i<cartella_fornitore.length; i++) {
         let cartella = cartella_fornitore[i];
 
+       
+
         if(cartella != ".DS_Store"){
             let path_cartella = path+cartella;
+
+
+
+            if  ( _.is(process.argv[2]) && _.contains(cartella_fornitore,process.argv[2].replace("-","") ) ){
+                if( cartella != process.argv[2].replace("-","") )
+                    return false;
+            }
 
             
 
             fs.readdir(path_cartella, (err, files) => {
+                _.log("PROCESSO: "+path_cartella)
                 let files_length = 0;
 
                 // conto i file .xls
@@ -895,7 +907,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         }
         else{
             /* ================================================================= VISTOSI */
-            if( false /*fornitore == "vistosi"*/ ){
+            if( fornitore == "vistosi"){
 
                  var all_models_name = [
                                     "ACCADEMIA","ALIKI","ALMA","ALUM 09","ASSIBA","BACO","BACONA","BIANCA","BOCCIA","CHIMERA","CHIMERA 09",
@@ -2462,41 +2474,31 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 
             }
             else{
+                /* ================================================================= FLOS */
                 if( fornitore == "flos"){
 
-                    /*
-                        nella pagina prodotto cerca:
-                            <form class="variations_form cart" method="post" enctype="multipart/form-data" data-product_id="8339" data-product_variations="
-                        ci trovi un json con le varianti del prodotto stesso
-                    */
+                    var hasAsset = _.is(getAsset(row["Codice articolo"])); // dice di questo articolo se è presente il rispettivo oggetto in asset_json recuperato dal sito
+
+                   
+
                     
                     supplier = "flos";
                     supplier_id = supplierId(supplier);
+                    component = (row["Raggr. Commerciale"] == "SPAREPARTS")? 1: 0; // sono 525 "DECORATIVE" e 1084 SPAREPARTS
                     model = row["Codice articolo"];
 
-                    var trovato = false;
+                    
 
-                    _.each(assets_json,function(asset){
-                        if(asset.code == model)
-                            trovato = true;
-                        else{
-                            _.each(asset.accessories,function(accessory){
-                                if(accessory.id == model)
-                                    trovato = true;
-                            })
-                        }
-                    });
 
-                    if(trovato)
-                        _.log(count++)
+                    
 
-                    original_model_id = undefined;
-                    model_id = undefined;
-                    item_id = undefined;
-                    hicId = undefined;
+                    original_model_id = row["Codice articolo"];
+                    model_id = model;
+                    item_id = original_model_id;
+                    hicId = getHicId(supplier_id, item_id);
                     ean13 = undefined;
-                    price = undefined;
-                    color = undefined;
+                    price = getPrice(row["PREZZO IVA ESCL."]);
+                    color = getColor(model_id);
                     desc_it = undefined;
                     desc_en = undefined;
                     cleaned_desc_it = undefined;
@@ -2508,7 +2510,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     switcher = undefined;
                     category = undefined;   // è un array di categorie, i possibili valori sono: terra | tavolo | parete | soffitto | sospensione | altro (nel caso di "altro" quando possibile viene anche specificato di cosa si tratta, tipo: kit, vetro....)
                     type = undefined;       // è un valore unico ovvero una stringa
-                    component = undefined;
+                    
                     component_of = undefined;
                     size = undefined;
                     outdoor = undefined;
@@ -2520,6 +2522,51 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     light_schema = undefined;
                     otherColors = undefined;
                     projects = undefined;
+
+
+                    function getPrice(price){
+                        return price.replace("€ ","");
+                    }
+
+                    function getColor(model){
+                        var asset = getAsset(model_id);
+                        if(_.is(asset)){
+                            return asset.color.replace("colour_","");
+                        }
+                            
+                    }
+
+                    function icComponent(model_id_or_asset){
+                        var obj = ( _.isObject(model_id_or_asset) )? model_id_or_asset : getAsset(model_id_or_asset);
+                        if (_.is(obj))
+                            return _.is(obj.fullname)
+                    }
+
+                    // dato un id articolo ritorna l'oggetto asset di asset_json
+                    // se è undefined vuol dire che non l'ha trovato
+                    // se ciò che torna ha "category" si tratta di un articolo vero e proprio
+                    // altrimenti si tratta di un pezzo di ricambio
+                    function getAsset(id){
+                        
+                        var ret = undefined;
+                        _.each(assets_json,function(asset){
+                            if(!_.is(ret)){
+                                if(asset.code == id){
+                                    ret = asset;
+                                }
+                                else{
+                                    _.each(asset.accessories,function(accessory){
+                                        if(accessory.id == id){
+                                            ret = asset;
+                                        }
+                                            
+                                    })
+                                }
+                            }
+                        });
+
+                        return ret;
+                    }
         
 
                 }

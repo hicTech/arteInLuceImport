@@ -457,32 +457,44 @@
         "accessories": [
             {
                 "id": "F1033070",
-                "name": "Corona - Ambra",
+                "fullname": "Corona - Ambra",
+                "name": "Corona",
+                "color": "Ambra",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033070-accessory-spech-tech-05-500x500.jpg"
             },
             {
                 "id": "F1033019",
-                "name": "Corona - Giallo",
+                "fullname": "Corona - Giallo",
+                "name": "Corona",
+                "color": "Giallo",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033019-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F1033088",
-                "name": "Corona - Rafia",
+                "fullname": "Corona - Rafia",
+                "name": "Corona",
+                "color": "Rafia",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033088-accessory-spech-tech-06-500x500.jpg"
             },
             {
                 "id": "F1033007",
-                "name": "Corona - Tessuto",
+                "fullname": "Corona - Tessuto",
+                "name": "Corona",
+                "color": "Tessuto",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033007-accessory-spech-tech-02-500x500.jpg"
             },
             {
                 "id": "F1033000",
-                "name": "Corona - Trasparente",
+                "fullname": "Corona - Trasparente",
+                "name": "Corona",
+                "color": "Trasparente",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033000-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F1033030",
-                "name": "Corona - Fumè",
+                "fullname": "Corona - Fumè",
+                "name": "Corona",
+                "color": "Fumè",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033030-accessory-spech-tech-04-500x500.jpg"
             }
         ]
@@ -552,32 +564,44 @@
         "accessories": [
             {
                 "id": "F1033070",
-                "name": "Corona - Ambra",
+                "fullname": "Corona - Ambra",
+                "name": "Corona",
+                "color": "Ambra",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033070-accessory-spech-tech-05-500x500.jpg"
             },
             {
                 "id": "F1033019",
-                "name": "Corona - Giallo",
+                "fullname": "Corona - Giallo",
+                "name": "Corona",
+                "color": "Giallo",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033019-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F1033088",
-                "name": "Corona - Rafia",
+                "fullname": "Corona - Rafia",
+                "name": "Corona",
+                "color": "Rafia",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033088-accessory-spech-tech-06-500x500.jpg"
             },
             {
                 "id": "F1033007",
-                "name": "Corona - Tessuto",
+                "fullname": "Corona - Tessuto",
+                "name": "Corona",
+                "color": "Tessuto",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033007-accessory-spech-tech-02-500x500.jpg"
             },
             {
                 "id": "F1033000",
-                "name": "Corona - Trasparente",
+                "fullname": "Corona - Trasparente",
+                "name": "Corona",
+                "color": "Trasparente",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033000-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F1033030",
-                "name": "Corona - Fumè",
+                "fullname": "Corona - Fumè",
+                "name": "Corona",
+                "color": "Fumè",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033030-accessory-spech-tech-04-500x500.jpg"
             }
         ]
@@ -647,32 +671,44 @@
         "accessories": [
             {
                 "id": "F1033070",
-                "name": "Corona - Ambra",
+                "fullname": "Corona - Ambra",
+                "name": "Corona",
+                "color": "Ambra",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033070-accessory-spech-tech-05-500x500.jpg"
             },
             {
                 "id": "F1033019",
-                "name": "Corona - Giallo",
+                "fullname": "Corona - Giallo",
+                "name": "Corona",
+                "color": "Giallo",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033019-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F1033088",
-                "name": "Corona - Rafia",
+                "fullname": "Corona - Rafia",
+                "name": "Corona",
+                "color": "Rafia",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033088-accessory-spech-tech-06-500x500.jpg"
             },
             {
                 "id": "F1033007",
-                "name": "Corona - Tessuto",
+                "fullname": "Corona - Tessuto",
+                "name": "Corona",
+                "color": "Tessuto",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033007-accessory-spech-tech-02-500x500.jpg"
             },
             {
                 "id": "F1033000",
-                "name": "Corona - Trasparente",
+                "fullname": "Corona - Trasparente",
+                "name": "Corona",
+                "color": "Trasparente",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033000-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F1033030",
-                "name": "Corona - Fumè",
+                "fullname": "Corona - Fumè",
+                "name": "Corona",
+                "color": "Fumè",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033030-accessory-spech-tech-04-500x500.jpg"
             }
         ]
@@ -742,32 +778,44 @@
         "accessories": [
             {
                 "id": "F1033070",
-                "name": "Corona - Ambra",
+                "fullname": "Corona - Ambra",
+                "name": "Corona",
+                "color": "Ambra",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033070-accessory-spech-tech-05-500x500.jpg"
             },
             {
                 "id": "F1033019",
-                "name": "Corona - Giallo",
+                "fullname": "Corona - Giallo",
+                "name": "Corona",
+                "color": "Giallo",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033019-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F1033088",
-                "name": "Corona - Rafia",
+                "fullname": "Corona - Rafia",
+                "name": "Corona",
+                "color": "Rafia",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033088-accessory-spech-tech-06-500x500.jpg"
             },
             {
                 "id": "F1033007",
-                "name": "Corona - Tessuto",
+                "fullname": "Corona - Tessuto",
+                "name": "Corona",
+                "color": "Tessuto",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033007-accessory-spech-tech-02-500x500.jpg"
             },
             {
                 "id": "F1033000",
-                "name": "Corona - Trasparente",
+                "fullname": "Corona - Trasparente",
+                "name": "Corona",
+                "color": "Trasparente",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033000-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F1033030",
-                "name": "Corona - Fumè",
+                "fullname": "Corona - Fumè",
+                "name": "Corona",
+                "color": "Fumè",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033030-accessory-spech-tech-04-500x500.jpg"
             }
         ]
@@ -838,36 +886,49 @@
         "accessories": [
             {
                 "id": "F1036019",
-                "name": "Corona - Giallo",
+                "fullname": "Corona - Giallo",
+                "name": "Corona",
+                "color": "Giallo",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036019-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F1036070",
-                "name": "Corona - Ambra",
+                "fullname": "Corona - Ambra",
+                "name": "Corona",
+                "color": "Ambra",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036070-accessory-spech-tech-05-500x500.jpg"
             },
             {
                 "id": "F1036088",
-                "name": "Corona - Rafia",
+                "fullname": "Corona - Rafia",
+                "name": "Corona",
+                "color": "Rafia",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036088-accessory-spech-tech-06-500x500.jpg"
             },
             {
                 "id": "F1036007",
-                "name": "Corona - Tessuto",
+                "fullname": "Corona - Tessuto",
+                "name": "Corona",
+                "color": "Tessuto",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036007-accessory-spech-tech-02-500x500.jpg"
             },
             {
                 "id": "F1036000",
-                "name": "Corona - Trasparente",
+                "fullname": "Corona - Trasparente",
+                "name": "Corona",
+                "color": "Trasparente",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036000-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F1036030",
-                "name": "Corona - Fumè",
+                "fullname": "Corona - Fumè",
+                "name": "Corona",
+                "color": "Fumè",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036046-accessory-spech-tech-04-500x500.jpg"
             },
             {
                 "id": "F1036035",
+                "fullname": "Corona-Rosso",
                 "name": "Corona-Rosso",
                 "img": "https://flos.com/wp-content/uploads/2018/08/bon-jour-table-starck-flos-F1036035-accessory-spech-tech-02-500x500.jpg"
             }
@@ -939,36 +1000,49 @@
         "accessories": [
             {
                 "id": "F1036019",
-                "name": "Corona - Giallo",
+                "fullname": "Corona - Giallo",
+                "name": "Corona",
+                "color": "Giallo",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036019-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F1036070",
-                "name": "Corona - Ambra",
+                "fullname": "Corona - Ambra",
+                "name": "Corona",
+                "color": "Ambra",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036070-accessory-spech-tech-05-500x500.jpg"
             },
             {
                 "id": "F1036088",
-                "name": "Corona - Rafia",
+                "fullname": "Corona - Rafia",
+                "name": "Corona",
+                "color": "Rafia",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036088-accessory-spech-tech-06-500x500.jpg"
             },
             {
                 "id": "F1036007",
-                "name": "Corona - Tessuto",
+                "fullname": "Corona - Tessuto",
+                "name": "Corona",
+                "color": "Tessuto",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036007-accessory-spech-tech-02-500x500.jpg"
             },
             {
                 "id": "F1036000",
-                "name": "Corona - Trasparente",
+                "fullname": "Corona - Trasparente",
+                "name": "Corona",
+                "color": "Trasparente",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036000-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F1036030",
-                "name": "Corona - Fumè",
+                "fullname": "Corona - Fumè",
+                "name": "Corona",
+                "color": "Fumè",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036046-accessory-spech-tech-04-500x500.jpg"
             },
             {
                 "id": "F1036035",
+                "fullname": "Corona-Rosso",
                 "name": "Corona-Rosso",
                 "img": "https://flos.com/wp-content/uploads/2018/08/bon-jour-table-starck-flos-F1036035-accessory-spech-tech-02-500x500.jpg"
             }
@@ -1040,36 +1114,49 @@
         "accessories": [
             {
                 "id": "F1036019",
-                "name": "Corona - Giallo",
+                "fullname": "Corona - Giallo",
+                "name": "Corona",
+                "color": "Giallo",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036019-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F1036070",
-                "name": "Corona - Ambra",
+                "fullname": "Corona - Ambra",
+                "name": "Corona",
+                "color": "Ambra",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036070-accessory-spech-tech-05-500x500.jpg"
             },
             {
                 "id": "F1036088",
-                "name": "Corona - Rafia",
+                "fullname": "Corona - Rafia",
+                "name": "Corona",
+                "color": "Rafia",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036088-accessory-spech-tech-06-500x500.jpg"
             },
             {
                 "id": "F1036007",
-                "name": "Corona - Tessuto",
+                "fullname": "Corona - Tessuto",
+                "name": "Corona",
+                "color": "Tessuto",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036007-accessory-spech-tech-02-500x500.jpg"
             },
             {
                 "id": "F1036000",
-                "name": "Corona - Trasparente",
+                "fullname": "Corona - Trasparente",
+                "name": "Corona",
+                "color": "Trasparente",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036000-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F1036030",
-                "name": "Corona - Fumè",
+                "fullname": "Corona - Fumè",
+                "name": "Corona",
+                "color": "Fumè",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036046-accessory-spech-tech-04-500x500.jpg"
             },
             {
                 "id": "F1036035",
+                "fullname": "Corona-Rosso",
                 "name": "Corona-Rosso",
                 "img": "https://flos.com/wp-content/uploads/2018/08/bon-jour-table-starck-flos-F1036035-accessory-spech-tech-02-500x500.jpg"
             }
@@ -1141,36 +1228,49 @@
         "accessories": [
             {
                 "id": "F1036019",
-                "name": "Corona - Giallo",
+                "fullname": "Corona - Giallo",
+                "name": "Corona",
+                "color": "Giallo",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036019-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F1036070",
-                "name": "Corona - Ambra",
+                "fullname": "Corona - Ambra",
+                "name": "Corona",
+                "color": "Ambra",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036070-accessory-spech-tech-05-500x500.jpg"
             },
             {
                 "id": "F1036088",
-                "name": "Corona - Rafia",
+                "fullname": "Corona - Rafia",
+                "name": "Corona",
+                "color": "Rafia",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036088-accessory-spech-tech-06-500x500.jpg"
             },
             {
                 "id": "F1036007",
-                "name": "Corona - Tessuto",
+                "fullname": "Corona - Tessuto",
+                "name": "Corona",
+                "color": "Tessuto",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036007-accessory-spech-tech-02-500x500.jpg"
             },
             {
                 "id": "F1036000",
-                "name": "Corona - Trasparente",
+                "fullname": "Corona - Trasparente",
+                "name": "Corona",
+                "color": "Trasparente",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036000-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F1036030",
-                "name": "Corona - Fumè",
+                "fullname": "Corona - Fumè",
+                "name": "Corona",
+                "color": "Fumè",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036046-accessory-spech-tech-04-500x500.jpg"
             },
             {
                 "id": "F1036035",
+                "fullname": "Corona-Rosso",
                 "name": "Corona-Rosso",
                 "img": "https://flos.com/wp-content/uploads/2018/08/bon-jour-table-starck-flos-F1036035-accessory-spech-tech-02-500x500.jpg"
             }
@@ -1233,32 +1333,44 @@
         "accessories": [
             {
                 "id": "F1033000",
-                "name": "Corona - Trasparente",
+                "fullname": "Corona - Trasparente",
+                "name": "Corona",
+                "color": "Trasparente",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033000-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F1033007",
-                "name": "Corona - Tessuto",
+                "fullname": "Corona - Tessuto",
+                "name": "Corona",
+                "color": "Tessuto",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033007-accessory-spech-tech-02-500x500.jpg"
             },
             {
                 "id": "F1033019",
-                "name": "Corona - Giallo",
+                "fullname": "Corona - Giallo",
+                "name": "Corona",
+                "color": "Giallo",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033019-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F1033030",
-                "name": "Corona - Fumè",
+                "fullname": "Corona - Fumè",
+                "name": "Corona",
+                "color": "Fumè",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033030-accessory-spech-tech-04-500x500.jpg"
             },
             {
                 "id": "F1033070",
-                "name": "Corona - Ambra",
+                "fullname": "Corona - Ambra",
+                "name": "Corona",
+                "color": "Ambra",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033070-accessory-spech-tech-05-500x500.jpg"
             },
             {
                 "id": "F1033088",
-                "name": "Corona - Rafia",
+                "fullname": "Corona - Rafia",
+                "name": "Corona",
+                "color": "Rafia",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033088-accessory-spech-tech-06-500x500.jpg"
             }
         ]
@@ -1320,32 +1432,44 @@
         "accessories": [
             {
                 "id": "F1033000",
-                "name": "Corona - Trasparente",
+                "fullname": "Corona - Trasparente",
+                "name": "Corona",
+                "color": "Trasparente",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033000-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F1033007",
-                "name": "Corona - Tessuto",
+                "fullname": "Corona - Tessuto",
+                "name": "Corona",
+                "color": "Tessuto",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033007-accessory-spech-tech-02-500x500.jpg"
             },
             {
                 "id": "F1033019",
-                "name": "Corona - Giallo",
+                "fullname": "Corona - Giallo",
+                "name": "Corona",
+                "color": "Giallo",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033019-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F1033030",
-                "name": "Corona - Fumè",
+                "fullname": "Corona - Fumè",
+                "name": "Corona",
+                "color": "Fumè",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033030-accessory-spech-tech-04-500x500.jpg"
             },
             {
                 "id": "F1033070",
-                "name": "Corona - Ambra",
+                "fullname": "Corona - Ambra",
+                "name": "Corona",
+                "color": "Ambra",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033070-accessory-spech-tech-05-500x500.jpg"
             },
             {
                 "id": "F1033088",
-                "name": "Corona - Rafia",
+                "fullname": "Corona - Rafia",
+                "name": "Corona",
+                "color": "Rafia",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033088-accessory-spech-tech-06-500x500.jpg"
             }
         ]
@@ -1408,36 +1532,49 @@
         "accessories": [
             {
                 "id": "F1036000",
-                "name": "Corona - Trasparente",
+                "fullname": "Corona - Trasparente",
+                "name": "Corona",
+                "color": "Trasparente",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036000-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F1036007",
-                "name": "Corona - Tessuto",
+                "fullname": "Corona - Tessuto",
+                "name": "Corona",
+                "color": "Tessuto",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036007-accessory-spech-tech-02-500x500.jpg"
             },
             {
                 "id": "F1036019",
-                "name": "Corona - Giallo",
+                "fullname": "Corona - Giallo",
+                "name": "Corona",
+                "color": "Giallo",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036019-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F1036070",
-                "name": "Corona - Ambra",
+                "fullname": "Corona - Ambra",
+                "name": "Corona",
+                "color": "Ambra",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036070-accessory-spech-tech-05-500x500.jpg"
             },
             {
                 "id": "F1036088",
-                "name": "Corona - Rafia",
+                "fullname": "Corona - Rafia",
+                "name": "Corona",
+                "color": "Rafia",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036088-accessory-spech-tech-06-500x500.jpg"
             },
             {
                 "id": "F1036030",
-                "name": "Corona - Fumè",
+                "fullname": "Corona - Fumè",
+                "name": "Corona",
+                "color": "Fumè",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036046-accessory-spech-tech-04-500x500.jpg"
             },
             {
                 "id": "F1036035",
+                "fullname": "Corona-Rosso",
                 "name": "Corona-Rosso",
                 "img": "https://flos.com/wp-content/uploads/2018/08/bon-jour-table-starck-flos-F1036035-accessory-spech-tech-02-500x500.jpg"
             }
@@ -1501,36 +1638,49 @@
         "accessories": [
             {
                 "id": "F1036000",
-                "name": "Corona - Trasparente",
+                "fullname": "Corona - Trasparente",
+                "name": "Corona",
+                "color": "Trasparente",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036000-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F1036007",
-                "name": "Corona - Tessuto",
+                "fullname": "Corona - Tessuto",
+                "name": "Corona",
+                "color": "Tessuto",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036007-accessory-spech-tech-02-500x500.jpg"
             },
             {
                 "id": "F1036019",
-                "name": "Corona - Giallo",
+                "fullname": "Corona - Giallo",
+                "name": "Corona",
+                "color": "Giallo",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036019-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F1036070",
-                "name": "Corona - Ambra",
+                "fullname": "Corona - Ambra",
+                "name": "Corona",
+                "color": "Ambra",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036070-accessory-spech-tech-05-500x500.jpg"
             },
             {
                 "id": "F1036088",
-                "name": "Corona - Rafia",
+                "fullname": "Corona - Rafia",
+                "name": "Corona",
+                "color": "Rafia",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036088-accessory-spech-tech-06-500x500.jpg"
             },
             {
                 "id": "F1036030",
-                "name": "Corona - Fumè",
+                "fullname": "Corona - Fumè",
+                "name": "Corona",
+                "color": "Fumè",
                 "img": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036046-accessory-spech-tech-04-500x500.jpg"
             },
             {
                 "id": "F1036035",
+                "fullname": "Corona-Rosso",
                 "name": "Corona-Rosso",
                 "img": "https://flos.com/wp-content/uploads/2018/08/bon-jour-table-starck-flos-F1036035-accessory-spech-tech-02-500x500.jpg"
             }
@@ -2252,51 +2402,61 @@
         "accessories": [
             {
                 "id": "F2525009",
+                "fullname": "Bookend white",
                 "name": "Bookend white",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-bookend-table-nendo-flos-F2525030-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2525030",
+                "fullname": "Bookend black",
                 "name": "Bookend black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-bookend-table-nendo-flos-F2525009-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2524030",
+                "fullname": "Key Bowl black",
                 "name": "Key Bowl black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-keybowl-table-nendo-flos-F2524030-accessory-spech-tech-500x500..jpg"
             },
             {
                 "id": "F2524009",
+                "fullname": "Key Bowl white",
                 "name": "Key Bowl white",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-keybowl-table-nendo-flos-F2524009-accessory-spech-tech-500x500..jpg"
             },
             {
                 "id": "F2523030",
+                "fullname": "Vase black",
                 "name": "Vase black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-vase-table-nendo-flos-F2523030-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2523009",
+                "fullname": "Vase white",
                 "name": "Vase white",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-vase-table-nendo-flos-F2523009-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2522030",
+                "fullname": "Bowl black",
                 "name": "Bowl black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-bowl-table-nendo-flos-F2522030-accessory-spech-tech-500x500..jpg"
             },
             {
                 "id": "F2522009",
+                "fullname": "Bowl white",
                 "name": "Bowl white",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-bowl-table-nendo-flos-F2525009-accessory-spech-tech-500x500..jpg"
             },
             {
                 "id": "F2526009",
+                "fullname": "Mirror White",
                 "name": "Mirror White",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-mirror-table-nendo-flos-F2526009-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2526030",
+                "fullname": "Mirror black",
                 "name": "Mirror black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-mirror-table-nendo-flos-F2526030-accessory-spech-tech-500x500.jpg"
             }
@@ -2361,51 +2521,61 @@
         "accessories": [
             {
                 "id": "F2525009",
+                "fullname": "Bookend white",
                 "name": "Bookend white",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-bookend-table-nendo-flos-F2525030-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2525030",
+                "fullname": "Bookend black",
                 "name": "Bookend black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-bookend-table-nendo-flos-F2525009-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2524030",
+                "fullname": "Key Bowl black",
                 "name": "Key Bowl black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-keybowl-table-nendo-flos-F2524030-accessory-spech-tech-500x500..jpg"
             },
             {
                 "id": "F2524009",
+                "fullname": "Key Bowl white",
                 "name": "Key Bowl white",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-keybowl-table-nendo-flos-F2524009-accessory-spech-tech-500x500..jpg"
             },
             {
                 "id": "F2523030",
+                "fullname": "Vase black",
                 "name": "Vase black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-vase-table-nendo-flos-F2523030-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2523009",
+                "fullname": "Vase white",
                 "name": "Vase white",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-vase-table-nendo-flos-F2523009-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2522030",
+                "fullname": "Bowl black",
                 "name": "Bowl black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-bowl-table-nendo-flos-F2522030-accessory-spech-tech-500x500..jpg"
             },
             {
                 "id": "F2522009",
+                "fullname": "Bowl white",
                 "name": "Bowl white",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-bowl-table-nendo-flos-F2525009-accessory-spech-tech-500x500..jpg"
             },
             {
                 "id": "F2526009",
+                "fullname": "Mirror White",
                 "name": "Mirror White",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-mirror-table-nendo-flos-F2526009-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2526030",
+                "fullname": "Mirror black",
                 "name": "Mirror black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-mirror-table-nendo-flos-F2526030-accessory-spech-tech-500x500.jpg"
             }
@@ -2470,51 +2640,61 @@
         "accessories": [
             {
                 "id": "F2525009",
+                "fullname": "Bookend white",
                 "name": "Bookend white",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-bookend-table-nendo-flos-F2525030-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2525030",
+                "fullname": "Bookend black",
                 "name": "Bookend black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-bookend-table-nendo-flos-F2525009-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2524030",
+                "fullname": "Key Bowl black",
                 "name": "Key Bowl black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-keybowl-table-nendo-flos-F2524030-accessory-spech-tech-500x500..jpg"
             },
             {
                 "id": "F2524009",
+                "fullname": "Key Bowl white",
                 "name": "Key Bowl white",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-keybowl-table-nendo-flos-F2524009-accessory-spech-tech-500x500..jpg"
             },
             {
                 "id": "F2523030",
+                "fullname": "Vase black",
                 "name": "Vase black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-vase-table-nendo-flos-F2523030-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2523009",
+                "fullname": "Vase white",
                 "name": "Vase white",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-vase-table-nendo-flos-F2523009-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2522030",
+                "fullname": "Bowl black",
                 "name": "Bowl black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-bowl-table-nendo-flos-F2522030-accessory-spech-tech-500x500..jpg"
             },
             {
                 "id": "F2522009",
+                "fullname": "Bowl white",
                 "name": "Bowl white",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-bowl-table-nendo-flos-F2525009-accessory-spech-tech-500x500..jpg"
             },
             {
                 "id": "F2526030",
+                "fullname": "Mirror black",
                 "name": "Mirror black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-mirror-table-nendo-flos-F2526030-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2526009",
+                "fullname": "Mirror White",
                 "name": "Mirror White",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-mirror-table-nendo-flos-F2526009-accessory-spech-tech-500x500.jpg"
             }
@@ -2579,51 +2759,61 @@
         "accessories": [
             {
                 "id": "F2525009",
+                "fullname": "Bookend white",
                 "name": "Bookend white",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-bookend-table-nendo-flos-F2525030-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2525030",
+                "fullname": "Bookend black",
                 "name": "Bookend black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-bookend-table-nendo-flos-F2525009-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2524030",
+                "fullname": "Key Bowl black",
                 "name": "Key Bowl black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-keybowl-table-nendo-flos-F2524030-accessory-spech-tech-500x500..jpg"
             },
             {
                 "id": "F2524009",
+                "fullname": "Key Bowl white",
                 "name": "Key Bowl white",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-keybowl-table-nendo-flos-F2524009-accessory-spech-tech-500x500..jpg"
             },
             {
                 "id": "F2523030",
+                "fullname": "Vase black",
                 "name": "Vase black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-vase-table-nendo-flos-F2523030-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2523009",
+                "fullname": "Vase white",
                 "name": "Vase white",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-vase-table-nendo-flos-F2523009-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2522030",
+                "fullname": "Bowl black",
                 "name": "Bowl black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-bowl-table-nendo-flos-F2522030-accessory-spech-tech-500x500..jpg"
             },
             {
                 "id": "F2522009",
+                "fullname": "Bowl white",
                 "name": "Bowl white",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-bowl-table-nendo-flos-F2525009-accessory-spech-tech-500x500..jpg"
             },
             {
                 "id": "F2526030",
+                "fullname": "Mirror black",
                 "name": "Mirror black",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-mirror-table-nendo-flos-F2526030-accessory-spech-tech-500x500.jpg"
             },
             {
                 "id": "F2526009",
+                "fullname": "Mirror White",
                 "name": "Mirror White",
                 "img": "https://flos.com/wp-content/uploads/2018/11/gaku-mirror-table-nendo-flos-F2526009-accessory-spech-tech-500x500.jpg"
             }
@@ -10384,21 +10574,28 @@
         "accessories": [
             {
                 "id": "F0093009",
-                "name": "Rosone multiplo - Bianco",
+                "fullname": "Rosone multiplo - Bianco",
+                "name": "Rosone multiplo",
+                "color": "Bianco",
                 "img": "https://flos.com/wp-content/uploads/2017/10/A_F0093009.jpg"
             },
             {
                 "id": "F0093030",
-                "name": "Rosone multiplo - Nero",
+                "fullname": "Rosone multiplo - Nero",
+                "name": "Rosone multiplo",
+                "color": "Nero",
                 "img": "https://flos.com/wp-content/uploads/2017/10/A_F0093030.jpg"
             },
             {
                 "id": "F0093026",
-                "name": "Rosone multiplo - Marrone",
+                "fullname": "Rosone multiplo - Marrone",
+                "name": "Rosone multiplo",
+                "color": "Marrone",
                 "img": "https://flos.com/wp-content/uploads/2017/10/A_F0093026.jpg"
             },
             {
                 "id": "RF22227",
+                "fullname": "Dimmer parete",
                 "name": "Dimmer parete",
                 "img": "https://flos.com/wp-content/uploads/2017/10/a_rf22227.jpg"
             }
@@ -10468,21 +10665,28 @@
         "accessories": [
             {
                 "id": "F0093009",
-                "name": "Rosone multiplo - Bianco",
+                "fullname": "Rosone multiplo - Bianco",
+                "name": "Rosone multiplo",
+                "color": "Bianco",
                 "img": "https://flos.com/wp-content/uploads/2017/10/A_F0093009.jpg"
             },
             {
                 "id": "F0093030",
-                "name": "Rosone multiplo - Nero",
+                "fullname": "Rosone multiplo - Nero",
+                "name": "Rosone multiplo",
+                "color": "Nero",
                 "img": "https://flos.com/wp-content/uploads/2017/10/A_F0093030.jpg"
             },
             {
                 "id": "F0093026",
-                "name": "Rosone multiplo - Marrone",
+                "fullname": "Rosone multiplo - Marrone",
+                "name": "Rosone multiplo",
+                "color": "Marrone",
                 "img": "https://flos.com/wp-content/uploads/2017/10/A_F0093026.jpg"
             },
             {
                 "id": "RF22227",
+                "fullname": "Dimmer parete",
                 "name": "Dimmer parete",
                 "img": "https://flos.com/wp-content/uploads/2017/10/a_rf22227.jpg"
             }
@@ -10552,21 +10756,28 @@
         "accessories": [
             {
                 "id": "F0093009",
-                "name": "Rosone multiplo - Bianco",
+                "fullname": "Rosone multiplo - Bianco",
+                "name": "Rosone multiplo",
+                "color": "Bianco",
                 "img": "https://flos.com/wp-content/uploads/2017/10/A_F0093009.jpg"
             },
             {
                 "id": "F0093030",
-                "name": "Rosone multiplo - Nero",
+                "fullname": "Rosone multiplo - Nero",
+                "name": "Rosone multiplo",
+                "color": "Nero",
                 "img": "https://flos.com/wp-content/uploads/2017/10/A_F0093030.jpg"
             },
             {
                 "id": "F0093026",
-                "name": "Rosone multiplo - Marrone",
+                "fullname": "Rosone multiplo - Marrone",
+                "name": "Rosone multiplo",
+                "color": "Marrone",
                 "img": "https://flos.com/wp-content/uploads/2017/10/A_F0093026.jpg"
             },
             {
                 "id": "RF22227",
+                "fullname": "Dimmer parete",
                 "name": "Dimmer parete",
                 "img": "https://flos.com/wp-content/uploads/2017/10/a_rf22227.jpg"
             }
@@ -10825,21 +11036,28 @@
         "accessories": [
             {
                 "id": "F0093009",
-                "name": "Rosone multiplo - Bianco",
+                "fullname": "Rosone multiplo - Bianco",
+                "name": "Rosone multiplo",
+                "color": "Bianco",
                 "img": "https://flos.com/wp-content/uploads/2017/10/A_F0093009.jpg"
             },
             {
                 "id": "F0093030",
-                "name": "Rosone multiplo - Nero",
+                "fullname": "Rosone multiplo - Nero",
+                "name": "Rosone multiplo",
+                "color": "Nero",
                 "img": "https://flos.com/wp-content/uploads/2017/10/A_F0093030.jpg"
             },
             {
                 "id": "F0093026",
-                "name": "Rosone multiplo - Marrone",
+                "fullname": "Rosone multiplo - Marrone",
+                "name": "Rosone multiplo",
+                "color": "Marrone",
                 "img": "https://flos.com/wp-content/uploads/2017/10/A_F0093026.jpg"
             },
             {
                 "id": "RF22227",
+                "fullname": "Dimmer parete",
                 "name": "Dimmer parete",
                 "img": "https://flos.com/wp-content/uploads/2017/10/a_rf22227.jpg"
             }
@@ -10909,21 +11127,28 @@
         "accessories": [
             {
                 "id": "F0093009",
-                "name": "Rosone multiplo - Bianco",
+                "fullname": "Rosone multiplo - Bianco",
+                "name": "Rosone multiplo",
+                "color": "Bianco",
                 "img": "https://flos.com/wp-content/uploads/2017/10/A_F0093009.jpg"
             },
             {
                 "id": "F0093030",
-                "name": "Rosone multiplo - Nero",
+                "fullname": "Rosone multiplo - Nero",
+                "name": "Rosone multiplo",
+                "color": "Nero",
                 "img": "https://flos.com/wp-content/uploads/2017/10/A_F0093030.jpg"
             },
             {
                 "id": "F0093026",
-                "name": "Rosone multiplo - Marrone",
+                "fullname": "Rosone multiplo - Marrone",
+                "name": "Rosone multiplo",
+                "color": "Marrone",
                 "img": "https://flos.com/wp-content/uploads/2017/10/A_F0093026.jpg"
             },
             {
                 "id": "RF22227",
+                "fullname": "Dimmer parete",
                 "name": "Dimmer parete",
                 "img": "https://flos.com/wp-content/uploads/2017/10/a_rf22227.jpg"
             }
@@ -10993,21 +11218,28 @@
         "accessories": [
             {
                 "id": "F0093009",
-                "name": "Rosone multiplo - Bianco",
+                "fullname": "Rosone multiplo - Bianco",
+                "name": "Rosone multiplo",
+                "color": "Bianco",
                 "img": "https://flos.com/wp-content/uploads/2017/10/A_F0093009.jpg"
             },
             {
                 "id": "F0093030",
-                "name": "Rosone multiplo - Nero",
+                "fullname": "Rosone multiplo - Nero",
+                "name": "Rosone multiplo",
+                "color": "Nero",
                 "img": "https://flos.com/wp-content/uploads/2017/10/A_F0093030.jpg"
             },
             {
                 "id": "F0093026",
-                "name": "Rosone multiplo - Marrone",
+                "fullname": "Rosone multiplo - Marrone",
+                "name": "Rosone multiplo",
+                "color": "Marrone",
                 "img": "https://flos.com/wp-content/uploads/2017/10/A_F0093026.jpg"
             },
             {
                 "id": "RF22227",
+                "fullname": "Dimmer parete",
                 "name": "Dimmer parete",
                 "img": "https://flos.com/wp-content/uploads/2017/10/a_rf22227.jpg"
             }
@@ -11265,6 +11497,7 @@
         "accessories": [
             {
                 "id": "RF22227",
+                "fullname": "Dimmer parete",
                 "name": "Dimmer parete",
                 "img": "https://flos.com/wp-content/uploads/2017/10/a_rf22227.jpg"
             }
@@ -11333,6 +11566,7 @@
         "accessories": [
             {
                 "id": "RF22227",
+                "fullname": "Dimmer parete",
                 "name": "Dimmer parete",
                 "img": "https://flos.com/wp-content/uploads/2017/10/a_rf22227.jpg"
             }
@@ -11401,6 +11635,7 @@
         "accessories": [
             {
                 "id": "RF22227",
+                "fullname": "Dimmer parete",
                 "name": "Dimmer parete",
                 "img": "https://flos.com/wp-content/uploads/2017/10/a_rf22227.jpg"
             }
@@ -11464,16 +11699,19 @@
         "accessories": [
             {
                 "id": "F0415030",
+                "fullname": "Big Rose-MAX190W",
                 "name": "Big Rose-MAX190W",
                 "img": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0415030-accessory-spech-tech-01-500x500-1.jpg"
             },
             {
                 "id": "F0416030",
+                "fullname": "Small Rose-MAX70",
                 "name": "Small Rose-MAX70",
                 "img": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0416030-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F0418030",
+                "fullname": "Recessed Rose-MAX190W",
                 "name": "Recessed Rose-MAX190W",
                 "img": "https://flos.com/wp-content/uploads/2018/07/Arrangements-suspension-anastassiades-flos-F0418030-accessory-spech-tech-01-500x500.jpg"
             }
@@ -11536,16 +11774,19 @@
         "accessories": [
             {
                 "id": "F0415030",
+                "fullname": "Big Rose-MAX190W",
                 "name": "Big Rose-MAX190W",
                 "img": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0415030-accessory-spech-tech-01-500x500-1.jpg"
             },
             {
                 "id": "F0416030",
+                "fullname": "Small Rose-MAX70",
                 "name": "Small Rose-MAX70",
                 "img": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0416030-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F0418030",
+                "fullname": "Recessed Rose-MAX190W",
                 "name": "Recessed Rose-MAX190W",
                 "img": "https://flos.com/wp-content/uploads/2018/07/Arrangements-suspension-anastassiades-flos-F0418030-accessory-spech-tech-01-500x500.jpg"
             }
@@ -11611,16 +11852,19 @@
         "accessories": [
             {
                 "id": "F0415030",
+                "fullname": "Big Rose-MAX190W",
                 "name": "Big Rose-MAX190W",
                 "img": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0415030-accessory-spech-tech-01-500x500-1.jpg"
             },
             {
                 "id": "F0416030",
+                "fullname": "Small Rose-MAX70",
                 "name": "Small Rose-MAX70",
                 "img": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0416030-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F0418030",
+                "fullname": "Recessed Rose-MAX190W",
                 "name": "Recessed Rose-MAX190W",
                 "img": "https://flos.com/wp-content/uploads/2018/07/Arrangements-suspension-anastassiades-flos-F0418030-accessory-spech-tech-01-500x500.jpg"
             }
@@ -11686,16 +11930,19 @@
         "accessories": [
             {
                 "id": "F0415030",
+                "fullname": "Big Rose-MAX190W",
                 "name": "Big Rose-MAX190W",
                 "img": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0415030-accessory-spech-tech-01-500x500-1.jpg"
             },
             {
                 "id": "F0416030",
+                "fullname": "Small Rose-MAX70",
                 "name": "Small Rose-MAX70",
                 "img": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0416030-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F0418030",
+                "fullname": "Recessed Rose-MAX190W",
                 "name": "Recessed Rose-MAX190W",
                 "img": "https://flos.com/wp-content/uploads/2018/07/Arrangements-suspension-anastassiades-flos-F0418030-accessory-spech-tech-01-500x500.jpg"
             }
@@ -11762,16 +12009,19 @@
         "accessories": [
             {
                 "id": "F0415030",
+                "fullname": "Big Rose-MAX190W",
                 "name": "Big Rose-MAX190W",
                 "img": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0415030-accessory-spech-tech-01-500x500-1.jpg"
             },
             {
                 "id": "F0416030",
+                "fullname": "Small Rose-MAX70",
                 "name": "Small Rose-MAX70",
                 "img": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0416030-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F0418030",
+                "fullname": "Recessed Rose-MAX190W",
                 "name": "Recessed Rose-MAX190W",
                 "img": "https://flos.com/wp-content/uploads/2018/07/Arrangements-suspension-anastassiades-flos-F0418030-accessory-spech-tech-01-500x500.jpg"
             }
@@ -11839,16 +12089,19 @@
         "accessories": [
             {
                 "id": "F0415030",
+                "fullname": "Big Rose-MAX190W",
                 "name": "Big Rose-MAX190W",
                 "img": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0415030-accessory-spech-tech-01-500x500-1.jpg"
             },
             {
                 "id": "F0416030",
+                "fullname": "Small Rose-MAX70",
                 "name": "Small Rose-MAX70",
                 "img": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0416030-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F0418030",
+                "fullname": "Recessed Rose-MAX190W",
                 "name": "Recessed Rose-MAX190W",
                 "img": "https://flos.com/wp-content/uploads/2018/07/Arrangements-suspension-anastassiades-flos-F0418030-accessory-spech-tech-01-500x500.jpg"
             }
@@ -11915,16 +12168,19 @@
         "accessories": [
             {
                 "id": "F0415030",
+                "fullname": "Big Rose-MAX190W",
                 "name": "Big Rose-MAX190W",
                 "img": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0415030-accessory-spech-tech-01-500x500-1.jpg"
             },
             {
                 "id": "F0416030",
+                "fullname": "Small Rose-MAX70",
                 "name": "Small Rose-MAX70",
                 "img": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0416030-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F0418030",
+                "fullname": "Recessed Rose-MAX190W",
                 "name": "Recessed Rose-MAX190W",
                 "img": "https://flos.com/wp-content/uploads/2018/07/Arrangements-suspension-anastassiades-flos-F0418030-accessory-spech-tech-01-500x500.jpg"
             }
@@ -11989,16 +12245,19 @@
         "accessories": [
             {
                 "id": "F0415030",
+                "fullname": "Big Rose-MAX190W",
                 "name": "Big Rose-MAX190W",
                 "img": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0415030-accessory-spech-tech-01-500x500-1.jpg"
             },
             {
                 "id": "F0416030",
+                "fullname": "Small Rose-MAX70",
                 "name": "Small Rose-MAX70",
                 "img": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0416030-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F0418030",
+                "fullname": "Recessed Rose-MAX190W",
                 "name": "Recessed Rose-MAX190W",
                 "img": "https://flos.com/wp-content/uploads/2018/07/Arrangements-suspension-anastassiades-flos-F0418030-accessory-spech-tech-01-500x500.jpg"
             }
@@ -12065,16 +12324,19 @@
         "accessories": [
             {
                 "id": "F0415030",
+                "fullname": "Big Rose-MAX190W",
                 "name": "Big Rose-MAX190W",
                 "img": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0415030-accessory-spech-tech-01-500x500-1.jpg"
             },
             {
                 "id": "F0416030",
+                "fullname": "Small Rose-MAX70",
                 "name": "Small Rose-MAX70",
                 "img": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0416030-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F0418030",
+                "fullname": "Recessed Rose-MAX190W",
                 "name": "Recessed Rose-MAX190W",
                 "img": "https://flos.com/wp-content/uploads/2018/07/Arrangements-suspension-anastassiades-flos-F0418030-accessory-spech-tech-01-500x500.jpg"
             }
@@ -14454,22 +14716,30 @@
         "accessories": [
             {
                 "id": "F5500009",
-                "name": "Parentesi elemento complemento - Bianco",
+                "fullname": "Parentesi elemento complemento - Bianco",
+                "name": "Parentesi elemento complemento",
+                "color": "Bianco",
                 "img": "https://flos.com/wp-content/uploads/2017/11/parentesi-suspension-castiglioni-manzu-flos-F5500009-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F5500030",
-                "name": "Parentesi elemento complemento - Nero",
+                "fullname": "Parentesi elemento complemento - Nero",
+                "name": "Parentesi elemento complemento",
+                "color": "Nero",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5500030-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F5500035",
-                "name": "Parentesi elemento complemento - Rosso",
+                "fullname": "Parentesi elemento complemento - Rosso",
+                "name": "Parentesi elemento complemento",
+                "color": "Rosso",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5500035-accessory-spech-tech-04-500x500.jpg"
             },
             {
                 "id": "F5500058",
-                "name": "Parentesi elemento complemento - Nichel",
+                "fullname": "Parentesi elemento complemento - Nichel",
+                "name": "Parentesi elemento complemento",
+                "color": "Nichel",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5500058-accessory-spech-tech-02-500x500.jpg"
             }
         ]
@@ -14542,22 +14812,30 @@
         "accessories": [
             {
                 "id": "F5500009",
-                "name": "Parentesi elemento complemento - Bianco",
+                "fullname": "Parentesi elemento complemento - Bianco",
+                "name": "Parentesi elemento complemento",
+                "color": "Bianco",
                 "img": "https://flos.com/wp-content/uploads/2017/11/parentesi-suspension-castiglioni-manzu-flos-F5500009-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F5500030",
-                "name": "Parentesi elemento complemento - Nero",
+                "fullname": "Parentesi elemento complemento - Nero",
+                "name": "Parentesi elemento complemento",
+                "color": "Nero",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5500030-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F5500035",
-                "name": "Parentesi elemento complemento - Rosso",
+                "fullname": "Parentesi elemento complemento - Rosso",
+                "name": "Parentesi elemento complemento",
+                "color": "Rosso",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5500035-accessory-spech-tech-04-500x500.jpg"
             },
             {
                 "id": "F5500058",
-                "name": "Parentesi elemento complemento - Nichel",
+                "fullname": "Parentesi elemento complemento - Nichel",
+                "name": "Parentesi elemento complemento",
+                "color": "Nichel",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5500058-accessory-spech-tech-02-500x500.jpg"
             }
         ]
@@ -14630,22 +14908,30 @@
         "accessories": [
             {
                 "id": "F5500009",
-                "name": "Parentesi elemento complemento - Bianco",
+                "fullname": "Parentesi elemento complemento - Bianco",
+                "name": "Parentesi elemento complemento",
+                "color": "Bianco",
                 "img": "https://flos.com/wp-content/uploads/2017/11/parentesi-suspension-castiglioni-manzu-flos-F5500009-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F5500030",
-                "name": "Parentesi elemento complemento - Nero",
+                "fullname": "Parentesi elemento complemento - Nero",
+                "name": "Parentesi elemento complemento",
+                "color": "Nero",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5500030-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F5500035",
-                "name": "Parentesi elemento complemento - Rosso",
+                "fullname": "Parentesi elemento complemento - Rosso",
+                "name": "Parentesi elemento complemento",
+                "color": "Rosso",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5500035-accessory-spech-tech-04-500x500.jpg"
             },
             {
                 "id": "F5500058",
-                "name": "Parentesi elemento complemento - Nichel",
+                "fullname": "Parentesi elemento complemento - Nichel",
+                "name": "Parentesi elemento complemento",
+                "color": "Nichel",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5500058-accessory-spech-tech-02-500x500.jpg"
             }
         ]
@@ -14718,22 +15004,30 @@
         "accessories": [
             {
                 "id": "F5500009",
-                "name": "Parentesi elemento complemento - Bianco",
+                "fullname": "Parentesi elemento complemento - Bianco",
+                "name": "Parentesi elemento complemento",
+                "color": "Bianco",
                 "img": "https://flos.com/wp-content/uploads/2017/11/parentesi-suspension-castiglioni-manzu-flos-F5500009-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F5500030",
-                "name": "Parentesi elemento complemento - Nero",
+                "fullname": "Parentesi elemento complemento - Nero",
+                "name": "Parentesi elemento complemento",
+                "color": "Nero",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5500030-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F5500035",
-                "name": "Parentesi elemento complemento - Rosso",
+                "fullname": "Parentesi elemento complemento - Rosso",
+                "name": "Parentesi elemento complemento",
+                "color": "Rosso",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5500035-accessory-spech-tech-04-500x500.jpg"
             },
             {
                 "id": "F5500058",
-                "name": "Parentesi elemento complemento - Nichel",
+                "fullname": "Parentesi elemento complemento - Nichel",
+                "name": "Parentesi elemento complemento",
+                "color": "Nichel",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5500058-accessory-spech-tech-02-500x500.jpg"
             }
         ]
@@ -14806,22 +15100,30 @@
         "accessories": [
             {
                 "id": "F5700009",
-                "name": "Parentesi dimmer elemento complemento - Bianco",
+                "fullname": "Parentesi dimmer elemento complemento - Bianco",
+                "name": "Parentesi dimmer elemento complemento",
+                "color": "Bianco",
                 "img": "https://flos.com/wp-content/uploads/2017/11/parentesi-suspension-castiglioni-manzu-flos-F5700009-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F5700030",
-                "name": "Parentesi dimmer elemento complemento - Nero",
+                "fullname": "Parentesi dimmer elemento complemento - Nero",
+                "name": "Parentesi dimmer elemento complemento",
+                "color": "Nero",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5700030-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F5700035",
-                "name": "Parentesi dimmer elemento complemento - Rosso",
+                "fullname": "Parentesi dimmer elemento complemento - Rosso",
+                "name": "Parentesi dimmer elemento complemento",
+                "color": "Rosso",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5700035-accessory-spech-tech-04-500x500.jpg"
             },
             {
                 "id": "F5700058",
-                "name": "Parentesi dimmer elemento complemento - Nichel",
+                "fullname": "Parentesi dimmer elemento complemento - Nichel",
+                "name": "Parentesi dimmer elemento complemento",
+                "color": "Nichel",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5700058-accessory-spech-tech-02-500x500.jpg"
             }
         ]
@@ -14894,22 +15196,30 @@
         "accessories": [
             {
                 "id": "F5700009",
-                "name": "Parentesi dimmer elemento complemento - Bianco",
+                "fullname": "Parentesi dimmer elemento complemento - Bianco",
+                "name": "Parentesi dimmer elemento complemento",
+                "color": "Bianco",
                 "img": "https://flos.com/wp-content/uploads/2017/11/parentesi-suspension-castiglioni-manzu-flos-F5700009-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F5700030",
-                "name": "Parentesi dimmer elemento complemento - Nero",
+                "fullname": "Parentesi dimmer elemento complemento - Nero",
+                "name": "Parentesi dimmer elemento complemento",
+                "color": "Nero",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5700030-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F5700035",
-                "name": "Parentesi dimmer elemento complemento - Rosso",
+                "fullname": "Parentesi dimmer elemento complemento - Rosso",
+                "name": "Parentesi dimmer elemento complemento",
+                "color": "Rosso",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5700035-accessory-spech-tech-04-500x500.jpg"
             },
             {
                 "id": "F5700058",
-                "name": "Parentesi dimmer elemento complemento - Nichel",
+                "fullname": "Parentesi dimmer elemento complemento - Nichel",
+                "name": "Parentesi dimmer elemento complemento",
+                "color": "Nichel",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5700058-accessory-spech-tech-02-500x500.jpg"
             }
         ]
@@ -14982,22 +15292,30 @@
         "accessories": [
             {
                 "id": "F5700009",
-                "name": "Parentesi dimmer elemento complemento - Bianco",
+                "fullname": "Parentesi dimmer elemento complemento - Bianco",
+                "name": "Parentesi dimmer elemento complemento",
+                "color": "Bianco",
                 "img": "https://flos.com/wp-content/uploads/2017/11/parentesi-suspension-castiglioni-manzu-flos-F5700009-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F5700030",
-                "name": "Parentesi dimmer elemento complemento - Nero",
+                "fullname": "Parentesi dimmer elemento complemento - Nero",
+                "name": "Parentesi dimmer elemento complemento",
+                "color": "Nero",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5700030-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F5700035",
-                "name": "Parentesi dimmer elemento complemento - Rosso",
+                "fullname": "Parentesi dimmer elemento complemento - Rosso",
+                "name": "Parentesi dimmer elemento complemento",
+                "color": "Rosso",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5700035-accessory-spech-tech-04-500x500.jpg"
             },
             {
                 "id": "F5700058",
-                "name": "Parentesi dimmer elemento complemento - Nichel",
+                "fullname": "Parentesi dimmer elemento complemento - Nichel",
+                "name": "Parentesi dimmer elemento complemento",
+                "color": "Nichel",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5700058-accessory-spech-tech-02-500x500.jpg"
             }
         ]
@@ -15070,22 +15388,30 @@
         "accessories": [
             {
                 "id": "F5700009",
-                "name": "Parentesi dimmer elemento complemento - Bianco",
+                "fullname": "Parentesi dimmer elemento complemento - Bianco",
+                "name": "Parentesi dimmer elemento complemento",
+                "color": "Bianco",
                 "img": "https://flos.com/wp-content/uploads/2017/11/parentesi-suspension-castiglioni-manzu-flos-F5700009-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F5700030",
-                "name": "Parentesi dimmer elemento complemento - Nero",
+                "fullname": "Parentesi dimmer elemento complemento - Nero",
+                "name": "Parentesi dimmer elemento complemento",
+                "color": "Nero",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5700030-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F5700035",
-                "name": "Parentesi dimmer elemento complemento - Rosso",
+                "fullname": "Parentesi dimmer elemento complemento - Rosso",
+                "name": "Parentesi dimmer elemento complemento",
+                "color": "Rosso",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5700035-accessory-spech-tech-04-500x500.jpg"
             },
             {
                 "id": "F5700058",
-                "name": "Parentesi dimmer elemento complemento - Nichel",
+                "fullname": "Parentesi dimmer elemento complemento - Nichel",
+                "name": "Parentesi dimmer elemento complemento",
+                "color": "Nichel",
                 "img": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5700058-accessory-spech-tech-02-500x500.jpg"
             }
         ]
@@ -17293,16 +17619,19 @@
         "accessories": [
             {
                 "id": "F6482030",
+                "fullname": "",
                 "name": "",
                 "img": "https://flos.com/wp-content/uploads/2017/10/string-light-cone-suspension-anastassiades-flos-F6485030-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F6485030",
+                "fullname": "",
                 "name": "",
                 "img": "https://flos.com/wp-content/uploads/2017/10/string-light-cone-suspension-anastassiades-flos-F6482030-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F6484030",
+                "fullname": "",
                 "name": "",
                 "img": "https://flos.com/wp-content/uploads/2017/10/string-light-cone-suspension-anastassiades-flos-F6484030-accessory-spech-tech-02-500x500.jpg"
             }
@@ -17362,16 +17691,19 @@
         "accessories": [
             {
                 "id": "F6482030",
+                "fullname": "",
                 "name": "",
                 "img": "https://flos.com/wp-content/uploads/2017/10/string-light-cone-suspension-anastassiades-flos-F6485030-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F6485030",
+                "fullname": "",
                 "name": "",
                 "img": "https://flos.com/wp-content/uploads/2017/10/string-light-cone-suspension-anastassiades-flos-F6482030-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F6484030",
+                "fullname": "",
                 "name": "",
                 "img": "https://flos.com/wp-content/uploads/2017/10/string-light-cone-suspension-anastassiades-flos-F6484030-accessory-spech-tech-02-500x500.jpg"
             }
@@ -17431,16 +17763,19 @@
         "accessories": [
             {
                 "id": "F6482030",
+                "fullname": "",
                 "name": "",
                 "img": "https://flos.com/wp-content/uploads/2017/10/string-light-cone-suspension-anastassiades-flos-F6485030-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F6485030",
+                "fullname": "",
                 "name": "",
                 "img": "https://flos.com/wp-content/uploads/2017/10/string-light-cone-suspension-anastassiades-flos-F6482030-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F6484030",
+                "fullname": "",
                 "name": "",
                 "img": "https://flos.com/wp-content/uploads/2017/10/string-light-cone-suspension-anastassiades-flos-F6484030-accessory-spech-tech-02-500x500.jpg"
             }
@@ -17500,16 +17835,19 @@
         "accessories": [
             {
                 "id": "F6482030",
+                "fullname": "",
                 "name": "",
                 "img": "https://flos.com/wp-content/uploads/2017/10/string-light-cone-suspension-anastassiades-flos-F6485030-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F6485030",
+                "fullname": "",
                 "name": "",
                 "img": "https://flos.com/wp-content/uploads/2017/10/string-light-cone-suspension-anastassiades-flos-F6482030-accessory-spech-tech-01-500x500.jpg"
             },
             {
                 "id": "F6484030",
+                "fullname": "",
                 "name": "",
                 "img": "https://flos.com/wp-content/uploads/2017/10/string-light-cone-suspension-anastassiades-flos-F6484030-accessory-spech-tech-02-500x500.jpg"
             }
@@ -18802,22 +19140,30 @@
         "accessories": [
             {
                 "id": "F1571057",
-                "name": "Anello accessorio - Cromo",
+                "fullname": "Anello accessorio - Cromo",
+                "name": "Anello accessorio",
+                "color": "Cromo",
                 "img": "https://flos.com/wp-content/uploads/2017/10/clara-ceiling-lissoni-flos-F1571057-accessory-spech-tech-04-500x500.jpg"
             },
             {
                 "id": "F1571015",
-                "name": "Anello accessorio - Rame",
+                "fullname": "Anello accessorio - Rame",
+                "name": "Anello accessorio",
+                "color": "Rame",
                 "img": "https://flos.com/wp-content/uploads/2017/10/clara-ceiling-lissoni-flos-F1571015-accessory-spech-tech-02-500x500.jpg"
             },
             {
                 "id": "F1571030A",
-                "name": "Anello accessorio  - Nero fumè",
+                "fullname": "Anello accessorio  - Nero fumè",
+                "name": "Anello accessorio ",
+                "color": "Nero fumè",
                 "img": "https://flos.com/wp-content/uploads/2017/10/clara-ceiling-lissoni-flos-F1571030A-accessory-spech-tech-03-500x500.jpg"
             },
             {
                 "id": "F1571000",
-                "name": "Anello accessorio - Trasparente",
+                "fullname": "Anello accessorio - Trasparente",
+                "name": "Anello accessorio",
+                "color": "Trasparente",
                 "img": "https://flos.com/wp-content/uploads/2017/10/clara-ceiling-lissoni-flos-F1571000-accessory-spech-tech-01-500x500.jpg"
             }
         ]
@@ -19093,7 +19439,8 @@
         "image": "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584009-product-still-life-big-1.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584057-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584057-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584057-curva-fotometrica-01-1.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584057-product-still-life-big-1.jpg",
@@ -19157,7 +19504,8 @@
         "image": "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584057-product-still-life-big-1.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584057-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584057-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584057-curva-fotometrica-01-1.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584057-product-still-life-big-1.jpg",
@@ -19221,7 +19569,8 @@
         "image": "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584018-product-still-life-big-1.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584057-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584057-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584057-curva-fotometrica-01-1.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584057-product-still-life-big-1.jpg",
@@ -19285,7 +19634,8 @@
         "image": "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584006-product-still-life-big-1.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584057-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584057-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584057-curva-fotometrica-01-1.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584057-product-still-life-big-1.jpg",
@@ -19532,7 +19882,8 @@
         "image": "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-2-morrison-flos-F3028000-product-still-life-big-1.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/10/glo-ball-floor-morrison-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-2-morrison-flos-F3028000-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-2-morrison-flos-F3028000-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-2-morrison-flos-F3028000-curva-fotometrica-01-1.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-2-morrison-flos-F3028000-product-still-life-big-1.jpg",
@@ -19584,7 +19935,8 @@
         "image": "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-1-morrison-flos-F3023000-product-still-life-big-1.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/10/glo-ball-floor-morrison-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-1-morrison-flos-F3023000-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-1-morrison-flos-F3023000-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-1-morrison-flos-F3023000-curva-fotometrica-01-1.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-1-morrison-flos-F3023000-product-still-life-big-1.jpg",
@@ -19636,7 +19988,8 @@
         "image": "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-0-morrison-flos-F3335009-product-still-life-big-1.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/10/glo-ball-floor-morrison-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-zero-morrison-flos-F3335009-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-zero-morrison-flos-F3335009-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-zero-morrison-flos-F3335009-curva-fotometrica-01-1.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-0-morrison-flos-F3335009-product-still-life-big-1.jpg",
@@ -19687,7 +20040,8 @@
         "image": "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-mini-morrison-flos-F4190009-product-still-life-big.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/10/glo-ball-floor-morrison-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-mini-morrison-flos-F4194009-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-mini-morrison-flos-F4194009-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-mini-morrison-flos-F4190009-curva-fotometrica-01-2.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-mini-morrison-flos-F4194009-product-still-life-big-1.jpg",
@@ -19740,7 +20094,8 @@
         "image": "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-mini-mirror-morrison-flos-F4194009-product-still-life-big.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/10/glo-ball-floor-morrison-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-mini-morrison-flos-F4190009-spech-tech-02-300x263-1.svg"
+            "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-mini-morrison-flos-F4190009-spech-tech-02-300x263-1.svg",
+            "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-mini-morrison-flos-F4190009-curva-fotometrica-01-2.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-mini-mirror-morrison-flos-F4190009-product-still-life-big-1.jpg",
@@ -19791,7 +20146,8 @@
         "image": "https://flos.com/wp-content/uploads/2017/10/glo-ball-wall-morrison-flos-F3022000-product-still-life-big.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/10/glo-ball-floor-morrison-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-w-morrison-flos-F3022000-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-w-morrison-flos-F3022000-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-w-morrison-flos-F3022000-curva-fotometrica-01-1.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/glo-ball-wall-morrison-flos-F3022000-product-still-life-big.jpg",
@@ -19843,7 +20199,8 @@
         "image": "https://flos.com/wp-content/uploads/2018/08/IC-ceiling-wall-2-anastassiades-flos-F3179030-product-still-life-big.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/10/ic-floor-anastassiades-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/ic-ceiling-wall-2-anastassiades-flos-F3179-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/ic-ceiling-wall-2-anastassiades-flos-F3179-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/ic-ceiling-wall-2-anastassiades-flos-F31790-curva-fotometrica-01-1.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/IC-ceiling-wall-2-anastassiades-flos-F3179057-product-still-life-big-1.jpg",
@@ -19903,7 +20260,8 @@
         "image": "https://flos.com/wp-content/uploads/2017/10/IC-ceiling-wall-2-anastassiades-flos-F3179057-product-still-life-big.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/10/ic-floor-anastassiades-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/ic-ceiling-wall-2-anastassiades-flos-F3179-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/ic-ceiling-wall-2-anastassiades-flos-F3179-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/ic-ceiling-wall-2-anastassiades-flos-F31790-curva-fotometrica-01-1.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/IC-ceiling-wall-2-anastassiades-flos-F3179057-product-still-life-big-1.jpg",
@@ -19963,7 +20321,8 @@
         "image": "https://flos.com/wp-content/uploads/2017/10/IC-ceiling-wall-2-anastassiades-flos-F3179059-product-still-life-big-2.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/10/ic-floor-anastassiades-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/ic-ceiling-wall-2-anastassiades-flos-F3179-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/ic-ceiling-wall-2-anastassiades-flos-F3179-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/ic-ceiling-wall-2-anastassiades-flos-F31790-curva-fotometrica-01-1.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/IC-ceiling-wall-2-anastassiades-flos-F3179057-product-still-life-big-1.jpg",
@@ -20023,7 +20382,8 @@
         "image": "https://flos.com/wp-content/uploads/2018/08/IC-ceiling-wall-1-anastassiades-flos-F3178030-product-still-life-big.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/10/ic-floor-anastassiades-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/ic-ceiling-wall-1_anastassiades-flos-F317-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/ic-ceiling-wall-1_anastassiades-flos-F317-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/ic-ceiling-wall-1-anastassiades-flos-F31780-curva-fotometrica-01-01-1.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/IC-ceiling-wall-1-anastassiades-flos-F3178057-product-still-life-big-1.jpg",
@@ -20083,7 +20443,8 @@
         "image": "https://flos.com/wp-content/uploads/2017/10/IC-ceiling-wall-1-anastassiades-flos-F3178057-product-still-life-big.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/10/ic-floor-anastassiades-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/ic-ceiling-wall-1_anastassiades-flos-F317-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/ic-ceiling-wall-1_anastassiades-flos-F317-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/ic-ceiling-wall-1-anastassiades-flos-F31780-curva-fotometrica-01-01-1.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/IC-ceiling-wall-1-anastassiades-flos-F3178057-product-still-life-big-1.jpg",
@@ -20143,7 +20504,8 @@
         "image": "https://flos.com/wp-content/uploads/2017/10/IC-ceiling-wall-1-anastassiades-flos-F3178059-product-still-life-big-2.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/10/ic-floor-anastassiades-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/ic-ceiling-wall-1_anastassiades-flos-F317-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/ic-ceiling-wall-1_anastassiades-flos-F317-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/ic-ceiling-wall-1-anastassiades-flos-F31780-curva-fotometrica-01-01-1.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/IC-ceiling-wall-1-anastassiades-flos-F3178057-product-still-life-big-1.jpg",
@@ -20196,14 +20558,15 @@
         "uri": "https://flos.com/it/prodotti/plafoniere/ktribe/ktribe-w/",
         "model": "KTribe Wall",
         "category": "soffitto",
-        "code": "F63070",
+        "code": "F6307007",
         "desc": "Apparecchio di illuminazione da parete, a luce diffusa; un pulsante posto in prossimità del diffusore consente, tramite un dimmer \"remoto\", la regolazione dell'intensità luminosa su quattro livelli. Rosone di copertura in lega di Zama pressofusa lucidata e cromata. Braccio e supporto diffusore in tubolare di alluminio lucidati. Attacco a parete in acciaio stampato con finitura zincata. Diffusore interno in PC (policarbonato) stampato ad iniezione di colore opalino. I diffusori esterni sono disponibili nelle versioni: trasparente o fumè realizzati in PMMA (polimetilmetacrilato), e metallizzato grigio o bronzo sulla superficie interna utilizzando un processo di alluminatura sottovuoto. Anello superiore in PC (policarbonato) stampato ad iniezione completamente trasparente o trasparente marrone per la versione con diffusore esterno metallizzato bronzo.",
         "size_image": "https://flos.com/wp-content/uploads/2017/10/ktribe-wall-starck-flos-F6307004-product-thumbnail.jpg",
         "color": "colour_fabric",
         "image": "https://flos.com/wp-content/uploads/2017/10/ktribe-wall-starck-flos-F6307007-product-still-life-big-1.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/11/archimoon-k-table-starck-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/ktribe-ceiling-wall-starck-flos-F6307004-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/ktribe-ceiling-wall-starck-flos-F6307004-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/ktribe-ceiling-wall-starck-flos-F6307000-curva-fotometrica-01-1.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/ktribe-wall-starck-flos-F6307000-product-still-life-big.jpg",
@@ -20272,7 +20635,8 @@
         "image": "https://flos.com/wp-content/uploads/2017/10/ktribe-wall-starck-flos-F6307000-product-still-life-big.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/11/archimoon-k-table-starck-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/ktribe-ceiling-wall-starck-flos-F6307004-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/ktribe-ceiling-wall-starck-flos-F6307004-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/ktribe-ceiling-wall-starck-flos-F6307000-curva-fotometrica-01-1.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/ktribe-wall-starck-flos-F6307000-product-still-life-big.jpg",
@@ -20341,7 +20705,8 @@
         "image": "https://flos.com/wp-content/uploads/2017/10/ktribe-wall-starck-flos-F6307004-product-still-life-big-1.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/11/archimoon-k-table-starck-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/ktribe-ceiling-wall-starck-flos-F6307004-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/ktribe-ceiling-wall-starck-flos-F6307004-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/ktribe-ceiling-wall-starck-flos-F6307000-curva-fotometrica-01-1.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/ktribe-wall-starck-flos-F6307000-product-still-life-big.jpg",
@@ -20410,7 +20775,8 @@
         "image": "https://flos.com/wp-content/uploads/2017/10/ktribe-wall-starck-flos-F6307046-product-still-life-big-1.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/11/archimoon-k-table-starck-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/ktribe-ceiling-wall-starck-flos-F6307004-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/ktribe-ceiling-wall-starck-flos-F6307004-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/ktribe-ceiling-wall-starck-flos-F6307000-curva-fotometrica-01-1.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/ktribe-wall-starck-flos-F6307000-product-still-life-big.jpg",
@@ -20479,7 +20845,8 @@
         "image": "https://flos.com/wp-content/uploads/2017/10/ktribe-wall-starck-flos-F6307030-product-still-life-big-1.jpg",
         "secondary_image": "https://flos.com/wp-content/uploads/2017/11/archimoon-k-table-starck-flos-home-decorative.jpg",
         "summary_media": [
-            "https://flos.com/wp-content/uploads/2017/10/ktribe-ceiling-wall-starck-flos-F6307004-spech-tech-02-300x263.svg"
+            "https://flos.com/wp-content/uploads/2017/10/ktribe-ceiling-wall-starck-flos-F6307004-spech-tech-02-300x263.svg",
+            "https://flos.com/wp-content/uploads/2017/10/ktribe-ceiling-wall-starck-flos-F6307000-curva-fotometrica-01-1.svg"
         ],
         "other_images": [
             "https://flos.com/wp-content/uploads/2017/10/ktribe-wall-starck-flos-F6307000-product-still-life-big.jpg",
@@ -22442,7 +22809,7 @@
         "uri": "https://flos.com/it/prodotti/plafoniere/wan/wan-cw/",
         "model": "Wan Ceiling/Wall",
         "category": "soffitto",
-        "code": "f9550039",
+        "code": "F9550039",
         "desc": "Apparecchio di illuminazione da parete o soffitto a luce diretta. Corpo in alluminio, disponibile nelle finiture cromo, bianco lucido, verde smaltato o nero lucido. Schermo anti abbagliamento. L'apparecchio è dotato di due differenti anelli con finitura verde e nero, che hanno la funzione di fissare il vetro temperato di sicurezza.",
         "size_image": "https://flos.com/wp-content/uploads/2017/10/wan-ceiling-wall-grawunder-flos-F9550039-product-thumbnail.png",
         "color": "colour_light-green",
@@ -23174,7 +23541,7 @@
         "uri": "https://flos.com/it/prodotti/plafoniere/wirering/wirering-pink/",
         "model": "Wirering Rosa",
         "category": "soffitto",
-        "code": "F95140030",
+        "code": "F9514030",
         "desc": "Apparecchio di illuminazione a parete a luce indiretta composto da un corpo in alluminio estruso calandrato con finitura tramite processo galvanico o verniciatura. Il cavo speciale tangente, in gomma colorata, garantisce l’alimentazione. Il cavo è fissato a parete con giunti in ABS nella stessa finitura dell’anello. Funzione dimmer tramite interruttore a pedale sul cavo. Power supply su spina con plug intercambiabili. Lunghezza utile del cavo è di 2,5metri.",
         "size_image": "https://flos.com/wp-content/uploads/2018/06/wirering-thumb-white-1.jpg",
         "color": "colour_cavo-rosa-anello-nero",
@@ -23446,7 +23813,7 @@
         "uri": "https://flos.com/it/prodotti/plafoniere/wirering/wirering-grigio/",
         "model": "Wirering Grigio",
         "category": "soffitto",
-        "code": "F9512020",
+        "code": "F9513020",
         "desc": "Apparecchio di illuminazione a parete a luce indiretta composto da un corpo in alluminio estruso calandrato con finitura tramite processo galvanico o verniciatura. Il cavo speciale tangente, in gomma colorata, garantisce l’alimentazione. Il cavo è fissato a parete con giunti in ABS nella stessa finitura dell’anello. Funzione dimmer tramite interruttore a pedale sul cavo. Power supply su spina con plug intercambiabili. Lunghezza utile del cavo è di 2,5metri.",
         "size_image": "https://flos.com/wp-content/uploads/2018/06/wirering-thumb-white-1.jpg",
         "color": "colour_cavo-grigio-anello-grigio",
@@ -24797,7 +25164,7 @@
         "uri": "https://flos.com/it/prodotti/lampade-terra/ic-lights/ic-lights-f1/",
         "model": "IC Lights Floor 1",
         "category": "terra",
-        "code": "F31730",
+        "code": "F3173030",
         "desc": "Apparecchio di illuminazione da terra a luce diffusa. Telaio in ottone, spazzolato e verniciato trasparente o acciaio cromato. Diffusore opalino di vetro soffiato. Dimmer presente sul cavo di alimentazione.",
         "size_image": "https://flos.com/wp-content/uploads/2017/10/IC-floor-2-anastassiades-flos-F3174059-product-thumbnail.jpg",
         "color": "colour_cancan_black",
@@ -24983,7 +25350,7 @@
         "uri": "https://flos.com/it/prodotti/lampade-terra/ipnos/ipnos/",
         "model": "Ipnos",
         "category": "terra",
-        "code": "F3120030",
+        "code": "F3150030",
         "desc": "Apparecchio di illuminazione da terra a luce diffusa. Telaio in alluminio estruso 10x10x1 satinato e anodizzato in diverse finiture. Led sui bordi superiori incorporati negli estrusi e protetti da diffusori in PC trasparente. Driver su spina, interruttore dimmerabile su cavo.",
         "size_image": "https://flos.com/wp-content/uploads/2017/10/ipnos-floor-rossi-bianchi-flos-F3120030-product-thumbnail.jpg",
         "color": "colour_anodized-black",
@@ -25041,6 +25408,7 @@
         "accessories": [
             {
                 "id": "F3125000",
+                "fullname": "",
                 "name": "",
                 "img": "https://flos.com/wp-content/uploads/2017/10/AL_Top_Plate.jpg"
             }
@@ -25050,7 +25418,7 @@
         "uri": "https://flos.com/it/prodotti/lampade-terra/ipnos/ipnos/",
         "model": "Ipnos",
         "category": "terra",
-        "code": "F3120054",
+        "code": "F3150054",
         "desc": "Apparecchio di illuminazione da terra a luce diffusa. Telaio in alluminio estruso 10x10x1 satinato e anodizzato in diverse finiture. Led sui bordi superiori incorporati negli estrusi e protetti da diffusori in PC trasparente. Driver su spina, interruttore dimmerabile su cavo.",
         "size_image": "https://flos.com/wp-content/uploads/2017/10/ipnos-floor-rossi-bianchi-flos-F3120030-product-thumbnail.jpg",
         "color": "colour_natural-aluminium",
@@ -25108,6 +25476,7 @@
         "accessories": [
             {
                 "id": "F3125000",
+                "fullname": "",
                 "name": "",
                 "img": "https://flos.com/wp-content/uploads/2017/10/AL_Top_Plate.jpg"
             }
@@ -25117,7 +25486,7 @@
         "uri": "https://flos.com/it/prodotti/lampade-terra/ipnos/ipnos/",
         "model": "Ipnos",
         "category": "terra",
-        "code": "F3120046",
+        "code": "F3150046",
         "desc": "Apparecchio di illuminazione da terra a luce diffusa. Telaio in alluminio estruso 10x10x1 satinato e anodizzato in diverse finiture. Led sui bordi superiori incorporati negli estrusi e protetti da diffusori in PC trasparente. Driver su spina, interruttore dimmerabile su cavo.",
         "size_image": "https://flos.com/wp-content/uploads/2017/10/ipnos-floor-rossi-bianchi-flos-F3120030-product-thumbnail.jpg",
         "color": "colour_42262",
@@ -25175,6 +25544,7 @@
         "accessories": [
             {
                 "id": "F3125000",
+                "fullname": "",
                 "name": "",
                 "img": "https://flos.com/wp-content/uploads/2017/10/AL_Top_Plate.jpg"
             }
@@ -25715,7 +26085,7 @@
         "uri": "https://flos.com/it/prodotti/lampade-terra/ktribe/ktribe-f2/",
         "model": "KTribe Floor 2",
         "category": "terra",
-        "code": "F63050",
+        "code": "F6305007",
         "desc": "Apparecchio di illuminazione da terra a luce diffusa. Base, supporto asta e supporto diffusore in lega di Zama pressofusa lucidata e cromata. Copertura della base in lamiera d'acciaio PO4 zincata. Diffusore interno e supporto porta lampada in PC (policarbonato) stampato ad iniezione di colore opalino. I diffusori esterni sono disponibili nelle versioni: trasparente o fumè realizzati in PMMA (polimetilmetacrilato), e metallizzato grigio o bronzo sulla superficie interna utilizzando un processo di alluminatura sottovuoto. Anello superiore in PC (policarbonato) stampato ad iniezione completamente trasparente o trasparente marrone per la versione con diffusore esterno metallizzato bronzo. Sul cavo è presente il dimmer elettronico che consente la regolazione a step dell'intensità luminosa.",
         "size_image": "https://flos.com/wp-content/uploads/2017/10/ktribe-floor-3-starck-flos-F6301004-product-thumbnail.jpg",
         "color": "colour_fabric",
@@ -26065,7 +26435,7 @@
         "uri": "https://flos.com/it/prodotti/lampade-terra/ktribe/ktribe-f1/",
         "model": "KTribe Floor 1",
         "category": "terra",
-        "code": "F62650",
+        "code": "F6265007",
         "desc": "Apparecchio di illuminazione da terra, a luce diffusa; un pulsante posto in prossimità del diffusore consente, tramite un dimmer \"remoto\" posizionato sul cavo elettrico in prossimità della spina, la regolazione dell'intensità luminosa su quattro livelli. Base e supporto asta in lega di Zama pressofusa lucidata e cromata. Asta, supporto braccio, braccio e supporto diffusore in tubolare di alluminio lucidati. Contrappeso in acciaio stampato con finitura zincata. Diffusore interno in PC (policarbonato) stampato ad iniezione di colore opalino. I diffusori esterni sono disponibili nelle versioni: trasparente o fumè realizzati in PMMA (polimetilmetacrilato), e metallizzato grigio o bronzo sulla superficie interna utilizzando un processo di alluminatura sottovuoto. Anello superiore in PC (policarbonato) stampato ad iniezione completamente trasparente o trasparente marrone per la versione con diffusore esterno metallizzato bronzo.",
         "size_image": "https://flos.com/wp-content/uploads/2017/10/ktribe-floor-3-starck-flos-F6301004-product-thumbnail.jpg",
         "color": "colour_fabric",
@@ -26474,7 +26844,7 @@
         "uri": "https://flos.com/it/prodotti/lampade-terra/guns/guns-lounge-gun/",
         "model": "Guns – Lounge Gun",
         "category": "terra",
-        "code": "F29550",
+        "code": "F2955000",
         "desc": "Apparecchio di illuminazione da terra a luce diretta (per lettura) e luce d'ambiente. Corpo in alluminio pressofuso sovrastampato con polimero ad iniezione e finitura galvanica in oro lucido 18K o cromato. Diffusore in carta plastificata nero opaco serigrafata oro internamente o bianco serigrafata argento internamente. Sul cavo è presente il dimmer elettronico che consente la regolazione a step dell'intensità luminosa.",
         "size_image": "https://flos.com/wp-content/uploads/2017/10/lounge-gun-floor-starck-flos-F2955000-product-thumbnail.jpg",
         "color": "colour_shinygold",
