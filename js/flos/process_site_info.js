@@ -62,6 +62,7 @@ var arr_all_products = [
 
 /*
 var arr_all_products = [
+    "https://flos.com/it/prodotti/lampade-tavolo/gaku/gaku-wireless/",
     "https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/", "https://flos.com/it/prodotti/plafoniere/romeo-moon/romeo-babe-w/",
     "https://flos.com/it/prodotti/lampade-terra/kelvin-led/kelvin-led-f/", "https://flos.com/it/prodotti/lampadari-sospensione/tatou/tatou-s2/"
 ]
@@ -69,12 +70,17 @@ var arr_all_products = [
 
 
 var arr_all_products = [
-    "https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour/",
+    "https://flos.com/it/prodotti/lampade-terra/ipnos/ipnos/#tech-specs",
+    "https://flos.com/it/prodotti/lampadari-sospensione/string-light/string-light-cone-head-12mt-cable/"
     
 ]
+
+
+
+var arr_all_products = [
+    "https://flos.com/it/prodotti/lampade-tavolo/bellhop/bellhop/"
+]
 */
-
-
 
 
 // elimino eventuali doppioni
@@ -141,8 +147,7 @@ function createJsonFromAPage(body, uri){
     var $summary = $body.find(".summary.entry-summary");
     var category = $summary.find("ul").eq(0).find(".active a").html();
     var $desc = $summary.find(".product-description");
-        $desc.find("span").remove();
-    var desc = $desc.html();
+        desc = $desc.text();
 
 
     var other_images = [];
@@ -211,17 +216,7 @@ function createJsonFromAPage(body, uri){
         more[label] = value;
     })
 
-    var $accessories = $body.find(".related-accessories .item");
-    var accessories = [];
-    $accessories.each(function(){
-        accessories.push({
-            id : $(this).find("h3").html(),
-            fullname : $(this).find("p").html(),
-            name: ( $(this).find("p").html().indexOf(" - ") != -1) ? $(this).find("p").html().split(" - ")[0] : $(this).find("p").html(),
-            color: ( $(this).find("p").html().indexOf(" - ") != -1) ? $(this).find("p").html().split(" - ")[1] : undefined,
-            img : $(this).find("figure img").attr("src")
-        })
-    })
+    
 
 
     
@@ -237,14 +232,47 @@ function createJsonFromAPage(body, uri){
             image: variation.image.url,
             secondary_image: secondary_image,
             summary_media : summary_media,
-            other_images: other_images,
+            other_images: filteredImages(other_images,variation.image.url,secondary_image),
             downloads : downloads,
             more: more,
-            accessories: accessories,
+            accessories: getAccessories(getCode(variation.sku), model),
         })
-    })
+    });
 
-    
+    function filteredImages(images, first, second){
+        var ret = _.filter(images, function(elem){
+            return (elem != first && elem != second);
+        })
+
+        return _.uniq(ret);
+    }
+
+
+
+
+    function getAccessories(father_code,model){
+        var $accessories = $body.find(".related-accessories .item");
+        var accessories = [];
+        $accessories.each(function(){
+            accessories.push({
+                id : $(this).find("h3").html(),
+                fullname : getFullname($(this), model),
+                name: ( $(this).find("p").html().indexOf(" - ") != -1) ? $(this).find("p").html().split(" - ")[0] : $(this).find("p").html(),
+                color: ( $(this).find("p").html().indexOf(" - ") != -1) ? $(this).find("p").html().split(" - ")[1] : undefined,
+                img : $(this).find("figure img").attr("src"),
+                component_of: father_code,
+            })
+        });
+
+        return accessories;
+    }
+
+    function getFullname($elem, model){
+        var ret = ( $elem.find("p").html() != "")? $elem.find("p").html() : ( $elem.find("h4").html() != "")? $elem.find("h4").html() : undefined;
+        if( !_.is(ret))
+            ret = "accessorio "+$elem.index()+" di "+model;
+        return ret;
+    }
     
     function getCode(sku){
         // trovati casi particolari, guarda note.txt si FLOS

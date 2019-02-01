@@ -80,7 +80,9 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                let assets_json = ( _.is(contents) )? JSON.parse(contents) : {};
                                                 _.each(json_fornitore,function(row){
                                                     if(!rigaVuota(row)){
-                                                        json_aumentato.push(adjustRow(row,cartella,assets_json, desc_json));
+                                                        var new_row = adjustRow(row,cartella,assets_json, desc_json);
+                                                        if(_.is(new_row))
+                                                            json_aumentato.push(new_row);
                                                     }   
                                                 });
 
@@ -2478,22 +2480,15 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 if( fornitore == "flos"){
 
                     var hasAsset = _.is(getAsset(row["Codice articolo"])); // dice di questo articolo se è presente il rispettivo oggetto in asset_json recuperato dal sito
+                    if(!hasAsset)
+                        return undefined;
 
-                   
-
-                    
                     supplier = "flos";
                     supplier_id = supplierId(supplier);
-                    component = (row["Raggr. Commerciale"] == "SPAREPARTS")? 1: 0; // sono 525 "DECORATIVE" e 1084 SPAREPARTS
-                    model = row["Codice articolo"];
-
-                    
-
-
-                    
-
                     original_model_id = row["Codice articolo"];
-                    model_id = model;
+                    model_id = row["Codice articolo"];
+                    component = (isComponent(model_id))? 1: 0;// recuperato dall'excel (row["Raggr. Commerciale"] == "SPAREPARTS")? 1: 0; // sono 525 "DECORATIVE" e 1084 SPAREPARTS              
+                    model = getModelName(model_id);
                     item_id = original_model_id;
                     hicId = getHicId(supplier_id, item_id);
                     ean13 = undefined;
@@ -2501,46 +2496,62 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     color = getColor(model_id);
                     desc_it = undefined;
                     desc_en = undefined;
-                    cleaned_desc_it = undefined;
-                    cleaned_desc_en = undefined;
-                    dimmer = undefined;
-                    led = undefined;
+                    cleaned_desc_it = getDesc(component,getAsset(model_id));
+                    cleaned_desc_en = cleaned_desc_it;
+                    dimmer = (row["Descrizione articolo"].indexOf("DIMM") != -1 )? 1: 0;
+                    led = (row["Descrizione articolo"].indexOf("LED") != -1 )? 1: 0;
                     halogen = undefined;
                     screw = undefined;
                     switcher = undefined;
-                    category = undefined;   // è un array di categorie, i possibili valori sono: terra | tavolo | parete | soffitto | sospensione | altro (nel caso di "altro" quando possibile viene anche specificato di cosa si tratta, tipo: kit, vetro....)
+                    category = undefined;
+                
                     type = undefined;       // è un valore unico ovvero una stringa
                     
-                    component_of = undefined;
+                    component_of = ( isComponent(model_id) ) ? getAsset(model_id).component_of : undefined;
                     size = undefined;
-                    outdoor = undefined;
+                    outdoor = (row["Descrizione articolo"].indexOf("OUT") != -1 )? 1: 0;;
                     max_discount = undefined;
-                    more = undefined;
-                    title = undefined;
+                    more = ( _.is(getAsset(model_id)) )? ( _.is( getAsset(model_id).more ) )? getAsset(model_id).more : undefined : undefined ;
+                    title = model;
+                    pic = ( _.is(getAsset(model_id)))? (_.is(getAsset(model_id).img)) ? getAsset(model_id).img : getAsset(model_id).image : undefined;
+                    light_schema = getSchemaImages(model_id);
                     subtitle = undefined;
-                    pic = undefined;
-                    light_schema = undefined;
                     otherColors = undefined;
-                    projects = undefined;
+                    projects = ( _.is(getAsset(model_id)) )? ( _.is( getAsset(model_id).other_images ) )? getAsset(model_id).other_images : undefined : undefined ;
 
+                    function getModelName(model_id){
+                        var asset = getAsset(model_id);
+                        if( _.is(asset))
+                            return asset.fullname || asset.model;
+                    }
 
                     function getPrice(price){
                         return price.replace("€ ","");
                     }
 
-                    function getColor(model){
+                    function getColor(model_id){
                         var asset = getAsset(model_id);
-                        if(_.is(asset)){
-                            return asset.color.replace("colour_","");
-                        }
+                        if(_.is(asset))
+                            if(_.is(asset.color))
+                                return asset.color.replace("colour_","");
+                        
                             
                     }
 
-                    function icComponent(model_id_or_asset){
-                        var obj = ( _.isObject(model_id_or_asset) )? model_id_or_asset : getAsset(model_id_or_asset);
-                        if (_.is(obj))
-                            return _.is(obj.fullname)
+                    function getDesc(component,asset){
+                        if(component == 0 && _.is(asset))
+                            return asset.desc;
                     }
+
+                    function isComponent(model_id){
+                        var asset = getAsset(model_id);
+                        if( _.is(asset) )
+                            return _.is(asset.fullname) == true;
+                        else
+                            return false;
+                    }
+
+                    
 
                     // dato un id articolo ritorna l'oggetto asset di asset_json
                     // se è undefined vuol dire che non l'ha trovato
@@ -2557,7 +2568,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 else{
                                     _.each(asset.accessories,function(accessory){
                                         if(accessory.id == id){
-                                            ret = asset;
+                                            ret = accessory;
                                         }
                                             
                                     })
@@ -2566,6 +2577,23 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         });
 
                         return ret;
+                    }
+
+                    function getSchemaImages(mode_id){
+                        var ret = [];
+                        var asset = getAsset(mode_id)
+                        if( _.is(asset)){
+                            if( _.is(asset.size_image) )
+                                ret.push( asset.size_image );
+                            if( _.is(asset.summary_media) ){
+                                _.each(asset.summary_media,function(elem){
+                                    ret.push(elem);
+                                })
+                            }
+                        }
+
+                        return ret;
+                            
                     }
         
 
