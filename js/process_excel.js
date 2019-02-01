@@ -23,96 +23,98 @@ fs.readdir(path, function(err, cartella_fornitore) {
             let path_cartella = path+cartella;
 
 
-
+            var procedi = true;
             if  ( _.is(process.argv[2]) && _.contains(cartella_fornitore,process.argv[2].replace("-","") ) ){
                 if( cartella != process.argv[2].replace("-","") )
-                    return false;
+                    procedi = false;
             }
 
             
+            if(procedi){
+                fs.readdir(path_cartella, (err, files) => {
+                    _.log("PROCESSO: "+path_cartella)
+                    let files_length = 0;
 
-            fs.readdir(path_cartella, (err, files) => {
-                _.log("PROCESSO: "+path_cartella)
-                let files_length = 0;
+                    // conto i file .xls
+                    files.forEach(file => {
+                        if(file.indexOf(".xls") != -1){
+                            files_length++;
+                        }
+                    });
 
-                // conto i file .xls
-                files.forEach(file => {
-                    if(file.indexOf(".xls") != -1){
-                        files_length++;
-                    }
-                });
+                    var json_fornitore = [];
+                    files.forEach(file => {
 
-                var json_fornitore = [];
-                files.forEach(file => {
+                        if(file.indexOf(".xls") != -1){
+                            let path_file = path_cartella +"/"+ file;
 
-                    if(file.indexOf(".xls") != -1){
-                        let path_file = path_cartella +"/"+ file;
-
-                        node_xj({
-                            input: path_file,  // input xls
-                            output: null, //"./sample/output.json", // output json
-                            //sheet: "sheetname"  // specific sheetname
-                            }, function(err, result) {
-                                if(err) {
-                                    console.error(err);
-                                } else {
-                                    
-                                    if(result.length > 5000)
-                                        _.log("ATTENZIONE! un excel ha più di 5000 righe")
-                                    
-                                    json_fornitore = json_fornitore.concat(result);
-                                    files_length--;
-                                    
-                                    if(files_length == 0){
+                            node_xj({
+                                input: path_file,  // input xls
+                                output: null, //"./sample/output.json", // output json
+                                //sheet: "sheetname"  // specific sheetname
+                                }, function(err, result) {
+                                    if(err) {
+                                        console.error(err);
+                                    } else {
                                         
-                                        let path_fornitore = path_cartella +"/"+cartella;
+                                        if(result.length > 5000)
+                                            _.log("ATTENZIONE! un excel ha più di 5000 righe")
+                                        
+                                        json_fornitore = json_fornitore.concat(result);
+                                        files_length--;
+                                        
+                                        if(files_length == 0){
+                                            
+                                            let path_fornitore = path_cartella +"/"+cartella;
 
 
-                                        var json_aumentato = [];
+                                            var json_aumentato = [];
 
-                                        // provo a leggere il json delle descrizioni di ogni fornitore
-                                        fs.readFile('./'+cartella+'/docx_json.json', 'utf8', function(err, contents) {
-                                            let desc_json = ( _.is(contents) )? JSON.parse(contents) : {};
+                                            // provo a leggere il json delle descrizioni di ogni fornitore
+                                            fs.readFile('./'+cartella+'/docx_json.json', 'utf8', function(err, contents) {
+                                                let desc_json = ( _.is(contents) )? JSON.parse(contents) : {};
 
-                                            // provo a leggere il json delle immagini di ogni fornitore
-                                            // al success procedo con adjustRow
-                                            fs.readFile('./'+cartella+'/assets_json.json', 'utf8', function(err, contents) {
-                                               let assets_json = ( _.is(contents) )? JSON.parse(contents) : {};
-                                                _.each(json_fornitore,function(row){
-                                                    if(!rigaVuota(row)){
-                                                        var new_row = adjustRow(row,cartella,assets_json, desc_json);
-                                                        if(_.is(new_row))
-                                                            json_aumentato.push(new_row);
-                                                    }   
-                                                });
+                                                // provo a leggere il json delle immagini di ogni fornitore
+                                                // al success procedo con adjustRow
+                                                fs.readFile('./'+cartella+'/assets_json.json', 'utf8', function(err, contents) {
+                                                let assets_json = ( _.is(contents) )? JSON.parse(contents) : {};
+                                                    _.each(json_fornitore,function(row){
+                                                        if(!rigaVuota(row)){
+                                                            var new_row = adjustRow(row,cartella,assets_json, desc_json);
+                                                            if(_.is(new_row))
+                                                                json_aumentato.push(new_row);
+                                                        }   
+                                                    });
 
-                                                
+                                                    
 
-                                                fs.writeFile(path_cartella +"/result/"+cartella+'.json', JSON.stringify(json_fornitore, null, 4), 'utf8', function(){
-                                                //_.log("FINITO");
-                                                });
-
-                                                fs.writeFile(path_cartella +"/result/"+cartella+'_aumentato.json', JSON.stringify(json_aumentato, null, 4), 'utf8', function(){
+                                                    fs.writeFile(path_cartella +"/result/"+cartella+'.json', JSON.stringify(json_fornitore, null, 4), 'utf8', function(){
                                                     //_.log("FINITO");
+                                                    });
+
+                                                    fs.writeFile(path_cartella +"/result/"+cartella+'_aumentato.json', JSON.stringify(json_aumentato, null, 4), 'utf8', function(){
+                                                        //_.log("FINITO");
+                                                    });
+
+                                                    let xls = json2xls(json_aumentato);
+
+                                                    fs.writeFileSync(path_cartella +"/result/"+cartella+'_aumentato.xlsx', xls, 'binary');
+                                                    
                                                 });
 
-                                                let xls = json2xls(json_aumentato);
-
-                                                fs.writeFileSync(path_cartella +"/result/"+cartella+'_aumentato.xlsx', xls, 'binary');
-                                                
                                             });
-
-                                        });
-                    
+                        
+                                        }
                                     }
-                                }
-                        });
+                            });
 
-                    }
+                        }
+                        
+                    });
                     
                 });
-                
-            })
+            }
+            
 
         }
             
@@ -189,7 +191,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 "BIRDIE",
                 "BIRDIE LETTURA",
                 "BIRDIE LED LETTURA",
-                "BIRDIE 1",
                 "BIRDIE 3",
                 "BIRDIE 6",
                 "BIRDIE 9",
@@ -331,7 +332,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 title = row["Articolo"];
                 subtitle = undefined;
                 pic = getPics(model, category, color, component, createAllImgsArr(assets_json), "primary" );
-                light_schema = undefined;
+                light_schema = (component == 0)? getLightSchema(model, category, size, assets_json) : undefined;
                 otherColors = getPics(model, category, color, component, createAllImgsArr(assets_json), "colors" );
                 
                 more = JSON.stringify({
@@ -898,6 +899,27 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 });
 
                 return ret;
+            }
+
+            function getLightSchema(model, category, size, asset_json){
+                var name = model;
+                name += (_.is(size))? " "+size.toUpperCase() : "";
+                name = S(_.uniq(name.split(" ")).toString()).replaceAll(","," ").s;
+
+                var ret = undefined;
+
+                //_.log(category[0].toUpperCase())
+
+                _.each(asset_json,function(asset){
+                    _.each(asset.specs,function(spec){
+                        // caso particolare
+                        if( spec.model == name && spec.light_schema.category == category[0].toUpperCase() && !_.is(ret))
+                            ret = spec.light_schema.url;
+                    })
+                });
+
+                return ret;
+
             }
             
             
@@ -2510,7 +2532,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     component_of = ( isComponent(model_id) ) ? getAsset(model_id).component_of : undefined;
                     size = undefined;
                     outdoor = (row["Descrizione articolo"].indexOf("OUT") != -1 )? 1: 0;;
-                    max_discount = undefined;
+                    max_discount = 14;
                     more = ( _.is(getAsset(model_id)) )? ( _.is( getAsset(model_id).more ) )? getAsset(model_id).more : undefined : undefined ;
                     title = model;
                     pic = ( _.is(getAsset(model_id)))? (_.is(getAsset(model_id).img)) ? getAsset(model_id).img : getAsset(model_id).image : undefined;

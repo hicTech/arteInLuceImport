@@ -15,6 +15,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "265",
         "pic": "https://flos.com/wp-content/uploads/2017/10/265-ceiling-wall-rizzatto-flos-A0300009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -70,6 +71,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "265",
         "pic": "https://flos.com/wp-content/uploads/2017/10/265-ceiling-wall-rizzatto-flos-A0300030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -126,6 +128,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "2097/30",
         "pic": "https://flos.com/wp-content/uploads/2017/10/2097-30-suspension-sarfatti-flos-A1400057-product-still-life-big-1.jpg",
         "light_schema": [
@@ -182,6 +185,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "2097/30",
         "pic": "https://flos.com/wp-content/uploads/2017/10/2097-30-suspension-sarfatti-flos-A1400059-product-still-life-big-2.jpg",
         "light_schema": [
@@ -239,6 +243,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "2097/50",
         "pic": "https://flos.com/wp-content/uploads/2017/10/2097-50-suspension-sarfatti-flos-A1500057-product-still-life-big.jpg",
         "light_schema": [
@@ -295,6 +300,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "2097/50",
         "pic": "https://flos.com/wp-content/uploads/2017/10/2097-50-suspension-sarfatti-flos-A1500059-product-still-life-big-2.jpg",
         "light_schema": [
@@ -352,6 +358,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Skygarden 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/skygarden-suspension-1-wanders-flos-F0001009-product-still-life-big-2.jpg",
         "light_schema": [
@@ -416,6 +423,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Skygarden 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/skygarden-suspension-1-wanders-flos-F0001030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -480,6 +488,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Skygarden 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/skygarden-suspension-1-wanders-flos-F0001044-product-still-life-big.jpg",
         "light_schema": [
@@ -543,6 +552,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Skygarden 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/skygarden-suspension-1-wanders-flos-F0001047-product-still-life-big-2.jpg",
         "light_schema": [
@@ -607,6 +617,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Skygarden 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/skygarden-suspension-2-wanders-flos-F0002009-product-still-life-big-2.jpg",
         "light_schema": [
@@ -671,6 +682,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Skygarden 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/skygarden-suspension-2-wanders-flos-F0002030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -735,6 +747,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Skygarden 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/skygarden-suspension-2-wanders-flos-F0002044-product-still-life-big-2.jpg",
         "light_schema": [
@@ -799,6 +812,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Skygarden 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/skygarden-suspension-2-wanders-flos-F0002047-product-still-life-big-2.jpg",
         "light_schema": [
@@ -863,6 +877,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Romeo Moon Suspension 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/romeo-moon-suspension-2-starck-flos-F0003000-product-still-life-big.jpg",
         "light_schema": [
@@ -914,6 +929,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Long Light",
         "pic": "https://flos.com/wp-content/uploads/2017/10/long-light-wall-lissoni-flos-F0010009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -963,6 +979,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Tight Light",
         "pic": "https://flos.com/wp-content/uploads/2017/10/tight-light-wall-lissoni-flos-F0011009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -1012,6 +1029,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "D’E-light",
         "pic": "https://flos.com/wp-content/uploads/2017/10/de-light-table-starck-flos-F0028057-product-still-life-big-2.jpg",
         "light_schema": [
@@ -1061,6 +1079,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Aim",
         "pic": "https://flos.com/wp-content/uploads/2017/10/aim-suspension-bouroullec-flos-F0090009-product-still-life-big.jpg",
         "light_schema": [
@@ -1121,6 +1140,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Aim",
         "pic": "https://flos.com/wp-content/uploads/2017/10/aim-suspension-bouroullec-flos-F0090026-product-still-life-big-2.jpg",
         "light_schema": [
@@ -1182,6 +1202,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Aim",
         "pic": "https://flos.com/wp-content/uploads/2017/10/aim-suspension-bouroullec-flos-F0090030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -1243,6 +1264,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Aim cavo-spina",
         "pic": "https://flos.com/wp-content/uploads/2017/10/aim-suspension-bouroullec-flos-F0092009-product-still-life-big.jpg",
         "light_schema": [
@@ -1303,6 +1325,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Aim cavo-spina",
         "pic": "https://flos.com/wp-content/uploads/2017/10/aim-suspension-bouroullec-flos-F0092026-product-still-life-big-2.jpg",
         "light_schema": [
@@ -1364,6 +1387,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Aim cavo-spina",
         "pic": "https://flos.com/wp-content/uploads/2017/10/aim-suspension-bouroullec-flos-F0092030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -1424,6 +1448,7 @@
         "component": 1,
         "component_of": "F0090009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Rosone multiplo - Bianco",
         "pic": "https://flos.com/wp-content/uploads/2017/10/A_F0093009.jpg",
         "light_schema": []
@@ -1443,6 +1468,7 @@
         "component": 1,
         "component_of": "F0090009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Rosone multiplo - Marrone",
         "pic": "https://flos.com/wp-content/uploads/2017/10/A_F0093026.jpg",
         "light_schema": []
@@ -1462,6 +1488,7 @@
         "component": 1,
         "component_of": "F0090009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Rosone multiplo - Nero",
         "pic": "https://flos.com/wp-content/uploads/2017/10/A_F0093030.jpg",
         "light_schema": []
@@ -1482,6 +1509,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Aim Small",
         "pic": "https://flos.com/wp-content/uploads/2017/10/aim-small-suspension-bouroullec-flos-F0095009-product-still-life-big.jpg",
         "light_schema": [
@@ -1542,6 +1570,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Aim Small",
         "pic": "https://flos.com/wp-content/uploads/2017/10/aim-small-suspension-bouroullec-flos-F0095026-product-still-life-big-2.jpg",
         "light_schema": [
@@ -1603,6 +1632,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Aim Small",
         "pic": "https://flos.com/wp-content/uploads/2017/10/aim-small-suspension-bouroullec-flos-F0095030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -1664,6 +1694,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Aim Small cavo-spina",
         "pic": "https://flos.com/wp-content/uploads/2017/10/aim-small-suspension-bouroullec-flos-F0097009-product-still-life-big.jpg",
         "light_schema": [
@@ -1724,6 +1755,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Aim Small cavo-spina",
         "pic": "https://flos.com/wp-content/uploads/2017/10/aim-small-suspension-bouroullec-flos-F0097026-product-still-life-big-2.jpg",
         "light_schema": [
@@ -1785,6 +1817,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Aim Small cavo-spina",
         "pic": "https://flos.com/wp-content/uploads/2017/10/aim-small-suspension-bouroullec-flos-F0097030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -1846,6 +1879,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Aim Small fix",
         "pic": "https://flos.com/wp-content/uploads/2017/10/aim-small-fix-suspension-bouroullec-flos-F0098009-product-still-life-big.jpg",
         "light_schema": [
@@ -1905,6 +1939,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Aim Small fix",
         "pic": "https://flos.com/wp-content/uploads/2017/10/aim-small-fix-suspension-bouroullec-flos-F0098026-product-still-life-big-2.jpg",
         "light_schema": [
@@ -1965,6 +2000,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Aim Small fix",
         "pic": "https://flos.com/wp-content/uploads/2017/10/aim-small-fix-suspension-bouroullec-flos-F0098030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -2025,6 +2061,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Aoy",
         "pic": "https://flos.com/wp-content/uploads/2017/10/aoy-table-castiglioni-flos-F0200071-product-still-life-big-6.jpg",
         "light_schema": [
@@ -2078,6 +2115,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Arco",
         "pic": "https://flos.com/wp-content/uploads/2017/10/Arco-floor-castiglioni-flos-F0300000-product-still-life-big.jpg",
         "light_schema": [
@@ -2129,6 +2167,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Arco Led",
         "pic": "https://flos.com/wp-content/uploads/2017/10/Arco-led-floor-castiglioni-flos-F0303000-product-still-life-big.jpg",
         "light_schema": [
@@ -2180,6 +2219,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Ariette 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ariette-1-ceiling-wall-scarpa-flos-F04000-product-still-life-big-1.jpg",
         "light_schema": [
@@ -2229,6 +2269,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Arrangements Line",
         "pic": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-Line-anastassiades-flos-F0401030-product-still-life-big.jpg",
         "light_schema": [
@@ -2286,6 +2327,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Arrangements Broken Line",
         "pic": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-Broken_Line-anastassiades-flos-F0405030-product-still-life-big.jpg",
         "light_schema": [
@@ -2341,6 +2383,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Arrangements Round Small",
         "pic": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-Round_S-anastassiades-flos-F0406030-product-still-life-big.jpg",
         "light_schema": [
@@ -2396,6 +2439,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Arrangements Round Medium",
         "pic": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-Round_M-anastassiades-flos-F0407030-product-still-life-big.jpg",
         "light_schema": [
@@ -2453,6 +2497,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Arrangements Round Large",
         "pic": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-Round_L-anastassiades-flos-F0408030-product-still-life-big.jpg",
         "light_schema": [
@@ -2511,6 +2556,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Arrangements Square Large",
         "pic": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-square_L-anastassiades-flos-F0409030-product-still-life-big.jpg",
         "light_schema": [
@@ -2569,6 +2615,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Arrangements Square Small",
         "pic": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-square_small-anastassiades-flos-F0410030-product-still-life-big.jpg",
         "light_schema": [
@@ -2627,6 +2674,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Arrangements Drop Down",
         "pic": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-Drop_Down-anastassiades-flos-F0413030-product-still-life-big.jpg",
         "light_schema": [
@@ -2683,6 +2731,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Arrangements Drop Up",
         "pic": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-Drop_Up-anastassiades-flos-F0414030-product-still-life-big.jpg",
         "light_schema": [
@@ -2737,6 +2786,7 @@
         "component": 1,
         "component_of": "F0408030",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Big Rose-MAX190W",
         "pic": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0415030-accessory-spech-tech-01-500x500-1.jpg",
         "light_schema": []
@@ -2755,6 +2805,7 @@
         "component": 1,
         "component_of": "F0408030",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Small Rose-MAX70",
         "pic": "https://flos.com/wp-content/uploads/2018/04/Arrangements-suspension-anastassiades-flos-F0416030-accessory-spech-tech-01-500x500.jpg",
         "light_schema": []
@@ -2773,6 +2824,7 @@
         "component": 1,
         "component_of": "F0408030",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Recessed Rose-MAX190W",
         "pic": "https://flos.com/wp-content/uploads/2018/07/Arrangements-suspension-anastassiades-flos-F0418030-accessory-spech-tech-01-500x500.jpg",
         "light_schema": []
@@ -2793,6 +2845,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Ariette 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ariette-2-ceiling-wall-scarpa-flos-F05000-product-still-life-big-1.jpg",
         "light_schema": [
@@ -2842,6 +2895,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Ariette 3",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ariette-3-ceiling-wall-scarpa-flos-F06000-product-still-life-big-1.jpg",
         "light_schema": [
@@ -2891,6 +2945,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Biagio",
         "pic": "https://flos.com/wp-content/uploads/2017/10/biagio-table-scarpa-flos-F070000-product-still-life-big.jpg",
         "light_schema": [
@@ -2943,6 +2998,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bibliotheque Nationale",
         "pic": "https://flos.com/wp-content/uploads/2017/10/biblioteque-nationale-floor-starck-flos-F1011000-product-still-life-big.jpg",
         "light_schema": [
@@ -3011,6 +3067,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bibliotheque Nationale",
         "pic": "https://flos.com/wp-content/uploads/2017/10/biblioteque-nationale-floor-starck-flos-F1011004-product-still-life-big-2.jpg",
         "light_schema": [
@@ -3079,6 +3136,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bibliotheque Nationale",
         "pic": "https://flos.com/wp-content/uploads/2017/10/biblioteque-nationale-floor-starck-flos-F1011007-product-still-life-big-3.jpg",
         "light_schema": [
@@ -3146,6 +3204,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bibliotheque Nationale",
         "pic": "https://flos.com/wp-content/uploads/2017/10/biblioteque-nationale-floor-starck-flos-F1011030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -3214,6 +3273,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bibliotheque Nationale",
         "pic": "https://flos.com/wp-content/uploads/2017/10/biblioteque-nationale-floor-starck-flos-F1011046-product-still-life-big-2.jpg",
         "light_schema": [
@@ -3282,6 +3342,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bon Jour",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1032009-product-still-life-big-2.jpg",
         "light_schema": [
@@ -3343,6 +3404,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bon Jour",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1032015-product-still-life-big-1.jpg",
         "light_schema": [
@@ -3405,6 +3467,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bon Jour",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1032046-product-still-life-big-1.jpg",
         "light_schema": [
@@ -3467,6 +3530,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bon Jour",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1032057-product-still-life-big-1.jpg",
         "light_schema": [
@@ -3528,6 +3592,7 @@
         "component": 1,
         "component_of": "F1032009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Corona - Trasparente",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033000-accessory-spech-tech-01-500x500.jpg",
         "light_schema": []
@@ -3547,6 +3612,7 @@
         "component": 1,
         "component_of": "F1032009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Corona - Tessuto",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033007-accessory-spech-tech-02-500x500.jpg",
         "light_schema": []
@@ -3566,6 +3632,7 @@
         "component": 1,
         "component_of": "F1032009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Corona - Giallo",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033019-accessory-spech-tech-03-500x500.jpg",
         "light_schema": []
@@ -3585,6 +3652,7 @@
         "component": 1,
         "component_of": "F1032009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Corona - Fumè",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033030-accessory-spech-tech-04-500x500.jpg",
         "light_schema": []
@@ -3604,6 +3672,7 @@
         "component": 1,
         "component_of": "F1032009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Corona - Ambra",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033070-accessory-spech-tech-05-500x500.jpg",
         "light_schema": []
@@ -3623,6 +3692,7 @@
         "component": 1,
         "component_of": "F1032009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Corona - Rafia",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1033088-accessory-spech-tech-06-500x500.jpg",
         "light_schema": []
@@ -3642,6 +3712,7 @@
         "component": 1,
         "component_of": "F1037046",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Corona - Trasparente",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036000-accessory-spech-tech-01-500x500.jpg",
         "light_schema": []
@@ -3661,6 +3732,7 @@
         "component": 1,
         "component_of": "F1037046",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Corona - Tessuto",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036007-accessory-spech-tech-02-500x500.jpg",
         "light_schema": []
@@ -3680,6 +3752,7 @@
         "component": 1,
         "component_of": "F1037046",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Corona - Giallo",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036019-accessory-spech-tech-03-500x500.jpg",
         "light_schema": []
@@ -3699,6 +3772,7 @@
         "component": 1,
         "component_of": "F1037046",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Corona - Fumè",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036046-accessory-spech-tech-04-500x500.jpg",
         "light_schema": []
@@ -3717,6 +3791,7 @@
         "component": 1,
         "component_of": "F1037046",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Corona-Rosso",
         "pic": "https://flos.com/wp-content/uploads/2018/08/bon-jour-table-starck-flos-F1036035-accessory-spech-tech-02-500x500.jpg",
         "light_schema": []
@@ -3736,6 +3811,7 @@
         "component": 1,
         "component_of": "F1037046",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Corona - Ambra",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036070-accessory-spech-tech-05-500x500.jpg",
         "light_schema": []
@@ -3755,6 +3831,7 @@
         "component": 1,
         "component_of": "F1037046",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Corona - Rafia",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-table-starck-flos-F1036088-accessory-spech-tech-06-500x500.jpg",
         "light_schema": []
@@ -3775,6 +3852,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bon Jour Unplugged",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-unplugged-table-starck-flos-F1037009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -3837,6 +3915,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bon Jour Unplugged",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-unplugged-table-starck-flos-F1037015-product-still-life-big-1.jpg",
         "light_schema": [
@@ -3900,6 +3979,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bon Jour Unplugged",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-unplugged-table-starck-flos-F1037046-product-still-life-big-2.jpg",
         "light_schema": [
@@ -3963,6 +4043,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bon Jour Unplugged",
         "pic": "https://flos.com/wp-content/uploads/2017/10/bon-jour-unplugged-table-starck-flos-F1037057-product-still-life-big-1.jpg",
         "light_schema": [
@@ -4026,6 +4107,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bon Jour Versailles",
         "pic": "https://flos.com/wp-content/uploads/2017/11/bon-jour-versailles-table-starck-flos-F1041015-product-still-life-big-1.jpg",
         "light_schema": [
@@ -4079,6 +4161,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bon Jour Versailles",
         "pic": "https://flos.com/wp-content/uploads/2017/11/bon-jour-versailles-table-starck-flos-F1041057-product-still-life-big-1.jpg",
         "light_schema": [
@@ -4133,6 +4216,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bon Jour Versailles Small",
         "pic": "https://flos.com/wp-content/uploads/2017/11/bon-jour-versailles-small-table-starck-flos-F1042015-product-still-life-big-1.jpg",
         "light_schema": [
@@ -4187,6 +4271,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bon Jour Versailles Small",
         "pic": "https://flos.com/wp-content/uploads/2017/11/bon-jour-versailles-small-table-starck-flos-F1042057-product-still-life-big-1.jpg",
         "light_schema": [
@@ -4242,6 +4327,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bellhop",
         "pic": "https://flos.com/wp-content/uploads/2018/06/bellhop-table-barber-osgerby-flos-F1060009-product-still-life-big.jpg",
         "light_schema": [
@@ -4311,6 +4397,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bellhop",
         "pic": "https://flos.com/wp-content/uploads/2018/06/bellhop-table-barber-osgerby-flos-F1060020-product-still-life-big.jpg",
         "light_schema": [
@@ -4380,6 +4467,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bellhop",
         "pic": "https://flos.com/wp-content/uploads/2018/06/bellhop-table-barber-osgerby-flos-F1060026-product-still-life-big.jpg",
         "light_schema": [
@@ -4449,6 +4537,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bellhop",
         "pic": "https://flos.com/wp-content/uploads/2018/06/bellhop-table-barber-osgerby-flos-F1060075-product-still-life-big.jpg",
         "light_schema": [
@@ -4517,6 +4606,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Smithfield Suspension",
         "pic": "https://flos.com/wp-content/uploads/2017/10/smithfield-suspension-morrison-flos-F1360009-product-still-life-big-2.jpg",
         "light_schema": [
@@ -4577,6 +4667,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Smithfield Suspension",
         "pic": "https://flos.com/wp-content/uploads/2017/10/smithfield-suspension-morrison-flos-F1360021-product-still-life-big-2.jpg",
         "light_schema": [
@@ -4637,6 +4728,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Smithfield Suspension",
         "pic": "https://flos.com/wp-content/uploads/2017/10/smithfield-suspension-morrison-flos-F1360030-product-still-life-big.jpg",
         "light_schema": [
@@ -4696,6 +4788,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Smithfield Ceiling",
         "pic": "https://flos.com/wp-content/uploads/2017/10/smithfield-ceiling-morrison-flos-F1362009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -4753,6 +4846,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Smithfield Ceiling",
         "pic": "https://flos.com/wp-content/uploads/2017/10/smithfield-ceiling-morrison-flos-F1362021-product-still-life-big-1.jpg",
         "light_schema": [
@@ -4811,6 +4905,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Smithfield Ceiling",
         "pic": "https://flos.com/wp-content/uploads/2017/10/smithfield-ceiling-morrison-flos-F1362030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -4869,6 +4964,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Smithfield Ceiling Led",
         "pic": "https://flos.com/wp-content/uploads/2017/10/smithfield-ceiling-morrison-led-flos-F1366009-product-still-life-big.jpg",
         "light_schema": [
@@ -4927,6 +5023,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Smithfield Ceiling Led",
         "pic": "https://flos.com/wp-content/uploads/2017/10/smithfield-ceiling-morrison-led-flos-F1366021-product-still-life-big.jpg",
         "light_schema": [
@@ -4986,6 +5083,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Smithfield Ceiling Led",
         "pic": "https://flos.com/wp-content/uploads/2017/10/smithfield-ceiling-morrison-led-flos-F1366030-product-still-life-big.jpg",
         "light_schema": [
@@ -5045,6 +5143,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Smithfield Suspension Led",
         "pic": "https://flos.com/wp-content/uploads/2017/10/smithfield-suspension-morrison-flos-F1367009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -5105,6 +5204,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Smithfield Suspension Led",
         "pic": "https://flos.com/wp-content/uploads/2017/10/smithfield-suspension-morrison-flos-F1367021-product-still-life-big-1.jpg",
         "light_schema": [
@@ -5165,6 +5265,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Smithfield Suspension Led",
         "pic": "https://flos.com/wp-content/uploads/2017/10/smithfield-suspension-morrison-flos-F1367030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -5225,6 +5326,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Smithfield Ceiling Led dimmable DALI",
         "pic": "https://flos.com/wp-content/uploads/2017/10/smithfield-ceiling-morrison-led-flos-F1366009-product-still-life-big.jpg",
         "light_schema": [
@@ -5283,6 +5385,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Smithfield Ceiling Led dimmable DALI",
         "pic": "https://flos.com/wp-content/uploads/2017/10/smithfield-ceiling-morrison-led-flos-F1366021-product-still-life-big.jpg",
         "light_schema": [
@@ -5342,6 +5445,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Smithfield Ceiling Led dimmable DALI",
         "pic": "https://flos.com/wp-content/uploads/2017/10/smithfield-ceiling-morrison-led-flos-F1366030-product-still-life-big.jpg",
         "light_schema": [
@@ -5401,6 +5505,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Smithfield Suspension Led dimmable DALI",
         "pic": "https://flos.com/wp-content/uploads/2017/10/smithfield-suspension-morrison-flos-F1367009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -5462,6 +5567,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Smithfield Suspension Led dimmable DALI",
         "pic": "https://flos.com/wp-content/uploads/2017/10/smithfield-suspension-morrison-flos-F1367021-product-still-life-big-1.jpg",
         "light_schema": [
@@ -5523,6 +5629,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Smithfield Suspension Led dimmable DALI",
         "pic": "https://flos.com/wp-content/uploads/2017/10/smithfield-suspension-morrison-flos-F1367030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -5584,6 +5691,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Mini Button",
         "pic": "https://flos.com/wp-content/uploads/2017/10/mini-button-ceiling-wall-lissoni-flos-F1490009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -5638,6 +5746,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Mini Button",
         "pic": "https://flos.com/wp-content/uploads/2017/10/mini-button-ceiling-wall-lissoni-flos-F1491009-product-still-life-big.jpg",
         "light_schema": [
@@ -5693,6 +5802,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Captain Flint",
         "pic": "https://flos.com/wp-content/uploads/2017/10/captain-flint-floor-anastassiades-flos-F1530030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -5749,6 +5859,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Captain Flint",
         "pic": "https://flos.com/wp-content/uploads/2017/10/captain-flint-floor-anastassiades-flos-F1530059-product-still-life-big.jpg",
         "light_schema": [
@@ -5804,6 +5915,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Clara",
         "pic": "https://flos.com/wp-content/uploads/2017/10/clara-ceiling-wall-lissoni-flos-F1570009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -5851,6 +5963,7 @@
         "component": 1,
         "component_of": "F1570009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Anello accessorio - Trasparente",
         "pic": "https://flos.com/wp-content/uploads/2017/10/clara-ceiling-lissoni-flos-F1571000-accessory-spech-tech-01-500x500.jpg",
         "light_schema": []
@@ -5870,6 +5983,7 @@
         "component": 1,
         "component_of": "F1570009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Anello accessorio - Rame",
         "pic": "https://flos.com/wp-content/uploads/2017/10/clara-ceiling-lissoni-flos-F1571015-accessory-spech-tech-02-500x500.jpg",
         "light_schema": []
@@ -5889,6 +6003,7 @@
         "component": 1,
         "component_of": "F1570009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Anello accessorio  - Nero fumè",
         "pic": "https://flos.com/wp-content/uploads/2017/10/clara-ceiling-lissoni-flos-F1571030A-accessory-spech-tech-03-500x500.jpg",
         "light_schema": []
@@ -5908,6 +6023,7 @@
         "component": 1,
         "component_of": "F1570009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Anello accessorio - Cromo",
         "pic": "https://flos.com/wp-content/uploads/2017/10/clara-ceiling-lissoni-flos-F1571057-accessory-spech-tech-04-500x500.jpg",
         "light_schema": []
@@ -5928,6 +6044,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Clessidra 20°+20°",
         "pic": "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1583006-product-still-life-big-1.jpg",
         "light_schema": [
@@ -5991,6 +6108,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Clessidra 20°+20°",
         "pic": "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1583009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -6054,6 +6172,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Clessidra 20°+20°",
         "pic": "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1583018-product-still-life-big-1.jpg",
         "light_schema": [
@@ -6117,6 +6236,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Clessidra 20°+20°",
         "pic": "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1583057-product-still-life-big-1.jpg",
         "light_schema": [
@@ -6179,6 +6299,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Clessidra 40°+40°",
         "pic": "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584006-product-still-life-big-1.jpg",
         "light_schema": [
@@ -6242,6 +6363,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Clessidra 40°+40°",
         "pic": "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -6305,6 +6427,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Clessidra 40°+40°",
         "pic": "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584018-product-still-life-big-1.jpg",
         "light_schema": [
@@ -6368,6 +6491,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Clessidra 40°+40°",
         "pic": "https://flos.com/wp-content/uploads/2017/10/clessidra-ceiling-wall-citterio-flos-F1584057-product-still-life-big-1.jpg",
         "light_schema": [
@@ -6430,6 +6554,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Chasen",
         "pic": "https://flos.com/wp-content/uploads/2017/10/chasen-suspension-urquiola-flos-F1636009-product-still-life-big.jpg",
         "light_schema": [
@@ -6486,6 +6611,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Chasen",
         "pic": "https://flos.com/wp-content/uploads/2017/10/chasen-suspension-urquiola-flos-F1636030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -6543,6 +6669,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Chrysalis",
         "pic": "https://flos.com/wp-content/uploads/2017/10/chrysalis-floor-wanders-flos-F1670009-product-still-life-big.jpg",
         "light_schema": [
@@ -6592,6 +6719,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Chapo",
         "pic": "https://flos.com/wp-content/uploads/2017/10/chapo-table-starck-flos-F1690057-product-still-life-big-2.jpg",
         "light_schema": [
@@ -6643,6 +6771,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Copycat",
         "pic": "https://flos.com/wp-content/uploads/2017/10/copycat-table-anastassiades-flos-F1952015-product-still-life-big-2.jpg",
         "light_schema": [
@@ -6704,6 +6833,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Copycat",
         "pic": "https://flos.com/wp-content/uploads/2017/10/copycat-table-anastassiades-flos-F1952030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -6766,6 +6896,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Copycat",
         "pic": "https://flos.com/wp-content/uploads/2017/10/copycat-table-anastassiades-flos-F1952044-product-still-life-big-1.jpg",
         "light_schema": [
@@ -6828,6 +6959,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Copycat",
         "pic": "https://flos.com/wp-content/uploads/2017/10/copycat-table-anastassiades-flos-F1952050-product-still-life-big-2.jpg",
         "light_schema": [
@@ -6890,6 +7022,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Fantasma Piccolo",
         "pic": "https://flos.com/wp-content/uploads/2017/10/fantasma-piccolo-floor-scarpa-flos-F2101009-product-still-life-big.jpg",
         "light_schema": [
@@ -6940,6 +7073,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Extra Table",
         "pic": "https://flos.com/wp-content/uploads/2017/10/extra-table-anastassiades-flos-F2130004-product-still-life-big.jpg",
         "light_schema": [
@@ -6999,6 +7133,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Extra Table",
         "pic": "https://flos.com/wp-content/uploads/2017/10/extra-table-anastassiades-flos-F2130033-product-still-life-big-2.jpg",
         "light_schema": [
@@ -7059,6 +7194,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Extra Table",
         "pic": "https://flos.com/wp-content/uploads/2017/10/extra-table-anastassiades-flos-F2130046-product-still-life-big-2.jpg",
         "light_schema": [
@@ -7119,6 +7255,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Fantasma",
         "pic": "https://flos.com/wp-content/uploads/2017/10/fantasma-floor-scarpa-flos-F2201009-product-still-life-big.jpg",
         "light_schema": [
@@ -7169,6 +7306,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Foglio",
         "pic": "https://flos.com/wp-content/uploads/2017/10/foglio-ceiling-wall-scarpa-flos-F2400009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -7228,6 +7366,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Foglio",
         "pic": "https://flos.com/wp-content/uploads/2017/10/foglio-ceiling-wall-scarpa-flos-F2400030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -7286,6 +7425,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Foglio",
         "pic": "https://flos.com/wp-content/uploads/2017/10/foglio-ceiling-wall-scarpa-flos-F2400057-product-still-life-big-1.jpg",
         "light_schema": [
@@ -7345,6 +7485,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Fucsia 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/fucsia-suspension-1-castiglioni-flos-F2410000-product-still-life-big-2.jpg",
         "light_schema": [
@@ -7396,6 +7537,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Fucsia 3",
         "pic": "https://flos.com/wp-content/uploads/2017/10/fucsia-suspension-3-castiglioni-flos-F2411000-product-still-life-big.jpg",
         "light_schema": [
@@ -7447,6 +7589,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Fucsia 8",
         "pic": "https://flos.com/wp-content/uploads/2017/10/fucsia-suspension-8-castiglioni-flos-F2412000-product-still-life-big.jpg",
         "light_schema": [
@@ -7498,6 +7641,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Fucsia 12",
         "pic": "https://flos.com/wp-content/uploads/2017/10/fucsia-suspension-12-castiglioni-flos-F2413000-product-still-life-big-2.jpg",
         "light_schema": [
@@ -7549,6 +7693,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Frisbi",
         "pic": "https://flos.com/wp-content/uploads/2017/10/frisbi-suspension-castiglioni-flos-F2500000-product-still-life-big-2.jpg",
         "light_schema": [
@@ -7601,6 +7746,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Gaku Wireless",
         "pic": "https://flos.com/wp-content/uploads/2018/11/gaku-wireless-table-nendo-flos-F2520009-product-still-life-big.jpg",
         "light_schema": [
@@ -7659,6 +7805,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Gaku Wireless",
         "pic": "https://flos.com/wp-content/uploads/2018/11/gaku-wireless-table-nendo-flos-F2520030-product-still-life-big.jpg",
         "light_schema": [
@@ -7718,6 +7865,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Gaku Wire",
         "pic": "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F2521009-product-still-life-big-.jpg",
         "light_schema": [
@@ -7777,6 +7925,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Gaku Wire",
         "pic": "https://flos.com/wp-content/uploads/2018/11/gaku-wire-table-nendo-flos-F2521030product-still-life-big-.jpg",
         "light_schema": [
@@ -7835,6 +7984,7 @@
         "component": 1,
         "component_of": "F2521009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bowl white",
         "pic": "https://flos.com/wp-content/uploads/2018/11/gaku-bowl-table-nendo-flos-F2525009-accessory-spech-tech-500x500..jpg",
         "light_schema": []
@@ -7853,6 +8003,7 @@
         "component": 1,
         "component_of": "F2521009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bowl black",
         "pic": "https://flos.com/wp-content/uploads/2018/11/gaku-bowl-table-nendo-flos-F2522030-accessory-spech-tech-500x500..jpg",
         "light_schema": []
@@ -7871,6 +8022,7 @@
         "component": 1,
         "component_of": "F2521009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Vase white",
         "pic": "https://flos.com/wp-content/uploads/2018/11/gaku-vase-table-nendo-flos-F2523009-accessory-spech-tech-500x500.jpg",
         "light_schema": []
@@ -7889,6 +8041,7 @@
         "component": 1,
         "component_of": "F2521009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Vase black",
         "pic": "https://flos.com/wp-content/uploads/2018/11/gaku-vase-table-nendo-flos-F2523030-accessory-spech-tech-500x500.jpg",
         "light_schema": []
@@ -7907,6 +8060,7 @@
         "component": 1,
         "component_of": "F2521009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Key Bowl white",
         "pic": "https://flos.com/wp-content/uploads/2018/11/gaku-keybowl-table-nendo-flos-F2524009-accessory-spech-tech-500x500..jpg",
         "light_schema": []
@@ -7925,6 +8079,7 @@
         "component": 1,
         "component_of": "F2521009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Key Bowl black",
         "pic": "https://flos.com/wp-content/uploads/2018/11/gaku-keybowl-table-nendo-flos-F2524030-accessory-spech-tech-500x500..jpg",
         "light_schema": []
@@ -7943,6 +8098,7 @@
         "component": 1,
         "component_of": "F2521009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bookend white",
         "pic": "https://flos.com/wp-content/uploads/2018/11/gaku-bookend-table-nendo-flos-F2525030-accessory-spech-tech-500x500.jpg",
         "light_schema": []
@@ -7961,6 +8117,7 @@
         "component": 1,
         "component_of": "F2521009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Bookend black",
         "pic": "https://flos.com/wp-content/uploads/2018/11/gaku-bookend-table-nendo-flos-F2525009-accessory-spech-tech-500x500.jpg",
         "light_schema": []
@@ -7979,6 +8136,7 @@
         "component": 1,
         "component_of": "F2521009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Mirror White",
         "pic": "https://flos.com/wp-content/uploads/2018/11/gaku-mirror-table-nendo-flos-F2526009-accessory-spech-tech-500x500.jpg",
         "light_schema": []
@@ -7997,6 +8155,7 @@
         "component": 1,
         "component_of": "F2521009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Mirror black",
         "pic": "https://flos.com/wp-content/uploads/2018/11/gaku-mirror-table-nendo-flos-F2526030-accessory-spech-tech-500x500.jpg",
         "light_schema": []
@@ -8017,6 +8176,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Gatto",
         "pic": "https://flos.com/wp-content/uploads/2017/10/gatto-table-a-pg-castiglioni-flos-F2601009-product-still-life-big-2.jpg",
         "light_schema": [
@@ -8069,6 +8229,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Gatto Piccolo",
         "pic": "https://flos.com/wp-content/uploads/2017/10/gatto-piccolo-table-a-pg-castiglioni-flos-F2701009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -8120,6 +8281,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Guns – Bedside Gun",
         "pic": "https://flos.com/wp-content/uploads/2017/10/guns-table-bedside-gun-starck-flos-F2953000-product-still-life-big-2.jpg",
         "light_schema": [
@@ -8175,6 +8337,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Guns – Bedside Gun",
         "pic": "https://flos.com/wp-content/uploads/2017/10/guns-table-bedside-gun-starck-flos-F2953057-product-still-life-big-1.jpg",
         "light_schema": [
@@ -8231,6 +8394,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Guns – Table Gun",
         "pic": "https://flos.com/wp-content/uploads/2017/10/guns-table-gun-starck-flos-F9254000-product-still-life-big-2.jpg",
         "light_schema": [
@@ -8287,6 +8451,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Guns – Table Gun",
         "pic": "https://flos.com/wp-content/uploads/2017/10/guns-table-gun-starck-flos-F9254057-product-still-life-big-2.jpg",
         "light_schema": [
@@ -8344,6 +8509,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Guns – Lounge Gun",
         "pic": "https://flos.com/wp-content/uploads/2017/10/lounge-gun-floor-starck-flos-F2955000-product-still-life-big.jpg",
         "light_schema": [
@@ -8400,6 +8566,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Guns – Lounge Gun",
         "pic": "https://flos.com/wp-content/uploads/2017/10/lounge-gun-floor-starck-flos-F2955057-product-still-life-big-2.jpg",
         "light_schema": [
@@ -8457,6 +8624,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Glo-Ball Suspension 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-suspension-1-morrison-flos-F3005061-product-still-life-big.jpg",
         "light_schema": [
@@ -8508,6 +8676,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Glo-Ball Suspension 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-suspension-2-morrison-flos-F3010061-product-still-life-big.jpg",
         "light_schema": [
@@ -8559,6 +8728,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Glo-Ball Suspension 2 Eco",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-suspension-2-eco-morrison-flos-F3011061-product-still-life-big.jpg",
         "light_schema": [
@@ -8611,6 +8781,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Glo-Ball Table 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-table-1-morrison-flos-F3020000-product-still-life-big.jpg",
         "light_schema": [
@@ -8663,6 +8834,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Glo-Ball Basic 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-basic-table-1-morrison-flos-F3021000-product-still-life-big-2.jpg",
         "light_schema": [
@@ -8715,6 +8887,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Glo-Ball Wall",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-wall-morrison-flos-F3022000-product-still-life-big.jpg",
         "light_schema": [
@@ -8765,6 +8938,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Glo-Ball Ceiling 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-1-morrison-flos-F3023000-product-still-life-big-1.jpg",
         "light_schema": [
@@ -8815,6 +8989,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Glo-Ball Table 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-table-2-morrison-flos-F3025000-product-still-life-big.jpg",
         "light_schema": [
@@ -8867,6 +9042,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Glo-Ball Basic 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-basic-table-2-morrison-flos-F3026000-product-still-life-big-2.jpg",
         "light_schema": [
@@ -8919,6 +9095,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Glo-Ball Ceiling 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-2-morrison-flos-F3028000-product-still-life-big-1.jpg",
         "light_schema": [
@@ -8969,6 +9146,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Glo-Ball Floor 3",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-floor-2-morrison-flos-F3030000-product-still-life-big.jpg",
         "light_schema": [
@@ -9021,6 +9199,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Glo-Ball Floor 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-floor-1-morrison-flos-F3031020-product-still-life-big-2.jpg",
         "light_schema": [
@@ -9073,6 +9252,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Glo-Ball Floor 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-floor-2-morrison-flos-F3032020-product-still-life-big.jpg",
         "light_schema": [
@@ -9123,6 +9303,7 @@
         "component": 1,
         "component_of": "F3150030",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Ipnos Top Plate",
         "pic": "https://flos.com/wp-content/uploads/2017/10/AL_Top_Plate.jpg",
         "light_schema": []
@@ -9143,6 +9324,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 1,
+        "max_discount": 14,
         "title": "Ipnos",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ipnos-floor-rossi-bianchi-flos-F3120030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -9202,6 +9384,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 1,
+        "max_discount": 14,
         "title": "Ipnos",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ipnos-floor-rossi-bianchi-flos-F3120046-product-still-life-big-1.jpg",
         "light_schema": [
@@ -9261,6 +9444,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 1,
+        "max_discount": 14,
         "title": "Ipnos",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ipnos-floor-rossi-bianchi-flos-F3120054-product-still-life-big-1.jpg",
         "light_schema": [
@@ -9319,6 +9503,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Table 1 High",
         "pic": "https://flos.com/wp-content/uploads/2018/08/ic-table-1high-anastassiades-flos-F3170030-product-still-life-big.jpg",
         "light_schema": [
@@ -9379,6 +9564,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Table 1 High",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ic-table-1high-anastassiades-flos-F3170057-product-still-life-big-2.jpg",
         "light_schema": [
@@ -9439,6 +9625,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Table 1 High",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ic-table-1high-anastassiades-flos-F3170059-product-still-life-big-2.jpg",
         "light_schema": [
@@ -9499,6 +9686,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Table 1 Low",
         "pic": "https://flos.com/wp-content/uploads/2018/08/ic-table-1low-anastassiades-flos-F3171030-product-still-life-big.jpg",
         "light_schema": [
@@ -9560,6 +9748,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Table 1 Low",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ic-table-1low-anastassiades-flos-F3171057-product-still-life-big.jpg",
         "light_schema": [
@@ -9621,6 +9810,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Table 1 Low",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ic-table-1low-anastassiades-flos-F3171059-product-still-life-big-2.jpg",
         "light_schema": [
@@ -9682,6 +9872,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Table 2",
         "pic": "https://flos.com/wp-content/uploads/2018/08/ic-table-2-anastassiades-flos-F3172030-product-still-life-big.jpg",
         "light_schema": [
@@ -9742,6 +9933,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Table 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ic-table-2-anastassiades-flos-F3172057-product-still-life-big-3.jpg",
         "light_schema": [
@@ -9802,6 +9994,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Table 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ic-table-2-anastassiades-flos-F3172059-product-still-life-big-2.jpg",
         "light_schema": [
@@ -9862,6 +10055,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Floor 1",
         "pic": "https://flos.com/wp-content/uploads/2018/08/IC-floor-1-anastassiades-flos-F3173030-product-still-life-big.jpg",
         "light_schema": [
@@ -9922,6 +10116,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Floor 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/IC-floor-1-anastassiades-flos-F3173057-product-still-life-big-2.jpg",
         "light_schema": [
@@ -9982,6 +10177,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Floor 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/IC-floor-1-anastassiades-flos-F3173059-product-still-life-big.jpg",
         "light_schema": [
@@ -10042,6 +10238,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Floor 2",
         "pic": "https://flos.com/wp-content/uploads/2018/08/IC-floor-2-anastassiades-flos-F3174030-product-still-life-big.jpg",
         "light_schema": [
@@ -10102,6 +10299,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Floor 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/IC-floor-2-anastassiades-flos-F3174057-product-still-life-big-2.jpg",
         "light_schema": [
@@ -10162,6 +10360,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Floor 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/IC-floor-2-anastassiades-flos-F3174059-product-still-life-big.jpg",
         "light_schema": [
@@ -10222,6 +10421,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Suspension 1",
         "pic": "https://flos.com/wp-content/uploads/2018/08/ic-suspension-1-anastassiades-flos-F3175030-product-still-life-big.jpg",
         "light_schema": [
@@ -10281,6 +10481,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Suspension 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ic-suspension-1-anastassiades-flos-F3175057-product-still-life-big-4.jpg",
         "light_schema": [
@@ -10340,6 +10541,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Suspension 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ic-suspension-1-anastassiades-flos-F3175059-product-still-life-big-3.jpg",
         "light_schema": [
@@ -10399,6 +10601,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Suspension 2",
         "pic": "https://flos.com/wp-content/uploads/2018/08/ic-suspension-2-anastassiades-flos-F3176030-product-still-life-big.jpg",
         "light_schema": [
@@ -10458,6 +10661,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Suspension 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ic-suspension-2-anastassiades-flos-F3176057-product-still-life-big-4.jpg",
         "light_schema": [
@@ -10517,6 +10721,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Suspension 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ic-suspension-2-anastassiades-flos-F3176059-product-still-life-big-3.jpg",
         "light_schema": [
@@ -10576,6 +10781,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Ceiling/Wall 1",
         "pic": "https://flos.com/wp-content/uploads/2018/08/IC-ceiling-wall-1-anastassiades-flos-F3178030-product-still-life-big.jpg",
         "light_schema": [
@@ -10635,6 +10841,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Ceiling/Wall 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/IC-ceiling-wall-1-anastassiades-flos-F3178057-product-still-life-big.jpg",
         "light_schema": [
@@ -10694,6 +10901,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Ceiling/Wall 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/IC-ceiling-wall-1-anastassiades-flos-F3178059-product-still-life-big-2.jpg",
         "light_schema": [
@@ -10753,6 +10961,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Ceiling/Wall 2",
         "pic": "https://flos.com/wp-content/uploads/2018/08/IC-ceiling-wall-2-anastassiades-flos-F3179030-product-still-life-big.jpg",
         "light_schema": [
@@ -10812,6 +11021,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Ceiling/Wall 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/IC-ceiling-wall-2-anastassiades-flos-F3179057-product-still-life-big.jpg",
         "light_schema": [
@@ -10871,6 +11081,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "IC Lights Ceiling/Wall 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/IC-ceiling-wall-2-anastassiades-flos-F3179059-product-still-life-big-2.jpg",
         "light_schema": [
@@ -10930,6 +11141,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Button",
         "pic": "https://flos.com/wp-content/uploads/2017/10/button-ceiling-wall-lissoni-flos-F3180009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -10980,6 +11192,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Button HL",
         "pic": "https://flos.com/wp-content/uploads/2017/10/button-ceiling-wall-lissoni-flos-F3190009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -11031,6 +11244,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Lampadina",
         "pic": "https://flos.com/wp-content/uploads/2017/10/lampadina-table-castiglioni-flos-F3300000-product-still-life-big-1.jpg",
         "light_schema": [
@@ -11087,6 +11301,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Lampadina",
         "pic": "https://flos.com/wp-content/uploads/2017/10/lampadina-table-castiglioni-flos-F3300075-product-still-life-big-1.jpg",
         "light_schema": [
@@ -11144,6 +11359,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin LED Morsetto",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-clamp-table-citterio-nguyen-flos-F3301009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -11208,6 +11424,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin LED Morsetto",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-clamp-table-citterio-nguyen-flos-F3301030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -11272,6 +11489,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin LED Morsetto",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-clamp-table-citterio-nguyen-flos-F3301033-product-still-life-big-1.jpg",
         "light_schema": [
@@ -11336,6 +11554,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin LED Attacco a parete",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-wall-table-citterio-nguyen-flos-F3302009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -11400,6 +11619,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin LED Attacco a parete",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-wall-table-citterio-nguyen-flos-F3302030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -11464,6 +11684,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin LED Attacco a parete",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-wall-table-citterio-nguyen-flos-F3302033-product-still-life-big-1.jpg",
         "light_schema": [
@@ -11528,6 +11749,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Led Floor",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvi-led-floor-citterio-flos-F3305009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -11588,6 +11810,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Led Floor",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvi-led-floor-citterio-flos-F3305030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -11647,6 +11870,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Led Floor",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvi-led-floor-citterio-flos-F3305033-product-still-life-big-1.jpg",
         "light_schema": [
@@ -11707,6 +11931,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin LED Supporto scrivania (Cavo a vista)",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-desk-supp-table-citterio-nguyen-flos-F3308009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -11771,6 +11996,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin LED Supporto scrivania (Cavo a vista)",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-desk-supp-table-citterio-nguyen-flos-F3308030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -11835,6 +12061,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin LED Supporto scrivania (Cavo a vista)",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-desk-supp-table-citterio-nguyen-flos-F3308033-product-still-life-big-1.jpg",
         "light_schema": [
@@ -11899,6 +12126,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin LED Supporto scrivania (Cavo a vista)",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-desk-supp-table-citterio-nguyen-flos-F3308057-product-still-life-big-1.jpg",
         "light_schema": [
@@ -11962,6 +12190,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin LED Supporto scrivania (Cavo nascosto)",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-desk-supp-table-citterio-nguyen-flos-F3309009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -12026,6 +12255,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin LED Supporto scrivania (Cavo nascosto)",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-desk-supp-table-citterio-nguyen-flos-F3309030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -12090,6 +12320,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin LED Supporto scrivania (Cavo nascosto)",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-desk-supp-table-citterio-nguyen-flos-F3309033-product-still-life-big-1.jpg",
         "light_schema": [
@@ -12154,6 +12385,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin LED Supporto scrivania (Cavo nascosto)",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-desk-supp-table-citterio-nguyen-flos-F3309057-product-still-life-big-1.jpg",
         "light_schema": [
@@ -12217,6 +12449,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Led Base",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-base-table-citterio-nguyen-flos-F3311009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -12280,6 +12513,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Led Base",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-base-table-citterio-nguyen-flos-F3311030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -12343,6 +12577,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Led Base",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-base-table-citterio-nguyen-flos-F3311033-product-still-life-big-1.jpg",
         "light_schema": [
@@ -12406,6 +12641,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Led Base",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-base-table-citterio-nguyen-flos-F3311057-product-still-life-big-1.jpg",
         "light_schema": [
@@ -12468,6 +12704,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin LED Morsetto",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-clamp-table-citterio-nguyen-flos-F3313057-product-still-life-big-1.jpg",
         "light_schema": [
@@ -12531,6 +12768,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin LED Attacco a parete",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-led-wall-table-citterio-nguyen-flos-F3314057-product-still-life-big-1.jpg",
         "light_schema": [
@@ -12594,6 +12832,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Glo-Ball Basic Zero Dimmer",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-basic-table-zero-morrison-flos-F3330009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -12646,6 +12885,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Glo-Ball Basic Zero Switch",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-basic-table-zero-switch-morrison-flos-F3331009-product-still-life-big.jpg",
         "light_schema": [
@@ -12696,6 +12936,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Glo-Ball Ceiling/Wall Zero",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-0-morrison-flos-F3335009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -12745,6 +12986,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Lightspring Single",
         "pic": "https://flos.com/wp-content/uploads/2017/10/light-spring-single-wall-gilad-flos-F3343009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -12794,6 +13036,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Lightspring Double",
         "pic": "https://flos.com/wp-content/uploads/2017/10/light-spring-double-wall-gilad-flos-F3344009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -12843,6 +13086,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Goldman",
         "pic": "https://flos.com/wp-content/uploads/2017/10/goldman-table-gilad-flos-F3440030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -12900,6 +13144,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Goldman",
         "pic": "https://flos.com/wp-content/uploads/2017/10/goldman-table-gilad-flos-F3440044-product-still-life-big-1.jpg",
         "light_schema": [
@@ -12956,6 +13201,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Base",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-base-citterio-flos-F3452009-product-still-life-big-2.jpg",
         "light_schema": [
@@ -13020,6 +13266,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Base",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-base-citterio-flos-F3452030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -13084,6 +13331,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Base",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-base-citterio-flos-F3452033-product-still-life-big.jpg",
         "light_schema": [
@@ -13147,6 +13395,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Base",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-base-citterio-flos-F3452057-product-still-life-big-2.jpg",
         "light_schema": [
@@ -13211,6 +13460,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Attacco a parete",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-wall-citterio-flos-F3454009-product-still-life-big-2.jpg",
         "light_schema": [
@@ -13274,6 +13524,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Attacco a parete",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-wall-citterio-flos-F3454030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -13337,6 +13588,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Attacco a parete",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-wall-citterio-flos-F3454033-product-still-life-big-1.jpg",
         "light_schema": [
@@ -13399,6 +13651,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Attacco a parete",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-wall-citterio-flos-F3454057-product-still-life-big-2.jpg",
         "light_schema": [
@@ -13462,6 +13715,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Supporto scrivania (Cavo nascosto)",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-desk-supp-citterio-flos-F3456009-product-still-life-big-2.jpg",
         "light_schema": [
@@ -13526,6 +13780,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Supporto scrivania (Cavo nascosto)",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-desk-supp-citterio-flos-F3456030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -13590,6 +13845,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Supporto scrivania (Cavo nascosto)",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-desk-supp-citterio-flos-F3456033-product-still-life-big.jpg",
         "light_schema": [
@@ -13653,6 +13909,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Supporto scrivania (Cavo nascosto)",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-desk-supp-citterio-flos-F3456057-product-still-life-big-2.jpg",
         "light_schema": [
@@ -13717,6 +13974,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Supporto scrivania (Cavo a vista)",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-desk-supp-citterio-flos-F3458009-product-still-life-big-2.jpg",
         "light_schema": [
@@ -13780,6 +14038,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Supporto scrivania (Cavo a vista)",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-desk-supp-citterio-flos-F3458030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -13843,6 +14102,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Supporto scrivania (Cavo a vista)",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-desk-supp-citterio-flos-F3458033-product-still-life-big.jpg",
         "light_schema": [
@@ -13905,6 +14165,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Supporto scrivania (Cavo a vista)",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-desk-supp-citterio-flos-F3458057-product-still-life-big-2.jpg",
         "light_schema": [
@@ -13968,6 +14229,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Morsetto",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-clamp-citterio-flos-F3460009-product-still-life-big-2.jpg",
         "light_schema": [
@@ -14032,6 +14294,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Morsetto",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-clamp-citterio-flos-F3460030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -14096,6 +14359,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Morsetto",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-clamp-citterio-flos-F3460033-product-still-life-big.jpg",
         "light_schema": [
@@ -14159,6 +14423,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Kelvin Edge Morsetto",
         "pic": "https://flos.com/wp-content/uploads/2017/10/kelvin-edge-table-clamp-citterio-flos-F3460057-product-still-life-big-2.jpg",
         "light_schema": [
@@ -14223,6 +14488,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Luminator",
         "pic": "https://flos.com/wp-content/uploads/2017/10/luminator-floor-castiglioni-flos-F3770033_product-still-life-big.jpg",
         "light_schema": [
@@ -14274,6 +14540,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "May day",
         "pic": "https://flos.com/wp-content/uploads/2017/10/may-day-table-grcic-flos-F3780002-product-still-life-big-1.jpg",
         "light_schema": [
@@ -14329,6 +14596,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "May day",
         "pic": "https://flos.com/wp-content/uploads/2017/10/may-day-table-grcic-flos-F3780030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -14385,6 +14653,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Moni 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/moni-1-wall-castiglioni-flos-F3801009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -14435,6 +14704,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Moni 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/moni-2-wall-castiglioni-flos-F3901009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -14485,6 +14755,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Mini Kelvin LED",
         "pic": "https://flos.com/wp-content/uploads/2017/10/minikelvin-led-table-citterio-flos-F4180057-product-still-life-big-1.jpg",
         "light_schema": [
@@ -14534,6 +14805,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Mini Glo-Ball Ceiling/Wall Mirror",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-mini-mirror-morrison-flos-F4194009-product-still-life-big.jpg",
         "light_schema": [
@@ -14584,6 +14856,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Mini Glo-Ball Table",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-table-mini-morrison-flos-F4191009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -14636,6 +14909,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Mini Glo-Ball Ceiling/Wall",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-ceiling-wall-mini-morrison-flos-F4190009-product-still-life-big.jpg",
         "light_schema": [
@@ -14688,6 +14962,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Mini Glo-Ball Suspension",
         "pic": "https://flos.com/wp-content/uploads/2017/10/glo-ball-suspension-mini-morrison-flos-F4195009-product-still-life-big.jpg",
         "light_schema": [
@@ -14739,6 +15014,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Nebula",
         "pic": "https://flos.com/wp-content/uploads/2017/10/nebula-suspension-laarman-flos-F4550009-product-still-life-big-3.jpg",
         "light_schema": [
@@ -14790,6 +15066,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Overlap Suspension 1",
         "pic": "https://flos.com/wp-content/uploads/2018/05/Overlap-S1-anastassiades-flos-F4633009-product-still-life-big.jpg",
         "light_schema": [
@@ -14843,6 +15120,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Overlap Suspension 2",
         "pic": "https://flos.com/wp-content/uploads/2018/05/Overlap-S2-anastassiades-flos-F4634009-product-still-life-big.jpg",
         "light_schema": [
@@ -14896,6 +15174,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "OK",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ok-suspension-grcic-flos-F4640009-product-still-life-big-2.jpg",
         "light_schema": [
@@ -14960,6 +15239,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "OK",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ok-suspension-grcic-flos-F4640019-product-still-life-big.jpg",
         "light_schema": [
@@ -15023,6 +15303,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "OK",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ok-suspension-grcic-flos-F4640030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -15087,6 +15368,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "OK",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ok-suspension-grcic-flos-F4640057-product-still-life-big-2.jpg",
         "light_schema": [
@@ -15151,6 +15433,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Ontherocks HL",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ontherocks-wall-citterio-flos-F4651000-product-still-life-big-1.jpg",
         "light_schema": [
@@ -15199,6 +15482,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Parentesi",
         "pic": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5400009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -15264,6 +15548,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Parentesi",
         "pic": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5400030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -15328,6 +15613,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Parentesi",
         "pic": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5400035-product-still-life-big-1.jpg",
         "light_schema": [
@@ -15393,6 +15679,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Parentesi",
         "pic": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5400058-product-still-life-big-1.jpg",
         "light_schema": [
@@ -15457,6 +15744,7 @@
         "component": 1,
         "component_of": "F5400009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Parentesi elemento complemento - Bianco",
         "pic": "https://flos.com/wp-content/uploads/2017/11/parentesi-suspension-castiglioni-manzu-flos-F5500009-accessory-spech-tech-01-500x500.jpg",
         "light_schema": []
@@ -15476,6 +15764,7 @@
         "component": 1,
         "component_of": "F5400009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Parentesi elemento complemento - Nero",
         "pic": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5500030-accessory-spech-tech-03-500x500.jpg",
         "light_schema": []
@@ -15495,6 +15784,7 @@
         "component": 1,
         "component_of": "F5400009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Parentesi elemento complemento - Rosso",
         "pic": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5500035-accessory-spech-tech-04-500x500.jpg",
         "light_schema": []
@@ -15514,6 +15804,7 @@
         "component": 1,
         "component_of": "F5400009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Parentesi elemento complemento - Nichel",
         "pic": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5500058-accessory-spech-tech-02-500x500.jpg",
         "light_schema": []
@@ -15534,6 +15825,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Parentesi dimmer",
         "pic": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5600009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -15599,6 +15891,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Parentesi dimmer",
         "pic": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5600030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -15664,6 +15957,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Parentesi dimmer",
         "pic": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5600035-product-still-life-big-1.jpg",
         "light_schema": [
@@ -15729,6 +16023,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Parentesi dimmer",
         "pic": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5600058-product-still-life-big-1.jpg",
         "light_schema": [
@@ -15793,6 +16088,7 @@
         "component": 1,
         "component_of": "F5600009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Parentesi dimmer elemento complemento - Bianco",
         "pic": "https://flos.com/wp-content/uploads/2017/11/parentesi-suspension-castiglioni-manzu-flos-F5700009-accessory-spech-tech-01-500x500.jpg",
         "light_schema": []
@@ -15812,6 +16108,7 @@
         "component": 1,
         "component_of": "F5600009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Parentesi dimmer elemento complemento - Nero",
         "pic": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5700030-accessory-spech-tech-03-500x500.jpg",
         "light_schema": []
@@ -15831,6 +16128,7 @@
         "component": 1,
         "component_of": "F5600009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Parentesi dimmer elemento complemento - Rosso",
         "pic": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5700035-accessory-spech-tech-04-500x500.jpg",
         "light_schema": []
@@ -15850,6 +16148,7 @@
         "component": 1,
         "component_of": "F5600009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Parentesi dimmer elemento complemento - Nichel",
         "pic": "https://flos.com/wp-content/uploads/2017/10/parentesi-suspension-castiglioni-manzu-flos-F5700058-accessory-spech-tech-02-500x500.jpg",
         "light_schema": []
@@ -15870,6 +16169,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Piani",
         "pic": "https://flos.com/wp-content/uploads/2017/10/piani-table-bouroullec-flos-F5830009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -15933,6 +16233,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Piani",
         "pic": "https://flos.com/wp-content/uploads/2017/10/piani-table-bouroullec-flos-F5830030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -15996,6 +16297,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Piani",
         "pic": "https://flos.com/wp-content/uploads/2017/10/piani-table-bouroullec-flos-F5830035-product-still-life-big-1.jpg",
         "light_schema": [
@@ -16059,6 +16361,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Piani",
         "pic": "https://flos.com/wp-content/uploads/2017/10/piani-table-bouroullec-flos-F5830039-product-still-life-big-1.jpg",
         "light_schema": [
@@ -16122,6 +16425,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Piani Big",
         "pic": "https://flos.com/wp-content/uploads/2017/10/piani-big-table-bouroullec-flos-F5835068-product-still-life-big-1.jpg",
         "light_schema": [
@@ -16176,6 +16480,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Piani Big",
         "pic": "https://flos.com/wp-content/uploads/2017/10/piani-big-table-bouroullec-flos-F5835087-product-still-life-big-1.jpg",
         "light_schema": [
@@ -16231,6 +16536,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Ray Table",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ray-table-dordoni-flos-F5911020-product-still-life-big-2.jpg",
         "light_schema": [
@@ -16292,6 +16598,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Ray Table",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ray-table-dordoni-flos-F5911009-product-still-life-big.jpg",
         "light_schema": [
@@ -16352,6 +16659,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Ray Table",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ray-table-dordoni-flos-F5911030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -16413,6 +16721,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Ray Floor 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ray-floor-1-dordoni-flos-F5915020-product-still-life-big-2.jpg",
         "light_schema": [
@@ -16474,6 +16783,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Ray Floor 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ray-floor-1-dordoni-flos-F5916009-product-still-life-big-2.jpg",
         "light_schema": [
@@ -16535,6 +16845,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Ray Floor 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ray-floor-1-dordoni-flos-F5916030-product-still-life-big.jpg",
         "light_schema": [
@@ -16596,6 +16907,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Ray Floor 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ray-floor-2-dordoni-flos-F5921020-product-still-life-big-1.jpg",
         "light_schema": [
@@ -16656,6 +16968,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Ray Floor 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ray-floor-2-dordoni-flos-F5921009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -16717,6 +17030,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Ray Floor 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ray-floor-2-dordoni-flos-F5921030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -16778,6 +17092,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Ray Suspension",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ray-suspension-dordoni-flos-F5930020-product-still-life-big-2.jpg",
         "light_schema": [
@@ -16836,6 +17151,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Ray Suspension",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ray-suspension-dordoni-flos-F5931009-product-still-life-big-3.jpg",
         "light_schema": [
@@ -16895,6 +17211,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Ray Suspension",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ray-suspension-dordoni-flos-F5931030-product-still-life-big-3.jpg",
         "light_schema": [
@@ -16954,6 +17271,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Romeo Moon Suspension 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/romeo-moon-suspension-1-starck-flos-F6105000-product-still-life-big.jpg",
         "light_schema": [
@@ -17005,6 +17323,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Romeo Soft Suspension 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/romeo-soft-suspension-1-starck-flos-F6105007-product-still-life-big-1.jpg",
         "light_schema": [
@@ -17056,6 +17375,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Romeo Moon Table 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/romeo-moon-table-starck-flos-F6107000-product-still-life-big.jpg",
         "light_schema": [
@@ -17108,6 +17428,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Romeo Soft Table",
         "pic": "https://flos.com/wp-content/uploads/2017/10/romeo-soft-table-starck-flos-F6107007-product-still-life-big.jpg",
         "light_schema": [
@@ -17159,6 +17480,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Romeo Moon Floor",
         "pic": "https://flos.com/wp-content/uploads/2017/10/romeo-moon-floor-starck-flos-F6109000-product-still-life-big-2.jpg",
         "light_schema": [
@@ -17211,6 +17533,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Romeo Soft Floor",
         "pic": "https://flos.com/wp-content/uploads/2017/10/romeo-soft-floor-starck-flos-F6109007-product-still-life-big-5.jpg",
         "light_schema": [
@@ -17263,6 +17586,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Romeo Soft Suspension 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/romeo-soft-suspension-2-starck-flos-F6110007-product-still-life-big.jpg",
         "light_schema": [
@@ -17314,6 +17638,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Romeo Babe Suspension",
         "pic": "https://flos.com/wp-content/uploads/2017/10/romeo-babe-suspension-starck-flos-F6124000-product-still-life-big.jpg",
         "light_schema": [
@@ -17365,6 +17690,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Romeo Babe Soft Suspension",
         "pic": "https://flos.com/wp-content/uploads/2017/10/romeo-babe-soft-suspension-starck-flos-F6124007-product-still-life-big.jpg",
         "light_schema": [
@@ -17415,6 +17741,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Rosy Angelis",
         "pic": "https://flos.com/wp-content/uploads/2017/10/rosi-angelis-floor-starck-flos-F6160020-product-still-life-big-2.jpg",
         "light_schema": [
@@ -17467,6 +17794,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Miss Sissi",
         "pic": "https://flos.com/wp-content/uploads/2017/10/miss-sissi-table-starck-flos-F6250009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -17523,6 +17851,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Miss Sissi",
         "pic": "https://flos.com/wp-content/uploads/2017/10/miss-sissi-table-starck-flos-F6250042-product-still-life-big-1.jpg",
         "light_schema": [
@@ -17580,6 +17909,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Miss K",
         "pic": "https://flos.com/wp-content/uploads/2017/10/miss-k-table-starck-flos-F6255000-product-still-life-big.jpg",
         "light_schema": [
@@ -17643,6 +17973,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Miss K",
         "pic": "https://flos.com/wp-content/uploads/2017/10/miss-k-table-starck-flos-F6255007-product-still-life-big-2.jpg",
         "light_schema": [
@@ -17707,6 +18038,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Miss K",
         "pic": "https://flos.com/wp-content/uploads/2017/10/miss-k-table-starck-flos-F6255030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -17771,6 +18103,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Miss K",
         "pic": "https://flos.com/wp-content/uploads/2017/10/miss-k-table-starck-flos-F6255035-product-still-life-big-2.jpg",
         "light_schema": [
@@ -17835,6 +18168,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Suspension 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-suspension-1-starck-flos-F6256000-product-still-life-big.jpg",
         "light_schema": [
@@ -17890,6 +18224,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Suspension 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-suspension-1-starck-flos-F6256030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -17946,6 +18281,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Suspension 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-suspension-2-starck-flos-F6257000-product-still-life-big.jpg",
         "light_schema": [
@@ -18009,6 +18345,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Suspension 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-suspension-2-starck-flos-F6257000A-product-still-life-big-2.jpg",
         "light_schema": [
@@ -18073,6 +18410,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Suspension 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-suspension-2-starck-flos-F6257030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -18137,6 +18475,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Suspension 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-suspension-2-starck-flos-F6257046-product-still-life-big-2.jpg",
         "light_schema": [
@@ -18201,6 +18540,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Suspension 3",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-suspension-3-starck-flos-F6258000-product-still-life-big-2.jpg",
         "light_schema": [
@@ -18265,6 +18605,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Suspension 3",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-suspension-3-starck-flos-F6258000A-product-still-life-big-2.jpg",
         "light_schema": [
@@ -18330,6 +18671,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Suspension 3",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-suspension-3-starck-flos-F6258030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -18395,6 +18737,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Suspension 3",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-suspension-3-starck-flos-F6258046-product-still-life-big-2.jpg",
         "light_schema": [
@@ -18460,6 +18803,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Romeo Babe Wall",
         "pic": "https://flos.com/wp-content/uploads/2017/10/romeo-babe-wall-starck-flos-F6260000A-product-still-life-big-1.jpg",
         "light_schema": [
@@ -18509,6 +18853,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Romeo Babe Soft Wall",
         "pic": "https://flos.com/wp-content/uploads/2017/10/romeo-babe-soft-wall-starck-flos-F6260007A-product-still-life-big-1.jpg",
         "light_schema": [
@@ -18559,6 +18904,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Table 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-table-1-starck-flos-F6263000-product-still-life-big-1.jpg",
         "light_schema": [
@@ -18615,6 +18961,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Table 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-table-1-starck-flos-F6263030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -18672,6 +19019,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Floor 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-floor-1-starck-flos-F6265000-product-still-life-big-2.jpg",
         "light_schema": [
@@ -18740,6 +19088,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Floor 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-floor-1-starck-flos-F6265004-product-still-life-big-2.jpg",
         "light_schema": [
@@ -18808,6 +19157,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Floor 1",
         "pic": "https://flos.com/wp-content/uploads/2017/11/ktribe-floor-1-starck-flos-F6265007-product-still-life-big-1.jpg",
         "light_schema": [
@@ -18876,6 +19226,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Floor 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-floor-1-starck-flos-F6265030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -18944,6 +19295,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Floor 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-floor-1-starck-flos-F6265046-product-still-life-big.jpg",
         "light_schema": [
@@ -19011,6 +19363,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Table 1 Glass",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-table-1-glass-starck-flos-F6281000-product-still-life-big-1.jpg",
         "light_schema": [
@@ -19063,6 +19416,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Floor 3",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-floor-3-starck-flos-F6301000-product-still-life-big-3.jpg",
         "light_schema": [
@@ -19130,6 +19484,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Floor 3",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-floor-3-starck-flos-F6301004-product-still-life-big.jpg",
         "light_schema": [
@@ -19196,6 +19551,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Floor 3",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-floor-3-starck-flos-F6301030-product-still-life-big-3.jpg",
         "light_schema": [
@@ -19263,6 +19619,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Floor 3",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-floor-3-starck-flos-F6301046-product-still-life-big-3.jpg",
         "light_schema": [
@@ -19330,6 +19687,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Table 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-table-2-starck-flos-F6303000-product-still-life-big-1.jpg",
         "light_schema": [
@@ -19398,6 +19756,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Table 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-table-2-starck-flos-F6303004-product-still-life-big-1.jpg",
         "light_schema": [
@@ -19466,6 +19825,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Table 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-table-2-starck-flos-F6303030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -19534,6 +19894,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Table 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-table-2-starck-flos-F6303046-product-still-life-big-1.jpg",
         "light_schema": [
@@ -19601,6 +19962,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Floor 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-floor-2-starck-flos-F6305000-product-still-life-big-2.jpg",
         "light_schema": [
@@ -19669,6 +20031,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Floor 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-floor-2-starck-flos-F6305004-product-still-life-big-2.jpg",
         "light_schema": [
@@ -19737,6 +20100,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Floor 2",
         "pic": "https://flos.com/wp-content/uploads/2017/11/ktribe-floor-2-starck-flos-F6305007-product-still-life-big-1.jpg",
         "light_schema": [
@@ -19805,6 +20169,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Floor 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-floor-2-starck-flos-F6305030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -19873,6 +20238,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Floor 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-floor-2-starck-flos-F6305046-product-still-life-big.jpg",
         "light_schema": [
@@ -19940,6 +20306,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Wall",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-wall-starck-flos-F6307000-product-still-life-big.jpg",
         "light_schema": [
@@ -20007,6 +20374,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Wall",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-wall-starck-flos-F6307004-product-still-life-big-1.jpg",
         "light_schema": [
@@ -20075,6 +20443,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Wall",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-wall-starck-flos-F6307007-product-still-life-big-1.jpg",
         "light_schema": [
@@ -20143,6 +20512,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Wall",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-wall-starck-flos-F6307030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -20211,6 +20581,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "KTribe Wall",
         "pic": "https://flos.com/wp-content/uploads/2017/10/ktribe-wall-starck-flos-F6307046-product-still-life-big-1.jpg",
         "light_schema": [
@@ -20279,6 +20650,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Stylos",
         "pic": "https://flos.com/wp-content/uploads/2017/10/stylos-floor-castiglioni-flos-F6310004-product-still-life-big.jpg",
         "light_schema": [
@@ -20330,6 +20702,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "SuperArchimoon",
         "pic": "https://flos.com/wp-content/uploads/2017/10/superarchimoon-floor-starck-flos-F6366020-product-still-life-big-4.jpg",
         "light_schema": [
@@ -20382,6 +20755,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Snoopy",
         "pic": "https://flos.com/wp-content/uploads/2017/10/snoopy-table-a-pg-castiglioni-flos-F6380030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -20438,6 +20812,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Snoopy",
         "pic": "https://flos.com/wp-content/uploads/2018/08/snoopy-table-a-pg-castiglioni-flos-F6380039-product-still-life-big.jpg",
         "light_schema": [
@@ -20494,6 +20869,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Skygarden 1 Eco",
         "pic": "https://flos.com/wp-content/uploads/2017/10/skygarden-suspension-1-eco-wanders-flos-F6411009-product-still-life-big-2.jpg",
         "light_schema": [
@@ -20558,6 +20934,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Skygarden 1 Eco",
         "pic": "https://flos.com/wp-content/uploads/2017/10/skygarden-suspension-1-eco-wanders-flos-F6411030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -20622,6 +20999,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Skygarden 1 Eco",
         "pic": "https://flos.com/wp-content/uploads/2017/10/skygarden-suspension-1-eco-wanders-flos-F6411044-product-still-life-big.jpg",
         "light_schema": [
@@ -20685,6 +21063,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Skygarden 1 Eco",
         "pic": "https://flos.com/wp-content/uploads/2017/10/skygarden-suspension-1-eco-wanders-flos-F6411047-product-still-life-big-2.jpg",
         "light_schema": [
@@ -20749,6 +21128,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Skygarden 2 Eco",
         "pic": "https://flos.com/wp-content/uploads/2017/10/skygarden-suspension-2-eco-wanders-flos-F6421009-product-still-life-big-2.jpg",
         "light_schema": [
@@ -20813,6 +21193,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Skygarden 2 Eco",
         "pic": "https://flos.com/wp-content/uploads/2017/10/skygarden-suspension-2-eco-wanders-flos-F6421030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -20877,6 +21258,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Skygarden 2 Eco",
         "pic": "https://flos.com/wp-content/uploads/2017/10/skygarden-suspension-2-eco-wanders-flos-F6421044-product-still-life-big.jpg",
         "light_schema": [
@@ -20940,6 +21322,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Skygarden 2 Eco",
         "pic": "https://flos.com/wp-content/uploads/2017/10/skygarden-suspension-2-eco-wanders-flos-F6421047-product-still-life-big-2.jpg",
         "light_schema": [
@@ -21004,6 +21387,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Skygarden Recessed GY6.35",
         "pic": "https://flos.com/wp-content/uploads/2017/10/skygarden-recessed-ceiling-wanders-flos-F6430009-product-still-life-big-3.jpg",
         "light_schema": [
@@ -21053,6 +21437,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Skygarden Recessed G9",
         "pic": "https://flos.com/wp-content/uploads/2017/10/skygarden-recessed-ceiling-wanders-flos-F6433009-product-still-life-big-3.jpg",
         "light_schema": [
@@ -21102,6 +21487,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "String Light – Testa a sfera – cavo 12mt",
         "pic": "https://flos.com/wp-content/uploads/2017/10/string-light-suspension-sphere-anastassiades-flos-F6480030-product-still-life-big.jpg",
         "light_schema": [
@@ -21152,6 +21538,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "String Light – Testa a cono – cavo 12mt",
         "pic": "https://flos.com/wp-content/uploads/2017/10/string-light-suspension-cone-anastassiades-flos-F6481030-product-still-life-big.jpg",
         "light_schema": [
@@ -21200,6 +21587,7 @@
         "component": 1,
         "component_of": "F6481030",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "accessorio 0 di String Light – Testa a cono – cavo 12mt",
         "pic": "https://flos.com/wp-content/uploads/2017/10/string-light-cone-suspension-anastassiades-flos-F6485030-accessory-spech-tech-03-500x500.jpg",
         "light_schema": []
@@ -21218,6 +21606,7 @@
         "component": 1,
         "component_of": "F6481030",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "accessorio 2 di String Light – Testa a cono – cavo 12mt",
         "pic": "https://flos.com/wp-content/uploads/2017/10/string-light-cone-suspension-anastassiades-flos-F6484030-accessory-spech-tech-02-500x500.jpg",
         "light_schema": []
@@ -21236,6 +21625,7 @@
         "component": 1,
         "component_of": "F6481030",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "accessorio 1 di String Light – Testa a cono – cavo 12mt",
         "pic": "https://flos.com/wp-content/uploads/2017/10/string-light-cone-suspension-anastassiades-flos-F6482030-accessory-spech-tech-01-500x500.jpg",
         "light_schema": []
@@ -21256,6 +21646,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "String Light – Testa a sfera – cavo 22mt",
         "pic": "https://flos.com/wp-content/uploads/2017/10/string-light-suspension-sphere-anastassiades-flos-F6490030-product-still-life-big.jpg",
         "light_schema": [
@@ -21306,6 +21697,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "String Light – Testa a cono – cavo 22mt",
         "pic": "https://flos.com/wp-content/uploads/2017/10/string-light-suspension-cone-anastassiades-flos-F6491030-product-still-life-big.jpg",
         "light_schema": [
@@ -21356,6 +21748,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Splügen Bräu",
         "pic": "https://flos.com/wp-content/uploads/2017/10/splugen-brau-suspension-a-pg-castiglioni-flos-F6500000-product-still-life-big.jpg",
         "light_schema": [
@@ -21407,6 +21800,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Shade",
         "pic": "https://flos.com/wp-content/uploads/2017/10/shade-floor-cocksedge-flos-F6530009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -21457,6 +21851,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Tab Table",
         "pic": "https://flos.com/wp-content/uploads/2017/10/tab-table-barber-osgerby-flos-F6560009-product-still-life-big-2.jpg",
         "light_schema": [
@@ -21512,6 +21907,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Tab Table",
         "pic": "https://flos.com/wp-content/uploads/2017/10/tab-table-barber-osgerby-flos-F6560030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -21568,6 +21964,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Tab Floor",
         "pic": "https://flos.com/wp-content/uploads/2017/10/tab-floor-barber-osgerby-flos-F6561009-product-still-life-big.jpg",
         "light_schema": [
@@ -21623,6 +22020,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Tab Floor",
         "pic": "https://flos.com/wp-content/uploads/2017/10/tab-floor-barber-osgerby-flos-F6561030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -21679,6 +22077,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Serena",
         "pic": "https://flos.com/wp-content/uploads/2017/10/serena-table-urquiola-flos-F6582015-product-still-life-big-1.jpg",
         "light_schema": [
@@ -21738,6 +22137,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Serena",
         "pic": "https://flos.com/wp-content/uploads/2017/10/serena-table-urquiola-flos-F6582030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -21797,6 +22197,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Serena",
         "pic": "https://flos.com/wp-content/uploads/2017/10/serena-table-urquiola-flos-F6582054-product-still-life-big-1.jpg",
         "light_schema": [
@@ -21855,6 +22256,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Taccia Small",
         "pic": "https://flos.com/wp-content/uploads/2017/10/taccia-small-table-a-pg-castiglioni-flos-F6604004-product-still-life-big-2.jpg",
         "light_schema": [
@@ -21918,6 +22320,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Taccia Small",
         "pic": "https://flos.com/wp-content/uploads/2017/10/taccia-small-table-a-pg-castiglioni-flos-F6604030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -21981,6 +22384,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Taccia Small",
         "pic": "https://flos.com/wp-content/uploads/2017/10/taccia-small-table-a-pg-castiglioni-flos-F6604042-product-still-life-big-2.jpg",
         "light_schema": [
@@ -22044,6 +22448,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Taccia Small",
         "pic": "https://flos.com/wp-content/uploads/2017/10/taccia-small-table-a-pg-castiglioni-flos-F6604046-product-still-life-big-2.jpg",
         "light_schema": [
@@ -22107,6 +22512,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Taccia (PMMA)",
         "pic": "https://flos.com/wp-content/uploads/2017/10/taccia-pmma-table-a-pg-castiglioni-flos-F6607004-product-still-life-big-2.jpg",
         "light_schema": [
@@ -22166,6 +22572,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Taccia (PMMA)",
         "pic": "https://flos.com/wp-content/uploads/2017/10/taccia-pmma-table-a-pg-castiglioni-flos-F6607030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -22225,6 +22632,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Taccia (PMMA)",
         "pic": "https://flos.com/wp-content/uploads/2017/10/taccia-pmma-table-a-pg-castiglioni-flos-F6607046-product-still-life-big-2.jpg",
         "light_schema": [
@@ -22284,6 +22692,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Spun Light Table 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/spun-light-table-1-wrong-flos-F6610009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -22345,6 +22754,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Spun Light Table 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/spun-light-table-1-wrong-flos-F6610021-product-still-life-big-1.jpg",
         "light_schema": [
@@ -22406,6 +22816,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Spun Light Table 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/spun-light-table-1-wrong-flos-F6610030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -22467,6 +22878,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Spun Light Table 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/spun-light-table-2-wrong-flos-F6611009-product-still-life-big-3.jpg",
         "light_schema": [
@@ -22528,6 +22940,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Spun Light Table 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/spun-light-table-2-wrong-flos-F6611021-product-still-life-big-3.jpg",
         "light_schema": [
@@ -22589,6 +23002,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Spun Light Table 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/spun-light-table-2-wrong-flos-F6611030-product-still-life-big-3.jpg",
         "light_schema": [
@@ -22650,6 +23064,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Spun Light Floor",
         "pic": "https://flos.com/wp-content/uploads/2017/10/spun-light-floor-wrong-flos-F6612009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -22710,6 +23125,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Spun Light Floor",
         "pic": "https://flos.com/wp-content/uploads/2017/10/spun-light-floor-wrong-flos-F6612021-product-still-life-big-1.jpg",
         "light_schema": [
@@ -22770,6 +23186,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Spun Light Floor",
         "pic": "https://flos.com/wp-content/uploads/2017/10/spun-light-floor-wrong-flos-F6612030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -22830,6 +23247,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Superloon",
         "pic": "https://flos.com/wp-content/uploads/2017/10/superloon-floor-morrison-flos-F6630009-product-still-life-big-2.jpg",
         "light_schema": [
@@ -22889,6 +23307,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Superloon",
         "pic": "https://flos.com/wp-content/uploads/2017/10/superloon-floor-morrison-flos-F6630030-product-still-life-big.jpg",
         "light_schema": [
@@ -22947,6 +23366,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Superloon",
         "pic": "https://flos.com/wp-content/uploads/2017/10/superloon-floor-morrison-flos-F6630057-product-still-life-big-2.jpg",
         "light_schema": [
@@ -23006,6 +23426,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Sawaru",
         "pic": "https://flos.com/wp-content/uploads/2019/01/sawaru-floor-nendo-flos-F6640003-product-still-life-big-.jpg",
         "light_schema": [
@@ -23080,6 +23501,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Sawaru",
         "pic": "https://flos.com/wp-content/uploads/2019/01/sawaru-floor-nendo-flos-F6640009-product-still-life-big-.jpg",
         "light_schema": [
@@ -23154,6 +23576,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Sawaru",
         "pic": "https://flos.com/wp-content/uploads/2019/01/sawaru-floor-nendo-flos-F6640030-product-still-life-big-.jpg",
         "light_schema": [
@@ -23227,6 +23650,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Sawaru",
         "pic": "https://flos.com/wp-content/uploads/2019/01/sawaru-floor-nendo-flos-F6640044-product-still-life-big-.jpg",
         "light_schema": [
@@ -23301,6 +23725,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Taraxacum 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/taraxacum-suspension-1-a-pg-castiglioni-flos-F7401009-product-still-life-big.jpg",
         "light_schema": [
@@ -23351,6 +23776,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Taraxacum 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/taraxacum-suspension-2-a-pg-castiglioni-flos-F7402009-product-still-life-big.jpg",
         "light_schema": [
@@ -23401,6 +23827,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Taraxacum 88 Ceiling/Wall",
         "pic": "https://flos.com/wp-content/uploads/2017/10/taraxacum-88-ceiling-wall-castiglioni-flos-F7420000-product-still-life-big-1.jpg",
         "light_schema": [
@@ -23449,6 +23876,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Taraxacum 88 Suspension 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/taraxacum-88-suspension-1-castiglioni-flos-product-F7430000-still-life-big.jpg",
         "light_schema": [
@@ -23499,6 +23927,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Taraxacum 88 Suspension 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/taraxacum-88-suspension-2-castiglioni-flos-product-F7440000-still-life-big.jpg",
         "light_schema": [
@@ -23549,6 +23978,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Tilee",
         "pic": "https://flos.com/wp-content/uploads/2017/10/tilee-wall-ziliani-flos-F7460009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -23598,6 +24028,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Toio",
         "pic": "https://flos.com/wp-content/uploads/2017/10/toio-floor-castiglioni-flos-F7600009-product-still-life-big.jpg",
         "light_schema": [
@@ -23657,6 +24088,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Toio",
         "pic": "https://flos.com/wp-content/uploads/2017/10/toio-floor-castiglioni-flos-F7600030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -23717,6 +24149,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Toio",
         "pic": "https://flos.com/wp-content/uploads/2017/10/toio-floor-castiglioni-flos-F7600035-product-still-life-big-2.jpg",
         "light_schema": [
@@ -23777,6 +24210,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Toio Limited Edition Matt Black",
         "pic": "https://flos.com/wp-content/uploads/2018/10/toio-limited-edition-floor-castiglioni-flos-F610030-product-still-life-big.jpg",
         "light_schema": [
@@ -23833,6 +24267,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Tatou Table",
         "pic": "https://flos.com/wp-content/uploads/2017/10/tatou-table-urquiola-flos-F7761009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -23892,6 +24327,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Tatou Table",
         "pic": "https://flos.com/wp-content/uploads/2017/10/tatou-table-urquiola-flos-F7761030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -23952,6 +24388,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Tatou Table",
         "pic": "https://flos.com/wp-content/uploads/2017/10/tatou-table-urquiola-flos-F7761048-product-still-life-big-1.jpg",
         "light_schema": [
@@ -24012,6 +24449,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Tatou Suspension 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/tatou-suspension-1-urquiola-flos-F7762009-product-still-life-big-2.jpg",
         "light_schema": [
@@ -24071,6 +24509,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Tatou Suspension 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/tatou-suspension-1-urquiola-flos-F7762030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -24131,6 +24570,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Tatou Suspension 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/tatou-suspension-1-urquiola-flos-F7762048-product-still-life-big.jpg",
         "light_schema": [
@@ -24191,6 +24631,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Tatou Floor",
         "pic": "https://flos.com/wp-content/uploads/2017/10/tatou-floor-urquiola-flos-F7764009-product-still-life-big-3.jpg",
         "light_schema": [
@@ -24251,6 +24692,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Tatou Floor",
         "pic": "https://flos.com/wp-content/uploads/2017/10/tatou-floor-urquiola-flos-F77630-product-still-life-big-2.jpg",
         "light_schema": [
@@ -24311,6 +24753,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Tatou Floor",
         "pic": "https://flos.com/wp-content/uploads/2017/10/tatou-floor-urquiola-flos-F7764048-product-still-life-big-3.jpg",
         "light_schema": [
@@ -24370,6 +24813,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Tatou Suspension 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/tatou-suspension-2-urquiola-flos-F7766009-product-still-life-big-2.jpg",
         "light_schema": [
@@ -24429,6 +24873,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Tatou Suspension 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/tatou-suspension-2-urquiola-flos-F7766030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -24489,6 +24934,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Tatou Suspension 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/tatou-suspension-2-urquiola-flos-F7766048-product-still-life-big.jpg",
         "light_schema": [
@@ -24549,6 +24995,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Viscontea",
         "pic": "https://flos.com/wp-content/uploads/2017/10/viscontea-suspension-a-pg-castiglioni-flos-F8001009-product-still-life-big.jpg",
         "light_schema": [
@@ -24599,6 +25046,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wirering Bianco",
         "pic": "https://flos.com/wp-content/uploads/2018/06/wirering-ceiling-wall-formafantasma-flos-F9512009-product-still-life-big.jpg",
         "light_schema": [
@@ -24668,6 +25116,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wirering Bianco",
         "pic": "https://flos.com/wp-content/uploads/2018/06/wirering-ceiling-wall-formafantasma-flos-F9512030-product-still-life-big.jpg",
         "light_schema": [
@@ -24738,6 +25187,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wirering Bianco",
         "pic": "https://flos.com/wp-content/uploads/2018/06/wirering-ceiling-wall-formafantasma-flos-F9512034-product-still-life-big.jpg",
         "light_schema": [
@@ -24808,6 +25258,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wirering Bianco",
         "pic": "https://flos.com/wp-content/uploads/2018/06/wirering-ceiling-wall-formafantasma-flos-F9512044-product-still-life-big.jpg",
         "light_schema": [
@@ -24878,6 +25329,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wirering Grigio",
         "pic": "https://flos.com/wp-content/uploads/2018/06/wirering-ceiling-wall-formafantasma-flos-F9513009-product-still-life-big.jpg",
         "light_schema": [
@@ -24948,6 +25400,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wirering Grigio",
         "pic": "https://flos.com/wp-content/uploads/2018/06/wirering-ceiling-wall-formafantasma-flos-F9513020-product-still-life-big-1.jpg",
         "light_schema": [
@@ -25018,6 +25471,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wirering Grigio",
         "pic": "https://flos.com/wp-content/uploads/2018/06/wirering-ceiling-wall-formafantasma-flos-F9513030-product-still-life-big.jpg",
         "light_schema": [
@@ -25088,6 +25542,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wirering Grigio",
         "pic": "https://flos.com/wp-content/uploads/2018/06/wirering-ceiling-wall-formafantasma-flos-F9513034-product-still-life-big.jpg",
         "light_schema": [
@@ -25158,6 +25613,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wirering Grigio",
         "pic": "https://flos.com/wp-content/uploads/2018/06/wirering-ceiling-wall-formafantasma-flos-F9513044-product-still-life-big.jpg",
         "light_schema": [
@@ -25228,6 +25684,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wirering Rosa",
         "pic": "https://flos.com/wp-content/uploads/2018/06/wirering-ceiling-wall-formafantasma-flos-F9514009-product-still-life-big.jpg",
         "light_schema": [
@@ -25298,6 +25755,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wirering Rosa",
         "pic": "https://flos.com/wp-content/uploads/2018/06/wirering-ceiling-wall-formafantasma-flos-F9514020-product-still-life-big.jpg",
         "light_schema": [
@@ -25368,6 +25826,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wirering Rosa",
         "pic": "https://flos.com/wp-content/uploads/2018/06/wirering-ceiling-wall-formafantasma-flos-F9514030-product-still-life-big.jpg",
         "light_schema": [
@@ -25438,6 +25897,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wirering Rosa",
         "pic": "https://flos.com/wp-content/uploads/2018/06/wirering-ceiling-wall-formafantasma-flos-F9514034-product-still-life-big.jpg",
         "light_schema": [
@@ -25508,6 +25968,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wirering Rosa",
         "pic": "https://flos.com/wp-content/uploads/2018/06/wirering-ceiling-wall-formafantasma-flos-F9514044-product-still-life-big.jpg",
         "light_schema": [
@@ -25578,6 +26039,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wan Ceiling/Wall",
         "pic": "https://flos.com/wp-content/uploads/2017/10/wan-ceiling-wall-grawunder-flos-F9550009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -25640,6 +26102,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wan Ceiling/Wall",
         "pic": "https://flos.com/wp-content/uploads/2017/10/wan-ceiling-wall-grawunder-flos-F9550030-product-still-life-big-1.jpg",
         "light_schema": [
@@ -25702,6 +26165,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wan Ceiling/Wall",
         "pic": "https://flos.com/wp-content/uploads/2017/10/wan-ceiling-wall-grawunder-flos-F9550039-product-still-life-big-1.jpg",
         "light_schema": [
@@ -25763,6 +26227,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wan Ceiling/Wall",
         "pic": "https://flos.com/wp-content/uploads/2017/10/wan-ceiling-wall-grawunder-flos-F9550050-product-still-life-big-1.jpg",
         "light_schema": [
@@ -25825,6 +26290,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wan Suspension",
         "pic": "https://flos.com/wp-content/uploads/2017/10/wan-suspension-grawunder-flos-F9560009-product-still-life-big.jpg",
         "light_schema": [
@@ -25888,6 +26354,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wan Suspension",
         "pic": "https://flos.com/wp-content/uploads/2017/10/wan-suspension-grawunder-flos-F9560030-product-still-life-big-2.jpg",
         "light_schema": [
@@ -25952,6 +26419,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wan Suspension",
         "pic": "https://flos.com/wp-content/uploads/2017/10/wan-suspension-grawunder-flos-F9560039-product-still-life-big-2.jpg",
         "light_schema": [
@@ -26016,6 +26484,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Wan Suspension",
         "pic": "https://flos.com/wp-content/uploads/2017/10/wan-suspension-grawunder-flos-F9560050-product-still-life-big-2.jpg",
         "light_schema": [
@@ -26080,6 +26549,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Pochette",
         "pic": "https://flos.com/wp-content/uploads/2017/10/pochette-wall-dordoni-flos-F9700009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -26139,6 +26609,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Pochette",
         "pic": "https://flos.com/wp-content/uploads/2017/10/pochette-wall-dordoni-flos-F9700020-product-still-life-big-1.jpg",
         "light_schema": [
@@ -26197,6 +26668,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Pochette",
         "pic": "https://flos.com/wp-content/uploads/2017/10/pochette-wall-dordoni-flos-F9700057-product-still-life-big-1.jpg",
         "light_schema": [
@@ -26256,6 +26728,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Pochette Up/Down",
         "pic": "https://flos.com/wp-content/uploads/2017/10/pochette-up-down-wall-dordoni-flos-F9701009-product-still-life-big-1.jpg",
         "light_schema": [
@@ -26315,6 +26788,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Pochette Up/Down",
         "pic": "https://flos.com/wp-content/uploads/2017/10/pochette-up-down-wall-dordoni-flos-F9701020-product-still-life-big-1.jpg",
         "light_schema": [
@@ -26373,6 +26847,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Pochette Up/Down",
         "pic": "https://flos.com/wp-content/uploads/2017/10/pochette-up-down-wall-dordoni-flos-F9701057-product-still-life-big-1.jpg",
         "light_schema": [
@@ -26432,6 +26907,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Pochette Led",
         "pic": "https://flos.com/wp-content/uploads/2017/11/pochette-wall-led-dordoni-flos-F9704009-product-still-life-big.jpg",
         "light_schema": [
@@ -26491,6 +26967,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Pochette Led",
         "pic": "https://flos.com/wp-content/uploads/2017/11/pochette-wall-led-dordoni-flos-F9704020-product-still-life-big.jpg",
         "light_schema": [
@@ -26549,6 +27026,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Pochette Led",
         "pic": "https://flos.com/wp-content/uploads/2017/11/pochette-wall-led-dordoni-flos-F9704057-product-still-life-big.jpg",
         "light_schema": [
@@ -26608,6 +27086,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Pochette Up/Down Led",
         "pic": "https://flos.com/wp-content/uploads/2017/10/pochette-up-down-wall-led-dordoni-flos-F9705009-product-still-life-big.jpg",
         "light_schema": [
@@ -26666,6 +27145,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Pochette Up/Down Led",
         "pic": "https://flos.com/wp-content/uploads/2017/10/pochette-up-down-wall-led-dordoni-flos-F9705020-product-still-life-big.jpg",
         "light_schema": [
@@ -26723,6 +27203,7 @@
         "led": 1,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Pochette Up/Down Led",
         "pic": "https://flos.com/wp-content/uploads/2017/10/pochette-up-down-wall-led-dordoni-flos-F9705057-product-still-life-big.jpg",
         "light_schema": [
@@ -26781,6 +27262,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Zeppelin 1",
         "pic": "https://flos.com/wp-content/uploads/2017/10/zeppelin-suspension-1-wanders-flos-F9800009-product-still-life-big.jpg",
         "light_schema": [
@@ -26831,6 +27313,7 @@
         "led": 0,
         "component": 0,
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Zeppelin 2",
         "pic": "https://flos.com/wp-content/uploads/2017/10/zeppelin-suspension-2-wanders-flos-F9805009-product-still-life-big.jpg",
         "light_schema": [
@@ -26880,6 +27363,7 @@
         "component": 1,
         "component_of": "F0090009",
         "outdoor": 0,
+        "max_discount": 14,
         "title": "Dimmer parete",
         "pic": "https://flos.com/wp-content/uploads/2017/10/a_rf22227.jpg",
         "light_schema": []
