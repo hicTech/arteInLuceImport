@@ -2072,8 +2072,8 @@ var single_pages = [
         "desc": "La peculiarità di questa linea sta nella grande accuratezza e abilità che richiedono soffiatura e taglio di un vetro unico. L'elemento vitreo viene fissato alla struttura di laminato personalizzato in esclusiva da Abet Laminati, senza l'ausilio di alcuna parte metallica. La forma trae ispirazione dai caratteri maschile e femminile ed è disponibile in differenti combinazioni e opzioni d'illuminazione."
     },
 ]
-*/
 
+*/
 
 
 
@@ -2268,7 +2268,7 @@ function getMoreDate(bodyHTML, root_model, category){
     var $body = $(bodyHTML);
     var $tables = $body.find("#table1 tbody");
     var ret = [];
-    $tables.each(function(){
+    $tables.each(function(index){
         $(this).find("tbody").each(function(){
                 var $title = $(this).find("h3");
                 var model = $title.html().trim();
@@ -2284,10 +2284,16 @@ function getMoreDate(bodyHTML, root_model, category){
                     light_schema: encodeURI(light_schema),
                     light_system: light_system,
                     download : download,
+                    filename: "pdf/"+category+"_"+model, //"pdf/soffitto_ACCADEMIA PL 10F-0.pdf"
                     //html: $tbody.html()
                 });
             
         })
+    })
+
+    // aggiungo il path dei pdf scaricati da Andrew con la sua stessa regola di creazione del file name
+    _.each(ret,function(elem,index){
+        elem.filename = elem.filename+"-"+index+".pdf";
     })
 
     return ret;

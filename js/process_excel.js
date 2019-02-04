@@ -984,7 +984,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 projects = getProjects(model,category,component,assets_json);;
 
                 //otherColors = getOtherPics(model, size, category, type, color, more);
-                //more = getMore(row["Descrizione"],model);
+                more = { instruction : getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "download") }
                 
 
                 
@@ -2344,6 +2344,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             if(caso == "title"){
                                 return arr_varianti[0].name;     
                             }
+                            if(caso == "download"){
+                                return arr_varianti[0].filename;     
+                            }
                                 
                         }
                             
@@ -2443,6 +2446,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                     if(caso == "title"){
                                         return arr_varianti_fiter_2[0].name;     
                                     }
+                                    if(caso == "download"){
+                                        return arr_varianti[0].filename;     
+                                    }
                                 }
                                 else{
                                         var arr_varianti_fiter_3 = _.filter(arr_varianti_fiter_2,function(variant){
@@ -2455,7 +2461,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                                 }
                                                 if(caso == "title"){
                                                     return arr_varianti_fiter_3[0].name;     
-                                                }   
+                                                }
+                                                if(caso == "download"){
+                                                    return arr_varianti[0].filename;     
+                                                }
                                             }
                                             else{
                                                    
@@ -2525,7 +2534,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     halogen = undefined;
                     screw = undefined;
                     switcher = undefined;
-                    category = undefined;
+                    category = ( _.is(getAsset(model_id)) )? (!isComponent(model_id))?  getAsset(model_id).category : getFatherAsset(model_id).category : undefined;
                 
                     type = undefined;       // è un valore unico ovvero una stringa
                     
@@ -2533,7 +2542,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     size = undefined;
                     outdoor = (row["Descrizione articolo"].indexOf("OUT") != -1 )? 1: 0;;
                     max_discount = 14;
-                    more = ( _.is(getAsset(model_id)) )? ( _.is( getAsset(model_id).more ) )? getAsset(model_id).more : undefined : undefined ;
+                    more = getMore(model_id);
                     title = model;
                     pic = ( _.is(getAsset(model_id)))? (_.is(getAsset(model_id).img)) ? getAsset(model_id).img : getAsset(model_id).image : undefined;
                     light_schema = getSchemaImages(model_id);
@@ -2614,10 +2623,42 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             }
                         }
 
-                        return ret;
-                            
+                        return ret;   
+                    }
+
+                    function getFatherAsset(accessory_id){
+                        if(!isComponent(accessory_id))
+                            return undefined;
+                        else{
+                            var ret = undefined;
+
+                            _.each(assets_json,function(asset){
+                                _.each(asset.accessories,function(accessory){
+                                    if(accessory.id == accessory_id && !_.is(ret)){
+                                        ret = asset;
+                                    }
+                                });
+                            });
+
+                            return ret;
+                        }
                     }
         
+                    function getMore(model_id){
+                        var more = undefined;
+                        var asset = getAsset(model_id);
+                        if ( _.is(asset) ){
+                            if ( _.is( asset.more ) )
+                                more = asset.more
+
+                            if( _.is(asset.downloads))
+                                more["downloads"] = asset.downloads;
+                        }
+
+                        return more;
+                            
+
+                    }
 
                 }
             }
@@ -2632,7 +2673,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         return{
             supplier:               supplier,                           // nome del fornitore
             supplier_id :           supplier_id,                        // identificativo del fonitore
-            model:                  model,                              // modello/famiglia dell'articolo
+            model:                  (_.is(model))? model.toLowerCase() : undefined,                // modello/famiglia dell'articolo
             original_model_id:      original_model_id,                  // id originario (NON MANIPOLATO) dell'articolo
             model_id:               model_id,                           // identificativo della famiglia di articolo ottenuto con replace(" ","_");
             item_id:                item_id,                            // l'id originario manipolato
