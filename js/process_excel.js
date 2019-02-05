@@ -155,6 +155,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var component_of = undefined;
         var size = undefined;
         var outdoor = undefined;
+        var wire_length = undefined;
         var max_discount = undefined;
         var more = undefined;
         var title = undefined;
@@ -329,6 +330,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 size = getSize(articolo);
                 outdoor = (articolo.indexOf("OUTDOOR") != -1)? 1 : 0;
                 max_discount = 0;
+                wire_length = getWireLength(row["Componente"]);
                 title = row["Articolo"];
                 subtitle = undefined;
                 pic = getPics(model, category, color, component, createAllImgsArr(assets_json), "primary" );
@@ -921,6 +923,18 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 return ret;
 
             }
+
+            function getWireLength(str){
+                ret = undefined;
+                if(str.indexOf("3,5") != -1)
+                    ret = "3,5 m";
+                if(str.indexOf("10 M") != -1 || str.indexOf("10M") != -1)
+                    ret = "10 m";
+                if(str.indexOf("H.5M") != -1 || str.indexOf("H.5 M ") != -1 || str.indexOf("H. 5 MT.") != -1)
+                    ret = "5 m";
+                
+                return ret;
+            }
             
             
             
@@ -970,6 +984,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 component_of = getComponentOf(component, row["Descrizione"]);
                 size = getSize(row["Descrizione"]);;
                 outdoor = undefined;
+                wire_length = undefined;
                 max_discount = 15;
                 pic = getPics(row["Descrizione"], model, category, type, assets_json,component, "primary");
                 light_schema = getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "light_schema");
@@ -2534,10 +2549,12 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     category = ( _.is(getAsset(model_id)) )? (!isComponent(model_id))?  getAsset(model_id).category : getFatherAsset(model_id).category : undefined;
                 
                     type = undefined;       // è un valore unico ovvero una stringa
+
                     
                     component_of = ( isComponent(model_id) ) ? getAsset(model_id).component_of : undefined;
                     size = undefined;
-                    outdoor = (row["Descrizione articolo"].indexOf("OUT") != -1 )? 1: 0;;
+                    outdoor = (row["Descrizione articolo"].indexOf("OUT") != -1 )? 1: 0;
+                    wire_length = undefined;
                     max_discount = 14;
                     more = getMore(model_id);
                     title = model;
@@ -2693,6 +2710,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             component_of:           component_of,                       // se l'articolo è un componente ritorna il modello di cui è componente
             size:                   size,                               // piuccola, media, grande,....
             outdoor:                outdoor,                            // se è da esterno o meno
+            wire_length:            wire_length,                        // se c'è dice quanto è lungo il cavo (in foscarini è una variante)
             max_discount:           max_discount,                       // massimo sconto applicabile
             title:                  title,                              // se possibile ricostruiamo un title da mettere nella pagina dell'articolo
             subtitle:               subtitle,                           // se possibile ricostruiamo un sottotitolo da mettere bella pagina dell'articolo
