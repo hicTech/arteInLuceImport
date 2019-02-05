@@ -1,0 +1,5 @@
+10:36:33: PROCESSO: ../xls/foscarini
+10:36:59: PROCESSO: ../xls/foscarini
+11:30:47: PROCESSO: ../xls/flos
+11:30:48: PROCESSO: ../xls/foscarini
+11:30:49: PROCESSO: ../xls/vistosi
