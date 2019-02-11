@@ -1628,17 +1628,14 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 }
 
                 function getDescription(model,category,component,assets_json){
+                    var desc = undefined;
                     if(component == 0){
                         _.each(assets_json,function(elem){
                             if(model.toLowerCase() == elem.model && category == elem.category)
-                                ret = elem.desc;
+                                desc = elem.desc;
                         });
                     }
-                    if(!_.is(ret))
-                        _.log("Attenzione descrizione non trovata per model: "+ model+" category: "+category);
-                    else
-                        return ret;
-                        
+                    return desc;                        
                 }
 
                 function getProjects(model,category,component,assets_json){

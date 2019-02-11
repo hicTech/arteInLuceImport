@@ -75,13 +75,13 @@ var arr_all_products = [
     
 ]
 
-*/
+
 
 var arr_all_products = [
-    "https://flos.com/products/floor/ray/ray-f1/"
+    "https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-round-large/"
 ]
 
-
+*/
 
 // elimino eventuali doppioni
 arr_all_products = _.uniq(arr_all_products);
@@ -152,7 +152,9 @@ function createJsonFromAPage(body, uri){
 
     var other_images = [];
     $body.find("figure.addModalSlider img").each(function(){
-        other_images.push($(this).attr("src"));
+        var src = $(this).attr("src");
+        if( src.indexOf(".svg") == -1)
+            other_images.push($(this).attr("src"));
     })   
 
 
@@ -316,3 +318,4 @@ function createJsonFromAPage(body, uri){
     
 
 }
+
