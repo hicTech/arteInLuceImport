@@ -86,6 +86,8 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                         }   
                                                     });
 
+                                                    json_aumentato = postProduci(json_aumentato, cartella);
+
                                                     
 
                                                     fs.writeFile(path_cartella +"/result/"+cartella+'.json', JSON.stringify(json_fornitore, null, 4), 'utf8', function(){
@@ -96,7 +98,13 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                         //_.log("FINITO");
                                                     });
 
+
+
+                                                    
+                                                
+
                                                     let xls = json2xls(json_aumentato);
+                                                    
 
                                                     fs.writeFileSync(path_cartella +"/result/"+cartella+'_aumentato.xlsx', xls, 'binary');
                                                     
@@ -2977,4 +2985,41 @@ function sameItemForVideo(model, category, elem_model, elem_category){
     
 
     return model == elem_model && category == elem_category;
+}
+
+
+
+
+/* ================================================================= POSTPRODUZIONE */
+
+
+function postProduci(json,fornitore){
+    
+    if(fornitore=="flos"){
+        
+
+        _.each(json, function(elem){
+            if( elem.component == 1){
+                var cod_component = elem.model;
+                var cod_item = elem.component_of;
+
+                _.each(json, function(item, index){
+                    if(!_.is(item["accessories"]))
+                        item["accessories"] = "";
+                    
+                    if(item.model_id == cod_item ){
+                        item["accessories"] = item["accessories"] + cod_component+";";
+                    }
+                    
+                    
+                });
+            }
+        })
+    }
+
+    
+
+    
+
+    return json;
 }

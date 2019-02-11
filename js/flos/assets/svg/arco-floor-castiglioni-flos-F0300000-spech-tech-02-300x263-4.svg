@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Arco" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 263" style="enable-background:new 0 0 300 263;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:3.86;}
+	.st1{fill:none;stroke:#000000;stroke-width:0.5;}
+	.st2{fill:none;stroke:#000000;stroke-width:0.58;}
+	.st3{font-family:'Avenir-Book';}
+	.st4{font-size:16px;}
+	.st5{fill:none;stroke:#575756;stroke-width:0.5;}
+</style>
+<title>arco-floor-castiglioni-flos-F0300000-spech-tech-02-300x263-01</title>
+<path class="st0" d="M230.2,119.4c2.2-5.6-0.5-11.9-6.1-14.2c-5.6-2.2-11.9,0.5-14.2,6.1c-1,2.6-1,5.5,0,8.1H230.2z"/>
+<path d="M227.5,107.3c-4.2-3.9-10.7-3.9-14.9,0H227.5z"/>
+<path class="st0" d="M227.5,107.3c-4.2-3.9-10.7-3.9-14.9,0H227.5z"/>
+<path class="st0" d="M221,107.3c-4.3-34.7-33.2-61.6-69.4-61.5c-37.8,0-68.5,30.7-69.3,68.9 M219.5,107.2
+	c-3.5-34.1-32.6-60.3-67.7-60.3c-36.2,0-68.1,30.3-68.1,67.7 M83.7,178.9l-2,0.1v-64.4h2V178.9z M95.6,178.9c1-0.1,1.9,0.6,2.1,1.6
+	c0,0.1,0,0.2,0,0.3v33.4c0,2.6-1.8,2.1-1.8,2.1H83.7c-2.9,0-2-1.9-2-1.9v-35.4H95.6z M92.3,189.9c1.2,0,2.1-1,2.1-2.1
+	c0-1.2-1-2.1-2.1-2.1c-1.2,0-2.1,1-2.1,2.1S91.1,189.9,92.3,189.9L92.3,189.9z"/>
+<line class="st1" x1="107.3" y1="181.2" x2="107.3" y2="217.3"/>
+<line class="st1" x1="105.7" y1="217.3" x2="109" y2="217.3"/>
+<line class="st1" x1="105.7" y1="181.2" x2="109" y2="181.2"/>
+<line class="st2" x1="142" y1="216.8" x2="142" y2="98.2"/>
+<line class="st2" x1="140.3" y1="216.8" x2="143.7" y2="216.8"/>
+<line class="st2" x1="140.3" y1="98.2" x2="143.7" y2="98.2"/>
+<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 60.48 165.96)" class="st3 st4">2400 mm</text>
+<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 127.38 228.4297)" class="st3 st4">550 mm</text>
+<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 162.51 211.9404)" class="st3 st4">1510/1850 mm</text>
+<line class="st1" x1="83" y1="226.9" x2="98.4" y2="226.9"/>
+<line class="st1" x1="98.4" y1="228.6" x2="98.4" y2="225.3"/>
+<line class="st1" x1="83" y1="228.6" x2="83" y2="225.3"/>
+<line class="st5" x1="209.4" y1="128.1" x2="231.2" y2="128.1"/>
+<line class="st5" x1="231.2" y1="130.1" x2="231.2" y2="126.7"/>
+<line class="st5" x1="209.4" y1="130.1" x2="209.4" y2="126.7"/>
+<text transform="matrix(1 0 0 1 58.79 246.1)" class="st3 st4">240 mm</text>
+<text transform="matrix(1 0 0 1 185.3 148.83)" class="st3 st4">ø320 mm</text>
+<line class="st1" x1="68.8" y1="47.2" x2="68.8" y2="217.5"/>
+<line class="st1" x1="69.9" y1="47.2" x2="66.6" y2="47.2"/>
+<line class="st1" x1="70.6" y1="217.5" x2="66.2" y2="217.5"/>
+<line class="st1" x1="82.8" y1="38.2" x2="231.2" y2="38.2"/>
+<line class="st1" x1="82.7" y1="36.6" x2="82.7" y2="39.9"/>
+<line class="st1" x1="231.2" y1="36.6" x2="231.2" y2="39.9"/>
+<text transform="matrix(1 0 0 1 102.59 28.88)" class="st3 st4">2200/2150 mm</text>
+</svg>

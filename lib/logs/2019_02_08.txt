@@ -1,0 +1,1437 @@
+12:29:19: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 205
+12:29:23: processo: https://flos.com/it/prodotti/lampade-tavolo/bellhop/bellhop/ mancano: 204
+12:29:29: processo: https://flos.com/it/prodotti/lampade-tavolo/biagio/biagio/ mancano: 203
+12:29:31: processo: https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour/ mancano: 202
+12:29:36: ------------------------------------------------------------------------------------------ACCESSORI
+12:29:36: processo: https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour-unplugged/ mancano: 201
+12:29:47: ------------------------------------------------------------------------------------------ACCESSORI
+12:29:47: processo: https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour-versailles/ mancano: 200
+12:29:54: ------------------------------------------------------------------------------------------ACCESSORI
+12:29:54: processo: https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour-versailles-small/ mancano: 199
+12:30:00: ------------------------------------------------------------------------------------------ACCESSORI
+12:30:00: processo: https://flos.com/it/prodotti/lampade-tavolo/chapo/chapo/ mancano: 198
+12:30:07: processo: https://flos.com/it/prodotti/lampade-tavolo/cocoon/gatto/ mancano: 197
+12:30:13: processo: https://flos.com/it/prodotti/lampade-tavolo/cocoon/gatto-piccolo/ mancano: 196
+12:30:18: processo: https://flos.com/it/prodotti/lampade-tavolo/copycat/copycat/ mancano: 195
+12:30:22: processo: https://flos.com/it/prodotti/lampade-tavolo/de-light/de-light/ mancano: 194
+12:30:27: processo: https://flos.com/it/prodotti/lampade-tavolo/extra-t2/extra-t/ mancano: 193
+12:30:35: processo: https://flos.com/it/prodotti/lampade-tavolo/gaku/gaku-wire/ mancano: 192
+12:30:40: ------------------------------------------------------------------------------------------ACCESSORI
+12:30:40: processo: https://flos.com/it/prodotti/lampade-tavolo/gaku/gaku-wireless/ mancano: 191
+12:30:45: ------------------------------------------------------------------------------------------ACCESSORI
+12:30:45: processo: https://flos.com/it/prodotti/lampade-tavolo/glo-ball/glo-ball-basic-2/ mancano: 190
+12:30:50: processo: https://flos.com/it/prodotti/lampade-tavolo/glo-ball/glo-ball-basic-1/ mancano: 189
+12:31:02: processo: https://flos.com/it/prodotti/lampade-tavolo/glo-ball/glo-ball-basic-zero-dimmer/ mancano: 188
+12:31:09: processo: https://flos.com/it/prodotti/lampade-tavolo/glo-ball/glo-ball-basic-zero-switch/ mancano: 187
+12:31:16: processo: https://flos.com/it/prodotti/lampade-tavolo/glo-ball/mini-glo-ball-t/ mancano: 186
+12:31:21: processo: https://flos.com/it/prodotti/lampade-tavolo/glo-ball/glo-ball-t2/ mancano: 185
+12:31:24: processo: https://flos.com/it/prodotti/lampade-tavolo/glo-ball/glo-ball-t1/ mancano: 184
+12:31:30: processo: https://flos.com/it/prodotti/lampade-tavolo/goldman/goldman/ mancano: 183
+12:31:34: processo: https://flos.com/it/prodotti/lampade-tavolo/ic-lights/ic-lights-t1-high/ mancano: 182
+12:31:41: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 340
+12:31:42: processo: https://flos.com/it/prodotti/lampade-tavolo/ic-lights/ic-lights-t1-low/ mancano: 181
+12:31:48: processo: https://flos.com/it/prodotti/lampade-tavolo/ic-lights/ic-lights-t2/ mancano: 180
+12:31:51: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 339
+12:31:55: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-edge-base/ mancano: 179
+12:32:02: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 338
+12:32:04: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-edge-clamp/ mancano: 178
+12:32:09: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-edge-desk-support-visible-cable/ mancano: 177
+12:32:14: processo: https://www.vistosi.it/prodotti/alega/tavolo.html mancano: 337
+12:32:16: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-edge-desk-support-hidden-cable/ mancano: 176
+12:32:22: processo: https://www.vistosi.it/prodotti/aliki/soffitto.html mancano: 336
+12:32:22: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-edge-wall-support/ mancano: 175
+12:32:28: processo: https://www.vistosi.it/prodotti/aliki/sospensione.html mancano: 335
+12:32:28: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-led-base/ mancano: 174
+12:32:30: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-led-clamp/ mancano: 173
+12:32:36: processo: https://www.vistosi.it/prodotti/aliki/parete.html mancano: 334
+12:32:41: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-led-desk-support-visible-cable/ mancano: 172
+12:32:47: faccio super scroll della pagina
+12:32:49: processo: https://www.vistosi.it/prodotti/alma/sospensione.html mancano: 333
+12:32:51: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-led-desk-support-hidden-cable/ mancano: 171
+12:32:57: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-led-wall-support/ mancano: 170
+12:32:57: processo: https://www.vistosi.it/prodotti/alma/parete.html mancano: 332
+12:33:03: processo: https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/mini-kelvin-led/ mancano: 169
+12:33:06: processo: https://flos.com/it/prodotti/lampade-tavolo/ktribe/ktribe-t2/ mancano: 168
+12:33:07: processo: https://www.vistosi.it/prodotti/alum/sospensione.html mancano: 331
+12:33:09: processo: https://flos.com/it/prodotti/lampade-tavolo/ktribe/ktribe-t1/ mancano: 167
+12:33:12: processo: https://flos.com/it/prodotti/lampade-tavolo/ktribe/ktribe-t1-glass/ mancano: 166
+12:33:12: processo: https://www.vistosi.it/prodotti/alum/parete.html mancano: 330
+12:33:14: processo: https://flos.com/it/prodotti/lampade-tavolo/lampadina/lampadina/ mancano: 165
+12:33:16: processo: https://www.vistosi.it/prodotti/alum09/soffitto.html mancano: 329
+12:33:19: processo: https://flos.com/it/prodotti/lampade-tavolo/may-day/may-day/ mancano: 164
+12:33:21: processo: https://www.vistosi.it/prodotti/alum09/sospensione.html mancano: 328
+12:33:22: processo: https://flos.com/it/prodotti/lampade-tavolo/ktribe/miss-k/ mancano: 163
+12:33:26: processo: https://flos.com/it/prodotti/lampade-tavolo/miss-sissi/miss-sissi/ mancano: 162
+12:33:31: processo: https://flos.com/it/prodotti/lampade-tavolo/piani/piani/ mancano: 161
+12:33:32: processo: https://www.vistosi.it/prodotti/alum09/parete.html mancano: 327
+12:33:36: processo: https://flos.com/it/prodotti/lampade-tavolo/piani/piani-big/ mancano: 160
+12:33:39: processo: https://flos.com/it/prodotti/lampade-tavolo/ray/ray-t-dimmer-2/ mancano: 159
+12:33:40: processo: https://www.vistosi.it/prodotti/aria/sospensione.html mancano: 326
+12:33:44: processo: https://flos.com/it/prodotti/lampade-tavolo/romeo-moon/romeo-moon-t1/ mancano: 158
+12:33:44: processo: https://www.vistosi.it/prodotti/assiba/soffitto.html mancano: 325
+12:33:46: processo: https://flos.com/it/prodotti/lampade-tavolo/romeo-soft/romeo-soft-t/ mancano: 157
+12:33:49: processo: https://flos.com/it/prodotti/lampade-tavolo/serena/serena/ mancano: 156
+12:33:52: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 324
+12:33:57: faccio super scroll della pagina
+12:33:58: processo: https://www.vistosi.it/prodotti/assiba/parete.html mancano: 323
+12:33:59: processo: https://flos.com/it/prodotti/lampade-tavolo/snoopy/snoopy/ mancano: 155
+12:34:02: processo: https://flos.com/it/prodotti/lampade-tavolo/snoopy/snoopy-50-limited-edition/ mancano: 154
+12:34:05: processo: https://flos.com/it/prodotti/lampade-tavolo/spun-light/spun-light-t2/ mancano: 153
+12:34:06: processo: https://www.vistosi.it/prodotti/assiba/tavolo.html mancano: 322
+12:34:07: processo: https://flos.com/it/prodotti/lampade-tavolo/spun-light/spun-light-t1/ mancano: 152
+12:34:10: processo: https://flos.com/it/prodotti/lampade-tavolo/tab/tab-t/ mancano: 151
+12:34:13: processo: https://www.vistosi.it/prodotti/aurea/sospensione.html mancano: 321
+12:34:17: processo: https://flos.com/it/prodotti/lampade-tavolo/guns/guns-table-gun/ mancano: 150
+12:34:20: processo: https://www.vistosi.it/prodotti/aurora/soffitto.html mancano: 320
+12:34:23: processo: https://flos.com/it/prodotti/lampade-tavolo/guns/guns-bedside-gun/ mancano: 149
+12:34:28: processo: https://www.vistosi.it/prodotti/aurora/sospensione.html mancano: 319
+12:34:32: processo: https://flos.com/it/prodotti/lampade-tavolo/taccia/taccia/ mancano: 148
+12:34:33: faccio super scroll della pagina
+12:34:35: processo: https://www.vistosi.it/prodotti/aurora/parete.html mancano: 318
+12:34:39: processo: https://flos.com/it/prodotti/lampade-tavolo/taccia/taccia-pmma/ mancano: 147
+12:34:46: processo: https://www.vistosi.it/prodotti/baco/sospensione.html mancano: 317
+12:34:46: processo: https://flos.com/it/prodotti/lampade-tavolo/taccia/taccia-small/ mancano: 146
+12:34:48: processo: https://flos.com/it/prodotti/lampade-tavolo/tatou/tatou-t/ mancano: 145
+12:34:49: processo: https://www.vistosi.it/prodotti/baco/parete.html mancano: 316
+12:34:53: processo: https://flos.com/it/prodotti/lampadari-sospensione/2097/2097-50/ mancano: 144
+12:34:56: processo: https://www.vistosi.it/prodotti/bacona/sospensione.html mancano: 315
+12:34:56: processo: https://flos.com/it/prodotti/lampadari-sospensione/2097/2097-30/ mancano: 143
+12:35:03: processo: https://www.vistosi.it/prodotti/bacona/parete.html mancano: 314
+12:35:05: processo: https://flos.com/it/prodotti/lampadari-sospensione/2620/2620/ mancano: 142
+12:35:08: processo: https://flos.com/it/prodotti/lampadari-sospensione/aim/aim/ mancano: 141
+12:35:12: processo: https://www.vistosi.it/prodotti/balance/soffitto.html mancano: 313
+12:35:13: ------------------------------------------------------------------------------------------ACCESSORI
+12:35:13: processo: https://flos.com/it/prodotti/lampadari-sospensione/aim/aim-cable-plug/ mancano: 140
+12:35:20: processo: https://www.vistosi.it/prodotti/balance/sospensione.html mancano: 312
+12:35:25: processo: https://flos.com/it/prodotti/lampadari-sospensione/aim/aim-small/ mancano: 139
+12:35:29: faccio super scroll della pagina
+12:35:31: ------------------------------------------------------------------------------------------ACCESSORI
+12:35:31: processo: https://flos.com/it/prodotti/lampadari-sospensione/aim/aim-small-cable-plug/ mancano: 138
+12:35:32: processo: https://www.vistosi.it/prodotti/balance/parete.html mancano: 311
+12:35:37: processo: https://flos.com/it/prodotti/lampadari-sospensione/aim/aim-small-fix/ mancano: 137
+12:35:39: processo: https://www.vistosi.it/prodotti/bauta/sospensione.html mancano: 310
+12:35:44: ------------------------------------------------------------------------------------------ACCESSORI
+12:35:44: processo: https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-round-large/ mancano: 136
+12:35:48: processo: https://www.vistosi.it/prodotti/bianca/soffitto.html mancano: 309
+12:35:48: ------------------------------------------------------------------------------------------ACCESSORI
+12:35:49: processo: https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-round-medium/ mancano: 135
+12:35:50: ------------------------------------------------------------------------------------------ACCESSORI
+12:35:50: processo: https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-round-small/ mancano: 134
+12:35:52: faccio super scroll della pagina
+12:35:54: processo: https://www.vistosi.it/prodotti/bianca/sospensione.html mancano: 308
+12:35:55: ------------------------------------------------------------------------------------------ACCESSORI
+12:35:55: processo: https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-drop-down/ mancano: 133
+12:36:00: faccio super scroll della pagina
+12:36:00: ------------------------------------------------------------------------------------------ACCESSORI
+12:36:00: processo: https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-drop-up/ mancano: 132
+12:36:02: processo: https://www.vistosi.it/prodotti/bianca/parete.html mancano: 307
+12:36:07: ------------------------------------------------------------------------------------------ACCESSORI
+12:36:07: processo: https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-square-large/ mancano: 131
+12:36:09: faccio super scroll della pagina
+12:36:10: processo: https://www.vistosi.it/prodotti/bissa/tavolo.html mancano: 306
+12:36:11: ------------------------------------------------------------------------------------------ACCESSORI
+12:36:11: processo: https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-square-small/ mancano: 130
+12:36:16: ------------------------------------------------------------------------------------------ACCESSORI
+12:36:16: processo: https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-broken-line/ mancano: 129
+12:36:19: processo: https://www.vistosi.it/prodotti/bissona/tavolo.html mancano: 305
+12:36:24: ------------------------------------------------------------------------------------------ACCESSORI
+12:36:24: processo: https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-line/ mancano: 128
+12:36:26: processo: https://www.vistosi.it/prodotti/boccia/parete.html mancano: 304
+12:36:28: ------------------------------------------------------------------------------------------ACCESSORI
+12:36:28: processo: https://flos.com/it/prodotti/lampadari-sospensione/chasen/chasen/ mancano: 127
+12:36:31: processo: https://flos.com/it/prodotti/lampadari-sospensione/overlap/overlap-suspension-2/ mancano: 126
+12:36:35: processo: https://flos.com/it/prodotti/lampadari-sospensione/overlap/overlap-suspension-1/ mancano: 125
+12:36:37: processo: https://www.vistosi.it/prodotti/bolle/soffitto.html mancano: 303
+12:36:38: processo: https://flos.com/it/prodotti/lampadari-sospensione/cocoon/taraxacum-2/ mancano: 124
+12:36:41: processo: https://flos.com/it/prodotti/lampadari-sospensione/cocoon/taraxacum-1/ mancano: 123
+12:36:44: processo: https://www.vistosi.it/prodotti/bolle/sospensione.html mancano: 302
+12:36:47: processo: https://flos.com/it/prodotti/lampadari-sospensione/cocoon/viscontea/ mancano: 122
+12:36:49: processo: https://flos.com/it/prodotti/lampadari-sospensione/cocoon/zeppelin-2/ mancano: 121
+12:36:52: faccio super scroll della pagina
+12:36:53: processo: https://flos.com/it/prodotti/lampadari-sospensione/cocoon/zeppelin-1/ mancano: 120
+12:36:55: processo: https://www.vistosi.it/prodotti/bolle/tavolo.html mancano: 301
+12:36:58: processo: https://flos.com/it/prodotti/lampadari-sospensione/frisbi/frisbi/ mancano: 119
+12:37:01: processo: https://www.vistosi.it/prodotti/bolle/faretto.html mancano: 300
+12:37:02: processo: https://flos.com/it/prodotti/lampadari-sospensione/fucsia/fucsia-12/ mancano: 118
+12:37:05: processo: https://flos.com/it/prodotti/lampadari-sospensione/fucsia/fucsia-8/ mancano: 117
+12:37:07: processo: https://www.vistosi.it/prodotti/boreale/soffitto.html mancano: 299
+12:37:09: processo: https://flos.com/it/prodotti/lampadari-sospensione/fucsia/fucsia-3/ mancano: 116
+12:37:12: processo: https://www.vistosi.it/prodotti/boreale/sospensione.html mancano: 298
+12:37:15: processo: https://flos.com/it/prodotti/lampadari-sospensione/fucsia/fucsia-1/ mancano: 115
+12:37:18: processo: https://www.vistosi.it/prodotti/bot/soffitto.html mancano: 297
+12:37:22: processo: https://flos.com/it/prodotti/lampadari-sospensione/glo-ball/glo-ball-s2/ mancano: 114
+12:37:25: processo: https://flos.com/it/prodotti/lampadari-sospensione/glo-ball/glo-ball-s2-eco/ mancano: 113
+12:37:25: processo: https://www.vistosi.it/prodotti/bot/sospensione.html mancano: 296
+12:37:31: processo: https://flos.com/it/prodotti/lampadari-sospensione/glo-ball/glo-ball-s1/ mancano: 112
+12:37:31: faccio super scroll della pagina
+12:37:32: processo: https://www.vistosi.it/prodotti/bot/parete.html mancano: 295
+12:37:35: processo: https://flos.com/it/prodotti/lampadari-sospensione/glo-ball/mini-glo-ball-s/ mancano: 111
+12:37:41: processo: https://flos.com/it/prodotti/lampadari-sospensione/ic-lights/ic-lights-s2/ mancano: 110
+12:37:43: processo: https://www.vistosi.it/prodotti/bot/tavolo.html mancano: 294
+12:37:44: processo: https://flos.com/it/prodotti/lampadari-sospensione/ic-lights/ic-lights-s1/ mancano: 109
+12:37:46: processo: https://flos.com/it/prodotti/lampadari-sospensione/ktribe/ktribe-s3/ mancano: 108
+12:37:49: processo: https://flos.com/it/prodotti/lampadari-sospensione/ktribe/ktribe-s2/ mancano: 107
+12:37:52: processo: https://www.vistosi.it/prodotti/bot/faretto.html mancano: 293
+12:37:54: processo: https://flos.com/it/prodotti/lampadari-sospensione/ktribe/ktribe-s1/ mancano: 106
+12:37:57: processo: https://www.vistosi.it/prodotti/candela/sospensione.html mancano: 292
+12:37:59: processo: https://flos.com/it/prodotti/lampadari-sospensione/nebula/nebula/ mancano: 105
+12:38:04: processo: https://flos.com/it/prodotti/lampadari-sospensione/ok/ok/ mancano: 104
+12:38:06: processo: https://www.vistosi.it/prodotti/cheope/sospensione.html mancano: 291
+12:38:07: processo: https://flos.com/it/prodotti/lampadari-sospensione/parentesi/parentesi/ mancano: 103
+12:38:13: ------------------------------------------------------------------------------------------ACCESSORI
+12:38:13: processo: https://www.vistosi.it/prodotti/cheope-09/sospensione.html mancano: 290
+12:38:13: processo: https://flos.com/it/prodotti/lampadari-sospensione/parentesi/parentesi-dimmer/ mancano: 102
+12:38:16: ------------------------------------------------------------------------------------------ACCESSORI
+12:38:17: processo: https://flos.com/it/prodotti/lampadari-sospensione/ray/ray-s/ mancano: 101
+12:38:19: processo: https://flos.com/it/prodotti/lampadari-sospensione/romeo-moon/romeo-babe-s/ mancano: 100
+12:38:21: processo: https://www.vistosi.it/prodotti/chimera/soffitto.html mancano: 289
+12:38:27: processo: https://flos.com/it/prodotti/lampadari-sospensione/romeo-moon/romeo-moon-s2/ mancano: 99
+12:38:34: processo: https://flos.com/it/prodotti/lampadari-sospensione/romeo-moon/romeo-moon-s1/ mancano: 98
+12:38:37: processo: https://www.vistosi.it/prodotti/chimera/sospensione.html mancano: 288
+12:38:39: processo: https://flos.com/it/prodotti/lampadari-sospensione/romeo-soft/romeo-babe-soft-s/ mancano: 97
+12:38:48: processo: https://www.vistosi.it/prodotti/chimera/parete.html mancano: 287
+12:38:48: processo: https://flos.com/it/prodotti/lampadari-sospensione/romeo-soft/romeo-soft-s2/ mancano: 96
+12:38:53: processo: https://flos.com/it/prodotti/lampadari-sospensione/romeo-soft/romeo-soft-s1/ mancano: 95
+12:39:00: processo: https://www.vistosi.it/prodotti/chimera/tavolo.html mancano: 286
+12:39:01: processo: https://flos.com/it/prodotti/lampadari-sospensione/skygarden/skygarden-2/ mancano: 94
+12:39:05: processo: https://flos.com/it/prodotti/lampadari-sospensione/skygarden/skygarden-2-eco/ mancano: 93
+12:39:09: processo: https://www.vistosi.it/prodotti/chimera/piantana.html mancano: 285
+12:39:10: processo: https://flos.com/it/prodotti/lampadari-sospensione/skygarden/skygarden-1/ mancano: 92
+12:39:16: processo: https://flos.com/it/prodotti/lampadari-sospensione/skygarden/skygarden-1-eco/ mancano: 91
+12:39:18: processo: https://www.vistosi.it/prodotti/chimera-09/soffitto.html mancano: 284
+12:39:21: processo: https://flos.com/it/prodotti/lampadari-sospensione/smithfield/smithfield-suspension-led-dimmable-dali/ mancano: 90
+12:39:25: processo: https://flos.com/it/prodotti/lampadari-sospensione/smithfield/smithfield-s/ mancano: 89
+12:39:30: processo: https://www.vistosi.it/prodotti/chimera-09/sospensione.html mancano: 283
+12:39:31: processo: https://flos.com/it/prodotti/lampadari-sospensione/smithfield/smithfield-s-led/ mancano: 88
+12:39:35: processo: https://flos.com/it/prodotti/lampadari-sospensione/splugen-brau/splugen-brau/ mancano: 87
+12:39:37: processo: https://www.vistosi.it/prodotti/chimera-09/parete.html mancano: 282
+12:39:41: processo: https://flos.com/it/prodotti/lampadari-sospensione/string-light/string-light-cone-head-12mt-cable/ mancano: 86
+12:39:42: processo: https://www.vistosi.it/prodotti/chimera-09/tavolo.html mancano: 281
+12:39:45: ------------------------------------------------------------------------------------------ACCESSORI
+12:39:45: processo: https://flos.com/it/prodotti/lampadari-sospensione/string-light/string-light-cone-head-22mt-cable/ mancano: 85
+12:39:52: processo: https://www.vistosi.it/prodotti/chimera-09/piantana.html mancano: 280
+12:39:53: ------------------------------------------------------------------------------------------ACCESSORI
+12:39:54: processo: https://flos.com/it/prodotti/lampadari-sospensione/string-light/string-light-sphere-head-12mt-cable/ mancano: 84
+12:40:02: processo: https://www.vistosi.it/prodotti/cild/sospensione.html mancano: 279
+12:40:05: ------------------------------------------------------------------------------------------ACCESSORI
+12:40:05: processo: https://flos.com/it/prodotti/lampadari-sospensione/string-light/string-light-sphere-head-22mt-cable/ mancano: 83
+12:40:07: ------------------------------------------------------------------------------------------ACCESSORI
+12:40:07: processo: https://flos.com/it/prodotti/lampadari-sospensione/taraxacum-88/taraxacum-88-s2/ mancano: 82
+12:40:10: faccio super scroll della pagina
+12:40:10: processo: https://flos.com/it/prodotti/lampadari-sospensione/taraxacum-88/taraxacum-88-s1/ mancano: 81
+12:40:13: processo: https://www.vistosi.it/prodotti/cild/parete.html mancano: 278
+12:40:16: processo: https://flos.com/it/prodotti/lampadari-sospensione/tatou/tatou-s2/ mancano: 80
+12:40:20: processo: https://flos.com/it/prodotti/lampadari-sospensione/tatou/tatou-s1/ mancano: 79
+12:40:25: processo: https://flos.com/it/prodotti/lampadari-sospensione/wan/wan-s/ mancano: 78
+12:40:26: processo: https://www.vistosi.it/prodotti/ciondo/sospensione.html mancano: 277
+12:40:31: processo: https://flos.com/it/prodotti/plafoniere/265/265/ mancano: 77
+12:40:35: processo: https://flos.com/it/prodotti/plafoniere/ariette/ariette-3/ mancano: 76
+12:40:35: processo: https://www.vistosi.it/prodotti/ciondo/parete.html mancano: 276
+12:40:38: processo: https://flos.com/it/prodotti/plafoniere/ariette/ariette-2/ mancano: 75
+12:40:44: processo: https://www.vistosi.it/prodotti/cleo/sospensione.html mancano: 275
+12:40:45: processo: https://flos.com/it/prodotti/plafoniere/ariette/ariette-1/ mancano: 74
+12:40:51: processo: https://flos.com/it/prodotti/plafoniere/button/button/ mancano: 73
+12:40:56: processo: https://www.vistosi.it/prodotti/cleo/parete.html mancano: 274
+12:41:00: processo: https://flos.com/it/prodotti/plafoniere/button/button-hl/ mancano: 72
+12:41:08: processo: https://flos.com/it/prodotti/plafoniere/button/mini-button/ mancano: 71
+12:41:15: processo: https://www.vistosi.it/prodotti/cloth/sospensione.html mancano: 273
+12:41:15: processo: https://flos.com/it/prodotti/plafoniere/clara/clara/ mancano: 70
+12:41:33: ------------------------------------------------------------------------------------------ACCESSORI
+12:41:33: processo: https://flos.com/it/prodotti/plafoniere/clessidra/clessidra/ mancano: 69
+12:41:36: processo: https://www.vistosi.it/prodotti/cloth/parete.html mancano: 272
+12:41:38: processo: https://flos.com/it/prodotti/plafoniere/clessidra/clessidra-2/ mancano: 68
+12:41:45: processo: https://www.vistosi.it/prodotti/cloth/tavolo.html mancano: 271
+12:41:46: processo: https://flos.com/it/prodotti/plafoniere/foglio/foglio/ mancano: 67
+12:41:55: processo: https://flos.com/it/prodotti/plafoniere/glo-ball/glo-ball-c2/ mancano: 66
+12:42:47: processo: https://flos.com/it/prodotti/plafoniere/glo-ball/glo-ball-c1/ mancano: 65
+12:43:00: processo: https://flos.com/it/prodotti/plafoniere/glo-ball/glo-ball-cw-zero/ mancano: 64
+12:43:08: processo: https://flos.com/it/prodotti/plafoniere/glo-ball/mini-glo-ball-cw/ mancano: 63
+12:43:15: processo: https://flos.com/it/prodotti/plafoniere/glo-ball/mini-glo-ball-cw-mirror/ mancano: 62
+12:43:25: processo: https://flos.com/it/prodotti/plafoniere/glo-ball/glo-ball-w/ mancano: 61
+12:43:33: processo: https://flos.com/it/prodotti/plafoniere/ic-lights/ic-lights-cw-2/ mancano: 60
+12:43:37: processo: https://flos.com/it/prodotti/plafoniere/ic-lights/ic-lights-cw-1/ mancano: 59
+12:43:41: processo: https://flos.com/it/prodotti/plafoniere/ktribe/ktribe-w/ mancano: 58
+12:43:47: processo: https://flos.com/it/prodotti/plafoniere/lightspring/lightspring-double/ mancano: 57
+12:43:51: processo: https://flos.com/it/prodotti/plafoniere/lightspring/lightspring-single/ mancano: 56
+12:43:57: processo: https://flos.com/it/prodotti/plafoniere/long-light-cw/long-light/ mancano: 55
+12:44:02: processo: https://flos.com/it/prodotti/plafoniere/moni/moni-1/ mancano: 54
+12:44:07: processo: https://flos.com/it/prodotti/plafoniere/moni/moni-2/ mancano: 53
+12:44:12: processo: https://flos.com/it/prodotti/plafoniere/ontherocks/ontherocks-hl/ mancano: 52
+12:44:16: processo: https://flos.com/it/prodotti/plafoniere/pochette/pochette/ mancano: 51
+12:44:23: processo: https://flos.com/it/prodotti/plafoniere/pochette/pochette-updown/ mancano: 50
+12:44:29: processo: https://flos.com/it/prodotti/plafoniere/pochette/pochette-led/ mancano: 49
+12:44:36: processo: https://flos.com/it/prodotti/plafoniere/pochette/pochette-updown-led/ mancano: 48
+12:44:43: processo: https://flos.com/it/prodotti/plafoniere/romeo-moon/romeo-babe-w/ mancano: 47
+12:44:47: processo: https://flos.com/it/prodotti/plafoniere/romeo-soft/romeo-babe-soft-w/ mancano: 46
+12:44:52: processo: https://flos.com/it/prodotti/plafoniere/skygarden/skygarden-recessed-g9/ mancano: 45
+12:44:57: processo: https://flos.com/it/prodotti/plafoniere/skygarden/skygarden-recessed-gy6-35/ mancano: 44
+12:45:02: processo: https://flos.com/it/prodotti/plafoniere/smithfield/smithfield-ceiling-led-dimmable-dali/ mancano: 43
+12:45:08: processo: https://flos.com/it/prodotti/plafoniere/smithfield/smithfield-c/ mancano: 42
+12:45:15: processo: https://flos.com/it/prodotti/plafoniere/smithfield/smithfield-c-led/ mancano: 41
+12:45:21: processo: https://flos.com/it/prodotti/plafoniere/taraxacum-88/taraxacum-88-cw/ mancano: 40
+12:45:31: processo: https://flos.com/it/prodotti/plafoniere/tight-light-cw/tight-light/ mancano: 39
+12:45:36: processo: https://flos.com/it/prodotti/plafoniere/tilee/tilee/ mancano: 38
+12:45:41: processo: https://flos.com/it/prodotti/plafoniere/wan/wan-cw/ mancano: 37
+12:45:45: processo: https://flos.com/it/prodotti/plafoniere/wirering/wirering-bianco/ mancano: 36
+12:45:52: processo: https://flos.com/it/prodotti/plafoniere/wirering/wirering-pink/ mancano: 35
+12:45:59: processo: https://flos.com/it/prodotti/plafoniere/wirering/wirering-grigio/ mancano: 34
+12:46:07: processo: https://flos.com/it/prodotti/lampade-terra/arco/arco/ mancano: 33
+12:46:13: processo: https://flos.com/it/prodotti/lampade-terra/arco/arco-led/ mancano: 32
+12:46:18: processo: https://flos.com/it/prodotti/lampade-terra/bibliotheque-nationale/bibliotheque-nationale/ mancano: 31
+12:46:24: processo: https://flos.com/it/prodotti/lampade-terra/captain-flint/captain-flint/ mancano: 30
+12:46:28: processo: https://flos.com/it/prodotti/lampade-terra/cocoon/chrysalis/ mancano: 29
+12:46:33: processo: https://flos.com/it/prodotti/lampade-terra/cocoon/fantasma-piccolo/ mancano: 28
+12:46:37: processo: https://flos.com/it/prodotti/lampade-terra/cocoon/fantasma/ mancano: 27
+12:46:42: processo: https://flos.com/it/prodotti/lampade-terra/glo-ball/glo-ball-f3/ mancano: 26
+12:46:50: processo: https://flos.com/it/prodotti/lampade-terra/glo-ball/glo-ball-f2/ mancano: 25
+12:46:56: processo: https://flos.com/it/prodotti/lampade-terra/glo-ball/glo-ball-f1/ mancano: 24
+12:47:01: processo: https://flos.com/it/prodotti/lampade-terra/ic-lights/ic-lights-f2/ mancano: 23
+12:47:05: processo: https://flos.com/it/prodotti/lampade-terra/ic-lights/ic-lights-f1/ mancano: 22
+12:47:11: processo: https://flos.com/it/prodotti/lampade-terra/ipnos/ipnos/ mancano: 21
+12:47:15: ------------------------------------------------------------------------------------------ACCESSORI
+12:47:15: processo: https://flos.com/it/prodotti/lampade-terra/kelvin-led/kelvin-led-f/ mancano: 20
+12:47:19: processo: https://flos.com/it/prodotti/lampade-terra/ktribe/ktribe-f3/ mancano: 19
+12:47:24: processo: https://flos.com/it/prodotti/lampade-terra/ktribe/ktribe-f2/ mancano: 18
+12:47:29: processo: https://flos.com/it/prodotti/lampade-terra/ktribe/ktribe-f1/ mancano: 17
+12:47:36: processo: https://flos.com/it/prodotti/lampade-terra/guns/guns-lounge-gun/ mancano: 16
+12:47:42: processo: https://flos.com/it/prodotti/lampade-terra/luminator/luminator/ mancano: 15
+12:47:49: processo: https://flos.com/it/prodotti/lampade-terra/ray/ray-f2/ mancano: 14
+12:47:56: processo: https://flos.com/it/prodotti/lampade-terra/ray/ray-f1/ mancano: 13
+12:48:04: processo: https://flos.com/it/prodotti/lampade-terra/romeo-moon/romeo-moon-f/ mancano: 12
+12:48:07: processo: https://flos.com/it/prodotti/lampade-terra/romeo-soft/romeo-soft-f/ mancano: 11
+12:48:15: processo: https://flos.com/it/prodotti/lampade-terra/romeo-soft/superarchimoon-2/ mancano: 10
+12:48:21: processo: https://flos.com/it/prodotti/lampade-terra/rosy-angelis/rosy-angelis/ mancano: 9
+12:48:27: processo: https://flos.com/it/prodotti/lampade-terra/sawaru/sawaru/ mancano: 8
+12:48:32: processo: https://flos.com/it/prodotti/lampade-terra/shade/shade/ mancano: 7
+12:48:37: processo: https://flos.com/it/prodotti/lampade-terra/spun-light/spun-light-f/ mancano: 6
+12:48:43: processo: https://flos.com/it/prodotti/lampade-terra/stylos/stylos/ mancano: 5
+12:48:47: processo: https://flos.com/it/prodotti/lampade-terra/superloon/superloon/ mancano: 4
+12:48:54: processo: https://flos.com/it/prodotti/lampade-terra/tab/tab-f/ mancano: 3
+12:48:59: processo: https://flos.com/it/prodotti/lampade-terra/tatou/tatou-f/ mancano: 2
+12:49:10: processo: https://flos.com/it/prodotti/lampade-terra/toio/toio/ mancano: 1
+12:49:15: processo: https://flos.com/it/prodotti/lampade-terra/toio/toio-limited-edition-matt-black/ mancano: 0
+12:49:20: FINITO
+12:50:27: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 340
+12:50:40: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 339
+12:50:48: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 338
+12:50:59: processo: https://www.vistosi.it/prodotti/alega/tavolo.html mancano: 337
+12:51:09: processo: https://www.vistosi.it/prodotti/aliki/soffitto.html mancano: 336
+12:51:13: PROCESSO: ../xls/flos
+12:51:22: processo: https://www.vistosi.it/prodotti/aliki/sospensione.html mancano: 335
+12:51:38: processo: https://www.vistosi.it/prodotti/aliki/parete.html mancano: 334
+12:51:49: faccio super scroll della pagina
+12:51:51: processo: https://www.vistosi.it/prodotti/alma/sospensione.html mancano: 333
+12:51:54: PROCESSO: ../xls/flos
+12:52:00: processo: https://www.vistosi.it/prodotti/alma/parete.html mancano: 332
+12:52:11: processo: https://www.vistosi.it/prodotti/alum/sospensione.html mancano: 331
+12:52:21: processo: https://www.vistosi.it/prodotti/alum/parete.html mancano: 330
+12:52:31: processo: https://www.vistosi.it/prodotti/alum09/soffitto.html mancano: 329
+12:52:42: processo: https://www.vistosi.it/prodotti/alum09/sospensione.html mancano: 328
+12:52:52: processo: https://www.vistosi.it/prodotti/alum09/parete.html mancano: 327
+12:53:06: processo: https://www.vistosi.it/prodotti/aria/sospensione.html mancano: 326
+12:53:18: processo: https://www.vistosi.it/prodotti/assiba/soffitto.html mancano: 325
+12:53:34: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 324
+12:53:43: faccio super scroll della pagina
+12:53:45: processo: https://www.vistosi.it/prodotti/assiba/parete.html mancano: 323
+12:53:56: processo: https://www.vistosi.it/prodotti/assiba/tavolo.html mancano: 322
+12:54:12: processo: https://www.vistosi.it/prodotti/aurea/sospensione.html mancano: 321
+12:54:24: processo: https://www.vistosi.it/prodotti/aurora/soffitto.html mancano: 320
+12:54:43: processo: https://www.vistosi.it/prodotti/aurora/sospensione.html mancano: 319
+12:54:55: faccio super scroll della pagina
+12:54:57: processo: https://www.vistosi.it/prodotti/aurora/parete.html mancano: 318
+12:55:10: processo: https://www.vistosi.it/prodotti/baco/sospensione.html mancano: 317
+12:55:20: processo: https://www.vistosi.it/prodotti/baco/parete.html mancano: 316
+12:55:30: processo: https://www.vistosi.it/prodotti/bacona/sospensione.html mancano: 315
+12:55:40: processo: https://www.vistosi.it/prodotti/bacona/parete.html mancano: 314
+12:55:53: processo: https://www.vistosi.it/prodotti/balance/soffitto.html mancano: 313
+12:56:06: processo: https://www.vistosi.it/prodotti/balance/sospensione.html mancano: 312
+12:56:15: faccio super scroll della pagina
+12:56:18: processo: https://www.vistosi.it/prodotti/balance/parete.html mancano: 311
+12:56:28: processo: https://www.vistosi.it/prodotti/bauta/sospensione.html mancano: 310
+12:56:39: processo: https://www.vistosi.it/prodotti/bianca/soffitto.html mancano: 309
+12:56:51: faccio super scroll della pagina
+12:56:54: processo: https://www.vistosi.it/prodotti/bianca/sospensione.html mancano: 308
+12:57:03: faccio super scroll della pagina
+12:57:05: processo: https://www.vistosi.it/prodotti/bianca/parete.html mancano: 307
+12:57:11: faccio super scroll della pagina
+12:57:13: processo: https://www.vistosi.it/prodotti/bissa/tavolo.html mancano: 306
+12:57:19: processo: https://www.vistosi.it/prodotti/bissona/tavolo.html mancano: 305
+12:57:29: processo: https://www.vistosi.it/prodotti/boccia/parete.html mancano: 304
+12:57:36: processo: https://www.vistosi.it/prodotti/bolle/soffitto.html mancano: 303
+12:57:45: processo: https://www.vistosi.it/prodotti/bolle/sospensione.html mancano: 302
+12:57:53: faccio super scroll della pagina
+12:57:56: processo: https://www.vistosi.it/prodotti/bolle/tavolo.html mancano: 301
+12:58:05: processo: https://www.vistosi.it/prodotti/bolle/faretto.html mancano: 300
+12:58:21: processo: https://www.vistosi.it/prodotti/boreale/soffitto.html mancano: 299
+12:58:32: processo: https://www.vistosi.it/prodotti/boreale/sospensione.html mancano: 298
+12:58:43: processo: https://www.vistosi.it/prodotti/bot/soffitto.html mancano: 297
+12:58:54: processo: https://www.vistosi.it/prodotti/bot/sospensione.html mancano: 296
+12:59:03: faccio super scroll della pagina
+12:59:05: processo: https://www.vistosi.it/prodotti/bot/parete.html mancano: 295
+12:59:14: processo: https://www.vistosi.it/prodotti/bot/tavolo.html mancano: 294
+12:59:27: processo: https://www.vistosi.it/prodotti/bot/faretto.html mancano: 293
+12:59:35: processo: https://www.vistosi.it/prodotti/candela/sospensione.html mancano: 292
+12:59:42: processo: https://www.vistosi.it/prodotti/cheope/sospensione.html mancano: 291
+12:59:48: processo: https://www.vistosi.it/prodotti/cheope-09/sospensione.html mancano: 290
+12:59:53: processo: https://www.vistosi.it/prodotti/chimera/soffitto.html mancano: 289
+13:00:03: processo: https://www.vistosi.it/prodotti/chimera/sospensione.html mancano: 288
+13:00:10: processo: https://www.vistosi.it/prodotti/chimera/parete.html mancano: 287
+13:00:19: processo: https://www.vistosi.it/prodotti/chimera/tavolo.html mancano: 286
+13:00:26: processo: https://www.vistosi.it/prodotti/chimera/piantana.html mancano: 285
+13:00:34: processo: https://www.vistosi.it/prodotti/chimera-09/soffitto.html mancano: 284
+13:00:44: processo: https://www.vistosi.it/prodotti/chimera-09/sospensione.html mancano: 283
+13:00:53: processo: https://www.vistosi.it/prodotti/chimera-09/parete.html mancano: 282
+13:01:02: processo: https://www.vistosi.it/prodotti/chimera-09/tavolo.html mancano: 281
+13:01:09: processo: https://www.vistosi.it/prodotti/chimera-09/piantana.html mancano: 280
+13:01:17: processo: https://www.vistosi.it/prodotti/cild/sospensione.html mancano: 279
+13:01:24: faccio super scroll della pagina
+13:01:29: processo: https://www.vistosi.it/prodotti/cild/parete.html mancano: 278
+13:01:40: processo: https://www.vistosi.it/prodotti/ciondo/sospensione.html mancano: 277
+13:01:50: processo: https://www.vistosi.it/prodotti/ciondo/parete.html mancano: 276
+13:01:54: processo: https://www.vistosi.it/prodotti/cleo/sospensione.html mancano: 275
+13:02:06: processo: https://www.vistosi.it/prodotti/cleo/parete.html mancano: 274
+13:02:15: processo: https://www.vistosi.it/prodotti/cloth/sospensione.html mancano: 273
+13:02:25: processo: https://www.vistosi.it/prodotti/cloth/parete.html mancano: 272
+13:02:34: processo: https://www.vistosi.it/prodotti/cloth/tavolo.html mancano: 271
+13:02:42: processo: https://www.vistosi.it/prodotti/cloth/piantana.html mancano: 270
+13:02:53: processo: https://www.vistosi.it/prodotti/comari/soffitto.html mancano: 269
+13:03:03: processo: https://www.vistosi.it/prodotti/comari/sospensione.html mancano: 268
+13:03:14: processo: https://www.vistosi.it/prodotti/comari/parete.html mancano: 267
+13:03:25: processo: https://www.vistosi.it/prodotti/comari/tavolo.html mancano: 266
+13:03:29: processo: https://www.vistosi.it/prodotti/corner/parete.html mancano: 265
+13:03:36: processo: https://www.vistosi.it/prodotti/cristallina/sospensione.html mancano: 264
+13:03:44: processo: https://www.vistosi.it/prodotti/dafne/parete.html mancano: 263
+13:03:53: processo: https://www.vistosi.it/prodotti/damasco/sospensione.html mancano: 262
+13:04:00: faccio super scroll della pagina
+13:04:07: processo: https://www.vistosi.it/prodotti/damasco/parete.html mancano: 261
+13:04:12: processo: https://www.vistosi.it/prodotti/damasco/tavolo.html mancano: 260
+13:04:20: processo: https://www.vistosi.it/prodotti/damasco/piantana.html mancano: 259
+13:04:28: processo: https://www.vistosi.it/prodotti/damasco/faretto.html mancano: 258
+13:04:32: processo: https://www.vistosi.it/prodotti/diadema/soffitto.html mancano: 257
+13:04:40: processo: https://www.vistosi.it/prodotti/diadema/sospensione.html mancano: 256
+13:04:49: faccio super scroll della pagina
+13:04:57: processo: https://www.vistosi.it/prodotti/diadema/parete.html mancano: 255
+13:05:06: processo: https://www.vistosi.it/prodotti/diadema/tavolo.html mancano: 254
+13:05:13: processo: https://www.vistosi.it/prodotti/diadema/piantana.html mancano: 253
+13:05:23: processo: https://www.vistosi.it/prodotti/diadema/faretto.html mancano: 252
+13:05:34: processo: https://www.vistosi.it/prodotti/diamante/soffitto.html mancano: 251
+13:05:43: processo: https://www.vistosi.it/prodotti/diamante/sospensione.html mancano: 250
+13:05:51: processo: https://www.vistosi.it/prodotti/diamante/parete.html mancano: 249
+13:06:01: processo: https://www.vistosi.it/prodotti/diamante/tavolo.html mancano: 248
+13:06:10: processo: https://www.vistosi.it/prodotti/diamante/faretto.html mancano: 247
+13:06:21: processo: https://www.vistosi.it/prodotti/dodo/soffitto.html mancano: 246
+13:06:30: processo: https://www.vistosi.it/prodotti/dodo/parete.html mancano: 245
+13:06:40: processo: https://www.vistosi.it/prodotti/dogi/soffitto.html mancano: 244
+13:06:47: processo: https://www.vistosi.it/prodotti/dogi/parete.html mancano: 243
+13:06:58: processo: https://www.vistosi.it/prodotti/dos/sospensione.html mancano: 242
+13:07:04: processo: https://www.vistosi.it/prodotti/dos/parete.html mancano: 241
+13:07:12: processo: https://www.vistosi.it/prodotti/dress/soffitto.html mancano: 240
+13:07:18: processo: https://www.vistosi.it/prodotti/dress/sospensione.html mancano: 239
+13:07:22: processo: https://www.vistosi.it/prodotti/dress/parete.html mancano: 238
+13:07:29: processo: https://www.vistosi.it/prodotti/ecos/soffitto.html mancano: 237
+13:07:37: processo: https://www.vistosi.it/prodotti/ecos/sospensione.html mancano: 236
+13:07:46: processo: https://www.vistosi.it/prodotti/ecos/parete.html mancano: 235
+13:07:54: processo: https://www.vistosi.it/prodotti/ecos/piantana.html mancano: 234
+13:08:09: processo: https://www.vistosi.it/prodotti/enne-luci/sospensione.html mancano: 233
+13:08:21: processo: https://www.vistosi.it/prodotti/enne-luci/parete.html mancano: 232
+13:08:26: processo: https://www.vistosi.it/prodotti/enne-luci/tavolo.html mancano: 231
+13:08:34: processo: https://www.vistosi.it/prodotti/enne-luci/piantana.html mancano: 230
+13:08:40: processo: https://www.vistosi.it/prodotti/essence/sospensione.html mancano: 229
+13:08:45: processo: https://www.vistosi.it/prodotti/essence/tavolo.html mancano: 228
+13:08:55: processo: https://www.vistosi.it/prodotti/essence/piantana.html mancano: 227
+13:09:04: processo: https://www.vistosi.it/prodotti/ferea/sospensione.html mancano: 226
+13:09:11: processo: https://www.vistosi.it/prodotti/ferea/parete.html mancano: 225
+13:09:17: processo: https://www.vistosi.it/prodotti/ferea/tavolo.html mancano: 224
+15:56:14: PROCESSO: ../xls/flos
+15:56:15: ../xls/flos
+15:56:29: PROCESSO: ../xls/flos
+15:56:45: PROCESSO: ../xls/flos
+15:56:57: PROCESSO: ../xls/flos
+15:56:58: flos
+16:06:23: PROCESSO: ../xls/flos
+16:06:24: 0
+16:06:24: 1
+16:06:24: 2
+16:06:24: 3
+16:06:24: 4
+16:06:24: 5
+16:06:24: 6
+16:06:24: 7
+16:06:24: 8
+16:06:24: 9
+16:06:24: 10
+16:06:24: 11
+16:06:24: 12
+16:06:24: 13
+16:06:24: 14
+16:06:24: 15
+16:06:24: 16
+16:06:24: 17
+16:06:24: 18
+16:06:24: 19
+16:06:24: 20
+16:06:24: 21
+16:06:24: 22
+16:06:24: 23
+16:06:24: 24
+16:06:24: 25
+16:06:24: 26
+16:06:24: 27
+16:06:24: 28
+16:06:24: 29
+16:06:24: 30
+16:06:24: 31
+16:06:24: 32
+16:06:24: 33
+16:06:24: 34
+16:06:24: 35
+16:06:24: 36
+16:06:24: 37
+16:06:24: 38
+16:06:24: 39
+16:06:24: 40
+16:06:24: 41
+16:06:24: 42
+16:06:24: 43
+16:06:24: 44
+16:06:24: 45
+16:08:51: PROCESSO: ../xls/flos
+16:08:52: F0090009,F0408030,F1032009,F1037046,F1570009,F2521009,F3150030,F5400009,F5600009,F6481030
+16:11:14: PROCESSO: ../xls/flos
+16:11:15: F0090009
+16:11:15: F0090009
+16:11:15: F0090009
+16:11:15: F0408030
+16:11:15: F0408030
+16:11:15: F0408030
+16:11:15: F1032009
+16:11:15: F1032009
+16:11:15: F1032009
+16:11:15: F1032009
+16:11:15: F1032009
+16:11:15: F1032009
+16:11:15: F1037046
+16:11:15: F1037046
+16:11:15: F1037046
+16:11:15: F1037046
+16:11:15: F1037046
+16:11:15: F1037046
+16:11:15: F1037046
+16:11:15: F1570009
+16:11:15: F1570009
+16:11:15: F1570009
+16:11:15: F1570009
+16:11:15: F2521009
+16:11:15: F2521009
+16:11:15: F2521009
+16:11:15: F2521009
+16:11:15: F2521009
+16:11:15: F2521009
+16:11:15: F2521009
+16:11:15: F2521009
+16:11:15: F2521009
+16:11:15: F2521009
+16:11:15: F3150030
+16:11:15: F5400009
+16:11:15: F5400009
+16:11:15: F5400009
+16:11:15: F5400009
+16:11:15: F5600009
+16:11:15: F5600009
+16:11:15: F5600009
+16:11:15: F5600009
+16:11:15: F6481030
+16:11:15: F6481030
+16:11:15: F6481030
+16:11:15: F0090009
+16:11:15: 
+16:13:29: PROCESSO: ../xls/flos
+16:13:30: F0090009,F0408030,F1032009,F1037046,F1570009,F2521009,F3150030,F5400009,F5600009,F6481030
+16:17:33: PROCESSO: ../xls/flos
+16:17:34: undefined
+16:17:34: F0090009
+16:17:34: undefined
+16:17:34: F0090009
+16:17:34: undefined
+16:17:34: F0090009
+16:17:34: undefined
+16:17:34: F0408030
+16:17:34: undefined
+16:17:34: F0408030
+16:17:34: undefined
+16:17:34: F0408030
+16:17:34: undefined
+16:17:34: F1032009
+16:17:34: undefined
+16:17:34: F1032009
+16:17:34: undefined
+16:17:34: F1032009
+16:17:34: undefined
+16:17:34: F1032009
+16:17:34: undefined
+16:17:34: F1032009
+16:17:34: undefined
+16:17:34: F1032009
+16:17:34: undefined
+16:17:34: F1037046
+16:17:34: undefined
+16:17:34: F1037046
+16:17:34: undefined
+16:17:34: F1037046
+16:17:34: undefined
+16:17:34: F1037046
+16:17:34: undefined
+16:17:34: F1037046
+16:17:34: undefined
+16:17:34: F1037046
+16:17:34: undefined
+16:17:34: F1037046
+16:17:34: undefined
+16:17:34: F1570009
+16:17:34: undefined
+16:17:34: F1570009
+16:17:34: undefined
+16:17:34: F1570009
+16:17:34: undefined
+16:17:34: F1570009
+16:17:34: undefined
+16:17:34: F2521009
+16:17:34: undefined
+16:17:34: F2521009
+16:17:34: undefined
+16:17:34: F2521009
+16:17:34: undefined
+16:17:34: F2521009
+16:17:34: undefined
+16:17:34: F2521009
+16:17:34: undefined
+16:17:34: F2521009
+16:17:34: undefined
+16:17:34: F2521009
+16:17:34: undefined
+16:17:34: F2521009
+16:17:34: undefined
+16:17:34: F2521009
+16:17:34: undefined
+16:17:34: F2521009
+16:17:34: undefined
+16:17:34: F3150030
+16:17:34: undefined
+16:17:34: F5400009
+16:17:34: undefined
+16:17:34: F5400009
+16:17:34: undefined
+16:17:34: F5400009
+16:17:34: undefined
+16:17:34: F5400009
+16:17:34: undefined
+16:17:34: F5600009
+16:17:34: undefined
+16:17:34: F5600009
+16:17:34: undefined
+16:17:34: F5600009
+16:17:34: undefined
+16:17:34: F5600009
+16:17:34: undefined
+16:17:34: F6481030
+16:17:34: undefined
+16:17:34: F6481030
+16:17:34: undefined
+16:17:34: F6481030
+16:17:34: undefined
+16:17:34: F0090009
+16:18:05: PROCESSO: ../xls/flos
+16:18:06: F0093009
+16:18:06: F0090009
+16:18:06: F0093026
+16:18:06: F0090009
+16:18:06: F0093030
+16:18:06: F0090009
+16:18:06: F0415030
+16:18:06: F0408030
+16:18:06: F0416030
+16:18:06: F0408030
+16:18:06: F0418030
+16:18:06: F0408030
+16:18:06: F1033000
+16:18:06: F1032009
+16:18:06: F1033007
+16:18:06: F1032009
+16:18:06: F1033019
+16:18:06: F1032009
+16:18:06: F1033030
+16:18:06: F1032009
+16:18:06: F1033070
+16:18:06: F1032009
+16:18:06: F1033088
+16:18:06: F1032009
+16:18:06: F1036000
+16:18:06: F1037046
+16:18:06: F1036007
+16:18:06: F1037046
+16:18:06: F1036019
+16:18:06: F1037046
+16:18:06: F1036030
+16:18:06: F1037046
+16:18:06: F1036035
+16:18:06: F1037046
+16:18:06: F1036070
+16:18:06: F1037046
+16:18:06: F1036088
+16:18:06: F1037046
+16:18:06: F1571000
+16:18:06: F1570009
+16:18:06: F1571015
+16:18:06: F1570009
+16:18:06: F1571030A
+16:18:06: F1570009
+16:18:06: F1571057
+16:18:06: F1570009
+16:18:06: F2522009
+16:18:06: F2521009
+16:18:06: F2522030
+16:18:06: F2521009
+16:18:06: F2523009
+16:18:06: F2521009
+16:18:06: F2523030
+16:18:06: F2521009
+16:18:06: F2524009
+16:18:06: F2521009
+16:18:06: F2524030
+16:18:06: F2521009
+16:18:06: F2525009
+16:18:06: F2521009
+16:18:06: F2525030
+16:18:06: F2521009
+16:18:06: F2526009
+16:18:06: F2521009
+16:18:06: F2526030
+16:18:06: F2521009
+16:18:06: F3125000
+16:18:06: F3150030
+16:18:06: F5500009
+16:18:06: F5400009
+16:18:06: F5500030
+16:18:06: F5400009
+16:18:06: F5500035
+16:18:06: F5400009
+16:18:06: F5500058
+16:18:06: F5400009
+16:18:06: F5700009
+16:18:06: F5600009
+16:18:06: F5700030
+16:18:06: F5600009
+16:18:06: F5700035
+16:18:06: F5600009
+16:18:06: F5700058
+16:18:06: F5600009
+16:18:06: F6482030
+16:18:06: F6481030
+16:18:06: F6484030
+16:18:06: F6481030
+16:18:06: F6485030
+16:18:06: F6481030
+16:18:06: RF22227
+16:18:06: F0090009
+16:20:37: PROCESSO: ../xls/flos
+16:21:49: PROCESSO: ../xls/flos
+16:22:15: PROCESSO: ../xls/flos
+16:22:39: PROCESSO: ../xls/flos
+16:23:04: PROCESSO: ../xls/flos
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:05: we2
+16:23:59: PROCESSO: ../xls/flos
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:24:00: we2
+16:25:32: PROCESSO: ../xls/flos
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:25:33: fatto
+16:26:12: PROCESSO: ../xls/flos
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:26:13: fatto
+16:28:19: PROCESSO: ../xls/flos
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:20: fatto
+16:28:48: PROCESSO: ../xls/flos
+16:28:58: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+16:29:49: PROCESSO: ../xls/flos
+16:30:00: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+16:30:28: PROCESSO: ../xls/flos
+16:31:29: PROCESSO: ../xls/flos
+16:32:05: PROCESSO: ../xls/flos
+16:32:53: PROCESSO: ../xls/flos
+16:33:11: PROCESSO: ../xls/flos
+16:33:32: PROCESSO: ../xls/flos
+16:33:53: PROCESSO: ../xls/flos
+16:35:22: PROCESSO: ../xls/flos
+16:36:35: PROCESSO: ../xls/flos
+16:37:03: PROCESSO: ../xls/flos
+16:39:03: PROCESSO: ../xls/flos
+16:39:12: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+16:41:31: PROCESSO: ../xls/flos
+16:43:06: PROCESSO: ../xls/flos
+16:45:21: PROCESSO: ../xls/flos
+16:46:16: PROCESSO: ../xls/flos
+16:53:42: PROCESSO: ../xls/flos
+16:56:05: PROCESSO: ../xls/flos
+16:57:03: PROCESSO: ../xls/flos
+16:59:05: PROCESSO: ../xls/flos
+17:00:16: PROCESSO: ../xls/flos
+17:01:15: PROCESSO: ../xls/flos
+17:02:25: PROCESSO: ../xls/flos
+17:05:05: PROCESSO: ../xls/flos
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:06: we
+17:05:47: PROCESSO: ../xls/flos
+17:06:42: PROCESSO: ../xls/flos
+17:07:32: PROCESSO: ../xls/flos
+17:08:07: PROCESSO: ../xls/flos
+17:09:02: PROCESSO: ../xls/flos
+17:09:45: PROCESSO: ../xls/flos
+17:10:51: PROCESSO: ../xls/flos
+17:11:36: PROCESSO: ../xls/flos
+17:11:50: PROCESSO: ../xls/flos
+17:12:20: PROCESSO: ../xls/flos
+17:22:26: PROCESSO: ../xls/flos
+18:26:35: processo: https://www.vistosi.it/prodotti/24pearls/sospensione.html mancano: 340
+18:26:38: processo: https://www.vistosi.it/prodotti/accademia/soffitto.html mancano: 339
+18:26:40: processo: https://www.vistosi.it/prodotti/accademia/parete.html mancano: 338
+18:26:42: processo: https://www.vistosi.it/prodotti/alega/tavolo.html mancano: 337
+18:26:43: processo: https://www.vistosi.it/prodotti/aliki/soffitto.html mancano: 336
+18:26:45: processo: https://www.vistosi.it/prodotti/aliki/sospensione.html mancano: 335
+18:26:47: processo: https://www.vistosi.it/prodotti/aliki/parete.html mancano: 334
+18:26:49: faccio super scroll della pagina
+18:26:50: processo: https://www.vistosi.it/prodotti/alma/sospensione.html mancano: 333
+18:26:52: processo: https://www.vistosi.it/prodotti/alma/parete.html mancano: 332
+18:26:54: processo: https://www.vistosi.it/prodotti/alum/sospensione.html mancano: 331
+18:26:56: processo: https://www.vistosi.it/prodotti/alum/parete.html mancano: 330
+18:26:58: processo: https://www.vistosi.it/prodotti/alum09/soffitto.html mancano: 329
+18:27:01: processo: https://www.vistosi.it/prodotti/alum09/sospensione.html mancano: 328
+18:27:03: processo: https://www.vistosi.it/prodotti/alum09/parete.html mancano: 327
+18:27:05: processo: https://www.vistosi.it/prodotti/aria/sospensione.html mancano: 326
+18:27:07: processo: https://www.vistosi.it/prodotti/assiba/soffitto.html mancano: 325
+18:27:09: processo: https://www.vistosi.it/prodotti/assiba/sospensione.html mancano: 324
+18:27:11: faccio super scroll della pagina
+18:27:12: processo: https://www.vistosi.it/prodotti/assiba/parete.html mancano: 323
+18:27:14: processo: https://www.vistosi.it/prodotti/assiba/tavolo.html mancano: 322
+18:27:16: processo: https://www.vistosi.it/prodotti/aurea/sospensione.html mancano: 321
+18:27:18: processo: https://www.vistosi.it/prodotti/aurora/soffitto.html mancano: 320
+18:27:20: processo: https://www.vistosi.it/prodotti/aurora/sospensione.html mancano: 319
+18:27:23: faccio super scroll della pagina
+18:27:24: processo: https://www.vistosi.it/prodotti/aurora/parete.html mancano: 318
+18:27:26: processo: https://www.vistosi.it/prodotti/baco/sospensione.html mancano: 317
+18:27:28: processo: https://www.vistosi.it/prodotti/baco/parete.html mancano: 316
+18:27:30: processo: https://www.vistosi.it/prodotti/bacona/sospensione.html mancano: 315
+18:27:32: processo: https://www.vistosi.it/prodotti/bacona/parete.html mancano: 314
+18:27:34: processo: https://www.vistosi.it/prodotti/balance/soffitto.html mancano: 313
+18:27:36: processo: https://www.vistosi.it/prodotti/balance/sospensione.html mancano: 312
+18:27:39: faccio super scroll della pagina
+18:27:40: processo: https://www.vistosi.it/prodotti/balance/parete.html mancano: 311
+18:27:42: processo: https://www.vistosi.it/prodotti/bauta/sospensione.html mancano: 310
+18:27:44: processo: https://www.vistosi.it/prodotti/bianca/soffitto.html mancano: 309
+18:27:46: faccio super scroll della pagina
+18:27:47: processo: https://www.vistosi.it/prodotti/bianca/sospensione.html mancano: 308
+18:27:49: faccio super scroll della pagina
+18:27:50: processo: https://www.vistosi.it/prodotti/bianca/parete.html mancano: 307
+18:27:52: faccio super scroll della pagina
+18:27:53: processo: https://www.vistosi.it/prodotti/bissa/tavolo.html mancano: 306
+18:27:55: processo: https://www.vistosi.it/prodotti/bissona/tavolo.html mancano: 305
+18:27:57: processo: https://www.vistosi.it/prodotti/boccia/parete.html mancano: 304
+18:27:59: processo: https://www.vistosi.it/prodotti/bolle/soffitto.html mancano: 303
+18:28:02: processo: https://www.vistosi.it/prodotti/bolle/sospensione.html mancano: 302
+18:28:04: faccio super scroll della pagina
+18:28:05: processo: https://www.vistosi.it/prodotti/bolle/tavolo.html mancano: 301
+18:28:11: processo: https://www.vistosi.it/prodotti/bolle/faretto.html mancano: 300
+18:28:13: processo: https://www.vistosi.it/prodotti/boreale/soffitto.html mancano: 299
+18:28:15: processo: https://www.vistosi.it/prodotti/boreale/sospensione.html mancano: 298
+18:28:17: processo: https://www.vistosi.it/prodotti/bot/soffitto.html mancano: 297
+18:28:19: processo: https://www.vistosi.it/prodotti/bot/sospensione.html mancano: 296
+18:28:21: faccio super scroll della pagina
+18:28:22: processo: https://www.vistosi.it/prodotti/bot/parete.html mancano: 295
+18:28:24: processo: https://www.vistosi.it/prodotti/bot/tavolo.html mancano: 294
+18:28:26: processo: https://www.vistosi.it/prodotti/bot/faretto.html mancano: 293
+18:28:28: processo: https://www.vistosi.it/prodotti/candela/sospensione.html mancano: 292
+18:28:30: processo: https://www.vistosi.it/prodotti/cheope/sospensione.html mancano: 291
+18:28:34: processo: https://www.vistosi.it/prodotti/cheope-09/sospensione.html mancano: 290
+18:28:37: processo: https://www.vistosi.it/prodotti/chimera/soffitto.html mancano: 289
+18:28:44: processo: https://www.vistosi.it/prodotti/chimera/sospensione.html mancano: 288
+18:28:46: processo: https://www.vistosi.it/prodotti/chimera/parete.html mancano: 287
+18:28:50: processo: https://www.vistosi.it/prodotti/chimera/tavolo.html mancano: 286
+18:28:53: processo: https://www.vistosi.it/prodotti/chimera/piantana.html mancano: 285
+18:28:57: processo: https://www.vistosi.it/prodotti/chimera-09/soffitto.html mancano: 284
+18:28:59: processo: https://www.vistosi.it/prodotti/chimera-09/sospensione.html mancano: 283
+18:29:02: processo: https://www.vistosi.it/prodotti/chimera-09/parete.html mancano: 282
+18:29:05: processo: https://www.vistosi.it/prodotti/chimera-09/tavolo.html mancano: 281
+18:29:07: processo: https://www.vistosi.it/prodotti/chimera-09/piantana.html mancano: 280
+18:29:09: processo: https://www.vistosi.it/prodotti/cild/sospensione.html mancano: 279
+18:29:11: faccio super scroll della pagina
+18:29:13: processo: https://www.vistosi.it/prodotti/cild/parete.html mancano: 278
+18:29:19: processo: https://www.vistosi.it/prodotti/ciondo/sospensione.html mancano: 277
+18:29:24: processo: https://www.vistosi.it/prodotti/ciondo/parete.html mancano: 276
+18:29:27: processo: https://www.vistosi.it/prodotti/cleo/sospensione.html mancano: 275
+18:29:29: processo: https://www.vistosi.it/prodotti/cleo/parete.html mancano: 274
+18:29:31: processo: https://www.vistosi.it/prodotti/cloth/sospensione.html mancano: 273
+18:29:33: processo: https://www.vistosi.it/prodotti/cloth/parete.html mancano: 272
+18:29:37: processo: https://www.vistosi.it/prodotti/cloth/tavolo.html mancano: 271
+18:29:42: processo: https://www.vistosi.it/prodotti/cloth/piantana.html mancano: 270
+18:29:46: processo: https://www.vistosi.it/prodotti/comari/soffitto.html mancano: 269
+18:29:49: processo: https://www.vistosi.it/prodotti/comari/sospensione.html mancano: 268
+18:29:51: processo: https://www.vistosi.it/prodotti/comari/parete.html mancano: 267
+18:29:53: processo: https://www.vistosi.it/prodotti/comari/tavolo.html mancano: 266
+18:29:55: processo: https://www.vistosi.it/prodotti/corner/parete.html mancano: 265
+18:29:57: processo: https://www.vistosi.it/prodotti/cristallina/sospensione.html mancano: 264
+18:30:00: processo: https://www.vistosi.it/prodotti/dafne/parete.html mancano: 263
+18:30:02: processo: https://www.vistosi.it/prodotti/damasco/sospensione.html mancano: 262
+18:30:04: faccio super scroll della pagina
+18:30:06: processo: https://www.vistosi.it/prodotti/damasco/parete.html mancano: 261
+18:30:08: processo: https://www.vistosi.it/prodotti/damasco/tavolo.html mancano: 260
+18:30:10: processo: https://www.vistosi.it/prodotti/damasco/piantana.html mancano: 259
+18:30:12: processo: https://www.vistosi.it/prodotti/damasco/faretto.html mancano: 258
+18:30:14: processo: https://www.vistosi.it/prodotti/diadema/soffitto.html mancano: 257
+18:30:16: processo: https://www.vistosi.it/prodotti/diadema/sospensione.html mancano: 256
+18:30:18: faccio super scroll della pagina
+18:30:22: processo: https://www.vistosi.it/prodotti/diadema/parete.html mancano: 255
+18:30:24: processo: https://www.vistosi.it/prodotti/diadema/tavolo.html mancano: 254
+18:30:26: processo: https://www.vistosi.it/prodotti/diadema/piantana.html mancano: 253
+18:30:28: processo: https://www.vistosi.it/prodotti/diadema/faretto.html mancano: 252
+18:30:30: processo: https://www.vistosi.it/prodotti/diamante/soffitto.html mancano: 251
+18:30:32: processo: https://www.vistosi.it/prodotti/diamante/sospensione.html mancano: 250
+18:30:34: processo: https://www.vistosi.it/prodotti/diamante/parete.html mancano: 249
+18:30:36: processo: https://www.vistosi.it/prodotti/diamante/tavolo.html mancano: 248
+18:30:40: processo: https://www.vistosi.it/prodotti/diamante/faretto.html mancano: 247
+18:30:42: processo: https://www.vistosi.it/prodotti/dodo/soffitto.html mancano: 246
+18:30:45: processo: https://www.vistosi.it/prodotti/dodo/parete.html mancano: 245
+18:30:47: processo: https://www.vistosi.it/prodotti/dogi/soffitto.html mancano: 244
+18:30:49: processo: https://www.vistosi.it/prodotti/dogi/parete.html mancano: 243
+18:30:51: processo: https://www.vistosi.it/prodotti/dos/sospensione.html mancano: 242
+18:30:54: processo: https://www.vistosi.it/prodotti/dos/parete.html mancano: 241
+18:30:56: processo: https://www.vistosi.it/prodotti/dress/soffitto.html mancano: 240
+18:30:58: processo: https://www.vistosi.it/prodotti/dress/sospensione.html mancano: 239
+18:31:00: processo: https://www.vistosi.it/prodotti/dress/parete.html mancano: 238
+18:31:02: processo: https://www.vistosi.it/prodotti/ecos/soffitto.html mancano: 237
+18:31:04: processo: https://www.vistosi.it/prodotti/ecos/sospensione.html mancano: 236
+18:31:06: processo: https://www.vistosi.it/prodotti/ecos/parete.html mancano: 235
+18:31:08: processo: https://www.vistosi.it/prodotti/ecos/piantana.html mancano: 234
+18:31:10: processo: https://www.vistosi.it/prodotti/enne-luci/sospensione.html mancano: 233
+18:31:12: processo: https://www.vistosi.it/prodotti/enne-luci/parete.html mancano: 232
+18:31:14: processo: https://www.vistosi.it/prodotti/enne-luci/tavolo.html mancano: 231
+18:31:16: processo: https://www.vistosi.it/prodotti/enne-luci/piantana.html mancano: 230
+18:31:18: processo: https://www.vistosi.it/prodotti/essence/sospensione.html mancano: 229
+18:31:21: processo: https://www.vistosi.it/prodotti/essence/tavolo.html mancano: 228
+18:31:23: processo: https://www.vistosi.it/prodotti/essence/piantana.html mancano: 227
+18:31:25: processo: https://www.vistosi.it/prodotti/ferea/sospensione.html mancano: 226
+18:31:27: processo: https://www.vistosi.it/prodotti/ferea/parete.html mancano: 225
+18:31:29: processo: https://www.vistosi.it/prodotti/ferea/tavolo.html mancano: 224
+18:31:31: processo: https://www.vistosi.it/prodotti/ferea/piantana.html mancano: 223
+18:31:33: processo: https://www.vistosi.it/prodotti/follia/soffitto.html mancano: 222
+18:31:36: processo: https://www.vistosi.it/prodotti/follia/sospensione.html mancano: 221
+18:31:39: faccio super scroll della pagina
+18:31:40: processo: https://www.vistosi.it/prodotti/follia/parete.html mancano: 220
+18:31:42: processo: https://www.vistosi.it/prodotti/follia/tavolo.html mancano: 219
+18:31:44: processo: https://www.vistosi.it/prodotti/fuochi/soffitto.html mancano: 218
+18:31:46: processo: https://www.vistosi.it/prodotti/fuochi/parete.html mancano: 217
+18:31:49: processo: https://www.vistosi.it/prodotti/futura/soffitto.html mancano: 216
+18:31:51: processo: https://www.vistosi.it/prodotti/futura/sospensione.html mancano: 215
+18:31:53: processo: https://www.vistosi.it/prodotti/futura/parete.html mancano: 214
+18:31:56: processo: https://www.vistosi.it/prodotti/futura/tavolo.html mancano: 213
+18:31:58: processo: https://www.vistosi.it/prodotti/futura/piantana.html mancano: 212
+18:32:00: processo: https://www.vistosi.it/prodotti/giglio/parete.html mancano: 211
+18:32:02: processo: https://www.vistosi.it/prodotti/giogali/soffitto.html mancano: 210
+18:32:05: processo: https://www.vistosi.it/prodotti/giogali/sospensione.html mancano: 209
+18:32:07: processo: https://www.vistosi.it/prodotti/giogali/parete.html mancano: 208
+18:32:10: processo: https://www.vistosi.it/prodotti/giogali/piantana.html mancano: 207
+18:32:12: processo: https://www.vistosi.it/prodotti/giogali-3d/sospensione.html mancano: 206
+18:32:14: processo: https://www.vistosi.it/prodotti/giubileo/soffitto.html mancano: 205
+18:32:16: processo: https://www.vistosi.it/prodotti/giubileo/sospensione.html mancano: 204
+18:32:19: processo: https://www.vistosi.it/prodotti/giubileo/parete.html mancano: 203
+18:32:21: processo: https://www.vistosi.it/prodotti/giudecca/soffitto.html mancano: 202
+18:32:23: processo: https://www.vistosi.it/prodotti/giudecca/sospensione.html mancano: 201
+18:32:25: processo: https://www.vistosi.it/prodotti/giudecca/parete.html mancano: 200
+18:32:28: processo: https://www.vistosi.it/prodotti/gloria/soffitto.html mancano: 199
+18:32:30: processo: https://www.vistosi.it/prodotti/gloria/sospensione.html mancano: 198
+18:32:33: processo: https://www.vistosi.it/prodotti/gloria/parete.html mancano: 197
+18:32:35: processo: https://www.vistosi.it/prodotti/gloria/tavolo.html mancano: 196
+18:32:38: processo: https://www.vistosi.it/prodotti/gloria/piantana.html mancano: 195
+18:32:40: processo: https://www.vistosi.it/prodotti/goccia/parete.html mancano: 194
+18:32:41: processo: https://www.vistosi.it/prodotti/goto/soffitto.html mancano: 193
+18:32:43: processo: https://www.vistosi.it/prodotti/goto/sospensione.html mancano: 192
+18:32:45: processo: https://www.vistosi.it/prodotti/goto/parete.html mancano: 191
+18:32:48: processo: https://www.vistosi.it/prodotti/goto/tavolo.html mancano: 190
+18:32:50: processo: https://www.vistosi.it/prodotti/implode/soffitto.html mancano: 189
+18:32:52: processo: https://www.vistosi.it/prodotti/implode/sospensione.html mancano: 188
+18:32:57: faccio super scroll della pagina
+18:32:58: processo: https://www.vistosi.it/prodotti/implode/tavolo.html mancano: 187
+18:32:59: processo: https://www.vistosi.it/prodotti/implode/faretto.html mancano: 186
+18:33:02: processo: https://www.vistosi.it/prodotti/incass/soffitto.html mancano: 185
+18:33:04: processo: https://www.vistosi.it/prodotti/incass/parete.html mancano: 184
+18:33:06: processo: https://www.vistosi.it/prodotti/infinita/soffitto.html mancano: 183
+18:33:08: processo: https://www.vistosi.it/prodotti/infinita/sospensione.html mancano: 182
+18:33:10: faccio super scroll della pagina
+18:33:13: processo: https://www.vistosi.it/prodotti/infinita/parete.html mancano: 181
+18:33:18: processo: https://www.vistosi.it/prodotti/jo/tavolo.html mancano: 180
+18:33:20: processo: https://www.vistosi.it/prodotti/jube/sospensione.html mancano: 179
+18:33:22: processo: https://www.vistosi.it/prodotti/kira/sospensione.html mancano: 178
+18:33:24: processo: https://www.vistosi.it/prodotti/lacrima/sospensione.html mancano: 177
+18:33:27: processo: https://www.vistosi.it/prodotti/laguna/sospensione.html mancano: 176
+18:33:30: processo: https://www.vistosi.it/prodotti/laguna/parete.html mancano: 175
+18:33:37: processo: https://www.vistosi.it/prodotti/laguna/tavolo.html mancano: 174
+18:33:40: processo: https://www.vistosi.it/prodotti/laguna/piantana.html mancano: 173
+18:33:42: processo: https://www.vistosi.it/prodotti/lepanto/sospensione.html mancano: 172
+18:33:45: processo: https://www.vistosi.it/prodotti/lepanto/piantana.html mancano: 171
+18:33:48: processo: https://www.vistosi.it/prodotti/lio/soffitto.html mancano: 170
+18:33:51: processo: https://www.vistosi.it/prodotti/lio/sospensione.html mancano: 169
+18:33:53: faccio super scroll della pagina
+18:33:54: processo: https://www.vistosi.it/prodotti/lio/parete.html mancano: 168
+18:33:56: faccio super scroll della pagina
+18:33:57: processo: https://www.vistosi.it/prodotti/lio/tavolo.html mancano: 167
+18:33:59: processo: https://www.vistosi.it/prodotti/lio/piantana.html mancano: 166
+18:34:01: processo: https://www.vistosi.it/prodotti/lio/faretto.html mancano: 165
+18:34:03: processo: https://www.vistosi.it/prodotti/lucciola/soffitto.html mancano: 164
+18:34:06: processo: https://www.vistosi.it/prodotti/lucciola/sospensione.html mancano: 163
+18:34:08: faccio super scroll della pagina
+18:34:10: processo: https://www.vistosi.it/prodotti/lucciola/parete.html mancano: 162
+18:34:13: processo: https://www.vistosi.it/prodotti/lucciola/tavolo.html mancano: 161
+18:34:17: processo: https://www.vistosi.it/prodotti/lucciola/piantana.html mancano: 160
+18:34:20: processo: https://www.vistosi.it/prodotti/lucciola/faretto.html mancano: 159
+18:34:22: processo: https://www.vistosi.it/prodotti/lunae/parete.html mancano: 158
+18:34:25: processo: https://www.vistosi.it/prodotti/luxor/sospensione.html mancano: 157
+18:34:29: processo: https://www.vistosi.it/prodotti/luxor/parete.html mancano: 156
+18:34:34: processo: https://www.vistosi.it/prodotti/magie/sospensione.html mancano: 155
+18:34:37: processo: https://www.vistosi.it/prodotti/magie/faretto.html mancano: 154
+18:34:39: processo: https://www.vistosi.it/prodotti/marblè/soffitto.html mancano: 153
+18:34:41: processo: https://www.vistosi.it/prodotti/marblè/sospensione.html mancano: 152
+18:34:45: processo: https://www.vistosi.it/prodotti/marblè/parete.html mancano: 151
+18:34:47: processo: https://www.vistosi.it/prodotti/marblè/tavolo.html mancano: 150
+18:34:54: processo: https://www.vistosi.it/prodotti/marblè/piantana.html mancano: 149
+18:35:01: processo: https://www.vistosi.it/prodotti/marea/soffitto.html mancano: 148
+18:35:02: processo: https://www.vistosi.it/prodotti/marea/parete.html mancano: 147
+18:35:04: processo: https://www.vistosi.it/prodotti/mia/soffitto.html mancano: 146
+18:35:06: processo: https://www.vistosi.it/prodotti/mia/sospensione.html mancano: 145
+18:35:09: processo: https://www.vistosi.it/prodotti/mia/parete.html mancano: 144
+18:35:11: processo: https://www.vistosi.it/prodotti/mini-giogali/soffitto.html mancano: 143
+18:35:13: processo: https://www.vistosi.it/prodotti/mini-giogali/sospensione.html mancano: 142
+18:35:15: processo: https://www.vistosi.it/prodotti/mini-giogali/parete.html mancano: 141
+18:35:18: processo: https://www.vistosi.it/prodotti/mini-giogali/tavolo.html mancano: 140
+18:35:20: processo: https://www.vistosi.it/prodotti/mini-giogali/piantana.html mancano: 139
+18:35:22: processo: https://www.vistosi.it/prodotti/mirage/sospensione.html mancano: 138
+18:35:24: processo: https://www.vistosi.it/prodotti/moby/parete.html mancano: 137
+18:35:26: processo: https://www.vistosi.it/prodotti/moris/soffitto.html mancano: 136
+18:35:28: processo: https://www.vistosi.it/prodotti/moris/parete.html mancano: 135
+18:35:30: processo: https://www.vistosi.it/prodotti/morrise/soffitto.html mancano: 134
+18:35:32: processo: https://www.vistosi.it/prodotti/morrise/parete.html mancano: 133
+18:35:34: processo: https://www.vistosi.it/prodotti/morrise/tavolo.html mancano: 132
+18:35:36: processo: https://www.vistosi.it/prodotti/mumba/sospensione.html mancano: 131
+18:35:39: processo: https://www.vistosi.it/prodotti/mumba/parete.html mancano: 130
+18:35:41: processo: https://www.vistosi.it/prodotti/munega/soffitto.html mancano: 129
+18:35:43: processo: https://www.vistosi.it/prodotti/munega/sospensione.html mancano: 128
+18:35:45: processo: https://www.vistosi.it/prodotti/munega/tavolo.html mancano: 127
+18:35:48: processo: https://www.vistosi.it/prodotti/naranza/sospensione.html mancano: 126
+18:35:50: processo: https://www.vistosi.it/prodotti/naxos/sospensione.html mancano: 125
+18:35:52: processo: https://www.vistosi.it/prodotti/naxos/tavolo.html mancano: 124
+18:35:54: processo: https://www.vistosi.it/prodotti/naxos/piantana.html mancano: 123
+18:35:56: processo: https://www.vistosi.it/prodotti/nebula/soffitto.html mancano: 122
+18:35:58: processo: https://www.vistosi.it/prodotti/nebula/sospensione.html mancano: 121
+18:36:00: processo: https://www.vistosi.it/prodotti/neochic/soffitto.html mancano: 120
+18:36:03: processo: https://www.vistosi.it/prodotti/neochic/sospensione.html mancano: 119
+18:36:05: faccio super scroll della pagina
+18:36:06: processo: https://www.vistosi.it/prodotti/neochic/parete.html mancano: 118
+18:36:08: processo: https://www.vistosi.it/prodotti/nessa/tavolo.html mancano: 117
+18:36:11: processo: https://www.vistosi.it/prodotti/ninfea/sospensione.html mancano: 116
+18:36:13: processo: https://www.vistosi.it/prodotti/ninfea/parete.html mancano: 115
+18:36:15: processo: https://www.vistosi.it/prodotti/nodo/sospensione.html mancano: 114
+18:36:17: processo: https://www.vistosi.it/prodotti/noon/sospensione.html mancano: 113
+18:36:20: processo: https://www.vistosi.it/prodotti/norma/parete.html mancano: 112
+18:36:22: processo: https://www.vistosi.it/prodotti/novecento/soffitto.html mancano: 111
+18:36:24: processo: https://www.vistosi.it/prodotti/novecento/sospensione.html mancano: 110
+18:36:26: processo: https://www.vistosi.it/prodotti/novecento/tavolo.html mancano: 109
+18:36:28: processo: https://www.vistosi.it/prodotti/novecento/piantana.html mancano: 108
+18:36:30: processo: https://www.vistosi.it/prodotti/nuvole/soffitto.html mancano: 107
+18:36:32: faccio super scroll della pagina
+18:36:33: processo: https://www.vistosi.it/prodotti/nuvole/sospensione.html mancano: 106
+18:36:35: faccio super scroll della pagina
+18:36:37: processo: https://www.vistosi.it/prodotti/nuvole/parete.html mancano: 105
+18:36:39: faccio super scroll della pagina
+18:36:40: processo: https://www.vistosi.it/prodotti/oto/sospensione.html mancano: 104
+18:36:42: faccio super scroll della pagina
+18:36:43: processo: https://www.vistosi.it/prodotti/ovalina/parete.html mancano: 103
+18:36:45: processo: https://www.vistosi.it/prodotti/pagoda/soffitto.html mancano: 102
+18:36:47: processo: https://www.vistosi.it/prodotti/pagoda/sospensione.html mancano: 101
+18:36:49: processo: https://www.vistosi.it/prodotti/peggy/sospensione.html mancano: 100
+18:36:51: processo: https://www.vistosi.it/prodotti/peggy/parete.html mancano: 99
+18:36:53: processo: https://www.vistosi.it/prodotti/penta/soffitto.html mancano: 98
+18:36:55: processo: https://www.vistosi.it/prodotti/penta/sospensione.html mancano: 97
+18:36:57: processo: https://www.vistosi.it/prodotti/poc/sospensione.html mancano: 96
+18:36:59: faccio super scroll della pagina
+18:37:00: processo: https://www.vistosi.it/prodotti/poc/tavolo.html mancano: 95
+18:37:02: processo: https://www.vistosi.it/prodotti/poc/faretto.html mancano: 94
+18:37:04: processo: https://www.vistosi.it/prodotti/pod/soffitto.html mancano: 93
+18:37:06: processo: https://www.vistosi.it/prodotti/pod/sospensione.html mancano: 92
+18:37:08: processo: https://www.vistosi.it/prodotti/pod/parete.html mancano: 91
+18:37:11: processo: https://www.vistosi.it/prodotti/puppet/sospensione.html mancano: 90
+18:37:13: faccio super scroll della pagina
+18:37:14: processo: https://www.vistosi.it/prodotti/puppet/parete.html mancano: 89
+18:37:16: processo: https://www.vistosi.it/prodotti/puppet/tavolo.html mancano: 88
+18:37:18: processo: https://www.vistosi.it/prodotti/puppet/piantana.html mancano: 87
+18:37:19: processo: https://www.vistosi.it/prodotti/quadra/soffitto.html mancano: 86
+18:37:21: processo: https://www.vistosi.it/prodotti/quadra/parete.html mancano: 85
+18:37:23: processo: https://www.vistosi.it/prodotti/quadra-09/soffitto.html mancano: 84
+18:37:25: processo: https://www.vistosi.it/prodotti/quadra-09/parete.html mancano: 83
+18:37:27: processo: https://www.vistosi.it/prodotti/redentore/soffitto.html mancano: 82
+18:37:31: processo: https://www.vistosi.it/prodotti/redentore/parete.html mancano: 81
+18:37:34: processo: https://www.vistosi.it/prodotti/reder/sospensione.html mancano: 80
+18:37:37: processo: https://www.vistosi.it/prodotti/reder/parete.html mancano: 79
+18:37:39: processo: https://www.vistosi.it/prodotti/reder/tavolo.html mancano: 78
+18:37:41: processo: https://www.vistosi.it/prodotti/reder/piantana.html mancano: 77
+18:37:43: processo: https://www.vistosi.it/prodotti/rialto/soffitto.html mancano: 76
+18:37:45: processo: https://www.vistosi.it/prodotti/rialto/parete.html mancano: 75
+18:37:47: processo: https://www.vistosi.it/prodotti/riga/soffitto.html mancano: 74
+18:37:50: processo: https://www.vistosi.it/prodotti/riga/parete.html mancano: 73
+18:37:52: processo: https://www.vistosi.it/prodotti/rina/soffitto.html mancano: 72
+18:37:54: processo: https://www.vistosi.it/prodotti/rina/sospensione.html mancano: 71
+18:37:56: faccio super scroll della pagina
+18:37:58: processo: https://www.vistosi.it/prodotti/rina/tavolo.html mancano: 70
+18:38:00: processo: https://www.vistosi.it/prodotti/rina/piantana.html mancano: 69
+18:38:03: processo: https://www.vistosi.it/prodotti/rina/faretto.html mancano: 68
+18:38:05: processo: https://www.vistosi.it/prodotti/romanza/soffitto.html mancano: 67
+18:38:07: processo: https://www.vistosi.it/prodotti/romanza/parete.html mancano: 66
+18:38:10: processo: https://www.vistosi.it/prodotti/saba/soffitto.html mancano: 65
+18:38:12: faccio super scroll della pagina
+18:38:13: processo: https://www.vistosi.it/prodotti/saba/sospensione.html mancano: 64
+18:38:15: faccio super scroll della pagina
+18:38:17: processo: https://www.vistosi.it/prodotti/saba/parete.html mancano: 63
+18:38:19: faccio super scroll della pagina
+18:38:20: processo: https://www.vistosi.it/prodotti/san-giorgio/soffitto.html mancano: 62
+18:38:22: processo: https://www.vistosi.it/prodotti/san-giorgio/parete.html mancano: 61
+18:38:24: processo: https://www.vistosi.it/prodotti/san-marco/soffitto.html mancano: 60
+18:38:26: processo: https://www.vistosi.it/prodotti/san-marco/parete.html mancano: 59
+18:38:28: processo: https://www.vistosi.it/prodotti/sata/sospensione.html mancano: 58
+18:38:30: processo: https://www.vistosi.it/prodotti/sata/tavolo.html mancano: 57
+18:38:32: processo: https://www.vistosi.it/prodotti/sata/piantana.html mancano: 56
+18:38:34: processo: https://www.vistosi.it/prodotti/segreto/sospensione.html mancano: 55
+18:38:37: processo: https://www.vistosi.it/prodotti/segreto/parete.html mancano: 54
+18:38:39: processo: https://www.vistosi.it/prodotti/semai/sospensione.html mancano: 53
+18:38:41: faccio super scroll della pagina
+18:38:42: processo: https://www.vistosi.it/prodotti/sissi/sospensione.html mancano: 52
+18:38:44: processo: https://www.vistosi.it/prodotti/smoking/sospensione.html mancano: 51
+18:38:47: processo: https://www.vistosi.it/prodotti/smoking/piantana.html mancano: 50
+18:38:49: processo: https://www.vistosi.it/prodotti/soffio/soffitto.html mancano: 49
+18:38:51: processo: https://www.vistosi.it/prodotti/soffio/parete.html mancano: 48
+18:38:54: processo: https://www.vistosi.it/prodotti/soft/soffitto.html mancano: 47
+18:38:56: processo: https://www.vistosi.it/prodotti/soft/parete.html mancano: 46
+18:38:58: processo: https://www.vistosi.it/prodotti/sogno/soffitto.html mancano: 45
+18:39:01: processo: https://www.vistosi.it/prodotti/sogno/sospensione.html mancano: 44
+18:39:03: faccio super scroll della pagina
+18:39:04: processo: https://www.vistosi.it/prodotti/sogno/parete.html mancano: 43
+18:39:07: processo: https://www.vistosi.it/prodotti/sphere/sospensione.html mancano: 42
+18:39:09: processo: https://www.vistosi.it/prodotti/spirit/soffitto.html mancano: 41
+18:39:12: processo: https://www.vistosi.it/prodotti/spirit/sospensione.html mancano: 40
+18:39:14: faccio super scroll della pagina
+18:39:15: processo: https://www.vistosi.it/prodotti/spirit/parete.html mancano: 39
+18:39:18: processo: https://www.vistosi.it/prodotti/spirit/tavolo.html mancano: 38
+18:39:21: processo: https://www.vistosi.it/prodotti/sprout/soffitto.html mancano: 37
+18:39:24: processo: https://www.vistosi.it/prodotti/sprout/parete.html mancano: 36
+18:39:26: processo: https://www.vistosi.it/prodotti/stardust/sospensione.html mancano: 35
+18:39:28: processo: https://www.vistosi.it/prodotti/stardust/parete.html mancano: 34
+18:39:30: processo: https://www.vistosi.it/prodotti/starnet/sospensione.html mancano: 33
+18:39:32: processo: https://www.vistosi.it/prodotti/stone/sospensione.html mancano: 32
+18:39:34: processo: https://www.vistosi.it/prodotti/style/soffitto.html mancano: 31
+18:39:36: processo: https://www.vistosi.it/prodotti/style/sospensione.html mancano: 30
+18:39:38: faccio super scroll della pagina
+18:39:39: processo: https://www.vistosi.it/prodotti/style/parete.html mancano: 29
+18:39:42: processo: https://www.vistosi.it/prodotti/surface/sospensione.html mancano: 28
+18:39:45: processo: https://www.vistosi.it/prodotti/tablo/sospensione.html mancano: 27
+18:39:47: processo: https://www.vistosi.it/prodotti/tablo/tavolo.html mancano: 26
+18:39:49: processo: https://www.vistosi.it/prodotti/tablo/piantana.html mancano: 25
+18:39:51: processo: https://www.vistosi.it/prodotti/tahoma/sospensione.html mancano: 24
+18:39:53: processo: https://www.vistosi.it/prodotti/tahoma/parete.html mancano: 23
+18:39:55: processo: https://www.vistosi.it/prodotti/tahoma/tavolo.html mancano: 22
+18:39:57: processo: https://www.vistosi.it/prodotti/tahoma/faretto.html mancano: 21
+18:39:59: processo: https://www.vistosi.it/prodotti/tahoma-round/soffitto.html mancano: 20
+18:40:01: processo: https://www.vistosi.it/prodotti/tahoma-round/sospensione.html mancano: 19
+18:40:03: processo: https://www.vistosi.it/prodotti/tahoma-round/parete.html mancano: 18
+18:40:05: processo: https://www.vistosi.it/prodotti/thor/sospensione.html mancano: 17
+18:40:07: processo: https://www.vistosi.it/prodotti/thor/parete.html mancano: 16
+18:40:09: processo: https://www.vistosi.it/prodotti/thor/tavolo.html mancano: 15
+18:40:12: processo: https://www.vistosi.it/prodotti/thor/piantana.html mancano: 14
+18:40:14: processo: https://www.vistosi.it/prodotti/torcello/parete.html mancano: 13
+18:40:15: processo: https://www.vistosi.it/prodotti/trepai/sospensione.html mancano: 12
+18:40:18: processo: https://www.vistosi.it/prodotti/trepai/piantana.html mancano: 11
+18:40:19: processo: https://www.vistosi.it/prodotti/tubes/soffitto.html mancano: 10
+18:40:22: faccio super scroll della pagina
+18:40:23: processo: https://www.vistosi.it/prodotti/tubes/sospensione.html mancano: 9
+18:40:25: faccio super scroll della pagina
+18:40:26: processo: https://www.vistosi.it/prodotti/vega/tavolo.html mancano: 8
+18:40:28: processo: https://www.vistosi.it/prodotti/vega/piantana.html mancano: 7
+18:40:30: processo: https://www.vistosi.it/prodotti/withwhite/soffitto.html mancano: 6
+18:40:32: processo: https://www.vistosi.it/prodotti/withwhite/sospensione.html mancano: 5
+18:40:34: faccio super scroll della pagina
+18:40:37: processo: https://www.vistosi.it/prodotti/yuba/soffitto.html mancano: 4
+18:40:39: processo: https://www.vistosi.it/prodotti/yuba/sospensione.html mancano: 3
+18:40:41: processo: https://www.vistosi.it/prodotti/yuba/parete.html mancano: 2
+18:40:43: processo: https://www.vistosi.it/prodotti/yuba/tavolo.html mancano: 1
+18:40:45: processo: https://www.vistosi.it/prodotti/yuba/piantana.html mancano: 0
+18:40:47: FINITO

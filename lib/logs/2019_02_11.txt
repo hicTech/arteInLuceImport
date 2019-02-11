@@ -1,0 +1,12 @@
+17:07:09: processo: https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-drop-down/ mancano: 0
+17:07:10: ------------------------------------------------------------------------------------------ACCESSORI
+17:07:10: FINITO
+17:11:14: processo: https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-drop-down/ mancano: 0
+17:11:15: ------------------------------------------------------------------------------------------ACCESSORI
+17:11:15: FINITO
+17:12:03: processo: https://flos.com/products/table/bellhop/bellhop/ mancano: 0
+17:12:04: FINITO
+17:13:07: processo: https://flos.com/products/floor/ray/ray-f2/ mancano: 0
+17:13:08: FINITO
+17:13:30: processo: https://flos.com/products/floor/ray/ray-f1/ mancano: 0
+17:13:31: FINITO

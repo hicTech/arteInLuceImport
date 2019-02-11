@@ -75,12 +75,12 @@ var arr_all_products = [
     
 ]
 
-
+*/
 
 var arr_all_products = [
-    "https://flos.com/it/prodotti/lampade-tavolo/bellhop/bellhop/"
+    "https://flos.com/products/floor/ray/ray-f1/"
 ]
-*/
+
 
 
 // elimino eventuali doppioni
@@ -157,7 +157,7 @@ function createJsonFromAPage(body, uri){
 
 
 
-    var size_image = $summary.find(".bg-image img").attr("data-src");
+    var size_image = $summary.find(".product-models").eq(0).find(".item.active").find(".bg-image img").attr("data-src");
 
     var color_variations = $summary.find("[data-product_variations]").eq(0).attr("data-product_variations");
         color_variations = S(color_variations).replaceAll('\"','"').s;
@@ -169,8 +169,11 @@ function createJsonFromAPage(body, uri){
     summary_media = [];
     $summary_media.each(function(){
         var src = $(this).attr("data-src");
-        if(src.indexOf(".svg")!=-1)
-            summary_media.push(src);
+        if(src.indexOf(".svg")!=-1){
+            var new_src = "www.arteinluce.shop/assets_ecommerce/flos/png" +src.substr(src.lastIndexOf("/")).replace(".svg",".png");
+            summary_media.push(new_src);
+        }
+            
     });
 
     var $downloads = $body.find("ul.list-download li");

@@ -2284,7 +2284,7 @@ function getMoreDate(bodyHTML, root_model, category){
                     light_schema: encodeURI(light_schema),
                     light_system: light_system,
                     download : download,
-                    filename: "pdf/"+category+"_"+model, //"pdf/soffitto_ACCADEMIA PL 10F-0.pdf"
+                    filename: "www.arteinluce.shop/assets_ecommerce/vistosi/pdf/"+category+"_"+model, //"pdf/soffitto_ACCADEMIA PL 10F-0.pdf"
                     //html: $tbody.html()
                 });
             
