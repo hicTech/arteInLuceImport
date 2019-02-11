@@ -482,3 +482,6 @@
 17:51:00: processo: https://flos.com/it/prodotti/lampade-terra/toio/toio-limited-edition-matt-black/ mancano: 0
 17:51:01: FINITO
 18:08:31: PROCESSO: ../xls/flos
+18:13:32: PROCESSO: ../xls/flos
+18:13:33: PROCESSO: ../xls/foscarini
+18:13:33: PROCESSO: ../xls/vistosi
