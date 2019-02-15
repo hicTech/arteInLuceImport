@@ -1352,7 +1352,7 @@
                 }
             ]
         },
-        "accessories": "rosone multiplo - bianco;rosone multiplo - marrone;rosone multiplo - nero;dimmer parete;"
+        "accessories": "rosone multiplo - bianco;rosone multiplo - marrone;rosone multiplo - nero;dimmer parete"
     },
     {
         "supplier": "flos",
@@ -1737,7 +1737,7 @@
         "led": 0,
         "category": "sospensione",
         "component": 1,
-        "component_of": "F0090009",
+        "component_of": "aim",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Rosone multiplo - Bianco",
@@ -1759,7 +1759,7 @@
         "led": 0,
         "category": "sospensione",
         "component": 1,
-        "component_of": "F0090009",
+        "component_of": "aim",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Rosone multiplo - Marrone",
@@ -1781,7 +1781,7 @@
         "led": 0,
         "category": "sospensione",
         "component": 1,
-        "component_of": "F0090009",
+        "component_of": "aim",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Rosone multiplo - Nero",
@@ -3033,7 +3033,7 @@
                 }
             ]
         },
-        "accessories": "big rose-max190w;small rose-max70;recessed rose-max190w;"
+        "accessories": "big rose-max190w;small rose-max70;recessed rose-max190w"
     },
     {
         "supplier": "flos",
@@ -3320,7 +3320,7 @@
         "led": 0,
         "category": "sospensione",
         "component": 1,
-        "component_of": "F0408030",
+        "component_of": "arrangements round large",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Big Rose-MAX190W",
@@ -3341,7 +3341,7 @@
         "led": 0,
         "category": "sospensione",
         "component": 1,
-        "component_of": "F0408030",
+        "component_of": "arrangements round large",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Small Rose-MAX70",
@@ -3362,7 +3362,7 @@
         "led": 0,
         "category": "sospensione",
         "component": 1,
-        "component_of": "F0408030",
+        "component_of": "arrangements round large",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Recessed Rose-MAX190W",
@@ -4035,7 +4035,7 @@
                 }
             ]
         },
-        "accessories": "corona - trasparente;corona - tessuto;corona - giallo;corona - fumè;corona - ambra;corona - rafia;"
+        "accessories": "corona - trasparente;corona - tessuto;corona - giallo;corona - fumè;corona - ambra;corona - rafia"
     },
     {
         "supplier": "flos",
@@ -4276,7 +4276,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F1032009",
+        "component_of": "bon jour",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Corona - Trasparente",
@@ -4298,7 +4298,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F1032009",
+        "component_of": "bon jour",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Corona - Tessuto",
@@ -4320,7 +4320,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F1032009",
+        "component_of": "bon jour",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Corona - Giallo",
@@ -4342,7 +4342,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F1032009",
+        "component_of": "bon jour",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Corona - Fumè",
@@ -4364,7 +4364,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F1032009",
+        "component_of": "bon jour",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Corona - Ambra",
@@ -4386,7 +4386,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F1032009",
+        "component_of": "bon jour",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Corona - Rafia",
@@ -4408,7 +4408,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F1037046",
+        "component_of": "bon jour unplugged",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Corona - Trasparente",
@@ -4430,7 +4430,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F1037046",
+        "component_of": "bon jour unplugged",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Corona - Tessuto",
@@ -4452,7 +4452,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F1037046",
+        "component_of": "bon jour unplugged",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Corona - Giallo",
@@ -4474,7 +4474,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F1037046",
+        "component_of": "bon jour unplugged",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Corona - Fumè",
@@ -4495,7 +4495,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F1037046",
+        "component_of": "bon jour unplugged",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Corona-Rosso",
@@ -4517,7 +4517,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F1037046",
+        "component_of": "bon jour unplugged",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Corona - Ambra",
@@ -4539,7 +4539,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F1037046",
+        "component_of": "bon jour unplugged",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Corona - Rafia",
@@ -4772,7 +4772,7 @@
                 }
             ]
         },
-        "accessories": "corona - trasparente;corona - tessuto;corona - giallo;corona - fumè;corona-rosso;corona - ambra;corona - rafia;"
+        "accessories": "corona - trasparente;corona - tessuto;corona - giallo;corona - fumè;corona-rosso;corona - ambra;corona - rafia"
     },
     {
         "supplier": "flos",
@@ -7029,7 +7029,7 @@
                 }
             ]
         },
-        "accessories": "anello accessorio - trasparente;anello accessorio - rame;anello accessorio  - nero fumè;anello accessorio - cromo;"
+        "accessories": "anello accessorio - trasparente;anello accessorio - rame;anello accessorio  - nero fumè;anello accessorio - cromo"
     },
     {
         "supplier": "flos",
@@ -7045,7 +7045,7 @@
         "led": 0,
         "category": "soffitto",
         "component": 1,
-        "component_of": "F1570009",
+        "component_of": "clara",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Anello accessorio - Trasparente",
@@ -7067,7 +7067,7 @@
         "led": 0,
         "category": "soffitto",
         "component": 1,
-        "component_of": "F1570009",
+        "component_of": "clara",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Anello accessorio - Rame",
@@ -7089,7 +7089,7 @@
         "led": 0,
         "category": "soffitto",
         "component": 1,
-        "component_of": "F1570009",
+        "component_of": "clara",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Anello accessorio  - Nero fumè",
@@ -7111,7 +7111,7 @@
         "led": 0,
         "category": "soffitto",
         "component": 1,
-        "component_of": "F1570009",
+        "component_of": "clara",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Anello accessorio - Cromo",
@@ -9370,7 +9370,7 @@
                 }
             ]
         },
-        "accessories": "bowl white;bowl black;vase white;vase black;key bowl white;key bowl black;bookend white;bookend black;mirror white;mirror black;"
+        "accessories": "bowl white;bowl black;vase white;vase black;key bowl white;key bowl black;bookend white;bookend black;mirror white;mirror black"
     },
     {
         "supplier": "flos",
@@ -9454,7 +9454,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F2521009",
+        "component_of": "gaku wire",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Bowl white",
@@ -9475,7 +9475,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F2521009",
+        "component_of": "gaku wire",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Bowl black",
@@ -9496,7 +9496,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F2521009",
+        "component_of": "gaku wire",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Vase white",
@@ -9517,7 +9517,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F2521009",
+        "component_of": "gaku wire",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Vase black",
@@ -9538,7 +9538,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F2521009",
+        "component_of": "gaku wire",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Key Bowl white",
@@ -9559,7 +9559,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F2521009",
+        "component_of": "gaku wire",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Key Bowl black",
@@ -9580,7 +9580,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F2521009",
+        "component_of": "gaku wire",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Bookend white",
@@ -9601,7 +9601,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F2521009",
+        "component_of": "gaku wire",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Bookend black",
@@ -9622,7 +9622,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F2521009",
+        "component_of": "gaku wire",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Mirror White",
@@ -9643,7 +9643,7 @@
         "led": 0,
         "category": "tavolo",
         "component": 1,
-        "component_of": "F2521009",
+        "component_of": "gaku wire",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Mirror black",
@@ -11047,7 +11047,7 @@
         "led": 0,
         "category": "terra",
         "component": 1,
-        "component_of": "F3150030",
+        "component_of": "ipnos",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Ipnos Top Plate",
@@ -11125,7 +11125,7 @@
                 }
             ]
         },
-        "accessories": "ipnos top plate;"
+        "accessories": "ipnos top plate"
     },
     {
         "supplier": "flos",
@@ -18486,7 +18486,7 @@
                 }
             ]
         },
-        "accessories": "parentesi elemento complemento - bianco;parentesi elemento complemento - nero;parentesi elemento complemento - rosso;parentesi elemento complemento - nichel;"
+        "accessories": "parentesi elemento complemento - bianco;parentesi elemento complemento - nero;parentesi elemento complemento - rosso;parentesi elemento complemento - nichel"
     },
     {
         "supplier": "flos",
@@ -18735,7 +18735,7 @@
         "led": 0,
         "category": "sospensione",
         "component": 1,
-        "component_of": "F5400009",
+        "component_of": "parentesi",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Parentesi elemento complemento - Bianco",
@@ -18757,7 +18757,7 @@
         "led": 0,
         "category": "sospensione",
         "component": 1,
-        "component_of": "F5400009",
+        "component_of": "parentesi",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Parentesi elemento complemento - Nero",
@@ -18779,7 +18779,7 @@
         "led": 0,
         "category": "sospensione",
         "component": 1,
-        "component_of": "F5400009",
+        "component_of": "parentesi",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Parentesi elemento complemento - Rosso",
@@ -18801,7 +18801,7 @@
         "led": 0,
         "category": "sospensione",
         "component": 1,
-        "component_of": "F5400009",
+        "component_of": "parentesi",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Parentesi elemento complemento - Nichel",
@@ -18885,7 +18885,7 @@
                 }
             ]
         },
-        "accessories": "parentesi dimmer elemento complemento - bianco;parentesi dimmer elemento complemento - nero;parentesi dimmer elemento complemento - rosso;parentesi dimmer elemento complemento - nichel;"
+        "accessories": "parentesi dimmer elemento complemento - bianco;parentesi dimmer elemento complemento - nero;parentesi dimmer elemento complemento - rosso;parentesi dimmer elemento complemento - nichel"
     },
     {
         "supplier": "flos",
@@ -19135,7 +19135,7 @@
         "led": 0,
         "category": "sospensione",
         "component": 1,
-        "component_of": "F5600009",
+        "component_of": "parentesi dimmer",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Parentesi dimmer elemento complemento - Bianco",
@@ -19157,7 +19157,7 @@
         "led": 0,
         "category": "sospensione",
         "component": 1,
-        "component_of": "F5600009",
+        "component_of": "parentesi dimmer",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Parentesi dimmer elemento complemento - Nero",
@@ -19179,7 +19179,7 @@
         "led": 0,
         "category": "sospensione",
         "component": 1,
-        "component_of": "F5600009",
+        "component_of": "parentesi dimmer",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Parentesi dimmer elemento complemento - Rosso",
@@ -19201,7 +19201,7 @@
         "led": 0,
         "category": "sospensione",
         "component": 1,
-        "component_of": "F5600009",
+        "component_of": "parentesi dimmer",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Parentesi dimmer elemento complemento - Nichel",
@@ -25693,7 +25693,7 @@
                 }
             ]
         },
-        "accessories": "accessorio 0 di string light – testa a cono – cavo 12mt;accessorio 2 di string light – testa a cono – cavo 12mt;accessorio 1 di string light – testa a cono – cavo 12mt;"
+        "accessories": "accessorio 0 di string light – testa a cono – cavo 12mt;accessorio 2 di string light – testa a cono – cavo 12mt;accessorio 1 di string light – testa a cono – cavo 12mt"
     },
     {
         "supplier": "flos",
@@ -25708,7 +25708,7 @@
         "led": 0,
         "category": "sospensione",
         "component": 1,
-        "component_of": "F6481030",
+        "component_of": "string light – testa a cono – cavo 12mt",
         "outdoor": 0,
         "max_discount": 14,
         "title": "accessorio 0 di String Light – Testa a cono – cavo 12mt",
@@ -25729,7 +25729,7 @@
         "led": 0,
         "category": "sospensione",
         "component": 1,
-        "component_of": "F6481030",
+        "component_of": "string light – testa a cono – cavo 12mt",
         "outdoor": 0,
         "max_discount": 14,
         "title": "accessorio 2 di String Light – Testa a cono – cavo 12mt",
@@ -25750,7 +25750,7 @@
         "led": 0,
         "category": "sospensione",
         "component": 1,
-        "component_of": "F6481030",
+        "component_of": "string light – testa a cono – cavo 12mt",
         "outdoor": 0,
         "max_discount": 14,
         "title": "accessorio 1 di String Light – Testa a cono – cavo 12mt",
@@ -32748,7 +32748,7 @@
         "led": 1,
         "category": "sospensione",
         "component": 1,
-        "component_of": "F0090009",
+        "component_of": "aim",
         "outdoor": 0,
         "max_discount": 14,
         "title": "Dimmer parete",

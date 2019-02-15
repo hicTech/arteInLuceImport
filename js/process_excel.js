@@ -2995,6 +2995,7 @@ function postProduci(json,fornitore){
     if(fornitore=="flos"){
         
 
+        // aggiungo gli accessori di ogni articolo
         _.each(json, function(elem){
             if( elem.component == 1){
                 var cod_component = elem.model;
@@ -3005,12 +3006,24 @@ function postProduci(json,fornitore){
                         item["accessories"] = "";
                     
                     if(item.model_id == cod_item ){
-                        item["accessories"] = item["accessories"] + cod_component+";";
+                        //var new_accessories = item["accessories"] + cod_component+";";
+
+                        item["accessories"] += (item["accessories"] != "" )? ";"+cod_component : cod_component
+
+                        
                     }
                     
                     
                 });
             }
+        })
+
+        _.each(json, function(elem, index){
+            var cod = elem.component_of;
+            _.each(json, function(elem2){
+                if( elem2.model_id == cod)
+                    json[index].component_of = elem2.model;
+            })
         })
     }
 
@@ -3020,3 +3033,4 @@ function postProduci(json,fornitore){
 
     return json;
 }
+

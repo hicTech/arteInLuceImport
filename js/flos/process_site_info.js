@@ -11,6 +11,11 @@ global.document = document;
 
 var $ = jQuery = require('jquery')(window);
 
+_.log("la procedura è interrotta.... la volta scorsa le immagini di other_images nel sito non erano dsiponibili... fai in una pagina prodotto clicca sul prodotto in modo da fare uscire le foto in popup e vedi se ci sono");
+_.log("la votla scrosa queste pagine non funzionava https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/, https://flos.com/it/prodotti/lampade-tavolo/gaku/gaku-wireless/, https://flos.com/it/prodotti/lampade-tavolo/bellhop/bellhop/")
+
+return false;
+
 
 // questo è l'array degli url delle pafine di tutti i prodotti (206) singoli FLOS copia e incollata da getSinglePageUrl_json.json
 var arr_all_products = [
@@ -240,7 +245,7 @@ function createJsonFromAPage(body, uri){
             other_images: filteredImages(other_images,variation.image.url,secondary_image),
             downloads : downloads,
             more: more,
-            accessories: getAccessories(getCode(variation.sku), model),
+            accessories: getAccessories(model),
         })
     });
 
@@ -255,7 +260,7 @@ function createJsonFromAPage(body, uri){
 
 
 
-    function getAccessories(father_code,model){
+    function getAccessories(model){
         var $accessories = $body.find(".related-accessories .item");
         var accessories = [];
         $accessories.each(function(){
@@ -265,7 +270,7 @@ function createJsonFromAPage(body, uri){
                 name: ( $(this).find("p").html().indexOf(" - ") != -1) ? $(this).find("p").html().split(" - ")[0] : $(this).find("p").html(),
                 color: ( $(this).find("p").html().indexOf(" - ") != -1) ? $(this).find("p").html().split(" - ")[1] : undefined,
                 img : $(this).find("figure img").attr("src"),
-                component_of: father_code,
+                component_of: model,
             })
         });
 
