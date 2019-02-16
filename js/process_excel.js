@@ -1010,8 +1010,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 more = { instruction : getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "download") }
                 
 
-                
-               
+                // per vistosi conviene che l'item sia title + category quindi metto model = title;
+                model = title;
 
 
                 function getModel(desc){
