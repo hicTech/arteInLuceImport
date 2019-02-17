@@ -5205,7 +5205,7 @@
         "Articolo": "UTO SOSPENSIONE/TAVOLO BIANCO",
         "Codice Componente": "142000 10",
         "Componente": "UTO SOSPENSIONE/TAVOLO BIANCO",
-        "Sottofamiglia": "UTO OUTDOOR",
+        "Sottofamiglia": "UTO OUTO SOSPENSIONE/TAVOLO BIANCO OUTDOOR",
         "Europa": "356",
         "UK": ""
     },
@@ -5215,7 +5215,7 @@
         "Articolo": "UTO SOSPENSIONE/TAVOLO BIANCO",
         "Codice Componente": "142000 10",
         "Componente": "UTO SOSPENSIONE/TAVOLO BIANCO",
-        "Sottofamiglia": "UTO OUTDOOR",
+        "Sottofamiglia": "UTO SOSPENSIONE/TAVOLO OUTDOOR",
         "Europa": "356",
         "UK": ""
     },
@@ -5225,7 +5225,7 @@
         "Articolo": "UTO SOSPENSIONE/TAVOLO GIALLO",
         "Codice Componente": "142000 50",
         "Componente": "UTO SOSPENSIONE/TAVOLO GIALLO",
-        "Sottofamiglia": "UTO OUTDOOR",
+        "Sottofamiglia": "UTO SOSPENSIONE/TAVOLO OUTDOOR",
         "Europa": "356",
         "UK": ""
     },
@@ -5235,7 +5235,7 @@
         "Articolo": "UTO SOSPENSIONE/TAVOLO GIALLO",
         "Codice Componente": "142000 50",
         "Componente": "UTO SOSPENSIONE/TAVOLO GIALLO",
-        "Sottofamiglia": "UTO OUTDOOR",
+        "Sottofamiglia": "UTO SOSPENSIONE/TAVOLO OUTDOOR",
         "Europa": "356",
         "UK": ""
     },
@@ -5245,7 +5245,7 @@
         "Articolo": "UTO SOSPENSIONE/TAVOLO ARANCIO",
         "Codice Componente": "142000 53",
         "Componente": "UTO SOSPENSIONE/TAVOLO ARANCIO",
-        "Sottofamiglia": "UTO OUTDOOR",
+        "Sottofamiglia": "UTO SOSPENSIONE/TAVOLO OUTDOOR",
         "Europa": "356",
         "UK": ""
     },
@@ -5255,7 +5255,7 @@
         "Articolo": "UTO SOSPENSIONE/TAVOLO ARANCIO",
         "Codice Componente": "142000 53",
         "Componente": "UTO SOSPENSIONE/TAVOLO ARANCIO",
-        "Sottofamiglia": "UTO OUTDOOR",
+        "Sottofamiglia": "UTO SOSPENSIONE/TAVOLO OUTDOOR",
         "Europa": "356",
         "UK": ""
     },
@@ -25545,7 +25545,7 @@
         "Articolo": "CRI-CRI VERDE",
         "Codice Componente": "286001-40",
         "Componente": "CRI-CRI VERDE",
-        "Sottofamiglia": "CRI-CRI OUTDOOR",
+        "Sottofamiglia": "CRI-CRI SOSPENSIONE OUTDOOR",
         "Europa": "327",
         "UK": "295"
     },
@@ -25555,7 +25555,7 @@
         "Articolo": "CRI-CRI ROSSO",
         "Codice Componente": "286001-63",
         "Componente": "CRI-CRI ROSSO",
-        "Sottofamiglia": "CRI-CRI OUTDOOR",
+        "Sottofamiglia": "CRI-CRI SOSPENSIONE OUTDOOR",
         "Europa": "327",
         "UK": "295"
     },
@@ -32258,26 +32258,6 @@
         "Sottofamiglia": "ACCESSORI ROSONE",
         "Europa": "58",
         "UK": "52"
-    },
-    {
-        "Eire": "35",
-        "Codice Articolo": "291KIT-AVV",
-        "Articolo": "KIT AVVOLGI CAVO OUTDOOR",
-        "Codice Componente": "291KIT-AVV",
-        "Componente": "KIT AVVOLGI CAVO OUTDOOR",
-        "Sottofamiglia": "APLOMB ACCESSORI OUTDOOR",
-        "Europa": "35",
-        "UK": "31"
-    },
-    {
-        "Eire": "35",
-        "Codice Articolo": "291KIT-AVV",
-        "Articolo": "KIT AVVOLGI CAVO OUTDOOR",
-        "Codice Componente": "291KIT-AVV",
-        "Componente": "KIT AVVOLGI CAVO OUTDOOR",
-        "Sottofamiglia": "APLOMB ACCESSORI OUTDOOR",
-        "Europa": "35",
-        "UK": "31"
     },
     {
         "Eire": "776",

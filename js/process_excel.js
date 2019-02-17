@@ -287,26 +287,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 "UTO",
                 "YOKO"
             ]
-            
-            var model_no_longer_available = [
-                {
-                    model: "ESA",
-                },
-                {
-                    model: "TRESS",
-                    category: "tavolo"
-                },
-                {
-                    model: "ELLEPI",
-                },
-                {
-                    model: "JAMAICA",
-                },
-                {
-                    model: "LIGHTWEIGHT",
-                    category: "terra"
-                }
-            ]
 
             var articolo = row["Articolo"];
             
@@ -326,7 +306,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 price = row["Europa"];
                 color = getColor(articolo);
                 category = getCategory(row["Sottofamiglia"]);
-                cleaned_desc_it = getDesc(model,category,assets_json);
                 dimmer = (articolo.indexOf("DIM") != -1)? 1 : 0;
                 led = (articolo.indexOf("LED") != -1)? 1 : 0;
                 halogen = (articolo.indexOf("ALO") != -1)? 1 : 0;
@@ -334,9 +313,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 switcher = (articolo.indexOf("ON/OFF") != -1)? 1 : 0;
                 type = undefined;
                 component = isComponent(model_id,row["Componente"]);
-                component_of = (component == 1)? model : "";
+                component_of = getComponentOf(component, model, category);
+                cleaned_desc_it = getDesc(model,category,component,assets_json);
                 size = getSize(articolo);
-                outdoor = (articolo.indexOf("OUTDOOR") != -1)? 1 : 0;
+                outdoor = (articolo.indexOf("OUTDOOR") != -1 || row["Sottofamiglia"].indexOf("OUTDOOR") != -1)? 1 : 0;
                 max_discount = 0;
                 wire_length = getWireLength(row["Componente"]);
                 title = row["Articolo"];
@@ -349,7 +329,11 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     video : getVideo(model, category, component, createAllVideosArr(assets_json)),
                     link : getLink(model, category, component, createAllLinksArr(assets_json)),
                 });
-                projects = getProjects(model,category,assets_json);;
+                projects = getProjects(model,category,assets_json);
+
+                if(component == 1){
+                    model = row["Componente"];
+                }
                 
             }
                 
@@ -552,9 +536,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     category.push("tavolo");
                 }
 
-                if( sottofamiglia.indexOf("OUTDOOR") != -1 ){
-                    category.push("outdoor");
-                }
 
                
 
@@ -695,8 +676,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             }
 
             function getPics(model, category, colors, component, all_images, caso){
-                if(component == 1){
-                    return undefined; // è un ricambio quindi per ora non ha foto
+                if(component == 1 && caso == "primary"){
+                    // è un ricambio quindi per ora ritorno una foto di default
+                    return "www.arteinluce.shop/assets_ecommerce/foscarini/component_default_img.jpg"
                 }
                 // sono 1417 righe di articoli di cui
                 // di cui 533 diesel
@@ -872,7 +854,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
             
 
-            function getDesc(model,category,assets_json){
+            function getDesc(model,category,component,assets_json){
+                if(component == 1)
+                    return undefined;
                 var ret = undefined;
                         
                 var cat = category[0];
@@ -944,6 +928,14 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 return ret;
             }
             
+            function getComponentOf(component, model, category){
+                
+                if(component == 1){
+                    if(_.is(model))
+                        return model.toLowerCase() +" "+ category;
+                }
+                
+            }
             
             
             
@@ -1706,7 +1698,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         }
 
                         
-
+                    if(component == 1){
+                        // è un ricambio quindi per ora ritorno una foto di default
+                        return "www.arteinluce.shop/assets_ecommerce/vistosi/component_default_img.jpg"
+                    }
 
                     if(component == 0){
 
@@ -1822,9 +1817,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             
                         }
                     }
-                    else{
-                        
-                    }
+                    
                 }
 
                 function getLightSchemaOrName(original_model, model, arr_category, type, assets_json, component, halogen, caso){
@@ -3007,10 +3000,8 @@ function postProduci(json,fornitore){
                     
                     if(item.model_id == cod_item ){
                         //var new_accessories = item["accessories"] + cod_component+";";
-
                         item["accessories"] += (item["accessories"] != "" )? ";"+cod_component : cod_component
 
-                        
                     }
                     
                     
@@ -3025,6 +3016,73 @@ function postProduci(json,fornitore){
                     json[index].component_of = elem2.model;
             })
         })
+    }
+
+    if(fornitore=="foscarini"){
+        var model_no_longer_available = [
+            {
+                model: "esa",
+            },
+            {
+                model: "tress",
+                category: "tavolo"
+            },
+            {
+                model: "ellepi",
+            },
+            {
+                model: "jamaica",
+            },
+            {
+                model: "lightweight",
+                category: "terra"
+            }
+        ]
+
+        var new_json = []
+ 
+        // elimino gli articoli che non hanno model o che sono no_longer_available
+        new_json = _.filter(json,function(elem){
+            if(!_.is(elem.model))
+                return false;
+            else{
+                if( elem.model != "tress" )
+                    return  ( elem.model != "esa" && elem.model != "ellepi" && elem.model != "jamaica" )
+                else{
+                    if( elem.model == "tress" && elem.category[0] == "tavolo")
+                        return false;
+                    else
+                        return true;
+                        
+                }
+            }
+           
+        })
+            
+
+        json = new_json
+        
+        // aggiungo gli accessori ogni articolo
+
+        _.each(json,function(elem){
+            //ciclo sui componenti
+            if(elem.component==1){
+                var component_of = elem.component_of; // qui trovo model + category
+                var model = elem.model;
+                //ciclo sugli item
+                _.each(json,function(item){
+                    if(!_.is(item.accessories))
+                        item.accessories = "";
+                    if(item.component==0){
+                        if(component_of == item.model+" "+item.category){
+                            //item.accessories += model+";"
+                            item["accessories"] += (item["accessories"] != "" )? ";"+model : model
+                        }
+                    }
+                })
+            }
+        })
+
     }
 
     
