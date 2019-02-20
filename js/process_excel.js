@@ -947,7 +947,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             /* ================================================================= VISTOSI */
             if( fornitore == "vistosi"){
 
-                 var all_models_name = [
+                var all_models_name = [
                                     "ACCADEMIA","ALIKI","ALMA","ALUM 09","ASSIBA","BACO","BACONA","BIANCA","BOCCIA","CHIMERA","CHIMERA 09",
                                     "CILD","CLEO","CLOTH","COCUMIS","COMARI","CORNER","DAFNE","DAMASCO","DIADEMA","DIAMANTE","DODO","DOGI","DOS",
                                     "DRESS","ECOS","FEREA","FOLLIA","FUOCHI","FUTURA","GIGLIO","GIOGALI","MINIGIOGALI","GIUBILEO","GIUDECCA","GLORIA",
@@ -1004,7 +1004,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                 // una volta calcolati tutti i dati siamo pronti per definire il model degli articoli e dei pazzi di ricambio
 
-                model = getRealModelName(model, component, title);
+                model = getRealModelName(model, component, title, type, component_of);
 
 
                 function getModel(desc){
@@ -1403,7 +1403,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                     if( 
                         prefisso=="VT" || prefisso=="VZ" || prefisso=="VP" || prefisso=="VS" || prefisso=="VA" || prefisso=="VB" || prefisso=="VC" ||
-                        prefisso=="VR" || prefisso=="VM" || prefisso=="VL" || prefisso=="VE" || prefisso=="VF" || prefisso=="VD"
+                        prefisso=="VR" || prefisso=="VM" || prefisso=="VL" || prefisso=="VE" || prefisso=="VF" || prefisso=="VD" ||
+                        prefisso3=="CVP"
                     )
                         return ["vetro"];
                     else {
@@ -1430,10 +1431,11 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                                 if (prefisso == "LT")
                                                     return ["lettura"];
                                                 else {
-                                                    if (prefisso == "CV" || prefisso == "CA")
+                                                    if ( (prefisso == "CV" || prefisso == "CA") && prefisso3 != "CAN" )
                                                         return ["cavo"];
                                                     else {
                                                         if (prefisso == "FI") {
+                                                            _.log(id)
                                                             if (prefisso3 == "FIS")
                                                                 return ["fischer"];
                                                             else
@@ -1452,7 +1454,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                                                         return ["scatola"];
                                                                     }
                                                                     else {
-                                                                        return ["altro"];
+                                                                        return [""];
                                                                     }
                                                                 }
                                                             }
@@ -2533,9 +2535,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     
                 }
 
-                function getRealModelName(model, component, title){
+                function getRealModelName(model, component, title, type, component_of){
                     if(component == 1){
-                        return model.replace("ricambio-","");
+                        return model.replace("ricambio-","") +" "+ type+" "+component_of;
                     }
                     else{
                         var real_model = title.replace(" SP","").replace(" PT","").replace(" PL","").replace(" LT","").replace(" AP","");
