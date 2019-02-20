@@ -1002,16 +1002,34 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 more = { instruction : getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "download") }
                 
 
-                // per vistosi conviene che l'item sia title + category quindi metto model = title;
-                model = title;
+                // una volta calcolati tutti i dati siamo pronti per definire il model degli articoli e dei pazzi di ricambio
+
+                model = getRealModelName(model, component, title);
 
 
                 function getModel(desc){
                     var desc_arr = descToArray(desc);
                     var ret = desc_arr[0];
 
-                    if(contains(desc_arr,"VETR") || contains(desc_arr,"FISC") || contains(desc_arr,"ROSONE") || contains(desc_arr,"ROSO") || contains(desc_arr,"SCATOLA") || contains(desc_arr,"KIT") || contains(desc_arr,"CAVO") || contains(desc_arr,"RACCOGLITORE"))
-                        return "ricambio";
+
+                    if(contains(desc_arr,"VETR"))
+                        return "ricambio-vetro";
+                    if(contains(desc_arr,"FISC"))
+                        return "ricambio-fischer";
+                    if(contains(desc_arr,"ROSONE"))
+                        return "ricambio-rosone";
+                    if(contains(desc_arr,"ROSO"))
+                        return "ricambio-rosone";
+                    if(contains(desc_arr,"SCATOLA"))
+                        return "ricambio-scatola";
+                    if(contains(desc_arr,"KIT"))
+                        return "ricambio-kit";
+                    if(contains(desc_arr,"CAVO"))
+                        return "ricambio-cavo";
+                    if(contains(desc_arr,"RACCOGLITORE"))
+                        return "ricambio-raccoglitore";
+
+
 
                     // alcuni casi speciali
                     if(ret == "GIOGA")
@@ -2515,6 +2533,25 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     
                 }
 
+                function getRealModelName(model, component, title){
+                    if(component == 1){
+                        return model.replace("ricambio-","");
+                    }
+                    else{
+                        var real_model = title.replace(" SP","").replace(" PT","").replace(" PL","").replace(" LT","").replace(" AP","");
+                        if(real_model.indexOf(" G") == real_model.length - 2)
+                            real_model = real_model.replace(" G"," grande");
+                        if(real_model.indexOf(" P") == real_model.length - 2)
+                            real_model = real_model.replace(" P"," piccola");
+                        if(real_model.indexOf(" M") == real_model.length - 2)
+                            real_model = real_model.replace(" M"," media");
+                        if(real_model.indexOf(" MN") == real_model.length - 3)
+                            real_model = real_model.replace(" MN"," mini");
+                        
+                        return real_model;
+                    }
+                }
+
                 
                 
                 
@@ -3018,6 +3055,9 @@ function postProduci(json,fornitore){
         })
     }
 
+
+
+
     if(fornitore=="foscarini"){
         var model_no_longer_available = [
             {
@@ -3060,10 +3100,9 @@ function postProduci(json,fornitore){
         })
             
 
-        json = new_json
+        json = new_json;
         
         // aggiungo gli accessori ogni articolo
-
         _.each(json,function(elem){
             //ciclo sui componenti
             if(elem.component==1){
@@ -3083,6 +3122,20 @@ function postProduci(json,fornitore){
             }
         })
 
+    }
+
+
+
+    if(fornitore=="vistosi"){
+       
+
+        var new_json = _.filter(json, function(elem){
+            return elem.model != "out of stock"
+        })
+
+        json = new_json;
+
+        _.log(json.length);
     }
 
     
