@@ -1435,7 +1435,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                                         return ["cavo"];
                                                     else {
                                                         if (prefisso == "FI") {
-                                                            _.log(id)
                                                             if (prefisso3 == "FIS")
                                                                 return ["fischer"];
                                                             else
@@ -2537,7 +2536,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                 function getRealModelName(model, component, title, type, component_of){
                     if(component == 1){
-                        return model.replace("ricambio-","") +" "+ type+" "+component_of;
+                        var new_model = model.replace("ricambio-","");
+                        new_model = (new_model == type)? new_model : new_model +" "+ type;
+                        return new_model +" per "+ _.capitalize(component_of);
                     }
                     else{
                         var real_model = title.replace(" SP","").replace(" PT","").replace(" PL","").replace(" LT","").replace(" AP","");

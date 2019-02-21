@@ -1,0 +1,18 @@
+12:34:06: PROCESSO: ../xls/foscarini
+12:34:07: PROCESSO: ../xls/vistosi
+12:34:07: PROCESSO: ../xls/flos
+12:34:11: PROCESSO: ../xls/vistosi
+12:34:14: 3862
+12:35:11: PROCESSO: ../xls/vistosi
+12:35:14: 3862
+12:35:25: PROCESSO: ../xls/vistosi
+12:35:28: 3862
+12:39:10: PROCESSO: ../xls/vistosi
+12:39:36: PROCESSO: ../xls/vistosi
+12:39:39: 3862
+12:40:58: PROCESSO: ../xls/vistosi
+12:41:01: 3862
+13:24:56: PROCESSO: ../xls/vistosi
+13:24:59: 3862
+13:26:39: PROCESSO: ../xls/vistosi
+13:26:42: 3862
