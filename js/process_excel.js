@@ -957,6 +957,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             /* ================================================================= VISTOSI */
             if( fornitore == "vistosi"){
 
+                _.log("VEDI CHE CI SONO DIVERSE COLONNE CHE HANNO POCHI DATI.... TIPO DESC E COMPANY... HANNO QUEI SOLITI PROBLEMI SUI NOMI ANDREBBERO FATTE COME getLightSchemaOrName")
+
                 var all_models_name = [
                                     "ACCADEMIA","ALIKI","ALMA","ALUM 09","ASSIBA","BACO","BACONA","BIANCA","BOCCIA","CHIMERA","CHIMERA 09",
                                     "CILD","CLEO","CLOTH","COCUMIS","COMARI","CORNER","DAFNE","DAMASCO","DIADEMA","DIAMANTE","DODO","DOGI","DOS",
@@ -1661,6 +1663,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 }
 
                 function getProjects(model,category,component,assets_json){
+                    var ret = undefined;
                     if(component == 0){
                         _.each(assets_json,function(elem){
                             if(model.toLowerCase() == elem.model && category == elem.category)
