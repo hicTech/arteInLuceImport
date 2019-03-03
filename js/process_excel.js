@@ -2567,13 +2567,15 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 }
 
                 function getSupplierSiteLink(model, arr_category){
+                    
+                    
                     var link_url;
                     _.each(assets_json,function(elem){
                         _.each(elem.variants,function(variant){
                             var variant_model = variant.model;
                             var variant_category = variant.category;
                                 model = model.toLowerCase();
-                                category = arr_category[0];
+                                category = (_.isArray(arr_category))? arr_category[0] : arr_category;
 
                                 if(model=="lunae"){
                                     category = "parete";
@@ -2595,13 +2597,18 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 }
                             
                                 if(model == variant_model && category == variant_category){
+                                    
                                     link_url = variant.url;
+                                    
                                 }
                             
                         })    
                     });
 
-                    _.log("wewewewewewewewewew")
+                    
+                    return link_url;
+
+                    
                 }
                 
                 
