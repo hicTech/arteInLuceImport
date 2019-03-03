@@ -180,6 +180,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var light_schema = undefined;
         var otherColors = undefined;
         var projects = undefined;
+        var link = undefined;
         
 
     
@@ -332,6 +333,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 pic = getPics(model, category, color, component, createAllImgsArr(assets_json), "primary" );
                 light_schema = (component == 0)? getLightSchema(model, category, size, assets_json) : undefined;
                 otherColors = getPics(model, category, color, component, createAllImgsArr(assets_json), "colors" );
+                link = undefined;
                 
                 more = JSON.stringify({
                     video : getVideo(model, category, component, createAllVideosArr(assets_json)),
@@ -1004,7 +1006,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 cleaned_desc_it = desc_it;
                 cleaned_desc_en = desc_en;
 
-                projects = getProjects(model,category,component,assets_json);;
+                projects = getProjects(model,category,component,assets_json);
 
                 //otherColors = getOtherPics(model, size, category, type, color, more);
                 more = { instruction : getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "download") }
@@ -1013,6 +1015,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 // una volta calcolati tutti i dati siamo pronti per definire il model degli articoli e dei pazzi di ricambio
 
                 model = getRealModelName(model, component, title, type, component_of);
+                link = getSupplierSiteLink(model, category);
 
 
                 function getModel(desc){
@@ -1801,9 +1804,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                         category = "piantana";
                                     }
                                 
-                                if(model == variant_model && category == variant_category){
-                                    arr_varianti.push(variant);
-                                }
+                                    if(model == variant_model && category == variant_category){
+                                        arr_varianti.push(variant);
+                                    }
                                 
                             })    
                         });
@@ -2563,7 +2566,43 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     }
                 }
 
-                
+                function getSupplierSiteLink(model, arr_category){
+                    var link_url;
+                    _.each(assets_json,function(elem){
+                        _.each(elem.variants,function(variant){
+                            var variant_model = variant.model;
+                            var variant_category = variant.category;
+                                model = model.toLowerCase();
+                                category = arr_category[0];
+
+                                if(model=="lunae"){
+                                    category = "parete";
+                                }
+                                if(model=="magie" && category=="soffitto"){
+                                    category = "faretto";
+                                }
+
+                                if(model=="poc" && category=="soffitto"){
+                                    category = "faretto";
+                                }
+
+                                if(model=="tahoma" && category=="soffitto"){
+                                    category = "faretto";
+                                }
+
+                                if(category=="terra"){
+                                    category = "piantana";
+                                }
+                            
+                                if(model == variant_model && category == variant_category){
+                                    link_url = variant.url;
+                                }
+                            
+                        })    
+                    });
+
+                    _.log("wewewewewewewewewew")
+                }
                 
                 
             }
@@ -2612,6 +2651,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     subtitle = undefined;
                     otherColors = undefined;
                     projects = ( _.is(getAsset(model_id)) )? ( _.is( getAsset(model_id).other_images ) )? getAsset(model_id).other_images : undefined : undefined ;
+                    link = getSupplierSiteLink(model_id);
 
                     function getModelName(model_id){
                         var asset = getAsset(model_id);
@@ -2723,6 +2763,15 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                     }
 
+
+                    // ritorna il link alla pagine dell'articolo sul sito del fornitore
+                    function getSupplierSiteLink(model_id){
+                        var asset = getAsset(model_id);
+                        if(_.is(asset))
+                            if(_.is(asset.uri))
+                                return asset.uri;
+                    }
+
                 }
             }
 
@@ -2767,6 +2816,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             light_schema:           light_schema,                       // schema dell'articolo
             otherColors:            otherColors,                        // array dei path delle immagini di altri colori dello stesso articolo
             projects:               projects,                           // sono le immagini di progetti
+            link:                   link,                               // ritorna la pagine dell'articolo sul sito del fornitore
             more:                   more,                               // contiene dei campi aggiuntivi (custom per ogni fornitore) esempio video, link a pdf, pagine html     
             
         }
