@@ -68,7 +68,7 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                             let path_fornitore = path_cartella +"/"+cartella;
 
 
-                                            var json_aumentato = [];
+                                            var json = [];
 
                                             // provo a leggere il json delle descrizioni di ogni fornitore
                                             fs.readFile('./'+cartella+'/docx_json.json', 'utf8', function(err, contents) {
@@ -78,15 +78,17 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                 // al success procedo con adjustRow
                                                 fs.readFile('./'+cartella+'/assets_json.json', 'utf8', function(err, contents) {
                                                 let assets_json = ( _.is(contents) )? JSON.parse(contents) : {};
+                                                
                                                     _.each(json_fornitore,function(row){
                                                         if(!rigaVuota(row)){
                                                             var new_row = adjustRow(row,cartella,assets_json, desc_json);
                                                             if(_.is(new_row))
-                                                                json_aumentato.push(new_row);
+                                                                json.push(new_row);
                                                         }   
                                                     });
 
-                                                    json_aumentato = postProduci(json_aumentato, cartella);
+                                                    json_varianti = postProduci(json, cartella).json_varianti;
+                                                    json_prodotti = postProduci(json, cartella).json_prodotti;
 
                                                     
 
@@ -94,20 +96,26 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                     //_.log("FINITO");
                                                     });
 
-                                                    fs.writeFile(path_cartella +"/result/"+cartella+'_aumentato.json', JSON.stringify(json_aumentato, null, 4), 'utf8', function(){
+                                                    fs.writeFile(path_cartella +"/result/"+cartella+'_aumentato.json', JSON.stringify(json_fornitore, null, 4), 'utf8', function(){
+                                                        //_.log("FINITO");
+                                                        });
+
+                                                    fs.writeFile(path_cartella +"/result/"+cartella+'_varianti.json', JSON.stringify(json_varianti, null, 4), 'utf8', function(){
+                                                        //_.log("FINITO");
+                                                    });
+                                                    fs.writeFile(path_cartella +"/result/"+cartella+'_prodotti.json', JSON.stringify(json_prodotti, null, 4), 'utf8', function(){
                                                         //_.log("FINITO");
                                                     });
 
+                                                    let xls_aumentato = json2xls(json);
+                                                    fs.writeFileSync(path_cartella +"/result/"+cartella+'_aumentato.xlsx', xls_aumentato, 'binary');
 
+                                                    let xls_varianti = json2xls(json_varianti);
+                                                    fs.writeFileSync(path_cartella +"/result/"+cartella+'_varianti.xlsx', xls_varianti, 'binary');
 
-                                                    
-                                                
+                                                    let xls_prodotti = json2xls(json_prodotti);
+                                                    fs.writeFileSync(path_cartella +"/result/"+cartella+'_prodotti.xlsx', xls_prodotti, 'binary');
 
-                                                    let xls = json2xls(json_aumentato);
-                                                    
-
-                                                    fs.writeFileSync(path_cartella +"/result/"+cartella+'_aumentato.xlsx', xls, 'binary');
-                                                    
                                                 });
 
                                             });
@@ -3028,10 +3036,31 @@ function postProduci(json,fornitore){
     if(fornitore=="flos"){
         
 
+        
+
+        var json_prodotti = [];
+        // creo hicid è l'id del articolo primario che viene messo a tutte le sue varianti
+        // l'articolo primario viene pompato in json_prodotti col price a zero
+        var registro = {};
+        
+        _.each(json, function(elem,index){
+            if( !_.is(registro[elem.model]) ){
+                registro[elem.model] = elem.hicId;
+                var new_elem = Object.assign({}, elem);
+                new_elem.price = 0;
+                json_prodotti.push(new_elem);
+            }
+            else{
+                elem.hicId = registro[elem.model];
+            }
+            
+        })
+
+
         // aggiungo gli accessori di ogni articolo
         _.each(json, function(elem){
             if( elem.component == 1){
-                var cod_component = elem.model;
+                var cod_component = elem.hicId;
                 var cod_item = elem.component_of;
 
                 _.each(json, function(item, index){
@@ -3049,13 +3078,18 @@ function postProduci(json,fornitore){
             }
         })
 
+        
+        
         _.each(json, function(elem, index){
             var cod = elem.component_of;
             _.each(json, function(elem2){
                 if( elem2.model_id == cod)
-                    json[index].component_of = elem2.model;
+                   json[index].component_of = elem2.hicId;
             })
         })
+        
+        
+       
     }
 
 
@@ -3123,7 +3157,9 @@ function postProduci(json,fornitore){
                     }
                 })
             }
-        })
+        });
+
+        var json_prodotti = [];
 
     }
 
@@ -3138,13 +3174,18 @@ function postProduci(json,fornitore){
 
         json = new_json;
 
-        _.log(json.length);
+        var json_prodotti = [];
+
+        
     }
 
     
 
     
 
-    return json;
+    return {
+        json_varianti : json,
+        json_prodotti : json_prodotti,
+    };
 }
 
