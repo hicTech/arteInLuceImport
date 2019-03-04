@@ -51,7 +51,7 @@ function avvia(index){
             //uri : "https://www.foscarini.com/it/products/ta-twiggy-xl/",
 
         }, function(error, response, body) {
-            createJsonFromAPage(body);
+            createJsonFromAPage(body, uri);
         });
 
     }
@@ -65,7 +65,7 @@ function avvia(index){
 
 
 
-function createJsonFromAPage(body){
+function createJsonFromAPage(body, uri){
 
     var $body = $(body);
     //_.log(body)
@@ -206,6 +206,7 @@ function createJsonFromAPage(body){
         
     info.push({
         model : model,
+        uri: uri,
         category: category,
         desc: desc,
         carousel: car_imgs_arr,

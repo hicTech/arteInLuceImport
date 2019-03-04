@@ -957,8 +957,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             /* ================================================================= VISTOSI */
             if( fornitore == "vistosi"){
 
-                _.log("VEDI CHE CI SONO DIVERSE COLONNE CHE HANNO POCHI DATI.... TIPO DESC E COMPANY... HANNO QUEI SOLITI PROBLEMI SUI NOMI ANDREBBERO FATTE COME getLightSchemaOrName")
-
                 var all_models_name = [
                                     "ACCADEMIA","ALIKI","ALMA","ALUM 09","ASSIBA","BACO","BACONA","BIANCA","BOCCIA","CHIMERA","CHIMERA 09",
                                     "CILD","CLEO","CLOTH","COCUMIS","COMARI","CORNER","DAFNE","DAMASCO","DIADEMA","DIAMANTE","DODO","DOGI","DOS",
@@ -1003,12 +1001,13 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 title = getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "title");
                 subtitle = row["Descrizione"];
                 
-                desc_it = getDescription(model,category,component,assets_json);
+                desc_it = getDescription( row["Descrizione"], model,clone,component,assets_json);
                 desc_en = desc_it;
                 cleaned_desc_it = desc_it;
                 cleaned_desc_en = desc_en;
 
-                projects = getProjects(model,category,component,assets_json);
+                projects = getProjects( row["Descrizione"], model,clone,component,assets_json);
+                link = getSupplierSiteLink( row["Descrizione"], model,clone,component,assets_json );
 
                 //otherColors = getOtherPics(model, size, category, type, color, more);
                 more = { instruction : getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "download") }
@@ -1017,7 +1016,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 // una volta calcolati tutti i dati siamo pronti per definire il model degli articoli e dei pazzi di ricambio
 
                 model = getRealModelName(model, component, title, type, component_of);
-                link = getSupplierSiteLink(model, category);
+                
 
 
                 function getModel(desc){
@@ -1651,27 +1650,100 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                 }
 
-                function getDescription(model,category,component,assets_json){
-                    var desc = undefined;
-                    if(component == 0){
+                function getDescription(original_model, model,arr_category,component,assets_json){
+                    var ret = undefined;
+                    
+                    var original_model_arr = descToArray(original_model);
+                    if(isOutOfStock(model, arr_category, original_model_arr))
+                        return "out of stock"
+
+                    var category = arr_category[0];
+
+                    if(model.toLowerCase() == "lunae"){
+                        category = "parete";
+                    }
+                    if(model.toLowerCase() =="magie" && category=="soffitto"){
+                        category = "faretto";
+                    }
+
+                    if(model.toLowerCase() =="poc" && category=="soffitto"){
+                        category = "faretto";
+                    }
+
+                    if(model.toLowerCase() =="tahoma" && category=="soffitto"){
+                        category = "faretto";
+                    }
+                    
+
+                    if(category=="terra"){
+                        category = "piantana";
+                    }
+
+                    
+
+                    ///////////////////////// uniformo alcuni nome che fra listino e sito differiscono
+                    model = uniformaConListino(model);
+                    
+
+                    if(component == 0 ){
                         _.each(assets_json,function(elem){
                             if(model.toLowerCase() == elem.model && category == elem.category)
-                                desc = elem.desc;
+                                ret = elem.desc;
                         });
                     }
-                    return desc;                        
+                    if(!_.is(ret) && component == 0){
+                        _.log(count++  +")Attenzione description non trovata per model: "+ model+" category: "+category);
+                    }
+                        
+                    else
+                        return ret;                      
                 }
 
-                function getProjects(model,category,component,assets_json){
+                function getProjects(original_model, model,arr_category,component,assets_json){
                     var ret = undefined;
-                    if(component == 0){
+                    
+                    var original_model_arr = descToArray(original_model);
+                    if(isOutOfStock(model, arr_category, original_model_arr))
+                        return "out of stock"
+
+                    var category = arr_category[0];
+
+                    if(model.toLowerCase() == "lunae"){
+                        category = "parete";
+                    }
+                    if(model.toLowerCase() =="magie" && category=="soffitto"){
+                        category = "faretto";
+                    }
+
+                    if(model.toLowerCase() =="poc" && category=="soffitto"){
+                        category = "faretto";
+                    }
+
+                    if(model.toLowerCase() =="tahoma" && category=="soffitto"){
+                        category = "faretto";
+                    }
+                    
+
+                    if(category=="terra"){
+                        category = "piantana";
+                    }
+
+                    
+
+                    ///////////////////////// uniformo alcuni nome che fra listino e sito differiscono
+                    model = uniformaConListino(model);
+                    
+
+                    if(component == 0 ){
                         _.each(assets_json,function(elem){
                             if(model.toLowerCase() == elem.model && category == elem.category)
                                 ret = elem.projects;
                         });
                     }
-                    if(!_.is(ret))
-                        _.log("Attenzione projects non trovati per model: "+ model+" category: "+category);
+                    if(!_.is(ret) && component == 0){
+                        _.log(count++  +")Attenzione projects non trovati per model: "+ model+" category: "+category);
+                    }
+                        
                     else
                         return ret;
                         
@@ -1741,41 +1813,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         
 
                         ///////////////////////// uniformo alcuni nome che fra listino e sito differiscono
-                        if(model=="MINIGIOGALI"){
-                            model = "mini-giogali"
-                        }
-                        if(model=="GIOGALI 3D"){
-                            model = "giogali-3d"
-                        }
-                        if(model=="SAN MARCO"){
-                            model = "san-marco"
-                        }
-                        if(model=="SAN GIORGIO"){
-                            model = "san-giorgio"
-                        }
-                        if(model=="TAHOMA ROUND"){
-                            model = "tahoma-round"
-                        }
-                        if(model=="ALUM 09"){
-                            model = "alum09"
-                        }
-                        if(model=="CHEOPE 09"){
-                            model = "cheope-09"
-                        }
-                        if(model=="QUADRA09"){
-                            model = "quadra-09"
-                        }
-                        if(model=="CHIMERA 09"){
-                            model = "chimera-09"
-                        }
-                        if(model=="ENNE LUCI"){
-                            model = "enne-luci"
-                        }
-                        if(model == "TABLO'")
-                            model = "tablo"
-                            
-                        if(model == "MARBLE'")
-                            model = "marblè"
+                        model = uniformaConListino(model);
+                        
                     
                         
                             
@@ -1861,46 +1900,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         // ==== ==== ==== ==== ==== ==== ==== articoli non presenti, fuori produzione
                         // ciò è stato determinato in qui casi in cui l'articolo non è presente nel sito
                         
-                        if( 
-                            (model == "COCUMIS" || model == "MENDELEE" || model == "SCUSEV" || model == "PUSKIN" || category == "altro") ||
-                            (model == "DAMASCO" && arr_category[0] == "soffitto") ||
-                            (model == "STARDUST" && arr_category[0] == "tavolo") ||
-                            (model == "TUBES" && arr_category[0] == "tavolo") ||
-                            (model == "VEGA" && arr_category[0] == "parete") ||
-                            (model == "SEMAI" && arr_category[0] == "soffitto") ||
-                            (model == "SEMAI" && arr_category[0] == "tavolo") ||
-                            (model == "LUNAE") ||
-
-                            // da qui in poi sono quei casi in cui non esiste una specifica variante di un dato articolo
-                            // perchè questa non esiste nella sezione download
-                            (_.isEqual(original_model_arr,["WITHWHIT","SOSPE","XL","BIANCO","BIANCO","E27"])) ||
-                            (_.isEqual(original_model_arr,["WITHWHIT","SOSPE","36","XL","BIANCO","BIANCO","E27"])) ||
-                            (_.isEqual(original_model_arr,["WITHWHIT","SOSPE","46","XL","BIANCO","BIANCO","E27"])) ||
-                            (_.isEqual(original_model_arr,["WITHWHIT","SOSPE","XL","BIANCO","BIANCO","CA2"])) ||
-                            (_.isEqual(original_model_arr,["WITHWHIT","SOSPE","36","XL","BIANCO","BIANCO","CA2"])) ||
-                            (_.isEqual(original_model_arr,["WITHWHIT","SOSPE","46","XL","BIANCO","BIANCO","CA2"])) ||
-
-                            ( model == "OTO" && arr_category[0] == "sospensione" && contains(original_model_arr,"RC60") ) ||
-                            ( model == "OTO" && arr_category[0] == "sospensione" && contains(original_model_arr,"SURF") ) ||
-                            ( model == "OTO" && arr_category[0] == "sospensione" && contains(original_model_arr,"SPHE") ) ||
-
-                            ( model == "IMPLODE" && arr_category[0] == "soffitto" && contains(original_model_arr,"16") ) ||
-                            ( model == "LUCCIOLA" && arr_category[0] == "soffitto" && contains(original_model_arr,"18") ) ||
-
-                            ( model == "DAMASCO" && arr_category[0] == "tavolo" && contains(original_model_arr,"C") ) ||
-
-                            ( model == "BOT" && arr_category[0] == "soffitto" && contains(original_model_arr,"16") ) ||
-
-                            ( model == "DIADEMA" && arr_category[0] == "sospensione" && contains(original_model_arr,"C1") ) ||
-
-                            ( model == "CHEOPE 09" && arr_category[0] == "sospensione" && contains(original_model_arr,"PICCO") ) ||
-                            ( model == "CHEOPE 09" && arr_category[0] == "sospensione" && contains(original_model_arr,"PICCOD1") ) ||
-                            ( model == "CHEOPE 09" && arr_category[0] == "sospensione" && contains(original_model_arr,"PICCOD2") )  ||
-
-                            ( model == "TAHOMA ROUND" && arr_category[0] == "soffitto"  )
-                        
-                        )
-                        return "out of stock";
+                        if( isOutOfStock(model, arr_category, original_model_arr) )
+                            return "out of stock";
                     
                    
 
@@ -2290,41 +2291,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         
 
                         ///////////////////////// uniformo alcuni nome che fra listino e sito differiscono
-                        if(model=="MINIGIOGALI"){
-                            model = "mini-giogali"
-                        }
-                        if(model=="GIOGALI 3D"){
-                            model = "giogali-3d"
-                        }
-                        if(model=="SAN MARCO"){
-                            model = "san-marco"
-                        }
-                        if(model=="SAN GIORGIO"){
-                            model = "san-giorgio"
-                        }
-                        if(model=="TAHOMA ROUND"){
-                            model = "tahoma-round"
-                        }
-                        if(model=="ALUM 09"){
-                            model = "alum09"
-                        }
-                        if(model=="CHEOPE 09"){
-                            model = "cheope-09"
-                        }
-                        if(model=="QUADRA09"){
-                            model = "quadra-09"
-                        }
-                        if(model=="CHIMERA 09"){
-                            model = "chimera-09"
-                        }
-                        if(model=="ENNE LUCI"){
-                            model = "enne-luci"
-                        }
-                        if(model == "TABLO'")
-                            model = "tablo"
-                            
-                        if(model == "MARBLE'")
-                            model = "marblè"
+                        model = uniformaConListino(model);
+                        
 
                         var arr_varianti = [];
                         _.each(assets_json,function(elem){
@@ -2569,49 +2537,140 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     }
                 }
 
-                function getSupplierSiteLink(model, arr_category){
+
+                function getSupplierSiteLink(original_model, model,arr_category,component,assets_json){
+                    var ret = undefined;
                     
+                    var original_model_arr = descToArray(original_model);
+                    if(isOutOfStock(model, arr_category, original_model_arr))
+                        return "out of stock"
+
+                    var category = arr_category[0];
+
+                    if(model.toLowerCase() == "lunae"){
+                        category = "parete";
+                    }
+                    if(model.toLowerCase() =="magie" && category=="soffitto"){
+                        category = "faretto";
+                    }
+
+                    if(model.toLowerCase() =="poc" && category=="soffitto"){
+                        category = "faretto";
+                    }
+
+                    if(model.toLowerCase() =="tahoma" && category=="soffitto"){
+                        category = "faretto";
+                    }
                     
-                    var link_url;
-                    _.each(assets_json,function(elem){
-                        _.each(elem.variants,function(variant){
-                            var variant_model = variant.model;
-                            var variant_category = variant.category;
-                                model = model.toLowerCase();
-                                category = (_.isArray(arr_category))? arr_category[0] : arr_category;
 
-                                if(model=="lunae"){
-                                    category = "parete";
-                                }
-                                if(model=="magie" && category=="soffitto"){
-                                    category = "faretto";
-                                }
-
-                                if(model=="poc" && category=="soffitto"){
-                                    category = "faretto";
-                                }
-
-                                if(model=="tahoma" && category=="soffitto"){
-                                    category = "faretto";
-                                }
-
-                                if(category=="terra"){
-                                    category = "piantana";
-                                }
-                            
-                                if(model == variant_model && category == variant_category){
-                                    
-                                    link_url = variant.url;
-                                    
-                                }
-                            
-                        })    
-                    });
+                    if(category=="terra"){
+                        category = "piantana";
+                    }
 
                     
-                    return link_url;
 
+                    ///////////////////////// uniformo alcuni nome che fra listino e sito differiscono
+                    model = uniformaConListino(model);
                     
+
+                    if(component == 0 ){
+                        _.each(assets_json,function(elem){
+                            if(model.toLowerCase() == elem.model && category == elem.category)
+                                ret = elem.uri;
+                        });
+                    }
+                    if(!_.is(ret) && component == 0){
+                        _.log(count++  +")Attenzione uri non trovato per model: "+ model+" category: "+category);
+                    }
+                        
+                    else
+                        return ret;                      
+                }
+
+                ///////////////////////// uniformo alcuni nome che fra listino e sito differiscono
+                function uniformaConListino(model){
+                    if(model=="MINIGIOGALI"){
+                        return  "mini-giogali"
+                    }
+                    if(model=="GIOGALI 3D"){
+                        return  "giogali-3d"
+                    }
+                    if(model=="SAN MARCO"){
+                        return  "san-marco"
+                    }
+                    if(model=="SAN GIORGIO"){
+                        return  "san-giorgio"
+                    }
+                    if(model=="TAHOMA ROUND"){
+                        return  "tahoma-round"
+                    }
+                    if(model=="ALUM 09"){
+                        return  "alum09"
+                    }
+                    if(model=="CHEOPE 09"){
+                        return  "cheope-09"
+                    }
+                    if(model=="QUADRA09"){
+                        return  "quadra-09"
+                    }
+                    if(model=="CHIMERA 09"){
+                        return  "chimera-09"
+                    }
+                    if(model=="ENNE LUCI"){
+                        return  "enne-luci"
+                    }
+                    if(model == "TABLO'")
+                        return "tablo"
+                        
+                    if(model == "MARBLE'")
+                       return "marblè";
+
+                    return model;
+                }
+
+                function isOutOfStock(model, arr_category, original_model_arr){
+                    if( 
+                            (model == "COCUMIS" || model == "MENDELEE" || model == "SCUSEV" || model == "PUSKIN" || category == "altro") ||
+                            (model == "DAMASCO" && arr_category[0] == "soffitto") ||
+                            (model == "STARDUST" && arr_category[0] == "tavolo") ||
+                            (model == "TUBES" && arr_category[0] == "tavolo") ||
+                            (model == "VEGA" && arr_category[0] == "parete") ||
+                            (model == "SEMAI" && arr_category[0] == "soffitto") ||
+                            (model == "SEMAI" && arr_category[0] == "tavolo") ||
+                            (model == "LUNAE") ||
+
+                            // da qui in poi sono quei casi in cui non esiste una specifica variante di un dato articolo
+                            // perchè questa non esiste nella sezione download
+                            (_.isEqual(original_model_arr,["WITHWHIT","SOSPE","XL","BIANCO","BIANCO","E27"])) ||
+                            (_.isEqual(original_model_arr,["WITHWHIT","SOSPE","36","XL","BIANCO","BIANCO","E27"])) ||
+                            (_.isEqual(original_model_arr,["WITHWHIT","SOSPE","46","XL","BIANCO","BIANCO","E27"])) ||
+                            (_.isEqual(original_model_arr,["WITHWHIT","SOSPE","XL","BIANCO","BIANCO","CA2"])) ||
+                            (_.isEqual(original_model_arr,["WITHWHIT","SOSPE","36","XL","BIANCO","BIANCO","CA2"])) ||
+                            (_.isEqual(original_model_arr,["WITHWHIT","SOSPE","46","XL","BIANCO","BIANCO","CA2"])) ||
+
+                            ( model == "OTO" && arr_category[0] == "sospensione" && contains(original_model_arr,"RC60") ) ||
+                            ( model == "OTO" && arr_category[0] == "sospensione" && contains(original_model_arr,"SURF") ) ||
+                            ( model == "OTO" && arr_category[0] == "sospensione" && contains(original_model_arr,"SPHE") ) ||
+
+                            ( model == "IMPLODE" && arr_category[0] == "soffitto" && contains(original_model_arr,"16") ) ||
+                            ( model == "LUCCIOLA" && arr_category[0] == "soffitto" && contains(original_model_arr,"18") ) ||
+
+                            ( model == "DAMASCO" && arr_category[0] == "tavolo" && contains(original_model_arr,"C") ) ||
+
+                            ( model == "BOT" && arr_category[0] == "soffitto" && contains(original_model_arr,"16") ) ||
+
+                            ( model == "DIADEMA" && arr_category[0] == "sospensione" && contains(original_model_arr,"C1") ) ||
+
+                            ( model == "CHEOPE 09" && arr_category[0] == "sospensione" && contains(original_model_arr,"PICCO") ) ||
+                            ( model == "CHEOPE 09" && arr_category[0] == "sospensione" && contains(original_model_arr,"PICCOD1") ) ||
+                            ( model == "CHEOPE 09" && arr_category[0] == "sospensione" && contains(original_model_arr,"PICCOD2") )  ||
+
+                            ( model == "TAHOMA ROUND" && arr_category[0] == "soffitto"  )
+                        
+                        )
+                        return true;
+                    else
+                        return false;
                 }
                 
                 
