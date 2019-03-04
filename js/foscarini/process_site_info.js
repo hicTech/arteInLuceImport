@@ -20,7 +20,7 @@ var arr_all_products = [
 ];
 
 /*
-arr_all_products = ["https://www.foscarini.com/it/products/sos-buds-3/?color=3374"];
+arr_all_products = ["https://www.foscarini.com/it/products/plena/?color=3348","https://www.foscarini.com/it/products/soffio/?color=3609","https://www.foscarini.com/it/products/superficie/?color=3348","https://www.foscarini.com/it/products/sos-aplomb/?color=3390","https://www.foscarini.com/it/products/ta-rituals-2/?color=3348"];
 */
 
 // elimino eventuali doppioni
@@ -115,8 +115,13 @@ function createJsonFromAPage(body, uri){
             $material_ul.find("li").each(function(){ material += $(this).html()+" "})
 
             let $source_ul = $col2.find(".group").eq(1).find("ul");
-            let source = "";
-            $source_ul.find("li").each(function(){ source += ($(this).index()>0)? " oppure "+ $(this).html() : $(this).html() })
+            let source_pulita = S($source_ul.html()).replaceAll("\n","").replaceAll("\t","").s;
+            let commento = S(source_pulita).between("<!--","-->").s;
+                source_pulita = source_pulita.replace(commento,"").replace("<!---->  ","").replace('<li style=\"margin-bottom: 15px;\">','').replace('<div style=\"margin-top: 15px; margin-bottom: 25px;\">','').replace("</li>","").replace("</div>","")
+            let source = source_pulita;
+            
+
+            
 
             let $download_ul = $col2.find(".group.dl ul");
             let downloads = [];
@@ -142,7 +147,7 @@ function createJsonFromAPage(body, uri){
                 model: specs_model,
                 light_schema: light_schema,
                 material: material,
-                source: source,
+                //source: source, // non so perchè prima riuscivo a parserizzare bene questi dati, poi si è rotto.... se serve rifacciamo la funzione $source_ul
                 downloads : downloads,
             })
 

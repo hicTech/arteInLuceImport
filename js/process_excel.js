@@ -116,6 +116,10 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                     let xls_prodotti = json2xls(json_prodotti);
                                                     fs.writeFileSync(path_cartella +"/result/"+cartella+'_prodotti.xlsx', xls_prodotti, 'binary');
 
+                                                    
+                                                    const opn = require('opn');
+                                                    opn(path_cartella +"/result/"+cartella+'_aumentato.xlsx',{wait:false});
+
                                                 });
 
                                             });
@@ -312,6 +316,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 item_id = model_id;
                 hicId = getHicId(supplier_id, item_id);
                 ean13 = undefined;
+                max_discount = 0;
                 price = row["Europa"];
                 color = getColor(articolo);
                 category = getCategory(row["Sottofamiglia"]);
@@ -326,14 +331,14 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 cleaned_desc_it = getDesc(model,category,component,assets_json);
                 size = getSize(articolo);
                 outdoor = (articolo.indexOf("OUTDOOR") != -1 || row["Sottofamiglia"].indexOf("OUTDOOR") != -1)? 1 : 0;
-                max_discount = 0;
+
                 wire_length = getWireLength(row["Componente"]);
                 title = row["Articolo"];
                 subtitle = undefined;
                 pic = getPics(model, category, color, component, createAllImgsArr(assets_json), "primary" );
                 light_schema = (component == 0)? getLightSchema(model, category, size, assets_json) : undefined;
                 otherColors = getPics(model, category, color, component, createAllImgsArr(assets_json), "colors" );
-                link = undefined;
+                link = getSupplierSiteLink(model,category,component,assets_json);
                 
                 more = JSON.stringify({
                     video : getVideo(model, category, component, createAllVideosArr(assets_json)),
@@ -946,6 +951,28 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 }
                 
             }
+
+
+            function getSupplierSiteLink(model,category,component,assets_json){
+                if(component == 1)
+                    return undefined;
+                var ret = undefined;
+                        
+                var cat = category[0];
+                _.each(assets_json,function(elem){
+                    
+                    /** qui accordiamo le diverse nomencalute di alcuni prodotti presenti sul sito */
+                    var elem_model = elem.model;
+                    var elem_category = elem.category.toLowerCase();
+                    
+                    if( sameItem(model, cat, elem_model, elem_category,"uri") ){
+                            ret = elem.uri;
+                    }
+                        
+                });
+
+                return ret;
+            }
             
             
             
@@ -978,7 +1005,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 item_id = itemId(original_model_id);
                 hicId = getHicId(supplier_id, item_id);
                 ean13 = undefined;
-                price = getPrice(row["Prezzo"]);
+                max_discount = 0.15;
+                price = getPrice(row["Prezzo"], max_discount);
                 color = getColor(row["Descrizione"]);
                 
                 dimmer = undefined;
@@ -995,7 +1023,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 size = getSize(row["Descrizione"]);;
                 outdoor = undefined;
                 wire_length = undefined;
-                max_discount = 15;
+                
                 pic = getPics(row["Descrizione"], model, category, type, assets_json,component, "primary");
                 light_schema = getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "light_schema");
                 title = getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "title");
@@ -1085,11 +1113,12 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     return item_id;
                 }
 
-                function getPrice(str){
+                function getPrice(str, max_discount){
                     var str_cleaned = str.replace("¤","").replace("Û ","").replace("ó ",""); 
                         str_cleaned = str_cleaned.replace(/  +/g, ' '); // elimino spazi multipli
-                        str_cleaned = str_cleaned.replace(",","").replace(".",",");
-                        return parseFloat(str_cleaned);
+                        str_cleaned = str_cleaned.replace(",","");
+
+                        return parseFloat( str_cleaned * (1 - max_discount) ).toFixed(2);;
 
                 }
                 
@@ -2692,7 +2721,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     item_id = original_model_id;
                     hicId = getHicId(supplier_id, item_id);
                     ean13 = undefined;
-                    price = getPrice(row["PREZZO IVA ESCL."]);
+                    max_discount = 0.14;
+                    price = getPrice(row["PREZZO IVA ESCL."], max_discount);
+
                     color = getColor(model_id);
                     desc_it = undefined;
                     desc_en = undefined;
@@ -2712,12 +2743,11 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     size = undefined;
                     outdoor = (row["Descrizione articolo"].indexOf("OUT") != -1 )? 1: 0;
                     wire_length = undefined;
-                    max_discount = 14;
                     more = getMore(model_id);
-                    title = model;
+                    title = getTitle(model, component, component_of);
                     pic = ( _.is(getAsset(model_id)))? (_.is(getAsset(model_id).img)) ? getAsset(model_id).img : getAsset(model_id).image : undefined;
                     light_schema = getSchemaImages(model_id);
-                    subtitle = undefined;
+                    subtitle = getSubtitle(model, component, component_of, category);
                     otherColors = undefined;
                     projects = ( _.is(getAsset(model_id)) )? ( _.is( getAsset(model_id).other_images ) )? getAsset(model_id).other_images : undefined : undefined ;
                     link = getSupplierSiteLink(model_id);
@@ -2728,8 +2758,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             return asset.fullname || asset.model;
                     }
 
-                    function getPrice(price){
-                        return price.replace("€ ","");
+                    function getPrice(price, max_discount){
+                        var price = parseFloat(price.replace("€ ","").replace(",","")).toFixed(2);
+                        return parseFloat( price* (1 - max_discount) ).toFixed(2);
                     }
 
                     function getColor(model_id){
@@ -2841,6 +2872,19 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 return asset.uri;
                     }
 
+                    function getTitle(model, component, component_of){
+                        return model;
+                    }
+
+                    function getSubtitle(model, component, component_of, category){
+                        if(component == 0)
+                            return category;
+                        else{
+                            var asset = getAsset(component_of);
+                            return "accessorio di "+ asset.model +" "+ asset.category
+                        }
+                    }
+
                 }
             }
 
@@ -2855,14 +2899,14 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             supplier:               supplier,                           // nome del fornitore
             supplier_id :           supplier_id,                        // identificativo del fonitore
             model:                  (_.is(model))? model.toLowerCase() : undefined,                // modello/famiglia dell'articolo
+            title:                  title,                              // se possibile ricostruiamo un title da mettere nella pagina dell'articolo
+            subtitle:               subtitle,                           // se possibile ricostruiamo un sottotitolo da mettere bella pagina dell'articolo
             original_model_id:      original_model_id,                  // id originario (NON MANIPOLATO) dell'articolo
             model_id:               model_id,                           // identificativo della famiglia di articolo ottenuto con replace(" ","_");
             item_id:                item_id,                            // l'id originario manipolato
             hicId:                  hicId,                              // identificativo interno ottenuto come supplier_id + item_id
             ean13:                  ean13,                              // codice a barre
-            
             price:                  price,                              // imponibile
-            
             color:                  color,                              // prova a recuperare il colore dall'id
             desc_it:                cleaned_desc_it,                    // la descrizione in italiano
             desc_en:                cleaned_desc_en,                    // la descrizione in inglese 
@@ -2879,8 +2923,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             outdoor:                outdoor,                            // se è da esterno o meno
             wire_length:            wire_length,                        // se c'è dice quanto è lungo il cavo (in foscarini è una variante)
             max_discount:           max_discount,                       // massimo sconto applicabile
-            title:                  title,                              // se possibile ricostruiamo un title da mettere nella pagina dell'articolo
-            subtitle:               subtitle,                           // se possibile ricostruiamo un sottotitolo da mettere bella pagina dell'articolo
             pic:                    pic,                                // contiene l'immagine primaria
             light_schema:           light_schema,                       // schema dell'articolo
             otherColors:            otherColors,                        // array dei path delle immagini di altri colori dello stesso articolo
@@ -3188,7 +3230,7 @@ function postProduci(json,fornitore){
                     
                     if(item.model_id == cod_item ){
                         //var new_accessories = item["accessories"] + cod_component+";";
-                        item["accessories"] += (item["accessories"] != "" )? ";"+cod_component : cod_component
+                        item["accessories"] += (item["accessories"] != "" )? ","+cod_component : cod_component
 
                     }
                     
@@ -3235,12 +3277,16 @@ function postProduci(json,fornitore){
             }
         ]
 
-        var new_json = []
+        
  
         // elimino gli articoli che non hanno model o che sono no_longer_available
-        new_json = _.filter(json,function(elem){
-            if(!_.is(elem.model))
+        
+        json = _.filter(json,function(elem){
+            if(!_.is(elem.model) || elem.model == ""){
+                //_.log(_.toStr(elem))
                 return false;
+            }
+                
             else{
                 if( elem.model != "tress" )
                     return  ( elem.model != "esa" && elem.model != "ellepi" && elem.model != "jamaica" )
@@ -3253,10 +3299,11 @@ function postProduci(json,fornitore){
                 }
             }
            
-        })
+        });
+        
             
 
-        json = new_json;
+        
         
         // aggiungo gli accessori ogni articolo
         _.each(json,function(elem){
@@ -3271,7 +3318,7 @@ function postProduci(json,fornitore){
                     if(item.component==0){
                         if(component_of == item.model+" "+item.category){
                             //item.accessories += model+";"
-                            item["accessories"] += (item["accessories"] != "" )? ";"+model : model
+                            item["accessories"] += (item["accessories"] != "" )? ","+model : model
                         }
                     }
                 })
