@@ -3,7 +3,13 @@ var _ = require("../lib/_node.js");
 node_xj = require("xls-to-json");
 var json2xls = require('json2xls');
 var S = require('string');
- 
+var jsdom = require("jsdom");
+const { JSDOM } = jsdom;
+const { window } = new JSDOM();
+const { document } = (new JSDOM('')).window;
+global.document = document;
+
+var $ = jQuery = require('jquery')(window);
 
 var path = "../xls/";
 
@@ -110,10 +116,10 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                     let xls_aumentato = json2xls(json);
                                                     fs.writeFileSync(path_cartella +"/result/"+cartella+'_aumentato.xlsx', xls_aumentato, 'binary');
 
-                                                    let xls_varianti = json2xls(json_varianti, {fields: ["hicId", "model", "price", "quantity", "email_quantity", "attributes", "values", "pic"] });
+                                                    let xls_varianti = json2xls(json_varianti, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "pic"] });
                                                     fs.writeFileSync(path_cartella +"/result/"+cartella+'_varianti.xlsx', xls_varianti, 'binary');
 
-                                                    let xls_prodotti = json2xls(json_prodotti, {fields: ["hicId", "supplier", "category", "title", "subtitle", "desc_it", "price", "quantity", "email_quantity", "sale", "max_discount", "ean13", "features", "accessories", "pic"] });
+                                                    let xls_prodotti = json2xls(json_prodotti, {fields: ["hicId", "supplier", "category", "title", "subtitle", "desc_it", "price", "quantity", "delivery_time", "delivery_time_if_not_available","sale", "max_discount", "ean13", "features", "accessories", "pic","meta_title","meta_description"] });
                                                     fs.writeFileSync(path_cartella +"/result/"+cartella+'_prodotti.xlsx', xls_prodotti, 'binary');
 
                                                     
@@ -160,7 +166,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var ean13 = undefined;
         var price = undefined;
         var quantity = undefined;
-        var email_quantity = undefined;
+        var delivery_time = undefined;
+        var delivery_time_if_not_available = undefined;
         var color = undefined;
         var desc_it = undefined;
         var desc_en = undefined;
@@ -188,6 +195,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var otherColors = undefined;
         var projects = undefined;
         var link = undefined;
+        var meta_title = undefined;
+        var meta_description = undefined;
         
 
     
@@ -322,8 +331,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 max_discount = 0;
                 sale = 0;
                 price = row["Europa"];
-                quantity = 3;
-                email_quantity = 1;
+                quantity = 0;
+                delivery_time = "2-3 gg Italy, 5-6 days UE";
+                delivery_time_if_not_available = "Su ordinazione in 10 gg";
                 color = getColor(articolo);
                 category = getCategory(row["Sottofamiglia"]);
                 dimmer = (articolo.indexOf("DIM") != -1)? 1 : 0;
@@ -345,6 +355,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 light_schema = (component == 0)? getLightSchema(model, category, size, assets_json) : undefined;
                 otherColors = getPics(model, category, color, component, createAllImgsArr(assets_json), "colors" );
                 link = getSupplierSiteLink(model,category,component,assets_json);
+                meta_title = undefined;
+                meta_description = undefined;
                 
                 more = JSON.stringify({
                     video : getVideo(model, category, component, createAllVideosArr(assets_json)),
@@ -1014,8 +1026,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 max_discount = 0.15;
                 sale = 1;
                 price = getPrice(row["Prezzo"], max_discount);
-                quantity = 3;
-                email_quantity = 1;
+                quantity = 0;
+                delivery_time = "2-3 gg Italy, 5-6 days UE";
+                delivery_time_if_not_available = "Su ordinazione in 2-3 settimane";
                 color = getColor(row["Descrizione"]);
                 
                 dimmer = undefined;
@@ -1053,7 +1066,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 // una volta calcolati tutti i dati siamo pronti per definire il model degli articoli e dei pazzi di ricambio
 
                 model = getRealModelName(model, component, title, type, component_of);
-                
+                meta_title = undefined;
+                meta_description = undefined;
 
 
                 function getModel(desc){
@@ -2733,8 +2747,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     max_discount = 0.14;
                     sale = 1;
                     price = getPrice(row["PREZZO IVA ESCL."], max_discount);
-                    quantity = 3;
-                    email_quantity = 1;
+                    quantity = 0;
+                    delivery_time = "2-3 gg Italy, 5-6 days UE";
+                    delivery_time_if_not_available = "Su ordinazione in 2-3 settimane";
+                    
 
                     color = getColor(model_id);
                     desc_it = undefined;
@@ -2763,6 +2779,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     otherColors = undefined;
                     projects = ( _.is(getAsset(model_id)) )? ( _.is( getAsset(model_id).other_images ) )? getAsset(model_id).other_images : undefined : undefined ;
                     link = getSupplierSiteLink(model_id);
+
+                    meta_title = getMetaTitle(title, subtitle, category, component, max_discount);
+                    meta_description = getMetaDescription(title, subtitle, category, component, max_discount);
 
                     function getModelName(model_id){
                         var asset = getAsset(model_id);
@@ -2875,7 +2894,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                     }
 
-
                     // ritorna il link alla pagine dell'articolo sul sito del fornitore
                     function getSupplierSiteLink(model_id){
                         var asset = getAsset(model_id);
@@ -2895,6 +2913,26 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             var asset = getAsset(component_of);
                             return "accessorio di "+ asset.model +" "+ asset.category
                         }
+                    }
+
+                    function getMetaTitle(title, subtitle, category, component, max_discount){
+                        if(component == 0){
+                            var ret = "Arte in Luce "+title+" Flos™ "+category;
+                        }
+                        if(component == 1){
+                            var ret = "Flos™ ricambio "+title;
+                        }
+                        return ret;
+                    }
+
+                    function getMetaDescription(title, subtitle, category, component, max_discount){
+                        if(component == 0){
+                            var ret = "Lampada "+title+" Flos™ da "+category+" in sconto al 14%, spedizione gratuita.";
+                        }
+                        if(component == 1){
+                            var ret = "Flos™ ricambio "+title+" in sconto al 14%, spedizione gratuita.";
+                        }
+                        return ret;
                     }
 
                 }
@@ -2920,7 +2958,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             ean13:                  ean13,                                                          // codice a barre
             price:                  price,                                                          // imponibile
             quantity:               quantity,                                                       // quantità disponibile in magazzino nel momento del caricamento massivo
-            email_quantity:         email_quantity,                                                  // invia una mail quando scende sotto questa quantità    
+            delivery_time:          delivery_time,                                                  // tempi di spedizione se in pronta consegna
+            delivery_time_if_not_available : delivery_time_if_not_available,                        // tempi di consegna su ordinazione
             color:                  (_.is(color))? color.toLowerCase() : undefined,                // prova a recuperare il colore dall'id
             desc_it:                cleaned_desc_it,                                                // la descrizione in italiano
             desc_en:                cleaned_desc_en,                                                // la descrizione in inglese 
@@ -2934,7 +2973,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             component:              component,                                                      // indica se è un componente di una lampada (serve per distinguere i pezzi di ricambio dalle lampade)
             component_of:           component_of,                                                   // se l'articolo è un componente ritorna il modello di cui è componente
             size:                   size,                                                           // piuccola, media, grande,....
-            outdoor:                outdoor,                                                        // se è da esterno o meno
+            outdoor:                (outdoor==0)? "no" : "yes",                                     // se è da esterno o meno
             wire_length:            wire_length,                                                    // se c'è dice quanto è lungo il cavo (in foscarini è una variante)
             max_discount:           max_discount * 100,                                             // massimo sconto applicabile espresso come frazione di uno viene qui moltiplicato per 100
             sale:                   sale,                                                           // 0 o 1 serve a prestashop per capire se c'è uno sconto o meno
@@ -2943,7 +2982,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             otherColors:            otherColors,                                                    // array dei path delle immagini di altri colori dello stesso articolo
             projects:               projects,                                                       // sono le immagini di progetti
             link:                   link,                                                           // ritorna la pagine dell'articolo sul sito del fornitore
-            more:                   more,                                                           // contiene dei campi aggiuntivi (custom per ogni fornitore) esempio video, link a pdf, pagine html     
+            more:                   more,                                                           // contiene dei campi aggiuntivi (custom per ogni fornitore) esempio video, link a pdf, pagine html
+            meta_title:             meta_title,
+            meta_description:       meta_description,
             
         }
 }
@@ -3201,29 +3242,19 @@ function sameItemForVideo(model, category, elem_model, elem_category){
     return model == elem_model && category == elem_category;
 }
 
-function inlineCSV(obj,arr, caso){
-    var csv = "";
-    _.each(arr,function(elem, pos){
-        if(_.is(caso)){ // caso dei values
-            if( _.is(obj[elem]) ){
-                var singleton = obj[elem] +" : "+ pos +" , ";
-            }
-        }else{
-            if(!_.isArray(elem)) {
-                if( _.is(obj[elem]) )
-                    var singleton = elem +" : "+ obj[elem] +" : "+ pos+" , ";
-            }
-                
-            else
-                var singleton = elem[0] +" : "+ elem[1] +" : "+ pos+" , ";
-            }
-        
-        csv += (_.is(singleton))? singleton : "";
-    });
-
-    // tolgo l'ultima virgola
-    return csv.substring(0, csv.length - 3);
+function cleanedFeature(feature){
+    if(_.isArray(feature))
+        return undefined;
+    else{
+        var $feature = $("<div>"+ feature +"</div>");
+        // devo fare questo perchè se ci sono virgole nel testo spezzano il CSV
+        var ret = S($feature.text()).replaceAll(",","").s;
+        return ret;
+    }
+    
 }
+
+
 
 
 
@@ -3259,11 +3290,12 @@ function postProduci(json,fornitore){
 
         // aggiungo gli accessori di ogni articolo
         _.each(json, function(elem){
-            if( elem.component == 1){
+            if( elem.component == 1 ){
                 var cod_component = elem.hicId;
                 var cod_item = elem.component_of;
 
                 _.each(json, function(item, index){
+                    
                     if(!_.is(item["accessories"]))
                         item["accessories"] = "";
                     
@@ -3278,14 +3310,95 @@ function postProduci(json,fornitore){
             }
         });
 
+        
+
+
+
         // aggiungo le features che sono le proprietà statiche dell'articolo
         _.each(json, function(elem){
-            elem["features"] = inlineCSV(elem,["color","dimmer","led","category","outdoor"])
-            elem["attributes"] = inlineCSV(elem,[["color","select"]])
-            elem["values"] = inlineCSV(elem,["color"],"values")
+            elem["features"] = inlineCSVFeaturesFlos(elem,["category","outdoor"])
+            elem["attributes"] = inlineCSVFlos(elem,[["color","select"]])
+            elem["values"] = inlineCSVFlos(elem,["color"],"values")
         });
+
+
+        function inlineCSVFeaturesFlos(obj,arr){
+            let csv = "";
+            let pos = 0;
+            _.each(arr,function(elem){
+
+                if( _.is(obj[elem]) ){
+                    var singleton = elem +" : "+ obj[elem] +" : "+ pos+" , ";
+                    pos++;
+                }
+                            
+                csv += (_.is(singleton))? singleton : "";
+            });
+
+            //  alle features aggiungo i dati presenti in more (more c'è solo negli articoli componento == 0)
+            if(obj.component == 0){
+                _.each(obj.more, function(feature, key){
+                    var cleaned_feature = cleanedFeature(feature);
+
+                    if(_.is(cleaned_feature)){
+                        csv += key +' : '+ cleaned_feature +' : '+ pos +' , ';
+                        pos++;
+                    } 
+                    //var cleaned_feature = "'"+ feature.replace("<p>","").replace("</p>","") + "'";
+
+                })
+                /*
+                csv += "codice fornitore :"         +"'"+ obj.more.codice_articolo +"'"+" : "+              parseInt(pos)+" , ";
+                csv += "ambiente :"                 +"'"+ obj.more.ambiente +"'"+" : "+                     parseInt(pos+1)+" , ";
+                csv += "finitura :"                 +"'"+ obj.more.finitura +"'"+" : "+                     parseInt(pos+2)+" , ";
+                csv += "peso :"                     +"'"+ obj.more.peso +"'"+" : "+                         parseInt(pos+3)+" , ";
+                csv += "descrizione tecnica :"      +"'"+ obj.more.descrizione_tecnica +"'"+" : "+          parseInt(pos+4)+" , ";
+                csv += "emergenza :"                +"'"+ obj.more.emergenza +"'"+" : "+                    parseInt(pos+5)+" , ";
+                csv += "regolazione :"              +"'"+ obj.more.regolazione +"'"+" : "+                  parseInt(pos+6)+" , ";
+                csv += "voltaggio :"                +"'"+ obj.more.voltaggio +"'"+" : "+                    parseInt(pos+7)+" , ";
+                csv += "potenza :"                  +"'"+ obj.more.potenza +"'"+" : "+                      parseInt(pos+8)+" , ";
+                csv += "batteria :"                 +"'"+ obj.more.batteria +"'"+" : "+                     parseInt(pos+9)+" , ";
+                csv += "alimentatore incluso :"     +"'"+ obj.more.alimentatore_incluso +"'"+" : "+         parseInt(pos+10)+" , ";
+                csv += "lunghezza cavo (mm) :"      +"'"+ obj.more['lunghezza_del_cavo_(mm)'] +"'"+" : "+   parseInt(pos+11)+" , ";
+                csv += "materiale :"                +"'"+ obj.more.materiale_di_costruzione +"'"+" : "+     parseInt(pos+12)+" , ";
+                */
+            }
+           
+            
+            // tolgo l'ultima virgola
+            return csv.substring(0, csv.length - 3);
+        }
+
+        function inlineCSVFlos(obj,arr, caso){
+            
+            let pos = 0;
+            if(!_.is(caso)){ // caso dei attributes
+                var csv = "fakeAttribute : radio : 0 , ";                
+            }
+            else{ // caso di values
+                var csv = "fakeValue : 0 , ";
+            }
+            _.each(arr,function(elem){
+
+                if(_.is(caso)){ // caso dei values
+                    if( _.is(obj[elem]) ){
+                        pos++;
+                        var singleton = obj[elem] +" : "+ pos +" , ";
+                    }
+                }
+                else{ // caso di attributes
+                    pos++;
+                    var singleton = elem[0] +" : "+ elem[1] +" : "+ pos+" , ";
+                }
+                
+                csv += (_.is(singleton))? singleton : "";
+            });
+
+            // tolgo l'ultima virgola
+            return csv.substring(0, csv.length - 3);
+        }
         
-        
+        // in component_of invece del code metto hicId
         _.each(json, function(elem, index){
             var cod = elem.component_of;
             _.each(json, function(elem2){
