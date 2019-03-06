@@ -110,10 +110,10 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                     let xls_aumentato = json2xls(json);
                                                     fs.writeFileSync(path_cartella +"/result/"+cartella+'_aumentato.xlsx', xls_aumentato, 'binary');
 
-                                                    let xls_varianti = json2xls(json_varianti);
+                                                    let xls_varianti = json2xls(json_varianti, {fields: ["hicId", "model", "price", "quantity", "email_quantity", "attributes", "values", "pic"] });
                                                     fs.writeFileSync(path_cartella +"/result/"+cartella+'_varianti.xlsx', xls_varianti, 'binary');
 
-                                                    let xls_prodotti = json2xls(json_prodotti);
+                                                    let xls_prodotti = json2xls(json_prodotti, {fields: ["hicId", "supplier", "category", "title", "subtitle", "desc_it", "price", "quantity", "email_quantity", "sale", "max_discount", "ean13", "features", "accessories", "pic"] });
                                                     fs.writeFileSync(path_cartella +"/result/"+cartella+'_prodotti.xlsx', xls_prodotti, 'binary');
 
                                                     
@@ -159,6 +159,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var hicId = undefined;
         var ean13 = undefined;
         var price = undefined;
+        var quantity = undefined;
+        var email_quantity = undefined;
         var color = undefined;
         var desc_it = undefined;
         var desc_en = undefined;
@@ -177,6 +179,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var outdoor = undefined;
         var wire_length = undefined;
         var max_discount = undefined;
+        var sale = undefined;
         var more = undefined;
         var title = undefined;
         var subtitle = undefined;
@@ -317,7 +320,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 hicId = getHicId(supplier_id, item_id);
                 ean13 = undefined;
                 max_discount = 0;
+                sale = 0;
                 price = row["Europa"];
+                quantity = 3;
+                email_quantity = 1;
                 color = getColor(articolo);
                 category = getCategory(row["Sottofamiglia"]);
                 dimmer = (articolo.indexOf("DIM") != -1)? 1 : 0;
@@ -693,7 +699,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             function getPics(model, category, colors, component, all_images, caso){
                 if(component == 1 && caso == "primary"){
                     // è un ricambio quindi per ora ritorno una foto di default
-                    return "www.arteinluce.shop/assets_ecommerce/foscarini/component_default_img.jpg"
+                    return "http://www.arteinluce.shop/assets_ecommerce/foscarini/component_default_img.jpg"
                 }
                 // sono 1417 righe di articoli di cui
                 // di cui 533 diesel
@@ -1006,7 +1012,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 hicId = getHicId(supplier_id, item_id);
                 ean13 = undefined;
                 max_discount = 0.15;
+                sale = 1;
                 price = getPrice(row["Prezzo"], max_discount);
+                quantity = 3;
+                email_quantity = 1;
                 color = getColor(row["Descrizione"]);
                 
                 dimmer = undefined;
@@ -1834,7 +1843,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         
                     if(component == 1){
                         // è un ricambio quindi per ora ritorno una foto di default
-                        return "www.arteinluce.shop/assets_ecommerce/vistosi/component_default_img.jpg"
+                        return "http://www.arteinluce.shop/assets_ecommerce/vistosi/component_default_img.jpg"
                     }
 
                     if(component == 0){
@@ -2722,7 +2731,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     hicId = getHicId(supplier_id, item_id);
                     ean13 = undefined;
                     max_discount = 0.14;
+                    sale = 1;
                     price = getPrice(row["PREZZO IVA ESCL."], max_discount);
+                    quantity = 3;
+                    email_quantity = 1;
 
                     color = getColor(model_id);
                     desc_it = undefined;
@@ -2730,7 +2742,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     cleaned_desc_it = getDesc(component,getAsset(model_id));
                     cleaned_desc_en = cleaned_desc_it;
                     dimmer = (row["Descrizione articolo"].indexOf("DIMM") != -1 )? 1: 0;
-                    led = (row["Descrizione articolo"].indexOf("LED") != -1 )? 1: 0;
+                    led = (row["Descrizione articolo"].indexOf("LED") != -1 || row["Descrizione articolo"].toLowerCase().indexOf(" led") != -1 )? 1: 0;
                     halogen = undefined;
                     screw = undefined;
                     switcher = undefined;
@@ -2896,39 +2908,42 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         
 
         return{
-            supplier:               supplier,                           // nome del fornitore
-            supplier_id :           supplier_id,                        // identificativo del fonitore
-            model:                  (_.is(model))? model.toLowerCase() : undefined,                // modello/famiglia dell'articolo
-            title:                  title,                              // se possibile ricostruiamo un title da mettere nella pagina dell'articolo
-            subtitle:               subtitle,                           // se possibile ricostruiamo un sottotitolo da mettere bella pagina dell'articolo
-            original_model_id:      original_model_id,                  // id originario (NON MANIPOLATO) dell'articolo
-            model_id:               model_id,                           // identificativo della famiglia di articolo ottenuto con replace(" ","_");
-            item_id:                item_id,                            // l'id originario manipolato
-            hicId:                  hicId,                              // identificativo interno ottenuto come supplier_id + item_id
-            ean13:                  ean13,                              // codice a barre
-            price:                  price,                              // imponibile
-            color:                  color,                              // prova a recuperare il colore dall'id
-            desc_it:                cleaned_desc_it,                    // la descrizione in italiano
-            desc_en:                cleaned_desc_en,                    // la descrizione in inglese 
-            dimmer:                 dimmer,                             // se ha il dimmer o meno
-            led:                    led,                                // se ha il led o meno
-            halogen:                halogen,                            // se ha lampada alogena
-            screw:                  screw,                              // tipo di attacco
-            switcher:               switcher,                           // se ha l'interruttore o meno
-            category:               category,                           // terra, tavolo, sospensione, soffitto, parete, montatura, kit, diffusore, set,
-            type:                   type,                               // tipo di lampada
-            component:              component,                          // indica se è un componente di una lampada (serve per distinguere i pezzi di ricambio dalle lampade)
-            component_of:           component_of,                       // se l'articolo è un componente ritorna il modello di cui è componente
-            size:                   size,                               // piuccola, media, grande,....
-            outdoor:                outdoor,                            // se è da esterno o meno
-            wire_length:            wire_length,                        // se c'è dice quanto è lungo il cavo (in foscarini è una variante)
-            max_discount:           max_discount,                       // massimo sconto applicabile
-            pic:                    pic,                                // contiene l'immagine primaria
-            light_schema:           light_schema,                       // schema dell'articolo
-            otherColors:            otherColors,                        // array dei path delle immagini di altri colori dello stesso articolo
-            projects:               projects,                           // sono le immagini di progetti
-            link:                   link,                               // ritorna la pagine dell'articolo sul sito del fornitore
-            more:                   more,                               // contiene dei campi aggiuntivi (custom per ogni fornitore) esempio video, link a pdf, pagine html     
+            supplier:               supplier,                                                       // nome del fornitore
+            supplier_id :           supplier_id,                                                    // identificativo del fonitore
+            model:                  (_.is(model))? model.toLowerCase() : undefined,                 // modello/famiglia dell'articolo
+            title:                  title,                                                          // se possibile ricostruiamo un title da mettere nella pagina dell'articolo
+            subtitle:               subtitle,                                                       // se possibile ricostruiamo un sottotitolo da mettere bella pagina dell'articolo
+            original_model_id:      original_model_id,                                              // id originario (NON MANIPOLATO) dell'articolo
+            model_id:               model_id,                                                       // identificativo della famiglia di articolo ottenuto con replace(" ","_");
+            item_id:                item_id,                                                        // l'id originario manipolato
+            hicId:                  hicId,                                                          // identificativo interno ottenuto come supplier_id + item_id
+            ean13:                  ean13,                                                          // codice a barre
+            price:                  price,                                                          // imponibile
+            quantity:               quantity,                                                       // quantità disponibile in magazzino nel momento del caricamento massivo
+            email_quantity:         email_quantity,                                                  // invia una mail quando scende sotto questa quantità    
+            color:                  (_.is(color))? color.toLowerCase() : undefined,                // prova a recuperare il colore dall'id
+            desc_it:                cleaned_desc_it,                                                // la descrizione in italiano
+            desc_en:                cleaned_desc_en,                                                // la descrizione in inglese 
+            dimmer:                 (dimmer==0)? "no" : "yes",                                      // se ha il dimmer o meno
+            led:                    (led==0)? "no" : "yes",                                         // se ha il led o meno
+            halogen:                (halogen==0)? "no" : "yes",                                     // se ha lampada alogena
+            screw:                  screw,                                                          // tipo di attacco
+            switcher:               (switcher==0)? "no" : "yes",                                    // se ha l'interruttore o meno
+            category:               (_.is(category))? category.toLowerCase() : undefined,             // terra, tavolo, sospensione, soffitto, parete, montatura, kit, diffusore, set,
+            type:                   type,                                                           // tipo di lampada
+            component:              component,                                                      // indica se è un componente di una lampada (serve per distinguere i pezzi di ricambio dalle lampade)
+            component_of:           component_of,                                                   // se l'articolo è un componente ritorna il modello di cui è componente
+            size:                   size,                                                           // piuccola, media, grande,....
+            outdoor:                outdoor,                                                        // se è da esterno o meno
+            wire_length:            wire_length,                                                    // se c'è dice quanto è lungo il cavo (in foscarini è una variante)
+            max_discount:           max_discount * 100,                                             // massimo sconto applicabile espresso come frazione di uno viene qui moltiplicato per 100
+            sale:                   sale,                                                           // 0 o 1 serve a prestashop per capire se c'è uno sconto o meno
+            pic:                    pic,                                                            // contiene l'immagine primaria
+            light_schema:           light_schema,                                                   // schema dell'articolo
+            otherColors:            otherColors,                                                    // array dei path delle immagini di altri colori dello stesso articolo
+            projects:               projects,                                                       // sono le immagini di progetti
+            link:                   link,                                                           // ritorna la pagine dell'articolo sul sito del fornitore
+            more:                   more,                                                           // contiene dei campi aggiuntivi (custom per ogni fornitore) esempio video, link a pdf, pagine html     
             
         }
 }
@@ -3186,6 +3201,30 @@ function sameItemForVideo(model, category, elem_model, elem_category){
     return model == elem_model && category == elem_category;
 }
 
+function inlineCSV(obj,arr, caso){
+    var csv = "";
+    _.each(arr,function(elem, pos){
+        if(_.is(caso)){ // caso dei values
+            if( _.is(obj[elem]) ){
+                var singleton = obj[elem] +" : "+ pos +" , ";
+            }
+        }else{
+            if(!_.isArray(elem)) {
+                if( _.is(obj[elem]) )
+                    var singleton = elem +" : "+ obj[elem] +" : "+ pos+" , ";
+            }
+                
+            else
+                var singleton = elem[0] +" : "+ elem[1] +" : "+ pos+" , ";
+            }
+        
+        csv += (_.is(singleton))? singleton : "";
+    });
+
+    // tolgo l'ultima virgola
+    return csv.substring(0, csv.length - 3);
+}
+
 
 
 
@@ -3237,8 +3276,14 @@ function postProduci(json,fornitore){
                     
                 });
             }
-        })
+        });
 
+        // aggiungo le features che sono le proprietà statiche dell'articolo
+        _.each(json, function(elem){
+            elem["features"] = inlineCSV(elem,["color","dimmer","led","category","outdoor"])
+            elem["attributes"] = inlineCSV(elem,[["color","select"]])
+            elem["values"] = inlineCSV(elem,["color"],"values")
+        });
         
         
         _.each(json, function(elem, index){

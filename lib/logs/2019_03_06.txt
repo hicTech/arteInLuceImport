@@ -1,0 +1,10 @@
+09:00:16: PROCESSO: ../xls/flos
+09:01:12: PROCESSO: ../xls/flos
+09:03:05: PROCESSO: ../xls/flos
+09:06:34: PROCESSO: ../xls/flos
+09:26:22: la procedura è interrotta.... la volta scorsa le immagini di other_images nel sito non erano dsiponibili... fai in una pagina prodotto clicca sul prodotto in modo da fare uscire le foto in popup e vedi se ci sono
+09:26:22: la votla scrosa queste pagine non funzionava https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/, https://flos.com/it/prodotti/lampade-tavolo/gaku/gaku-wireless/, https://flos.com/it/prodotti/lampade-tavolo/bellhop/bellhop/
+09:29:58: processo: https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/ mancano: 205
+09:30:00: processo: https://flos.com/it/prodotti/lampade-tavolo/bellhop/bellhop/ mancano: 204
+09:30:01: processo: https://flos.com/it/prodotti/lampade-tavolo/biagio/biagio/ mancano: 203
+09:30:04: processo: https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour/ mancano: 202

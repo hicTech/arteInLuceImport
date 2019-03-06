@@ -11,10 +11,7 @@ global.document = document;
 
 var $ = jQuery = require('jquery')(window);
 
-_.log("la procedura è interrotta.... la volta scorsa le immagini di other_images nel sito non erano dsiponibili... fai in una pagina prodotto clicca sul prodotto in modo da fare uscire le foto in popup e vedi se ci sono");
-_.log("la votla scrosa queste pagine non funzionava https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/, https://flos.com/it/prodotti/lampade-tavolo/gaku/gaku-wireless/, https://flos.com/it/prodotti/lampade-tavolo/bellhop/bellhop/")
 
-return false;
 
 
 // questo è l'array degli url delle pafine di tutti i prodotti (206) singoli FLOS copia e incollata da getSinglePageUrl_json.json
@@ -177,7 +174,7 @@ function createJsonFromAPage(body, uri){
     $summary_media.each(function(){
         var src = $(this).attr("data-src");
         if(src.indexOf(".svg")!=-1){
-            var new_src = "www.arteinluce.shop/assets_ecommerce/flos/png" +src.substr(src.lastIndexOf("/")).replace(".svg",".png");
+            var new_src = "http://www.arteinluce.shop/assets_ecommerce/flos/png" +src.substr(src.lastIndexOf("/")).replace(".svg",".png");
             summary_media.push(new_src);
         }
             
