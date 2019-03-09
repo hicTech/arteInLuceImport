@@ -67,6 +67,20 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                             _.log("ATTENZIONE! un excel ha più di 5000 righe")
                                         
                                         json_fornitore = json_fornitore.concat(result);
+                                        
+                                        // ho notato che l'excel originario di Foscarini aveva diversi duplicati, quindi prendo solo quelle righe con 'Codice Componente' distinto
+                                        if(cartella == "foscarini"){
+                                            function unique(arr, keyProps) {
+                                                const kvArray = arr.map(entry => {
+                                                const key = keyProps.map(k => entry[k]).join('|');
+                                                return [key, entry];
+                                                });
+                                                const map = new Map(kvArray);
+                                                return Array.from(map.values());
+                                            }
+                                            
+                                            json_fornitore = unique(json_fornitore, ['Codice Componente']);
+                                        }
                                         files_length--;
                                         
                                         if(files_length == 0){
@@ -124,18 +138,23 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                         let xls_aumentato = json2xls(json);
                                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_aumentato.xlsx', xls_aumentato, 'binary');
 
-                                                        
+
+
+
+
+
+                                                        return false;
 
                                                         let xls_prodotti = json2xls(json_prodotti, {fields: ["hicId", "supplier", "category", "title", "subtitle", "desc_it", "price", "quantity", "delivery_time", "delivery_time_if_not_available","sale", "max_discount", "ean13", "features", "accessories", "pic","meta_title","meta_description","order_available"] });
                                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_prodotti_'+random_number+'.xlsx', xls_prodotti, 'binary');
 
-                                                        let xls_varianti = json2xls(json_varianti, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "all_images"] });
+                                                        let xls_varianti = json2xls(json_varianti, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "all_images","all_images_alt"] });
                                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_varianti_'+random_number+'.xlsx', xls_varianti, 'binary');
                                                         
-                                                        var json_varianti_suddiviso = chunk(json_varianti,150);
+                                                        var json_varianti_suddiviso = chunk(json_varianti,180);
                                                         
                                                         _.each(json_varianti_suddiviso, function(pezzo,index){
-                                                            let pezzo_xls_varianti = json2xls(pezzo, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "all_images"] });
+                                                            let pezzo_xls_varianti = json2xls(pezzo, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "all_images","all_images_alt"] });
                                                             fs.writeFileSync(path_cartella +"/result/"+cartella+'_varianti_'+random_number+'__'+index+'.xlsx', pezzo_xls_varianti, 'binary');
                                                         })
 
@@ -219,6 +238,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var meta_title = undefined;
         var meta_description = undefined;
         var all_images = undefined;
+        var all_images_alt  = undefined;
         
 
     
@@ -289,6 +309,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 "LAKE",
                 "LE SOLEIL",
                 "LIGHTWING",
+                "LIGHTWEIGHT",
                 "LUMIERE",
                 "LUMIERE 25TH",
                 "LUMIERE XXS",
@@ -299,6 +320,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 "NUAGE",
                 "ORBITAL",
                 "O-SPACE",
+                "PLENA",
                 "PLANET",
                 "PLASS",
                 "PLASS MEDIA",
@@ -344,11 +366,11 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 articolo = articolo;
                 supplier = "foscarini";
                 supplier_id = supplierId(supplier);
-                model = ( _.is(getModel(articolo,model_names)) )? getModel(articolo,model_names) : undefined;
+                model = getModel(articolo,model_names);
                 original_model_id = row["Codice Componente"];
                 model_id = S(original_model_id).replaceAll(" ","_").s; 
                 item_id = model_id;
-                hicId = getHicId(supplier_id, item_id);
+                hicId = getHicId(supplier_id, model_id);
                 ean13 = undefined;
                 max_discount = 0;
                 sale = 0;
@@ -364,15 +386,16 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 screw = getScrew(articolo);
                 switcher = (articolo.indexOf("ON/OFF") != -1)? 1 : 0;
                 type = undefined;
-                component = isComponent(model_id,row["Componente"]);
+                component = isComponent(row["Componente"]);
                 component_of = getComponentOf(component, model, category);
+                
                 cleaned_desc_it = getDesc(model,category,component,assets_json);
                 size = getSize(articolo);
                 outdoor = (articolo.indexOf("OUTDOOR") != -1 || row["Sottofamiglia"].indexOf("OUTDOOR") != -1)? 1 : 0;
 
                 wire_length = getWireLength(row["Componente"]);
-                title = row["Articolo"];
-                subtitle = undefined;
+                
+                
                 pic = getPics(model, category, color, component, createAllImgsArr(assets_json), "primary" );
                 light_schema = (component == 0)? getLightSchema(model, category, size, assets_json) : undefined;
                 otherColors = getPics(model, category, color, component, createAllImgsArr(assets_json), "colors" );
@@ -386,13 +409,52 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 });
                 projects = getProjects(model,category,assets_json);
                 all_images = undefined;
+                all_images_alt = undefined;
 
+                // dopo aver calcolato diverse cose siamo pronti a ridefinire (perfezionare/aumentare il model)
                 if(component == 1){
-                    model = row["Componente"];
+                    if(_.is(category[0]))
+                        model += " "+getComponentName(row["Componente"]) +" "+ category[0];
+                    else
+                        model += " "+getComponentName(row["Componente"]);
+                }
+                else{
+                    model += " "+category[0]
+                }
+
+                title = getTitle(model,category, component, component_of);
+                subtitle = getSubitle(model,category, component, component_of, wire_length, color, size);
+                
+            }
+
+            function getTitle(model, category, component, component_of){
+                if(component == 1){
+                    var model_name = _.capitalize(model.toLowerCase());
+                    var category_name = (_.isArray(category))? category.map(function(elem){ return _.capitalize(elem)}) : "";
+                    category = S(category_name.toString()).replaceAll(",","/").s;
+                    
+                    return _.capitalize(getComponentName(row["Componente"])) +" per "+ _.capitalize(component_of);
+                }
+                else{
+                    return _.capitalize(model.toLowerCase());
                 }
                 
             }
+
+            function getSubitle(model, category, component, component_of, wire_length, color, size){
+                if(component == 1){
+                    var ret = "";
+                        ret += (_.is(wire_length))? "cavo da "+wire_length+" " : "";
+                        ret += (_.is(color))? color+" " : "";
+                        ret += (_.is(size))? size+" " : "";
+                    
+                    return ret;
+                }
+                else{
+                    //return _.capitalize(model.toLowerCase());
+                }
                 
+            }   
 
             function getColor(articolo){
                 colors = [];
@@ -873,7 +935,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
   
            
 
-            function isComponent(model_id, component){
+            function isComponent(component){
                     
                     if(
                         component.indexOf("MONT") == 0 || 
@@ -904,6 +966,108 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         return 1;
                     }
                     return 0;
+                
+                    
+            }
+
+            function getComponentName(component){
+                    if( component.indexOf("MONT") == 0 )
+                        return "montatura";
+                    if( component.indexOf("KIT") == 0 ){
+                        if( component.indexOf("KIT MINUTERIA") == 0 ){
+                            return "kit minuteria"
+                        }
+                        if( component.indexOf("KIT CABLAGGIO") == 0 ){
+                            return "kit cablaggio"
+                        }
+                        if( component.indexOf("KIT SNODO") == 0 ){
+                            return "kit snodo"
+                        }
+                        if( component.indexOf("KIT ASTA") == 0 ){
+                            return "kit asta"
+                        }
+                        if( component.indexOf("KIT 5 PESI") == 0 ){
+                            return "kit 5 pesi"
+                        }
+                        if( component.indexOf("KIT CONNESSIONE") == 0 ){
+                            return "kit connessione"
+                        }
+                        if( component.indexOf("KIT B DECENTR") == 0 ){
+                            return "kit b decentramento"
+                        }
+                        if( component.indexOf("KIT C DECENTR") == 0 ){
+                            return "kit c decentramento"
+                        }
+                        if( component.indexOf("KIT F DECENTR") == 0 ){
+                            return "kit f decentramento"
+                        }
+                        if( component.indexOf("KIT M ROSONE") == 0 ){
+                            return "kit m rosone"
+                        }
+                        
+                    }
+                        
+
+
+
+                    if( component.indexOf("SET") == 0 ){
+                        if( component.indexOf("SET 2 ") == 0 ){
+                            return "set 2"
+                        }
+                        if( component.indexOf("SET 1+1 ") == 0 ){
+                            return "set 1+1"
+                        }
+                        if( component.indexOf("SET 11 ") == 0 ){
+                            return "set 11"
+                        }
+                        if( component.indexOf("SET 5 ") == 0 ){
+                            return "set 5"
+                        }    
+                    }
+                        
+                    if( component.indexOf("VETR") == 0 )
+                        return "vetro";
+                    if( component.indexOf("BASE") == 0 )
+                        return "base";
+                    if( component.indexOf("DIMMER") == 0 )
+                        return "dimmer";
+                    if( component.indexOf("ASTE") == 0 )
+                        return "aste";
+                    if( component.indexOf("ROSONE") == 0 )
+                        return "rosone";
+                    if( component.indexOf("MODULO") == 0 )
+                        return "modulo";
+                    if( component.indexOf("PYREX") == 0 )
+                        return "pirex";
+                    if( component.indexOf("ZAVORRA") == 0 )
+                        return "zavorra";
+                    if( component.indexOf("CAVALLETTO") == 0 )
+                        return "cavalletto";
+                    if( component.indexOf("SCHERMO") == 0 )
+                        return "schermo";
+                    if( component.indexOf("GRUPPO") == 0 )
+                        return "gruppo";
+                    if( component.indexOf("PICCHETTO") == 0 )
+                        return "picchetto";
+                    
+                    if( component.indexOf("CILINDRO") == 0 )
+                        return "cilindro";
+                    if( component.indexOf("DISCO") == 0 )
+                        return "disco";
+                    if( component.indexOf("BRACCIO") == 0 )
+                        return "braccio";
+                    if( component.indexOf("LENTE") == 0 )
+                        return "lente";
+                    if( component.indexOf("PESO") == 0 )
+                        return "peso";
+                    if( component.indexOf("1/2 CIL") == 0 )
+                        return "cilindro 1/2";
+                    if( component.indexOf("3/4 CIL") == 0 )
+                        return "cilindro 3/4";
+                    if( component.indexOf("DIFF") == 0 )
+                        return "diffusore";
+                    
+                   
                 
                     
             }
@@ -994,6 +1158,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             }
 
 
+
             function getSupplierSiteLink(model,category,component,assets_json){
                 if(component == 1)
                     return undefined;
@@ -1043,7 +1208,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 model = getModel(row["Descrizione"]);
                 original_model_id = row["Codice articolo"];
                 model_id = modelId(model);
-                item_id = itemId(original_model_id);
+                item_id = itemId(original_model_id); // la funzione itemId sostituisce semplicemente gli spazi vuoti con "-"
                 hicId = getHicId(supplier_id, item_id);
                 ean13 = undefined;
                 max_discount = 0.15;
@@ -1093,6 +1258,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 meta_description = undefined;
 
                 all_images = undefined;
+                all_images_alt = undefined;
 
 
                 function getModel(desc){
@@ -2764,7 +2930,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     supplier_id = supplierId(supplier);
                     original_model_id = row["Codice articolo"];
                     model_id = row["Codice articolo"];
-                    component = (isComponent(model_id))? 1: 0;// recuperato dall'excel (row["Raggr. Commerciale"] == "SPAREPARTS")? 1: 0; // sono 525 "DECORATIVE" e 1084 SPAREPARTS              
+                    component = (isComponent(model_id))? 1: 0; // recuperato dall'excel (row["Raggr. Commerciale"] == "SPAREPARTS")? 1: 0; // sono 525 "DECORATIVE" e 1084 SPAREPARTS              
                     model = getModelName(model_id);
                     item_id = original_model_id;
                     hicId = getHicId(supplier_id, item_id);
@@ -2809,6 +2975,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     meta_description = getMetaDescription(title, subtitle, category, component, max_discount);
 
                     all_images = getAllImages(pic,light_schema,projects);
+                    all_images_alt = getAllImagesAlt(pic,light_schema,projects);
 
                     function getModelName(model_id){
                         var asset = getAsset(model_id);
@@ -2964,16 +3131,34 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
 
                     function getAllImages(pic,light_schema,projects){
-                        var ret = pic;
-                        if( light_schema.toString().length != 0){
-                            ret += " | "+S( light_schema.toString() ).replaceAll(","," | ").s;
-                            _.log(light_schema.toString());
+                        var ret_arr = [pic];
+                        if(_.isArray(light_schema)){
+                            ret_arr = ret_arr.concat(light_schema);
+                        }
+                        if(_.isArray(projects)){
+                            ret_arr = ret_arr.concat(projects);
+                        }
+                        if(_.isArray(ret_arr))
+                            return S(ret_arr.toString()).replaceAll(",","|").s;
+                        
+                    }
+
+                    function getAllImagesAlt(pic,light_schema,projects){
+                        
+                        var all_images_alt = (pic.length != 0)? ["pic"] : [];
+                        if(_.isArray(light_schema)){
+                            _.each(light_schema,function(){
+                                all_images_alt.push("light_schema");
+                            })
                         }
 
-                        if( _.is(projects)){
-                            ret += " | "+S( projects.toString() ).replaceAll(","," | ").s;
+                        if(_.isArray(projects)){
+                            _.each(projects,function(){
+                                all_images_alt.push("projects");
+                            })
                         }
-                        return ret;
+
+                        return S(all_images_alt.toString()).replaceAll(",","|").s
                     }
 
                 }
@@ -2994,14 +3179,14 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             subtitle:               subtitle,                                                       // se possibile ricostruiamo un sottotitolo da mettere bella pagina dell'articolo
             original_model_id:      original_model_id,                                              // id originario (NON MANIPOLATO) dell'articolo
             model_id:               model_id,                                                       // identificativo della famiglia di articolo ottenuto con replace(" ","_");
-            item_id:                item_id,                                                        // l'id originario manipolato
-            hicId:                  hicId,                                                          // identificativo interno ottenuto come supplier_id + item_id
+            item_id:                item_id,                                                        // l'id originario manipolato dell'articolo
+            hicId:                  hicId,                                                          // 
             ean13:                  ean13,                                                          // codice a barre
             price:                  price,                                                          // imponibile
             quantity:               quantity,                                                       // quantità disponibile in magazzino nel momento del caricamento massivo
             delivery_time:          delivery_time,                                                  // tempi di spedizione se in pronta consegna
             delivery_time_if_not_available : delivery_time_if_not_available,                        // tempi di consegna su ordinazione
-            color:                  (_.is(color))? color.toLowerCase() : undefined,                // prova a recuperare il colore dall'id
+            color:                  (_.isArray(color))? color.toString().toLowerCase() : (_.is(color))? color.toLowerCase() : undefined,                // prova a recuperare il colore dall'id
             desc_it:                cleaned_desc_it,                                                // la descrizione in italiano
             desc_en:                cleaned_desc_en,                                                // la descrizione in inglese 
             dimmer:                 (dimmer==0)? "no" : "yes",                                      // se ha il dimmer o meno
@@ -3009,7 +3194,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             halogen:                (halogen==0)? "no" : "yes",                                     // se ha lampada alogena
             screw:                  screw,                                                          // tipo di attacco
             switcher:               (switcher==0)? "no" : "yes",                                    // se ha l'interruttore o meno
-            category:               (_.is(category))? category.toLowerCase() : undefined,             // terra, tavolo, sospensione, soffitto, parete, montatura, kit, diffusore, set,
+            category:               (_.isArray(category))? category.toString().toLowerCase() : (_.is(category))? category.toLowerCase() : undefined,             // terra, tavolo, sospensione, soffitto, parete, montatura, kit, diffusore, set,
             type:                   type,                                                           // tipo di lampada
             component:              component,                                                      // indica se è un componente di una lampada (serve per distinguere i pezzi di ricambio dalle lampade)
             component_of:           component_of,                                                   // se l'articolo è un componente ritorna il modello di cui è componente
@@ -3019,6 +3204,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             max_discount:           max_discount * 100,                                             // massimo sconto applicabile espresso come frazione di uno viene qui moltiplicato per 100
             sale:                   sale,                                                           // 0 o 1 serve a prestashop per capire se c'è uno sconto o meno
             all_images:             all_images,                                                     // contiene tutte le immagini pic + light_schema + projects separate da |
+            all_images_alt:         all_images_alt,                                                 // serve per distingure le immagini
             pic:                    pic,                                                            // contiene l'immagine primaria
             light_schema:           light_schema,                                                   // schema dell'articolo
             otherColors:            otherColors,                                                    // array dei path delle immagini di altri colori dello stesso articolo
@@ -3312,7 +3498,22 @@ function chunk (arr, len) {
 
 
 
-/* ================================================================= POSTPRODUZIONE */
+/*
+                  _                       _           _                  
+  _ __   ___  ___| |_ _ __  _ __ ___   __| |_   _ ___(_) ___  _ __   ___ 
+ | '_ \ / _ \/ __| __| '_ \| '__/ _ \ / _` | | | |_  / |/ _ \| '_ \ / _ \
+ | |_) | (_) \__ \ |_| |_) | | | (_) | (_| | |_| |/ /| | (_) | | | |  __/
+ | .__/ \___/|___/\__| .__/|_|  \___/ \__,_|\__,_/___|_|\___/|_| |_|\___|
+ |_|                 |_|                                                 
+
+    si occupa di tutte le logiche possibili soltanto una volta analizzato tutto l'excel originario
+    cosa principale genera l'id del prodotto ovvero quell'id uguale per tutte le varianti di un singolo prodotto
+
+    [1] hicId che fino qui è uguale a item_id qui diventa invece l'id dell'articolo che resta uguale per tutte le varianti dell'articolo
+        in genere viene creato aggregando righe aventi stesso model
+
+*/
+
 
 
 function postProduci(json,fornitore){
@@ -3323,6 +3524,7 @@ function postProduci(json,fornitore){
         
 
         var json_prodotti = [];
+        // [1]
         // creo hicid è l'id del articolo primario che viene messo a tutte le sue varianti
         // l'articolo primario viene pompato in json_prodotti col price a zero
         var registro = {};
@@ -3362,13 +3564,6 @@ function postProduci(json,fornitore){
                 });
             }
         });
-
-
-        
-
-        
-
-        
 
 
 
@@ -3476,6 +3671,8 @@ function postProduci(json,fornitore){
                 elem.accessories = component_of_hicId;
             }
         });
+        
+
         
         
        

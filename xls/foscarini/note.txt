@@ -1,4 +1,5 @@
  - ho eliminato da riga 3626 in poi perché erano prodotti destinati al mercato inglese
+ - a riga 2658 incominciano i prodotti diesel li ho eliminati
  - i modelli chouchin reverse hanno la stringa “reverse” più avanti esempio “CHOUCHIN 1 SOSP.LED REVERSE ARANCIO” l’ho cambiati in “CHOUCHIN 1 REVERSE SOSP.LED ARANCIO”
  - stessa cosa per lumiere  25TH che era “LUMIERE GRANDE CR.NERO 25TH ON/OFF” e ho trasformato in “LUMIERE 25TH GRANDE CR.NERO 25TH ON/OFF”
  - le “BIRDIE LETTURA LED” le ho modificate in “BIRDIE LED LETTURA” per uniformarsi alla nomenclatura del sito;ù
@@ -7,3 +8,4 @@
  - da riga 522 a 527 l'articolo sto aveva la colonna "sottofamiglia" scritto solo "UTO OUTDOOR" ci ho ricopiato quello della colonna "componente" + OUTDOOR
  - per le righe 2556 e 2557 non era specificata la categoria (era solo outdoor) ho aggiunto alla colonna "sottofamiglia" la categoria sospensione
  - ho eliminato le righe 3228 e 3229 che erano di kit avvolgi cavo
+ - dell’articolo “LIGHTBULB” nn ho trovato nulla su sito l’ho eliminato dall’excel ovvero le righe dalla 2638 alla 2646
