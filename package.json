@@ -31,6 +31,7 @@
     "opn": "^5.4.0",
     "puppeteer": "^1.11.0",
     "request": "^2.88.0",
+    "rimraf": "^2.6.3",
     "string": "^3.3.3",
     "svg-to-png": "^4.0.0",
     "xls-to-json": "^0.5.1",

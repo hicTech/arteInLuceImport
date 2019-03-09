@@ -73,6 +73,8 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                             
                                             let path_fornitore = path_cartella +"/"+cartella;
 
+                                            
+
 
                                             var json = [];
 
@@ -96,35 +98,54 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                     json_varianti = postProduci(json, cartella).json_varianti;
                                                     json_prodotti = postProduci(json, cartella).json_prodotti;
 
-                                                    
+                                                    // svuoto la cartella result
+                                                    const rimraf = require('rimraf');
+                                                    rimraf(path_cartella +"/result/*", function () { 
 
-                                                    fs.writeFile(path_cartella +"/result/"+cartella+'.json', JSON.stringify(json_fornitore, null, 4), 'utf8', function(){
-                                                    //_.log("FINITO");
-                                                    });
+                                                        var date = new Date();
+                                                        var timestamp = date.getTime();
+                                                        var random_number = timestamp.toString().substr(9,5);
 
-                                                    fs.writeFile(path_cartella +"/result/"+cartella+'_aumentato.json', JSON.stringify(json_fornitore, null, 4), 'utf8', function(){
+                                                        fs.writeFile(path_cartella +"/result/"+cartella+'.json', JSON.stringify(json_fornitore, null, 4), 'utf8', function(){
                                                         //_.log("FINITO");
                                                         });
 
-                                                    fs.writeFile(path_cartella +"/result/"+cartella+'_varianti.json', JSON.stringify(json_varianti, null, 4), 'utf8', function(){
-                                                        //_.log("FINITO");
+                                                        fs.writeFile(path_cartella +"/result/"+cartella+'_aumentato.json', JSON.stringify(json_fornitore, null, 4), 'utf8', function(){
+                                                            //_.log("FINITO");
+                                                            });
+
+                                                        fs.writeFile(path_cartella +"/result/"+cartella+'_varianti.json', JSON.stringify(json_varianti, null, 4), 'utf8', function(){
+                                                            //_.log("FINITO");
+                                                        });
+                                                        fs.writeFile(path_cartella +"/result/"+cartella+'_prodotti.json', JSON.stringify(json_prodotti, null, 4), 'utf8', function(){
+                                                            //_.log("FINITO");
+                                                        });
+
+                                                        let xls_aumentato = json2xls(json);
+                                                        fs.writeFileSync(path_cartella +"/result/"+cartella+'_aumentato.xlsx', xls_aumentato, 'binary');
+
+                                                        
+
+                                                        let xls_prodotti = json2xls(json_prodotti, {fields: ["hicId", "supplier", "category", "title", "subtitle", "desc_it", "price", "quantity", "delivery_time", "delivery_time_if_not_available","sale", "max_discount", "ean13", "features", "accessories", "pic","meta_title","meta_description","order_available"] });
+                                                        fs.writeFileSync(path_cartella +"/result/"+cartella+'_prodotti_'+random_number+'.xlsx', xls_prodotti, 'binary');
+
+                                                        let xls_varianti = json2xls(json_varianti, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "all_images"] });
+                                                        fs.writeFileSync(path_cartella +"/result/"+cartella+'_varianti_'+random_number+'.xlsx', xls_varianti, 'binary');
+                                                        
+                                                        var json_varianti_suddiviso = chunk(json_varianti,150);
+                                                        
+                                                        _.each(json_varianti_suddiviso, function(pezzo,index){
+                                                            let pezzo_xls_varianti = json2xls(pezzo, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "all_images"] });
+                                                            fs.writeFileSync(path_cartella +"/result/"+cartella+'_varianti_'+random_number+'__'+index+'.xlsx', pezzo_xls_varianti, 'binary');
+                                                        })
+
+                                                        
+
+                                                        
+                                                        const opn = require('opn');
+                                                        opn(path_cartella +"/result/"+cartella+'_aumentato.xlsx',{wait:false});
+
                                                     });
-                                                    fs.writeFile(path_cartella +"/result/"+cartella+'_prodotti.json', JSON.stringify(json_prodotti, null, 4), 'utf8', function(){
-                                                        //_.log("FINITO");
-                                                    });
-
-                                                    let xls_aumentato = json2xls(json);
-                                                    fs.writeFileSync(path_cartella +"/result/"+cartella+'_aumentato.xlsx', xls_aumentato, 'binary');
-
-                                                    let xls_varianti = json2xls(json_varianti, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "pic"] });
-                                                    fs.writeFileSync(path_cartella +"/result/"+cartella+'_varianti.xlsx', xls_varianti, 'binary');
-
-                                                    let xls_prodotti = json2xls(json_prodotti, {fields: ["hicId", "supplier", "category", "title", "subtitle", "desc_it", "price", "quantity", "delivery_time", "delivery_time_if_not_available","sale", "max_discount", "ean13", "features", "accessories", "pic","meta_title","meta_description"] });
-                                                    fs.writeFileSync(path_cartella +"/result/"+cartella+'_prodotti.xlsx', xls_prodotti, 'binary');
-
-                                                    
-                                                    const opn = require('opn');
-                                                    opn(path_cartella +"/result/"+cartella+'_aumentato.xlsx',{wait:false});
 
                                                 });
 
@@ -197,6 +218,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var link = undefined;
         var meta_title = undefined;
         var meta_description = undefined;
+        var all_images = undefined;
         
 
     
@@ -363,6 +385,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     link : getLink(model, category, component, createAllLinksArr(assets_json)),
                 });
                 projects = getProjects(model,category,assets_json);
+                all_images = undefined;
 
                 if(component == 1){
                     model = row["Componente"];
@@ -1068,6 +1091,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 model = getRealModelName(model, component, title, type, component_of);
                 meta_title = undefined;
                 meta_description = undefined;
+
+                all_images = undefined;
 
 
                 function getModel(desc){
@@ -2783,6 +2808,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     meta_title = getMetaTitle(title, subtitle, category, component, max_discount);
                     meta_description = getMetaDescription(title, subtitle, category, component, max_discount);
 
+                    all_images = getAllImages(pic,light_schema,projects);
+
                     function getModelName(model_id){
                         var asset = getAsset(model_id);
                         if( _.is(asset))
@@ -2935,6 +2962,20 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         return ret;
                     }
 
+
+                    function getAllImages(pic,light_schema,projects){
+                        var ret = pic;
+                        if( light_schema.toString().length != 0){
+                            ret += " | "+S( light_schema.toString() ).replaceAll(","," | ").s;
+                            _.log(light_schema.toString());
+                        }
+
+                        if( _.is(projects)){
+                            ret += " | "+S( projects.toString() ).replaceAll(","," | ").s;
+                        }
+                        return ret;
+                    }
+
                 }
             }
 
@@ -2977,6 +3018,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             wire_length:            wire_length,                                                    // se c'è dice quanto è lungo il cavo (in foscarini è una variante)
             max_discount:           max_discount * 100,                                             // massimo sconto applicabile espresso come frazione di uno viene qui moltiplicato per 100
             sale:                   sale,                                                           // 0 o 1 serve a prestashop per capire se c'è uno sconto o meno
+            all_images:             all_images,                                                     // contiene tutte le immagini pic + light_schema + projects separate da |
             pic:                    pic,                                                            // contiene l'immagine primaria
             light_schema:           light_schema,                                                   // schema dell'articolo
             otherColors:            otherColors,                                                    // array dei path delle immagini di altri colori dello stesso articolo
@@ -2985,7 +3027,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             more:                   more,                                                           // contiene dei campi aggiuntivi (custom per ogni fornitore) esempio video, link a pdf, pagine html
             meta_title:             meta_title,
             meta_description:       meta_description,
-            
+            order_available:        "1"                                                               // sempre disponibile all'ordine
         }
 }
 
@@ -3248,13 +3290,24 @@ function cleanedFeature(feature){
     else{
         var $feature = $("<div>"+ feature +"</div>");
         // devo fare questo perchè se ci sono virgole nel testo spezzano il CSV
-        var ret = S($feature.text()).replaceAll(",","").s;
-        return ret;
+        //var ret = S($feature.text()).replaceAll(",","").s;
+        return S($feature.text()).replaceAll(":","").replaceAll("|"," ").replaceAll("="," ").s.substr(0,255);
     }
     
 }
 
+function chunk (arr, len) {
 
+  var chunks = [],
+      i = 0,
+      n = arr.length;
+
+  while (i < n) {
+    chunks.push(arr.slice(i, i += len));
+  }
+
+  return chunks;
+}
 
 
 
@@ -3301,7 +3354,7 @@ function postProduci(json,fornitore){
                     
                     if(item.model_id == cod_item ){
                         //var new_accessories = item["accessories"] + cod_component+";";
-                        item["accessories"] += (item["accessories"] != "" )? ","+cod_component : cod_component
+                        item["accessories"] += (item["accessories"] != "" )? "|"+cod_component : cod_component
 
                     }
                     
@@ -3309,6 +3362,11 @@ function postProduci(json,fornitore){
                 });
             }
         });
+
+
+        
+
+        
 
         
 
@@ -3328,7 +3386,7 @@ function postProduci(json,fornitore){
             _.each(arr,function(elem){
 
                 if( _.is(obj[elem]) ){
-                    var singleton = elem +" : "+ obj[elem] +" : "+ pos+" , ";
+                    var singleton = elem +" : "+ obj[elem] +" : "+ pos+":1 | ";
                     pos++;
                 }
                             
@@ -3341,8 +3399,11 @@ function postProduci(json,fornitore){
                     var cleaned_feature = cleanedFeature(feature);
 
                     if(_.is(cleaned_feature)){
-                        csv += key +' : '+ cleaned_feature +' : '+ pos +' , ';
-                        pos++;
+                        //if(key!="descrizione_tecnica"){
+                            csv += key +' : '+ cleaned_feature +' : '+ pos +':1 | ';
+                            pos++;
+                        //}
+                        
                     } 
                     //var cleaned_feature = "'"+ feature.replace("<p>","").replace("</p>","") + "'";
 
@@ -3373,28 +3434,28 @@ function postProduci(json,fornitore){
             
             let pos = 0;
             if(!_.is(caso)){ // caso dei attributes
-                var csv = "fakeAttribute : radio : 0 , ";                
+                var csv = "stato : select : 0 | ";                
             }
             else{ // caso di values
-                var csv = "fakeValue : 0 , ";
+                var csv = "nuovo : 0 | ";
             }
             _.each(arr,function(elem){
 
                 if(_.is(caso)){ // caso dei values
                     if( _.is(obj[elem]) ){
                         pos++;
-                        var singleton = obj[elem] +" : "+ pos +" , ";
+                        var singleton = obj[elem] +" : "+ pos +" | ";
                     }
                 }
                 else{ // caso di attributes
                     pos++;
-                    var singleton = elem[0] +" : "+ elem[1] +" : "+ pos+" , ";
+                    var singleton = elem[0] +" : "+ elem[1] +" : "+ pos+" | ";
                 }
                 
                 csv += (_.is(singleton))? singleton : "";
             });
 
-            // tolgo l'ultima virgola
+            // tolgo l'ultimo punto e virgola
             return csv.substring(0, csv.length - 3);
         }
         
@@ -3406,6 +3467,15 @@ function postProduci(json,fornitore){
                    json[index].component_of = elem2.hicId;
             })
         })
+
+        // ad ogni accessorio aggiungo l'hicId degli articoli di cui è accessorio
+        var registro_component_hicId = {};
+        _.each(json, function(elem){
+            if( elem.component == 1 ){
+                var component_of_hicId = elem.component_of;
+                elem.accessories = component_of_hicId;
+            }
+        });
         
         
        
