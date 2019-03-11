@@ -3321,6 +3321,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             subtitle:               subtitle,                                                       // se possibile ricostruiamo un sottotitolo da mettere bella pagina dell'articolo
             original_model_id:      original_model_id,                                              // id originario (NON MANIPOLATO) dell'articolo
             model_id:               model_id,                                                       // identificativo della famiglia di articolo ottenuto con replace(" ","_");
+            original_model:         original_model,                                                 // mi è servito solo per FOSCARINI
             item_id:                item_id,                                                        // l'id originario manipolato dell'articolo
             hicId:                  hicId,                                                          // 
             ean13:                  ean13,                                                          // codice a barre
@@ -3855,8 +3856,7 @@ function postProduci(json,fornitore){
 
         
  
-        // elimino gli articoli che non hanno model o che sono no_longer_available
-        
+        // elimino gli articoli che non hanno model o che sono no_longer_available      
         json = _.filter(json,function(elem){
             if(!_.is(elem.model) || elem.model == ""){
                 //_.log(_.toStr(elem))
@@ -3953,6 +3953,8 @@ function postProduci(json,fornitore){
             registro_attributi_fatures[key] = cleaned_model_info;
         });
 
+        //_.log(_.toStr(registro_attributi_fatures))
+
         /* 
             a questo punto registro_attributi_fatures è del tipo: {
 
@@ -3995,7 +3997,23 @@ function postProduci(json,fornitore){
 
             } 
         */
-        
+        // per ogni riga aggiungo dunque le sole feature e attributi interessanti
+
+        // aggiungo features e attributi
+        _.each(json,function(row){
+            var model = row.model;
+            _.each(registro_attributi_fatures,function(elem,key){
+                if(key == model){
+                    row["features"] = inlineCSVFeaturesFoscarini(elem.features);
+
+                    // aggiungo attributi e valori
+                    row["attributes"] = inlineCSVFoscarini(row,elem.attributes)
+                    row["values"] = inlineCSVFoscarini(row,elem.attributes,"values");
+                }
+            })
+        });
+
+
         // aggiungo gli accessori per ogni articolo
         _.each(json,function(elem){
             //ciclo sui componenti
@@ -4016,6 +4034,90 @@ function postProduci(json,fornitore){
             }
         });
 
+        // in component_of invece del orignal_model + category metto hicId
+        _.each(json, function(elem, index){
+            var cod = elem.component_of;
+            
+            _.each(json, function(elem2){
+                if(_.is(elem2.original_model))
+                    if( elem2.original_model.toLowerCase() +" "+ elem2.category == cod)
+                    json[index].component_of = elem2.hicId;
+            })
+        })
+
+        // aggiungo gli accessori di ogni articolo
+        _.each(json, function(elem){
+            if( elem.component == 1 ){
+                var cod_component = elem.hicId;
+                var cod_item = elem.component_of;
+
+                
+
+                _.each(json, function(item, index){
+                    
+                    if(!_.is(item["accessories"]))
+                        item["accessories"] = "";
+                    
+                    if(item.hicId == cod_item ){
+                        //var new_accessories = item["accessories"] + cod_component+";";
+                        item["accessories"] += (item["accessories"] != "" )? "|"+cod_component : cod_component
+
+                    }
+                    
+                    
+                });
+            }
+        });
+
+        function inlineCSVFeaturesFoscarini(features){
+            let csv = "";
+            let pos = 0;
+            
+            _.each(features,function(elem){
+
+                var chiave = _.keys(elem)[0];
+                var singleton = chiave +" : "+ elem[chiave]  +" : "+ pos+" : 1 | ";
+                pos++;
+                          
+                csv += (_.is(singleton))? singleton : "";
+            });
+
+            // tolgo l'ultima pipe
+            return csv.substring(0, csv.length - 3);
+        }
+
+        function inlineCSVFoscarini(row, arr, caso){
+            
+            let pos = 0;
+            if(!_.is(caso)){ // caso dei attributes
+                var csv = "stato : select : 0 | ";                
+            }
+            else{ // caso di values
+                var csv = "nuovo : 0 | ";
+            }
+            
+            _.each(arr,function(elem){
+
+                if(_.is(caso)){ // caso dei values
+                    pos++;
+                    var valore = (row[_.keys(elem)[0]] == "yes")? "si" : row[_.keys(elem)[0]];
+                    if( row.component == 0 || (row.component == 1 && _.keys(elem)[0] == "color") ) // per gli accessori metto solo il color
+                        var singleton = valore +" : "+ pos +" | ";
+                }
+                else{ // caso di attributes
+                    pos++;
+                    var input_type = ( elem[_.keys(elem)[0]].length >= 3 )? "select" : "radio";
+                        //input_type = (_.keys(elem)[0] == "color")? "select" : input_type; // per color forzo il select
+                    if( row.component == 0 || (row.component == 1 && _.keys(elem)[0]=="color") ) // per gli accessori metto solo il color
+                        var singleton = _.keys(elem)[0] +" : "+ input_type+" : "+ pos+" | ";
+                }
+                
+                csv += (_.is(singleton))? singleton : "";
+            });
+            
+            // tolgo l'ultimo punto e virgola
+            return csv.substring(0, csv.length - 3);
+        }
 
     }
 
