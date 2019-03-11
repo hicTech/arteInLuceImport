@@ -140,10 +140,10 @@ fs.readdir(path, function(err, cartella_fornitore) {
 
 
 
+                                                        
+                                                        
 
-
-
-                                                        return false;
+                                                        //return false;
 
                                                         let xls_prodotti = json2xls(json_prodotti, {fields: ["hicId", "supplier", "category", "title", "subtitle", "desc_it", "price", "quantity", "delivery_time", "delivery_time_if_not_available","sale", "max_discount", "ean13", "features", "accessories", "pic","meta_title","meta_description","order_available"] });
                                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_prodotti_'+random_number+'.xlsx', xls_prodotti, 'binary');
@@ -151,7 +151,7 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                         let xls_varianti = json2xls(json_varianti, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "all_images","all_images_alt"] });
                                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_varianti_'+random_number+'.xlsx', xls_varianti, 'binary');
                                                         
-                                                        var json_varianti_suddiviso = chunk(json_varianti,180);
+                                                        var json_varianti_suddiviso = chunk(json_varianti,200);
                                                         
                                                         _.each(json_varianti_suddiviso, function(pezzo,index){
                                                             let pezzo_xls_varianti = json2xls(pezzo, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "all_images","all_images_alt"] });
@@ -324,6 +324,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 "PLANET",
                 "PLASS",
                 "PLASS MEDIA",
+                "PLASS MEDIA DOPPIA",
+                "PLASS MEDIA TRIPLA",
+                "PLASS MEDIA QUADRUPLA",
                 "POLY GREGG",
                 "RITUALS 1",
                 "RITUALS 2",
@@ -412,32 +415,63 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 all_images_alt = undefined;
 
                 // dopo aver calcolato diverse cose siamo pronti a ridefinire (perfezionare/aumentare il model)
-                if(component == 1){
-                    if(_.is(category[0]))
-                        model += " "+getComponentName(row["Componente"]) +" "+ category[0];
-                    else
-                        model += " "+getComponentName(row["Componente"]);
-                }
-                else{
-                    model += " "+category[0]
-                }
+                // in modo che sia l'id del prodotto unico per le sue varianti
+                var original_model = model; // memorizzo comunque il model prima che venga ridefinito
+                model = redefineModel(model, category, getComponentName(row["Componente"]), size);
 
-                title = getTitle(model,category, component, component_of);
+                title = getTitle(model,category, component, component_of, original_model, wire_length, color, size);
                 subtitle = getSubitle(model,category, component, component_of, wire_length, color, size);
                 
             }
 
-            function getTitle(model, category, component, component_of){
+            function redefineModel(model, category, component_name, size){
+                var redefined_name = model;
                 if(component == 1){
-                    var model_name = _.capitalize(model.toLowerCase());
+                    if(_.is(category[0])){
+                        if(_.is(redefined_name))
+                            redefined_name += " "+component_name +" "+ category[0];
+                        else
+                            redefined_name = component_name +" "+ category[0];
+                    }
+                        
+                    else{
+                        if(_.is(redefined_name))
+                            redefined_name += " "+component_name;
+                        else
+                            redefined_name = component_name;
+                    }
+                        
+                }
+                else{
+                    redefined_name += " "+category[0]
+                }
+
+                
+                // se size è definita e non compare già nel nome del modello la aggiungo
+                redefined_name += (_.is(size) && redefined_name.toLowerCase().indexOf(size) == -1)? " "+size : "";
+                
+                return redefined_name;
+            }
+
+            function getTitle(model, category, component, component_of, original_model, wire_length, color, size){
+                var final_title;
+                if(component == 1){
+                    //var model_name = _.capitalize(model.toLowerCase());
                     var category_name = (_.isArray(category))? category.map(function(elem){ return _.capitalize(elem)}) : "";
                     category = S(category_name.toString()).replaceAll(",","/").s;
                     
-                    return _.capitalize(getComponentName(row["Componente"])) +" per "+ _.capitalize(component_of);
+                    final_title = _.capitalize(getComponentName(row["Componente"])) +" per "+ _.capitalize(component_of);
                 }
                 else{
-                    return _.capitalize(model.toLowerCase());
+                    if(_.is(size))
+                        final_title =  _.capitalize(original_model) +" "+size;
+                    else
+                        final_title = _.capitalize(original_model);
                 }
+
+                // elimino parole duplicate
+                
+                return S(_.uniq(final_title.split(" ")).toString()).replaceAll(","," ").s
                 
             }
 
@@ -451,7 +485,11 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     return ret;
                 }
                 else{
-                    //return _.capitalize(model.toLowerCase());
+                    
+                    var sottotitolo = ( _.is(category[0]) )? _.capitalize(category[0].toLowerCase()) : "";
+                        sottotitolo += (_.is(wire_length))? " - cavo "+wire_length : ""; 
+                    
+                    return sottotitolo;
                 }
                 
             }   
@@ -614,10 +652,39 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             function getModel(articolo,model_names){
                 var ret = "";
                 for(var i=0; i<model_names.length; i++){
-                    if( articolo.indexOf(model_names[i]) != -1 ){
-                        if(model_names[i].length > ret.length)
-                            ret = model_names[i];
+                    // alcuni casi particolari
+                    if(articolo.indexOf("PLASS MEDIA SOSP.") != -1){
+                        if(articolo.indexOf("PLASS MEDIA SOSP. QUADRUPLA") != -1){
+                            return "PLASS MEDIA QUADRUPLA"
+                        }
+                        if(articolo.indexOf("PLASS MEDIA SOSP. TRIPLA") != -1){
+                            return "PLASS MEDIA TRIPLA"
+                        }
+                        if(articolo.indexOf("PLASS MEDIA SOSP. DOPPIA") != -1){
+                            return "PLASS MEDIA DOPPIA"
+                        }
                     }
+
+
+                    if(articolo.indexOf("RITUALS 1") != -1){
+                        if(articolo.indexOf("RITUALS 1 DOPPIA") != -1){
+                            return "RITUALS 1 DOPPIA"
+                        }
+                    }
+
+                    if(articolo.indexOf("RITUALS 3") != -1){
+                        if(articolo.indexOf("RITUALS 3 DOPPIA") != -1){
+                            return "RITUALS 3 DOPPIA"
+                        }
+                    }
+
+                    else{
+                        if( articolo.indexOf(model_names[i]) != -1 ){
+                            if(model_names[i].length > ret.length)
+                                ret = model_names[i];
+                        }
+                    }
+                    
                 }
                 return (ret != "")? ret : undefined;
             }
@@ -671,10 +738,11 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         if(articolo.indexOf("E27") != -1)
                             return "e27";
                         else{
-                           return undefined;
+                           return "non specificato";
                         }
                     }
                 }
+                
             }
 
             function getSize(articolo){
@@ -798,18 +866,24 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     // è un ricambio quindi per ora ritorno una foto di default
                     return "http://www.arteinluce.shop/assets_ecommerce/foscarini/component_default_img.jpg"
                 }
-                // sono 1417 righe di articoli di cui
-                // di cui 533 diesel
+
 
 
                 var ret = [];
                 var cat = category[0];
 
+                
+
                 _.each(all_images,function(elem){
+                    
+                
+
                     if(elem.img_type != "light_schema"){ // escludo le immagini di tipo "light_schema"
                         /** qui accordiamo le diverse nomencalute di alcuni prodotti presenti sul sito */
                         var elem_model = elem.model;
                         var elem_category = elem.category.toLowerCase();
+
+                        
 
                         if( sameItem(model, cat, elem_model, elem_category, "pic") ){
                              ret.push(elem);
@@ -819,9 +893,12 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     
                 });
 
+               
+
                 var arr_pic = [];
 
 
+                
     
                 _.each(ret,function(elem){
                     if( caso == "primary" ){
@@ -835,62 +912,118 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     
                 });
 
-                arr_pic = uniqByFileName(arr_pic);
-
-                if(arr_pic.length == 1 && caso == "primary"){
-                    arr_pic = arr_pic[0].url;
-                }
+                if(arr_pic.length == 0 && caso == "primary")
+                    arr_pic = daiUrlSePrimaryNonTrovato(ret, model, category, colors);
                 else{
-                    if(arr_pic.length == 1){
-                        arr_pic = "no colors";
+                    
+                    arr_pic = uniqByFileName(arr_pic);
+
+
+                    if(arr_pic.length == 1 && caso == "primary"){
+                        arr_pic = arr_pic[0].url;
                     }
                     else{
-                        if(arr_pic.length > 1){
+                        if(arr_pic.length == 1){
+                            arr_pic = "no colors";
                             
-                            var new_arr_pic = _.filter(arr_pic,function(elem){
-                                return _.isEqual(elem.colors, colors);
-                            })
-
-
-                            if(new_arr_pic.length == 1){
-                                arr_pic = new_arr_pic;
-                            }
-                            else{
-                                // ho notato che in questo punto se fra i colori c'è l'alluminio questo non è determinante ai fini della verifica che elem.colors e colors siano uguali
-                                // quindi in questo caso elimino (se viene ritrovato) l'alluminio dai colori sia di arr_pic che colors
-                                var new_arr_pic_no_alluminio = _.filter(arr_pic,function(elem){
-
-                                    var new_elem_colors = _.difference(elem.colors,["alluminio"]);// elimino "alluminio" dall'array
-                                    var new_colors = _.difference(colors,["alluminio"]);// elimino "alluminio" dall'array
-                                    
-                                    // uso questo diff perchè _.diff ha quel bug segnalato a Fabris nella mail del 15 gennaio
-                                    return new_colors.diff(new_elem_colors).length == 0; //_.difference(new_colors,new_elem_colors).length == 0;
-
-                                });
+                        }
+                        else{
+                            if(arr_pic.length > 1){
 
                                 
+                                
+                                var new_arr_pic = _.filter(arr_pic,function(elem){
+                                    return _.isEqual(elem.colors, colors);
+                                })
 
-                                if(new_arr_pic_no_alluminio.length == 1){ 
-                                    arr_pic = new_arr_pic_no_alluminio;
+                            
+
+                                if(new_arr_pic.length == 1){
+                                    arr_pic = new_arr_pic;
                                 }
-                                    
                                 else{
-                                    // nulla
+                                
+
+                                    // ho notato che in questo punto se fra i colori c'è l'alluminio questo non è determinante ai fini della verifica che elem.colors e colors siano uguali
+                                    // quindi in questo caso elimino (se viene ritrovato) l'alluminio dai colori sia di arr_pic che colors
+                                    var new_arr_pic_no_alluminio = _.filter(arr_pic,function(elem){
+
+                                        var new_elem_colors = _.difference(elem.colors,["alluminio"]);// elimino "alluminio" dall'array
+                                        var new_colors = _.difference(colors,["alluminio"]);// elimino "alluminio" dall'array
+                                        
+                                        // uso questo diff perchè _.diff ha quel bug segnalato a Fabris nella mail del 15 gennaio
+                                        return new_colors.diff(new_elem_colors).length == 0; //_.difference(new_colors,new_elem_colors).length == 0;
+
+                                    });
+
+                                    
+
+                                    if(new_arr_pic_no_alluminio.length == 1){ 
+                                        arr_pic = new_arr_pic_no_alluminio;
+                                    }
+                                        
+                                    else{
+                                        // nulla
+                                    }
                                 }
                             }
                         }
+                        
+                    }
+
+                }
+
+
+                
+
+
+                function daiUrlSePrimaryNonTrovato(ret, model, category, colors){
+                
+                    var new_ret;
+                    var trovato = false;
+                    _.each(ret,function(elem){
+                        if(!trovato){
+                            
+                            if( sameItem(model, category[0].toLowerCase(), elem.model, elem.category.toLowerCase(), "pic") ){
+                                if( _.difference(elem.colors, colors).length == 0 ){
+                                    new_ret = elem.url;
+                                    trovato = true;
+                                }
+                            }
+                        }
+                            
+                                
+                    })
+
+                    if(_.is(new_ret))
+                        return new_ret;
+                    else{
+                        return undefined;
+                        // sono una sessantina di casi in cui non è stato possibile recuperare la pic primaria
+                        /*
+                        _.log(count++)
+                        _.log(model);
+                        _.log(ret);
+                        */
                     }
                     
                 }
 
 
-                if(!_.isArray(arr_pic))
+                if(!_.isArray(arr_pic)){
+    
                     return arr_pic;
+                }
+                    
                 else{
+
+                    
                     var arr_to_string = "";
+                    
                     _.each(arr_pic,function(elem){
                         arr_to_string += elem.url+",";
                     })
+                    
                     return arr_to_string;
                 }
 
@@ -1004,6 +1137,14 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         if( component.indexOf("KIT M ROSONE") == 0 ){
                             return "kit m rosone"
                         }
+
+                        return "kit"
+                        
+                    }
+
+                    if( component.indexOf("CABOCHE-KIT") == 0 ){
+                       
+                            return component.toLowerCase().replace("caboche-kit ","kit ");
                         
                     }
                         
@@ -1022,7 +1163,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         }
                         if( component.indexOf("SET 5 ") == 0 ){
                             return "set 5"
-                        }    
+                        }
+                        return "set";  
                     }
                         
                     if( component.indexOf("VETR") == 0 )
@@ -3521,8 +3663,6 @@ function postProduci(json,fornitore){
     if(fornitore=="flos"){
         
 
-        
-
         var json_prodotti = [];
         // [1]
         // creo hicid è l'id del articolo primario che viene messo a tutte le sue varianti
@@ -3567,9 +3707,12 @@ function postProduci(json,fornitore){
 
 
 
-        // aggiungo le features che sono le proprietà statiche dell'articolo
+        
         _.each(json, function(elem){
+            // aggiungo le features che sono le proprietà statiche dell'articolo
             elem["features"] = inlineCSVFeaturesFlos(elem,["category","outdoor"])
+
+            // aggiungo attributi e valori
             elem["attributes"] = inlineCSVFlos(elem,[["color","select"]])
             elem["values"] = inlineCSVFlos(elem,["color"],"values")
         });
@@ -3691,6 +3834,10 @@ function postProduci(json,fornitore){
                 category: "tavolo"
             },
             {
+                model: "tress grande",
+                category: "tavolo"
+            },
+            {
                 model: "ellepi",
             },
             {
@@ -3699,6 +3846,10 @@ function postProduci(json,fornitore){
             {
                 model: "lightweight",
                 category: "terra"
+            },
+            {
+                model: "superficie",
+                category: "soffitto"
             }
         ]
 
@@ -3716,7 +3867,11 @@ function postProduci(json,fornitore){
                 if( elem.model != "tress" )
                     return  ( elem.model != "esa" && elem.model != "ellepi" && elem.model != "jamaica" )
                 else{
+                    if( elem.model == "superficie" && elem.category[0] == "soffitto")
+                        return false;
                     if( elem.model == "tress" && elem.category[0] == "tavolo")
+                        return false;
+                    if( (elem.model == "tress grande" && elem.category[0] == "tavolo") || (elem.model == "tress grande" && elem.category[0] == "parete") || (elem.model == "tress grande" && elem.category[0] == "terra") )
                         return false;
                     else
                         return true;
@@ -3728,9 +3883,120 @@ function postProduci(json,fornitore){
         
             
 
+        var json_prodotti = [];
+        // [1]
+        // creo hicid è l'id del articolo primario che viene messo a tutte le sue varianti
+        // l'articolo primario viene pompato in json_prodotti col price a zero
+        var registro = {};
         
+        _.each(json, function(elem,index){
+            
+            if( !_.is(registro[elem.model]) ){
+                
+                registro[elem.model] = elem.hicId;
+                var new_elem = Object.assign({}, elem);
+                new_elem.price = 0;
+                json_prodotti.push(new_elem);
+            }
+            else{
+                elem.hicId = registro[elem.model];
+            }
+            
+        });
+
+        // le chiavi di registro dunque sono tutti i possibili valori di model (univoci)
+        // riscandagliando tutto json faccio un'analisi per capire per ogni model quali possono essere le caratteristiche determinanti
+
+        var registro_attributi_fatures = {};
+        _.each(_.keys(registro),function(key){
+            var model_info = {
+                color : [],
+                dimmer: [],
+                led : [],
+                halogen: [],
+                screw: [],
+                switcher: [],
+
+            }
+            _.each(json,function(row){
+                if(key == row.model){
+                    model_info.color.push(row.color);
+                    model_info.dimmer.push(row.dimmer);
+                    model_info.led.push(row.led);
+                    model_info.halogen.push(row.halogen);
+                    model_info.screw.push(row.screw);
+                    model_info.switcher.push(row.switcher);
+                }
+            });
+
+            var cleaned_model_info = {
+                features : [],
+                attributes: [],
+            };
+
+            _.each(model_info, function(info,key){
+                var name =  key;
+                var obj = {}
+                if( _.uniq(info).length == 1){
+                    obj[name] = _.uniq(info)[0];
+                    cleaned_model_info.features.push(obj)
+                }
+                else{
+                    obj[name] = _.uniq(info);
+                    cleaned_model_info.attributes.push(obj)
+                }
+            })
+
+
+
+
+            registro_attributi_fatures[key] = cleaned_model_info;
+        });
+
+        /* 
+            a questo punto registro_attributi_fatures è del tipo: {
+
+                "buds 2 sospensione": {
+                    "features": [
+                    {
+                        "halogen": "no"
+                    },
+                    {
+                        "switcher": "no"
+                    }
+                    ],
+                    "attributes": [
+                    {
+                        "color": [
+                        "grigio",
+                        "bianco caldo"
+                        ]
+                    },
+                    {
+                        "dimmer": [
+                        "no",
+                        "yes"
+                        ]
+                    },
+                    {
+                        "led": [
+                        "no",
+                        "yes"
+                        ]
+                    },
+                    {
+                        "screw": [
+                        "e27",
+                        "non specificato"
+                        ]
+                    }
+                    ]
+                }
+
+            } 
+        */
         
-        // aggiungo gli accessori ogni articolo
+        // aggiungo gli accessori per ogni articolo
         _.each(json,function(elem){
             //ciclo sui componenti
             if(elem.component==1){
@@ -3750,7 +4016,6 @@ function postProduci(json,fornitore){
             }
         });
 
-        var json_prodotti = [];
 
     }
 
