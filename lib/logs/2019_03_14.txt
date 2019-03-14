@@ -41231,3 +41231,4 @@
 20:06:39: no colors
 20:07:14: PROCESSO: ../xls/foscarini
 20:07:43: PROCESSO: ../xls/foscarini
+20:18:28: PROCESSO: ../xls/foscarini

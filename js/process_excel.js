@@ -163,13 +163,13 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                         let xls_prodotti = json2xls(json_prodotti, {fields: ["hicId", "supplier", "category", "title", "subtitle", "desc_it", "price", "quantity", "delivery_time", "delivery_time_if_not_available","sale", "max_discount", "ean13", "features", "accessories","meta_title","meta_description","order_available", "product_images","product_images_alt"] });
                                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_prodotti_'+random_number+'.xlsx', xls_prodotti, 'binary');
 
-                                                        let xls_varianti = json2xls(json_varianti, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "combination_images", "combinations_images_alt"] });
+                                                        let xls_varianti = json2xls(json_varianti, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "combination_images", "combination_images_alt"] });
                                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_varianti_'+random_number+'.xlsx', xls_varianti, 'binary');
                                                         
                                                         var json_varianti_suddiviso = chunk(json_varianti,500);
                                                         
                                                         _.each(json_varianti_suddiviso, function(pezzo,index){
-                                                            let pezzo_xls_varianti = json2xls(pezzo, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "combination_images", "combinations_images_alt"] });
+                                                            let pezzo_xls_varianti = json2xls(pezzo, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "combination_images", "combination_images_alt"] });
                                                             fs.writeFileSync(path_cartella +"/result/"+cartella+'_varianti_'+random_number+'__'+index+'.xlsx', pezzo_xls_varianti, 'binary');
                                                         })
 
