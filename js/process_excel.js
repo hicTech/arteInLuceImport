@@ -23,8 +23,6 @@ fs.readdir(path, function(err, cartella_fornitore) {
     for (var i=0; i<cartella_fornitore.length; i++) {
         let cartella = cartella_fornitore[i];
 
-       
-
         if(cartella != ".DS_Store"){
             let path_cartella = path+cartella;
 
@@ -81,6 +79,23 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                             
                                             json_fornitore = unique(json_fornitore, ['Codice Componente']);
                                         }
+
+                                        if(cartella == "vistosi"){
+                                            /*
+                                            _.log(json_fornitore.length)
+                                            
+                                            json_fornitore = _.filter(json_fornitore,function(elem){
+                                                var prezzo = parseInt(S(elem.Prezzo.replace("Û ","").replace(",","")).between("",".").s)
+                                                return prezzo > 80
+                                            })
+                                            
+                                            //json_fornitore = unique(json_fornitore, ['Codice articolo']);
+                                            _.log(json_fornitore.length)
+                                            */
+                                        }
+
+
+
                                         files_length--;
                                         
                                         if(files_length == 0){
@@ -145,16 +160,16 @@ fs.readdir(path, function(err, cartella_fornitore) {
 
                                                         //return false;
 
-                                                        let xls_prodotti = json2xls(json_prodotti, {fields: ["hicId", "supplier", "category", "title", "subtitle", "desc_it", "price", "quantity", "delivery_time", "delivery_time_if_not_available","sale", "max_discount", "ean13", "features", "accessories", "pic","meta_title","meta_description","order_available"] });
+                                                        let xls_prodotti = json2xls(json_prodotti, {fields: ["hicId", "supplier", "category", "title", "subtitle", "desc_it", "price", "quantity", "delivery_time", "delivery_time_if_not_available","sale", "max_discount", "ean13", "features", "accessories","meta_title","meta_description","order_available", "product_images","product_images_alt"] });
                                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_prodotti_'+random_number+'.xlsx', xls_prodotti, 'binary');
 
-                                                        let xls_varianti = json2xls(json_varianti, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "all_images","all_images_alt"] });
+                                                        let xls_varianti = json2xls(json_varianti, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "combination_images", "combinations_images_alt"] });
                                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_varianti_'+random_number+'.xlsx', xls_varianti, 'binary');
                                                         
-                                                        var json_varianti_suddiviso = chunk(json_varianti,200);
+                                                        var json_varianti_suddiviso = chunk(json_varianti,500);
                                                         
                                                         _.each(json_varianti_suddiviso, function(pezzo,index){
-                                                            let pezzo_xls_varianti = json2xls(pezzo, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "all_images","all_images_alt"] });
+                                                            let pezzo_xls_varianti = json2xls(pezzo, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "combination_images", "combinations_images_alt"] });
                                                             fs.writeFileSync(path_cartella +"/result/"+cartella+'_varianti_'+random_number+'__'+index+'.xlsx', pezzo_xls_varianti, 'binary');
                                                         })
 
@@ -239,6 +254,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var meta_description = undefined;
         var all_images = undefined;
         var all_images_alt  = undefined;
+        var product_images  = undefined;
+        var product_images_alt  = undefined;
+        var combination_images  = undefined;
+        var combination_images_alt  = undefined;
         
 
     
@@ -302,6 +321,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 "GIGA-LITE",
                 "GREGG",
                 "HAVANA",
+                "HAVANA SOSPENSIONE PARETE",
+                "HAVANA DOPPIA",
+                "HAVANA TRIPLA",
+                "HAVANA QUADRUPLA",
                 "INNERLIGHT",
                 "JAMAICA",
                 "KITE",
@@ -377,7 +400,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 ean13 = undefined;
                 max_discount = 0;
                 sale = 0;
-                price = row["Europa"];
+                price = row["Europa"].replace(",","");
                 quantity = 0;
                 delivery_time = "2-3 gg Italy, 5-6 days UE";
                 delivery_time_if_not_available = "Su ordinazione in 10 gg";
@@ -403,8 +426,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 light_schema = (component == 0)? getLightSchema(model, category, size, assets_json) : undefined;
                 otherColors = getPics(model, category, color, component, createAllImgsArr(assets_json), "colors" );
                 link = getSupplierSiteLink(model,category,component,assets_json);
-                meta_title = undefined;
-                meta_description = undefined;
+                
                 
                 more = JSON.stringify({
                     video : getVideo(model, category, component, createAllVideosArr(assets_json)),
@@ -420,9 +442,248 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 model = redefineModel(model, category, getComponentName(row["Componente"]), size);
 
                 title = getTitle(model,category, component, component_of, original_model, wire_length, color, size);
-                subtitle = getSubitle(model,category, component, component_of, wire_length, color, size);
+                subtitle = getSubtitle(model,category, component, component_of, wire_length, color, size);
+
+                meta_title = getMetaTitle(title, subtitle, category, component, max_discount);
+                meta_description = getMetaDescription(title, subtitle, category, component, max_discount);
+
+                all_images = getAllImages(pic,light_schema,projects,otherColors, component, "img");
+                all_images_alt = getAllImages(pic,light_schema,projects,otherColors, component, "alt");
+
+                product_images =        getProductImages(pic, projects, otherColors, light_schema, component, "img");
+                product_images_alt =    getProductImages(pic, projects, otherColors, light_schema, component, "alt");
+
+                combination_images =        getCombinationImages(pic, otherColors, light_schema, component, "img");
+                combination_images_alt =    getCombinationImages(pic, otherColors, light_schema, component, "alt");
                 
             }
+
+            function getProductImages(pic, projects, otherColors, light_schema, component, caso){
+
+                var arr_ret = [];
+
+                // per gli accessori
+                if(component==1){
+                    if(caso == "img")
+                        arr_ret.push(pic);
+                    if(caso == "alt")
+                        arr_ret.push("pic");
+                    
+                }
+                // per gli articoli
+                else{
+                    
+                    // se c'è la pic la metto come prima immagine
+                    if(_.is(pic)){
+                        if(caso == "img")
+                            arr_ret.push(pic);
+                        if(caso == "alt")
+                            arr_ret.push("pic");
+                    }
+                    else{
+
+                        if(_.is(light_schema)){
+                            if(caso == "img")
+                                arr_ret.push(light_schema);
+                            if(caso == "alt")
+                                arr_ret.push("light_schema");
+                        }
+                        else{
+                            if(_.isArray(projects)){
+                                if(caso == "img"){
+                                    arr_ret.push(projects[0]);
+                                }
+                                    
+                                if(caso == "alt"){
+                                    arr_ret.push("projects");
+                                }
+                                    
+                            }
+                        }
+                            
+                    }
+                    
+                }
+
+               if(_.isArray(projects)){
+                    if(caso == "img"){
+                        _.each(projects,function(project_image){
+                            arr_ret.push(project_image);
+                        })
+                    }
+                        
+                    if(caso == "alt"){
+                        _.each(projects,function(project_image){
+                            arr_ret.push("projects");
+                        })
+                    }
+                        
+                }
+
+                if(caso == "img"){
+                    return S(arr_ret.toString()).replaceAll(",","|").s;
+                }
+
+                if(caso == "alt"){
+                    return S(arr_ret.toString()).replaceAll(",","|").s;
+                }
+
+            }
+
+            function getCombinationImages(pic, otherColors, light_schema, component, caso){
+
+                // rimuovo l'ultima virgola perchè
+                if(otherColors[otherColors.length-1] == ",")
+                    otherColors = otherColors.substr(0, otherColors.length-1);
+                
+                
+
+                var arr_ret = [];
+                // per gli accessori
+                if(component==1){
+                    if(caso == "img")
+                        arr_ret.push(pic);
+                    if(caso == "alt")
+                        arr_ret.push("pic");
+                    
+                    if(caso == "img"){
+                        return S(arr_ret.toString()).replaceAll(",","|").s;
+                    }
+
+                    if(caso == "alt"){
+                        return S(arr_ret.toString()).replaceAll(",","|").s;
+                    }
+                }
+                // per gli articoli
+                else{
+                    if(_.is(otherColors)){
+                        var colors = otherColors.split(',');
+
+                        if(colors[0] == "no colors"){
+                            if(_.is(light_schema)){
+                                if(caso == "img"){
+                                    arr_ret.push(light_schema);
+                                }
+                                else{
+                                    if(caso == "alt")
+                                        arr_ret.push("light_schema");
+                                }
+                            }else{
+                                if(caso == "img")
+                                    arr_ret.push(pic);
+                                if(caso == "alt")
+                                    arr_ret.push("pic");
+                            }
+
+                            if(caso == "img"){
+                                return S(arr_ret.toString()).replaceAll(",","|").s;
+                            }
+
+                            if(caso == "alt"){
+                                return S(arr_ret.toString()).replaceAll(",","|").s;
+                            }
+                        }
+                        else{
+                            if(colors.length == 1){
+
+                                
+                                if(caso == "img"){
+                                    arr_ret.push(colors[0]);
+                                }
+                                else{
+                                    if(caso == "alt")
+                                        arr_ret.push("other-color");
+                                }
+                                
+
+                                if(_.is(light_schema)){
+                                    if(caso == "img"){
+                                        arr_ret.push(light_schema);
+                                    }
+                                    else{
+                                        if(caso == "alt")
+                                            arr_ret.push("light_schema");
+                                    }
+                                }
+                                
+                                if(caso == "img"){
+                                    return S(arr_ret.toString()).replaceAll(",","|").s;
+                                }
+
+                                if(caso == "alt"){
+                                    return S(arr_ret.toString()).replaceAll(",","|").s;
+                                }
+                                
+                            
+                                
+
+                            }else{
+
+                                if(_.is(light_schema)){
+                                    if(caso == "img"){
+                                        arr_ret.push(light_schema);
+                                    }
+                                    else{
+                                        if(caso == "alt")
+                                            arr_ret.push("light_schema");
+                                    }
+                                }
+
+                                if(caso == "img"){
+                                    _.each(colors,function(color){
+                                        arr_ret.push(color);
+                                    })
+                                }
+
+                                if(caso == "alt"){
+                                    _.each(colors,function(color){
+                                        arr_ret.push("other-color");
+                                    })
+                                }
+
+                                
+                                
+                            }
+                        }
+
+
+                        if(caso == "img"){
+                            return S(arr_ret.toString()).replaceAll(",","|").s;
+                        }
+
+                        if(caso == "alt"){
+                            return S(arr_ret.toString()).replaceAll(",","|").s;
+                        }
+                            
+                    }
+                    else{
+                        if(_.is(light_schema)){
+                            if(caso == "img"){
+                                arr_ret.push(light_schema);
+                            }
+                            else{
+                                if(caso == "alt")
+                                    arr_ret.push("light_schema");
+                            }
+                        }else{
+                            if(caso == "img")
+                                arr_ret.push(pic);
+                            if(caso == "alt")
+                                arr_ret.push("pic");
+                        }
+                        
+                        if(caso == "img"){
+                            return S(arr_ret.toString()).replaceAll(",","|").s;
+                        }
+
+                        if(caso == "alt"){
+                            return S(arr_ret.toString()).replaceAll(",","|").s;
+                        }
+                    }
+                    
+                }
+            }
+            
 
             function redefineModel(model, category, component_name, size){
                 var redefined_name = model;
@@ -435,6 +696,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     }
                         
                     else{
+                        
                         if(_.is(redefined_name))
                             redefined_name += " "+component_name;
                         else
@@ -449,7 +711,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 
                 // se size è definita e non compare già nel nome del modello la aggiungo
                 redefined_name += (_.is(size) && redefined_name.toLowerCase().indexOf(size) == -1)? " "+size : "";
-                
+                   
                 return redefined_name;
             }
 
@@ -475,21 +737,21 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 
             }
 
-            function getSubitle(model, category, component, component_of, wire_length, color, size){
+            function getSubtitle(model, category, component, component_of, wire_length, color, size){
                 if(component == 1){
                     var ret = "";
                         ret += (_.is(wire_length))? "cavo da "+wire_length+" " : "";
                         ret += (_.is(color))? color+" " : "";
                         ret += (_.is(size))? size+" " : "";
                     
-                    return ret;
+                    return ret+" - Foscarini";
                 }
                 else{
                     
                     var sottotitolo = ( _.is(category[0]) )? _.capitalize(category[0].toLowerCase()) : "";
                         sottotitolo += (_.is(wire_length))? " - cavo "+wire_length : ""; 
                     
-                    return sottotitolo;
+                    return sottotitolo+" - Foscarini";
                 }
                 
             }   
@@ -666,16 +928,36 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     }
 
 
+                  
+
+                    if(articolo.indexOf("HAVANA SOSP.") != -1){
+                        if(articolo.indexOf("HAVANA SOSP./PAR.") != -1){
+                            return "HAVANA SOSPENSIONE PARETE"
+                        }
+                        if(articolo.indexOf("HAVANA SOSP.DOPPIA") != -1){
+                            return "HAVANA DOPPIA"
+                        }
+                        if(articolo.indexOf("HAVANA SOSP.TRIPLA") != -1){
+                            return "HAVANA TRIPLA"
+                        }
+                        if(articolo.indexOf("HAVANA SOSP.QUADRUPLA") != -1){
+                            return "HAVANA QUADRUPLA"
+                        }
+                    }
+
+
                     if(articolo.indexOf("RITUALS 1") != -1){
                         if(articolo.indexOf("RITUALS 1 DOPPIA") != -1){
                             return "RITUALS 1 DOPPIA"
                         }
+                        return "RITUALS 1";
                     }
 
                     if(articolo.indexOf("RITUALS 3") != -1){
                         if(articolo.indexOf("RITUALS 3 DOPPIA") != -1){
                             return "RITUALS 3 DOPPIA"
                         }
+                        return "RITUALS 3";
                     }
 
                     else{
@@ -765,9 +1047,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 if(articolo.indexOf(" XL ") != -1)
                     return "xl";
             }
-            
-            
-
 
             function createAllImgsArr(assets_json){
                 /*
@@ -875,31 +1154,22 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 
 
                 _.each(all_images,function(elem){
-                    
-                
-
                     if(elem.img_type != "light_schema"){ // escludo le immagini di tipo "light_schema"
                         /** qui accordiamo le diverse nomencalute di alcuni prodotti presenti sul sito */
                         var elem_model = elem.model;
                         var elem_category = elem.category.toLowerCase();
 
-                        
-
                         if( sameItem(model, cat, elem_model, elem_category, "pic") ){
                              ret.push(elem);
                         }
                                
-                    }
-                    
+                    }                    
                 });
 
                
 
                 var arr_pic = [];
 
-
-                
-    
                 _.each(ret,function(elem){
                     if( caso == "primary" ){
                         if(elem.primary)
@@ -918,14 +1188,12 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     
                     arr_pic = uniqByFileName(arr_pic);
 
-
                     if(arr_pic.length == 1 && caso == "primary"){
                         arr_pic = arr_pic[0].url;
                     }
                     else{
                         if(arr_pic.length == 1){
                             arr_pic = "no colors";
-                            
                         }
                         else{
                             if(arr_pic.length > 1){
@@ -1017,6 +1285,16 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     
                 else{
 
+                    // faccio un'altra versifica sui colori (così facendo sono riuscito a risparimiare un centinaio di immagini non azzeccate)
+                    if(caso="colors" && arr_pic.length > 1){
+                        var prev_arr_pic = arr_pic;
+                        arr_pic = arr_pic.filter(function(elem){
+                            return _.intersection(elem.colors, colors).length != 0;
+                        });
+
+                        arr_pic = (arr_pic.length !=0 && arr_pic.length < prev_arr_pic.length)? arr_pic : prev_arr_pic;
+
+                    }
                     
                     var arr_to_string = "";
                     
@@ -1063,10 +1341,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 return uniqByURL(ret);
 
             }
-
-
-  
-           
 
             function isComponent(component){
                     
@@ -1214,8 +1488,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     
             }
 
-            
-
             function getDesc(model,category,component,assets_json){
                 if(component == 1)
                     return undefined;
@@ -1299,8 +1571,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 
             }
 
-
-
             function getSupplierSiteLink(model,category,component,assets_json){
                 if(component == 1)
                     return undefined;
@@ -1322,8 +1592,140 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 return ret;
             }
             
+            function getMetaTitle(title, subtitle, category, component, max_discount){
+                if(component == 0){
+                    var ret = "Lampada da "+category+": "+title.toUpperCase()+" Foscarini by ArteInLuce™";
+                    if(ret.length > 60)
+                        ret = "Lampada "+category+": "+title.toUpperCase()+" Foscarini by ArteInLuce™";
+                    if(ret.length > 60)
+                        ret = "Lampada "+category+": "+title.toUpperCase()+" Foscarini ArteInLuce™";
+                
+                }
+                if(component == 1){
+                    var ret = title +" Foscarini by ArteInLuce™";
+                    if(ret.length > 60)
+                        ret = title +" Foscarini ArteInLuce™";
+                    if(ret.length > 60)
+                        ret = ret.replace("per ","");
+                }
+
+                return ret;
+            }
+
+            function getMetaDescription(title, subtitle, category, component, max_discount){
+                if(component == 0){
+                    var category = (_.is(category))? category[0].toUpperCase() : "";
+                    var ret = title.toUpperCase()+" Foscarini: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da "+category+" in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
+                    
+                }
+                if(component == 1){
+                    var ret = title.toUpperCase()+" Foscarini: centinaia di altre lampade da "+category+" e relativi accessori in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
+                }
+                
+                
+                return ret;
+            }
             
-            
+            function getAllImages(pic,light_schema,projects, otherColors, component, caso){
+
+                // per gli accessori
+                if(component==1){
+                    if(caso == "img"){
+                        return pic;
+                    }
+                        
+                    else{
+                        if(caso == "alt")
+                            return "pic"
+                    }
+                }
+
+                // per gli articoli
+                
+
+
+
+
+
+
+
+                return false;
+
+                // per problemi di spazio limitiamo le immagini di projects a 7
+                //projects =  projects.slice(0,7);
+                    
+                
+                var ret_arr = [];
+
+                
+
+                // in foscarini in otherColors trovo l'immagine del colore specifico dell'articolo
+                var arr_colors = (otherColors)? otherColors.split(",") : undefined;
+                if(_.is(arr_colors) && arr_colors[0] != "no colors"){
+                    _.each(arr_colors,function(elem){
+                        if(elem!="")
+                            ret_arr.push(elem+"@other-colors@");
+                    });
+
+                }
+
+
+                if(_.is(light_schema)){
+                    ret_arr.push(light_schema+"@light-schema@")
+                }
+
+                if(_.isArray(projects)){
+                    _.each(projects,function(single_img){
+                        ret_arr.push(single_img+"@projects@")
+                    })
+                }
+
+                ret_arr = _.uniq(ret_arr);
+                
+                var arr_img = [];
+                var arr_alt = [];
+
+                _.each(ret_arr,function(url){
+                    /*
+                    if(url.indexOf("@pic@") != -1){
+                        arr_img.push( url.replace("@pic@","") );
+                        arr_alt.push("pic");
+                    }
+                    */
+
+                    if(url.indexOf("@other-colors@") != -1){
+                        arr_img.push( url.replace("@other-colors@","") );
+                        arr_alt.push("other-colors");
+                    }
+
+                    if(url.indexOf("@light-schema@") != -1){
+                        arr_img.push( url.replace("@light-schema@","") );
+                        arr_alt.push("light-schema");
+                    }
+
+                    if(url.indexOf("@projects@") != -1){
+                        arr_img.push( url.replace("@projects@","") );
+                        arr_alt.push("projects");
+                    }
+                });
+
+                
+
+
+                if(caso == "img"){
+                    return S(arr_img.toString()).replaceAll(",","|").s;
+                }
+
+                if(caso == "alt"){
+                    return S(arr_alt.toString()).replaceAll(",","|").s;
+                }
+                    
+                
+                
+
+                
+                
+            }
 
             
 
@@ -1378,7 +1780,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 
                 pic = getPics(row["Descrizione"], model, category, type, assets_json,component, "primary");
                 light_schema = getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "light_schema");
-                title = getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "title");
+                title = _.capitalize( getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "title") );
                 subtitle = row["Descrizione"];
                 
                 desc_it = getDescription( row["Descrizione"], model,clone,component,assets_json);
@@ -1401,6 +1803,53 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                 all_images = undefined;
                 all_images_alt = undefined;
+
+                product_images  = undefined;
+                product_images_alt  = undefined;
+
+                combination_images  = undefined;
+                combination_images_alt  = undefined;
+
+                title = raffinaTitle(title);
+
+                function raffinaTitle(title){
+                    var ret = title;
+                    
+                    // applique
+                    if(ret.indexOf(" ap ") != -1)
+                        ret = ret.replace(" ap ", " Applique ")
+                    if(ret.indexOf(" ap") != -1)
+                        ret = ret.replace(" ap", " Applique")
+
+                    // lettura
+                    if(ret.indexOf(" lt ") != -1)
+                        ret = ret.replace(" lt ", " Lettura ")
+                    if(ret.indexOf(" lt") != -1)
+                        ret = ret.replace(" lt", " Lettura")
+
+                    
+                    // plafone
+                    if(ret.indexOf(" pl ") != -1)
+                        ret = ret.replace(" pl ", " Plafone ")
+                    if(ret.indexOf(" pl") != -1)
+                        ret = ret.replace(" pl", " Plafone")
+
+                    
+                    // sospensione
+                    if(ret.indexOf(" sp ") != -1)
+                        ret = ret.replace(" sp ", " Sospensione ")
+                    if(ret.indexOf(" sp") != -1)
+                        ret = ret.replace(" sp", " Sospensione")
+
+
+                    // piantana
+                    if(ret.indexOf(" pt ") != -1)
+                        ret = ret.replace(" pt ", " Piantana ")
+                    if(ret.indexOf(" pt") != -1)
+                        ret = ret.replace(" pt", " Piantana")
+
+                    return ret;
+                }
 
 
                 function getModel(desc){
@@ -2261,7 +2710,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                    
                                         //_.log("----------------------model: "+model+"--------category: "+category);
                                         //_.log("----------------------original model: "+original_model_arr);
-                                        return arr_varianti.toString;
+                                        _.log("-----IMMAGINE NON TROVATA PER---------")
+                                        _.log(original_model +" - "+ model +" - "+ arr_category);
+                                        //_.log(arr_varianti)
+                                        return "img-not-found"
                                     
                                     
                                 }
@@ -2898,7 +3350,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         
 
                     }
-                    
+                    else{
+                        return _.capitalize(model);
+                    }
                 }
 
                 function getRealModelName(model, component, title, type, component_of){
@@ -3119,6 +3573,12 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     all_images = getAllImages(pic,light_schema,projects);
                     all_images_alt = getAllImagesAlt(pic,light_schema,projects);
 
+                    product_images  = undefined;
+                    product_images_alt  = undefined;
+
+                    combination_images  = undefined;
+                    combination_images_alt  = undefined;
+
                     function getModelName(model_id){
                         var asset = getAsset(model_id);
                         if( _.is(asset))
@@ -3244,42 +3704,61 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                     function getSubtitle(model, component, component_of, category){
                         if(component == 0)
-                            return category;
+                            return category+" - Flos";
                         else{
                             var asset = getAsset(component_of);
-                            return "accessorio di "+ asset.model +" "+ asset.category
+                            return "accessorio di "+ asset.model +" "+ asset.category+" - Flos";
                         }
                     }
 
+                    
+
+
                     function getMetaTitle(title, subtitle, category, component, max_discount){
                         if(component == 0){
-                            var ret = "Arte in Luce "+title+" Flos™ "+category;
+                            var ret = "Lampada da "+category+": "+title.toUpperCase()+" Flos by ArteInLuce™";
+                            if(ret.length > 60)
+                                ret = "Lampada "+category+": "+title.toUpperCase()+" Flos by ArteInLuce™";
+                            if(ret.length > 60)
+                                ret = "Lampada "+category+": "+title.toUpperCase()+" Flos ArteInLuce™";
+                        
                         }
                         if(component == 1){
-                            var ret = "Flos™ ricambio "+title;
+                            var ret = title +" Flos by ArteInLuce™";
+                            if(ret.length > 60)
+                                ret = title +" Flos ArteInLuce™";
+                            if(ret.length > 60)
+                                ret = ret.replace("per ","");
                         }
+
                         return ret;
                     }
 
                     function getMetaDescription(title, subtitle, category, component, max_discount){
                         if(component == 0){
-                            var ret = "Lampada "+title+" Flos™ da "+category+" in sconto al 14%, spedizione gratuita.";
+                            var category = (_.is(category))? category.toUpperCase() : "";
+                            var ret = title.toUpperCase()+" Flos: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da "+category+" in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
+                            
                         }
                         if(component == 1){
-                            var ret = "Flos™ ricambio "+title+" in sconto al 14%, spedizione gratuita.";
+                            var ret = title.toUpperCase()+" Flos: centinaia di altre lampade da "+category+" e relativi accessori in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
                         }
+                        
+                        
                         return ret;
                     }
 
 
                     function getAllImages(pic,light_schema,projects){
-                        var ret_arr = [pic];
+                        //var ret_arr = [pic];
+                        var ret_arr = [];
                         if(_.isArray(light_schema)){
                             ret_arr = ret_arr.concat(light_schema);
                         }
                         if(_.isArray(projects)){
                             ret_arr = ret_arr.concat(projects);
                         }
+                        
                         if(_.isArray(ret_arr))
                             return S(ret_arr.toString()).replaceAll(",","|").s;
                         
@@ -3287,7 +3766,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                     function getAllImagesAlt(pic,light_schema,projects){
                         
-                        var all_images_alt = (pic.length != 0)? ["pic"] : [];
+                        var all_images_alt = [];
+                        // var all_images_alt = (pic.length != 0)? ["pic"] : [];
                         if(_.isArray(light_schema)){
                             _.each(light_schema,function(){
                                 all_images_alt.push("light_schema");
@@ -3346,8 +3826,12 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             wire_length:            wire_length,                                                    // se c'è dice quanto è lungo il cavo (in foscarini è una variante)
             max_discount:           max_discount * 100,                                             // massimo sconto applicabile espresso come frazione di uno viene qui moltiplicato per 100
             sale:                   sale,                                                           // 0 o 1 serve a prestashop per capire se c'è uno sconto o meno
-            all_images:             all_images,                                                     // contiene tutte le immagini pic + light_schema + projects separate da |
-            all_images_alt:         all_images_alt,                                                 // serve per distingure le immagini
+            product_images:         product_images,                                                     
+            product_images_alt:     product_images_alt,   
+            combination_images:     combination_images,                                                     
+            combination_images_alt: combination_images_alt,                                              
+            //all_images:             all_images,                                                     // contiene tutte le immagini pic + light_schema + projects separate da |
+            //all_images_alt:         all_images_alt,                                                 // serve per distingure le immagini
             pic:                    pic,                                                            // contiene l'immagine primaria
             light_schema:           light_schema,                                                   // schema dell'articolo
             otherColors:            otherColors,                                                    // array dei path delle immagini di altri colori dello stesso articolo
@@ -3356,7 +3840,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             more:                   more,                                                           // contiene dei campi aggiuntivi (custom per ogni fornitore) esempio video, link a pdf, pagine html
             meta_title:             meta_title,
             meta_description:       meta_description,
-            order_available:        "1"                                                               // sempre disponibile all'ordine
+            order_available:        "2"                                                             // sempre disponibile all'ordine
         }
 }
 
@@ -3636,6 +4120,12 @@ function chunk (arr, len) {
   }
 
   return chunks;
+}
+
+function camelize(str) {
+  return str.replace(/(?:^\w|[A-Z]|\b\w)/g, function(letter, index) {
+    return index == 0 ? letter.toLowerCase() : letter.toUpperCase();
+  }).replace(/\s+/g, '');
 }
 
 
@@ -4098,9 +4588,13 @@ function postProduci(json,fornitore){
             
             _.each(arr,function(elem){
 
+                
+                
                 if(_.is(caso)){ // caso dei values
                     pos++;
                     var valore = (row[_.keys(elem)[0]] == "yes")? "si" : row[_.keys(elem)[0]];
+                    if(row[_.keys(elem)[0]] == "") // c'erano 6 casi strani in cui questo malore usciva = a "" e rompeva l'importer
+                        valore = "altro";
                     if( row.component == 0 || (row.component == 1 && _.keys(elem)[0] == "color") ) // per gli accessori metto solo il color
                         var singleton = valore +" : "+ pos +" | ";
                 }
@@ -4126,11 +4620,15 @@ function postProduci(json,fornitore){
     if(fornitore=="vistosi"){
        
 
-        var new_json = _.filter(json, function(elem){
-            return elem.model != "out of stock"
-        })
+        // elimino gli articoli che hanno pic = out of stock o img-nont-found
+        json = _.filter(json,function(elem){
+            if(elem.pic == "out of stock" || elem.pic == "img-not-found" || elem.model == "out of stock")
+                return false;
+            return true;
+        });
 
-        json = new_json;
+        
+        
 
         var json_prodotti = [];
 
