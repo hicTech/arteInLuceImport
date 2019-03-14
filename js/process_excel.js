@@ -3573,11 +3573,88 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     all_images = getAllImages(pic,light_schema,projects);
                     all_images_alt = getAllImagesAlt(pic,light_schema,projects);
 
-                    product_images  = undefined;
-                    product_images_alt  = undefined;
+                    
 
-                    combination_images  = undefined;
-                    combination_images_alt  = undefined;
+                    product_images =        getProductImages(pic, projects, light_schema, component, "img");
+                    product_images_alt =    getProductImages(pic, projects, light_schema, component, "alt");
+                    
+                    combination_images =        getCombinationImages(pic, projects, light_schema, component, "img");
+                    combination_images_alt =    getCombinationImages(pic, projects, light_schema, component, "alt");
+
+                    
+
+
+                    function getProductImages(pic, projects, light_schema, component, caso){
+                        
+                        var arr_ret = [];
+                        if(_.is(pic)){
+                            if(caso == "img"){
+                                arr_ret.push(pic);
+                            }
+            
+                            if(caso == "alt"){
+                                arr_ret.push("pic");
+                            }
+                        }
+
+                        if( _.is(projects) && _.isArray(projects) ){
+                            _.each(projects,function(project_img){
+                                if(caso == "img"){
+                                    arr_ret.push(project_img)
+                                }
+                
+                                if(caso == "alt"){
+                                    arr_ret.push("projects")
+                                }
+                            })
+                        }
+
+                        if(caso == "img"){
+                            return S(arr_ret.toString()).replaceAll(",","|").s;
+                        }
+        
+                        if(caso == "alt"){
+                            return S(arr_ret.toString()).replaceAll(",","|").s;
+                        }
+                    }
+
+                    function getCombinationImages(pic, projects, light_schema, component, caso){
+                        
+                        var arr_ret = [];
+                        if(_.is(pic)){
+                            if(caso == "img"){
+                                arr_ret.push(pic);
+                            }
+            
+                            if(caso == "alt"){
+                                arr_ret.push("pic");
+                            }
+                        }
+
+                        if(_.is(light_schema)){
+                            if(caso == "img"){
+                               _.each(light_schema,function(single_img){
+                                    arr_ret.push(single_img);
+                               })
+                            }
+            
+                            if(caso == "alt"){
+                                _.each(light_schema,function(single_img){
+                                    arr_ret.push("light_schema");
+                               })
+                            }
+                        }
+
+                        if(caso == "img"){
+                            return S(arr_ret.toString()).replaceAll(",","|").s;
+                        }
+        
+                        if(caso == "alt"){
+                            return S(arr_ret.toString()).replaceAll(",","|").s;
+                        }
+                    }
+
+                    
 
                     function getModelName(model_id){
                         var asset = getAsset(model_id);
