@@ -163,6 +163,17 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                         let xls_prodotti = json2xls(json_prodotti, {fields: ["hicId", "supplier", "category", "title", "subtitle", "desc_it", "price", "quantity", "delivery_time", "delivery_time_if_not_available","sale", "max_discount", "ean13", "features", "accessories","meta_title","meta_description","order_available", "product_images","product_images_alt"] });
                                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_prodotti_'+random_number+'.xlsx', xls_prodotti, 'binary');
 
+
+                                                        var json_prodotti_suddiviso = chunk(json_prodotti,250);
+                                                        
+                                                        _.each(json_prodotti_suddiviso, function(pezzo,index){
+                                                            let pezzo_xls_prodotti = json2xls(pezzo, {fields: ["hicId", "supplier", "category", "title", "subtitle", "desc_it", "price", "quantity", "delivery_time", "delivery_time_if_not_available","sale", "max_discount", "ean13", "features", "accessories","meta_title","meta_description","order_available", "product_images","product_images_alt"] });
+                                                            fs.writeFileSync(path_cartella +"/result/"+cartella+'_prodotti_'+random_number+'__'+index+'.xlsx', pezzo_xls_prodotti, 'binary');
+                                                        })
+
+
+
+
                                                         let xls_varianti = json2xls(json_varianti, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "combination_images", "combination_images_alt"] });
                                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_varianti_'+random_number+'.xlsx', xls_varianti, 'binary');
                                                         
@@ -447,8 +458,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 meta_title = getMetaTitle(title, subtitle, category, component, max_discount);
                 meta_description = getMetaDescription(title, subtitle, category, component, max_discount);
 
-                all_images = getAllImages(pic,light_schema,projects,otherColors, component, "img");
-                all_images_alt = getAllImages(pic,light_schema,projects,otherColors, component, "alt");
+                //all_images = getAllImages(pic,light_schema,projects,otherColors, component, "img");
+                //all_images_alt = getAllImages(pic,light_schema,projects,otherColors, component, "alt");
 
                 product_images =        getProductImages(pic, projects, otherColors, light_schema, component, "img");
                 product_images_alt =    getProductImages(pic, projects, otherColors, light_schema, component, "alt");
@@ -461,6 +472,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             function getProductImages(pic, projects, otherColors, light_schema, component, caso){
 
                 var arr_ret = [];
+
+                projects = projects.slice(0,10);
 
                 // per gli accessori
                 if(component==1){
@@ -505,20 +518,40 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     
                 }
 
-               if(_.isArray(projects)){
-                    if(caso == "img"){
-                        _.each(projects,function(project_image){
-                            arr_ret.push(project_image);
-                        })
+                // agli articoli aggiungo anche TUTTI i project
+                if(component == 0){
+                    if(_.isArray(projects)){
+                        if(caso == "img"){
+                            _.each(projects,function(project_image){
+                                arr_ret.push(project_image);
+                            })
+                        }
+                            
+                        if(caso == "alt"){
+                            _.each(projects,function(project_image){
+                                arr_ret.push("projects");
+                            })
+                        }
+                            
                     }
-                        
-                    if(caso == "alt"){
-                        _.each(projects,function(project_image){
-                            arr_ret.push("projects");
-                        })
-                    }
-                        
                 }
+
+                //agli accessori solo 1
+
+                if(component == 1){
+                    
+                    if( _.isArray(projects) && _.is(projects[0]) ){
+                        if(caso == "img"){                           
+                            arr_ret.push(projects[0]);
+                        }
+                            
+                        if(caso == "alt"){    
+                            arr_ret.push("projects");
+                        }
+                            
+                    }
+                }
+                
 
                 if(caso == "img"){
                     return S(arr_ret.toString()).replaceAll(",","|").s;
@@ -560,6 +593,14 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         var colors = otherColors.split(',');
 
                         if(colors[0] == "no colors"){
+
+                            if(_.is(pic)){
+                                if(caso == "img")
+                                    arr_ret.push(pic);
+                                if(caso == "alt")
+                                    arr_ret.push("pic");
+                            }
+                            
                             if(_.is(light_schema)){
                                 if(caso == "img"){
                                     arr_ret.push(light_schema);
@@ -568,11 +609,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                     if(caso == "alt")
                                         arr_ret.push("light_schema");
                                 }
-                            }else{
-                                if(caso == "img")
-                                    arr_ret.push(pic);
-                                if(caso == "alt")
-                                    arr_ret.push("pic");
                             }
 
                             if(caso == "img"){
@@ -618,6 +654,13 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 
 
                             }else{
+
+                                if(_.is(pic)){
+                                    if(caso == "img")
+                                        arr_ret.push(pic);
+                                    if(caso == "alt")
+                                        arr_ret.push("pic");
+                                }
 
                                 if(_.is(light_schema)){
                                     if(caso == "img"){
@@ -744,7 +787,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         ret += (_.is(color))? color+" " : "";
                         ret += (_.is(size))? size+" " : "";
                     
-                    return ret+" - Foscarini";
+                    return ret+" - Foscarini - accessorio";
                 }
                 else{
                     
@@ -1726,7 +1769,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 
                 
             }
-
+            
             
 
         }
@@ -3868,6 +3911,16 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
         
 
+        function getFinalCategory(category, outdoor, component){
+            if(outdoor == 1)
+                category.push("outdoor");
+            
+            if(component == 1)
+                category.push("accessorio");
+
+            return (_.isArray(category))? category.toString().toLowerCase() : (_.is(category))? category.toLowerCase() : "";
+                
+        }
         
 
         return{
@@ -3894,12 +3947,12 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             halogen:                (halogen==0)? "no" : "yes",                                     // se ha lampada alogena
             screw:                  screw,                                                          // tipo di attacco
             switcher:               (switcher==0)? "no" : "yes",                                    // se ha l'interruttore o meno
-            category:               (_.isArray(category))? category.toString().toLowerCase() : (_.is(category))? category.toLowerCase() : undefined,             // terra, tavolo, sospensione, soffitto, parete, montatura, kit, diffusore, set,
             type:                   type,                                                           // tipo di lampada
             component:              component,                                                      // indica se è un componente di una lampada (serve per distinguere i pezzi di ricambio dalle lampade)
             component_of:           component_of,                                                   // se l'articolo è un componente ritorna il modello di cui è componente
             size:                   size,                                                           // piuccola, media, grande,....
             outdoor:                (outdoor==0)? "no" : "yes",                                     // se è da esterno o meno
+            category:               getFinalCategory(category, outdoor, component),             // terra, tavolo, sospensione, soffitto, parete, montatura, kit, diffusore, set,
             wire_length:            wire_length,                                                    // se c'è dice quanto è lungo il cavo (in foscarini è una variante)
             max_discount:           max_discount * 100,                                             // massimo sconto applicabile espresso come frazione di uno viene qui moltiplicato per 100
             sale:                   sale,                                                           // 0 o 1 serve a prestashop per capire se c'è uno sconto o meno
