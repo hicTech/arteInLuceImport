@@ -164,7 +164,7 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_prodotti_'+random_number+'.xlsx', xls_prodotti, 'binary');
 
 
-                                                        var json_prodotti_suddiviso = chunk(json_prodotti,250);
+                                                        var json_prodotti_suddiviso = chunk(json_prodotti,100);
                                                         
                                                         _.each(json_prodotti_suddiviso, function(pezzo,index){
                                                             let pezzo_xls_prodotti = json2xls(pezzo, {fields: ["hicId", "supplier", "category", "title", "subtitle", "desc_it", "price", "quantity", "delivery_time", "delivery_time_if_not_available","sale", "max_discount", "ean13", "features", "accessories","meta_title","meta_description","order_available", "product_images","product_images_alt"] });
@@ -461,8 +461,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 //all_images = getAllImages(pic,light_schema,projects,otherColors, component, "img");
                 //all_images_alt = getAllImages(pic,light_schema,projects,otherColors, component, "alt");
 
-                product_images =        getProductImages(pic, projects, otherColors, light_schema, component, "img");
-                product_images_alt =    getProductImages(pic, projects, otherColors, light_schema, component, "alt");
+                product_images =            getProductImages(pic, projects, otherColors, light_schema, component, "img");
+                product_images_alt =        getProductImages(pic, projects, otherColors, light_schema, component, "alt");
 
                 combination_images =        getCombinationImages(pic, otherColors, light_schema, component, "img");
                 combination_images_alt =    getCombinationImages(pic, otherColors, light_schema, component, "alt");
@@ -1839,23 +1839,217 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 
 
                 // una volta calcolati tutti i dati siamo pronti per definire il model degli articoli e dei pazzi di ricambio
-
+                
                 model = getRealModelName(model, component, title, type, component_of);
-                meta_title = undefined;
-                meta_description = undefined;
+                meta_title = getMetaTitle(title, subtitle, category, component, max_discount);
+                meta_description = getMetaDescription(title, subtitle, category, component, max_discount);
 
-                all_images = undefined;
-                all_images_alt = undefined;
+                //all_images = undefined;
+                //all_images_alt = undefined;
 
-                product_images  = undefined;
-                product_images_alt  = undefined;
+                product_images  =           getProductImages(pic, projects, null, light_schema, component, "img");
+                product_images_alt  =       getProductImages(pic, projects, null, light_schema, component, "alt");
 
-                combination_images  = undefined;
-                combination_images_alt  = undefined;
+                combination_images =        getCombinationImages(pic, null, light_schema, component, "img");
+                combination_images_alt =    getCombinationImages(pic, null, light_schema, component, "alt");
 
                 title = title;//raffinaTitle(title);    // raffina titolo sostituisce sp con sospensione lt con lettura e così via ma sul sito gli articoli li chiama proprio CLOTH SP GD1 quindi
                                                         // lasciamo il title così com'è e mettiamo poi la categoria nel sub title
 
+
+
+
+                function getProductImages(pic, projects, otherColors, light_schema, component, caso){
+
+                    var arr_ret = [];
+
+                    if(_.isArray(projects))
+                        projects = projects.slice(0,4);
+
+                    // per gli accessori
+                    if(component==1){
+                        if(caso == "img")
+                            arr_ret.push(pic);
+                        if(caso == "alt")
+                            arr_ret.push("pic");
+                        
+                    }
+                    // per gli articoli
+                    else{
+                        
+                        // se c'è la pic la metto come prima immagine
+                        if(_.is(pic)){
+                            if(caso == "img")
+                                arr_ret.push(pic);
+                            if(caso == "alt")
+                                arr_ret.push("pic");
+                        }
+                        else{
+
+                            if(_.is(light_schema)){
+                                if(caso == "img")
+                                    arr_ret.push(light_schema);
+                                if(caso == "alt")
+                                    arr_ret.push("light_schema");
+                            }
+                            else{
+                                if(_.isArray(projects)){
+                                    if(caso == "img"){
+                                        arr_ret.push(projects[0]);
+                                    }
+                                        
+                                    if(caso == "alt"){
+                                        arr_ret.push("projects");
+                                    }
+                                        
+                                }
+                            }
+                                
+                        }
+                        
+                    }
+
+                    // agli articoli aggiungo anche TUTTI i project
+                    if(component == 0){
+                        if(_.isArray(projects)){
+                            if(caso == "img"){
+                                _.each(projects,function(project_image){
+                                    arr_ret.push(project_image);
+                                })
+                            }
+                                
+                            if(caso == "alt"){
+                                _.each(projects,function(project_image){
+                                    arr_ret.push("projects");
+                                })
+                            }
+                                
+                        }
+                    }
+
+                    //agli accessori solo 1
+
+                    if(component == 1){
+                        
+                        if( _.isArray(projects) && _.is(projects[0]) ){
+                            if(caso == "img"){                           
+                                arr_ret.push(projects[0]);
+                            }
+                                
+                            if(caso == "alt"){    
+                                arr_ret.push("projects");
+                            }
+                                
+                        }
+                    }
+                    
+
+                    if(caso == "img"){
+                        return S(arr_ret.toString()).replaceAll(",","|").s;
+                    }
+
+                    if(caso == "alt"){
+                        return S(arr_ret.toString()).replaceAll(",","|").s;
+                    }
+
+                }
+
+                
+                function getCombinationImages(pic, otherColors, light_schema, component, caso){
+
+                    
+                    
+
+                    var arr_ret = [];
+                    // per gli accessori
+                    if(component==1){
+                        if(caso == "img")
+                            arr_ret.push(pic);
+                        if(caso == "alt")
+                            arr_ret.push("pic");
+                        
+                        if(caso == "img"){
+                            return S(arr_ret.toString()).replaceAll(",","|").s;
+                        }
+
+                        if(caso == "alt"){
+                            return S(arr_ret.toString()).replaceAll(",","|").s;
+                        }
+                    }
+                    // per gli articoli
+                    else{
+
+                            
+                            
+                            if(_.is(pic)){
+                                if(caso == "img"){
+                                    arr_ret.push(pic);
+                                }
+                                else{
+                                    if(caso == "alt")
+                                        arr_ret.push("pic");
+                                }
+                            }
+
+                            if(_.is(light_schema)){
+                                if(caso == "img"){
+                                    arr_ret.push(light_schema);
+                                }
+                                else{
+                                    if(caso == "alt")
+                                        arr_ret.push("light_schema");
+                                }
+                            }
+                            
+                            
+                            if(caso == "img"){
+                                return S(arr_ret.toString()).replaceAll(",","|").s;
+                            }
+
+                            if(caso == "alt"){
+                                return S(arr_ret.toString()).replaceAll(",","|").s;
+                            }
+                        
+                        
+                    }
+                }
+
+
+
+                function getMetaTitle(title, subtitle, category, component, max_discount){
+                    if(component == 0){
+                        var ret = "Lampada da "+category+": "+title.toUpperCase()+" Vistosi by ArteInLuce™";
+                        if(ret.length > 60)
+                            ret = "Lampada "+category+": "+title.toUpperCase()+" Vistosi by ArteInLuce™";
+                        if(ret.length > 60)
+                            ret = "Lampada "+category+": "+title.toUpperCase()+" Vistosi ArteInLuce™";
+                    
+                    }
+                    if(component == 1){
+                        var ret = title +" Vistosi by ArteInLuce™";
+                        if(ret.length > 60)
+                            ret = title +" Vistosi ArteInLuce™";
+                        if(ret.length > 60)
+                            ret = ret.replace("per ","");
+                    }
+
+                    return ret;
+                }
+
+                function getMetaDescription(title, subtitle, category, component, max_discount){
+                    if(component == 0){
+                        var category = (_.is(category))? category[0].toUpperCase() : "";
+                        var ret = title.toUpperCase()+" Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da "+category+" in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
+                        
+                    }
+                    if(component == 1){
+                        var ret = title.toUpperCase()+" Vistosi: centinaia di altre lampade da "+category+" e relativi accessori in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
+                    }
+                    
+                    
+                    return ret;
+                }
+                
                 function raffinaTitle(title){
                     var ret = title;
                     
@@ -1948,6 +2142,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     if(ret == "NOVECENT")
                         ret = "NOVECENTO"         
 
+                    
                     return ret;
                 }
 
@@ -4841,6 +5036,75 @@ function postProduci(json,fornitore){
         });
 
 
+
+        // le chiavi di registro dunque sono tutti i possibili valori di model (univoci)
+        // riscandagliando tutto json faccio un'analisi per capire per ogni model quali possono essere le caratteristiche determinanti
+
+        var registro_attributi_fatures = {};
+        _.each(_.keys(registro),function(key){
+            var model_info = {
+                color : [],
+                dimmer: [],
+                led : [],
+                halogen: [],
+                screw: [],
+                switcher: [],
+
+            }
+            _.each(json,function(row){
+                
+                if(key == row.model){
+                    model_info.color.push(row.color);
+                    model_info.dimmer.push(row.dimmer);
+                    model_info.led.push(row.led);
+                    model_info.halogen.push(row.halogen);
+                    if(_.is(row.screw))
+                        model_info.screw.push(row.screw);
+                    model_info.switcher.push(row.switcher);
+                }
+            });
+
+            var cleaned_model_info = {
+                features : [],
+                attributes: [],
+            };
+
+            _.each(model_info, function(info,key){
+                var name =  key;
+                var obj = {}
+                if( _.uniq(info).length == 1){
+                    obj[name] = _.uniq(info)[0];
+                    cleaned_model_info.features.push(obj)
+                }
+                else{
+                    
+                    obj[name] = _.uniq(info);
+                    cleaned_model_info.attributes.push(obj)
+                }
+            })
+
+
+
+
+            registro_attributi_fatures[key] = cleaned_model_info;
+        });
+
+        //_.log(_.toStr(registro_attributi_fatures))
+
+        // aggiungo features e attributi
+        _.each(json,function(row){
+            var model = row.model;
+            _.each(registro_attributi_fatures,function(elem,key){
+                if(key == model){
+                    row["features"] = inlineCSVFeaturesVistosi(elem.features);
+
+                    // aggiungo attributi e valori
+                    row["attributes"] = inlineCSVVistosi(row,elem.attributes)
+                    row["values"] = inlineCSVVistosi(row,elem.attributes,"values");
+                }
+            })
+        });
+
         // aggiungo gli accessori di ogni articolo
         _.each(json, function(elem){
             if( elem.component == 1 ){
@@ -4862,6 +5126,73 @@ function postProduci(json,fornitore){
                 });
             }
         });
+
+        // in component_of invece del orignal_model + category metto hicId
+        _.each(json, function(elem, index){
+            var cod = elem.component_of;
+            
+            _.each(json, function(elem2){
+                if(_.is(elem2.model_id))
+                    if( cod == elem2.model_id)
+                        json[index].component_of = elem2.hicId;
+            })
+        })
+
+
+        function inlineCSVFeaturesVistosi(features){
+            
+            let csv = "";
+            let pos = 0;
+            
+            _.each(features,function(elem){
+                
+                var chiave = _.keys(elem)[0];
+                var singleton = chiave +" : "+ elem[chiave]  +" : "+ pos+" : 1 | ";
+                pos++;
+                          
+                csv += (_.is(singleton))? singleton : "";
+            });
+
+            // tolgo l'ultima pipe
+            return csv.substring(0, csv.length - 3);
+        }
+
+        function inlineCSVVistosi(row, arr, caso){
+            
+            let pos = 0;
+            if(!_.is(caso)){ // caso dei attributes
+                var csv = "stato : select : 0 | ";                
+            }
+            else{ // caso di values
+                var csv = "nuovo : 0 | ";
+            }
+            
+            _.each(arr,function(elem){
+
+                
+                
+                if(_.is(caso)){ // caso dei values
+                    pos++;
+                    var valore = (row[_.keys(elem)[0]] == "yes")? "si" : row[_.keys(elem)[0]];
+                    if(row[_.keys(elem)[0]] == "" || !_.is(valore) ) // c'erano 6 casi strani in cui questo malore usciva = a "" e rompeva l'importer
+                        valore = "altro";
+                    if( row.component == 0 || (row.component == 1 && _.keys(elem)[0] == "color") ) // per gli accessori metto solo il color
+                        var singleton = valore +" : "+ pos +" | ";
+                }
+                else{ // caso di attributes
+                    pos++;
+                    var input_type = ( elem[_.keys(elem)[0]].length >= 3 )? "select" : "radio";
+                        //input_type = (_.keys(elem)[0] == "color")? "select" : input_type; // per color forzo il select
+                    if( row.component == 0 || (row.component == 1 && _.keys(elem)[0]=="color") ) // per gli accessori metto solo il color
+                        var singleton = _.keys(elem)[0] +" : "+ input_type+" : "+ pos+" | ";
+                }
+                
+                csv += (_.is(singleton))? singleton : "";
+            });
+            
+            // tolgo l'ultimo punto e virgola
+            return csv.substring(0, csv.length - 3);
+        }
 
         
     }
