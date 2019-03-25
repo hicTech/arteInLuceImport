@@ -255,6 +255,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var sale = undefined;
         var more = undefined;
         var title = undefined;
+        var model_variant = undefined;
         var subtitle = undefined;
         var pic = undefined;
         var light_schema = undefined;
@@ -454,6 +455,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                 title = getTitle(model,category, component, component_of, original_model, wire_length, color, size);
                 subtitle = getSubtitle(model,category, component, component_of, wire_length, color, size);
+                model_variant = undefined;
 
                 meta_title = getMetaTitle(title, subtitle, category, component, max_discount);
                 meta_description = getMetaDescription(title, subtitle, category, component, max_discount);
@@ -1840,7 +1842,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                 // una volta calcolati tutti i dati siamo pronti per definire il model degli articoli e dei pazzi di ricambio
                 
-                model = getRealModelName(model, component, title, type, component_of);
+                model = getRealModelName(model, category, component, title, type, component_of);
+
+
                 meta_title = getMetaTitle(title, subtitle, category, component, max_discount);
                 meta_description = getMetaDescription(title, subtitle, category, component, max_discount);
 
@@ -1853,9 +1857,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 combination_images =        getCombinationImages(pic, null, light_schema, component, "img");
                 combination_images_alt =    getCombinationImages(pic, null, light_schema, component, "alt");
 
-                title = title;//raffinaTitle(title);    // raffina titolo sostituisce sp con sospensione lt con lettura e così via ma sul sito gli articoli li chiama proprio CLOTH SP GD1 quindi
-                                                        // lasciamo il title così com'è e mettiamo poi la categoria nel sub title
-
+                model_variant = title;
+                title = model;
 
 
 
@@ -1864,7 +1867,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     var arr_ret = [];
 
                     if(_.isArray(projects))
-                        projects = projects.slice(0,4);
+                        projects = projects.slice(0,12);
 
                     // per gli accessori
                     if(component==1){
@@ -3648,7 +3651,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     }
                 }
 
-                function getRealModelName(model, component, title, type, component_of){
+                function getRealModelName(model, category, component, title, type, component_of){
                     if(component == 1){
                         var new_model = model.replace("ricambio-","");
                         new_model = (new_model == type)? new_model : new_model +" "+ type;
@@ -3665,6 +3668,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         if(real_model.indexOf(" MN") == real_model.length - 3)
                             real_model = real_model.replace(" MN"," mini");
                         
+                        // qui il model sarebbe del tipo "sanmarco ap 5fg" così facendo però risultato 980 prodotti e 3459 varianti
+                        // per limitare questi numeri rimetto il model del tipo "sanmarco applique" e metto poi "5fg" come attributo da selezionare nel select
+                        real_model = model.toLowerCase() +" "+ category;
+
                         return real_model;
                     }
                 }
@@ -3856,6 +3863,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     pic = ( _.is(getAsset(model_id)))? (_.is(getAsset(model_id).img)) ? getAsset(model_id).img : getAsset(model_id).image : undefined;
                     light_schema = getSchemaImages(model_id);
                     subtitle = getSubtitle(model, component, component_of, category);
+                    model_variant = undefined;
                     otherColors = undefined;
                     projects = ( _.is(getAsset(model_id)) )? ( _.is( getAsset(model_id).other_images ) )? getAsset(model_id).other_images : undefined : undefined ;
                     link = getSupplierSiteLink(model_id);
@@ -4226,7 +4234,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             more:                   more,                                                           // contiene dei campi aggiuntivi (custom per ogni fornitore) esempio video, link a pdf, pagine html
             meta_title:             meta_title,
             meta_description:       meta_description,
-            order_available:        "2"                                                             // sempre disponibile all'ordine
+            order_available:        "2",                                                             // sempre disponibile all'ordine
+            model_variant :         model_variant,                                                   // serve solo per vistosi
         }
 }
 
@@ -5043,6 +5052,7 @@ function postProduci(json,fornitore){
         var registro_attributi_fatures = {};
         _.each(_.keys(registro),function(key){
             var model_info = {
+                model_variant : [],
                 color : [],
                 dimmer: [],
                 led : [],
@@ -5054,6 +5064,7 @@ function postProduci(json,fornitore){
             _.each(json,function(row){
                 
                 if(key == row.model){
+                    model_info.model_variant.push(row.model_variant);
                     model_info.color.push(row.color);
                     model_info.dimmer.push(row.dimmer);
                     model_info.led.push(row.led);
