@@ -177,7 +177,7 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                         let xls_varianti = json2xls(json_varianti, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "combination_images", "combination_images_alt"] });
                                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_varianti_'+random_number+'.xlsx', xls_varianti, 'binary');
                                                         
-                                                        var json_varianti_suddiviso = chunk(json_varianti,500);
+                                                        var json_varianti_suddiviso = chunk(json_varianti,300);
                                                         
                                                         _.each(json_varianti_suddiviso, function(pezzo,index){
                                                             let pezzo_xls_varianti = json2xls(pezzo, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "combination_images", "combination_images_alt"] });
@@ -1853,7 +1853,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 combination_images  = undefined;
                 combination_images_alt  = undefined;
 
-                title = raffinaTitle(title);
+                title = title;//raffinaTitle(title);    // raffina titolo sostituisce sp con sospensione lt con lettura e così via ma sul sito gli articoli li chiama proprio CLOTH SP GD1 quindi
+                                                        // lasciamo il title così com'è e mettiamo poi la categoria nel sub title
 
                 function raffinaTitle(title){
                     var ret = title;
@@ -2827,10 +2828,49 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             original_model_arr.push("M");
                         if( _.contains(original_model_arr,"PICCO"))
                             original_model_arr.push("P");
+
+                        if( _.contains(original_model_arr,"GRANDD1"))
+                            original_model_arr.push("GD1");
+                        if( _.contains(original_model_arr,"GRANDD2"))
+                            original_model_arr.push("GD2");
+                        if( _.contains(original_model_arr,"GRANDD3"))
+                            original_model_arr.push("GD3");
+                        if( _.contains(original_model_arr,"GRANDD4"))
+                            original_model_arr.push("GD4");
+                        if( _.contains(original_model_arr,"GRANDD5"))
+                            original_model_arr.push("GD5");    
+
+                        
+                        if( _.contains(original_model_arr,"MEDIAD1"))
+                            original_model_arr.push("MD1");
+                        if( _.contains(original_model_arr,"MEDIAD2"))
+                            original_model_arr.push("MD2");
+                        if( _.contains(original_model_arr,"MEDIAD3"))
+                            original_model_arr.push("MD3");
+                        if( _.contains(original_model_arr,"MEDIAD4"))
+                            original_model_arr.push("MD4");
+                        if( _.contains(original_model_arr,"MEDIAD5"))
+                            original_model_arr.push("MD5");    
+
+                        if( _.contains(original_model_arr,"PICCOD1"))
+                            original_model_arr.push("PD1");
+                        if( _.contains(original_model_arr,"PICCOD2"))
+                            original_model_arr.push("PD2");
+                        if( _.contains(original_model_arr,"PICCOD3"))
+                            original_model_arr.push("PD3");
+                        if( _.contains(original_model_arr,"PICCOD4"))
+                            original_model_arr.push("PD4");
+                        if( _.contains(original_model_arr,"PICCOD5"))
+                            original_model_arr.push("PD5");    
+
+
                         if( _.contains(original_model_arr,"DEST"))
                             original_model_arr.push("DX");
                         if( _.contains(original_model_arr,"SIN"))
                             original_model_arr.push("SX");
+
+
+                        /// casi specifici per specifici articoli
 
                         if(model == "DAMASCO" && arr_category[0] == "sospensione"){
                             if( contains(original_model_arr,"3") && contains(original_model_arr,"PICCO") )
@@ -2845,6 +2885,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 original_model_arr.push("5C");
                             if( contains(original_model_arr,"6") && contains(original_model_arr,"P") )
                                 original_model_arr.push("6P");
+                            
+                                /* regole messe a livello globale e non sullo specifico articolo
                             if( contains(original_model_arr,"MEDIAD1") )
                                 original_model_arr.push("MD1");
                             if( contains(original_model_arr,"MEDIAD2") )
@@ -2853,6 +2895,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 original_model_arr.push("GD1");
                             if( contains(original_model_arr,"GRANDD2") )
                                 original_model_arr.push("GD2");
+                                */
                         }
 
 
@@ -3035,7 +3078,17 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 original_model_arr.push("SIN");
                         }
 
-                        
+                        if(model == "ASSIBA" && arr_category[0] == "sospensione"){
+                            /* regole messe a livello globale e non sullo specifico articolo
+                            if( contains(original_model_arr,"GRANDD1") )
+                                original_model_arr.push("GD1");
+                            if( contains(original_model_arr,"GRANDD2") )
+                                original_model_arr.push("GD2");
+                            */
+                        }
+
+
+                       
 
                         if(model == "RINA" && arr_category[0] == "sospensione"){
                             if( contains(original_model_arr,"35/3") )
@@ -3063,10 +3116,12 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 original_model_arr.push("3P");
                             if( contains(original_model_arr,"5") && contains(original_model_arr,"PICCO") )
                                 original_model_arr.push("5P");
+                            /* regole messe a livello globale e non sullo specifico articolo
                             if( contains(original_model_arr,"GRANDD1") )
                                 original_model_arr.push("GD1");
                             if( contains(original_model_arr,"GRANDD2") )
                                 original_model_arr.push("GD2");
+                            */
                         }
 
                         if(model == "DIADEMA" && arr_category[0] == "sospensione"){
@@ -3912,12 +3967,18 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         
 
         function getFinalCategory(category, outdoor, component){
+            
+            // per flos category non è un'array ma un singolo valore
+            if(_.isString(category))
+                category = category.split(",");
+
             if(outdoor == 1)
                 category.push("outdoor");
             
             if(component == 1)
                 category.push("accessorio");
-
+            
+            
             return (_.isArray(category))? category.toString().toLowerCase() : (_.is(category))? category.toLowerCase() : "";
                 
         }
@@ -3942,16 +4003,16 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             color:                  (_.isArray(color))? color.toString().toLowerCase() : (_.is(color))? color.toLowerCase() : undefined,                // prova a recuperare il colore dall'id
             desc_it:                cleaned_desc_it,                                                // la descrizione in italiano
             desc_en:                cleaned_desc_en,                                                // la descrizione in inglese 
-            dimmer:                 (dimmer==0)? "no" : "yes",                                      // se ha il dimmer o meno
-            led:                    (led==0)? "no" : "yes",                                         // se ha il led o meno
-            halogen:                (halogen==0)? "no" : "yes",                                     // se ha lampada alogena
+            dimmer:                 (dimmer==0 || dimmer == undefined)? "no" : "yes",                                      // se ha il dimmer o meno
+            led:                    (led==0 || led == undefined)? "no" : "yes",                                         // se ha il led o meno
+            halogen:                (halogen==0 || halogen == undefined)? "no" : "yes",                                     // se ha lampada alogena
             screw:                  screw,                                                          // tipo di attacco
-            switcher:               (switcher==0)? "no" : "yes",                                    // se ha l'interruttore o meno
+            switcher:               (switcher==0 || switcher == undefined)? "no" : "yes",                                    // se ha l'interruttore o meno
             type:                   type,                                                           // tipo di lampada
             component:              component,                                                      // indica se è un componente di una lampada (serve per distinguere i pezzi di ricambio dalle lampade)
             component_of:           component_of,                                                   // se l'articolo è un componente ritorna il modello di cui è componente
             size:                   size,                                                           // piuccola, media, grande,....
-            outdoor:                (outdoor==0)? "no" : "yes",                                     // se è da esterno o meno
+            outdoor:                (outdoor==0 || outdoor == undefined)? "no" : "yes",                                     // se è da esterno o meno
             category:               getFinalCategory(category, outdoor, component),             // terra, tavolo, sospensione, soffitto, parete, montatura, kit, diffusore, set,
             wire_length:            wire_length,                                                    // se c'è dice quanto è lungo il cavo (in foscarini è una variante)
             max_discount:           max_discount * 100,                                             // massimo sconto applicabile espresso come frazione di uno viene qui moltiplicato per 100
@@ -4761,6 +4822,46 @@ function postProduci(json,fornitore){
         
 
         var json_prodotti = [];
+        // [1]
+        // creo hicid è l'id del articolo primario che viene messo a tutte le sue varianti
+        // l'articolo primario viene pompato in json_prodotti col price a zero
+        var registro = {};
+        
+        _.each(json, function(elem,index){
+            if( !_.is(registro[elem.model]) ){
+                registro[elem.model] = elem.hicId;
+                var new_elem = Object.assign({}, elem);
+                new_elem.price = 0;
+                json_prodotti.push(new_elem);
+            }
+            else{
+                elem.hicId = registro[elem.model];
+            }
+            
+        });
+
+
+        // aggiungo gli accessori di ogni articolo
+        _.each(json, function(elem){
+            if( elem.component == 1 ){
+                var cod_component = elem.hicId;
+                var cod_item = elem.component_of;
+
+                _.each(json, function(item, index){
+                    
+                    if(!_.is(item["accessories"]))
+                        item["accessories"] = "";
+                    
+                    if(item.model_id == cod_item ){
+                        //var new_accessories = item["accessories"] + cod_component+";";
+                        item["accessories"] += (item["accessories"] != "" )? "|"+cod_component : cod_component
+
+                    }
+                    
+                    
+                });
+            }
+        });
 
         
     }
