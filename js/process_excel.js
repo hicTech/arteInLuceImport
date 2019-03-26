@@ -164,7 +164,7 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_prodotti_'+random_number+'.xlsx', xls_prodotti, 'binary');
 
 
-                                                        var json_prodotti_suddiviso = chunk(json_prodotti,100);
+                                                        var json_prodotti_suddiviso = chunk(json_prodotti,90);
                                                         
                                                         _.each(json_prodotti_suddiviso, function(pezzo,index){
                                                             let pezzo_xls_prodotti = json2xls(pezzo, {fields: ["hicId", "supplier", "category", "title", "subtitle", "desc_it", "price", "quantity", "delivery_time", "delivery_time_if_not_available","sale", "max_discount", "ean13", "features", "accessories","meta_title","meta_description","order_available", "product_images","product_images_alt"] });
@@ -1867,7 +1867,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     var arr_ret = [];
 
                     if(_.isArray(projects))
-                        projects = projects.slice(0,12);
+                        projects = projects.slice(0,6);
 
                     // per gli accessori
                     if(component==1){
@@ -1945,6 +1945,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 
                         }
                     }
+                    
+                
                     
 
                     if(caso == "img"){
