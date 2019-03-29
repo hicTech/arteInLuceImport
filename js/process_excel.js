@@ -164,7 +164,7 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_prodotti_'+random_number+'.xlsx', xls_prodotti, 'binary');
 
 
-                                                        var json_prodotti_suddiviso = chunk(json_prodotti,90);
+                                                        var json_prodotti_suddiviso = chunk(json_prodotti,200);
                                                         
                                                         _.each(json_prodotti_suddiviso, function(pezzo,index){
                                                             let pezzo_xls_prodotti = json2xls(pezzo, {fields: ["hicId", "supplier", "category", "title", "subtitle", "desc_it", "price", "quantity", "delivery_time", "delivery_time_if_not_available","sale", "max_discount", "ean13", "features", "accessories","meta_title","meta_description","order_available", "product_images","product_images_alt"] });
@@ -174,13 +174,13 @@ fs.readdir(path, function(err, cartella_fornitore) {
 
 
 
-                                                        let xls_varianti = json2xls(json_varianti, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "combination_images", "combination_images_alt"] });
+                                                        let xls_varianti = json2xls(json_varianti, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "combination_images", "combination_images_alt","more"] });
                                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_varianti_'+random_number+'.xlsx', xls_varianti, 'binary');
                                                         
-                                                        var json_varianti_suddiviso = chunk(json_varianti,300);
+                                                        var json_varianti_suddiviso = chunk(json_varianti,200);
                                                         
                                                         _.each(json_varianti_suddiviso, function(pezzo,index){
-                                                            let pezzo_xls_varianti = json2xls(pezzo, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "combination_images", "combination_images_alt"] });
+                                                            let pezzo_xls_varianti = json2xls(pezzo, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "combination_images", "combination_images_alt","more"] });
                                                             fs.writeFileSync(path_cartella +"/result/"+cartella+'_varianti_'+random_number+'__'+index+'.xlsx', pezzo_xls_varianti, 'binary');
                                                         })
 
@@ -270,6 +270,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var product_images_alt  = undefined;
         var combination_images  = undefined;
         var combination_images_alt  = undefined;
+        
         
 
     
@@ -441,8 +442,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 
                 
                 more = JSON.stringify({
+                    supplier: "foscarini",
                     video : getVideo(model, category, component, createAllVideosArr(assets_json)),
                     link : getLink(model, category, component, createAllLinksArr(assets_json)),
+                    product_page_link: link,
                 });
                 projects = getProjects(model,category,assets_json);
                 all_images = undefined;
@@ -1826,7 +1829,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 pic = getPics(row["Descrizione"], model, category, type, assets_json,component, "primary");
                 light_schema = getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "light_schema");
                 title = _.capitalize( getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "title") );
-                subtitle = row["Descrizione"];
+                
+                subtitle = getSubtitle(title, category, component);
+                
                 
                 desc_it = getDescription( row["Descrizione"], model,clone,component,assets_json);
                 desc_en = desc_it;
@@ -1837,7 +1842,11 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 link = getSupplierSiteLink( row["Descrizione"], model,clone,component,assets_json );
 
                 //otherColors = getOtherPics(model, size, category, type, color, more);
-                more = { instruction : getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "download") }
+                more = { 
+                    supplier: "vistosi",
+                    instruction : getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "download"),
+                    product_page_link: link,
+                }
                 
 
                 // una volta calcolati tutti i dati siamo pronti per definire il model degli articoli e dei pazzi di ricambio
@@ -1860,14 +1869,22 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 model_variant = title;
                 title = model;
 
-
+                function getSubtitle(title, category, component){
+                    if(component == 1){
+                        return title+" - Vistosi - accessorio";
+                    }
+                    else{
+                        return _.capitalize(category)+ " - Vistosi ";
+                    }
+                    
+                }   
 
                 function getProductImages(pic, projects, otherColors, light_schema, component, caso){
 
                     var arr_ret = [];
 
                     if(_.isArray(projects))
-                        projects = projects.slice(0,6);
+                        projects = projects.slice(0,4);
 
                     // per gli accessori
                     if(component==1){
@@ -3860,7 +3877,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     size = undefined;
                     outdoor = (row["Descrizione articolo"].indexOf("OUT") != -1 )? 1: 0;
                     wire_length = undefined;
-                    more = getMore(model_id);
+                    
                     title = getTitle(model, component, component_of);
                     pic = ( _.is(getAsset(model_id)))? (_.is(getAsset(model_id).img)) ? getAsset(model_id).img : getAsset(model_id).image : undefined;
                     light_schema = getSchemaImages(model_id);
@@ -3869,6 +3886,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     otherColors = undefined;
                     projects = ( _.is(getAsset(model_id)) )? ( _.is( getAsset(model_id).other_images ) )? getAsset(model_id).other_images : undefined : undefined ;
                     link = getSupplierSiteLink(model_id);
+                    more = getMore(model_id,link);
 
                     meta_title = getMetaTitle(title, subtitle, category, component, max_discount);
                     meta_description = getMetaDescription(title, subtitle, category, component, max_discount);
@@ -4054,17 +4072,21 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         }
                     }
         
-                    function getMore(model_id){
+                    function getMore(model_id,link){
                         var more = undefined;
                         var asset = getAsset(model_id);
                         if ( _.is(asset) ){
                             if ( _.is( asset.more ) )
                                 more = asset.more
 
-                            if( _.is(asset.downloads))
+                            if( _.is(asset.downloads)){
                                 more["downloads"] = asset.downloads;
+                                more["product_page_link"] = link;
+                                more["supplier"] = "flos";
+                            }
+                                
                         }
-
+                        
                         return more;
                             
 
@@ -4084,7 +4106,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                     function getSubtitle(model, component, component_of, category){
                         if(component == 0)
-                            return category+" - Flos";
+                            return _.capitalize(category)+" - Flos";
                         else{
                             var asset = getAsset(component_of);
                             return "accessorio di "+ asset.model +" "+ asset.category+" - Flos";
@@ -4675,7 +4697,8 @@ function postProduci(json,fornitore){
                 }
                 else{ // caso di attributes
                     pos++;
-                    var singleton = elem[0] +" : "+ elem[1] +" : "+ pos+" | ";
+                    var etichetta = (etichetta=="color")? "colore" : "nome_attributo_non_trovato";
+                    var singleton = etichetta +" : "+ elem[1] +" : "+ pos+" | ";
                 }
                 
                 csv += (_.is(singleton))? singleton : "";
@@ -4999,8 +5022,11 @@ function postProduci(json,fornitore){
                     pos++;
                     var input_type = ( elem[_.keys(elem)[0]].length >= 3 )? "select" : "radio";
                         //input_type = (_.keys(elem)[0] == "color")? "select" : input_type; // per color forzo il select
-                    if( row.component == 0 || (row.component == 1 && _.keys(elem)[0]=="color") ) // per gli accessori metto solo il color
-                        var singleton = _.keys(elem)[0] +" : "+ input_type+" : "+ pos+" | ";
+                    if( row.component == 0 || (row.component == 1 && _.keys(elem)[0]=="color") ){ // per gli accessori metto solo il color
+                        var etichetta = _.keys(elem)[0];
+                        etichetta = (etichetta == "color")? "colore" : (etichetta == "dimmer") ? "dimmer" : (etichetta == "screw") ? "attacco" : (etichetta == "halogen") ? "alogena" : (etichetta == "led") ? "led" : (etichetta == "switcher") ? "interruttore" : "attributo_senza_nome";
+                        var singleton = etichetta +" : "+ input_type+" : "+ pos+" | ";
+                    }
                 }
                 
                 csv += (_.is(singleton))? singleton : "";
@@ -5196,8 +5222,11 @@ function postProduci(json,fornitore){
                     pos++;
                     var input_type = ( elem[_.keys(elem)[0]].length >= 3 )? "select" : "radio";
                         //input_type = (_.keys(elem)[0] == "color")? "select" : input_type; // per color forzo il select
-                    if( row.component == 0 || (row.component == 1 && _.keys(elem)[0]=="color") ) // per gli accessori metto solo il color
-                        var singleton = _.keys(elem)[0] +" : "+ input_type+" : "+ pos+" | ";
+                    if( row.component == 0 || (row.component == 1 && _.keys(elem)[0]=="color") ){ // per gli accessori metto solo il color
+                        var etichetta = _.keys(elem)[0];
+                        etichetta = (etichetta == "color")? "colore" : (etichetta == "model_variant") ? "variante" : (etichetta == "screw") ? "attacco" : (etichetta == "halogen") ? "alogena" : (etichetta == "led") ? "led" : "attributo_senza_nome";
+                        var singleton = etichetta +" : "+ input_type+" : "+ pos+" | ";
+                    }
                 }
                 
                 csv += (_.is(singleton))? singleton : "";
