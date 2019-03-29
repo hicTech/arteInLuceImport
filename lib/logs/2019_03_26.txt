@@ -9590,3 +9590,138 @@
 11:59:53: AUREA    SOSPE 11D2 BIANCO           CROMO  ALO - aurea - sospensione
 11:59:53: -----IMMAGINE NON TROVATA PER---------
 11:59:53: AUREA    SOSPE 24   BIANCO           CROMO  ALO - aurea - sospensione
+14:42:54: PROCESSO: ../xls/vistosi
+14:42:55: -----IMMAGINE NON TROVATA PER---------
+14:42:55: SEMAI    TAVOL      PICCO   BIANCO   LUCIDO  BIANCO E27 - semai - tavolo
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: ASSIBA   PLAFO 6   BIANCO           CROMO  E27 - assiba - soffitto
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: ASSIBA   PLAFO 6   CRISTALL         CROMO  E27 - assiba - soffitto
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: ASSIBA   PLAFO 6   MULTICOL         CROMO  E27 - assiba - soffitto
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: ASSIBA   PLAFO 6   BIANCO           CROMO  CA2 - assiba - soffitto
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: ASSIBA   PLAFO 6   CRISTALL         CROMO  CA2 - assiba - soffitto
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: ASSIBA   PLAFO 6   MULTICOL         CROMO  CA2 - assiba - soffitto
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: SEMAI    PLAFO      MEDIA   BIANCO   LUCIDO  BIANCO CA2 - semai - soffitto
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: SEMAI    PLAFO      PICCO   BIANCO   LUCIDO  BIANCO EA3 - semai - soffitto
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: SEMAI    PLAFO      MEDIA   BIANCO   LUCIDO  BIANCO E27 - semai - soffitto
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: SEMAI    PLAFO      PICCO   BIANCO   LUCIDO  BIANCO E27 - semai - soffitto
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: SEMAI    PL/AP      GRAND   BIANCO   LUCIDO  BIANCO FA3 - semai - soffitto,parete
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: SEMAI    PL/AP      GRAND   BIANCO   LUCIDO  BIANCO I13 - semai - soffitto,parete
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: SEMAI    PL/AP      GRAND   BIANCO   LUCIDO  BIANCO E27 - semai - soffitto,parete
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: 24PEARLS SOSPE   BIANCO   METALL. CROMO  G9 - 24pearls - sospensione
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: 24PEARLS SOSPE K3   BIANCO   METALL. CROMO  G9 - 24pearls - sospensione
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: 24PEARLS SOSPE K3   BIANCO   METALL. CROMO  LED - 24pearls - sospensione
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: 24PEARLS SOSPE   BIANCO   METALL. CROMO  LED - 24pearls - sospensione
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: AUREA    SOSPE 11D1 BIANCO           CROMO  ALO - aurea - sospensione
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: AUREA    SOSPE 11D2 BIANCO           CROMO  ALO - aurea - sospensione
+14:42:56: -----IMMAGINE NON TROVATA PER---------
+14:42:56: AUREA    SOSPE 24   BIANCO           CROMO  ALO - aurea - sospensione
+15:53:45: PROCESSO: ../xls/vistosi
+15:53:46: -----IMMAGINE NON TROVATA PER---------
+15:53:46: SEMAI    TAVOL      PICCO   BIANCO   LUCIDO  BIANCO E27 - semai - tavolo
+15:53:46: -----IMMAGINE NON TROVATA PER---------
+15:53:46: ASSIBA   PLAFO 6   BIANCO           CROMO  E27 - assiba - soffitto
+15:53:46: -----IMMAGINE NON TROVATA PER---------
+15:53:46: ASSIBA   PLAFO 6   CRISTALL         CROMO  E27 - assiba - soffitto
+15:53:46: -----IMMAGINE NON TROVATA PER---------
+15:53:46: ASSIBA   PLAFO 6   MULTICOL         CROMO  E27 - assiba - soffitto
+15:53:46: -----IMMAGINE NON TROVATA PER---------
+15:53:46: ASSIBA   PLAFO 6   BIANCO           CROMO  CA2 - assiba - soffitto
+15:53:46: -----IMMAGINE NON TROVATA PER---------
+15:53:46: ASSIBA   PLAFO 6   CRISTALL         CROMO  CA2 - assiba - soffitto
+15:53:46: -----IMMAGINE NON TROVATA PER---------
+15:53:46: ASSIBA   PLAFO 6   MULTICOL         CROMO  CA2 - assiba - soffitto
+15:53:47: -----IMMAGINE NON TROVATA PER---------
+15:53:47: SEMAI    PLAFO      MEDIA   BIANCO   LUCIDO  BIANCO CA2 - semai - soffitto
+15:53:47: -----IMMAGINE NON TROVATA PER---------
+15:53:47: SEMAI    PLAFO      PICCO   BIANCO   LUCIDO  BIANCO EA3 - semai - soffitto
+15:53:47: -----IMMAGINE NON TROVATA PER---------
+15:53:47: SEMAI    PLAFO      MEDIA   BIANCO   LUCIDO  BIANCO E27 - semai - soffitto
+15:53:47: -----IMMAGINE NON TROVATA PER---------
+15:53:47: SEMAI    PLAFO      PICCO   BIANCO   LUCIDO  BIANCO E27 - semai - soffitto
+15:53:47: -----IMMAGINE NON TROVATA PER---------
+15:53:47: SEMAI    PL/AP      GRAND   BIANCO   LUCIDO  BIANCO FA3 - semai - soffitto,parete
+15:53:47: -----IMMAGINE NON TROVATA PER---------
+15:53:47: SEMAI    PL/AP      GRAND   BIANCO   LUCIDO  BIANCO I13 - semai - soffitto,parete
+15:53:47: -----IMMAGINE NON TROVATA PER---------
+15:53:47: SEMAI    PL/AP      GRAND   BIANCO   LUCIDO  BIANCO E27 - semai - soffitto,parete
+15:53:47: -----IMMAGINE NON TROVATA PER---------
+15:53:47: 24PEARLS SOSPE   BIANCO   METALL. CROMO  G9 - 24pearls - sospensione
+15:53:47: -----IMMAGINE NON TROVATA PER---------
+15:53:47: 24PEARLS SOSPE K3   BIANCO   METALL. CROMO  G9 - 24pearls - sospensione
+15:53:47: -----IMMAGINE NON TROVATA PER---------
+15:53:47: 24PEARLS SOSPE K3   BIANCO   METALL. CROMO  LED - 24pearls - sospensione
+15:53:47: -----IMMAGINE NON TROVATA PER---------
+15:53:47: 24PEARLS SOSPE   BIANCO   METALL. CROMO  LED - 24pearls - sospensione
+15:53:47: -----IMMAGINE NON TROVATA PER---------
+15:53:47: AUREA    SOSPE 11D1 BIANCO           CROMO  ALO - aurea - sospensione
+15:53:47: -----IMMAGINE NON TROVATA PER---------
+15:53:47: AUREA    SOSPE 11D2 BIANCO           CROMO  ALO - aurea - sospensione
+15:53:47: -----IMMAGINE NON TROVATA PER---------
+15:53:47: AUREA    SOSPE 24   BIANCO           CROMO  ALO - aurea - sospensione
+15:54:17: PROCESSO: ../xls/vistosi
+15:54:18: -----IMMAGINE NON TROVATA PER---------
+15:54:18: SEMAI    TAVOL      PICCO   BIANCO   LUCIDO  BIANCO E27 - semai - tavolo
+15:54:18: -----IMMAGINE NON TROVATA PER---------
+15:54:18: ASSIBA   PLAFO 6   BIANCO           CROMO  E27 - assiba - soffitto
+15:54:18: -----IMMAGINE NON TROVATA PER---------
+15:54:18: ASSIBA   PLAFO 6   CRISTALL         CROMO  E27 - assiba - soffitto
+15:54:18: -----IMMAGINE NON TROVATA PER---------
+15:54:18: ASSIBA   PLAFO 6   MULTICOL         CROMO  E27 - assiba - soffitto
+15:54:18: -----IMMAGINE NON TROVATA PER---------
+15:54:18: ASSIBA   PLAFO 6   BIANCO           CROMO  CA2 - assiba - soffitto
+15:54:18: -----IMMAGINE NON TROVATA PER---------
+15:54:18: ASSIBA   PLAFO 6   CRISTALL         CROMO  CA2 - assiba - soffitto
+15:54:18: -----IMMAGINE NON TROVATA PER---------
+15:54:18: ASSIBA   PLAFO 6   MULTICOL         CROMO  CA2 - assiba - soffitto
+15:54:19: -----IMMAGINE NON TROVATA PER---------
+15:54:19: SEMAI    PLAFO      MEDIA   BIANCO   LUCIDO  BIANCO CA2 - semai - soffitto
+15:54:19: -----IMMAGINE NON TROVATA PER---------
+15:54:19: SEMAI    PLAFO      PICCO   BIANCO   LUCIDO  BIANCO EA3 - semai - soffitto
+15:54:19: -----IMMAGINE NON TROVATA PER---------
+15:54:19: SEMAI    PLAFO      MEDIA   BIANCO   LUCIDO  BIANCO E27 - semai - soffitto
+15:54:19: -----IMMAGINE NON TROVATA PER---------
+15:54:19: SEMAI    PLAFO      PICCO   BIANCO   LUCIDO  BIANCO E27 - semai - soffitto
+15:54:19: -----IMMAGINE NON TROVATA PER---------
+15:54:19: SEMAI    PL/AP      GRAND   BIANCO   LUCIDO  BIANCO FA3 - semai - soffitto,parete
+15:54:19: -----IMMAGINE NON TROVATA PER---------
+15:54:19: SEMAI    PL/AP      GRAND   BIANCO   LUCIDO  BIANCO I13 - semai - soffitto,parete
+15:54:19: -----IMMAGINE NON TROVATA PER---------
+15:54:19: SEMAI    PL/AP      GRAND   BIANCO   LUCIDO  BIANCO E27 - semai - soffitto,parete
+15:54:19: -----IMMAGINE NON TROVATA PER---------
+15:54:19: 24PEARLS SOSPE   BIANCO   METALL. CROMO  G9 - 24pearls - sospensione
+15:54:19: -----IMMAGINE NON TROVATA PER---------
+15:54:19: 24PEARLS SOSPE K3   BIANCO   METALL. CROMO  G9 - 24pearls - sospensione
+15:54:19: -----IMMAGINE NON TROVATA PER---------
+15:54:19: 24PEARLS SOSPE K3   BIANCO   METALL. CROMO  LED - 24pearls - sospensione
+15:54:19: -----IMMAGINE NON TROVATA PER---------
+15:54:19: 24PEARLS SOSPE   BIANCO   METALL. CROMO  LED - 24pearls - sospensione
+15:54:19: -----IMMAGINE NON TROVATA PER---------
+15:54:19: AUREA    SOSPE 11D1 BIANCO           CROMO  ALO - aurea - sospensione
+15:54:19: -----IMMAGINE NON TROVATA PER---------
+15:54:19: AUREA    SOSPE 11D2 BIANCO           CROMO  ALO - aurea - sospensione
+15:54:19: -----IMMAGINE NON TROVATA PER---------
+15:54:19: AUREA    SOSPE 24   BIANCO           CROMO  ALO - aurea - sospensione
+16:15:22: PROCESSO: ../xls/foscarini
+16:15:23: PROCESSO: ../xls/vistosi
+16:15:23: PROCESSO: ../xls/diesel
+16:15:23: PROCESSO: ../xls/flos
+16:15:31: PROCESSO: ../xls/flos
+16:15:48: PROCESSO: ../xls/foscarini
