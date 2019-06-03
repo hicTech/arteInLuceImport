@@ -80,18 +80,19 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                             json_fornitore = unique(json_fornitore, ['Codice Componente']);
                                         }
 
-                                        if(cartella == "vistosi"){
-                                            /*
-                                            _.log(json_fornitore.length)
+
+                                        // ho notato che l'excel originario di Panzeri aveva diversi articoli senza prezzo... li elimino
+                                        if(cartella == "panzeri"){
+                                            
+                                            //_.log(json_fornitore.length)
                                             
                                             json_fornitore = _.filter(json_fornitore,function(elem){
-                                                var prezzo = parseInt(S(elem.Prezzo.replace("Û ","").replace(",","")).between("",".").s)
-                                                return prezzo > 80
+                                                return elem.Prezzo != "";
                                             })
                                             
                                             //json_fornitore = unique(json_fornitore, ['Codice articolo']);
-                                            _.log(json_fornitore.length)
-                                            */
+                                            //_.log(json_fornitore.length)
+                                            
                                         }
 
 
@@ -4186,6 +4187,332 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     }
 
                 }
+
+                else{
+                /* ================================================================= PANZERI */
+                    if( fornitore == "panzeri"){
+
+                        var hasAsset = undefined;
+
+                        supplier = "panzeri";
+                        supplier_id = supplierId(supplier);
+                        original_model_id = row["Codart"];
+                        model_id = row["Codart"];
+
+
+
+
+                        
+
+
+
+
+
+                        component = (isComponent(model_id))? 1: 0; // recuperato dall'excel (row["Raggr. Commerciale"] == "SPAREPARTS")? 1: 0; // sono 525 "DECORATIVE" e 1084 SPAREPARTS              
+                        model = getModelName(model_id);
+                        item_id = original_model_id;
+                        hicId = getHicId(supplier_id, item_id);
+                        ean13 = undefined;
+                        max_discount = 0;
+                        sale = 1;
+                        price = getPrice(row["Prezzo"], max_discount);
+                        quantity = 0;
+                        delivery_time = "2-3 gg Italy, 5-6 days UE";
+                        delivery_time_if_not_available = "Su ordinazione in 2-3 settimane";
+                        
+
+                        color = getColor(model_id);
+                        desc_it = undefined;
+                        desc_en = undefined;
+                        cleaned_desc_it = getDesc(component,getAsset(model_id));
+                        cleaned_desc_en = cleaned_desc_it;
+                        dimmer = 0; //(row["Descrizione articolo"].indexOf("DIMM") != -1 )? 1: 0;
+                        led = 0; //(row["Descrizione articolo"].indexOf("LED") != -1 || row["Descrizione articolo"].toLowerCase().indexOf(" led") != -1 )? 1: 0;
+                        halogen = undefined;
+                        screw = undefined;
+                        switcher = undefined;
+                        category = ( _.is(getAsset(model_id)) )? (!isComponent(model_id))?  getAsset(model_id).category : getFatherAsset(model_id).category : undefined;
+                    
+                        type = undefined;       // è un valore unico ovvero una stringa
+
+                        
+                        component_of = ( isComponent(model_id) ) ? getAsset(model_id).component_of : undefined;
+                        size = undefined;
+                        outdoor = 0; //(row["Descrizione articolo"].indexOf("OUT") != -1 )? 1: 0;
+                        wire_length = undefined;
+                        
+                        title = "titolo da definire";//getTitle(model, component, component_of);
+                        pic = ( _.is(getAsset(model_id)))? (_.is(getAsset(model_id).img)) ? getAsset(model_id).img : getAsset(model_id).image : undefined;
+                        light_schema = getSchemaImages(model_id);
+                        subtitle = getSubtitle(model, component, component_of, category);
+                        model_variant = undefined;
+                        otherColors = undefined;
+                        projects = ( _.is(getAsset(model_id)) )? ( _.is( getAsset(model_id).other_images ) )? getAsset(model_id).other_images : undefined : undefined ;
+                        link = getSupplierSiteLink(model_id);
+                        more = getMore(model_id,link);
+
+                        meta_title = getMetaTitle(title, subtitle, category, component, max_discount);
+                        meta_description = getMetaDescription(title, subtitle, category, component, max_discount);
+
+                        all_images = getAllImages(pic,light_schema,projects);
+                        all_images_alt = getAllImagesAlt(pic,light_schema,projects);
+
+                        
+
+                        product_images =        "vuota";
+                        product_images_alt =    "vuota";
+                        
+                        combination_images =         "vuota";
+                        combination_images_alt =     "vuota";
+
+                        
+
+
+                        
+
+                        function getModelName(model_id){
+                            var asset = getAsset(model_id);
+                            if( _.is(asset))
+                                return asset.fullname || asset.model;
+                        }
+
+                        function getPrice(price, max_discount){
+                            var price = parseFloat(price.replace("€ ","").replace(",","")).toFixed(2);
+                            return parseFloat( price* (1 - max_discount) ).toFixed(2);
+                        }
+
+                        function getColor(model_id){
+                            var asset = getAsset(model_id);
+                            if(_.is(asset))
+                                if(_.is(asset.color))
+                                    return asset.color.replace("colour_","");
+                            
+                                
+                        }
+
+                        function getDesc(component,asset){
+                            if(component == 0 && _.is(asset))
+                                return asset.desc;
+                        }
+
+                        function isComponent(model_id){
+                            var asset = getAsset(model_id);
+                            if( _.is(asset) )
+                                return _.is(asset.fullname) == true;
+                            else
+                                return false;
+                        }
+
+                        
+
+                        // dato un id articolo ritorna l'oggetto asset di asset_json
+                        // se è undefined vuol dire che non l'ha trovato
+                        // se ciò che torna ha "category" si tratta di un articolo vero e proprio
+                        // altrimenti si tratta di un pezzo di ricambio
+                        function getAsset(id){
+                            
+                            var ret = undefined;
+                            _.each(assets_json,function(asset){
+                                if(!_.is(ret)){
+                                    if(asset.code == id){
+                                        ret = asset;
+                                    }
+                                    else{
+                                        _.each(asset.accessories,function(accessory){
+                                            if(accessory.id == id){
+                                                ret = accessory;
+                                            }
+                                                
+                                        })
+                                    }
+                                }
+                            });
+
+                            return ret;
+                        }
+
+                        function getSchemaImages(mode_id){
+                            var ret = [];
+                            var asset = getAsset(mode_id)
+                            if( _.is(asset)){
+                                if( _.is(asset.size_image) )
+                                    ret.push( asset.size_image );
+                                if( _.is(asset.summary_media) ){
+                                    _.each(asset.summary_media,function(elem){
+                                        ret.push(elem);
+                                    })
+                                }
+                            }
+
+                            return ret;   
+                        }
+
+                        function getFatherAsset(accessory_id){
+                            if(!isComponent(accessory_id))
+                                return undefined;
+                            else{
+                                var ret = undefined;
+
+                                _.each(assets_json,function(asset){
+                                    _.each(asset.accessories,function(accessory){
+                                        if(accessory.id == accessory_id && !_.is(ret)){
+                                            ret = asset;
+                                        }
+                                    });
+                                });
+
+                                return ret;
+                            }
+                        }
+            
+                        function getMore(model_id,link){
+                            var more = undefined;
+                            var asset = getAsset(model_id);
+                            if ( _.is(asset) ){
+                                if ( _.is( asset.more ) )
+                                    more = asset.more
+
+                                if( _.is(asset.downloads)){
+                                    more["downloads"] = asset.downloads;
+                                    more["product_page_link"] = link;
+                                    more["supplier"] = "panzeri";
+                                }
+                                    
+                            }
+                            
+                            return more;
+                                
+
+                        }
+
+                        // ritorna il link alla pagine dell'articolo sul sito del fornitore
+                        function getSupplierSiteLink(model_id){
+                            var asset = getAsset(model_id);
+                            if(_.is(asset))
+                                if(_.is(asset.uri))
+                                    return asset.uri;
+                        }
+
+                        function getTitle(model, component, component_of){
+                            return model;
+                        }
+
+                        function getSubtitle(model, component, component_of, category){
+                            if(component == 0)
+                                return _.capitalize(category)+" - Panzeri";
+                            else{
+                                var asset = getAsset(component_of);
+                                return "accessorio di "+ asset.model +" "+ asset.category+" - Panzeri";
+                            }
+                        }
+
+                        
+
+
+                        function getMetaTitle(title, subtitle, category, component, max_discount){
+                            if(component == 0){
+                                var ret = "Lampada da "+category+": "+title.toUpperCase()+" Panzeri by ArteInLuce™";
+                                if(ret.length > 60)
+                                    ret = "Lampada "+category+": "+title.toUpperCase()+" Panzeri by ArteInLuce™";
+                                if(ret.length > 60)
+                                    ret = "Lampada "+category+": "+title.toUpperCase()+" Panzeri ArteInLuce™";
+                            
+                            }
+                            if(component == 1){
+                                var ret = title +" Panzeri by ArteInLuce™";
+                                if(ret.length > 60)
+                                    ret = title +" Panzeri ArteInLuce™";
+                                if(ret.length > 60)
+                                    ret = ret.replace("per ","");
+                            }
+
+                            return ret;
+                        }
+
+                        function getMetaDescription(title, subtitle, category, component, max_discount){
+                            if(component == 0){
+                                var category = (_.is(category))? category.toUpperCase() : "";
+                                var ret = title.toUpperCase()+" Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da "+category+" in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
+                                
+                            }
+                            if(component == 1){
+                                var ret = title.toUpperCase()+" Panzeri: centinaia di altre lampade da "+category+" e relativi accessori in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
+                            }
+                            
+                            
+                            return ret;
+                        }
+
+
+                        function getAllImages(pic,light_schema,projects){
+                            //var ret_arr = [pic];
+                            var ret_arr = [];
+                            if(_.isArray(light_schema)){
+                                ret_arr = ret_arr.concat(light_schema);
+                            }
+                            if(_.isArray(projects)){
+                                ret_arr = ret_arr.concat(projects);
+                            }
+                            
+                            if(_.isArray(ret_arr))
+                                return S(ret_arr.toString()).replaceAll(",","|").s;
+                            
+                        }
+
+                        function getAllImagesAlt(pic,light_schema,projects){
+                            
+                            var all_images_alt = [];
+                            // var all_images_alt = (pic.length != 0)? ["pic"] : [];
+                            if(_.isArray(light_schema)){
+                                _.each(light_schema,function(){
+                                    all_images_alt.push("light_schema");
+                                })
+                            }
+
+                            if(_.isArray(projects)){
+                                _.each(projects,function(){
+                                    all_images_alt.push("projects");
+                                })
+                            }
+
+                            return S(all_images_alt.toString()).replaceAll(",","|").s
+                        }
+
+
+                        
+
+                    }
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
             }
 
 
@@ -5240,6 +5567,169 @@ function postProduci(json,fornitore){
     }
 
     
+
+    if(fornitore=="panzeri"){
+        
+
+        var json_prodotti = [];
+        // [1]
+        // creo hicid è l'id del articolo primario che viene messo a tutte le sue varianti
+        // l'articolo primario viene pompato in json_prodotti col price a zero
+        var registro = {};
+        
+        _.each(json, function(elem,index){
+            if( !_.is(registro[elem.model]) ){
+                registro[elem.model] = elem.hicId;
+                var new_elem = Object.assign({}, elem);
+                new_elem.price = 0;
+                json_prodotti.push(new_elem);
+            }
+            else{
+                elem.hicId = registro[elem.model];
+            }
+            
+        })
+
+
+        // aggiungo gli accessori di ogni articolo
+        _.each(json, function(elem){
+            if( elem.component == 1 ){
+                var cod_component = elem.hicId;
+                var cod_item = elem.component_of;
+
+                _.each(json, function(item, index){
+                    
+                    if(!_.is(item["accessories"]))
+                        item["accessories"] = "";
+                    
+                    if(item.model_id == cod_item ){
+                        //var new_accessories = item["accessories"] + cod_component+";";
+                        item["accessories"] += (item["accessories"] != "" )? "|"+cod_component : cod_component
+
+                    }
+                    
+                    
+                });
+            }
+        });
+
+
+
+        
+        _.each(json, function(elem){
+            // aggiungo le features che sono le proprietà statiche dell'articolo
+            elem["features"] = inlineCSVFeaturesFlos(elem,["category","outdoor"])
+
+            // aggiungo attributi e valori
+            elem["attributes"] = inlineCSVFlos(elem,[["color","select"]])
+            elem["values"] = inlineCSVFlos(elem,["color"],"values")
+        });
+
+
+        function inlineCSVFeaturesFlos(obj,arr){
+            let csv = "";
+            let pos = 0;
+            _.each(arr,function(elem){
+
+                if( _.is(obj[elem]) ){
+                    var singleton = elem +" : "+ obj[elem] +" : "+ pos+":1 | ";
+                    pos++;
+                }
+                            
+                csv += (_.is(singleton))? singleton : "";
+            });
+
+            //  alle features aggiungo i dati presenti in more (more c'è solo negli articoli componento == 0)
+            if(obj.component == 0){
+                _.each(obj.more, function(feature, key){
+                    var cleaned_feature = cleanedFeature(feature);
+
+                    if(_.is(cleaned_feature)){
+                        //if(key!="descrizione_tecnica"){
+                            csv += key +' : '+ cleaned_feature +' : '+ pos +':1 | ';
+                            pos++;
+                        //}
+                        
+                    } 
+                    //var cleaned_feature = "'"+ feature.replace("<p>","").replace("</p>","") + "'";
+
+                })
+                /*
+                csv += "codice fornitore :"         +"'"+ obj.more.codice_articolo +"'"+" : "+              parseInt(pos)+" , ";
+                csv += "ambiente :"                 +"'"+ obj.more.ambiente +"'"+" : "+                     parseInt(pos+1)+" , ";
+                csv += "finitura :"                 +"'"+ obj.more.finitura +"'"+" : "+                     parseInt(pos+2)+" , ";
+                csv += "peso :"                     +"'"+ obj.more.peso +"'"+" : "+                         parseInt(pos+3)+" , ";
+                csv += "descrizione tecnica :"      +"'"+ obj.more.descrizione_tecnica +"'"+" : "+          parseInt(pos+4)+" , ";
+                csv += "emergenza :"                +"'"+ obj.more.emergenza +"'"+" : "+                    parseInt(pos+5)+" , ";
+                csv += "regolazione :"              +"'"+ obj.more.regolazione +"'"+" : "+                  parseInt(pos+6)+" , ";
+                csv += "voltaggio :"                +"'"+ obj.more.voltaggio +"'"+" : "+                    parseInt(pos+7)+" , ";
+                csv += "potenza :"                  +"'"+ obj.more.potenza +"'"+" : "+                      parseInt(pos+8)+" , ";
+                csv += "batteria :"                 +"'"+ obj.more.batteria +"'"+" : "+                     parseInt(pos+9)+" , ";
+                csv += "alimentatore incluso :"     +"'"+ obj.more.alimentatore_incluso +"'"+" : "+         parseInt(pos+10)+" , ";
+                csv += "lunghezza cavo (mm) :"      +"'"+ obj.more['lunghezza_del_cavo_(mm)'] +"'"+" : "+   parseInt(pos+11)+" , ";
+                csv += "materiale :"                +"'"+ obj.more.materiale_di_costruzione +"'"+" : "+     parseInt(pos+12)+" , ";
+                */
+            }
+           
+            
+            // tolgo l'ultima virgola
+            return csv.substring(0, csv.length - 3);
+        }
+
+        function inlineCSVFlos(obj,arr, caso){
+            
+            let pos = 0;
+            if(!_.is(caso)){ // caso dei attributes
+                var csv = "stato : select : 0 | ";                
+            }
+            else{ // caso di values
+                var csv = "nuovo : 0 | ";
+            }
+            _.each(arr,function(elem){
+
+                if(_.is(caso)){ // caso dei values
+                    if( _.is(obj[elem]) ){
+                        pos++;
+                        var singleton = obj[elem] +" : "+ pos +" | ";
+                    }
+                }
+                else{ // caso di attributes
+                    pos++;
+                    var etichetta = (etichetta=="color")? "colore" : "nome_attributo_non_trovato";
+                    var singleton = etichetta +" : "+ elem[1] +" : "+ pos+" | ";
+                }
+                
+                csv += (_.is(singleton))? singleton : "";
+            });
+
+            // tolgo l'ultimo punto e virgola
+            return csv.substring(0, csv.length - 3);
+        }
+        
+        // in component_of invece del code metto hicId
+        _.each(json, function(elem, index){
+            var cod = elem.component_of;
+            _.each(json, function(elem2){
+                if( elem2.model_id == cod)
+                   json[index].component_of = elem2.hicId;
+            })
+        })
+
+        // ad ogni accessorio aggiungo l'hicId degli articoli di cui è accessorio
+        var registro_component_hicId = {};
+        _.each(json, function(elem){
+            if( elem.component == 1 ){
+                var component_of_hicId = elem.component_of;
+                elem.accessories = component_of_hicId;
+            }
+        });
+        
+
+        
+        
+       
+    }
+
 
     
 
