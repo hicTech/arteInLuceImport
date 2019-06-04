@@ -1,4 +1,20 @@
-[
+var _ = require("../../lib/_node.js");
+var S = require('string');
+var request = require("request");
+var fs = require('fs');
+const puppeteer = require('puppeteer');
+
+var jsdom = require("jsdom");
+const { JSDOM } = jsdom;
+const { window } = new JSDOM();
+const { document } = (new JSDOM('')).window;
+global.document = document;
+
+var $ = jQuery = require('jquery')(window);
+
+
+// questo è l'array di tutti gli oggetti pagina devi copiarlo/incollarlo da assets_json.json
+var single_pages = [
 
     {
         "uri": "http://www.panzeri.it/prodotti/design/indoor/agave/",
@@ -1964,3 +1980,115 @@
         ]
     }
 ]
+
+
+var single_pages = [
+           {
+        "uri": "http://www.panzeri.it/prodotti/design/indoor/agave/",
+        "model": "AGAVE",
+        "projects": [
+            "http://www.panzeri.it//media/FFS/Agave.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-3.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-4.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-8.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-9.jpg"
+        ],
+        "link_varianti": [
+            "http://www.panzeri.it/prodotti/design/indoor/agave/l03001.050.0000/",
+            "http://www.panzeri.it/prodotti/design/indoor/agave/l03001.070.0000/",
+            "http://www.panzeri.it/prodotti/design/indoor/agave/l03001.090.0000/",
+            "http://www.panzeri.it/prodotti/design/indoor/agave/p03001.050.0000/"
+        ]
+    }
+]
+
+
+
+
+var arr_singole_pagine = [];
+
+_.each(single_pages,function(elem){
+    _.each(elem.link_varianti,function(item){
+        arr_singole_pagine.push({
+            family_uri: elem.uri,
+            model: elem.model,
+            projects: elem.projects,
+            single_variant : item,
+        })
+    })
+})
+
+//_.log(_.toStr(arr_singole_pagine))
+
+
+
+var pages_number = arr_singole_pagine.length; 
+
+
+
+var info = [];
+
+var index = 0;
+
+
+
+avvia(index);
+
+function avvia(index){
+
+    if(index == pages_number ){
+        fs.writeFile('assets_json_finale.json', JSON.stringify(info, null, 4), 'utf8', function(){
+            _.log("FINITO");
+        });
+        return true;
+    }
+    else{
+        var uri = arr_singole_pagine[index].single_variant;
+        _.log("processo: "+uri+" mancano: "+parseInt(pages_number-1-index))
+        
+        request({
+            uri: encodeURI(uri),
+        }, function(error, response, body) {
+            createJsonFromAPage(body, uri, arr_singole_pagine[index]);
+        });
+
+    }
+}
+
+
+
+
+
+
+
+var arr_single_product = [];
+
+function createJsonFromAPage(body, uri, single_page_obj){
+
+    var $body = $(body);
+    var title = $body.find("h1").eq(0).html();
+    var model = S(title).between(""," -").s;
+    var id = S(title).between("- ").s.trim();
+    var primary_pic = $body.find(".c5").find("img").eq(0).attr("src");
+    var light_schema = $body.find(".c5").find(".configuratore").find("img").eq(0).attr("src");
+    
+    info.push({
+        family_uri: single_page_obj.family_uri,
+        model: single_page_obj.model,
+        projects: single_page_obj.projects,
+        id: id,
+        model_from_site : model,
+        primary_pic : "http://www.panzeri.it"+primary_pic,
+        light_schema : "http://www.panzeri.it"+light_schema,
+    })
+
+
+
+    index++;
+    avvia(index);
+    
+
+}
+
+
+

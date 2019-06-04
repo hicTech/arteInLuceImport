@@ -1,0 +1,204 @@
+19:56:55: [object Object],[object Object],[object Object],[object Object]
+19:57:06: undefined
+19:57:15: [
+  {
+    "family_uri": "http://www.panzeri.it/prodotti/design/indoor/agave/",
+    "model": "AGAVE",
+    "projects": [
+      "http://www.panzeri.it//media/FFS/Agave.jpg",
+      "http://www.panzeri.it//media/FFS/Agave-3.jpg",
+      "http://www.panzeri.it//media/FFS/Agave-4.jpg",
+      "http://www.panzeri.it//media/FFS/Agave-8.jpg",
+      "http://www.panzeri.it//media/FFS/Agave-9.jpg"
+    ],
+    "single_variant": "http://www.panzeri.it/prodotti/design/indoor/agave/l03001.050.0000/"
+  },
+  {
+    "family_uri": "http://www.panzeri.it/prodotti/design/indoor/agave/",
+    "model": "AGAVE",
+    "projects": [
+      "http://www.panzeri.it//media/FFS/Agave.jpg",
+      "http://www.panzeri.it//media/FFS/Agave-3.jpg",
+      "http://www.panzeri.it//media/FFS/Agave-4.jpg",
+      "http://www.panzeri.it//media/FFS/Agave-8.jpg",
+      "http://www.panzeri.it//media/FFS/Agave-9.jpg"
+    ],
+    "single_variant": "http://www.panzeri.it/prodotti/design/indoor/agave/l03001.070.0000/"
+  },
+  {
+    "family_uri": "http://www.panzeri.it/prodotti/design/indoor/agave/",
+    "model": "AGAVE",
+    "projects": [
+      "http://www.panzeri.it//media/FFS/Agave.jpg",
+      "http://www.panzeri.it//media/FFS/Agave-3.jpg",
+      "http://www.panzeri.it//media/FFS/Agave-4.jpg",
+      "http://www.panzeri.it//media/FFS/Agave-8.jpg",
+      "http://www.panzeri.it//media/FFS/Agave-9.jpg"
+    ],
+    "single_variant": "http://www.panzeri.it/prodotti/design/indoor/agave/l03001.090.0000/"
+  },
+  {
+    "family_uri": "http://www.panzeri.it/prodotti/design/indoor/agave/",
+    "model": "AGAVE",
+    "projects": [
+      "http://www.panzeri.it//media/FFS/Agave.jpg",
+      "http://www.panzeri.it//media/FFS/Agave-3.jpg",
+      "http://www.panzeri.it//media/FFS/Agave-4.jpg",
+      "http://www.panzeri.it//media/FFS/Agave-8.jpg",
+      "http://www.panzeri.it//media/FFS/Agave-9.jpg"
+    ],
+    "single_variant": "http://www.panzeri.it/prodotti/design/indoor/agave/p03001.050.0000/"
+  }
+]
+19:58:29: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.050.0000/ mancano: 3
+19:58:31: L03001.050.0000
+19:58:57: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.050.0000/ mancano: 3
+19:58:59: L03001.050.0000
+19:58:59: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.070.0000/ mancano: 2
+19:59:00: L03001.070.0000
+19:59:00: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.090.0000/ mancano: 1
+19:59:02: L03001.090.0000
+19:59:02: processo: http://www.panzeri.it/prodotti/design/indoor/agave/p03001.050.0000/ mancano: 0
+19:59:03: P03001.050.0000
+19:59:03: FINITO
+20:01:52: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.050.0000/ mancano: 3
+20:01:54: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.070.0000/ mancano: 2
+20:01:55: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.090.0000/ mancano: 1
+20:01:57: processo: http://www.panzeri.it/prodotti/design/indoor/agave/p03001.050.0000/ mancano: 0
+20:01:58: FINITO
+20:03:01: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.050.0000/ mancano: 3
+20:03:03: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.070.0000/ mancano: 2
+20:03:04: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.090.0000/ mancano: 1
+20:03:05: processo: http://www.panzeri.it/prodotti/design/indoor/agave/p03001.050.0000/ mancano: 0
+20:03:07: FINITO
+20:03:28: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.050.0000/ mancano: 3
+20:03:29: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.070.0000/ mancano: 2
+20:03:31: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.090.0000/ mancano: 1
+20:03:32: processo: http://www.panzeri.it/prodotti/design/indoor/agave/p03001.050.0000/ mancano: 0
+20:03:34: FINITO
+20:04:40: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.050.0000/ mancano: 3
+20:04:42: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.070.0000/ mancano: 2
+20:04:43: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.090.0000/ mancano: 1
+20:04:45: processo: http://www.panzeri.it/prodotti/design/indoor/agave/p03001.050.0000/ mancano: 0
+20:04:46: FINITO
+20:06:17: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.050.0000/ mancano: 3
+20:06:18: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.070.0000/ mancano: 2
+20:06:20: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.090.0000/ mancano: 1
+20:06:21: processo: http://www.panzeri.it/prodotti/design/indoor/agave/p03001.050.0000/ mancano: 0
+20:06:22: FINITO
+20:07:49: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.050.0000/ mancano: 3
+20:07:51: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.070.0000/ mancano: 2
+20:07:52: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.090.0000/ mancano: 1
+20:07:54: processo: http://www.panzeri.it/prodotti/design/indoor/agave/p03001.050.0000/ mancano: 0
+20:07:55: FINITO
+20:08:25: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.050.0000/ mancano: 799
+20:08:26: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.070.0000/ mancano: 798
+20:08:28: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.090.0000/ mancano: 797
+20:08:29: processo: http://www.panzeri.it/prodotti/design/indoor/agave/p03001.050.0000/ mancano: 796
+20:08:30: processo: http://www.panzeri.it/prodotti/design/indoor/aldecimo/x02201.030.0112/ mancano: 795
+20:08:32: processo: http://www.panzeri.it/prodotti/design/indoor/app/a09801.001.0106/ mancano: 794
+20:08:33: processo: http://www.panzeri.it/prodotti/design/indoor/app/a09819.001.0106/ mancano: 793
+20:08:37: processo: http://www.panzeri.it/prodotti/design/indoor/app/a09830.001.0106/ mancano: 792
+20:08:40: processo: http://www.panzeri.it/prodotti/design/indoor/app/a09801.002.0106/ mancano: 791
+20:08:43: processo: http://www.panzeri.it/prodotti/design/indoor/app/a09819.002.0106/ mancano: 790
+20:08:47: processo: http://www.panzeri.it/prodotti/design/indoor/app/a09830.002.0106/ mancano: 789
+20:09:21: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.050.0000/ mancano: 103
+20:09:22: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.070.0000/ mancano: 102
+20:09:23: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.090.0000/ mancano: 101
+20:09:25: processo: http://www.panzeri.it/prodotti/design/indoor/agave/p03001.050.0000/ mancano: 100
+20:09:26: processo: http://www.panzeri.it/prodotti/design/indoor/aldecimo/x02201.030.0112/ mancano: 99
+20:09:27: processo: http://www.panzeri.it/prodotti/design/indoor/app/a09801.001.0106/ mancano: 98
+20:09:29: processo: http://www.panzeri.it/prodotti/design/indoor/app/a09819.001.0106/ mancano: 97
+20:09:30: processo: http://www.panzeri.it/prodotti/design/indoor/app/a09830.001.0106/ mancano: 96
+20:09:31: processo: http://www.panzeri.it/prodotti/design/indoor/app/a09801.002.0106/ mancano: 95
+20:09:33: processo: http://www.panzeri.it/prodotti/design/indoor/app/a09819.002.0106/ mancano: 94
+20:09:34: processo: http://www.panzeri.it/prodotti/design/indoor/app/a09830.002.0106/ mancano: 93
+20:09:35: processo: http://www.panzeri.it/prodotti/design/indoor/blanca/l05710.090.0102/ mancano: 92
+20:09:38: processo: http://www.panzeri.it/prodotti/design/indoor/blanca/l05744.090.0102/ mancano: 91
+20:09:43: processo: http://www.panzeri.it/prodotti/design/indoor/blanca/l05710.060.0102/ mancano: 90
+20:09:47: processo: http://www.panzeri.it/prodotti/design/indoor/blanca/l05744.060.0102/ mancano: 89
+20:09:50: processo: http://www.panzeri.it/prodotti/design/indoor/brooklyn%20line/l23301.100.0101/ mancano: 88
+20:09:53: processo: http://www.panzeri.it/prodotti/design/indoor/brooklyn%20line/l23302.100.0101/ mancano: 87
+20:09:57: processo: http://www.panzeri.it/prodotti/design/indoor/brooklyn%20line/l23301.150.0101/ mancano: 86
+20:10:00: processo: http://www.panzeri.it/prodotti/design/indoor/brooklyn%20line/l23302.150.0101/ mancano: 85
+20:10:03: processo: http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23201.360.0102/ mancano: 84
+20:10:06: processo: http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23202.360.0102/ mancano: 83
+20:10:11: processo: http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23219.360.0102/ mancano: 82
+20:10:14: processo: http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23101.180.0102/ mancano: 81
+20:10:15: processo: http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23102.180.0102/ mancano: 80
+20:10:19: processo: http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23119.180.0102/ mancano: 79
+20:10:22: processo: http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23101.360.0102/ mancano: 78
+20:10:25: processo: http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23102.360.0102/ mancano: 77
+20:10:29: processo: http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23119.360.0102/ mancano: 76
+20:10:33: processo: http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23201.180.0102/ mancano: 75
+20:10:41: processo: http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23202.180.0102/ mancano: 74
+20:10:44: processo: http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23219.180.0102/ mancano: 73
+20:10:48: processo: http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23201.360.0102/ mancano: 72
+20:10:51: processo: http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23202.360.0102/ mancano: 71
+20:10:54: processo: http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23219.360.0102/ mancano: 70
+20:11:51: processo: http://www.panzeri.it/prodotti/design/indoor/clio/l09451.000.0200/ mancano: 39
+20:11:54: processo: http://www.panzeri.it/prodotti/design/indoor/clio/l09452.000.0200/ mancano: 38
+20:12:05: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04901.030.0101/ mancano: 11
+20:12:09: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04919.030.0101/ mancano: 10
+20:12:12: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04921.030.0101/ mancano: 9
+20:12:15: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04901.030.0102/ mancano: 8
+20:12:18: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04919.030.0102/ mancano: 7
+20:12:21: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04921.030.0102/ mancano: 6
+20:12:24: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04901.060.0101/ mancano: 5
+20:12:27: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04919.060.0101/ mancano: 4
+20:12:30: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04921.060.0101/ mancano: 3
+20:12:33: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04901.060.0102/ mancano: 2
+20:12:37: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04919.060.0102/ mancano: 1
+20:12:40: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04921.060.0102/ mancano: 0
+20:12:44: FINITO
+20:13:51: processo: http://www.panzeri.it/prodotti/design/indoor/clio/l09451.000.0200/ mancano: 39
+20:13:52: processo: http://www.panzeri.it/prodotti/design/indoor/clio/l09452.000.0200/ mancano: 38
+20:13:54: processo: http://www.panzeri.it/prodotti/design/indoor/clio/l09453.000.0200/ mancano: 37
+20:13:57: processo: http://www.panzeri.it/prodotti/design/indoor/clio/l09454.000.0200/ mancano: 36
+20:14:01: processo: http://www.panzeri.it/prodotti/design/indoor/clio/l09455.000.0200/ mancano: 35
+20:14:04: processo: http://www.panzeri.it/prodotti/design/indoor/clio/l09456.000.0200/ mancano: 34
+20:14:07: processo: http://www.panzeri.it/prodotti/design/indoor/clio/l09457.000.0200/ mancano: 33
+20:14:10: processo: http://www.panzeri.it/prodotti/design/indoor/clio/l09471.000.0200/ mancano: 32
+20:14:13: processo: http://www.panzeri.it/prodotti/design/indoor/clio/l09472.000.0200/ mancano: 31
+20:14:16: processo: http://www.panzeri.it/prodotti/design/indoor/clio/l09473.000.0200/ mancano: 30
+20:14:19: processo: http://www.panzeri.it/prodotti/design/indoor/clio/l09474.000.0200/ mancano: 29
+20:14:22: processo: http://www.panzeri.it/prodotti/design/indoor/clio/l09475.000.0200/ mancano: 28
+20:14:26: processo: http://www.panzeri.it/prodotti/design/indoor/clio/l09476.000.0200/ mancano: 27
+20:14:29: processo: http://www.panzeri.it/prodotti/design/indoor/clio/l09477.000.0200/ mancano: 26
+20:14:33: processo: http://www.panzeri.it/prodotti/design/indoor/clio/m09451.000.0200/ mancano: 25
+20:14:36: processo: http://www.panzeri.it/prodotti/design/indoor/clio/m09452.000.0200/ mancano: 24
+20:14:39: processo: http://www.panzeri.it/prodotti/design/indoor/clio/m09453.000.0200/ mancano: 23
+20:14:42: processo: http://www.panzeri.it/prodotti/design/indoor/clio/m09454.000.0200/ mancano: 22
+20:14:46: processo: http://www.panzeri.it/prodotti/design/indoor/clio/m09455.000.0200/ mancano: 21
+20:14:49: processo: http://www.panzeri.it/prodotti/design/indoor/clio/m09456.000.0200/ mancano: 20
+20:14:52: processo: http://www.panzeri.it/prodotti/design/indoor/clio/m09457.000.0200/ mancano: 19
+20:14:56: processo: http://www.panzeri.it/prodotti/design/indoor/clio/m09471.000.0200/ mancano: 18
+20:14:59: processo: http://www.panzeri.it/prodotti/design/indoor/clio/m09472.000.0200/ mancano: 17
+20:15:03: processo: http://www.panzeri.it/prodotti/design/indoor/clio/m09473.000.0200/ mancano: 16
+20:15:06: processo: http://www.panzeri.it/prodotti/design/indoor/clio/m09474.000.0200/ mancano: 15
+20:15:09: processo: http://www.panzeri.it/prodotti/design/indoor/clio/m09475.000.0200/ mancano: 14
+20:15:13: processo: http://www.panzeri.it/prodotti/design/indoor/clio/m09476.000.0200/ mancano: 13
+20:15:16: processo: http://www.panzeri.it/prodotti/design/indoor/clio/m09477.000.0200/ mancano: 12
+20:15:19: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04901.030.0101/ mancano: 11
+20:15:20: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04919.030.0101/ mancano: 10
+20:15:22: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04921.030.0101/ mancano: 9
+20:15:23: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04901.030.0102/ mancano: 8
+20:15:24: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04919.030.0102/ mancano: 7
+20:15:26: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04921.030.0102/ mancano: 6
+20:15:27: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04901.060.0101/ mancano: 5
+20:15:28: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04919.060.0101/ mancano: 4
+20:15:29: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04921.060.0101/ mancano: 3
+20:15:31: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04901.060.0102/ mancano: 2
+20:15:32: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04919.060.0102/ mancano: 1
+20:15:35: processo: http://www.panzeri.it/prodotti/design/indoor/cross/a04921.060.0102/ mancano: 0
+20:15:36: FINITO
+20:18:21: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.050.0000/ mancano: 3
+20:18:23: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.070.0000/ mancano: 2
+20:18:24: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.090.0000/ mancano: 1
+20:18:26: processo: http://www.panzeri.it/prodotti/design/indoor/agave/p03001.050.0000/ mancano: 0
+20:18:27: FINITO
+20:18:53: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.050.0000/ mancano: 3
+20:18:54: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.070.0000/ mancano: 2
+20:18:56: processo: http://www.panzeri.it/prodotti/design/indoor/agave/l03001.090.0000/ mancano: 1
+20:18:57: processo: http://www.panzeri.it/prodotti/design/indoor/agave/p03001.050.0000/ mancano: 0
+20:18:58: FINITO

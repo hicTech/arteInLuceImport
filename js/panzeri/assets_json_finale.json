@@ -1,0 +1,62 @@
+[
+    {
+        "family_uri": "http://www.panzeri.it/prodotti/design/indoor/agave/",
+        "model": "AGAVE",
+        "projects": [
+            "http://www.panzeri.it//media/FFS/Agave.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-3.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-4.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-8.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-9.jpg"
+        ],
+        "id": "L03001.050.0000",
+        "model_from_site": "AGAVE",
+        "primary_pic": "http://www.panzeri.it/media/FP/FP-Agave.jpg",
+        "light_schema": "http://www.panzeri.it/media/DT/agave_L03001.050.000.jpg"
+    },
+    {
+        "family_uri": "http://www.panzeri.it/prodotti/design/indoor/agave/",
+        "model": "AGAVE",
+        "projects": [
+            "http://www.panzeri.it//media/FFS/Agave.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-3.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-4.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-8.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-9.jpg"
+        ],
+        "id": "L03001.070.0000",
+        "model_from_site": "AGAVE",
+        "primary_pic": "http://www.panzeri.it/media/FP/FP-Agave.jpg",
+        "light_schema": "http://www.panzeri.it/media/DT/agave_L03001.070.0000.jpg"
+    },
+    {
+        "family_uri": "http://www.panzeri.it/prodotti/design/indoor/agave/",
+        "model": "AGAVE",
+        "projects": [
+            "http://www.panzeri.it//media/FFS/Agave.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-3.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-4.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-8.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-9.jpg"
+        ],
+        "id": "L03001.090.0000",
+        "model_from_site": "AGAVE",
+        "primary_pic": "http://www.panzeri.it/media/FP/FP-Agave.jpg",
+        "light_schema": "http://www.panzeri.it/media/DT/L-3001.90.jpg"
+    },
+    {
+        "family_uri": "http://www.panzeri.it/prodotti/design/indoor/agave/",
+        "model": "AGAVE",
+        "projects": [
+            "http://www.panzeri.it//media/FFS/Agave.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-3.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-4.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-8.jpg",
+            "http://www.panzeri.it//media/FFS/Agave-9.jpg"
+        ],
+        "id": "P03001.050.0000",
+        "model_from_site": "AGAVE",
+        "primary_pic": "http://www.panzeri.it/media/FP/FP-Agave.jpg",
+        "light_schema": "http://www.panzeri.it/media/DT/P-3001.50.jpg"
+    }
+]

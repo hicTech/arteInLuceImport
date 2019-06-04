@@ -2,6 +2,7 @@ var _ = require("../../lib/_node.js");
 var S = require('string');
 var request = require("request");
 var fs = require('fs');
+const puppeteer = require('puppeteer');
 
 var jsdom = require("jsdom");
 const { JSDOM } = jsdom;
@@ -14,84 +15,159 @@ var $ = jQuery = require('jquery')(window);
 
 
 
-// questo è l'array degli url delle pafine di tutti i prodotti (206) singoli FLOS copia e incollata da getSinglePageUrl_json.json
-var arr_all_products = [
-    "https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/", "https://flos.com/it/prodotti/lampade-tavolo/bellhop/bellhop/", "https://flos.com/it/prodotti/lampade-tavolo/biagio/biagio/", "https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour/", 
-    "https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour-unplugged/", "https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour-versailles/", "https://flos.com/it/prodotti/lampade-tavolo/bon-jour/bon-jour-versailles-small/", "https://flos.com/it/prodotti/lampade-tavolo/chapo/chapo/", 
-    "https://flos.com/it/prodotti/lampade-tavolo/cocoon/gatto/", "https://flos.com/it/prodotti/lampade-tavolo/cocoon/gatto-piccolo/", "https://flos.com/it/prodotti/lampade-tavolo/copycat/copycat/", "https://flos.com/it/prodotti/lampade-tavolo/de-light/de-light/", "https://flos.com/it/prodotti/lampade-tavolo/extra-t2/extra-t/", 
-    "https://flos.com/it/prodotti/lampade-tavolo/gaku/gaku-wire/", "https://flos.com/it/prodotti/lampade-tavolo/gaku/gaku-wireless/", "https://flos.com/it/prodotti/lampade-tavolo/glo-ball/glo-ball-basic-2/", 
-    "https://flos.com/it/prodotti/lampade-tavolo/glo-ball/glo-ball-basic-1/", "https://flos.com/it/prodotti/lampade-tavolo/glo-ball/glo-ball-basic-zero-dimmer/", "https://flos.com/it/prodotti/lampade-tavolo/glo-ball/glo-ball-basic-zero-switch/", 
-    "https://flos.com/it/prodotti/lampade-tavolo/glo-ball/mini-glo-ball-t/", "https://flos.com/it/prodotti/lampade-tavolo/glo-ball/glo-ball-t2/", "https://flos.com/it/prodotti/lampade-tavolo/glo-ball/glo-ball-t1/", 
-    "https://flos.com/it/prodotti/lampade-tavolo/goldman/goldman/", "https://flos.com/it/prodotti/lampade-tavolo/ic-lights/ic-lights-t1-high/", "https://flos.com/it/prodotti/lampade-tavolo/ic-lights/ic-lights-t1-low/", 
-    "https://flos.com/it/prodotti/lampade-tavolo/ic-lights/ic-lights-t2/", "https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-edge-base/", "https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-edge-clamp/", 
-    "https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-edge-desk-support-visible-cable/", "https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-edge-desk-support-hidden-cable/", "https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-edge-wall-support/", 
-    "https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-led-base/", "https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-led-clamp/", "https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-led-desk-support-visible-cable/", "https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-led-desk-support-hidden-cable/", 
-    "https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/kelvin-led-wall-support/", "https://flos.com/it/prodotti/lampade-tavolo/kelvin-led/mini-kelvin-led/", "https://flos.com/it/prodotti/lampade-tavolo/ktribe/ktribe-t2/", "https://flos.com/it/prodotti/lampade-tavolo/ktribe/ktribe-t1/", "https://flos.com/it/prodotti/lampade-tavolo/ktribe/ktribe-t1-glass/", 
-    "https://flos.com/it/prodotti/lampade-tavolo/lampadina/lampadina/", "https://flos.com/it/prodotti/lampade-tavolo/may-day/may-day/", "https://flos.com/it/prodotti/lampade-tavolo/ktribe/miss-k/", "https://flos.com/it/prodotti/lampade-tavolo/miss-sissi/miss-sissi/", "https://flos.com/it/prodotti/lampade-tavolo/piani/piani/", 
-    "https://flos.com/it/prodotti/lampade-tavolo/piani/piani-big/", "https://flos.com/it/prodotti/lampade-tavolo/ray/ray-t-dimmer-2/", "https://flos.com/it/prodotti/lampade-tavolo/romeo-moon/romeo-moon-t1/", "https://flos.com/it/prodotti/lampade-tavolo/romeo-soft/romeo-soft-t/", "https://flos.com/it/prodotti/lampade-tavolo/serena/serena/", 
-    "https://flos.com/it/prodotti/lampade-tavolo/snoopy/snoopy/", "https://flos.com/it/prodotti/lampade-tavolo/snoopy/snoopy-50-limited-edition/", "https://flos.com/it/prodotti/lampade-tavolo/spun-light/spun-light-t2/", "https://flos.com/it/prodotti/lampade-tavolo/spun-light/spun-light-t1/", "https://flos.com/it/prodotti/lampade-tavolo/tab/tab-t/", 
-    "https://flos.com/it/prodotti/lampade-tavolo/guns/guns-table-gun/", "https://flos.com/it/prodotti/lampade-tavolo/guns/guns-bedside-gun/", "https://flos.com/it/prodotti/lampade-tavolo/taccia/taccia/", "https://flos.com/it/prodotti/lampade-tavolo/taccia/taccia-pmma/", "https://flos.com/it/prodotti/lampade-tavolo/taccia/taccia-small/",
-    "https://flos.com/it/prodotti/lampade-tavolo/tatou/tatou-t/", "https://flos.com/it/prodotti/lampadari-sospensione/2097/2097-50/", "https://flos.com/it/prodotti/lampadari-sospensione/2097/2097-30/", "https://flos.com/it/prodotti/lampadari-sospensione/2620/2620/", "https://flos.com/it/prodotti/lampadari-sospensione/aim/aim/", 
-    "https://flos.com/it/prodotti/lampadari-sospensione/aim/aim-cable-plug/", "https://flos.com/it/prodotti/lampadari-sospensione/aim/aim-small/", "https://flos.com/it/prodotti/lampadari-sospensione/aim/aim-small-cable-plug/", "https://flos.com/it/prodotti/lampadari-sospensione/aim/aim-small-fix/", "https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-round-large/",
-    "https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-round-medium/", "https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-round-small/", "https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-drop-down/", "https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-drop-up/", 
-    "https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-square-large/", "https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-square-small/", "https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-broken-line/", "https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-line/",
-    "https://flos.com/it/prodotti/lampadari-sospensione/chasen/chasen/", "https://flos.com/it/prodotti/lampadari-sospensione/overlap/overlap-suspension-2/", "https://flos.com/it/prodotti/lampadari-sospensione/overlap/overlap-suspension-1/", "https://flos.com/it/prodotti/lampadari-sospensione/cocoon/taraxacum-2/", "https://flos.com/it/prodotti/lampadari-sospensione/cocoon/taraxacum-1/", 
-    "https://flos.com/it/prodotti/lampadari-sospensione/cocoon/viscontea/", "https://flos.com/it/prodotti/lampadari-sospensione/cocoon/zeppelin-2/", "https://flos.com/it/prodotti/lampadari-sospensione/cocoon/zeppelin-1/", "https://flos.com/it/prodotti/lampadari-sospensione/frisbi/frisbi/", "https://flos.com/it/prodotti/lampadari-sospensione/fucsia/fucsia-12/", 
-    "https://flos.com/it/prodotti/lampadari-sospensione/fucsia/fucsia-8/", "https://flos.com/it/prodotti/lampadari-sospensione/fucsia/fucsia-3/", "https://flos.com/it/prodotti/lampadari-sospensione/fucsia/fucsia-1/", "https://flos.com/it/prodotti/lampadari-sospensione/glo-ball/glo-ball-s2/", "https://flos.com/it/prodotti/lampadari-sospensione/glo-ball/glo-ball-s2-eco/", 
-    "https://flos.com/it/prodotti/lampadari-sospensione/glo-ball/glo-ball-s1/", "https://flos.com/it/prodotti/lampadari-sospensione/glo-ball/mini-glo-ball-s/", "https://flos.com/it/prodotti/lampadari-sospensione/ic-lights/ic-lights-s2/", "https://flos.com/it/prodotti/lampadari-sospensione/ic-lights/ic-lights-s1/", "https://flos.com/it/prodotti/lampadari-sospensione/ktribe/ktribe-s3/", 
-    "https://flos.com/it/prodotti/lampadari-sospensione/ktribe/ktribe-s2/", "https://flos.com/it/prodotti/lampadari-sospensione/ktribe/ktribe-s1/", "https://flos.com/it/prodotti/lampadari-sospensione/nebula/nebula/", "https://flos.com/it/prodotti/lampadari-sospensione/ok/ok/", "https://flos.com/it/prodotti/lampadari-sospensione/parentesi/parentesi/", 
-    "https://flos.com/it/prodotti/lampadari-sospensione/parentesi/parentesi-dimmer/", "https://flos.com/it/prodotti/lampadari-sospensione/ray/ray-s/", "https://flos.com/it/prodotti/lampadari-sospensione/romeo-moon/romeo-babe-s/", "https://flos.com/it/prodotti/lampadari-sospensione/romeo-moon/romeo-moon-s2/", "https://flos.com/it/prodotti/lampadari-sospensione/romeo-moon/romeo-moon-s1/", 
-    "https://flos.com/it/prodotti/lampadari-sospensione/romeo-soft/romeo-babe-soft-s/", "https://flos.com/it/prodotti/lampadari-sospensione/romeo-soft/romeo-soft-s2/", "https://flos.com/it/prodotti/lampadari-sospensione/romeo-soft/romeo-soft-s1/", "https://flos.com/it/prodotti/lampadari-sospensione/skygarden/skygarden-2/", "https://flos.com/it/prodotti/lampadari-sospensione/skygarden/skygarden-2-eco/",
-    "https://flos.com/it/prodotti/lampadari-sospensione/skygarden/skygarden-1/", "https://flos.com/it/prodotti/lampadari-sospensione/skygarden/skygarden-1-eco/", "https://flos.com/it/prodotti/lampadari-sospensione/smithfield/smithfield-suspension-led-dimmable-dali/", "https://flos.com/it/prodotti/lampadari-sospensione/smithfield/smithfield-s/", 
-    "https://flos.com/it/prodotti/lampadari-sospensione/smithfield/smithfield-s-led/", "https://flos.com/it/prodotti/lampadari-sospensione/splugen-brau/splugen-brau/", "https://flos.com/it/prodotti/lampadari-sospensione/string-light/string-light-cone-head-12mt-cable/", "https://flos.com/it/prodotti/lampadari-sospensione/string-light/string-light-cone-head-22mt-cable/", 
-    "https://flos.com/it/prodotti/lampadari-sospensione/string-light/string-light-sphere-head-12mt-cable/", "https://flos.com/it/prodotti/lampadari-sospensione/string-light/string-light-sphere-head-22mt-cable/", "https://flos.com/it/prodotti/lampadari-sospensione/taraxacum-88/taraxacum-88-s2/", "https://flos.com/it/prodotti/lampadari-sospensione/taraxacum-88/taraxacum-88-s1/",
-    "https://flos.com/it/prodotti/lampadari-sospensione/tatou/tatou-s2/", "https://flos.com/it/prodotti/lampadari-sospensione/tatou/tatou-s1/", "https://flos.com/it/prodotti/lampadari-sospensione/wan/wan-s/", "https://flos.com/it/prodotti/plafoniere/265/265/", "https://flos.com/it/prodotti/plafoniere/ariette/ariette-3/", "https://flos.com/it/prodotti/plafoniere/ariette/ariette-2/",
-    "https://flos.com/it/prodotti/plafoniere/ariette/ariette-1/", "https://flos.com/it/prodotti/plafoniere/button/button/", "https://flos.com/it/prodotti/plafoniere/button/button-hl/", "https://flos.com/it/prodotti/plafoniere/button/mini-button/", "https://flos.com/it/prodotti/plafoniere/clara/clara/", "https://flos.com/it/prodotti/plafoniere/clessidra/clessidra/",
-    "https://flos.com/it/prodotti/plafoniere/clessidra/clessidra-2/", "https://flos.com/it/prodotti/plafoniere/foglio/foglio/", "https://flos.com/it/prodotti/plafoniere/glo-ball/glo-ball-c2/", "https://flos.com/it/prodotti/plafoniere/glo-ball/glo-ball-c1/", "https://flos.com/it/prodotti/plafoniere/glo-ball/glo-ball-cw-zero/", "https://flos.com/it/prodotti/plafoniere/glo-ball/mini-glo-ball-cw/",
-    "https://flos.com/it/prodotti/plafoniere/glo-ball/mini-glo-ball-cw-mirror/", "https://flos.com/it/prodotti/plafoniere/glo-ball/glo-ball-w/", "https://flos.com/it/prodotti/plafoniere/ic-lights/ic-lights-cw-2/", "https://flos.com/it/prodotti/plafoniere/ic-lights/ic-lights-cw-1/", "https://flos.com/it/prodotti/plafoniere/ktribe/ktribe-w/", 
-    "https://flos.com/it/prodotti/plafoniere/lightspring/lightspring-double/", "https://flos.com/it/prodotti/plafoniere/lightspring/lightspring-single/", "https://flos.com/it/prodotti/plafoniere/long-light-cw/long-light/", "https://flos.com/it/prodotti/plafoniere/moni/moni-1/", "https://flos.com/it/prodotti/plafoniere/moni/moni-2/", 
-    "https://flos.com/it/prodotti/plafoniere/ontherocks/ontherocks-hl/", "https://flos.com/it/prodotti/plafoniere/pochette/pochette/", "https://flos.com/it/prodotti/plafoniere/pochette/pochette-updown/", "https://flos.com/it/prodotti/plafoniere/pochette/pochette-led/", "https://flos.com/it/prodotti/plafoniere/pochette/pochette-updown-led/", 
-    "https://flos.com/it/prodotti/plafoniere/romeo-moon/romeo-babe-w/", "https://flos.com/it/prodotti/plafoniere/romeo-soft/romeo-babe-soft-w/", "https://flos.com/it/prodotti/plafoniere/skygarden/skygarden-recessed-g9/", "https://flos.com/it/prodotti/plafoniere/skygarden/skygarden-recessed-gy6-35/", "https://flos.com/it/prodotti/plafoniere/smithfield/smithfield-ceiling-led-dimmable-dali/", 
-    "https://flos.com/it/prodotti/plafoniere/smithfield/smithfield-c/", "https://flos.com/it/prodotti/plafoniere/smithfield/smithfield-c-led/", "https://flos.com/it/prodotti/plafoniere/taraxacum-88/taraxacum-88-cw/", "https://flos.com/it/prodotti/plafoniere/tight-light-cw/tight-light/", "https://flos.com/it/prodotti/plafoniere/tilee/tilee/", 
-    "https://flos.com/it/prodotti/plafoniere/wan/wan-cw/", "https://flos.com/it/prodotti/plafoniere/wirering/wirering-bianco/", "https://flos.com/it/prodotti/plafoniere/wirering/wirering-pink/", "https://flos.com/it/prodotti/plafoniere/wirering/wirering-grigio/", "https://flos.com/it/prodotti/lampade-terra/arco/arco/", "https://flos.com/it/prodotti/lampade-terra/arco/arco-led/", 
-    "https://flos.com/it/prodotti/lampade-terra/bibliotheque-nationale/bibliotheque-nationale/", "https://flos.com/it/prodotti/lampade-terra/captain-flint/captain-flint/", "https://flos.com/it/prodotti/lampade-terra/cocoon/chrysalis/", "https://flos.com/it/prodotti/lampade-terra/cocoon/fantasma-piccolo/", "https://flos.com/it/prodotti/lampade-terra/cocoon/fantasma/",
-    "https://flos.com/it/prodotti/lampade-terra/glo-ball/glo-ball-f3/", "https://flos.com/it/prodotti/lampade-terra/glo-ball/glo-ball-f2/", "https://flos.com/it/prodotti/lampade-terra/glo-ball/glo-ball-f1/", "https://flos.com/it/prodotti/lampade-terra/ic-lights/ic-lights-f2/", "https://flos.com/it/prodotti/lampade-terra/ic-lights/ic-lights-f1/", 
-    "https://flos.com/it/prodotti/lampade-terra/ipnos/ipnos/", "https://flos.com/it/prodotti/lampade-terra/kelvin-led/kelvin-led-f/", "https://flos.com/it/prodotti/lampade-terra/ktribe/ktribe-f3/", "https://flos.com/it/prodotti/lampade-terra/ktribe/ktribe-f2/", "https://flos.com/it/prodotti/lampade-terra/ktribe/ktribe-f1/", "https://flos.com/it/prodotti/lampade-terra/guns/guns-lounge-gun/",
-    "https://flos.com/it/prodotti/lampade-terra/luminator/luminator/", "https://flos.com/it/prodotti/lampade-terra/ray/ray-f2/", "https://flos.com/it/prodotti/lampade-terra/ray/ray-f1/", "https://flos.com/it/prodotti/lampade-terra/romeo-moon/romeo-moon-f/", "https://flos.com/it/prodotti/lampade-terra/romeo-soft/romeo-soft-f/", 
-    "https://flos.com/it/prodotti/lampade-terra/romeo-soft/superarchimoon-2/", "https://flos.com/it/prodotti/lampade-terra/rosy-angelis/rosy-angelis/", "https://flos.com/it/prodotti/lampade-terra/sawaru/sawaru/", "https://flos.com/it/prodotti/lampade-terra/shade/shade/", "https://flos.com/it/prodotti/lampade-terra/spun-light/spun-light-f/", 
-    "https://flos.com/it/prodotti/lampade-terra/stylos/stylos/", "https://flos.com/it/prodotti/lampade-terra/superloon/superloon/", "https://flos.com/it/prodotti/lampade-terra/tab/tab-f/", "https://flos.com/it/prodotti/lampade-terra/tatou/tatou-f/", "https://flos.com/it/prodotti/lampade-terra/toio/toio/", "https://flos.com/it/prodotti/lampade-terra/toio/toio-limited-edition-matt-black/",
-]
+// questo è l'array degli url delle pagine di tutti i prodotti (206) singoli FLOS copia e incollata da getSinglePageUrl_json.json
+var arr_all_products = {
+
+    // design/indoor
+    
+    0: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/agave/", prod_pic: "http://www.panzeri.it/media/FP/FP-Agave.jpg"},
+    1: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/aldecimo/", prod_pic: "http://www.panzeri.it/media/FP/FP-Aldecimo.jpg"},
+    2: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/app/", prod_pic: "http://www.panzeri.it/media/FP/FP-App.jpg"},
+    3: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/blanca/", prod_pic: "http://www.panzeri.it/media/FP/FP-Blanca.jpg"},
+    4: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/brooklyn line/", prod_pic: "http://www.panzeri.it/media/FP/FP-Brooklyn_Line.jpg"},
+    5: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/brooklyn round/", prod_pic: "http://www.panzeri.it/media/FP/FP-Brooklyn_Round.jpg"},
+    6: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/candle/", prod_pic: "http://www.panzeri.it/media/FP/FP-Candle.jpg"},
+    7: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/carmen/", prod_pic: "http://www.panzeri.it/media/FP/FP-Carmen-Carmencita.jpg"},
+    8: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/carmencita/", prod_pic: "http://www.panzeri.it/media/FP/FP-Carmen-Carmencita.jpg"},
+    9: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/classic/", prod_pic: "http://www.panzeri.it/media/FP/FP-Classic.jpg"},
+    10: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/clio/", prod_pic: "http://www.panzeri.it/media/FP/FP_Clio.jpg"},
+    11: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/cross/", prod_pic: "http://www.panzeri.it/media/FP/FP-Cross.jpg"},
+    12: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/disco/", prod_pic: "http://www.panzeri.it/media/FP/FP-Disco.jpg"},
+    13: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/domino/", prod_pic: "http://www.panzeri.it/media/FP/FP-Domino.jpg"},
+    14: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/elle/", prod_pic: "http://www.panzeri.it/media/FP/FP-Elle.jpg"},
+    15: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/emma/", prod_pic: "http://www.panzeri.it/media/FP/FP-Emma.jpg"},
+    16: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/flat/", prod_pic: "http://www.panzeri.it/media/FP/FP-Flat.jpg"},
+    17: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/floral/", prod_pic: "http://www.panzeri.it/media/FP/FP-Floral.jpg"},
+    18: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/giano/", prod_pic: "http://www.panzeri.it/media/FP/FP-Giano.jpg"},
+    19: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/gilbert/", prod_pic: "http://www.panzeri.it/media/FP/FP-Gilbert.jpg"},
+    20: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/golden ring/", prod_pic: "http://www.panzeri.it/media/FP/FP-Golden_Ring.jpg"},
+    21: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/jackie/", prod_pic: "http://www.panzeri.it/media/FP/FP-Jackie.jpg"},
+    22: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/jackie iot/", prod_pic: "http://www.panzeri.it/media/FP/FP-Jackie_IoT.jpg"},
+    23: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/jackie spot/", prod_pic: "http://www.panzeri.it/media/FP/FP-Jackie_Spot.jpg"},
+    24: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/jazz/", prod_pic: "http://www.panzeri.it/media/FP/FP-Jazz.jpg"},
+    25: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/kubik/", prod_pic: "http://www.panzeri.it/media/FP/FP-Kubik.jpg"},
+    26: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/line/", prod_pic: "http://www.panzeri.it/media/FP/FP-Line.jpg"},
+    27: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/olivia/", prod_pic: "http://www.panzeri.it/media/FP/FP-Olivia-Emma-Clio.jpg"},
+    28: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/one/", prod_pic: "http://www.panzeri.it/media/FP/FP-One.jpg"},
+    29: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/planet ring/", prod_pic: "http://www.panzeri.it/media/FP/FP-Planet_Ring_P.jpg"},
+    30: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/silver ring/", prod_pic: "http://www.panzeri.it/media/FP/FP-Silver_Ring_L.jpg"},
+    31: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/tate/", prod_pic: "http://www.panzeri.it/media/FP/FP-Tate.jpg"},
+    32: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/three/", prod_pic: "http://www.panzeri.it/media/FP/FP-Three.jpg"},
+    33: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/to-be/", prod_pic: "http://www.panzeri.it/media/FP/FP-To-be-L027__.045.1701.jpg"},
+    34: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/toy/", prod_pic: "http://www.panzeri.it/media/FP/FP-Toy.jpg"},
+    35: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/toy gypso/", prod_pic: "http://www.panzeri.it/media/FP/FP-Toy_Gypso.jpg"},
+    36: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/twister/", prod_pic: "http://www.panzeri.it/media/FP/FP-Twister.jpg"},
+    37: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/two/", prod_pic: "http://www.panzeri.it/media/FP/FP-Two.jpg"},
+    38: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/viisi/", prod_pic: "http://www.panzeri.it/media/FP/FP-Viisi.jpg"},
+    39: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/viki/", prod_pic: "http://www.panzeri.it/media/FP/FP-Viki.jpg"},
+    40: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/willy/", prod_pic: "http://www.panzeri.it/media/FP/FP-Willy-glass.jpg"},
+    41: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/ypsilon/", prod_pic: "http://www.panzeri.it/media/FP/FP-Ypsilon.jpg"},
+    42: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/zero/", prod_pic: "http://www.panzeri.it/media/FP/FP-Zero.jpg"},
+    43: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/gong/", prod_pic: "http://www.panzeri.it/media/FP/FP-Gong.jpg"},
+    44: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/ginevra/", prod_pic: "http://www.panzeri.it/media/FP/FP-Ginevra.jpg"},
+
+
+    //design/outdoor
+    45: {prod_page: "http://www.panzeri.it/prodotti/design/outdoor/box/", prod_pic: "http://www.panzeri.it/media/FP/FP-Box-XQ144.jpg"},
+    46: {prod_page: "http://www.panzeri.it/prodotti/design/outdoor/draco/", prod_pic: "http://www.panzeri.it/media/FP/FP-Draco.jpg"},
+    47: {prod_page: "http://www.panzeri.it/prodotti/design/outdoor/four/", prod_pic: "http://www.panzeri.it/media/FP/FP-Four.jpg"},
+    48: {prod_page: "http://www.panzeri.it/prodotti/design/outdoor/lampyris/", prod_pic: "http://www.panzeri.it/media/FP/FP-LAMPyris.jpg"},
+    49: {prod_page: "http://www.panzeri.it/prodotti/design/outdoor/potter/", prod_pic: "http://www.panzeri.it/media/FP/FP-Potter.jpg"},
+    50: {prod_page: "http://www.panzeri.it/prodotti/design/outdoor/ralph/", prod_pic: "http://www.panzeri.it/media/FP/FP-Ralph.jpg"},
+
+    // architectural/profili
+    51: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/broadway/", prod_pic: "http://www.panzeri.it/media/FP/FP-Broadway.jpg"},
+    52: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/brooklyn/", prod_pic: "http://www.panzeri.it/media/FP/FP-Brooklyn.jpg"},
+    53: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/brooklyn out/", prod_pic: "http://www.panzeri.it/media/FP/FP-Brooklyn_Out.jpg"},
+    54: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/brooklyn round/", prod_pic: "http://www.panzeri.it/media/FP/FP-Brooklyn_Round.jpg"},
+    55: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/brooklyn trim/", prod_pic: "http://www.panzeri.it/media/FP/FP-Brooklyn_Trim.jpg"},
+    56: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/corner/", prod_pic: "http://www.panzeri.it/media/FP/FP-Corner.jpg"},
+    57: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/giano/", prod_pic: "http://www.panzeri.it/media/FP/FP-Giano.jpg"},
+    58: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/manhattan/", prod_pic: "http://www.panzeri.it/media/FP/FP-Manhattan.jpg"},
+    59: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/nolita/", prod_pic: "http://www.panzeri.it/media/FP/FP-Nolita.jpg"},
+    60: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/nolita out/", prod_pic: "http://www.panzeri.it/media/FP/FP-Nolita_Out.jpg"},
+    61: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/nolita trim/", prod_pic: "http://www.panzeri.it/media/FP/FP-Nolita_Trim.jpg"},
+    62: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/tribeca/", prod_pic: "http://www.panzeri.it/media/FP/FP-Tribeca.jpg"},
+
+
+    // architectural/incassi
+    63: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/joe/", prod_pic: "http://www.panzeri.it/media/FP/FP-Joe.jpg"},
+    64: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/roy/", prod_pic: "http://www.panzeri.it/media/FP/FP-Roy.jpg"},
+    65: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/joe.q/", prod_pic: "http://www.panzeri.it/media/FP/FP-Joe.Q.jpg"},
+    66: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/joe twist/", prod_pic: "http://www.panzeri.it/media/FP/FP-Joe_Twist.jpg"},
+    67: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq0998/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ0998.jpg"},
+    68: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq0999/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ0999.jpg"},
+    69: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1000/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ1000-1.jpg"},
+    70: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1004/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ1004.jpg"},
+    71: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1015/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ1015.jpg"},
+    72: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1019/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ1019.jpg"},
+    73: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1025/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ1025.jpg"},
+    74: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1026/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ1026.jpg"},
+    75: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1031/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ1031.jpg"},
+
+
+
+    */
+    77: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1032/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ1032.jpg"},
+    78: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1034/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ1034-1.jpg"},
+    79: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1210/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ1210.jpg"},
+    80: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1211/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ1211.jpg"},
+    81: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgr0997/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGR0997.jpg"},
+    82: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgr1020/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGR1020.jpg"},
+    83: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgr1021/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGR1021.jpg"},
+    84: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgr1023/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGR1023.jpg"},
+    85: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgr1024/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGR1024.jpg"},
+    86: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgr1027/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGR1027.jpg"},
+    87: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xsv2008/", prod_pic: "http://www.panzeri.it/media/FP/FP-XSV2008.jpg"},
+    88: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/queens in 60/", prod_pic: "http://www.panzeri.it/media/FP/FP-Queens_In-XR262.jpg"},
+    89: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/queens in 50 ip65/", prod_pic: "http://www.panzeri.it/media/FP/FP-queens_in_50_ip65.jpg"},
+    90: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/queens in 40/", prod_pic: "http://www.panzeri.it/media/FP/FP-queens_in_40.jpg"},
+
+        // architectural/spotlight
+    91: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/brooklyn spot/", prod_pic: "http://www.panzeri.it/media/FP/FP-Brooklyn_Spot_XM.jpg"},
+    92: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/queens mini/", prod_pic: "http://www.panzeri.it/media/FP/FP-Queens_Mini-XM748-12.jpg"},
+    93: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/queens spot/", prod_pic: "http://www.panzeri.it/media/FP/FP-Queens_Spot-XM742-19.jpg"},
+    94: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/queens compact/", prod_pic: "http://www.panzeri.it/media/FP/FP-Queens_Compact-XM751.jpg"},
+    95: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/soho spot micro/", prod_pic: "http://www.panzeri.it/media/FP/FP-soho_spot_micro.jpg"},
+    96: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/soho spot micro low/", prod_pic: "http://www.panzeri.it/media/FP/FP-soho_spot_micro_low.jpg"},
+    97: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/soho spot nano/", prod_pic: "http://www.panzeri.it/media/FP/FP-soho_spot_nano.jpg"},
+}
+    
+
+
+
+// arr piccolo di prova
+
 
 /*
-var arr_all_products = [
-    "https://flos.com/it/prodotti/lampade-tavolo/gaku/gaku-wireless/",
-    "https://flos.com/it/prodotti/lampade-tavolo/aoy/aoy/", "https://flos.com/it/prodotti/plafoniere/romeo-moon/romeo-babe-w/",
-    "https://flos.com/it/prodotti/lampade-terra/kelvin-led/kelvin-led-f/", "https://flos.com/it/prodotti/lampadari-sospensione/tatou/tatou-s2/"
-]
+var arr_all_products = {
+
+    // design/indoor
+    0: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/giano/", prod_pic: "http://www.panzeri.it/media/FP/FP-Giano.jpg"},
+    1: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/domino/", prod_pic: "http://www.panzeri.it/media/FP/FP-Domino.jpg"},
+    2: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/emma/", prod_pic: "http://www.panzeri.it/media/FP/FP-Emma.jpg"},
+    3: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/nolita/", prod_pic: "http://www.panzeri.it/media/FP/FP-Nolita.jpg"},
+}
 
 
+var arr_all_products = {
 
-var arr_all_products = [
-    "https://flos.com/it/prodotti/lampade-terra/ipnos/ipnos/#tech-specs",
-    "https://flos.com/it/prodotti/lampadari-sospensione/string-light/string-light-cone-head-12mt-cable/"
-    
-]
-
-
-
-var arr_all_products = [
-    "https://flos.com/it/prodotti/lampadari-sospensione/arrangements/arrangements-round-large/"
-]
+    // design/indoor
+    0: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1031/", prod_pic: "http://www.panzeri.it/media/FP/FP-Giano.jpg"}
+}
 
 */
+    
 
-// elimino eventuali doppioni
-arr_all_products = _.uniq(arr_all_products);
-var pages_number = arr_all_products.length;
+
+var pages_number = _.keys(arr_all_products).length;
 
 
 
 var index = 0;
+
+
+
 
 avvia(index);
 
@@ -106,7 +182,7 @@ function avvia(index){
         return true;
     }
     else{
-        var uri = arr_all_products[index];
+        var uri = arr_all_products[index].prod_page;
         _.log("processo: "+uri+" mancano: "+parseInt(pages_number-1-index))
         request({
             uri: encodeURI(uri),
@@ -120,8 +196,10 @@ function avvia(index){
 }
 
 
-
-
+// siccome capita che si impinga ogni minuto faccio il console.log dell'array in modo che posso ripartire da dove si è impinto
+setInterval(function(){
+    _.log(_.toStr(JSON.stringify(arr_single_product, null, 4)))
+},60000)
 
 
 
@@ -129,14 +207,154 @@ var arr_single_product = [];
 
 function createJsonFromAPage(body, uri){
 
-    //_.log(body)
+
+    (async() => {
+        const browser = await puppeteer.launch();
+        const page = await browser.newPage();
+
+        
+        
+        await page.goto(uri);
+
+       
+        
+        let preloaded_bodyHTML = await page.evaluate(() => document.body.innerHTML);
+        
+       
+
+        var trovati = $(preloaded_bodyHTML).find(".articolo").length;
+
+        _.log("comunque aspettto")
+        await page.waitFor(6000);
+        _.log("HO ASPETTATO")
+
+        if(trovati > 5 ){
+            _.log("faccio super scroll della pagina");
+            await page.waitFor(2000);
+            await page.evaluate('window.scrollTo(0, 13000)');
+            await page.evaluate('window.scrollTo(0, 13000)');
+            await page.evaluate('window.scrollTo(0, 13000)');
+            await page.evaluate('window.scrollTo(0, 13000)');
+            await page.evaluate('window.scrollTo(0, 13000)');
+            await page.evaluate('window.scrollTo(0, 15000)');
+            await page.evaluate('window.scrollTo(0, 15000)');
+            await page.evaluate('window.scrollTo(0, 15000)');
+            await page.evaluate('window.scrollTo(0, 15000)');
+            await page.evaluate('window.scrollTo(0, 15000)');
+            await page.evaluate('window.scrollTo(0, 15000)');
+            await page.evaluate('window.scrollTo(0, 15000)');
+            await page.evaluate('window.scrollTo(0, 15000)');
+            await page.waitFor(2000);
+            await page.evaluate('window.scrollTo(0, 17000)');
+            await page.evaluate('window.scrollTo(0, 17000)');
+            await page.evaluate('window.scrollTo(0, 17000)');
+            await page.evaluate('window.scrollTo(0, 17000)');
+            await page.evaluate('window.scrollTo(0, 17000)');
+            await page.evaluate('window.scrollTo(0, 17000)');
+            await page.evaluate('window.scrollTo(0, 18000)');
+            await page.evaluate('window.scrollTo(0, 18000)');
+            await page.evaluate('window.scrollTo(0, 18000)');
+            await page.evaluate('window.scrollTo(0, 18000)');
+            await page.evaluate('window.scrollTo(0, 18000)');
+            await page.evaluate('window.scrollTo(0, 18000)');
+            await page.waitFor(2000);
+            await page.evaluate('window.scrollTo(0, 20000)');
+            await page.evaluate('window.scrollTo(0, 20000)');
+            await page.evaluate('window.scrollTo(0, 20000)');
+            await page.evaluate('window.scrollTo(0, 20000)');
+            await page.evaluate('window.scrollTo(0, 20000)');
+            await page.evaluate('window.scrollTo(0, 20000)');
+            await page.evaluate('window.scrollTo(0, 20000)');
+            await page.waitFor(3000);
+            await page.evaluate('window.scrollTo(0, 21000)');
+            await page.evaluate('window.scrollTo(0, 21000)');
+            await page.evaluate('window.scrollTo(0, 21000)');
+            await page.evaluate('window.scrollTo(0, 22000)');
+            await page.evaluate('window.scrollTo(0, 22000)');
+            await page.evaluate('window.scrollTo(0, 22000)');
+            await page.evaluate('window.scrollTo(0, 22000)');
+            await page.evaluate('window.scrollTo(0, 22000)');
+            await page.waitFor(2000);
+            await page.evaluate('window.scrollTo(0, 22000)');
+            await page.evaluate('window.scrollTo(0, 22000)');
+            await page.evaluate('window.scrollTo(0, 23000)');
+            await page.evaluate('window.scrollTo(0, 23000)');
+            await page.evaluate('window.scrollTo(0, 23000)');
+            await page.evaluate('window.scrollTo(0, 23000)');
+
+            preloaded_bodyHTML = await page.evaluate(() => document.body.innerHTML);
+        }
+
+
+        var $body = $(preloaded_bodyHTML);
+        
+
+        var $model = $body.find(".row.inner.column_container").eq(1);
+        var model = $model.find("h1").html();      
+        
+        var projects = [];
+
+        var $project_images = $body.find(".swiper-slide");
+
+        $project_images.each(function(){
+            projects.push("http://www.panzeri.it/"+ $(this).find("img").attr("src"))
+        });
+
+
+
+        var link_varianti = [];
+
+        var $article = $body.find(".articolo");
+
+
+        $article.each(function(){
+            $(this).find(".c6").each(function(){
+                var $c6 = $(this);
+                if($(this).find(".emissionelist").length != 0){
+                    $c6.find("a").each(function(){
+                        var href = $(this).attr("href");
+                        link_varianti.push(href)
+                    })
+                }
+            })
+        })
+
+
+
+        arr_single_product.push({
+            uri: uri,
+            model: model,
+            projects : projects,
+            link_varianti: link_varianti,
+        })
+        
+        
+        await browser.close();
+
+       
+    
+        index++;
+        
+        avvia(index);
+
+
+      })();
+
+
+    /*
+
+
+    var $body = $(body);
+
+    _.log(body)
 
     
 
-    var $body = $(body);
-    var $model = $body.find("h1.product_title.entry-title");
-        $model.find("a").remove();
-    var model = $model.html();    
+
+
+
+
+     
 
     
     $body.find("h2").each(function(){
@@ -311,13 +529,13 @@ function createJsonFromAPage(body, uri){
 
     }
 
+    */
 
-  
 
-    index++;
-    
-    avvia(index);
+
     
 
 }
+
+
 

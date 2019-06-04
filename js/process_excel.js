@@ -84,14 +84,9 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                         // ho notato che l'excel originario di Panzeri aveva diversi articoli senza prezzo... li elimino
                                         if(cartella == "panzeri"){
                                             
-                                            //_.log(json_fornitore.length)
-                                            
                                             json_fornitore = _.filter(json_fornitore,function(elem){
                                                 return elem.Prezzo != "";
                                             })
-                                            
-                                            //json_fornitore = unique(json_fornitore, ['Codice articolo']);
-                                            //_.log(json_fornitore.length)
                                             
                                         }
 
@@ -4193,12 +4188,13 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     if( fornitore == "panzeri"){
 
                         var hasAsset = undefined;
-
+                        var famiglia = row["Famiglia"];
                         supplier = "panzeri";
                         supplier_id = supplierId(supplier);
                         original_model_id = row["Codart"];
                         model_id = row["Codart"];
-
+                        model = getModelName(row);
+                        component = (isComponent(row))? 1: 0; 
 
 
 
@@ -4208,12 +4204,12 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
 
 
-                        component = (isComponent(model_id))? 1: 0; // recuperato dall'excel (row["Raggr. Commerciale"] == "SPAREPARTS")? 1: 0; // sono 525 "DECORATIVE" e 1084 SPAREPARTS              
-                        model = getModelName(model_id);
+                        
+                        
                         item_id = original_model_id;
                         hicId = getHicId(supplier_id, item_id);
-                        ean13 = undefined;
-                        max_discount = 0;
+                        ean13 = row["Barcode"];
+                        max_discount = 0.15;
                         sale = 1;
                         price = getPrice(row["Prezzo"], max_discount);
                         quantity = 0;
@@ -4221,27 +4217,28 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         delivery_time_if_not_available = "Su ordinazione in 2-3 settimane";
                         
 
-                        color = getColor(model_id);
-                        desc_it = undefined;
+                        color = getColor(row);
+                        desc_it = row["Descrizione_marketing"]+" Descrizione tecnica: "+row["Descrizione_Tecnica_IT"];
+                        
                         desc_en = undefined;
-                        cleaned_desc_it = getDesc(component,getAsset(model_id));
-                        cleaned_desc_en = cleaned_desc_it;
-                        dimmer = 0; //(row["Descrizione articolo"].indexOf("DIMM") != -1 )? 1: 0;
-                        led = 0; //(row["Descrizione articolo"].indexOf("LED") != -1 || row["Descrizione articolo"].toLowerCase().indexOf(" led") != -1 )? 1: 0;
-                        halogen = undefined;
-                        screw = undefined;
+                        cleaned_desc_it = desc_it.trim();
+                        cleaned_desc_en = undefined;
+                        dimmer = (row["Codice_elettrificazione"].toLowerCase().indexOf("dimm") != -1 )? 1: 0;
+                        led = (row["Sorgente_Luminosa"].toLowerCase().indexOf("led") != -1 )? 1: 0;
+                        halogen = (row["Sorgente_Luminosa"].toLowerCase().indexOf("alogen") != -1 )? 1: 0;
+                        screw = row["Attacco"];
                         switcher = undefined;
-                        category = ( _.is(getAsset(model_id)) )? (!isComponent(model_id))?  getAsset(model_id).category : getFatherAsset(model_id).category : undefined;
+                        category = row["Categoria"].toLowerCase().replace(" gr stat1","");
                     
                         type = undefined;       // è un valore unico ovvero una stringa
 
                         
-                        component_of = ( isComponent(model_id) ) ? getAsset(model_id).component_of : undefined;
+                        component_of = ( isComponent(row) ) ? model : undefined;
                         size = undefined;
-                        outdoor = 0; //(row["Descrizione articolo"].indexOf("OUT") != -1 )? 1: 0;
+                        outdoor = (row["Macro"].indexOf("OUT") != -1 )? 1: 0;
                         wire_length = undefined;
                         
-                        title = "titolo da definire";//getTitle(model, component, component_of);
+                        title = getTitle(model, component, component_of);
                         pic = ( _.is(getAsset(model_id)))? (_.is(getAsset(model_id).img)) ? getAsset(model_id).img : getAsset(model_id).image : undefined;
                         light_schema = getSchemaImages(model_id);
                         subtitle = getSubtitle(model, component, component_of, category);
@@ -4271,21 +4268,62 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         
 
                         function getModelName(model_id){
+                            return row["Famiglia"];
+                            /*
                             var asset = getAsset(model_id);
                             if( _.is(asset))
                                 return asset.fullname || asset.model;
+                            */
                         }
+
+                        function isComponent(model_id){
+                            return (row["Categoria"].toLowerCase().indexOf("access") != -1)
+                            /*
+                            var asset = getAsset(model_id);
+                            if( _.is(asset) )
+                                return _.is(asset.fullname) == true;
+                            else
+                                return false;
+                            */
+                        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                         function getPrice(price, max_discount){
                             var price = parseFloat(price.replace("€ ","").replace(",","")).toFixed(2);
                             return parseFloat( price* (1 - max_discount) ).toFixed(2);
                         }
 
-                        function getColor(model_id){
+                        function getColor(row){
+
+                            return row["Finitura"];
+
+                            /*
                             var asset = getAsset(model_id);
                             if(_.is(asset))
                                 if(_.is(asset.color))
                                     return asset.color.replace("colour_","");
+                            */
                             
                                 
                         }
@@ -4295,13 +4333,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 return asset.desc;
                         }
 
-                        function isComponent(model_id){
-                            var asset = getAsset(model_id);
-                            if( _.is(asset) )
-                                return _.is(asset.fullname) == true;
-                            else
-                                return false;
-                        }
+                        
 
                         
 
@@ -4394,15 +4426,17 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         }
 
                         function getTitle(model, component, component_of){
-                            return model;
+                            if(component == 0)
+                                return _.capitalize(model);
+                            else
+                                return "accessorio di "+_.capitalize(model);
                         }
 
                         function getSubtitle(model, component, component_of, category){
                             if(component == 0)
                                 return _.capitalize(category)+" - Panzeri";
                             else{
-                                var asset = getAsset(component_of);
-                                return "accessorio di "+ asset.model +" "+ asset.category+" - Panzeri";
+                                return "accessorio di "+ component_of +" "+ category+" - Panzeri";
                             }
                         }
 
@@ -4530,8 +4564,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 category.push("outdoor");
             
             if(component == 1)
-                category.push("accessorio");
-            
+                category.push("accessorio");            
             
             return (_.isArray(category))? category.toString().toLowerCase() : (_.is(category))? category.toLowerCase() : "";
                 
@@ -4567,7 +4600,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             component_of:           component_of,                                                   // se l'articolo è un componente ritorna il modello di cui è componente
             size:                   size,                                                           // piuccola, media, grande,....
             outdoor:                (outdoor==0 || outdoor == undefined)? "no" : "yes",                                     // se è da esterno o meno
-            category:               getFinalCategory(category, outdoor, component),             // terra, tavolo, sospensione, soffitto, parete, montatura, kit, diffusore, set,
+            category:               getFinalCategory(category, outdoor, component),                 // terra, tavolo, sospensione, soffitto, parete, montatura, kit, diffusore, set,
             wire_length:            wire_length,                                                    // se c'è dice quanto è lungo il cavo (in foscarini è una variante)
             max_discount:           max_discount * 100,                                             // massimo sconto applicabile espresso come frazione di uno viene qui moltiplicato per 100
             sale:                   sale,                                                           // 0 o 1 serve a prestashop per capire se c'è uno sconto o meno
