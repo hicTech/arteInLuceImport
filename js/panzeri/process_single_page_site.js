@@ -1983,23 +1983,23 @@ var single_pages = [
 
 
 var single_pages = [
-           {
-        "uri": "http://www.panzeri.it/prodotti/design/indoor/agave/",
-        "model": "AGAVE",
+    {
+        "uri": "http://www.panzeri.it/prodotti/design/indoor/brooklyn line/",
+        "model": "BROOKLYN LINE",
         "projects": [
-            "http://www.panzeri.it//media/FFS/Agave.jpg",
-            "http://www.panzeri.it//media/FFS/Agave-3.jpg",
-            "http://www.panzeri.it//media/FFS/Agave-4.jpg",
-            "http://www.panzeri.it//media/FFS/Agave-8.jpg",
-            "http://www.panzeri.it//media/FFS/Agave-9.jpg"
+            "http://www.panzeri.it//media/FFS/ventitrentatre_slider_NEW.jpg",
+            "http://www.panzeri.it//media/FFS/ventitrentatre_copertina.jpg",
+            "http://www.panzeri.it//media/FFS/Ventitrentatre.jpg",
+            "http://www.panzeri.it//media/FFS/Ventitrentatre-3.jpg",
+            "http://www.panzeri.it//media/FFS/Ventitrentare-2.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/agave/l03001.050.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/agave/l03001.070.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/agave/l03001.090.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/agave/p03001.050.0000/"
+            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20line/l23301.100.0101/",
+            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20line/l23302.100.0101/",
+            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20line/l23301.150.0101/",
+            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20line/l23302.150.0101/"
         ]
-    }
+    },
 ]
 
 
@@ -2029,6 +2029,10 @@ var pages_number = arr_singole_pagine.length;
 var info = [];
 
 var index = 0;
+
+setInterval(function(){
+    _.log(_.toStr(info))
+},90000)
 
 
 
@@ -2071,20 +2075,51 @@ function createJsonFromAPage(body, uri, single_page_obj){
     var id = S(title).between("- ").s.trim();
     var primary_pic = $body.find(".c5").find("img").eq(0).attr("src");
     var light_schema = $body.find(".c5").find(".configuratore").find("img").eq(0).attr("src");
+    var more_info = {};
+
+    
+    $body.find(".schedatecnica").eq(0).find("tbody").eq(0).find("tr").each(function(){
+        var label = $(this).find("th").html();
+        var value = $(this).find("td").html();
+        more_info[label] = value;
+    });
+
+    var downloads = [];
+
+    $body.find(".allegati").eq(0).find("a").each(function(){
+        if($(this).html() == "_ Scheda tecnica"){
+            downloads.push({
+                title : "scheda_tecnica",
+                uri: "http://www.panzeri.it"+$(this).attr("href")
+            })
+        }
+        if($(this).html() == "_ Foglio di istruzioni"){
+            downloads.push({
+                title : "foglio_illustrativo",
+                uri: "http://www.panzeri.it"+$(this).attr("href")
+            })
+        }
+    });
+
+
     
     info.push({
         family_uri: single_page_obj.family_uri,
+        single_product_uri: uri,
         model: single_page_obj.model,
         projects: single_page_obj.projects,
         id: id,
         model_from_site : model,
         primary_pic : "http://www.panzeri.it"+primary_pic,
         light_schema : "http://www.panzeri.it"+light_schema,
+        more_info : more_info,
+        downloads : downloads,
     })
 
 
 
     index++;
+    
     avvia(index);
     
 
