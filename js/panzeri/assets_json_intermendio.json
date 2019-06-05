@@ -1,21 +1,5 @@
-var _ = require("../../lib/_node.js");
-var S = require('string');
-var request = require("request");
-var fs = require('fs');
-const puppeteer = require('puppeteer');
+[
 
-var jsdom = require("jsdom");
-const { JSDOM } = jsdom;
-const { window } = new JSDOM();
-const { document } = (new JSDOM('')).window;
-global.document = document;
-
-var $ = jQuery = require('jquery')(window);
-
-
-// questo è l'array di tutti gli oggetti pagina devi copiarlo/incollarlo da assets_json.json
-var single_pages = [
-    
     {
         "uri": "http://www.panzeri.it/prodotti/design/indoor/agave/",
         "model": "AGAVE",
@@ -184,11 +168,6 @@ var single_pages = [
             "http://www.panzeri.it/prodotti/design/indoor/carmencita/a06402.000.0101/"
         ]
     },
-    
-
-
-
-
     {
         "uri": "http://www.panzeri.it/prodotti/design/indoor/classic/",
         "model": "CLASSIC",
@@ -424,9 +403,6 @@ var single_pages = [
             "http://www.panzeri.it/prodotti/design/indoor/floral/l01322.060.0000/"
         ]
     },
-
-    
-
     {
         "uri": "http://www.panzeri.it/prodotti/design/indoor/giano/",
         "model": "GIANO",
@@ -680,9 +656,6 @@ var single_pages = [
             "http://www.panzeri.it/prodotti/design/indoor/line/l03630.000.0100/"
         ]
     },
-
-    
-
     {
         "uri": "http://www.panzeri.it/prodotti/design/indoor/olivia/",
         "model": "OLIVIA",
@@ -726,8 +699,6 @@ var single_pages = [
             "http://www.panzeri.it/prodotti/design/indoor/olivia/m09777.000.0200/"
         ]
     },
-    
-    
     {
         "uri": "http://www.panzeri.it/prodotti/design/indoor/one/",
         "model": "ONE",
@@ -798,8 +769,6 @@ var single_pages = [
             "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/x08301.070.0107/"
         ]
     },
-
-    
     {
         "uri": "http://www.panzeri.it/prodotti/design/indoor/silver ring/",
         "model": "SILVER RING",
@@ -892,8 +861,6 @@ var single_pages = [
             "http://www.panzeri.it/prodotti/design/indoor/three/p03919.015.0106/"
         ]
     },
-
-    
     {
         "uri": "http://www.panzeri.it/prodotti/design/indoor/to-be/",
         "model": "TO-BE",
@@ -1620,14 +1587,6 @@ var single_pages = [
             "http://www.panzeri.it/prodotti/architectural/incassi/joe.q/xa2116/"
         ]
     },
-
-
-
-
-
-
-    
-
     {
         "uri": "http://www.panzeri.it/prodotti/architectural/incassi/joe twist/",
         "model": "JOE TWIST",
@@ -1753,7 +1712,6 @@ var single_pages = [
             "http://www.panzeri.it/prodotti/architectural/incassi/xgq1032/xgq1032 led/"
         ]
     },
-    
     {
         "uri": "http://www.panzeri.it/prodotti/architectural/incassi/xgq1034/",
         "model": "XGQ1034",
@@ -2006,196 +1964,3 @@ var single_pages = [
         ]
     }
 ]
-
-
-/*
-
-var single_pages = [
-
-    {
-        "uri": "http://www.panzeri.it/prodotti/architectural/spotlight/soho spot nano/",
-        "model": "SOHO SPOT NANO",
-        "projects": [],
-        "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/spotlight/soho%20spot%20micro/b75401.021.2516/"
-        ]
-    }
-]
-
-*/
-
-
-var arr_singole_pagine = [];
-
-_.each(single_pages,function(elem){
-    _.each(elem.link_varianti,function(item){
-        arr_singole_pagine.push({
-            family_uri: elem.uri,
-            model: elem.model,
-            projects: elem.projects,
-            single_variant : item,
-        })
-    })
-})
-
-//_.log(_.toStr(arr_singole_pagine))
-
-
-
-var pages_number = arr_singole_pagine.length; 
-
-
-
-var info = [];
-
-var index = 0;
-
-/*
-setInterval(function(){
-    _.log(_.toStr(info))
-},90000)
-*/
-
-
-avvia(index);
-
-function avvia(index){
-
-    if(index == pages_number ){
-        fs.writeFile('assets_json.json', JSON.stringify(info, null, 4), 'utf8', function(){
-            _.log("FINITO");
-        });
-        return true;
-    }
-    else{
-        var uri = arr_singole_pagine[index].single_variant;
-        _.log("processo: "+uri+" mancano: "+parseInt(pages_number-1-index))
-        
-        request({
-            uri: encodeURI(uri),
-        }, function(error, response, body) {
-            createJsonFromAPage(body, uri, arr_singole_pagine[index]);
-        });
-        
-
-    }
-}
-
-
-
-
-
-
-
-var arr_single_product = [];
-
-function createJsonFromAPage(body, uri, single_page_obj){
-
-
-
-
-
-
-
-    (async() => {
-        const browser = await puppeteer.launch();
-        const page = await browser.newPage();
-
-        
-        
-        await page.goto(uri);
-
-       
-        
-        let preloaded_bodyHTML = await page.evaluate(() => document.body.innerHTML);
-
-
-        _.log("comunque aspettto")
-        await page.waitFor(500);
-        _.log("HO ASPETTATO");
-        _.log(_.toStr(info))
-
-
-        preloaded_bodyHTML = await page.evaluate(() => document.body.innerHTML);
-        
-       
-        var $body = $(preloaded_bodyHTML);
-
-        var title = $body.find("h1").eq(0).html();
-        var model = S(title).between(""," -").s;
-        var id = S(title).between("- ").s.trim();
-        var primary_pic = $body.find(".c5").find("img").eq(0).attr("src");
-
-        var light_schema = $body.find(".c5").find(".configuratore").find("img").eq(0).attr("src");
-        var more_info = {};
-
-
-        $body.find(".schedatecnica").eq(0).find("tbody").eq(0).find("tr").each(function(){
-            var label = $(this).find("th").html();
-            var value = $(this).find("td").text();
-            more_info[label] = value;
-        });
-
-        var downloads = [];
-
-        $body.find(".allegati").eq(0).find("a").each(function(){
-            if($(this).html() == "_ Scheda tecnica"){
-                downloads.push({
-                    title : "scheda_tecnica",
-                    uri: "http://www.panzeri.it"+$(this).attr("href")
-                })
-            }
-            if($(this).html() == "_ Foglio di istruzioni"){
-                downloads.push({
-                    title : "foglio_illustrativo",
-                    uri: "http://www.panzeri.it"+$(this).attr("href")
-                })
-            }
-        });
-
-
-
-        info.push({
-            family_uri: single_page_obj.family_uri,
-            single_product_uri: uri,
-            model: single_page_obj.model,
-            projects: single_page_obj.projects,
-            id: id,
-            model_from_site : model,
-            primary_pic : ( _.is(primary_pic) )? "http://www.panzeri.it"+primary_pic : "non_presenta",
-            light_schema : ( _.is(light_schema) )? "http://www.panzeri.it"+light_schema : "non_presenta",
-            more_info : more_info,
-            downloads : downloads,
-        })
-        
-        
-        
-        await browser.close();
-
-       
-    
-        index++;
-        
-        avvia(index);
-
-
-    })();
-
-
-
-
-
-    /*
-
-    
-
-    index++;
-    
-    avvia(index);
- */
-   
-
-}
-
-
-

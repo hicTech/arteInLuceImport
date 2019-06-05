@@ -176,7 +176,7 @@ function avvia(index){
 
 
     if(index == pages_number){
-        fs.writeFile('assets_json.json', JSON.stringify(arr_single_product, null, 4), 'utf8', function(){
+        fs.writeFile('assets_json_intermendio.json', JSON.stringify(arr_single_product, null, 4), 'utf8', function(){
             _.log("FINITO");
         });
         return true;
