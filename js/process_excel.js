@@ -4244,8 +4244,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         wire_length = undefined;
                         
                         title = getTitle(model, component, component_of);
-                        pic = ( _.is( getAsset(model_id) ) ) ? getAsset(model_id).primary_pic : "";
-                        light_schema = ( _.is( getAsset(model_id) ) && getAsset(model_id).light_schema != "light_schema" ) ? getAsset(model_id).light_schema : "";
+                        pic = ( _.is( getAsset(model_id) ) ) ? getAsset(model_id).primary_pic : undefined;
+                        light_schema = ( _.is( getAsset(model_id) ) && getAsset(model_id).light_schema != "light_schema" ) ? getAsset(model_id).light_schema : undefined;
                         subtitle = getSubtitle(model, component, component_of, category);
                         model_variant = undefined;
                         otherColors = undefined;
@@ -4264,11 +4264,11 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
 
 
-                        //product_images =            getProductImages(pic, projects, otherColors, light_schema, component, "img");
-                        //product_images_alt =        getProductImages(pic, projects, otherColors, light_schema, component, "alt");
+                        product_images =            getProductImages(pic, projects, light_schema, "img");
+                        product_images_alt =        getProductImages(pic, projects, light_schema, "alt");
 
-                        //combination_images =        getCombinationImages(pic, otherColors, light_schema, component, "img");
-                        //combination_images_alt =    getCombinationImages(pic, otherColors, light_schema, component, "alt");
+                        combination_images =        getCombinationImages(pic, projects, light_schema, "img");
+                        combination_images_alt =    getCombinationImages(pic, projects, light_schema, "alt");
 
                         
 
@@ -4412,6 +4412,46 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         }
 
 
+                        function getProductImages(pic, projects, light_schema, caso){
+                            // questa funziona ritorna le foto per i soli 587 articoli che hanno asset ovvero che matchano col sito
+                            if( _.is(pic) ){
+
+                                var arr_alts = ["pic"];
+                                _.each(projects,function(){
+                                    arr_alts.push("projects");
+                                });
+
+                                // clono l'array projects per stare tranquillo
+                                var arr_imgs  = Object.assign([], projects);
+                                arr_imgs.unshift(pic);
+                                
+                                //_.log(arr_alts.length+ - arr_imgs.length)
+
+                                if(caso == "img")
+                                    return S( arr_imgs.toString() ).replaceAll(",","|").s;
+                                if(caso == "alt")
+                                    return S( arr_alts.toString() ).replaceAll(",","|").s;
+                                
+                            }
+                                
+                        }
+
+                        function getCombinationImages(pic, projects, light_schema, caso){
+                            // questa funziona ritorna le foto per i soli 587 articoli che hanno asset ovvero che matchano col sito
+                            if( _.is(pic) ){
+
+                                // per panzeri i 587 articoli hanno sempre una ed una sola pic ed una ed una solo light_schema
+                                var arr_imgs = [pic,light_schema];
+                                var arr_alts = ["pic","light_schema"];
+
+                                if(caso == "img")
+                                    return S( arr_imgs.toString() ).replaceAll(",","|").s;
+                                if(caso == "alt")
+                                    return S( arr_alts.toString() ).replaceAll(",","|").s;
+                                
+                            }
+                                
+                        }
 
 
 
@@ -5505,11 +5545,12 @@ function postProduci(json,fornitore){
 
     if(fornitore=="panzeri"){
         
-
+        /*
         var json_prodotti = [];
         // [1]
         // creo hicid è l'id del articolo primario che viene messo a tutte le sue varianti
         // l'articolo primario viene pompato in json_prodotti col price a zero
+        // per panzeri 
         var registro = {};
         
         _.each(json, function(elem,index){
@@ -5589,21 +5630,7 @@ function postProduci(json,fornitore){
                     //var cleaned_feature = "'"+ feature.replace("<p>","").replace("</p>","") + "'";
 
                 })
-                /*
-                csv += "codice fornitore :"         +"'"+ obj.more.codice_articolo +"'"+" : "+              parseInt(pos)+" , ";
-                csv += "ambiente :"                 +"'"+ obj.more.ambiente +"'"+" : "+                     parseInt(pos+1)+" , ";
-                csv += "finitura :"                 +"'"+ obj.more.finitura +"'"+" : "+                     parseInt(pos+2)+" , ";
-                csv += "peso :"                     +"'"+ obj.more.peso +"'"+" : "+                         parseInt(pos+3)+" , ";
-                csv += "descrizione tecnica :"      +"'"+ obj.more.descrizione_tecnica +"'"+" : "+          parseInt(pos+4)+" , ";
-                csv += "emergenza :"                +"'"+ obj.more.emergenza +"'"+" : "+                    parseInt(pos+5)+" , ";
-                csv += "regolazione :"              +"'"+ obj.more.regolazione +"'"+" : "+                  parseInt(pos+6)+" , ";
-                csv += "voltaggio :"                +"'"+ obj.more.voltaggio +"'"+" : "+                    parseInt(pos+7)+" , ";
-                csv += "potenza :"                  +"'"+ obj.more.potenza +"'"+" : "+                      parseInt(pos+8)+" , ";
-                csv += "batteria :"                 +"'"+ obj.more.batteria +"'"+" : "+                     parseInt(pos+9)+" , ";
-                csv += "alimentatore incluso :"     +"'"+ obj.more.alimentatore_incluso +"'"+" : "+         parseInt(pos+10)+" , ";
-                csv += "lunghezza cavo (mm) :"      +"'"+ obj.more['lunghezza_del_cavo_(mm)'] +"'"+" : "+   parseInt(pos+11)+" , ";
-                csv += "materiale :"                +"'"+ obj.more.materiale_di_costruzione +"'"+" : "+     parseInt(pos+12)+" , ";
-                */
+              
             }
            
             
@@ -5658,6 +5685,8 @@ function postProduci(json,fornitore){
                 elem.accessories = component_of_hicId;
             }
         });
+
+        */
         
 
         
