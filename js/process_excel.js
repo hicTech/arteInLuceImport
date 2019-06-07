@@ -5545,7 +5545,7 @@ function postProduci(json,fornitore){
 
     if(fornitore=="panzeri"){
         
-        /*
+        
         var json_prodotti = [];
         // [1]
         // creo hicid è l'id del articolo primario che viene messo a tutte le sue varianti
@@ -5686,7 +5686,7 @@ function postProduci(json,fornitore){
             }
         });
 
-        */
+        
         
 
         
