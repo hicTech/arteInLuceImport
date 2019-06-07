@@ -158,7 +158,7 @@ fs.readdir(path, function(err, cartella_fornitore) {
 
                                                         var pagination = false;
 
-                                                        var randomizza = false;
+                                                        var randomizza = true;
 
                                                         if(!randomizza)
                                                             random_number = "";
@@ -4825,7 +4825,7 @@ function cleanedFeature(feature){
         var $feature = $("<div>"+ feature +"</div>");
         // devo fare questo perchè se ci sono virgole nel testo spezzano il CSV
         //var ret = S($feature.text()).replaceAll(",","").s;
-        return S($feature.text()).replaceAll(":","").replaceAll("|"," ").replaceAll("="," ").s.substr(0,255);
+        return S($feature.text()).replaceAll(":","").replaceAll("|"," ").replaceAll("="," ").s.substr(0,255); // 255 caratteri è un limite imposta da prestashop
     }
     
 }
@@ -5550,7 +5550,6 @@ function postProduci(json,fornitore){
         // [1]
         // creo hicid è l'id del articolo primario che viene messo a tutte le sue varianti
         // l'articolo primario viene pompato in json_prodotti col price a zero
-        // per panzeri 
         var registro = {};
         
         _.each(json, function(elem,index){
@@ -5567,42 +5566,22 @@ function postProduci(json,fornitore){
         })
 
 
-        // aggiungo gli accessori di ogni articolo
-        _.each(json, function(elem){
-            if( elem.component == 1 ){
-                var cod_component = elem.hicId;
-                var cod_item = elem.component_of;
-
-                _.each(json, function(item, index){
-                    
-                    if(!_.is(item["accessories"]))
-                        item["accessories"] = "";
-                    
-                    if(item.model_id == cod_item ){
-                        //var new_accessories = item["accessories"] + cod_component+";";
-                        item["accessories"] += (item["accessories"] != "" )? "|"+cod_component : cod_component
-
-                    }
-                    
-                    
-                });
-            }
-        });
+        
 
 
 
         
         _.each(json, function(elem){
             // aggiungo le features che sono le proprietà statiche dell'articolo
-            elem["features"] = inlineCSVFeaturesFlos(elem,["category","outdoor"])
+            elem["features"] = inlineCSVFeaturesPanzeri(elem,["category","outdoor"])
 
             // aggiungo attributi e valori
-            elem["attributes"] = inlineCSVFlos(elem,[["color","select"]])
-            elem["values"] = inlineCSVFlos(elem,["color"],"values")
+            elem["attributes"] = inlineCSVPAanzeri(elem,["color"])
+            elem["values"] = inlineCSVPAanzeri(elem,["color"],"values")
         });
 
 
-        function inlineCSVFeaturesFlos(obj,arr){
+        function inlineCSVFeaturesPanzeri(obj,arr){
             let csv = "";
             let pos = 0;
             _.each(arr,function(elem){
@@ -5618,18 +5597,23 @@ function postProduci(json,fornitore){
             //  alle features aggiungo i dati presenti in more (more c'è solo negli articoli componento == 0)
             if(obj.component == 0){
                 _.each(obj.more, function(feature, key){
-                    var cleaned_feature = cleanedFeature(feature);
+                    var cleaned_feature = ripulisciUlteriormentePerPanzeri( cleanedFeature(feature) )
 
                     if(_.is(cleaned_feature)){
-                        //if(key!="descrizione_tecnica"){
-                            csv += key +' : '+ cleaned_feature +' : '+ pos +':1 | ';
+                        if(key!="Codice articolo"){ // escludo il codice articolo visto che è relativo alla variante
+                            csv += ripulisciUlteriormentePerPanzeri(key) +' : '+ cleaned_feature +' : '+ pos +':1 | ';
                             pos++;
-                        //}
+                        }
                         
                     } 
                     //var cleaned_feature = "'"+ feature.replace("<p>","").replace("</p>","") + "'";
 
-                })
+                });
+
+                function ripulisciUlteriormentePerPanzeri(str){
+                    // per panzeri è stato necessario eliminare questi caratteri perchè rompevano all'importing
+                    return S(str).replaceAll("."," ").replaceAll(")","").replaceAll("(","").replaceAll(",","").replaceAll(">"," maggiore di ").replaceAll("<"," minore di ").replaceAll("/","-").s
+                }
               
             }
            
@@ -5638,7 +5622,7 @@ function postProduci(json,fornitore){
             return csv.substring(0, csv.length - 3);
         }
 
-        function inlineCSVFlos(obj,arr, caso){
+        function inlineCSVPAanzeri(obj,arr, caso){
             
             let pos = 0;
             if(!_.is(caso)){ // caso dei attributes
@@ -5657,8 +5641,9 @@ function postProduci(json,fornitore){
                 }
                 else{ // caso di attributes
                     pos++;
-                    var etichetta = (etichetta=="color")? "colore" : "nome_attributo_non_trovato";
-                    var singleton = etichetta +" : "+ elem[1] +" : "+ pos+" | ";
+                    
+                    var etichetta = (elem=="color")? "colore" : "nome_attributo_non_trovato";
+                    var singleton = etichetta +" : "+ elem +" : "+ pos+" | ";
                 }
                 
                 csv += (_.is(singleton))? singleton : "";
