@@ -4258,8 +4258,11 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
 
 
-                        //if(_.is(getAsset(model_id)))
-                            //_.log(count++)
+                        // dopo aver calcolato diverse cose siamo pronti a ridefinire (perfezionare/aumentare il model)
+                        // in modo che sia l'id del prodotto unico per le sue varianti per Panzeri è dato dalla somma di model + category
+                        
+                        model = model +" "+ category;
+
 
 
 
@@ -5104,7 +5107,6 @@ function postProduci(json,fornitore){
         _.each(json, function(elem,index){
             
             if( !_.is(registro[elem.model]) ){
-                
                 registro[elem.model] = elem.hicId;
                 var new_elem = Object.assign({}, elem);
                 new_elem.price = 0;
@@ -5545,6 +5547,14 @@ function postProduci(json,fornitore){
 
     if(fornitore=="panzeri"){
         
+        var json_con_foto = [];
+        _.each(json,function(elem){
+            if( _.is(elem.product_images) ){ // alcuni prodotti panzeri sono senza immagine (perchè non rilevati dal sito) questi li eliminiamo non pushandoli
+                json_con_foto.push(elem);
+            }
+        })
+
+        json = json_con_foto;
         
         var json_prodotti = [];
         // [1]
@@ -5563,7 +5573,9 @@ function postProduci(json,fornitore){
                 elem.hicId = registro[elem.model];
             }
             
-        })
+        });
+
+        
 
 
         
@@ -5616,8 +5628,7 @@ function postProduci(json,fornitore){
                 }
               
             }
-           
-            
+                    
             // tolgo l'ultima virgola
             return csv.substring(0, csv.length - 3);
         }
@@ -5636,14 +5647,17 @@ function postProduci(json,fornitore){
                 if(_.is(caso)){ // caso dei values
                     if( _.is(obj[elem]) ){
                         pos++;
-                        var singleton = obj[elem] +" : "+ pos +" | ";
+                        var cod = S(obj.item_id).replaceAll(".","_").s;
+                        var singleton = obj[elem]+" "+cod+" : "+ pos +" | ";
+                        
                     }
                 }
                 else{ // caso di attributes
                     pos++;
-                    
+                   
                     var etichetta = (elem=="color")? "colore" : "nome_attributo_non_trovato";
                     var singleton = etichetta +" : "+ elem +" : "+ pos+" | ";
+                    
                 }
                 
                 csv += (_.is(singleton))? singleton : "";
