@@ -61,7 +61,7 @@
         "meta_description": "GIANO Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PROFILI in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : profili : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 48W-m : 2:1 | Sorgente luminosa : LED : 3:1 | Distribuzione luminosa : fascio diffuso : 4:1 | Alimentazione : 220-240V AC : 5:1 | Frequenza : 50-60Hz : 6:1 | Driver : integrato non incluso : 7:1 | Peso : 19540Kg : 8:1 | Grado di protezione : IP40 : 9:1 | Dimensioni imballo cm : 14 x 141 x 14 : 10:1 | Note : Fornito completo di schermi diffusori : 11:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco/schermo opalino XP24646_100_0099 : 1"
     },
     {
@@ -121,7 +121,7 @@
         "meta_description": "AGAVE Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PLAFONIERA in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : plafoniera : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 205W : 2:1 | Sorgente luminosa : LED retrofit - fluorescente compatta - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb E27 L max 115mm - Ø max 65mm - max 23W Micro Twist E27 - max 205W E27 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 92850Kg : 9:1 | Grado di protezione : IP20 : 10:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco P03001_050_0000 : 1"
     },
     {
@@ -181,7 +181,7 @@
         "meta_description": "AGAVE Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 205W + 75W : 2:1 | Sorgente luminosa : LED retrofit - fluorescente compatta - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb E27 L max 140mm - Ø max 65mm - max 30W Superstar E27 - max 205W E27    + LED retrofit spot GU10 L max 60mm - Ø max 60mm : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 115500Kg : 9:1 | Grado di protezione : IP20 : 10:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco L03001_050_0000 : 1"
     },
     {
@@ -239,7 +239,7 @@
         "meta_description": "NOLITA Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PROFILI in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : profili : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 46W-m : 2:1 | Sorgente luminosa : LED : 3:1 | Distribuzione luminosa : fascio diffuso : 4:1 | Alimentazione : 220-240V AC : 5:1 | Frequenza : 50-60Hz : 6:1 | Driver : integrato non incluso : 7:1 | Peso : 13200Kg : 8:1 | Grado di protezione :  IP40  IP20 : 9:1 | Dimensioni imballo cm : 14 x 65 x 14 : 10:1 | Note : Fornito completo di schermo monouso + schermo diffusore : 11:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco XG2038-60TRACK JOLLY : 1"
     },
     {
@@ -306,7 +306,7 @@
         "meta_description": "ALDECIMO Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 21W : 2:1 | Efficienza luminosa : 44 43lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B20 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : regolazione bilevel : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 2920lm : 12:1 | Flusso luminoso uscente : 933lm : 13:1 | Rendimento : 31 952% : 14:1 | Peso : 12800Kg : 15:1 | Grado di protezione : IP20 : 16:1 | Costanza cromatica : SDCM 3 : 17:1 | Dimensioni imballo cm : 40 x 16 x 40 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco X02201_030_0112 : 1"
     },
     {
@@ -373,7 +373,7 @@
         "meta_description": "APP Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 17W : 2:1 | Efficienza luminosa : 88 82lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Elettrificazione : ON-OFF : 9:1 | Driver : integrato incluso : 10:1 | Flusso luminoso nominale : 1510lm : 11:1 | Flusso luminoso uscente : 1510lm : 12:1 | Rendimento : 100 000% : 13:1 | Peso : 09920Kg : 14:1 | Grado di protezione : IP20 : 15:1 | Costanza cromatica : SDCM 3 : 16:1 | Dimensioni imballo cm : 16 x 30 x 14 : 17:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco A09801_001_0106 : 1"
     },
     {
@@ -430,7 +430,7 @@
         "meta_description": "CORNER Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PROFILI in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : profili : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 24W-m : 2:1 | Sorgente luminosa : LED : 3:1 | Distribuzione luminosa : fascio diffuso : 4:1 | Alimentazione : 24V DC : 5:1 | Driver : remoto non incluso : 6:1 | UGR :  minore di  19 : 7:1 | Peso : 20450Kg : 8:1 | Grado di protezione :  IP40  IP20 : 9:1 | Dimensioni imballo cm : 8 x 8 x 314 : 10:1 | Note : Fornito completo di schermo diffusore : 11:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco XG2045-300TRACK : 1"
     },
     {
@@ -498,7 +498,7 @@
         "meta_description": "BLANCA Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 70W : 2:1 | Efficienza luminosa : 63 13lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L90 B10 50 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : dimmerabile DALI-Push DIM : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 7925lm : 12:1 | Flusso luminoso uscente : 4419lm : 13:1 | Rendimento : 55 760% : 14:1 | Peso : 39010Kg : 15:1 | Grado di protezione : IP40 : 16:1 | Costanza cromatica : SDCM 3 : 17:1 | Dimensioni imballo cm : 69 x 69 x 34 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | marrone metallizzato L05744_060_0102 : 1"
     },
     {
@@ -557,7 +557,7 @@
         "meta_description": "BROOKLYN Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PROFILI in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : profili : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 24W-m : 2:1 | Sorgente luminosa : LED : 3:1 | Distribuzione luminosa : fascio diffuso : 4:1 | Alimentazione : 24V DC : 5:1 | Driver : remoto non incluso : 6:1 | Peso : 22050Kg : 7:1 | Grado di protezione :  IP40  IP20 : 8:1 | Dimensioni imballo cm : 55 x 55 x 315 : 9:1 | Note : Fornito completo di schermo monouso + schermo diffusore : 10:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco XG2033-300TRACK : 1"
     },
     {
@@ -619,7 +619,7 @@
         "meta_description": "INVISIBILI Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da FARETTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : faretto : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 15W : 2:1 | Efficienza luminosa : 85 4lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 5:1 | Distribuzione luminosa : fascio asimmetrico : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Elettrificazione : ON-OFF : 9:1 | Driver : integrato incluso : 10:1 | Flusso luminoso nominale : 2100lm : 11:1 | Flusso luminoso uscente : 1281lm : 12:1 | Rendimento : 61 000% : 13:1 | Peso : 19120Kg : 14:1 | Grado di protezione : IP20 : 15:1 | Dimensioni imballo cm : 11 x 32 x 22 : 16:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | gesso XGQ1210 LED : 1"
     },
     {
@@ -676,7 +676,7 @@
         "meta_description": "MANHATTAN Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PROFILI in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : profili : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 35W-m : 2:1 | Sorgente luminosa : LED : 3:1 | Distribuzione luminosa : fascio diffuso : 4:1 | Alimentazione : 24V DC : 5:1 | Driver : remoto non incluso : 6:1 | Peso : 26350Kg : 7:1 | Grado di protezione : IP20 : 8:1 | Dimensioni imballo cm : 10 x 205 x 10 : 9:1 | Note : Fornito completo di supporto per LED + schermo diffusore : 10:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco XG2044-200TRACK : 1"
     },
     {
@@ -745,7 +745,7 @@
         "meta_description": "BROOKLYN LINE Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 20W : 2:1 | Efficienza luminosa : 49 1lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B20 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : ON-OFF : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 2150lm : 12:1 | Flusso luminoso uscente : 982lm : 13:1 | Rendimento : 45 674% : 14:1 | Peso : 19600Kg : 15:1 | Grado di protezione : IP20 : 16:1 | Resistenza alla prova del filo incandescente : 850° : 17:1 | Costanza cromatica : SDCM 3 : 18:1 | Dimensioni imballo cm : 13 x 142 x 13 : 19:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco L23301_100_0101 : 1"
     },
     {
@@ -816,7 +816,7 @@
         "meta_description": "BROOKLYN ROUND Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 29W : 2:1 | Efficienza luminosa : 36 72lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B20 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : dimmerabile DALI-Push DIM : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 3227lm : 12:1 | Flusso luminoso uscente : 1065lm : 13:1 | Rendimento : 33 003% : 14:1 | Peso : 19900Kg : 15:1 | Grado di protezione : IP40 : 16:1 | Resistenza alla prova del filo incandescente : 850° : 17:1 | Costanza cromatica : SDCM 3 : 18:1 | Dimensioni imballo cm : 13 x 108 x 57 : 19:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco L23101_180_0102 : 1"
     },
     {
@@ -887,7 +887,7 @@
         "meta_description": "BROOKLYN ROUND Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PLAFONIERE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : plafoniere : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 29W : 2:1 | Efficienza luminosa : 36 72lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B20 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : dimmerabile DALI-Push DIM : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 3227lm : 12:1 | Flusso luminoso uscente : 1065lm : 13:1 | Rendimento : 33 003% : 14:1 | Peso : 19900Kg : 15:1 | Grado di protezione : IP40 : 16:1 | Resistenza alla prova del filo incandescente : 850° : 17:1 | Costanza cromatica : SDCM 3 : 18:1 | Dimensioni imballo cm : 13 x 108 x 57 : 19:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco P23101_180_0102 : 1"
     },
     {
@@ -949,7 +949,7 @@
         "meta_description": "BROOKLYN ROUND Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PROFILI in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : profili : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 132W : 2:1 | Sorgente luminosa : LED : 3:1 | Distribuzione luminosa : fascio diffuso : 4:1 | Alimentazione : 24V DC : 5:1 | Driver : remoto non incluso : 6:1 | Peso : 07030Kg : 7:1 | Grado di protezione :  IP40  IP20 : 8:1 | Dimensioni imballo cm : 7 x 72 x 28 : 9:1 | Note : Fornito completo di schermo monouso + schermo diffusore : 10:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco XG23101_090_0099 : 1"
     },
     {
@@ -1017,7 +1017,7 @@
         "meta_description": "QUEENS Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da FARETTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : faretto : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 12W : 2:1 | Efficienza luminosa : 101 75lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B10 50 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 90 : 6:1 | Distribuzione luminosa : fascio orientabile : 7:1 | Apertura fascio : 30° : 8:1 | Alimentazione : 220-240V AC : 9:1 | Frequenza : 50-60Hz : 10:1 | Elettrificazione : ON-OFF : 11:1 | Driver : integrato incluso : 12:1 | Flusso luminoso nominale : 1469lm : 13:1 | Flusso luminoso uscente : 1221lm : 14:1 | Rendimento : 83 118% : 15:1 | UGR :  minore di  11 : 16:1 | Peso : 05700Kg : 17:1 | Grado di protezione : IP20 : 18:1 | Resistenza alla prova del filo incandescente : 850° : 19:1 | Dimensioni imballo cm : 11 x 30 x 12 : 20:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco XM748-12-01-3K : 1"
     },
     {
@@ -1076,7 +1076,7 @@
         "meta_description": "CANDLE Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 48W : 2:1 | Sorgente luminosa : LED retrofit - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb G9 L max 60mm - Ø max 175mm - max 48W G9 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 03650Kg : 9:1 | Grado di protezione : IP20 : 10:1 | Dimensioni imballo cm : 13 x 65 x 13 : 11:1 | Note : Fornito senza rosone per composizioni multiple : 12:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco M09501_000_0000 : 1"
     },
     {
@@ -1145,7 +1145,7 @@
         "meta_description": "CARMEN Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 13W : 2:1 | Efficienza luminosa : 74 38lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B20 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : ON-OFF : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 1340lm : 12:1 | Flusso luminoso uscente : 967lm : 13:1 | Rendimento : 72 164% : 14:1 | Peso : 17900Kg : 15:1 | Grado di protezione : IP20 : 16:1 | Resistenza alla prova del filo incandescente : 850° : 17:1 | Costanza cromatica : SDCM 3 : 18:1 | Dimensioni imballo cm : 22 x 63 x 32 : 19:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco A06401_000_0101 : 1"
     },
     {
@@ -1214,7 +1214,7 @@
         "meta_description": "CARMEN Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PLAFONIERE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : plafoniere : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 285W : 2:1 | Efficienza luminosa : 83 33lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B20 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : ON-OFF : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 3225lm : 12:1 | Flusso luminoso uscente : 2375lm : 13:1 | Rendimento : 73 643% : 14:1 | Peso : 41350Kg : 15:1 | Grado di protezione : IP20 : 16:1 | Resistenza alla prova del filo incandescente : 850° : 17:1 | Costanza cromatica : SDCM 3 : 18:1 | Dimensioni imballo cm : 19 x 139 x 31 : 19:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco P06401_002_0101 : 1"
     },
     {
@@ -1273,7 +1273,7 @@
         "meta_description": "CLASSIC Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TAVOLO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 53W : 2:1 | Sorgente luminosa : LED retrofit - fluorescente compatta - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb E27 L max 120mm - Ø max 65mm - max 18W Micro Twist E27 - max 53W E27 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 13030Kg : 9:1 | Grado di protezione : IP20 : 10:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | ottone lucido C02420_001_0000 : 1"
     },
     {
@@ -1332,7 +1332,7 @@
         "meta_description": "CLASSIC Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 53W : 2:1 | Sorgente luminosa : LED retrofit - fluorescente compatta - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb E27 L max 120mm - Ø max 65mm - max 18W Micro Twist E27 - max 53W E27 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 08350Kg : 9:1 | Grado di protezione : IP20 : 10:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | ottone lucido A02420_001_0000 : 1"
     },
     {
@@ -1391,7 +1391,7 @@
         "meta_description": "CLASSIC Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TERRA in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 70W : 2:1 | Sorgente luminosa : LED retrofit - fluorescente compatta - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb E27 L max 120mm - Ø max 65mm - max 23W Micro Twist E27 - max 70W E27 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 98050Kg : 9:1 | Grado di protezione : IP20 : 10:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | ottone lucido T02420_002_0000 : 1"
     },
     {
@@ -1457,7 +1457,7 @@
         "meta_description": "CLIO Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 57W : 2:1 | Sorgente luminosa : LED retrofit - alogena : 3:1 | Sorgente luminosa a corredo : * inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb 8W E27 2700K Ra80 1050lm no dimming * - max 57W E27 : 5:1 | Temperatura di colore : 2700K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Flusso luminoso nominale : 1050lm : 10:1 | Peso : 11500Kg : 11:1 | Grado di protezione : IP20 : 12:1 | Costanza cromatica : SDCM  minore di 6 : 13:1 | Note : Fornito con cavo di collegamento L 35m + appendimento per composizioni multiple : 14:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | nero/bianco M09451_000_0200 : 1"
     },
     {
@@ -1524,7 +1524,7 @@
         "meta_description": "CROSS Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 20W : 2:1 | Efficienza luminosa : 117lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Elettrificazione : ON-OFF : 9:1 | Driver : integrato incluso : 10:1 | Flusso luminoso nominale : 3000lm : 11:1 | Flusso luminoso uscente : 2340lm : 12:1 | Rendimento : 78 000% : 13:1 | Peso : 12800Kg : 14:1 | Grado di protezione : IP20 : 15:1 | Costanza cromatica : SDCM  minore di 4 : 16:1 | Dimensioni imballo cm : 22 x 35 x 28 : 17:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco A04901_030_0101 : 1"
     },
     {
@@ -1582,7 +1582,7 @@
         "meta_description": "DISCO Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PLAFONIERE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : plafoniere : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 53W : 2:1 | Sorgente luminosa : LED retrofit - fluorescente compatta - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb E27 L max 100mm - Ø max 55mm - max 14W Micro Twist E27 - max 53W E27 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 13700Kg : 9:1 | Grado di protezione : IP20 : 10:1 | Dimensioni imballo cm : 37 x 20 x 37 : 11:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco P06601_030_0000 : 1"
     },
     {
@@ -1643,7 +1643,7 @@
         "meta_description": "DOMINO Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PLAFONIERE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : plafoniere : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 60W : 2:1 | Sorgente luminosa : LED retrofit - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb G9 L max 60mm - Ø max 175mm - max 60W G9 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 05450Kg : 9:1 | Grado di protezione : IP40 : 10:1 | Dimensioni imballo cm : 19 x 20 x 25 : 11:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | grigio metallizzato/diffusore nero P09031_011_0000 : 1"
     },
     {
@@ -1704,7 +1704,7 @@
         "meta_description": "DOMINO Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 60W : 2:1 | Sorgente luminosa : LED retrofit - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb G9 L max 60mm - Ø max 175mm - max 60W G9 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 08800Kg : 9:1 | Grado di protezione : IP40 : 10:1 | Dimensioni imballo cm : 25 x 20 x 18 : 11:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | grigio metallizzato/diffusore nero L09031_011_0000 : 1"
     },
     {
@@ -1765,7 +1765,7 @@
         "meta_description": "ELLE Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PLAFONIERE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : plafoniere : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 75W : 2:1 | Sorgente luminosa : alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Distribuzione luminosa : fascio orientabile : 5:1 | Alimentazione : 12V AC : 6:1 | Driver : integrato non incluso : 7:1 | Peso : 09900Kg : 8:1 | Grado di protezione : IP20 : 9:1 | Dimensioni imballo cm : 22 x 21 x 21 : 10:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco P05001_001_0011 : 1"
     },
     {
@@ -1833,7 +1833,7 @@
         "meta_description": "EMMA Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 57W : 2:1 | Sorgente luminosa : LED retrofit - alogena : 3:1 | Sorgente luminosa a corredo : * inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb 8W E27 2700K Ra80 1050lm no dimming * - max 57W E27 : 5:1 | Temperatura di colore : 2700K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Flusso luminoso nominale : 1050lm : 10:1 | Peso : 14000Kg : 11:1 | Grado di protezione : IP20 : 12:1 | Costanza cromatica : SDCM  minore di 6 : 13:1 | Note : Fornito con cavo di collegamento L 35m + appendimento per composizioni multiple : 14:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | nero/bianco M09151_000_0200 : 1"
     },
     {
@@ -1904,7 +1904,7 @@
         "meta_description": "FLAT Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 19W : 2:1 | Efficienza luminosa : 56 26lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B20 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : ON-OFF : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 2200lm : 12:1 | Flusso luminoso uscente : 1069lm : 13:1 | Rendimento : 48 591% : 14:1 | Peso : 14950Kg : 15:1 | Grado di protezione : IP40 : 16:1 | Costanza cromatica : SDCM 3 : 17:1 | Dimensioni imballo cm : 21 x 39 x 14 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco A07501_038_0101 : 1"
     },
     {
@@ -1975,7 +1975,7 @@
         "meta_description": "FLAT Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 61W : 2:1 | Efficienza luminosa : 66 84lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B20 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : dimmerabile DALI-Push DIM : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 7000lm : 12:1 | Flusso luminoso uscente : 4077lm : 13:1 | Rendimento : 58 243% : 14:1 | Peso : 72140Kg : 15:1 | Grado di protezione : IP40 : 16:1 | Costanza cromatica : SDCM 3 : 17:1 | Dimensioni imballo cm : 19 x 62 x 63 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco L07501_051_0102 : 1"
     },
     {
@@ -2036,7 +2036,7 @@
         "meta_description": "FLORAL Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 150W : 2:1 | Sorgente luminosa : LED retrofit - fluorescente compatta - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb E27 L max 160mm - Ø max 42mm - max 18W Superstar E27 - max 150W E27 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 14740Kg : 9:1 | Grado di protezione : IP20 : 10:1 | Dimensioni imballo cm : 48 x 48 x 48 : 11:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | cromo L01322_040_0000 : 1"
     },
     {
@@ -2097,7 +2097,7 @@
         "meta_description": "FLORAL Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TAVOLO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 150W : 2:1 | Sorgente luminosa : LED retrofit - fluorescente compatta - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb E27 L max 160mm - Ø max 42mm - max 18W Superstar E27 - max 150W E27 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 15030Kg : 9:1 | Grado di protezione : IP20 : 10:1 | Dimensioni imballo cm : 48 x 48 x 48 : 11:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | cromo C01322_040_0000 : 1"
     },
     {
@@ -2170,7 +2170,7 @@
         "meta_description": "GIANO Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 13W : 2:1 | Efficienza luminosa : 57 38lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B20 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Apertura fascio : 60° - 87° : 8:1 | Alimentazione : 220-240V AC : 9:1 | Frequenza : 50-60Hz : 10:1 | Elettrificazione : ON-OFF : 11:1 | Driver : integrato incluso : 12:1 | Flusso luminoso nominale : 1520lm : 13:1 | Flusso luminoso uscente : 746lm : 14:1 | Rendimento : 49 079% : 15:1 | Peso : 08000Kg : 16:1 | Grado di protezione : IP40 : 17:1 | Costanza cromatica : SDCM 3 : 18:1 | Dimensioni imballo cm : 13 x 24 x 12 : 19:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco/schermo opalino A24646_025_0101 : 1"
     },
     {
@@ -2245,7 +2245,7 @@
         "meta_description": "GIANO Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 77W : 2:1 | Efficienza luminosa : 71 7lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B20 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio anti-abbagliamento : 7:1 | Apertura fascio : 60° - 87° : 8:1 | Alimentazione : 220-240V AC : 9:1 | Frequenza : 50-60Hz : 10:1 | Elettrificazione : ON-OFF : 11:1 | Driver : integrato incluso : 12:1 | Flusso luminoso nominale : 9120lm : 13:1 | Flusso luminoso uscente : 5521lm : 14:1 | Rendimento : 60 537% : 15:1 | UGR :  minore di  19 : 16:1 | Peso : 50800Kg : 17:1 | Grado di protezione : IP40 : 18:1 | Costanza cromatica : SDCM 3 : 19:1 | Dimensioni imballo cm : 14 x 180 x 14 : 20:1 | Note : Fornito con predisposizione per doppia accensione : 21:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco/schermo prismato L24647_150_0101 : 1"
     },
     {
@@ -2311,7 +2311,7 @@
         "meta_description": "DRACO Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : parete,outdoor : 0:1 | outdoor : yes : 1:1 | Potenza assorbita dal sistema : 9W : 2:1 | Efficienza luminosa : 43 11lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 5:1 | Distribuzione luminosa : fascio variabile : 6:1 | Apertura fascio : 0°÷90° : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : ON-OFF : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 610lm : 12:1 | Flusso luminoso uscente : 388lm : 13:1 | Rendimento : 63 607% : 14:1 | Peso : 08700Kg : 15:1 | Grado di protezione : IP54 : 16:1 | Dimensioni imballo cm : 12 x 11 x 11 : 17:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco EA05401_000_0101 : 1"
     },
     {
@@ -2379,7 +2379,7 @@
         "meta_description": "FOUR Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PLAFONIERE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : plafoniere,outdoor : 0:1 | outdoor : yes : 1:1 | Potenza assorbita dal sistema : 10W : 2:1 | Efficienza luminosa : 63lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L70 B50 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : ON-OFF : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 1210lm : 12:1 | Flusso luminoso uscente : 630lm : 13:1 | Rendimento : 52 066% : 14:1 | Peso : 07600Kg : 15:1 | Grado di protezione : IP44 : 16:1 | Costanza cromatica : SDCM 3 : 17:1 | Dimensioni imballo cm : 21 x 21 x 15 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco EP04401_000_0106 : 1"
     },
     {
@@ -2440,7 +2440,7 @@
         "meta_description": "GILBERT Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PLAFONIERE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : plafoniere : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 150W : 2:1 | Sorgente luminosa : LED retrofit - fluorescente compatta - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb E27 L max 100mm - Ø max 55mm - max 18W Micro Twist E27 - max 150W E27 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 34000Kg : 9:1 | Grado di protezione : IP20 : 10:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco P06501_037_0000 : 1"
     },
     {
@@ -2502,7 +2502,7 @@
         "meta_description": "GILBERT Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 60W : 2:1 | Sorgente luminosa : LED retrofit - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb G9 L max 60mm - Ø max 175mm - max 60W G9 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 12020Kg : 9:1 | Grado di protezione : IP20 : 10:1 | Dimensioni imballo cm : 29 x 35 x 23 : 11:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco L06501_022_0000 : 1"
     },
     {
@@ -2571,7 +2571,7 @@
         "meta_description": "GILBERT Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TAVOLO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 11W : 2:1 | Efficienza luminosa : 90 55lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B20 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : ON-OFF : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 1080lm : 12:1 | Flusso luminoso uscente : 996lm : 13:1 | Rendimento : 92 222% : 14:1 | Peso : 09750Kg : 15:1 | Grado di protezione : IP40 : 16:1 | Costanza cromatica : SDCM 3 : 17:1 | Dimensioni imballo cm : 27 x 35 x 22 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco C06501_022_0101 : 1"
     },
     {
@@ -2638,7 +2638,7 @@
         "meta_description": "GINEVRA Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PLAFONIERE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : plafoniere : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 27W : 2:1 | Efficienza luminosa : 74 96lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B20 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : dimmerabile DALI-Push DIM : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 3400lm : 12:1 | Flusso luminoso uscente : 2024lm : 13:1 | Rendimento : 59 529% : 14:1 | Peso : 55300Kg : 15:1 | Grado di protezione : IP20 : 16:1 | Costanza cromatica : SDCM 3 : 17:1 | Dimensioni imballo cm : 20 x 62 x 62 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | nero/oro P09280_050_0102 : 1"
     },
     {
@@ -2705,7 +2705,7 @@
         "meta_description": "GINEVRA Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 36W : 2:1 | Efficienza luminosa : 84 97lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B20 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : dimmerabile DALI-Push DIM : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 4910lm : 12:1 | Flusso luminoso uscente : 3059lm : 13:1 | Rendimento : 62 301% : 14:1 | Peso : 61500Kg : 15:1 | Grado di protezione : IP20 : 16:1 | Costanza cromatica : SDCM 3 : 17:1 | Dimensioni imballo cm : 20 x 62 x 62 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | nero/oro L09280_050_0102 : 1"
     },
     {
@@ -2778,7 +2778,7 @@
         "meta_description": "GOLDEN RING Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 47W : 2:1 | Efficienza luminosa : 81 34lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B20 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : ON-OFF : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 6090lm : 12:1 | Flusso luminoso uscente : 3823lm : 13:1 | Rendimento : 62 775% : 14:1 | Peso : 102400Kg : 15:1 | Grado di protezione : IP40 : 16:1 | Resistenza alla prova del filo incandescente : 850° : 17:1 | Costanza cromatica : SDCM 3 : 18:1 | Dimensioni imballo cm : 90 x 25 x 90 : 19:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco L08101_080_0108 : 1"
     },
     {
@@ -2846,7 +2846,7 @@
         "meta_description": "GONG Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 43W : 2:1 | Efficienza luminosa : 119 88lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L90 B10 50 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : dimmerabile DALI-Push DIM : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 6500lm : 12:1 | Flusso luminoso uscente : 5155lm : 13:1 | Rendimento : 79 308% : 14:1 | Peso : 34600Kg : 15:1 | Grado di protezione : IP20 : 16:1 | Costanza cromatica : SDCM 3 : 17:1 | Dimensioni imballo cm : 17 x 69 x 69 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco L09301_060_0102 : 1"
     },
     {
@@ -2917,7 +2917,7 @@
         "meta_description": "JACKIE Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 85W : 2:1 | Efficienza luminosa : 82 59lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L90 B10 50 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio orientabile : 7:1 | Apertura fascio : 90° : 8:1 | Alimentazione : 220-240V AC : 9:1 | Frequenza : 50-60Hz : 10:1 | Elettrificazione : ON-OFF : 11:1 | Driver : integrato incluso : 12:1 | Flusso luminoso nominale : 800lm : 13:1 | Flusso luminoso uscente : 702lm : 14:1 | Rendimento : 87 750% : 15:1 | Peso : 04780Kg : 16:1 | Grado di protezione : IP40 : 17:1 | Costanza cromatica : SDCM 3 : 18:1 | Dimensioni imballo cm : 15 x 25 x 15 : 19:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco P07701_000_0101 : 1"
     },
     {
@@ -2984,7 +2984,7 @@
         "meta_description": "JACKIE Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da FARETTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : faretto : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 85W : 2:1 | Efficienza luminosa : 82 59lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L90 B10 50 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio orientabile : 7:1 | Apertura fascio : 90° : 8:1 | Alimentazione : 220-240V AC : 9:1 | Frequenza : 50-60Hz : 10:1 | Elettrificazione : ON-OFF : 11:1 | Driver : integrato incluso : 12:1 | Flusso luminoso nominale : 800lm : 13:1 | Flusso luminoso uscente : 702lm : 14:1 | Rendimento : 87 750% : 15:1 | Peso : 04000Kg : 16:1 | Grado di protezione : IP40 : 17:1 | Costanza cromatica : SDCM 3 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco B07701_000_0101 : 1"
     },
     {
@@ -3054,7 +3054,7 @@
         "meta_description": "JACKIE Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TAVOLO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 10W : 2:1 | Efficienza luminosa : 52 6lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L90 B10 50 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 90 : 6:1 | Distribuzione luminosa : fascio orientabile : 7:1 | Apertura fascio : 90° : 8:1 | Alimentazione : 220-240V AC : 9:1 | Frequenza : 50-60Hz : 10:1 | Elettrificazione : dimmerabile Step DIM : 11:1 | Driver : integrato incluso : 12:1 | Flusso luminoso nominale : 600lm : 13:1 | Flusso luminoso uscente : 526lm : 14:1 | Rendimento : 87 667% : 15:1 | Peso : 06300Kg : 16:1 | Grado di protezione : IP40 : 17:1 | Costanza cromatica : SDCM 3 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco CP07701_000_0409 : 1"
     },
     {
@@ -3124,7 +3124,7 @@
         "meta_description": "JACKIE Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TERRA in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 10W : 2:1 | Efficienza luminosa : 52 6lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L90 B10 50 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 90 : 6:1 | Distribuzione luminosa : fascio orientabile : 7:1 | Apertura fascio : 90° : 8:1 | Alimentazione : 220-240V AC : 9:1 | Frequenza : 50-60Hz : 10:1 | Elettrificazione : dimmerabile Step DIM : 11:1 | Driver : integrato incluso : 12:1 | Flusso luminoso nominale : 600lm : 13:1 | Flusso luminoso uscente : 526lm : 14:1 | Rendimento : 87 667% : 15:1 | Peso : 51040Kg : 16:1 | Grado di protezione : IP40 : 17:1 | Costanza cromatica : SDCM 3 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco T07701_000_0409 : 1"
     },
     {
@@ -3195,7 +3195,7 @@
         "meta_description": "JACKIE IOT Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 10W : 2:1 | Efficienza luminosa : 52 6lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L90 B10 50 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 90 : 6:1 | Distribuzione luminosa : fascio orientabile : 7:1 | Apertura fascio : 90° : 8:1 | Alimentazione : 220-240V AC : 9:1 | Frequenza : 50-60Hz : 10:1 | Elettrificazione : dimmerabile IoT-Step DIM : 11:1 | Driver : integrato incluso : 12:1 | Flusso luminoso nominale : 600lm : 13:1 | Flusso luminoso uscente : 526lm : 14:1 | Rendimento : 87 667% : 15:1 | Peso : 05250Kg : 16:1 | Grado di protezione : IP40 : 17:1 | Costanza cromatica : SDCM 3 : 18:1 | Dimensioni imballo cm : 15 x 25 x 15 : 19:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco A07701_000_0413 : 1"
     },
     {
@@ -3265,7 +3265,7 @@
         "meta_description": "JACKIE IOT Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TAVOLO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 10W : 2:1 | Efficienza luminosa : 52 6lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L90 B10 50 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 90 : 6:1 | Distribuzione luminosa : fascio orientabile : 7:1 | Apertura fascio : 90° : 8:1 | Alimentazione : 220-240V AC : 9:1 | Frequenza : 50-60Hz : 10:1 | Elettrificazione : dimmerabile IoT-Step DIM : 11:1 | Driver : integrato incluso : 12:1 | Flusso luminoso nominale : 600lm : 13:1 | Flusso luminoso uscente : 526lm : 14:1 | Rendimento : 87 667% : 15:1 | Peso : 06300Kg : 16:1 | Grado di protezione : IP40 : 17:1 | Costanza cromatica : SDCM 3 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco CP07701_000_0413 : 1"
     },
     {
@@ -3335,7 +3335,7 @@
         "meta_description": "LAMPYRIS Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TERRA in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : terra,outdoor : 0:1 | outdoor : yes : 1:1 | Potenza assorbita dal sistema : 9W : 2:1 | Efficienza luminosa : 55 56lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B20 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : ON-OFF : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 1000lm : 12:1 | Flusso luminoso uscente : 500lm : 13:1 | Rendimento : 50 000% : 14:1 | Peso : 44400Kg : 15:1 | Grado di protezione : IP65 : 16:1 | Indice IK : IK09 : 17:1 | Resistenza alla prova del filo incandescente : 850° : 18:1 | Costanza cromatica : SDCM 3 : 19:1 | Dimensioni imballo cm : 20 x 62 x 44 : 20:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | marrone metallizzato ET08044_000_0101 : 1"
     },
     {
@@ -3405,7 +3405,7 @@
         "meta_description": "JACKIE IOT Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TERRA in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 10W : 2:1 | Efficienza luminosa : 52 6lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L90 B10 50 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 90 : 6:1 | Distribuzione luminosa : fascio orientabile : 7:1 | Apertura fascio : 90° : 8:1 | Alimentazione : 220-240V AC : 9:1 | Frequenza : 50-60Hz : 10:1 | Elettrificazione : dimmerabile IoT-Step DIM : 11:1 | Driver : integrato incluso : 12:1 | Flusso luminoso nominale : 600lm : 13:1 | Flusso luminoso uscente : 526lm : 14:1 | Rendimento : 87 667% : 15:1 | Peso : 51040Kg : 16:1 | Grado di protezione : IP40 : 17:1 | Costanza cromatica : SDCM 3 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco T07701_000_0413 : 1"
     },
     {
@@ -3465,7 +3465,7 @@
         "meta_description": "JAZZ Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 48W : 2:1 | Sorgente luminosa : LED retrofit - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb G9 L max 60mm - Ø max 175mm - max 48W G9 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 05100Kg : 9:1 | Grado di protezione : IP20 : 10:1 | Dimensioni imballo cm : 11 x 45 x 11 : 11:1 | Note : Fornito senza rosone per composizioni multiple : 12:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco M08901_000_0000 : 1"
     },
     {
@@ -3526,7 +3526,7 @@
         "meta_description": "KUBIK Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 60W : 2:1 | Sorgente luminosa : LED retrofit - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb E14 L max 75mm - Ø max 45mm - max 60W E14 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 06950Kg : 9:1 | Grado di protezione : IP40 : 10:1 | Dimensioni imballo cm : 18 x 26 x 18 : 11:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco A07001_011_0000 : 1"
     },
     {
@@ -3594,7 +3594,7 @@
         "meta_description": "KUBIK Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TAVOLO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 95W : 2:1 | Efficienza luminosa : 70 21lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B20 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : ON-OFF : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 1080lm : 12:1 | Flusso luminoso uscente : 667lm : 13:1 | Rendimento : 61 759% : 14:1 | Peso : 08360Kg : 15:1 | Grado di protezione : IP20 : 16:1 | Costanza cromatica : SDCM 3 : 17:1 | Dimensioni imballo cm : 20 x 26 x 18 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco C07001_011_0101 : 1"
     },
     {
@@ -3662,7 +3662,7 @@
         "meta_description": "KUBIK Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 95W : 2:1 | Efficienza luminosa : 70 21lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B20 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : ON-OFF : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 1080lm : 12:1 | Flusso luminoso uscente : 667lm : 13:1 | Rendimento : 61 759% : 14:1 | Peso : 15620Kg : 15:1 | Grado di protezione : IP40 : 16:1 | Costanza cromatica : SDCM 3 : 17:1 | Dimensioni imballo cm : 18 x 82 x 18 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco L07001_011_0101 : 1"
     },
     {
@@ -3729,7 +3729,7 @@
         "meta_description": "LINE Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 9W : 2:1 | Efficienza luminosa : 93 33lm-W : 3:1 | Sorgente luminosa : LED retrofit : 4:1 | Sorgente luminosa a corredo : * inclusa : 5:1 | Sorgenti compatibili : LED retrofit bulb 9W GU10 3000K 36° Ra80 840lm no dimming * : 6:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 7:1 | Distribuzione luminosa : fascio medio : 8:1 | Apertura fascio : 36° : 9:1 | Alimentazione : 110-240V AC : 10:1 | Frequenza : 50-60Hz : 11:1 | Elettrificazione : ON-OFF : 12:1 | Flusso luminoso nominale : 840lm : 13:1 | Flusso luminoso uscente : 840lm : 14:1 | Rendimento : 100 000% : 15:1 | Peso : 20720Kg : 16:1 | Grado di protezione : IP20 : 17:1 | Costanza cromatica : SDCM  minore di 5 : 18:1 | Dimensioni imballo cm : 19 x 19 x 83 : 19:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco L03601_000_0100 : 1"
     },
     {
@@ -3795,7 +3795,7 @@
         "meta_description": "LINE Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TERRA in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 10W : 2:1 | Efficienza luminosa : 91 5lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L90 B10 78 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 90 : 6:1 | Distribuzione luminosa : fascio medio : 7:1 | Apertura fascio : 40° : 8:1 | Alimentazione : 220-240V AC : 9:1 | Frequenza : 50-60Hz : 10:1 | Elettrificazione : ON-OFF : 11:1 | Driver : integrato incluso : 12:1 | Flusso luminoso nominale : 915lm : 13:1 | Flusso luminoso uscente : 915lm : 14:1 | Rendimento : 100 000% : 15:1 | Peso : 106200Kg : 16:1 | Grado di protezione : IP20 : 17:1 | Costanza cromatica : SDCM 3 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco T03601_000_0101 : 1"
     },
     {
@@ -3861,7 +3861,7 @@
         "meta_description": "OLIVIA Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 57W : 2:1 | Sorgente luminosa : LED retrofit - alogena : 3:1 | Sorgente luminosa a corredo : * inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb 8W E27 2700K Ra80 1050lm no dimming * - max 57W E27 : 5:1 | Temperatura di colore : 2700K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Flusso luminoso nominale : 1050lm : 10:1 | Peso : 10400Kg : 11:1 | Grado di protezione : IP20 : 12:1 | Costanza cromatica : SDCM  minore di 6 : 13:1 | Note : Fornito con cavo di collegamento L 35m + appendimento per composizioni multiple : 14:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | nero/bianco M09751_000_0200 : 1"
     },
     {
@@ -3927,7 +3927,7 @@
         "meta_description": "RALPH Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione,outdoor : 0:1 | outdoor : yes : 1:1 | Potenza assorbita dal sistema : max 53W : 2:1 | Sorgente luminosa : LED retrofit - fluorescente compatta - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb E27 L max 125mm - Ø max 65mm - max 23W Micro Twist E27 - max 53W E27 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 24850Kg : 9:1 | Grado di protezione : IP65 : 10:1 | Note : Fornito completo di cavo di collegamento L 45m + spina + rosone + o-ring silicone + moschettone : 11:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco EL04701_035_0000 : 1"
     },
     {
@@ -3990,7 +3990,7 @@
         "meta_description": "POTTER Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TAVOLO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : tavolo,outdoor : 0:1 | outdoor : yes : 1:1 | Potenza assorbita dal sistema : max 70W : 2:1 | Sorgente luminosa : LED retrofit - fluorescente compatta - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb E27 L max 140mm - Ø max 65mm - max 30W Superstar E27 - max 70W E27 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 62810Kg : 9:1 | Grado di protezione : IP20 : 10:1 | Dimensioni imballo cm : 68 x 68 x 70 : 11:1 | Note : Fornito completo di interruttore : 12:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco T04201_000_0000 : 1"
     },
     {
@@ -4058,7 +4058,7 @@
         "meta_description": "ONE Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PLAFONIERE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : plafoniere : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 15W : 2:1 | Efficienza luminosa : 73 13lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L90 B10 50 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : ON-OFF : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 1730lm : 12:1 | Flusso luminoso uscente : 1097lm : 13:1 | Rendimento : 63 410% : 14:1 | Peso : 08300Kg : 15:1 | Grado di protezione : IP40 : 16:1 | Costanza cromatica : SDCM 3 : 17:1 | Dimensioni imballo cm : 25 x 30 x 14 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco P03701_000_0101 : 1"
     },
     {
@@ -4126,7 +4126,7 @@
         "meta_description": "ONE Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 15W : 2:1 | Efficienza luminosa : 73 13lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L90 B10 50 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : ON-OFF : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 1730lm : 12:1 | Flusso luminoso uscente : 1097lm : 13:1 | Rendimento : 63 410% : 14:1 | Peso : 14490Kg : 15:1 | Grado di protezione : IP40 : 16:1 | Costanza cromatica : SDCM 3 : 17:1 | Dimensioni imballo cm : 21 x 21 x 42 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco L03701_000_0101 : 1"
     },
     {
@@ -4195,7 +4195,7 @@
         "meta_description": "PLANET RING Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PLAFONIERE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : plafoniere : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 29W : 2:1 | Efficienza luminosa : 79 83lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B20 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : ON-OFF : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 3400lm : 12:1 | Flusso luminoso uscente : 2315lm : 13:1 | Rendimento : 68 088% : 14:1 | Peso : 40700Kg : 15:1 | Grado di protezione :  IP40  IP20 : 16:1 | Resistenza alla prova del filo incandescente : 850° : 17:1 | Costanza cromatica : SDCM 3 : 18:1 | Dimensioni imballo cm : 46 x 15 x 46 : 19:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco X08301_040_0101 : 1"
     },
     {
@@ -4264,7 +4264,7 @@
         "meta_description": "PLANET RING Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 75W : 2:1 | Efficienza luminosa : 82 31lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L80 B20 60 000h : 5:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : ON-OFF : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 9000lm : 12:1 | Flusso luminoso uscente : 6173lm : 13:1 | Rendimento : 68 589% : 14:1 | Peso : 98670Kg : 15:1 | Grado di protezione : IP40 : 16:1 | Resistenza alla prova del filo incandescente : 850° : 17:1 | Costanza cromatica : SDCM 3 : 18:1 | Dimensioni imballo cm : 70 x 70 x 18 : 19:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco L08301_070_0101 : 1"
     },
     {
@@ -4337,7 +4337,7 @@
         "meta_description": "SILVER RING Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PLAFONIERE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : plafoniere : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 25W : 2:1 | Efficienza luminosa : 90 6lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Elettrificazione : dimmerabile DALI-Push DIM : 9:1 | Driver : integrato incluso : 10:1 | Flusso luminoso nominale : 4032lm : 11:1 | Flusso luminoso uscente : 2265lm : 12:1 | Rendimento : 56 176% : 13:1 | Peso : 48800Kg : 14:1 | Grado di protezione : IP40 : 15:1 | Resistenza alla prova del filo incandescente : 850° : 16:1 | Costanza cromatica : SDCM 3 : 17:1 | Dimensioni imballo cm : 58 x 14 x 58 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco P08201_050_0102 : 1"
     },
     {
@@ -4410,7 +4410,7 @@
         "meta_description": "SILVER RING Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 25W : 2:1 | Efficienza luminosa : 90 6lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Elettrificazione : dimmerabile DALI-Push DIM : 9:1 | Driver : integrato incluso : 10:1 | Flusso luminoso nominale : 4032lm : 11:1 | Flusso luminoso uscente : 2265lm : 12:1 | Rendimento : 56 176% : 13:1 | Peso : 56500Kg : 14:1 | Grado di protezione : IP40 : 15:1 | Resistenza alla prova del filo incandescente : 850° : 16:1 | Costanza cromatica : SDCM 3 : 17:1 | Dimensioni imballo cm : 58 x 14 x 58 : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco L08201_050_0102 : 1"
     },
     {
@@ -4473,7 +4473,7 @@
         "meta_description": "TATE Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 2x max 60W : 2:1 | Sorgente luminosa : LED retrofit - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : 2x LED retrofit bulb G9 L max 60mm - Ø max 175mm - 2x max 60W G9 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 13100Kg : 9:1 | Grado di protezione : IP20 : 10:1 | Dimensioni imballo cm : 29 x 35 x 22 : 11:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco lucido Y-TAT-2A-WHI : 1"
     },
     {
@@ -4536,7 +4536,7 @@
         "meta_description": "TATE Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 6x max 60W : 2:1 | Sorgente luminosa : LED retrofit - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : 6x LED retrofit bulb G9 L max 60mm - Ø max 175mm - 6x max 60W G9 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 92000Kg : 9:1 | Grado di protezione : IP20 : 10:1 | Dimensioni imballo cm : 51 x 72 x 71 : 11:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco lucido Y-TAT-6L-WHI : 1"
     },
     {
@@ -4602,7 +4602,7 @@
         "meta_description": "THREE Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PLAFONIERE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : plafoniere : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 10W : 2:1 | Efficienza luminosa : 63lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Elettrificazione : ON-OFF : 9:1 | Driver : integrato incluso : 10:1 | Flusso luminoso nominale : 1210lm : 11:1 | Flusso luminoso uscente : 630lm : 12:1 | Rendimento : 52 066% : 13:1 | Peso : 05200Kg : 14:1 | Grado di protezione : IP40 : 15:1 | Dimensioni imballo cm : 14 x 14 x 25 : 16:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco P03901_011_0106 : 1"
     },
     {
@@ -4672,7 +4672,7 @@
         "meta_description": "TO-BE Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 28W : 2:1 | Efficienza luminosa : 64 64lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Durata sorgente luminosa : L70 B50 60 000h : 5:1 | Temperatura di colore : 2700K Ra maggiore di 90 : 6:1 | Distribuzione luminosa : fascio diffuso : 7:1 | Alimentazione : 24V DC : 8:1 | Driver : remoto non incluso : 9:1 | Flusso luminoso nominale : 270lm : 10:1 | Flusso luminoso uscente : 181lm : 11:1 | Rendimento : 67 037% : 12:1 | Peso : 05100Kg : 13:1 | Grado di protezione : IP40 : 14:1 | Costanza cromatica : SDCM 3 : 15:1 | Dimensioni imballo cm : 8 x 114 x 8 : 16:1 | Note : Fornito senza rosone e driver per composizioni multiple : 17:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco M02501_085_0510 : 1"
     },
     {
@@ -4738,7 +4738,7 @@
         "meta_description": "RALPH Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TERRA in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : terra,outdoor : 0:1 | outdoor : yes : 1:1 | Potenza assorbita dal sistema : max 53W : 2:1 | Sorgente luminosa : LED retrofit - fluorescente compatta - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb E27 L max 125mm - Ø max 65mm - max 23W Micro Twist E27 - max 53W E27 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 34190Kg : 9:1 | Grado di protezione : IP65 : 10:1 | Note : Fornito completo di base di fissaggio al suolo : 11:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco ET04701_035_0000 : 1"
     },
     {
@@ -4809,7 +4809,7 @@
         "meta_description": "TO-BE Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PLAFONIERE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : plafoniere : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 10W : 2:1 | Efficienza luminosa : 83 6lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Temperatura di colore : 2700K Ra maggiore di 90 : 5:1 | Distribuzione luminosa : fascio medio : 6:1 | Apertura fascio : 40° : 7:1 | Alimentazione : 220-240V AC : 8:1 | Frequenza : 50-60Hz : 9:1 | Elettrificazione : ON-OFF : 10:1 | Driver : integrato incluso : 11:1 | Flusso luminoso nominale : 836lm : 12:1 | Flusso luminoso uscente : 836lm : 13:1 | Rendimento : 100 000% : 14:1 | Peso : 08540Kg : 15:1 | Grado di protezione : IP20 : 16:1 | Dimensioni imballo cm : 14 x 65 x 14 : 17:1 | Note : Per progetti a richiesta ottiche a 25° e 48° : 18:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco P02701_045_1701 : 1"
     },
     {
@@ -4875,7 +4875,7 @@
         "meta_description": "RALPH Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TAVOLO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : tavolo,outdoor : 0:1 | outdoor : yes : 1:1 | Potenza assorbita dal sistema : max 53W : 2:1 | Sorgente luminosa : LED retrofit - fluorescente compatta - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb E27 L max 125mm - Ø max 65mm - max 23W Micro Twist E27 - max 53W E27 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 33610Kg : 9:1 | Grado di protezione : IP65 : 10:1 | Note : Fornito completo di cavo di collegamento L 45m + spina + rosone + o-ring silicone + moschettone : 11:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco EC04701_035_0000 : 1"
     },
     {
@@ -4935,7 +4935,7 @@
         "meta_description": "TOY Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 48W : 2:1 | Sorgente luminosa : LED retrofit - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb G9 L max 60mm - Ø max 175mm - max 48W G9 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 04900Kg : 9:1 | Grado di protezione : IP20 : 10:1 | Dimensioni imballo cm : 11 x 10 x 10 : 11:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | foglia oro A01621_007_0000 : 1"
     },
     {
@@ -5002,7 +5002,7 @@
         "meta_description": "TOY GYPSO Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 13W : 2:1 | Efficienza luminosa : 72 15lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Elettrificazione : ON-OFF : 9:1 | Driver : integrato incluso : 10:1 | Flusso luminoso nominale : 1460lm : 11:1 | Flusso luminoso uscente : 938lm : 12:1 | Rendimento : 64 247% : 13:1 | Peso : 08200Kg : 14:1 | Grado di protezione : IP20 : 15:1 | Costanza cromatica : SDCM 3 : 16:1 | Dimensioni imballo cm : 28 x 36 x 17 : 17:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | gesso A01642_025_0101 : 1"
     },
     {
@@ -5067,7 +5067,7 @@
         "meta_description": "TWO Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PLAFONIERE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : plafoniere : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 10W : 2:1 | Efficienza luminosa : 63lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Elettrificazione : ON-OFF : 9:1 | Driver : integrato incluso : 10:1 | Flusso luminoso nominale : 1210lm : 11:1 | Flusso luminoso uscente : 630lm : 12:1 | Rendimento : 52 066% : 13:1 | Peso : 04450Kg : 14:1 | Grado di protezione : IP40 : 15:1 | Dimensioni imballo cm : 14 x 25 x 14 : 16:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco P03801_000_0106 : 1"
     },
     {
@@ -5132,7 +5132,7 @@
         "meta_description": "TWO Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 10W : 2:1 | Efficienza luminosa : 63lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Elettrificazione : ON-OFF : 9:1 | Driver : integrato incluso : 10:1 | Flusso luminoso nominale : 1210lm : 11:1 | Flusso luminoso uscente : 630lm : 12:1 | Rendimento : 52 066% : 13:1 | Peso : 15450Kg : 14:1 | Grado di protezione : IP40 : 15:1 | Dimensioni imballo cm : 19 x 47 x 20 : 16:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco L03801_000_0106 : 1"
     },
     {
@@ -5199,7 +5199,7 @@
         "meta_description": "VIISI Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 23W : 2:1 | Efficienza luminosa : 65 3lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Elettrificazione : dimmerabile DALI-Push DIM : 9:1 | Driver : integrato incluso : 10:1 | Flusso luminoso nominale : 3275lm : 11:1 | Flusso luminoso uscente : 1502lm : 12:1 | Rendimento : 45 863% : 13:1 | Peso : 14500Kg : 14:1 | Grado di protezione : IP40 : 15:1 | Dimensioni imballo cm : 14 x 141 x 14 : 16:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco L02001_120_0102 : 1"
     },
     {
@@ -5265,7 +5265,7 @@
         "meta_description": "VIISI Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TERRA in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 44W : 2:1 | Efficienza luminosa : 68 27lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Elettrificazione : dimmerabile DALI-Push DIM : 9:1 | Driver : integrato incluso : 10:1 | Flusso luminoso nominale : 6550lm : 11:1 | Flusso luminoso uscente : 3004lm : 12:1 | Rendimento : 45 863% : 13:1 | Peso : 69380Kg : 14:1 | Grado di protezione : IP40 : 15:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco T02001_210_0102 : 1"
     },
     {
@@ -5325,7 +5325,7 @@
         "meta_description": "VIKI Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PLAFONIERE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : plafoniere : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 2x max 53W : 2:1 | Sorgente luminosa : LED retrofit - fluorescente compatta - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : 2x LED retrofit bulb E27 L max 140mm - Ø max 65mm - 2x max 30W Superstar E27 - 2x max 53W E27 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 18080Kg : 9:1 | Grado di protezione : IP20 : 10:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco P04101_055_0000 : 1"
     },
     {
@@ -5385,7 +5385,7 @@
         "meta_description": "VIKI Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 2x max 53W : 2:1 | Sorgente luminosa : LED retrofit - fluorescente compatta - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : 2x LED retrofit bulb E27 L max 140mm - Ø max 65mm - 2x max 30W Superstar E27 - 2x max 53W E27 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 24310Kg : 9:1 | Grado di protezione : IP20 : 10:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco L04101_055_0000 : 1"
     },
     {
@@ -5446,7 +5446,7 @@
         "meta_description": "WILLY Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : max 150W : 2:1 | Sorgente luminosa : LED retrofit - fluorescente compatta - alogena : 3:1 | Sorgente luminosa a corredo : non inclusa : 4:1 | Sorgenti compatibili : LED retrofit bulb E27 L max 120mm - Ø max 65mm - max 23W Micro Twist E27 - max 150W E27 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Peso : 39600Kg : 9:1 | Grado di protezione : IP20 : 10:1 | Dimensioni imballo cm : 47 x 30 x 45 : 11:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | grigio metallizzato/diffusore nero L07631_040_0000 : 1"
     },
     {
@@ -5513,7 +5513,7 @@
         "meta_description": "YPSILON Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 13W : 2:1 | Efficienza luminosa : 86lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Elettrificazione : ON-OFF : 9:1 | Driver : integrato incluso : 10:1 | Flusso luminoso nominale : 1460lm : 11:1 | Flusso luminoso uscente : 1118lm : 12:1 | Rendimento : 76 575% : 13:1 | Peso : 10150Kg : 14:1 | Grado di protezione : IP20 : 15:1 | Costanza cromatica : SDCM 3 : 16:1 | Dimensioni imballo cm : 10 x 84 x 7 : 17:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco A07201_000_0101 : 1"
     },
     {
@@ -5577,7 +5577,7 @@
         "meta_description": "ZERO Panzeri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | Potenza assorbita dal sistema : 11W : 2:1 | Efficienza luminosa : 63 64lm-W : 3:1 | Sorgente luminosa : LED : 4:1 | Temperatura di colore : 3000K Ra maggiore di 80 : 5:1 | Distribuzione luminosa : fascio diffuso : 6:1 | Alimentazione : 220-240V AC : 7:1 | Frequenza : 50-60Hz : 8:1 | Elettrificazione : ON-OFF : 9:1 | Driver : integrato incluso : 10:1 | Flusso luminoso nominale : 1075lm : 11:1 | Flusso luminoso uscente : 700lm : 12:1 | Rendimento : 65 116% : 13:1 | Peso : 13650Kg : 14:1 | Grado di protezione : IP20 : 15:1 | Dimensioni imballo cm : 10 x 84 x 7 : 16:1",
-        "attributes": "stato : select : 0 | colore : color : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
         "values": "nuovo : 0 | bianco opaco A03501_050_0101 : 1"
     }
 ]

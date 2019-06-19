@@ -5656,7 +5656,7 @@ function postProduci(json,fornitore){
                     pos++;
                    
                     var etichetta = (elem=="color")? "colore" : "nome_attributo_non_trovato";
-                    var singleton = etichetta +" : "+ elem +" : "+ pos+" | ";
+                    var singleton = etichetta +" : radio : "+ pos+" | ";
                     
                 }
                 
