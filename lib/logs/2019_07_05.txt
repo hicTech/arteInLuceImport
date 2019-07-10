@@ -1,0 +1,4 @@
+14:17:33: PROCESSO: ../xls/diesel
+14:17:33: PROCESSO: ../xls/flos
+14:17:59: PROCESSO: ../xls/panzeri
+14:20:04: PROCESSO: ../xls/panzeri
