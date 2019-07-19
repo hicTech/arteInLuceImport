@@ -180,7 +180,7 @@ fs.readdir(path, function(err, cartella_fornitore) {
 
 
 
-                                                        let xls_varianti = json2xls(json_varianti, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "combination_images", "combination_images_alt","more"] });
+                                                        let xls_varianti = json2xls(json_varianti, {fields: ["hicId", "model", "combination_id", "price", "quantity", "attributes", "values", "combination_images", "combination_images_alt","more"] });
                                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_varianti_'+random_number+'.xlsx', xls_varianti, 'binary');
                                                         
 
@@ -188,7 +188,7 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                             var json_varianti_suddiviso = chunk(json_varianti,pagination);
                                                             
                                                             _.each(json_varianti_suddiviso, function(pezzo,index){
-                                                                let pezzo_xls_varianti = json2xls(pezzo, {fields: ["hicId", "model", "price", "quantity", "attributes", "values", "combination_images", "combination_images_alt","more"] });
+                                                                let pezzo_xls_varianti = json2xls(pezzo, {fields: ["hicId", "model", "combination_id", "price", "quantity", "attributes", "values", "combination_images", "combination_images_alt","more"] });
                                                                 fs.writeFileSync(path_cartella +"/result/"+cartella+'_varianti_'+random_number+'__'+index+'.xlsx', pezzo_xls_varianti, 'binary');
                                                             })
                                                         }
@@ -279,6 +279,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var product_images_alt  = undefined;
         var combination_images  = undefined;
         var combination_images_alt  = undefined;
+        var combination_id = undefined;
         
         
 
@@ -406,6 +407,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             ]
 
             var articolo = row["Articolo"];
+            combination_id = row["Codice Articolo"];
             
             if(articolo.indexOf(" GB")!=-1){
                 return false; // escludiamo gli articoli per il mercato inglese
@@ -1808,6 +1810,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 supplier_id = supplierId(supplier);
                 model = getModel(row["Descrizione"]);
                 original_model_id = row["Codice articolo"];
+                
+                combination_id = row["Codice articolo"];
                 model_id = modelId(model);
                 item_id = itemId(original_model_id); // la funzione itemId sostituisce semplicemente gli spazi vuoti con "-"
                 hicId = getHicId(supplier_id, item_id);
@@ -3854,6 +3858,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     supplier_id = supplierId(supplier);
                     original_model_id = row["Codice articolo"];
                     model_id = row["Codice articolo"];
+                    combination_id = model_id;
                     component = (isComponent(model_id))? 1: 0; // recuperato dall'excel (row["Raggr. Commerciale"] == "SPAREPARTS")? 1: 0; // sono 525 "DECORATIVE" e 1084 SPAREPARTS              
                     model = getModelName(model_id);
                     item_id = original_model_id;
@@ -4207,6 +4212,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         supplier = "panzeri";
                         supplier_id = supplierId(supplier);
                         original_model_id = row["Codart"];
+                        combination_id = row["Codart"];
                         model_id = row["Codart"];
                         model = getModelName(row);
                         component = (isComponent(row))? 1: 0;  // anche se abbiamo eliminato tutti i pezzi di ricambio dall'excell originario sopra i 60 euro erano solo 37 (quindi non conviene automatizzare l'importing si inseriscono a mano)
@@ -4552,7 +4558,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             product_images:         product_images,                                                     
             product_images_alt:     product_images_alt,   
             combination_images:     combination_images,                                                     
-            combination_images_alt: combination_images_alt,                                              
+            combination_images_alt: combination_images_alt,     
+            combination_id:         combination_id,                                         
             //all_images:             all_images,                                                     // contiene tutte le immagini pic + light_schema + projects separate da |
             //all_images_alt:         all_images_alt,                                                 // serve per distingure le immagini
             pic:                    pic,                                                            // contiene l'immagine primaria

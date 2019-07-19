@@ -30,6 +30,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Giano_XP.jpg|http://www.panzeri.it/media/DT/DT-Giano-XP246__.100.0099.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "XP24646.100.0099",
         "pic": "http://www.panzeri.it/media/FP/FP-Giano_XP.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/DT-Giano-XP246__.100.0099.jpg",
         "projects": [
@@ -95,6 +96,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Agave.jpg|http://www.panzeri.it/media/DT/P-3001.50.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "P03001.050.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Agave.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/P-3001.50.jpg",
         "projects": [
@@ -155,6 +157,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Agave.jpg|http://www.panzeri.it/media/DT/agave_L03001.050.000.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L03001.050.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Agave.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/agave_L03001.050.000.jpg",
         "projects": [
@@ -215,6 +218,7 @@
         "product_images_alt": "pic|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Nolita.jpg|http://www.panzeri.it/media/DT/DT-Nolita-XG2038-60-TRACK.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "XG2038-60TRACK JOLLY",
         "pic": "http://www.panzeri.it/media/FP/FP-Nolita.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/DT-Nolita-XG2038-60-TRACK.jpg",
         "projects": [
@@ -273,6 +277,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Aldecimo.jpg|http://www.panzeri.it/media/DT/aldecimo_X02201.030.0112.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "X02201.030.0112",
         "pic": "http://www.panzeri.it/media/FP/FP-Aldecimo.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/aldecimo_X02201.030.0112.jpg",
         "projects": [
@@ -340,6 +345,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-App.jpg|http://www.panzeri.it/media/DT/APP-1.0.01.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "A09801.001.0106",
         "pic": "http://www.panzeri.it/media/FP/FP-App.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/APP-1.0.01.jpg",
         "projects": [
@@ -407,6 +413,7 @@
         "product_images_alt": "pic|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Corner.jpg|http://www.panzeri.it/media/DT/DT-Corner-XG2045-300-TRACK.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "XG2045-300TRACK",
         "pic": "http://www.panzeri.it/media/FP/FP-Corner.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/DT-Corner-XG2045-300-TRACK.jpg",
         "projects": [
@@ -464,6 +471,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Blanca.jpg|http://www.panzeri.it/media/DT/L-5710-DIM.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L05744.060.0102",
         "pic": "http://www.panzeri.it/media/FP/FP-Blanca.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/L-5710-DIM.jpg",
         "projects": [
@@ -532,6 +540,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Brooklyn.jpg|http://www.panzeri.it/media/DT/DT-Brooklyn-XG2033-300-TRACK.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "XG2033-300TRACK",
         "pic": "http://www.panzeri.it/media/FP/FP-Brooklyn.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/DT-Brooklyn-XG2033-300-TRACK.jpg",
         "projects": [
@@ -591,6 +600,7 @@
         "product_images_alt": "pic|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-XGQ1210.jpg|http://www.panzeri.it/media/DT/XGQ1210.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "XGQ1210 LED",
         "pic": "http://www.panzeri.it/media/FP/FP-XGQ1210.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/XGQ1210.jpg",
         "projects": [
@@ -653,6 +663,7 @@
         "product_images_alt": "pic|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Manhattan.jpg|http://www.panzeri.it/media/DT/DT-Manhattan-XG2044-200-TRACK.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "XG2044-200TRACK",
         "pic": "http://www.panzeri.it/media/FP/FP-Manhattan.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/DT-Manhattan-XG2044-200-TRACK.jpg",
         "projects": [
@@ -710,6 +721,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Brooklyn_Line.jpg|http://www.panzeri.it/media/DT/L-2033.100-LED1.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L23301.100.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-Brooklyn_Line.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/L-2033.100-LED1.jpg",
         "projects": [
@@ -779,6 +791,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Brooklyn_Round.jpg|http://www.panzeri.it/media/DT/brooklyn_round_L23101.180.0102.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L23101.180.0102",
         "pic": "http://www.panzeri.it/media/FP/FP-Brooklyn_Round.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/brooklyn_round_L23101.180.0102.jpg",
         "projects": [
@@ -850,6 +863,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Brooklyn_Round.jpg|http://www.panzeri.it/media/DT/DT-Brooklyn_Round-P231__.180.0102.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "P23101.180.0102",
         "pic": "http://www.panzeri.it/media/FP/FP-Brooklyn_Round.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/DT-Brooklyn_Round-P231__.180.0102.jpg",
         "projects": [
@@ -921,6 +935,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Brooklyn_Round_XG.jpg|http://www.panzeri.it/media/DT/DT-Brooklyn_Round-XG231__.090.0099.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "XG23101.090.0099",
         "pic": "http://www.panzeri.it/media/FP/FP-Brooklyn_Round_XG.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/DT-Brooklyn_Round-XG231__.090.0099.jpg",
         "projects": [
@@ -983,6 +998,7 @@
         "product_images_alt": "pic|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Queens_Mini-XM748-12.jpg|http://www.panzeri.it/media/DT/XM748-169-12-01-3K.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "XM748-12-01-3K",
         "pic": "http://www.panzeri.it/media/FP/FP-Queens_Mini-XM748-12.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/XM748-169-12-01-3K.jpg",
         "projects": [
@@ -1051,6 +1067,7 @@
         "product_images_alt": "pic|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Candle.jpg|http://www.panzeri.it/media/DT/candle_M09501.000.0110.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "M09501.000.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Candle.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/candle_M09501.000.0110.jpg",
         "projects": [
@@ -1110,6 +1127,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Carmen-Carmencita.jpg|http://www.panzeri.it/media/DT/A-64011.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "A06401.000.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-Carmen-Carmencita.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/A-64011.jpg",
         "projects": [
@@ -1179,6 +1197,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Carmen-Carmencita.jpg|http://www.panzeri.it/media/DT/P-6401-21.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "P06401.002.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-Carmen-Carmencita.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/P-6401-21.jpg",
         "projects": [
@@ -1248,6 +1267,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Classic.jpg|http://www.panzeri.it/media/DT/classic_C024_-_.001.0000.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "C02420.001.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Classic.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/classic_C024_-_.001.0000.jpg",
         "projects": [
@@ -1307,6 +1327,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Classic.jpg|http://www.panzeri.it/media/DT/classic_A024_-_.001.0000.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "A02420.001.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Classic.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/classic_A024_-_.001.0000.jpg",
         "projects": [
@@ -1366,6 +1387,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Classic.jpg|http://www.panzeri.it/media/DT/classic_T024_-_.002.0000.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "T02420.002.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Classic.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/classic_T024_-_.002.0000.jpg",
         "projects": [
@@ -1425,6 +1447,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Olivia-Emma-Clio.jpg|http://www.panzeri.it/media/DT/M9402-S.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "M09451.000.0200",
         "pic": "http://www.panzeri.it/media/FP/FP-Olivia-Emma-Clio.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/M9402-S.jpg",
         "projects": [
@@ -1491,6 +1514,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Cross.jpg|http://www.panzeri.it/media/DT/A-4901.30-LED.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "A04901.030.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-Cross.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/A-4901.30-LED.jpg",
         "projects": [
@@ -1558,6 +1582,7 @@
         "product_images_alt": "pic|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Disco.jpg|http://www.panzeri.it/media/DT/P-6601.30-LED.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "P06601.030.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Disco.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/P-6601.30-LED.jpg",
         "projects": [
@@ -1616,6 +1641,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Domino.jpg|http://www.panzeri.it/media/DT/P-9021.111.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "P09031.011.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Domino.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/P-9021.111.jpg",
         "projects": [
@@ -1677,6 +1703,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Domino.jpg|http://www.panzeri.it/media/DT/L-9021.111.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L09031.011.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Domino.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/L-9021.111.jpg",
         "projects": [
@@ -1738,6 +1765,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Elle.jpg|http://www.panzeri.it/media/DT/P-5001-1L.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "P05001.001.0011",
         "pic": "http://www.panzeri.it/media/FP/FP-Elle.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/P-5001-1L.jpg",
         "projects": [
@@ -1799,6 +1827,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Olivia-Emma-Clio.jpg|http://www.panzeri.it/media/DT/M9102-S.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "M09151.000.0200",
         "pic": "http://www.panzeri.it/media/FP/FP-Olivia-Emma-Clio.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/M9102-S.jpg",
         "projects": [
@@ -1867,6 +1896,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Flat.jpg|http://www.panzeri.it/media/DT/A_7501.38.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "A07501.038.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-Flat.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/A_7501.38.jpg",
         "projects": [
@@ -1938,6 +1968,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Flat.jpg|http://www.panzeri.it/media/DT/L-7501.51.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L07501.051.0102",
         "pic": "http://www.panzeri.it/media/FP/FP-Flat.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/L-7501.51.jpg",
         "projects": [
@@ -2009,6 +2040,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Floral.jpg|http://www.panzeri.it/media/DT/L-1322.401.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L01322.040.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Floral.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/L-1322.401.jpg",
         "projects": [
@@ -2070,6 +2102,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Floral.jpg|http://www.panzeri.it/media/DT/C-1322.401.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "C01322.040.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Floral.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/C-1322.401.jpg",
         "projects": [
@@ -2131,6 +2164,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Giano.jpg|http://www.panzeri.it/media/DT/DT-Giano-A246__.025.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "A24646.025.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-Giano.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/DT-Giano-A246__.025.jpg",
         "projects": [
@@ -2204,6 +2238,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Giano.jpg|http://www.panzeri.it/media/DT/giano_L246_-_.150.0101.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L24647.150.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-Giano.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/giano_L246_-_.150.0101.jpg",
         "projects": [
@@ -2279,6 +2314,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Draco.jpg|http://www.panzeri.it/media/DT/EA-54011.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "EA05401.000.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-Draco.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/EA-54011.jpg",
         "projects": [
@@ -2345,6 +2381,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Four.jpg|http://www.panzeri.it/media/DT/EP-4401-LED.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "EP04401.000.0106",
         "pic": "http://www.panzeri.it/media/FP/FP-Four.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/EP-4401-LED.jpg",
         "projects": [
@@ -2413,6 +2450,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Gilbert.jpg|http://www.panzeri.it/media/DT/P-6501.37-LED.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "P06501.037.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Gilbert.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/P-6501.37-LED.jpg",
         "projects": [
@@ -2474,6 +2512,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Gilbert.jpg|http://www.panzeri.it/media/DT/L-6501.22-LED.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L06501.022.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Gilbert.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/L-6501.22-LED.jpg",
         "projects": [
@@ -2536,6 +2575,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Gilbert.jpg|http://www.panzeri.it/media/DT/C-6501.22-LED.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "C06501.022.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-Gilbert.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/C-6501.22-LED.jpg",
         "projects": [
@@ -2605,6 +2645,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/Panzeri-Ginevra-1.jpg|http://www.panzeri.it/media/DT/DT_ginevra_P09280_050.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "P09280.050.0102",
         "pic": "http://www.panzeri.it/media/FP/Panzeri-Ginevra-1.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/DT_ginevra_P09280_050.jpg",
         "projects": [
@@ -2672,6 +2713,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/Panzeri-Ginevra-1.jpg|http://www.panzeri.it/media/DT/DT_ginevra_L09280_050.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L09280.050.0102",
         "pic": "http://www.panzeri.it/media/FP/Panzeri-Ginevra-1.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/DT_ginevra_L09280_050.jpg",
         "projects": [
@@ -2739,6 +2781,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Golden_Ring.jpg|http://www.panzeri.it/media/DT/golden_L08101.080.0108.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L08101.080.0108",
         "pic": "http://www.panzeri.it/media/FP/FP-Golden_Ring.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/golden_L08101.080.0108.jpg",
         "projects": [
@@ -2812,6 +2855,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/Panzeri-Gong-1.jpg|http://www.panzeri.it/media/DT/DT_gong_L09301_060.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L09301.060.0102",
         "pic": "http://www.panzeri.it/media/FP/Panzeri-Gong-1.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/DT_gong_L09301_060.jpg",
         "projects": [
@@ -2880,6 +2924,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Jackie.jpg|http://www.panzeri.it/media/DT/P7701.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "P07701.000.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-Jackie.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/P7701.jpg",
         "projects": [
@@ -2951,6 +2996,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Jackie_Spot.jpg|http://www.panzeri.it/media/DT/B07701.000.0701.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "B07701.000.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-Jackie_Spot.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/B07701.000.0701.jpg",
         "projects": [
@@ -3018,6 +3064,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Jackie.jpg|http://www.panzeri.it/media/DT/C7701-P1.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "CP07701.000.0409",
         "pic": "http://www.panzeri.it/media/FP/FP-Jackie.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/C7701-P1.jpg",
         "projects": [
@@ -3088,6 +3135,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Jackie.jpg|http://www.panzeri.it/media/DT/T77011.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "T07701.000.0409",
         "pic": "http://www.panzeri.it/media/FP/FP-Jackie.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/T77011.jpg",
         "projects": [
@@ -3158,6 +3206,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Jackie_IoT.jpg|http://www.panzeri.it/media/DT/A7701.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "A07701.000.0413",
         "pic": "http://www.panzeri.it/media/FP/FP-Jackie_IoT.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/A7701.jpg",
         "projects": [
@@ -3229,6 +3278,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Jackie_IoT.jpg|http://www.panzeri.it/media/DT/C7701-P1.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "CP07701.000.0413",
         "pic": "http://www.panzeri.it/media/FP/FP-Jackie_IoT.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/C7701-P1.jpg",
         "projects": [
@@ -3299,6 +3349,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-LAMPyris.jpg|http://www.panzeri.it/media/DT/ET-8001-BROWN.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "ET08044.000.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-LAMPyris.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/ET-8001-BROWN.jpg",
         "projects": [
@@ -3369,6 +3420,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Jackie_IoT.jpg|http://www.panzeri.it/media/DT/T77011.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "T07701.000.0413",
         "pic": "http://www.panzeri.it/media/FP/FP-Jackie_IoT.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/T77011.jpg",
         "projects": [
@@ -3439,6 +3491,7 @@
         "product_images_alt": "pic|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Jazz.jpg|http://www.panzeri.it/media/DT/jazz.png",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "M08901.000.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Jazz.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/jazz.png",
         "projects": [
@@ -3499,6 +3552,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Kubik.jpg|http://www.panzeri.it/media/DT/A-7033.11-LED1.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "A07001.011.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Kubik.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/A-7033.11-LED1.jpg",
         "projects": [
@@ -3560,6 +3614,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Kubik.jpg|http://www.panzeri.it/media/DT/C-7033.11-LED.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "C07001.011.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-Kubik.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/C-7033.11-LED.jpg",
         "projects": [
@@ -3628,6 +3683,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Kubik.jpg|http://www.panzeri.it/media/DT/L-7033.11-LED.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L07001.011.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-Kubik.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/L-7033.11-LED.jpg",
         "projects": [
@@ -3696,6 +3752,7 @@
         "product_images_alt": "pic|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Line.jpg|http://www.panzeri.it/media/DT/L-36011.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L03601.000.0100",
         "pic": "http://www.panzeri.it/media/FP/FP-Line.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/L-36011.jpg",
         "projects": [
@@ -3763,6 +3820,7 @@
         "product_images_alt": "pic|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Line.jpg|http://www.panzeri.it/media/DT/T-36011.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "T03601.000.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-Line.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/T-36011.jpg",
         "projects": [
@@ -3829,6 +3887,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Olivia-Emma-Clio.jpg|http://www.panzeri.it/media/DT/M097_-_.000.0200.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "M09751.000.0200",
         "pic": "http://www.panzeri.it/media/FP/FP-Olivia-Emma-Clio.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/M097_-_.000.0200.jpg",
         "projects": [
@@ -3895,6 +3954,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Ralph.jpg|http://www.panzeri.it/media/DT/EL047_-_.035.0000.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "EL04701.035.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Ralph.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/EL047_-_.035.0000.jpg",
         "projects": [
@@ -3961,6 +4021,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Potter.jpg|http://www.panzeri.it/media/DT/EC-42011.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "T04201.000.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Potter.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/EC-42011.jpg",
         "projects": [
@@ -4024,6 +4085,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-One.jpg|http://www.panzeri.it/media/DT/P-3701-LED1.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "P03701.000.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-One.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/P-3701-LED1.jpg",
         "projects": [
@@ -4092,6 +4154,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-One.jpg|http://www.panzeri.it/media/DT/one_disegno-tecnico.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L03701.000.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-One.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/one_disegno-tecnico.jpg",
         "projects": [
@@ -4160,6 +4223,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Planet_Ring_X.jpg|http://www.panzeri.it/media/DT/recessed_1.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "X08301.040.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-Planet_Ring_X.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/recessed_1.jpg",
         "projects": [
@@ -4229,6 +4293,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Planet_Ring_P.jpg|http://www.panzeri.it/media/DT/L08301.070.0101.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L08301.070.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-Planet_Ring_P.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/L08301.070.0101.jpg",
         "projects": [
@@ -4298,6 +4363,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Silver_Ring_P.jpg|http://www.panzeri.it/media/DT/DT_silver_ring_P08201_050.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "P08201.050.0102",
         "pic": "http://www.panzeri.it/media/FP/FP-Silver_Ring_P.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/DT_silver_ring_P08201_050.jpg",
         "projects": [
@@ -4371,6 +4437,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Silver_Ring_L.jpg|http://www.panzeri.it/media/DT/DT_silver_ring_L08201_050.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L08201.050.0102",
         "pic": "http://www.panzeri.it/media/FP/FP-Silver_Ring_L.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/DT_silver_ring_L08201_050.jpg",
         "projects": [
@@ -4444,6 +4511,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Tate.jpg|http://www.panzeri.it/media/DT/Y-TAT-2A-1.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "Y-TAT-2A-WHI",
         "pic": "http://www.panzeri.it/media/FP/FP-Tate.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/Y-TAT-2A-1.jpg",
         "projects": [
@@ -4507,6 +4575,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Tate.jpg|http://www.panzeri.it/media/DT/Y-TAT-6L-1.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "Y-TAT-6L-WHI",
         "pic": "http://www.panzeri.it/media/FP/FP-Tate.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/Y-TAT-6L-1.jpg",
         "projects": [
@@ -4570,6 +4639,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Three.jpg|http://www.panzeri.it/media/DT/P-3901N-LED1.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "P03901.011.0106",
         "pic": "http://www.panzeri.it/media/FP/FP-Three.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/P-3901N-LED1.jpg",
         "projects": [
@@ -4636,6 +4706,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-To-be-L025__.085.0501.jpg|http://www.panzeri.it/media/DT/M02501.085.0510.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "M02501.085.0510",
         "pic": "http://www.panzeri.it/media/FP/FP-To-be-L025__.085.0501.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/M02501.085.0510.jpg",
         "projects": [
@@ -4706,6 +4777,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Ralph.jpg|http://www.panzeri.it/media/DT/ET_4701.35-1.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "ET04701.035.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Ralph.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/ET_4701.35-1.jpg",
         "projects": [
@@ -4772,6 +4844,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-To-be-L027__.045.1701.jpg|http://www.panzeri.it/media/DT/P02701.045.1701.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "P02701.045.1701",
         "pic": "http://www.panzeri.it/media/FP/FP-To-be-L027__.045.1701.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/P02701.045.1701.jpg",
         "projects": [
@@ -4843,6 +4916,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Ralph.jpg|http://www.panzeri.it/media/DT/EC_4701.35-1.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "EC04701.035.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Ralph.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/EC_4701.35-1.jpg",
         "projects": [
@@ -4909,6 +4983,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Toy.jpg|http://www.panzeri.it/media/DT/A-1601.071.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "A01621.007.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Toy.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/A-1601.071.jpg",
         "projects": [
@@ -4969,6 +5044,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Toy_Gypso.jpg|http://www.panzeri.it/media/DT/A-1642.25-LED1.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "A01642.025.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-Toy_Gypso.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/A-1642.25-LED1.jpg",
         "projects": [
@@ -5036,6 +5112,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Two.jpg|http://www.panzeri.it/media/DT/P-3801-LED1.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "P03801.000.0106",
         "pic": "http://www.panzeri.it/media/FP/FP-Two.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/P-3801-LED1.jpg",
         "projects": [
@@ -5101,6 +5178,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Two.jpg|http://www.panzeri.it/media/DT/L-3801-LED1.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L03801.000.0106",
         "pic": "http://www.panzeri.it/media/FP/FP-Two.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/L-3801-LED1.jpg",
         "projects": [
@@ -5166,6 +5244,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Viisi.jpg|http://www.panzeri.it/media/DT/L020_-_.120.0102.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L02001.120.0102",
         "pic": "http://www.panzeri.it/media/FP/FP-Viisi.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/L020_-_.120.0102.jpg",
         "projects": [
@@ -5233,6 +5312,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Viisi.jpg|http://www.panzeri.it/media/DT/T020_-_.210.0102.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "T02001.210.0102",
         "pic": "http://www.panzeri.it/media/FP/FP-Viisi.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/T020_-_.210.0102.jpg",
         "projects": [
@@ -5299,6 +5379,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Viki.jpg|http://www.panzeri.it/media/DT/P04101.055.0000.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "P04101.055.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Viki.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/P04101.055.0000.jpg",
         "projects": [
@@ -5359,6 +5440,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Viki.jpg|http://www.panzeri.it/media/DT/L-4101.55.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L04101.055.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Viki.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/L-4101.55.jpg",
         "projects": [
@@ -5419,6 +5501,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Willy-glass.jpg|http://www.panzeri.it/media/DT/L-7633.401.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "L07631.040.0000",
         "pic": "http://www.panzeri.it/media/FP/FP-Willy-glass.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/L-7633.401.jpg",
         "projects": [
@@ -5480,6 +5563,7 @@
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Ypsilon.jpg|http://www.panzeri.it/media/DT/A-7201-OUT.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "A07201.000.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-Ypsilon.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/A-7201-OUT.jpg",
         "projects": [
@@ -5547,6 +5631,7 @@
         "product_images_alt": "pic|projects|projects|projects",
         "combination_images": "http://www.panzeri.it/media/FP/FP-Zero.jpg|http://www.panzeri.it/media/DT/A-3501.50-LED.jpg",
         "combination_images_alt": "pic|light_schema",
+        "combination_id": "A03501.050.0101",
         "pic": "http://www.panzeri.it/media/FP/FP-Zero.jpg",
         "light_schema": "http://www.panzeri.it/media/DT/A-3501.50-LED.jpg",
         "projects": [
