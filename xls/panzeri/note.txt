@@ -1,17 +1,0 @@
- - a riga 329 e 332 troviamo l’articolo BON JOUR UNPLUGGED nelle colorazioni Bianco e Cromo. Questi due articoli hanno il codice rispettivamente F1037009A e F1037057A (ho rimosso la A finale perché sul sito non c’è)
-
- - l’articolo GUNS - LOUNGE Gun in oro che sul sito ha codice F29550 sul listino prezzi ha codice F2955000 
- - stessa cosa per l’articolo che sul sito ha codice F31730 e sul listino F3173030
-
- - ho eliminato queste righe:
-F1038009	BON JOUR UNPLUG.PRO N.6 PZ EU/US/GB/SA BCO OPA	€ 1.100,00	€ 1.342,00	DECORATIVEF1038015	BON JOUR UNPLUG.PRO N.6 PZ EU/US/GB/SA RAM	€ 1.170,00	€ 1.427,40	DECORATIVEF1038046	BON JOUR UNPLUG.PRO N.6 PZ EU/US/GB/SA CRO OPA	€ 1.170,00	€ 1.427,40	DECORATIVEF1038057	BON JOUR UNPLUG.PRO N.6 PZ EU/US/GB/SA CRO	€ 1.170,00	€ 1.427,40	DECORATIVE
-
- - su sito l’articolo F9550039 ha codice f9550039;
- - su sito l’articolo F9514030 ha uno zero in più F95140030
- - su sito l’articolo F6307007 ha codice F63070
- - su sito l’articolo F6305007 ha codice F63030
- - su sito l’articolo F6265007 ha codice F62650
-
- - su sito l’articolo F4193009 ha un 1 al posto del 3 F4191009
- - su sito l’articolo F3150030 ha un 2 al posto del 5 F3120030
-F4193009
