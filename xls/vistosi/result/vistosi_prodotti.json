@@ -431,7 +431,7 @@
             "applique"
         ],
         "component": 1,
-        "component_of": "visto_SPBACON0004CA2E",
+        "component_of": "visto_APBACONACRNI",
         "outdoor": "no",
         "category": "parete,accessorio",
         "max_discount": 15,
@@ -857,7 +857,7 @@
         "order_available": "2",
         "model_variant": "Cleo ap",
         "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | screw : E27 : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : radio : 1 | colore : radio : 2",
+        "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
         "values": "nuovo : 0 | Cleo ap : 1 | bianco,nichel,nero,nichel : 2",
         "accessories": "visto_VAPCLEOBC|visto_VAPCLEOBC|visto_VAPCLEOBC|visto_VAPCLEOBC"
     },
@@ -1284,7 +1284,7 @@
         "order_available": "2",
         "model_variant": "Diadema ap",
         "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | switcher : no : 2 : 1",
-        "attributes": "stato : select : 0 | variante : radio : 1 | colore : radio : 2 | alogena : radio : 3 | attacco : select : 4",
+        "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2 | alogena : radio : 3 | attacco : select : 4",
         "values": "nuovo : 0 | Diadema ap : 1 | cromo,cromo,cristallo : 2 | no : 3 | L13 : 4",
         "accessories": ""
     },
@@ -1628,7 +1628,7 @@
         "order_available": "2",
         "model_variant": "Ecos ap 35",
         "features": "model_variant : Ecos ap 35 : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | screw : G9 : 4 : 1 | switcher : no : 5 : 1",
-        "attributes": "stato : select : 0 | colore : radio : 1",
+        "attributes": "stato : select : 0 | colore : select : 1",
         "values": "nuovo : 0 | bronzo,trasparente,cristallo : 1",
         "accessories": ""
     },
@@ -3270,7 +3270,7 @@
         "order_available": "2",
         "model_variant": "Peggy ap",
         "features": "model_variant : Peggy ap : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | screw : G9 : 4 : 1 | switcher : no : 5 : 1",
-        "attributes": "stato : select : 0 | colore : radio : 1",
+        "attributes": "stato : select : 0 | colore : select : 1",
         "values": "nuovo : 0 | bianco,nero : 1",
         "accessories": ""
     },
@@ -4196,9 +4196,9 @@
         "meta_description": "CANDELA SP Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da S in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Candela sp",
-        "features": "model_variant : Candela sp : 0 : 1 | color : bianco,cromo,cromo : 1 : 1 | dimmer : no : 2 : 1 | led : no : 3 : 1 | halogen : no : 4 : 1 | screw : G9 : 5 : 1 | switcher : no : 6 : 1",
-        "attributes": "stato : select : 0",
-        "values": "nuovo : 0",
+        "features": "model_variant : Candela sp : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | screw : G9 : 4 : 1 | switcher : no : 5 : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
+        "values": "nuovo : 0 | bianco,cromo,cromo : 1",
         "accessories": ""
     },
     {
@@ -4480,7 +4480,7 @@
         "order_available": "2",
         "model_variant": "Diadema pl 80",
         "features": "model_variant : Diadema pl 80 : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | screw : G9 : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | colore : radio : 1 | alogena : radio : 2",
+        "attributes": "stato : select : 0 | colore : select : 1 | alogena : radio : 2",
         "values": "nuovo : 0 | cromo,cromo,cristallo : 1 | no : 2",
         "accessories": ""
     },
@@ -4546,7 +4546,7 @@
         "order_available": "2",
         "model_variant": "Diamante fa",
         "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : select : 3",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2 | attacco : select : 3",
         "values": "nuovo : 0 | Diamante fa : 1 | nichel,nero,cristallo,nichel : 2 | DB2 : 3",
         "accessories": "visto_APDIAMAKTONI|visto_VDILTVEGABC|visto_VDILTVEGABC|visto_VDILTVEGABC"
     },
@@ -4716,9 +4716,9 @@
         "meta_description": "OUT OF STOCK Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da S in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Out of stock",
-        "features": "color : bianco,bianco : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | attacco : select : 2",
-        "values": "nuovo : 0 | Out of stock : 1 | EA3 : 2",
+        "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : select : 3",
+        "values": "nuovo : 0 | Out of stock : 1 | bianco,bianco : 2 | EA3 : 3",
         "accessories": ""
     },
     {
@@ -5174,9 +5174,9 @@
         "meta_description": "BISSONA LT Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da T in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Bissona lt",
-        "features": "model_variant : Bissona lt : 0 : 1 | color : bianco,bianco : 1 : 1 | dimmer : no : 2 : 1 | led : no : 3 : 1 | halogen : no : 4 : 1 | screw : G9 : 5 : 1 | switcher : no : 6 : 1",
-        "attributes": "stato : select : 0",
-        "values": "nuovo : 0",
+        "features": "model_variant : Bissona lt : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | screw : G9 : 4 : 1 | switcher : no : 5 : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
+        "values": "nuovo : 0 | bianco,bianco : 1",
         "accessories": "visto_VLTBISSONABC"
     },
     {
@@ -5234,7 +5234,7 @@
         "order_available": "2",
         "model_variant": "Bolle lt p",
         "features": "model_variant : Bolle lt p : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | screw : G9 : 4 : 1 | switcher : no : 5 : 1",
-        "attributes": "stato : select : 0 | colore : radio : 1",
+        "attributes": "stato : select : 0 | colore : select : 1",
         "values": "nuovo : 0 | bianco,nichel,nero,nichel : 1",
         "accessories": ""
     },
@@ -5655,7 +5655,7 @@
         "order_available": "2",
         "model_variant": "Diadema lt g",
         "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | screw : 14E : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : radio : 1 | colore : radio : 2",
+        "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
         "values": "nuovo : 0 | Diadema lt g : 1 | cromo,cromo,cristallo : 2",
         "accessories": ""
     },
@@ -5769,9 +5769,9 @@
         "meta_description": "FEREA LT Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da T in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Ferea lt",
-        "features": "model_variant : Ferea lt : 0 : 1 | color : bianco,bianco : 1 : 1 | dimmer : no : 2 : 1 | led : no : 3 : 1 | halogen : no : 4 : 1 | screw : E27 : 5 : 1 | switcher : no : 6 : 1",
-        "attributes": "stato : select : 0",
-        "values": "nuovo : 0",
+        "features": "model_variant : Ferea lt : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | screw : E27 : 4 : 1 | switcher : no : 5 : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1",
+        "values": "nuovo : 0 | bianco,bianco : 1",
         "accessories": "visto_VAPFEREABC|visto_VAPFEREABC"
     },
     {
@@ -6317,7 +6317,7 @@
         "order_available": "2",
         "model_variant": "Lucciola lt 18",
         "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : radio : 3",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2 | attacco : radio : 3",
         "values": "nuovo : 0 | Lucciola lt 18 : 1 | bianco,bianco : 2 | 14E : 3",
         "accessories": ""
     },
@@ -6436,9 +6436,9 @@
         "meta_description": "NAXOS LT MN Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da T in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Naxos lt mn",
-        "features": "color : bianco,bianco,nichel,nero : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | screw : 14E : 4 : 1 | switcher : no : 5 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1",
-        "values": "nuovo : 0 | Naxos lt mn : 1",
+        "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | screw : 14E : 3 : 1 | switcher : no : 4 : 1",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2",
+        "values": "nuovo : 0 | Naxos lt mn : 1 | bianco,bianco,nichel,nero : 2",
         "accessories": "visto_ROD125H30BC|visto_VBALTNAXOS33|visto_VBALTNAXOS33|visto_VBALTNAXOS33"
     },
     {
@@ -6728,7 +6728,7 @@
         "order_available": "2",
         "model_variant": "Novecento lt",
         "features": "model_variant : Novecento lt : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | screw : 14E : 4 : 1 | switcher : no : 5 : 1",
-        "attributes": "stato : select : 0 | colore : radio : 1",
+        "attributes": "stato : select : 0 | colore : select : 1",
         "values": "nuovo : 0 | bianco,cromo,cromo : 1",
         "accessories": ""
     },
@@ -7025,7 +7025,7 @@
         "order_available": "2",
         "model_variant": "Sata lt",
         "features": "model_variant : Sata lt : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | screw : E27 : 4 : 1 | switcher : no : 5 : 1",
-        "attributes": "stato : select : 0 | colore : radio : 1",
+        "attributes": "stato : select : 0 | colore : select : 1",
         "values": "nuovo : 0 | ametista,sfumato,legno : 1",
         "accessories": ""
     },
@@ -7084,7 +7084,7 @@
         "order_available": "2",
         "model_variant": "Spirit lt 37",
         "features": "model_variant : Spirit lt 37 : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | screw : E27 : 4 : 1 | switcher : no : 5 : 1",
-        "attributes": "stato : select : 0 | colore : radio : 1",
+        "attributes": "stato : select : 0 | colore : select : 1",
         "values": "nuovo : 0 | bianco,nichel,nero,nichel : 1",
         "accessories": ""
     },
@@ -7673,9 +7673,9 @@
         "meta_description": "BALANCE PL 24 Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da S in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Balance pl 24",
-        "features": "color : bianco,bianco : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | attacco : select : 2",
-        "values": "nuovo : 0 | Balance pl 24 : 1 | 14E : 2",
+        "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : select : 3",
+        "values": "nuovo : 0 | Balance pl 24 : 1 | bianco,bianco : 2 | 14E : 3",
         "accessories": ""
     },
     {
@@ -8087,7 +8087,7 @@
         "order_available": "2",
         "model_variant": "Ecos pl 60a",
         "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | screw : E27 : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : radio : 1 | colore : radio : 2",
+        "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
         "values": "nuovo : 0 | Ecos pl 60a : 1 | bronzo,trasparente,cristallo : 2",
         "accessories": ""
     },
@@ -8751,9 +8751,9 @@
         "meta_description": "INFINITA PL 80 Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da S in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Infinita pl 80",
-        "features": "color : bianco,bianco,nichel,nero : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | attacco : select : 2",
-        "values": "nuovo : 0 | Infinita pl 80 : 1 | OA3 : 2",
+        "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : select : 3",
+        "values": "nuovo : 0 | Infinita pl 80 : 1 | bianco,bianco,nichel,nero : 2 | OA3 : 3",
         "accessories": ""
     },
     {
@@ -8925,9 +8925,9 @@
         "meta_description": "MIA PL 60 Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da S in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Mia pl 60",
-        "features": "model_variant : Mia pl 60 : 0 : 1 | color : bianco,bianco : 1 : 1 | dimmer : no : 2 : 1 | led : no : 3 : 1 | halogen : no : 4 : 1 | switcher : no : 5 : 1",
-        "attributes": "stato : select : 0 | attacco : select : 1",
-        "values": "nuovo : 0 | E27 : 1",
+        "features": "model_variant : Mia pl 60 : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | switcher : no : 4 : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1 | attacco : select : 2",
+        "values": "nuovo : 0 | bianco,bianco : 1 | E27 : 2",
         "accessories": ""
     },
     {
@@ -8983,9 +8983,9 @@
         "meta_description": "MORIS PL 30 Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da S in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Moris pl 30",
-        "features": "color : bianco,bianco : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | attacco : select : 2",
-        "values": "nuovo : 0 | Moris pl 30 : 1 | E27 : 2",
+        "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : select : 3",
+        "values": "nuovo : 0 | Moris pl 30 : 1 | bianco,bianco : 2 | E27 : 3",
         "accessories": ""
     },
     {
@@ -9215,9 +9215,9 @@
         "meta_description": "NEOCHIC PL M Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da S in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Neochic pl m",
-        "features": "color : bianco,bianco : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | attacco : select : 2",
-        "values": "nuovo : 0 | Neochic pl m : 1 | E27 : 2",
+        "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : select : 3",
+        "values": "nuovo : 0 | Neochic pl m : 1 | bianco,bianco : 2 | E27 : 3",
         "accessories": ""
     },
     {
@@ -9277,7 +9277,7 @@
         "order_available": "2",
         "model_variant": "Novecento pl",
         "features": "model_variant : Novecento pl : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | screw : 14E : 4 : 1 | switcher : no : 5 : 1",
-        "attributes": "stato : select : 0 | colore : radio : 1",
+        "attributes": "stato : select : 0 | colore : select : 1",
         "values": "nuovo : 0 | bianco,cromo,cromo : 1",
         "accessories": ""
     },
@@ -9509,9 +9509,9 @@
         "meta_description": "POD PL G Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da S in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Pod pl g",
-        "features": "color : bianco,bianco : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | screw : G9 : 4 : 1 | switcher : no : 5 : 1",
-        "attributes": "stato : select : 0 | variante : radio : 1",
-        "values": "nuovo : 0 | Pod pl g : 1",
+        "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | screw : G9 : 3 : 1 | switcher : no : 4 : 1",
+        "attributes": "stato : select : 0 | variante : radio : 1 | colore : radio : 2",
+        "values": "nuovo : 0 | Pod pl g : 1 | bianco,bianco : 2",
         "accessories": ""
     },
     {
@@ -9915,9 +9915,9 @@
         "meta_description": "SABA PL 30 Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da S in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Saba pl 30",
-        "features": "color : bianco,bianco : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | attacco : select : 2",
-        "values": "nuovo : 0 | Saba pl 30 : 1 | E27 : 2",
+        "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : select : 3",
+        "values": "nuovo : 0 | Saba pl 30 : 1 | bianco,bianco : 2 | E27 : 3",
         "accessories": "visto_VPLTHOR30BC|visto_VPLTHOR30BC|visto_VPLTHOR30BC|visto_VPLTHOR30BC"
     },
     {
@@ -10203,9 +10203,9 @@
         "meta_description": "SOGNO PL 42 Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da S in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Sogno pl 42",
-        "features": "color : bianco,bianco : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : radio : 1 | attacco : select : 2",
-        "values": "nuovo : 0 | Sogno pl 42 : 1 | E27 : 2",
+        "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
+        "attributes": "stato : select : 0 | variante : radio : 1 | colore : radio : 2 | attacco : select : 3",
+        "values": "nuovo : 0 | Sogno pl 42 : 1 | bianco,bianco : 2 | E27 : 3",
         "accessories": ""
     },
     {
@@ -10263,7 +10263,7 @@
         "order_available": "2",
         "model_variant": "Spirit pl 37",
         "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
-        "attributes": "stato : select : 0 | variante : radio : 1 | colore : radio : 2 | attacco : select : 3",
+        "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2 | attacco : select : 3",
         "values": "nuovo : 0 | Spirit pl 37 : 1 | bianco,nichel,nero,nichel : 2 | I03 : 3",
         "accessories": ""
     },
@@ -10433,7 +10433,7 @@
         "order_available": "2",
         "model_variant": "Tubes pl 120",
         "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : radio : 3",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2 | attacco : radio : 3",
         "values": "nuovo : 0 | Tubes pl 120 : 1 | bianco,nichel,nero,nichel : 2 | CA2 : 3",
         "accessories": ""
     },
@@ -10873,7 +10873,7 @@
         "order_available": "2",
         "model_variant": "Diadema pt 18",
         "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | screw : G9 : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : radio : 1 | colore : radio : 2",
+        "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
         "values": "nuovo : 0 | Diadema pt 18 : 1 | cromo,cromo,cristallo : 2",
         "accessories": ""
     },
@@ -10937,7 +10937,7 @@
         "order_available": "2",
         "model_variant": "Ecos pt 35",
         "features": "model_variant : Ecos pt 35 : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | screw : E27 : 4 : 1 | switcher : no : 5 : 1",
-        "attributes": "stato : select : 0 | colore : radio : 1",
+        "attributes": "stato : select : 0 | colore : select : 1",
         "values": "nuovo : 0 | bronzo,trasparente,cristallo : 1",
         "accessories": ""
     },
@@ -11491,9 +11491,9 @@
         "meta_description": "LUCCIOLA PT M Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da P in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Lucciola pt m",
-        "features": "color : bianco,nichel,nero,nichel : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | screw : E27 : 4 : 1 | switcher : no : 5 : 1",
-        "attributes": "stato : select : 0 | variante : radio : 1",
-        "values": "nuovo : 0 | Lucciola pt m : 1",
+        "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | screw : E27 : 3 : 1 | switcher : no : 4 : 1",
+        "attributes": "stato : select : 0 | variante : radio : 1 | colore : radio : 2",
+        "values": "nuovo : 0 | Lucciola pt m : 1 | bianco,nichel,nero,nichel : 2",
         "accessories": ""
     },
     {
@@ -11609,9 +11609,9 @@
         "meta_description": "NAXOS PT 50 Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da P in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Naxos pt 50",
-        "features": "model_variant : Naxos pt 50 : 0 : 1 | color : bianco,nichel,nero,nichel : 1 : 1 | dimmer : no : 2 : 1 | led : no : 3 : 1 | halogen : no : 4 : 1 | switcher : no : 5 : 1",
-        "attributes": "stato : select : 0 | attacco : radio : 1",
-        "values": "nuovo : 0 | altro : 1",
+        "features": "model_variant : Naxos pt 50 : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | switcher : no : 4 : 1",
+        "attributes": "stato : select : 0 | colore : radio : 1 | attacco : radio : 2",
+        "values": "nuovo : 0 | bianco,nichel,nero,nichel : 1 | altro : 2",
         "accessories": "visto_ROD125H30BC|visto_VBALTNAXOS33|visto_VBALTNAXOS33|visto_VBALTNAXOS33"
     },
     {
@@ -11729,7 +11729,7 @@
         "order_available": "2",
         "model_variant": "Novecento pt",
         "features": "model_variant : Novecento pt : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | screw : E27 : 4 : 1 | switcher : no : 5 : 1",
-        "attributes": "stato : select : 0 | colore : radio : 1",
+        "attributes": "stato : select : 0 | colore : select : 1",
         "values": "nuovo : 0 | bianco,cromo,cromo : 1",
         "accessories": ""
     },
@@ -11963,7 +11963,7 @@
         "order_available": "2",
         "model_variant": "Sata pt",
         "features": "model_variant : Sata pt : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | screw : E27 : 4 : 1 | switcher : no : 5 : 1",
-        "attributes": "stato : select : 0 | colore : radio : 1",
+        "attributes": "stato : select : 0 | colore : select : 1",
         "values": "nuovo : 0 | ametista,sfumato,legno : 1",
         "accessories": ""
     },
@@ -12198,7 +12198,7 @@
         "order_available": "2",
         "model_variant": "Trepai pt",
         "features": "model_variant : Trepai pt : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | screw : E27 : 4 : 1 | switcher : no : 5 : 1",
-        "attributes": "stato : select : 0 | colore : radio : 1",
+        "attributes": "stato : select : 0 | colore : select : 1",
         "values": "nuovo : 0 | bianco,cromo,cromo : 1",
         "accessories": ""
     },
@@ -13153,9 +13153,9 @@
         "meta_description": "BALANCE SP 24 Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da S in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Balance sp 24",
-        "features": "color : bianco,nichel,nero,nichel : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | attacco : select : 2",
-        "values": "nuovo : 0 | Balance sp 24 : 1 | EB3 : 2",
+        "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : select : 3",
+        "values": "nuovo : 0 | Balance sp 24 : 1 | bianco,nichel,nero,nichel : 2 | EB3 : 3",
         "accessories": ""
     },
     {
@@ -13332,7 +13332,7 @@
         "order_available": "2",
         "model_variant": "Bolle sp g",
         "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : select : 3",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2 | attacco : select : 3",
         "values": "nuovo : 0 | Bolle sp g : 1 | bianco,nichel,nero,nichel : 2 | CA2 : 3",
         "accessories": ""
     },
@@ -13739,7 +13739,7 @@
         "order_available": "2",
         "model_variant": "Cleo sp",
         "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : radio : 3",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2 | attacco : radio : 3",
         "values": "nuovo : 0 | Cleo sp : 1 | bianco,nichel,nero,nichel : 2 | CA2 : 3",
         "accessories": "visto_VAPCLEOBC|visto_VAPCLEOBC|visto_VAPCLEOBC|visto_VAPCLEOBC"
     },
@@ -13914,9 +13914,9 @@
         "meta_description": "CRISTALL SP Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da S in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Cristall sp",
-        "features": "model_variant : Cristall sp : 0 : 1 | dimmer : no : 1 : 1 | led : yes : 2 : 1 | halogen : no : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | colore : select : 1 | attacco : radio : 2",
-        "values": "nuovo : 0 | bianco,bianco,sfumato,cristallo : 1 | altro : 2",
+        "features": "model_variant : Cristall sp : 0 : 1 | dimmer : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
+        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | attacco : radio : 3",
+        "values": "nuovo : 0 | bianco,bianco,sfumato,cristallo : 1 | si : 2 | altro : 3",
         "accessories": "visto_APDAMASCKBCNI|visto_APDAMASCKBCNI|visto_APDAMASCKBCNI|visto_APDAMASCKBCNI|visto_APDAMASCKBCNI|visto_APDAMASCKBCNI|visto_APDAMASCKBCNI|visto_APDAMASCKBCNI|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA|visto_CVPYAPMUMBA"
     },
     {
@@ -14126,7 +14126,7 @@
         "order_available": "2",
         "model_variant": "Diamante sp 1",
         "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : select : 3",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2 | attacco : select : 3",
         "values": "nuovo : 0 | Diamante sp 1 : 1 | nichel,nero,cristallo,nichel : 2 | BA2 : 3",
         "accessories": "visto_APDIAMAKTONI|visto_VDILTVEGABC|visto_VDILTVEGABC|visto_VDILTVEGABC"
     },
@@ -14307,7 +14307,7 @@
         "order_available": "2",
         "model_variant": "Ecos sp 35",
         "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | screw : E27 : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2",
         "values": "nuovo : 0 | Ecos sp 35 : 1 | bronzo,trasparente,cristallo : 2",
         "accessories": ""
     },
@@ -15143,9 +15143,9 @@
         "meta_description": "INFINITA SP 36 Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da S in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Infinita sp 36",
-        "features": "color : bianco,bianco,nichel,nero : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | attacco : select : 2",
-        "values": "nuovo : 0 | Infinita sp 36 : 1 | FC3 : 2",
+        "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2 | attacco : select : 3",
+        "values": "nuovo : 0 | Infinita sp 36 : 1 | bianco,bianco,nichel,nero : 2 | FC3 : 3",
         "accessories": ""
     },
     {
@@ -15317,9 +15317,9 @@
         "meta_description": "LACRIMA SP G Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da S in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Lacrima sp g",
-        "features": "color : bianco,nichel,nero,nichel : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | attacco : radio : 2",
-        "values": "nuovo : 0 | Lacrima sp g : 1 | CA2 : 2",
+        "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : radio : 3",
+        "values": "nuovo : 0 | Lacrima sp g : 1 | bianco,nichel,nero,nichel : 2 | CA2 : 3",
         "accessories": ""
     },
     {
@@ -15561,7 +15561,7 @@
         "order_available": "2",
         "model_variant": "Lucciola sp gd1",
         "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : select : 3",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2 | attacco : select : 3",
         "values": "nuovo : 0 | Lucciola sp gd1 : 1 | bianco,nichel,nero,nichel : 2 | E27 : 3",
         "accessories": ""
     },
@@ -16080,9 +16080,9 @@
         "meta_description": "NAXOS SP 50 Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da S in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Naxos sp 50",
-        "features": "color : bianco,nichel,nero,nichel : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | attacco : radio : 2",
-        "values": "nuovo : 0 | Naxos sp 50 : 1 | altro : 2",
+        "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : radio : 3",
+        "values": "nuovo : 0 | Naxos sp 50 : 1 | bianco,nichel,nero,nichel : 2 | altro : 3",
         "accessories": "visto_ROD125H30BC|visto_VBALTNAXOS33|visto_VBALTNAXOS33|visto_VBALTNAXOS33"
     },
     {
@@ -16196,9 +16196,9 @@
         "meta_description": "NEOCHIC SP M Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da S in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Neochic sp m",
-        "features": "color : bianco,nichel,nero,nichel : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | attacco : select : 2",
-        "values": "nuovo : 0 | Neochic sp m : 1 | J33 : 2",
+        "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : select : 3",
+        "values": "nuovo : 0 | Neochic sp m : 1 | bianco,nichel,nero,nichel : 2 | J33 : 3",
         "accessories": ""
     },
     {
@@ -16309,9 +16309,9 @@
         "meta_description": "NODO SP 40 Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da S in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Nodo sp 40",
-        "features": "color : bianco,cromo,cromo : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | screw : G9 : 4 : 1 | switcher : no : 5 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1",
-        "values": "nuovo : 0 | Nodo sp 40 : 1",
+        "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | screw : G9 : 3 : 1 | switcher : no : 4 : 1",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2",
+        "values": "nuovo : 0 | Nodo sp 40 : 1 | bianco,cromo,cromo : 2",
         "accessories": ""
     },
     {
@@ -16431,7 +16431,7 @@
         "order_available": "2",
         "model_variant": "Novecento sp g",
         "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : radio : 3",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2 | attacco : radio : 3",
         "values": "nuovo : 0 | Novecento sp g : 1 | bianco,cromo,cromo : 2 | 14E : 3",
         "accessories": ""
     },
@@ -16666,7 +16666,7 @@
         "order_available": "2",
         "model_variant": "Peggy sp",
         "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | screw : G9 : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : radio : 1 | colore : radio : 2",
+        "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
         "values": "nuovo : 0 | Peggy sp : 1 | bianco,nero : 2",
         "accessories": ""
     },
@@ -17021,9 +17021,9 @@
         "meta_description": "RINA SP 16 Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da S in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Rina sp 16",
-        "features": "color : bianco,nichel,nero,nichel,murrina : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | attacco : select : 2",
-        "values": "nuovo : 0 | Rina sp 16 : 1 | BA2 : 2",
+        "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : select : 3",
+        "values": "nuovo : 0 | Rina sp 16 : 1 | bianco,nichel,nero,nichel,murrina : 2 | BA2 : 3",
         "accessories": "visto_ROD125H30NI"
     },
     {
@@ -17545,7 +17545,7 @@
         "order_available": "2",
         "model_variant": "Spirit sp 45",
         "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : select : 3",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2 | attacco : select : 3",
         "values": "nuovo : 0 | Spirit sp 45 : 1 | bianco,nichel,nero,nichel : 2 | J33 : 3",
         "accessories": ""
     },
@@ -17660,9 +17660,9 @@
         "meta_description": "STARNET SP 1 Vistosi: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da S in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "model_variant": "Starnet sp 1",
-        "features": "color : bianco,cromo,cromo,cristallo : 0 : 1 | dimmer : no : 1 : 1 | led : no : 2 : 1 | halogen : no : 3 : 1 | switcher : no : 4 : 1",
-        "attributes": "stato : select : 0 | variante : radio : 1 | attacco : select : 2",
-        "values": "nuovo : 0 | Starnet sp 1 : 1 | E27 : 2",
+        "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
+        "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2 | attacco : select : 3",
+        "values": "nuovo : 0 | Starnet sp 1 : 1 | bianco,cromo,cromo,cristallo : 2 | E27 : 3",
         "accessories": ""
     },
     {
@@ -18185,7 +18185,7 @@
         "order_available": "2",
         "model_variant": "Tubes sp 120d1",
         "features": "dimmer : no : 0 : 1 | led : no : 1 : 1 | halogen : no : 2 : 1 | switcher : no : 3 : 1",
-        "attributes": "stato : select : 0 | variante : select : 1 | colore : radio : 2 | attacco : radio : 3",
+        "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2 | attacco : radio : 3",
         "values": "nuovo : 0 | Tubes sp 120d1 : 1 | bianco,nichel,nero,nichel : 2 | E27 : 3",
         "accessories": ""
     },
@@ -18480,7 +18480,7 @@
             "vetro"
         ],
         "component": 1,
-        "component_of": "visto_SPBIANC0005CA2E",
+        "component_of": "visto_PLBIANC0001XA3E",
         "outdoor": "no",
         "category": "parete,accessorio",
         "max_discount": 15,
@@ -18963,7 +18963,7 @@
             "vetro"
         ],
         "component": 1,
-        "component_of": "visto_SPFEREA0001CA2E",
+        "component_of": "visto_LTFEREABCBC",
         "outdoor": "no",
         "category": "parete,accessorio",
         "max_discount": 15,
@@ -19011,7 +19011,7 @@
             "vetro"
         ],
         "component": 1,
-        "component_of": "visto_SPGLORIA10FSE",
+        "component_of": "visto_PTGLORIASE",
         "outdoor": "no",
         "category": "parete,accessorio",
         "max_discount": 15,
@@ -19059,7 +19059,7 @@
             "vetro"
         ],
         "component": 1,
-        "component_of": "visto_SPGOTOGBCCA",
+        "component_of": "visto_LTGOTO20",
         "size": "piccola",
         "outdoor": "no",
         "category": "parete,accessorio",
@@ -19926,7 +19926,7 @@
             "vetro"
         ],
         "component": 1,
-        "component_of": "visto_SPMUNEG0003CA2E",
+        "component_of": "visto_LTMUNEGA",
         "size": "grande",
         "outdoor": "no",
         "category": "tavolo,accessorio",
@@ -20216,7 +20216,7 @@
             "vetro"
         ],
         "component": 1,
-        "component_of": "visto_SPSABA0001FC3E",
+        "component_of": "visto_PLSABA30BC",
         "outdoor": "no",
         "category": "soffitto,accessorio",
         "max_discount": 15,
@@ -20312,7 +20312,7 @@
             "vetro"
         ],
         "component": 1,
-        "component_of": "visto_SPSMOKI0004CA2E",
+        "component_of": "visto_PTSMOKIBCNI",
         "outdoor": "no",
         "category": "terra,accessorio",
         "max_discount": 15,
