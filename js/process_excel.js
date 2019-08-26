@@ -5009,7 +5009,8 @@ function postProduci(json,fornitore){
                 }
                 else{ // caso di attributes
                     pos++;
-                    var etichetta = (etichetta=="color")? "colore" : "nome_attributo_non_trovato";
+                    //_.log(etichetta)
+                    var etichetta = "colore"; // per flos è sempre e solo il colore il secondo attribute // (etichetta=="color")? "colore" : "nome_attributo_non_trovato";
                     var singleton = etichetta +" : "+ elem[1] +" : "+ pos+" | ";
                 }
                 
