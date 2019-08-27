@@ -9,6 +9,9 @@ const { window } = new JSDOM();
 const { document } = (new JSDOM('')).window;
 global.document = document;
 
+var listino2019Flos = require("./flos/listino2019.js")
+    listino2019Flos = listino2019Flos();
+
 var $ = jQuery = require('jquery')(window);
 
 var path = "../xls/";
@@ -3850,6 +3853,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 /* ================================================================= FLOS */
                 if( fornitore == "flos"){
 
+                    
+
                     var hasAsset = _.is(getAsset(row["Codice articolo"])); // dice di questo articolo se è presente il rispettivo oggetto in asset_json recuperato dal sito
                     if(!hasAsset)
                         return undefined;
@@ -3864,7 +3869,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     item_id = original_model_id;
                     hicId = getHicId(supplier_id, item_id);
                     ean13 = undefined;
-                    max_discount = 0.14;
+                    max_discount = (component)? 0 : 0.14;
                     sale = 1;
                     price = getPrice(row["PREZZO IVA ESCL."], max_discount);
                     quantity = 0;
@@ -3998,8 +4003,25 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     }
 
                     function getPrice(price, max_discount){
+                        var new_price = null;
+                        // se model_id è presente in listino listino2019Flos allora prendo il prezzo da listino2019Flos
+                        _.each(listino2019Flos, function(nuovo_articolo){
+                            var model_id_nuovo = nuovo_articolo["Codice Articolo"].trim();
+                            if(model_id_nuovo == model_id){
+                                new_price = parseFloat(nuovo_articolo["Prezzo iva esclusa"].replace("€ ","").replace(",","")).toFixed(2);
+                            }
+                        })     
+
+                         
+
+
                         var price = parseFloat(price.replace("€ ","").replace(",","")).toFixed(2);
-                        return parseFloat( price* (1 - max_discount) ).toFixed(2);
+
+                        if(_.is(new_price))
+                            price = new_price;    
+                        
+                        return price;
+
                     }
 
                     function getColor(model_id){
