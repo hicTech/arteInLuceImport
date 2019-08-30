@@ -12,6 +12,10 @@ global.document = document;
 var listino2019Flos = require("./flos/listino2019.js")
     listino2019Flos = listino2019Flos();
 
+
+var listino2019Vistosi = require("./vistosi/listino2019.js")
+    listino2019Vistosi = listino2019Vistosi();
+
 var $ = jQuery = require('jquery')(window);
 
 var path = "../xls/";
@@ -233,7 +237,7 @@ fs.readdir(path, function(err, cartella_fornitore) {
 
 
 function adjustRow(row,fornitore,assets_json, desc_json){
-
+        
         var supplier = undefined;
         var supplier_id = undefined;
         var model = undefined;
@@ -1795,7 +1799,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         else{
             /* ================================================================= VISTOSI */
             if( fornitore == "vistosi"){
-
+                
                 var all_models_name = [
                                     "ACCADEMIA","ALIKI","ALMA","ALUM 09","ASSIBA","BACO","BACONA","BIANCA","BOCCIA","CHIMERA","CHIMERA 09",
                                     "CILD","CLEO","CLOTH","COCUMIS","COMARI","CORNER","DAFNE","DAMASCO","DIADEMA","DIAMANTE","DODO","DOGI","DOS",
@@ -1819,9 +1823,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 item_id = itemId(original_model_id); // la funzione itemId sostituisce semplicemente gli spazi vuoti con "-"
                 hicId = getHicId(supplier_id, item_id);
                 ean13 = undefined;
-                max_discount = 0.15;
-                sale = 1;
-                price = getPrice(row["Prezzo"], max_discount);
+                
                 quantity = 0;
                 delivery_time = "2-3 gg Italy, 5-6 days UE";
                 delivery_time_if_not_available = "Su ordinazione in 2-3 settimane";
@@ -1841,6 +1843,11 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 size = getSize(row["Descrizione"]);;
                 outdoor = undefined;
                 wire_length = undefined;
+
+            
+                max_discount = (component == 0)? 0.15 : 0;
+                sale = 1;
+                price = getPrice(combination_id, row["Prezzo"]);
                 
                 pic = getPics(row["Descrizione"], model, category, type, assets_json,component, "primary");
                 light_schema = getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "light_schema");
@@ -2195,12 +2202,23 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                     return item_id;
                 }
 
-                function getPrice(str, max_discount){
+                function getPrice(combination_id, str){
+                    var new_price = null;
+                    _.each(listino2019Vistosi,function(new_combination){
+                        var new_combination_id = new_combination["Codice articolo"];
+                        if(new_combination_id == combination_id){
+                            new_price = new_combination.Prezzo.replace("€","").trim();
+                        }
+                    });
+
+                    if(_.is(new_price))
+                        str = new_price;
+
                     var str_cleaned = str.replace("¤","").replace("Û ","").replace("ó ",""); 
                         str_cleaned = str_cleaned.replace(/  +/g, ' '); // elimino spazi multipli
                         str_cleaned = str_cleaned.replace(",","");
 
-                        return parseFloat( str_cleaned * (1 - max_discount) ).toFixed(2);;
+                        return parseFloat( str_cleaned * (1) ).toFixed(2);;
 
                 }
                 
@@ -4244,7 +4262,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         ean13 = row["Barcode"];
                         max_discount = 0.15;
                         sale = 1;
-                        price = getPrice(row["Prezzo"], max_discount);
+                        price = getPrice(row["Prezzo"]);
                         quantity = 0;
                         delivery_time = "2-3 gg Italy, 5-6 days UE";
                         delivery_time_if_not_available = "Su ordinazione in 2-3 settimane";
@@ -4343,7 +4361,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                         function getPrice(price, max_discount){
                             var price = parseFloat(price.replace("€ ","").replace(",","")).toFixed(2);
-                            return parseFloat( price* (1 - max_discount) ).toFixed(2);
+                            return parseFloat( price* (1) ).toFixed(2);
                         }
 
                         function getColor(row){
@@ -5384,6 +5402,28 @@ function postProduci(json,fornitore){
             return true;
         });
 
+
+        // elimino i pezzi di ricambio perchè come detto da Davide il 28 Agosto eliminiamo i pezzi di ricambio da vistosi
+        // visto che non ci hanno fornito il listino 2019 dei pezzi di ricambio
+        json = _.filter(json,function(elem){
+            if(elem.component == 1)
+                return false;
+            return true;
+        });
+
+
+        // elimino giogali sospensioni perchè Monica l'ha caricato a mano
+        
+        json = _.filter(json,function(elem){
+            if(elem.model == "giogali sospensione")
+                return false;
+            return true;
+        });
+
+        
+        // 359 prodotti - 5791 varianti
+        // 301 prodotti - 5499 varianti
+        
         
         
 
