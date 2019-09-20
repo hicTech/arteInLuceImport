@@ -166,7 +166,7 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                         if(!randomizza)
                                                             random_number = "";
 
-                                                        let xls_prodotti = json2xls(json_prodotti, {fields: ["hicId", "supplier", "category", "title", "subtitle", "desc_it", "price", "quantity", "delivery_time", "delivery_time_if_not_available","sale", "max_discount", "ean13", "features", "accessories","meta_title","meta_description","order_available", "product_images","product_images_alt"] });
+                                                        let xls_prodotti = json2xls(json_prodotti, {fields: ["hicId", "supplier", "brand", "category", "title", "subtitle", "desc_it", "price", "quantity", "delivery_time", "delivery_time_if_not_available","sale", "max_discount", "ean13", "features", "accessories","meta_title","meta_description","order_available", "product_images","product_images_alt"] });
                                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_prodotti_'+random_number+'.xlsx', xls_prodotti, 'binary');
 
 
@@ -174,7 +174,7 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                             var json_prodotti_suddiviso = chunk(json_prodotti,pagination);
                                                         
                                                             _.each(json_prodotti_suddiviso, function(pezzo,index){
-                                                                let pezzo_xls_prodotti = json2xls(pezzo, {fields: ["hicId", "supplier", "category", "title", "subtitle", "desc_it", "price", "quantity", "delivery_time", "delivery_time_if_not_available","sale", "max_discount", "ean13", "features", "accessories","meta_title","meta_description","order_available", "product_images","product_images_alt"] });
+                                                                let pezzo_xls_prodotti = json2xls(pezzo, {fields: ["hicId", "supplier", "brand", "category", "title", "subtitle", "desc_it", "price", "quantity", "delivery_time", "delivery_time_if_not_available","sale", "max_discount", "ean13", "features", "accessories","meta_title","meta_description","order_available", "product_images","product_images_alt"] });
                                                                 fs.writeFileSync(path_cartella +"/result/"+cartella+'_prodotti_'+random_number+'__'+index+'.xlsx', pezzo_xls_prodotti, 'binary');
                                                             })
                                                         }
@@ -284,6 +284,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         var combination_images_alt  = undefined;
         var combination_id = undefined;
         
+        // alcune colonne aggiunte custom da Monica per Panzeri
+        var variante = undefined;
+        var dimensioni = undefined;
+
         
 
     
@@ -4231,6 +4235,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                         var hasAsset = undefined;
                         var famiglia = row["Famiglia"];
+                        variante = ( _.is(row["Variante"]))? ( row["Variante"].length != 0)? row["Variante"] : undefined : undefined;
+                        
+                        dimensioni = ( _.is(row["Dimensioni"]))? ( row["Dimensioni"].length != 0)? row["Dimensioni"] : undefined : undefined;
+                        
                         supplier = "panzeri";
                         supplier_id = supplierId(supplier);
                         original_model_id = row["Codart"];
@@ -4250,16 +4258,16 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         delivery_time_if_not_available = "Su ordinazione in 2-3 settimane";
                         
 
-                        color = getColor(row);
+                        color = row["Colore"];
                         desc_it = row["Descrizione_marketing"]+" Descrizione tecnica: "+row["Descrizione_Tecnica_IT"];
                         
                         desc_en = undefined;
                         cleaned_desc_it = desc_it.trim();
                         cleaned_desc_en = undefined;
-                        dimmer = (row["Codice_elettrificazione"].toLowerCase().indexOf("dimm") != -1 )? 1: 0;
-                        led = (row["Sorgente_Luminosa"].toLowerCase().indexOf("led") != -1 )? 1: 0;
-                        halogen = (row["Sorgente_Luminosa"].toLowerCase().indexOf("alogen") != -1 )? 1: 0;
-                        screw = row["Attacco"];
+                        dimmer = row["Dimmer"];
+                        led = row["Led"];
+                        halogen = row["Alogena"];
+                        screw = undefined;
                         switcher = undefined;
                         category = row["Categoria"].toLowerCase().replace(" gr stat1","");
                     
@@ -4346,9 +4354,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             return parseFloat( price* (1 - max_discount) ).toFixed(2);
                         }
 
-                        function getColor(row){
-                            return row["Finitura"];
-                        }
+                      
 
                        
                     
@@ -4490,35 +4496,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                     }
                 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 
             }
 
@@ -4546,6 +4523,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
         return{
             supplier:               supplier,                                                       // nome del fornitore
+            brand:                  supplier,                                                       // nome della marca
             supplier_id :           supplier_id,                                                    // identificativo del fonitore
             model:                  (_.is(model))? model.toLowerCase() : undefined,                 // modello/famiglia dell'articolo
             title:                  title,                                                          // se possibile ricostruiamo un title da mettere nella pagina dell'articolo
@@ -4563,9 +4541,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             color:                  (_.isArray(color))? color.toString().toLowerCase() : (_.is(color))? color.toLowerCase() : undefined,                // prova a recuperare il colore dall'id
             desc_it:                cleaned_desc_it,                                                // la descrizione in italiano
             desc_en:                cleaned_desc_en,                                                // la descrizione in inglese 
-            dimmer:                 (dimmer==0 || dimmer == undefined)? "no" : "yes",                                      // se ha il dimmer o meno
-            led:                    (led==0 || led == undefined)? "no" : "yes",                                         // se ha il led o meno
-            halogen:                (halogen==0 || halogen == undefined)? "no" : "yes",                                     // se ha lampada alogena
+            dimmer:                 (dimmer==0 || dimmer == undefined || dimmer.toLowerCase() == "no")? "no" : "yes",                                // se ha il dimmer o meno
+            led:                    (led==0 || led == undefined || led.toLowerCase() == "no")? "no" : "yes",                                         // se ha il led o meno
+            halogen:                (halogen==0 || halogen == undefined || halogen.toLowerCase() == "no")? "no" : "yes",                             // se ha lampada alogena
             screw:                  screw,                                                          // tipo di attacco
             switcher:               (switcher==0 || switcher == undefined)? "no" : "yes",                                    // se ha l'interruttore o meno
             type:                   type,                                                           // tipo di lampada
@@ -4594,6 +4572,13 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             meta_description:       meta_description,
             order_available:        "2",                                                             // sempre disponibile all'ordine
             model_variant :         model_variant,                                                   // serve solo per vistosi
+
+
+             // alcune colonne aggiunte custom da Monica per Panzeri
+            variante:               variante,
+            dimensioni:             dimensioni,
+
+
         }
 }
 
@@ -4615,7 +4600,6 @@ function contains(arr,str){
     return false;
 }
 
-
 function rigaVuota(row){
     let ret = true;
     _.each(row,function(val){
@@ -4630,13 +4614,10 @@ function supplierId(supplier){
     return supplier_id;
 }
 
-
 function modelId(model){
     let model_id = S(model).replaceAll(" ","_").s;
     return model_id;
 }
-
-
 
 function getHicId(supplier_id, item_id){
     return supplier_id+"_"+item_id;
@@ -4796,9 +4777,6 @@ function sameItem(model, category, elem_model, elem_category, caso){
 
     return model == elem_model && category == elem_category;
 }
-
-
-
 
 function sameItemForVideo(model, category, elem_model, elem_category){
    
@@ -5618,8 +5596,8 @@ function postProduci(json,fornitore){
             elem["features"] = inlineCSVFeaturesPanzeri(elem,["category","outdoor"])
 
             // aggiungo attributi e valori
-            elem["attributes"] = inlineCSVPAanzeri(elem,["color"])
-            elem["values"] = inlineCSVPAanzeri(elem,["color"],"values")
+            elem["attributes"] = inlineCSVPAanzeri(elem,    ["variante", "dimmer", "led", "color", "halogen", "dimensioni"])
+            elem["values"] = inlineCSVPAanzeri(elem,        ["variante", "dimmer", "led", "color", "halogen", "dimensioni"], "values")
         });
 
 
@@ -5635,6 +5613,8 @@ function postProduci(json,fornitore){
                             
                 csv += (_.is(singleton))? singleton : "";
             });
+
+            
 
             //  alle features aggiungo i dati presenti in more (more c'è solo negli articoli componento == 0)
             if(obj.component == 0){
@@ -5673,27 +5653,26 @@ function postProduci(json,fornitore){
                 var csv = "nuovo : 0 | ";
             }
             _.each(arr,function(elem){
-
-                if(_.is(caso)){ // caso dei values
-                    if( _.is(obj[elem]) ){
+                
+                if( _.is(obj[elem]) ){
+                    if(_.is(caso)){ // caso dei values
                         pos++;
-                        var cod = S(obj.item_id).replaceAll(".","_").s;
-                        var singleton = obj[elem]+" "+cod+" : "+ pos +" | ";
-                        
+                        var singleton = obj[elem]+" : "+ pos +" | ";
                     }
-                }
-                else{ // caso di attributes
-                    pos++;
-                   
-                    var etichetta = (elem=="color")? "colore" : "nome_attributo_non_trovato";
-                    var singleton = etichetta +" : radio : "+ pos+" | ";
-                    
+                    else{ // caso di attributes
+                        pos++;
+                        //var etichetta = (elem=="color")? "colore" : (elem=="dimmer")? "dimmer" : (elem=="led")? "led" :  (elem=="veriante")? "variante" :  (elem=="interruttore")? "interruttore" :  (elem=="alogena")? "alogena" :  (elem=="attacco")? "attacco" :  (elem=="dimensione")? "dimensione" : "nome_attributo_non_trovato";
+                        var type = "select";
+                            type = (elem == "dimmer" || elem == "led"  || elem == "halogen")? "radio" : type;
+                        var singleton = elem +" : "+type+" : "+ pos+" | ";
+                    }
                 }
                 
                 csv += (_.is(singleton))? singleton : "";
             });
-
+            
             // tolgo l'ultimo punto e virgola
+            //_.log(csv.substring(0, csv.length - 3))
             return csv.substring(0, csv.length - 3);
         }
         
