@@ -1,0 +1,165 @@
+09:53:15: PROCESSO: ../xls/diesel
+09:53:15: PROCESSO: ../xls/foscarini
+09:53:16: PROCESSO: ../xls/flos
+09:53:16: PROCESSO: ../xls/panzeri
+09:53:25: PROCESSO: ../xls/panzeri
+10:11:30: PROCESSO: ../xls/panzeri
+10:15:42: PROCESSO: ../xls/panzeri
+10:36:53: PROCESSO: ../xls/panzeri
+11:19:28: PROCESSO: ../xls/panzeri
+11:22:54: PROCESSO: ../xls/panzeri
+11:25:24: PROCESSO: ../xls/panzeri
+11:29:51: PROCESSO: ../xls/panzeri
+11:29:51: sospensione
+11:29:51: no
+11:29:51: sospensione
+11:29:51: no
+11:29:51: sospensione
+11:29:51: no
+11:29:51: sospensione
+11:29:51: no
+11:29:51: sospensione
+11:29:51: no
+11:29:51: sospensione
+11:29:51: no
+11:30:17: PROCESSO: ../xls/panzeri
+11:30:18: category
+11:30:18: outdoor
+11:30:18: category
+11:30:18: outdoor
+11:30:18: category
+11:30:18: outdoor
+11:30:18: category
+11:30:18: outdoor
+11:30:18: category
+11:30:18: outdoor
+11:30:18: category
+11:30:18: outdoor
+11:30:42: PROCESSO: ../xls/panzeri
+11:30:42: undefined
+11:30:42: 
+11:30:42: 
+11:30:42: bianco opaco
+11:30:42: 
+11:30:42: 51cm
+11:30:42: undefined
+11:30:42: 
+11:30:42: 
+11:30:42: bianco opaco
+11:30:42: 
+11:30:42: 51cm
+11:30:42: undefined
+11:30:42: 
+11:30:42: 
+11:30:42: bianco opaco
+11:30:42: 
+11:30:42: 71cm
+11:30:42: undefined
+11:30:42: 
+11:30:42: 
+11:30:42: bianco opaco
+11:30:42: 
+11:30:42: 71cm
+11:30:42: undefined
+11:30:42: 
+11:30:42: 
+11:30:42: bianco opaco
+11:30:42: 
+11:30:42: 89cm
+11:30:42: undefined
+11:30:42: 
+11:30:42: 
+11:30:42: bianco opaco
+11:30:42: 
+11:30:42: 89cm
+11:30:42: undefined
+11:30:42: 
+11:30:42: 
+11:30:42: bianco opaco
+11:30:42: 
+11:30:42: 51cm
+11:30:42: undefined
+11:30:42: 
+11:30:42: 
+11:30:42: bianco opaco
+11:30:42: 
+11:30:42: 51cm
+11:30:43: undefined
+11:30:43: 
+11:30:43: 
+11:30:43: bianco opaco
+11:30:43: 
+11:30:43: 71cm
+11:30:43: undefined
+11:30:43: 
+11:30:43: 
+11:30:43: bianco opaco
+11:30:43: 
+11:30:43: 71cm
+11:30:43: undefined
+11:30:43: 
+11:30:43: 
+11:30:43: bianco opaco
+11:30:43: 
+11:30:43: 89cm
+11:30:43: undefined
+11:30:43: 
+11:30:43: 
+11:30:43: bianco opaco
+11:30:43: 
+11:30:43: 89cm
+11:31:44: PROCESSO: ../xls/panzeri
+11:31:45: undefined
+11:31:45: 
+11:31:45: 
+11:31:45: bianco opaco
+11:31:45: 
+11:31:45: 51cm
+11:31:45: undefined
+11:31:45: 
+11:31:45: 
+11:31:45: bianco opaco
+11:31:45: 
+11:31:45: 51cm
+11:31:45: undefined
+11:31:45: 
+11:31:45: 
+11:31:45: bianco opaco
+11:31:45: 
+11:31:45: 51cm
+11:31:45: undefined
+11:31:45: 
+11:31:45: 
+11:31:45: bianco opaco
+11:31:45: 
+11:31:45: 51cm
+11:32:03: PROCESSO: ../xls/panzeri
+11:32:23: PROCESSO: ../xls/panzeri
+11:32:23: 0
+11:32:23: 0
+11:32:23: 12
+11:32:23: 0
+11:32:23: 4
+11:32:23: 0
+11:32:23: 0
+11:32:23: 12
+11:32:23: 0
+11:32:23: 4
+11:32:23: 0
+11:32:23: 0
+11:32:23: 12
+11:32:23: 0
+11:32:23: 4
+11:32:23: 0
+11:32:23: 0
+11:32:23: 12
+11:32:23: 0
+11:32:23: 4
+11:33:10: PROCESSO: ../xls/panzeri
+11:36:16: PROCESSO: ../xls/panzeri
+11:44:30: PROCESSO: ../xls/panzeri
+11:45:15: PROCESSO: ../xls/panzeri
+11:46:54: PROCESSO: ../xls/panzeri
+11:47:24: PROCESSO: ../xls/panzeri
+11:47:48: PROCESSO: ../xls/panzeri
+12:00:05: PROCESSO: ../xls/panzeri

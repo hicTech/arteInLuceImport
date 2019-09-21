@@ -4559,9 +4559,14 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             color:                  (_.isArray(color))? color.toString().toLowerCase() : (_.is(color))? color.toLowerCase() : undefined,                // prova a recuperare il colore dall'id
             desc_it:                cleaned_desc_it,                                                // la descrizione in italiano
             desc_en:                cleaned_desc_en,                                                // la descrizione in inglese 
-            dimmer:                 (dimmer==0 || dimmer == undefined || dimmer.toLowerCase() == "no")? "no" : "yes",                                // se ha il dimmer o meno
-            led:                    (led==0 || led == undefined || led.toLowerCase() == "no")? "no" : "yes",                                         // se ha il led o meno
-            halogen:                (halogen==0 || halogen == undefined || halogen.toLowerCase() == "no")? "no" : "yes",                             // se ha lampada alogena
+            
+
+            /* siccome dimmee, led e halogen per PANZERI sono colonne inserite a mano da Monica ho dovuto fare un distinguo */
+            dimmer:                 ( supplier=="panzeri" && !_.is(dimmer) )? undefined : (supplier == "panzeri" && _.is(dimmer))? dimmer.toLowerCase() : (dimmer==0 || dimmer == undefined)? "no" : "yes",
+            led:                    ( supplier=="panzeri" && !_.is(led) )? undefined : (supplier == "panzeri" && _.is(led))? led.toLowerCase() : (led==0 || led == undefined)? "no" : "yes",
+            halogen:                ( supplier=="panzeri" && !_.is(halogen) )? undefined : (supplier == "panzeri" && _.is(halogen))? halogen.toLowerCase() : (halogen==0 || halogen == undefined)? "no" : "yes",                                      
+            
+
             screw:                  screw,                                                          // tipo di attacco
             switcher:               (switcher==0 || switcher == undefined)? "no" : "yes",                                    // se ha l'interruttore o meno
             type:                   type,                                                           // tipo di lampada
@@ -5645,7 +5650,6 @@ function postProduci(json,fornitore){
             let csv = "";
             let pos = 0;
             _.each(arr,function(elem){
-
                 if( _.is(obj[elem]) ){
                     var singleton = elem +" : "+ obj[elem] +" : "+ pos+":1 | ";
                     pos++;
@@ -5695,16 +5699,18 @@ function postProduci(json,fornitore){
             _.each(arr,function(elem){
                 
                 if( _.is(obj[elem]) ){
-                    if(_.is(caso)){ // caso dei values
-                        pos++;
-                        var singleton = obj[elem]+" : "+ pos +" | ";
-                    }
-                    else{ // caso di attributes
-                        pos++;
-                        //var etichetta = (elem=="color")? "colore" : (elem=="dimmer")? "dimmer" : (elem=="led")? "led" :  (elem=="veriante")? "variante" :  (elem=="interruttore")? "interruttore" :  (elem=="alogena")? "alogena" :  (elem=="attacco")? "attacco" :  (elem=="dimensione")? "dimensione" : "nome_attributo_non_trovato";
-                        var type = "select";
-                            type = (elem == "dimmer" || elem == "led"  || elem == "halogen")? "radio" : type;
-                        var singleton = elem +" : "+type+" : "+ pos+" | ";
+                    if( obj[elem].length != 0){                        
+                        if(_.is(caso)){ // caso dei values
+                            pos++;
+                            var singleton = obj[elem]+" : "+ pos +" | ";
+                        }
+                        else{ // caso di attributes
+                            pos++;
+                            //var etichetta = (elem=="color")? "colore" : (elem=="dimmer")? "dimmer" : (elem=="led")? "led" :  (elem=="veriante")? "variante" :  (elem=="interruttore")? "interruttore" :  (elem=="alogena")? "alogena" :  (elem=="attacco")? "attacco" :  (elem=="dimensione")? "dimensione" : "nome_attributo_non_trovato";
+                            var type = "select";
+                                type = (elem == "dimmer" || elem == "led"  || elem == "halogen")? "radio" : type;
+                            var singleton = elem +" : "+type+" : "+ pos+" | ";
+                        }
                     }
                 }
                 
