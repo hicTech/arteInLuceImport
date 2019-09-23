@@ -15,7 +15,7 @@ var $ = jQuery = require('jquery')(window);
 
 
 
-// questo è l'array degli url delle pagine di tutti i prodotti (206) singoli FLOS copia e incollata da getSinglePageUrl_json.json
+
 var arr_all_products = {
 
     // design/indoor
