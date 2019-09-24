@@ -13,9 +13,8 @@ global.document = document;
 var $ = jQuery = require('jquery')(window);
 
 
-// questo è l'array di tutti gli oggetti pagina devi copiarlo/incollarlo da assets_json.json
+// questo è l'array di tutti gli oggetti pagina devi copiarlo/incollarlo da assets_json_intermedio.json
 var single_pages = [
-    
     {
         "uri": "http://www.panzeri.it/prodotti/design/indoor/agave/",
         "model": "AGAVE",
@@ -27,10 +26,10 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Agave-9.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/agave/l03001.050.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/agave/l03001.070.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/agave/l03001.090.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/agave/p03001.050.0000/"
+            "https://www.panzeri.it/prodotti/design/indoor/agave/l03001.050.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/agave/l03001.070.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/agave/l03001.090.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/agave/p03001.050.0000/"
         ]
     },
     {
@@ -43,7 +42,7 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Panzeri_Aldecimo_gallery4.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/aldecimo/x02201.030.0112/"
+            "https://www.panzeri.it/prodotti/design/indoor/aldecimo/x02201.030.0112/"
         ]
     },
     {
@@ -57,12 +56,12 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/app-3.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/app/a09801.001.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/app/a09819.001.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/app/a09830.001.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/app/a09801.002.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/app/a09819.002.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/app/a09830.002.0106/"
+            "https://www.panzeri.it/prodotti/design/indoor/app/a09801.001.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/app/a09819.001.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/app/a09830.001.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/app/a09801.002.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/app/a09819.002.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/app/a09830.002.0106/"
         ]
     },
     {
@@ -76,10 +75,10 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Blanca-5.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/blanca/l05710.090.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/blanca/l05744.090.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/blanca/l05710.060.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/blanca/l05744.060.0102/"
+            "https://www.panzeri.it/prodotti/design/indoor/blanca/l05710.090.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/blanca/l05744.090.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/blanca/l05710.060.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/blanca/l05744.060.0102/"
         ]
     },
     {
@@ -93,10 +92,10 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Ventitrentare-2.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20line/l23301.100.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20line/l23302.100.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20line/l23301.150.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20line/l23302.150.0101/"
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20line/l23301.100.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20line/l23302.100.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20line/l23301.150.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20line/l23302.150.0101/"
         ]
     },
     {
@@ -109,33 +108,34 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Panzeri_Brooklyn-Round_gallery4.jpg",
             "http://www.panzeri.it//media/FFS/Panzeri_Brooklyn-Round_gallery5.jpg",
             "http://www.panzeri.it//media/FFS/Panzeri_Brooklyn-Round_gallery6.jpg",
-            "http://www.panzeri.it//media/FFS/Panzeri_Brooklyn-Round_gallery7.j"
+            "http://www.panzeri.it//media/FFS/Panzeri_Brooklyn-Round_gallery7.jpg",
+            "http://www.panzeri.it//media/FFS/collage_brooklyn_round_rev2.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23201.360.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23202.360.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23219.360.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23101.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23102.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23119.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23101.360.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23102.360.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23119.360.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23201.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23202.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23219.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23201.360.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23202.360.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23219.360.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23101.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23102.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23119.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23101.360.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23102.360.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23119.360.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23201.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23202.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23219.180.0102/"
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23201.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23202.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23219.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23101.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23102.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23119.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23101.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23102.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23119.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23201.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23202.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23219.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23201.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23202.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23219.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23101.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23102.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23119.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23101.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23102.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23119.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23201.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23202.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23219.180.0102/"
         ]
     },
     {
@@ -146,10 +146,10 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Candle-1.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/candle/m09501.000.0110/",
-            "http://www.panzeri.it/prodotti/design/indoor/candle/l09501.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/candle/l09501.000.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/candle/m09501.000.0000/"
+            "https://www.panzeri.it/prodotti/design/indoor/candle/m09501.000.0110/",
+            "https://www.panzeri.it/prodotti/design/indoor/candle/l09501.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/candle/l09501.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/candle/m09501.000.0000/"
         ]
     },
     {
@@ -163,10 +163,10 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Carmen-6.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/carmen/p06401.002.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/carmen/p06402.002.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/carmen/p06401.003.0103/",
-            "http://www.panzeri.it/prodotti/design/indoor/carmen/p06402.003.0103/"
+            "https://www.panzeri.it/prodotti/design/indoor/carmen/p06401.002.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/carmen/p06402.002.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/carmen/p06401.003.0103/",
+            "https://www.panzeri.it/prodotti/design/indoor/carmen/p06402.003.0103/"
         ]
     },
     {
@@ -180,15 +180,10 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Carmen-6.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/carmencita/a06401.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/carmencita/a06402.000.0101/"
+            "https://www.panzeri.it/prodotti/design/indoor/carmencita/a06401.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/carmencita/a06402.000.0101/"
         ]
     },
-    
-
-
-
-
     {
         "uri": "http://www.panzeri.it/prodotti/design/indoor/classic/",
         "model": "CLASSIC",
@@ -199,17 +194,16 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Classic-4.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/classic/t02420.002.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/classic/t02422.002.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/classic/c02420.001.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/classic/c02422.001.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/classic/c02420.002.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/classic/c02422.002.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/classic/a02420.001.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/classic/a02422.001.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/classic/a02420.002.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/classic/a02422.002.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/classic/za02420.002.0000/"
+            "https://www.panzeri.it/prodotti/design/indoor/classic/t02420.002.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/classic/t02422.002.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/classic/c02420.001.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/classic/c02422.001.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/classic/c02420.002.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/classic/c02422.002.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/classic/a02420.001.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/classic/a02422.001.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/classic/a02420.002.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/classic/a02422.002.0000/"
         ]
     },
     {
@@ -225,34 +219,34 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Panzeri - Emma Clio Olivia (4).jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/clio/l09451.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/l09452.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/l09453.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/l09454.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/l09455.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/l09456.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/l09457.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/l09471.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/l09472.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/l09473.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/l09474.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/l09475.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/l09476.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/l09477.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/m09451.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/m09452.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/m09453.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/m09454.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/m09455.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/m09456.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/m09457.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/m09471.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/m09472.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/m09473.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/m09474.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/m09475.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/m09476.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/clio/m09477.000.0200/"
+            "https://www.panzeri.it/prodotti/design/indoor/clio/l09451.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/l09452.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/l09453.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/l09454.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/l09455.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/l09456.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/l09457.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/l09471.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/l09472.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/l09473.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/l09474.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/l09475.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/l09476.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/l09477.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/m09451.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/m09452.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/m09453.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/m09454.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/m09455.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/m09456.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/m09457.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/m09471.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/m09472.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/m09473.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/m09474.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/m09475.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/m09476.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/clio/m09477.000.0200/"
         ]
     },
     {
@@ -266,18 +260,18 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/CROSS_60.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/cross/a04901.030.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/cross/a04919.030.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/cross/a04921.030.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/cross/a04901.030.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/cross/a04919.030.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/cross/a04921.030.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/cross/a04901.060.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/cross/a04919.060.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/cross/a04921.060.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/cross/a04901.060.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/cross/a04919.060.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/cross/a04921.060.0102/"
+            "https://www.panzeri.it/prodotti/design/indoor/cross/a04901.030.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/cross/a04919.030.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/cross/a04921.030.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/cross/a04901.030.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/cross/a04919.030.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/cross/a04921.030.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/cross/a04901.060.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/cross/a04919.060.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/cross/a04921.060.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/cross/a04901.060.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/cross/a04919.060.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/cross/a04921.060.0102/"
         ]
     },
     {
@@ -288,12 +282,12 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Disco_2.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/disco/p06601.030.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/disco/p06601.040.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/disco/p06601.050.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/disco/p06601.040.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/disco/p06601.050.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/disco/p06601.030.0000/"
+            "https://www.panzeri.it/prodotti/design/indoor/disco/p06601.030.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/disco/p06601.040.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/disco/p06601.050.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/disco/p06601.040.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/disco/p06601.050.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/disco/p06601.030.0000/"
         ]
     },
     {
@@ -307,19 +301,19 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Domino-Rame.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/domino/l09031.011.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/domino/l09033.011.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/domino/l09031.014.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/domino/l09033.014.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/domino/p09033.004.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/domino/p09038.004.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/domino/p09033.009.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/domino/p09038.009.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/domino/p09031.011.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/domino/p09033.011.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/domino/p09031.014.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/domino/p09033.014.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/domino/zp09033.014.0000/"
+            "https://www.panzeri.it/prodotti/design/indoor/domino/l09031.011.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/domino/l09033.011.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/domino/zl09033.011.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/domino/l09031.014.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/domino/l09033.014.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/domino/p09033.004.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/domino/p09038.004.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/domino/p09033.009.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/domino/p09038.009.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/domino/p09031.011.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/domino/p09033.011.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/domino/p09031.014.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/domino/p09033.014.0000/"
         ]
     },
     {
@@ -334,10 +328,10 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Elle-6.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/elle/p05001.002.0011/",
-            "http://www.panzeri.it/prodotti/design/indoor/elle/p05101.002.0011/",
-            "http://www.panzeri.it/prodotti/design/indoor/elle/p05001.001.0011/",
-            "http://www.panzeri.it/prodotti/design/indoor/elle/p05101.001.0011/"
+            "https://www.panzeri.it/prodotti/design/indoor/elle/p05001.002.0011/",
+            "https://www.panzeri.it/prodotti/design/indoor/elle/p05101.002.0011/",
+            "https://www.panzeri.it/prodotti/design/indoor/elle/p05001.001.0011/",
+            "https://www.panzeri.it/prodotti/design/indoor/elle/p05101.001.0011/"
         ]
     },
     {
@@ -352,37 +346,37 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/emma_slider_03_new.jpg",
             "http://www.panzeri.it//media/FFS/emma_slider_04_new.jpg",
             "http://www.panzeri.it//media/FFS/emma_slider_05_new.jpg",
-            "http://www.panzeri.it//media/FFS/emma_slider_06_new"
+            "http://www.panzeri.it//media/FFS/emma_slider_06_new1.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/emma/l09151.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/l09152.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/l09153.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/l09154.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/l09155.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/l09156.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/l09157.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/l09171.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/l09172.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/l09173.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/l09174.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/l09175.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/l09176.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/l09177.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/m09151.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/m09152.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/m09153.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/m09154.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/m09155.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/m09156.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/m09157.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/m09171.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/m09172.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/m09173.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/m09174.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/m09175.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/m09176.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/emma/m09177.000.0200/"
+            "https://www.panzeri.it/prodotti/design/indoor/emma/l09151.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/l09152.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/l09153.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/l09154.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/l09155.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/l09156.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/l09157.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/l09171.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/l09172.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/l09173.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/l09174.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/l09175.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/l09176.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/l09177.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/m09151.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/m09152.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/m09153.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/m09154.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/m09155.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/m09156.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/m09157.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/m09171.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/m09172.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/m09173.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/m09174.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/m09175.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/m09176.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/emma/m09177.000.0200/"
         ]
     },
     {
@@ -399,12 +393,12 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Flat-parete-sotto.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/flat/l07501.051.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/flat/p07501.038.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/flat/p07501.051.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/flat/a07501.038.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/flat/x07501.060.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/flat/x07501.060.0107/"
+            "https://www.panzeri.it/prodotti/design/indoor/flat/l07501.051.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/flat/p07501.038.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/flat/p07501.051.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/flat/a07501.038.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/flat/x07501.060.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/flat/x07501.060.0107/"
         ]
     },
     {
@@ -418,15 +412,12 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Floral-5.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/floral/c01322.040.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/floral/c01322.060.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/floral/l01322.040.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/floral/l01322.060.0000/"
+            "https://www.panzeri.it/prodotti/design/indoor/floral/c01322.040.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/floral/c01322.060.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/floral/l01322.040.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/floral/l01322.060.0000/"
         ]
     },
-
-    
-
     {
         "uri": "http://www.panzeri.it/prodotti/design/indoor/giano/",
         "model": "GIANO",
@@ -442,28 +433,28 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Panzeri_Giano_gallery9.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/giano/l24647.200.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/l24649.200.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/l24647.150.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/l24649.150.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/l24647.150.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/l24649.150.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/l24647.200.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/l24649.200.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/a24646.025.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/a24648.025.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/a24646.050.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/a24648.050.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/a24646.050.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/a24648.050.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/a24646.100.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/a24648.100.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/a24646.100.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/a24648.100.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/a24646.150.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/a24648.150.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/a24646.150.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/giano/a24648.150.0101/"
+            "https://www.panzeri.it/prodotti/design/indoor/giano/l24647.200.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/l24649.200.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/l24647.150.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/l24649.150.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/l24647.150.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/l24649.150.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/l24647.200.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/l24649.200.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/a24646.025.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/a24648.025.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/a24646.050.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/a24648.050.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/a24646.050.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/a24648.050.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/a24646.100.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/a24648.100.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/a24646.100.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/a24648.100.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/a24646.150.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/a24648.150.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/a24646.150.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/giano/a24648.150.0101/"
         ]
     },
     {
@@ -478,18 +469,17 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/gilbert-6.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/gilbert/c06501.022.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/gilbert/l06501.022.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/gilbert/l06501.037.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/gilbert/l06501.045.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/gilbert/l06501.037.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/gilbert/l06501.045.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/gilbert/l06501.022.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/gilbert/p06501.037.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/gilbert/p06501.045.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/gilbert/p06501.037.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/gilbert/p06501.045.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/gilbert/zp06501.045.0000/"
+            "https://www.panzeri.it/prodotti/design/indoor/gilbert/c06501.022.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/gilbert/l06501.022.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/gilbert/l06501.037.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/gilbert/l06501.045.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/gilbert/l06501.037.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/gilbert/l06501.045.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/gilbert/l06501.022.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/gilbert/p06501.037.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/gilbert/p06501.045.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/gilbert/p06501.037.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/gilbert/p06501.045.0000/"
         ]
     },
     {
@@ -507,21 +497,21 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/slider_golden_ring_09.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08101.120.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08102.120.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08121.120.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08101.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08102.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08121.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08101.300.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08102.300.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08121.300.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08101.080.0108/",
-            "http://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08102.080.0108/",
-            "http://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08121.080.0108/",
-            "http://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08101.080.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08102.080.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08121.080.0102/"
+            "https://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08101.120.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08102.120.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08121.120.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08101.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08102.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08121.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08101.300.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08102.300.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08121.300.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08101.080.0108/",
+            "https://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08102.080.0108/",
+            "https://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08121.080.0108/",
+            "https://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08101.080.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08102.080.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/golden%20ring/l08121.080.0102/"
         ]
     },
     {
@@ -537,35 +527,35 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Jackie-by-Panzeri-6_ok.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/t07701.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/t07702.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/t07703.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/t07730.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/c07701.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/c07702.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/c07703.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/c07719.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/c07730.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/cm07701.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/cm07702.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/cm07703.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/cm07730.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/cp07701.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/cp07702.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/cp07703.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/cp07730.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/p07701.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/p07702.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/p07703.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/p07730.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/a07701.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/a07702.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/a07703.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/a07730.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/ca07701.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/ca07702.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/ca07703.000.0409/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie/ca07730.000.0409/"
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/t07701.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/t07702.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/t07703.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/t07730.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/c07701.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/c07702.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/c07703.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/c07719.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/c07730.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/cm07701.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/cm07702.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/cm07703.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/cm07730.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/cp07701.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/cp07702.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/cp07703.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/cp07730.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/p07701.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/p07702.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/p07703.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/p07730.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/a07701.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/a07702.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/a07703.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/a07730.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/ca07701.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/ca07702.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/ca07703.000.0409/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie/ca07730.000.0409/"
         ]
     },
     {
@@ -581,47 +571,37 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Jackie-by-Panzeri-6_ok.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/t07701.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/t07702.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/t07703.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/t07730.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/c07701.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/c07702.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/c07703.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/c07730.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/cm07701.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/cm07702.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/cm07703.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/cm07730.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/cp07701.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/cp07702.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/cp07703.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/cp07730.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/a07701.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/a07702.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/a07703.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/a07730.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/ca07701.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/ca07702.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/ca07703.000.0413/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20iot/ca07730.000.0413/"
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/t07701.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/t07702.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/t07703.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/t07730.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/c07701.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/c07702.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/c07703.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/c07730.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/cm07701.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/cm07702.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/cm07703.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/cm07730.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/cp07701.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/cp07702.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/cp07703.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/cp07730.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/a07701.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/a07702.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/a07703.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/a07730.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/ca07701.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/ca07702.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/ca07703.000.0413/",
+            "https://www.panzeri.it/prodotti/design/indoor/jackie%20iot/ca07730.000.0413/"
         ]
     },
     {
         "uri": "http://www.panzeri.it/prodotti/design/indoor/jackie spot/",
         "model": "JACKIE SPOT",
-        "projects": [
-            "http://www.panzeri.it//media/FFS/jackie-spot.jpg",
-            "http://www.panzeri.it//media/FFS/Jackie-Spot-Binario.jpg",
-            "http://www.panzeri.it//media/FFS/Jackie-Spot-binario-multicolor.jpg",
-            "http://www.panzeri.it//media/FFS/Jackie-Spot-binario-titanio.jpg"
-        ],
-        "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20spot/b07701.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20spot/b07702.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20spot/b07703.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/jackie%20spot/b07730.000.0101/"
-        ]
+        "projects": [],
+        "link_varianti": []
     },
     {
         "uri": "http://www.panzeri.it/prodotti/design/indoor/jazz/",
@@ -632,10 +612,10 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Jazz-2.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/jazz/m08901.000.0110/",
-            "http://www.panzeri.it/prodotti/design/indoor/jazz/l08901.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/jazz/l08901.000.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/jazz/m08901.000.0000/"
+            "https://www.panzeri.it/prodotti/design/indoor/jazz/m08901.000.0110/",
+            "https://www.panzeri.it/prodotti/design/indoor/jazz/l08901.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/jazz/l08901.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/jazz/m08901.000.0000/"
         ]
     },
     {
@@ -649,14 +629,14 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Kubik-LED.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/kubik/c07001.014.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/kubik/c07001.011.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/kubik/l07001.014.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/kubik/l07001.011.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/kubik/a07001.014.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/kubik/a07001.011.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/kubik/a07001.011.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/kubik/a07001.014.0000/"
+            "https://www.panzeri.it/prodotti/design/indoor/kubik/c07001.014.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/kubik/c07001.011.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/kubik/l07001.014.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/kubik/l07001.011.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/kubik/a07001.014.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/kubik/a07001.011.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/kubik/a07001.011.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/kubik/a07001.014.0000/"
         ]
     },
     {
@@ -668,21 +648,18 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Line-4.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/line/t03601.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/line/t03602.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/line/t03619.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/line/t03621.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/line/t03630.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/line/l03601.000.0100/",
-            "http://www.panzeri.it/prodotti/design/indoor/line/l03602.000.0100/",
-            "http://www.panzeri.it/prodotti/design/indoor/line/l03619.000.0100/",
-            "http://www.panzeri.it/prodotti/design/indoor/line/l03621.000.0100/",
-            "http://www.panzeri.it/prodotti/design/indoor/line/l03630.000.0100/"
+            "https://www.panzeri.it/prodotti/design/indoor/line/t03601.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/line/t03602.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/line/t03619.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/line/t03621.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/line/t03630.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/line/l03601.000.0100/",
+            "https://www.panzeri.it/prodotti/design/indoor/line/l03602.000.0100/",
+            "https://www.panzeri.it/prodotti/design/indoor/line/l03619.000.0100/",
+            "https://www.panzeri.it/prodotti/design/indoor/line/l03621.000.0100/",
+            "https://www.panzeri.it/prodotti/design/indoor/line/l03630.000.0100/"
         ]
     },
-
-    
-
     {
         "uri": "http://www.panzeri.it/prodotti/design/indoor/olivia/",
         "model": "OLIVIA",
@@ -696,38 +673,36 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Panzeri - Emma Clio Olivia (4).jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/l09751.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/l09752.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/l09753.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/l09754.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/l09755.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/l09756.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/l09757.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/l09771.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/l09772.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/l09773.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/l09774.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/l09775.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/l09776.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/l09777.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/m09751.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/m09752.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/m09753.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/m09754.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/m09755.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/m09756.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/m09757.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/m09771.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/m09772.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/m09773.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/m09774.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/m09775.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/m09776.000.0200/",
-            "http://www.panzeri.it/prodotti/design/indoor/olivia/m09777.000.0200/"
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09751.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09752.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09753.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09754.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09755.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09756.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09757.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09771.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09772.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09773.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09774.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09775.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09776.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09777.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09751.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09752.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09753.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09754.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09755.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09756.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09757.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09771.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09772.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09773.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09774.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09775.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09776.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09777.000.0200/"
         ]
     },
-    
-    
     {
         "uri": "http://www.panzeri.it/prodotti/design/indoor/one/",
         "model": "ONE",
@@ -739,26 +714,26 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/One-4.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/one/l03701.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/one/l03702.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/one/l03717.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/one/l03719.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/one/l03721.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/one/l03701.000.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/one/l03702.000.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/one/l03717.000.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/one/l03719.000.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/one/l03721.000.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/one/p03701.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/one/p03702.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/one/p03717.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/one/p03719.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/one/p03721.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/one/p03701.000.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/one/p03702.000.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/one/p03717.000.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/one/p03719.000.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/one/p03721.000.0102/"
+            "https://www.panzeri.it/prodotti/design/indoor/one/l03701.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/one/l03702.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/one/l03717.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/one/l03719.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/one/l03721.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/one/l03701.000.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/one/l03702.000.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/one/l03717.000.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/one/l03719.000.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/one/l03721.000.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/one/p03701.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/one/p03702.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/one/p03717.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/one/p03719.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/one/p03721.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/one/p03701.000.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/one/p03702.000.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/one/p03717.000.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/one/p03719.000.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/one/p03721.000.0102/"
         ]
     },
     {
@@ -772,34 +747,32 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/slider_planet_ring_05.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/l08301.100.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/l08301.100.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/l08301.100.0107/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/l08301.070.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/l08301.070.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/l08301.070.0107/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/p08301.100.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/p08301.100.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/p08301.100.0107/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/p08301.040.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/p08301.040.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/p08301.040.0107/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/p08301.070.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/p08301.070.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/p08301.070.0107/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/x08301.100.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/x08301.100.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/x08301.100.0107/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/x08301.040.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/x08301.040.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/x08301.040.0107/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/x08301.070.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/x08301.070.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/planet%20ring/x08301.070.0107/"
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/l08301.100.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/l08301.100.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/l08301.100.0107/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/l08301.070.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/l08301.070.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/l08301.070.0107/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/p08301.100.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/p08301.100.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/p08301.100.0107/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/p08301.040.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/p08301.040.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/p08301.040.0107/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/p08301.070.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/p08301.070.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/p08301.070.0107/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/x08301.100.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/x08301.100.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/x08301.100.0107/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/x08301.040.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/x08301.040.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/x08301.040.0107/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/x08301.070.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/x08301.070.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/planet%20ring/x08301.070.0107/"
         ]
     },
-
-    
     {
         "uri": "http://www.panzeri.it/prodotti/design/indoor/silver ring/",
         "model": "SILVER RING",
@@ -813,41 +786,41 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/silver_ring_slider_04.jpg",
             "http://www.panzeri.it//media/FFS/silver_ring_slider_05.jpg",
             "http://www.panzeri.it//media/FFS/silver_ring_slider_06.jpg",
-            "http://www.panzeri.it//media/FFS/silver"
+            "http://www.panzeri.it//media/FFS/silver_ring_slider_07.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08201.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08202.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08217.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08221.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08201.050.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08202.050.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08217.050.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08221.050.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08201.080.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08202.080.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08217.080.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08221.080.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08201.120.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08202.120.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08217.120.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08221.120.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08201.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08202.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08217.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08221.180.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08201.050.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08202.050.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08217.050.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08221.050.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08201.080.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08202.080.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08217.080.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08221.080.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08201.120.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08202.120.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08217.120.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08221.120.0102/"
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08201.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08202.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08217.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08221.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08201.050.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08202.050.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08217.050.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08221.050.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08201.080.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08202.080.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08217.080.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08221.080.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08201.120.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08202.120.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08217.120.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/l08221.120.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08201.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08202.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08217.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08221.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08201.050.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08202.050.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08217.050.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08221.050.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08201.080.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08202.080.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08217.080.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08221.080.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08201.120.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08202.120.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08217.120.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/silver%20ring/p08221.120.0102/"
         ]
     },
     {
@@ -863,12 +836,12 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Tate-satinato-2.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/tate/y-tat-6l-bla/",
-            "http://www.panzeri.it/prodotti/design/indoor/tate/y-tat-6l-whi/",
-            "http://www.panzeri.it/prodotti/design/indoor/tate/y-tat-8l-bla/",
-            "http://www.panzeri.it/prodotti/design/indoor/tate/y-tat-8l-whi/",
-            "http://www.panzeri.it/prodotti/design/indoor/tate/y-tat-2a-bla/",
-            "http://www.panzeri.it/prodotti/design/indoor/tate/y-tat-2a-whi/"
+            "https://www.panzeri.it/prodotti/design/indoor/tate/y-tat-6l-bla/",
+            "https://www.panzeri.it/prodotti/design/indoor/tate/y-tat-6l-whi/",
+            "https://www.panzeri.it/prodotti/design/indoor/tate/y-tat-8l-bla/",
+            "https://www.panzeri.it/prodotti/design/indoor/tate/y-tat-8l-whi/",
+            "https://www.panzeri.it/prodotti/design/indoor/tate/y-tat-2a-bla/",
+            "https://www.panzeri.it/prodotti/design/indoor/tate/y-tat-2a-whi/"
         ]
     },
     {
@@ -882,18 +855,16 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Three-XL-2.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/three/p03901.011.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/three/p03902.011.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/three/p03917.011.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/three/p03919.011.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/three/p03901.015.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/three/p03902.015.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/three/p03917.015.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/three/p03919.015.0106/"
+            "https://www.panzeri.it/prodotti/design/indoor/three/p03901.011.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/three/p03902.011.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/three/p03917.011.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/three/p03919.011.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/three/p03901.015.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/three/p03902.015.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/three/p03917.015.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/three/p03919.015.0106/"
         ]
     },
-
-    
     {
         "uri": "http://www.panzeri.it/prodotti/design/indoor/to-be/",
         "model": "TO-BE",
@@ -908,36 +879,36 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Panzeri_To_Be_gallery8.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/l02701.045.1701/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/l02704.045.1701/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/l02717.045.1701/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/l02719.045.1701/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/l02721.045.1701/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/m02501.085.0510/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/m02504.085.0510/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/m02517.085.0510/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/m02519.085.0510/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/m02521.085.0510/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/l02501.085.0501/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/l02504.085.0501/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/l02517.085.0501/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/l02519.085.0501/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/l02521.085.0501/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/m02601.065.0510/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/m02604.065.0510/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/m02617.065.0510/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/m02619.065.0510/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/m02621.065.0510/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/l02601.065.0501/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/l02604.065.0501/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/l02617.065.0501/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/l02619.065.0501/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/l02621.065.0501/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/p02701.045.1701/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/p02704.045.1701/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/p02717.045.1701/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/p02719.045.1701/",
-            "http://www.panzeri.it/prodotti/design/indoor/to-be/p02721.045.1701/"
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/l02701.045.1701/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/l02704.045.1701/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/l02717.045.1701/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/l02719.045.1701/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/l02721.045.1701/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/m02501.085.0510/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/m02504.085.0510/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/m02517.085.0510/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/m02519.085.0510/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/m02521.085.0510/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/l02501.085.0501/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/l02504.085.0501/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/l02517.085.0501/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/l02519.085.0501/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/l02521.085.0501/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/m02601.065.0510/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/m02604.065.0510/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/m02617.065.0510/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/m02619.065.0510/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/m02621.065.0510/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/l02601.065.0501/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/l02604.065.0501/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/l02617.065.0501/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/l02619.065.0501/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/l02621.065.0501/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/p02701.045.1701/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/p02704.045.1701/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/p02717.045.1701/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/p02719.045.1701/",
+            "https://www.panzeri.it/prodotti/design/indoor/to-be/p02721.045.1701/"
         ]
     },
     {
@@ -945,63 +916,62 @@ var single_pages = [
         "model": "TOY",
         "projects": [
             "http://www.panzeri.it//media/FFS/Toy.jpg",
-            "http://www.panzeri.it//media/FFS/Toy-8.jpg",
             "http://www.panzeri.it//media/FFS/Toy-9.jpg",
             "http://www.panzeri.it//media/FFS/Toy-10.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01601.025.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01617.025.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01619.025.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01621.025.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01637.025.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01639.025.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01601.025.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01617.025.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01619.025.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01621.025.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01637.025.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01639.025.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01601.045.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01617.045.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01619.045.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01621.045.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01637.045.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01639.045.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01601.045.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01617.045.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01619.045.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01621.045.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01637.045.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01639.045.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01601.060.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01617.060.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01619.060.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01621.060.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01637.060.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01639.060.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01601.060.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01617.060.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01619.060.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01621.060.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01637.060.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01639.060.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01601.090.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01617.090.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01619.090.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01621.090.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01637.090.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01639.090.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01601.090.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01617.090.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01619.090.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01621.090.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01637.090.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01639.090.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01601.007.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01621.007.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01637.007.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy/a01639.007.0000/"
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01601.025.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01617.025.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01619.025.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01621.025.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01637.025.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01639.025.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01601.025.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01617.025.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01619.025.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01621.025.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01637.025.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01639.025.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01601.045.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01617.045.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01619.045.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01621.045.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01637.045.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01639.045.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01601.045.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01617.045.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01619.045.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01621.045.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01637.045.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01639.045.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01601.060.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01617.060.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01619.060.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01621.060.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01637.060.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01639.060.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01601.060.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01617.060.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01619.060.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01621.060.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01637.060.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01639.060.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01601.090.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01617.090.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01619.090.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01621.090.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01637.090.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01639.090.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01601.090.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01617.090.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01619.090.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01621.090.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01637.090.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01639.090.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01601.007.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01621.007.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01637.007.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy/a01639.007.0000/"
         ]
     },
     {
@@ -1015,10 +985,10 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/toy-tutte-misure.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/toy%20gypso/a01642.025.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy%20gypso/a01642.025.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy%20gypso/a01642.060.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/toy%20gypso/a01642.060.0102/"
+            "https://www.panzeri.it/prodotti/design/indoor/toy%20gypso/a01642.025.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy%20gypso/a01642.025.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy%20gypso/a01642.060.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/toy%20gypso/a01642.060.0102/"
         ]
     },
     {
@@ -1032,12 +1002,12 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Twister-3.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/twister/t06730.000.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/twister/c06730.050.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/twister/c06730.035.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/twister/l06730.050.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/twister/a06730.050.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/twister/a06730.035.0000/"
+            "https://www.panzeri.it/prodotti/design/indoor/twister/t06730.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/twister/c06730.050.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/twister/c06730.035.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/twister/l06730.050.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/twister/a06730.050.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/twister/a06730.035.0000/"
         ]
     },
     {
@@ -1046,20 +1016,19 @@ var single_pages = [
         "projects": [
             "http://www.panzeri.it//media/FFS/Two-6.jpg",
             "http://www.panzeri.it//media/FFS/Two-4.jpg",
-            "http://www.panzeri.it//media/FFS/Two-2.jpg",
-            "http://www.panzeri.it//media/FFS/Two-1.jpg"
+            "http://www.panzeri.it//media/FFS/Two-2.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/two/l03801.000.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/two/l03802.000.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/two/l03817.000.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/two/l03819.000.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/two/l03821.000.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/two/p03801.000.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/two/p03802.000.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/two/p03817.000.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/two/p03819.000.0106/",
-            "http://www.panzeri.it/prodotti/design/indoor/two/p03821.000.0106/"
+            "https://www.panzeri.it/prodotti/design/indoor/two/l03801.000.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/two/l03802.000.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/two/l03817.000.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/two/l03819.000.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/two/l03821.000.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/two/p03801.000.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/two/p03802.000.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/two/p03817.000.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/two/p03819.000.0106/",
+            "https://www.panzeri.it/prodotti/design/indoor/two/p03821.000.0106/"
         ]
     },
     {
@@ -1074,17 +1043,17 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Panzeri_Viisi_gallery6.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/viisi/t02001.210.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/viisi/t02002.210.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/viisi/l02001.120.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/viisi/l02002.120.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/viisi/zl02002.120.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/viisi/l02101.120.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/viisi/l02102.120.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/viisi/l02001.210.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/viisi/l02002.210.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/viisi/l02101.210.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/viisi/l02102.210.0102/"
+            "https://www.panzeri.it/prodotti/design/indoor/viisi/t02001.210.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/viisi/t02002.210.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/viisi/l02001.120.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/viisi/l02002.120.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/viisi/l02101.120.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/viisi/l02102.120.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/viisi/l02001.210.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/viisi/l02002.210.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/viisi/zl02002.210.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/viisi/l02101.210.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/viisi/l02102.210.0102/"
         ]
     },
     {
@@ -1098,10 +1067,10 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Viki-9.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/viki/l04101.055.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/viki/l04101.075.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/viki/p04101.055.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/viki/p04101.075.0000/"
+            "https://www.panzeri.it/prodotti/design/indoor/viki/l04101.055.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/viki/l04101.075.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/viki/p04101.055.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/viki/p04101.075.0000/"
         ]
     },
     {
@@ -1115,21 +1084,22 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Willy-15.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/willy/l07631.060.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/willy/l07633.060.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/willy/l07610.060.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/willy/l07621.060.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/willy/l07631.060.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/willy/l07633.060.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/willy/l07633.100.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/willy/l07631.100.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/willy/l07633.100.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/willy/l07621.100.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/willy/l07631.100.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/willy/l07631.040.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/willy/l07631.050.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/willy/l07633.040.0000/",
-            "http://www.panzeri.it/prodotti/design/indoor/willy/l07633.050.0000/"
+            "https://www.panzeri.it/prodotti/design/indoor/willy/l07631.060.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/willy/l07633.060.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/willy/l07610.060.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/willy/l07621.060.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/willy/l07631.060.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/willy/l07633.060.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/willy/l07633.100.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/willy/l07631.100.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/willy/l07633.100.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/willy/l07621.100.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/willy/l07631.100.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/willy/l07631.040.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/willy/l07631.050.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/willy/l07633.040.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/willy/l07633.050.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/willy/zl07633.050.0000/"
         ]
     },
     {
@@ -1139,20 +1109,19 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Ypsilon.jpg",
             "http://www.panzeri.it//media/FFS/Ypsilon_slider.jpg",
             "http://www.panzeri.it//media/FFS/Ypsilon-2.jpg",
-            "http://www.panzeri.it//media/FFS/Ypsilon-3.jpg",
-            "http://www.panzeri.it//media/FFS/ypsilon-A7222OUTpag90.jpg"
+            "http://www.panzeri.it//media/FFS/Ypsilon-3.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/ypsilon/a07201.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/ypsilon/a07202.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/ypsilon/a07217.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/ypsilon/a07219.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/ypsilon/a07222.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/ypsilon/x07201.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/ypsilon/x07202.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/ypsilon/x07217.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/ypsilon/x07219.000.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/ypsilon/x07222.000.0101/"
+            "https://www.panzeri.it/prodotti/design/indoor/ypsilon/a07201.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/ypsilon/a07202.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/ypsilon/a07217.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/ypsilon/a07219.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/ypsilon/a07222.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/ypsilon/x07201.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/ypsilon/x07202.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/ypsilon/x07217.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/ypsilon/x07219.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/ypsilon/x07222.000.0101/"
         ]
     },
     {
@@ -1164,17 +1133,16 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Zeroled-5.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/zero/a03501.050.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/zero/a03517.050.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/zero/a03519.050.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/zero/a03521.050.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/zero/a03522.050.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/zero/za03522.050.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/zero/a03501.100.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/zero/a03517.100.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/zero/a03519.100.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/zero/a03521.100.0101/",
-            "http://www.panzeri.it/prodotti/design/indoor/zero/a03522.100.0101/"
+            "https://www.panzeri.it/prodotti/design/indoor/zero/a03501.050.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero/a03517.050.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero/a03519.050.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero/a03521.050.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero/a03522.050.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero/a03501.100.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero/a03517.100.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero/a03519.100.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero/a03521.100.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero/a03522.100.0101/"
         ]
     },
     {
@@ -1188,12 +1156,12 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Panzeri Gong.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/gong/l09301.060.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/gong/l09302.060.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/gong/l09321.060.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/gong/l09301.100.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/gong/l09302.100.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/gong/l09321.100.0102/"
+            "https://www.panzeri.it/prodotti/design/indoor/gong/l09301.060.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/gong/l09302.060.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/gong/l09321.060.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/gong/l09301.100.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/gong/l09302.100.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/gong/l09321.100.0102/"
         ]
     },
     {
@@ -1206,14 +1174,15 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Panzeri Ginevra (3).jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/indoor/ginevra/l09280.050.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/ginevra/l09281.050.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/ginevra/l09280.080.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/ginevra/l09281.080.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/ginevra/p09280.050.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/ginevra/p09281.050.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/ginevra/p09280.080.0102/",
-            "http://www.panzeri.it/prodotti/design/indoor/ginevra/p09281.080.0102/"
+            "https://www.panzeri.it/prodotti/design/indoor/ginevra/l09280.050.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/ginevra/l09281.050.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/ginevra/l09280.080.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/ginevra/l09281.080.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/ginevra/p09280.050.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/ginevra/p09281.050.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/ginevra/p09280.080.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/ginevra/p09281.080.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/ginevra/zp09280.080.0102/"
         ]
     },
     {
@@ -1232,10 +1201,10 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Box-T-profilo.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/outdoor/box/xq144-01/",
-            "http://www.panzeri.it/prodotti/design/outdoor/box/xq144-02/",
-            "http://www.panzeri.it/prodotti/design/outdoor/box/xr144-01/",
-            "http://www.panzeri.it/prodotti/design/outdoor/box/xr144-02/"
+            "https://www.panzeri.it/prodotti/design/outdoor/box/xq144-01/",
+            "https://www.panzeri.it/prodotti/design/outdoor/box/xq144-02/",
+            "https://www.panzeri.it/prodotti/design/outdoor/box/xr144-01/",
+            "https://www.panzeri.it/prodotti/design/outdoor/box/xr144-02/"
         ]
     },
     {
@@ -1248,9 +1217,9 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/draco-EA-5444pag533.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/outdoor/draco/ea05401.000.0101/",
-            "http://www.panzeri.it/prodotti/design/outdoor/draco/ea05433.000.0101/",
-            "http://www.panzeri.it/prodotti/design/outdoor/draco/ea05444.000.0101/"
+            "https://www.panzeri.it/prodotti/design/outdoor/draco/ea05401.000.0101/",
+            "https://www.panzeri.it/prodotti/design/outdoor/draco/ea05433.000.0101/",
+            "https://www.panzeri.it/prodotti/design/outdoor/draco/ea05444.000.0101/"
         ]
     },
     {
@@ -1264,8 +1233,8 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/four-pag542.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/outdoor/four/ep04401.000.0106/",
-            "http://www.panzeri.it/prodotti/design/outdoor/four/ep04444.000.0106/"
+            "https://www.panzeri.it/prodotti/design/outdoor/four/ep04401.000.0106/",
+            "https://www.panzeri.it/prodotti/design/outdoor/four/ep04444.000.0106/"
         ]
     },
     {
@@ -1279,7 +1248,7 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/LAMPyris-2.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/outdoor/lampyris/et08044.000.0101/"
+            "https://www.panzeri.it/prodotti/design/outdoor/lampyris/et08044.000.0101/"
         ]
     },
     {
@@ -1294,9 +1263,9 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/potter-rgb-pag556.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/outdoor/potter/et04201.000.0005/",
-            "http://www.panzeri.it/prodotti/design/outdoor/potter/et04201.000.0000/",
-            "http://www.panzeri.it/prodotti/design/outdoor/potter/t04201.000.0000/"
+            "https://www.panzeri.it/prodotti/design/outdoor/potter/et04201.000.0005/",
+            "https://www.panzeri.it/prodotti/design/outdoor/potter/et04201.000.0000/",
+            "https://www.panzeri.it/prodotti/design/outdoor/potter/t04201.000.0000/"
         ]
     },
     {
@@ -1315,20 +1284,20 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Ralph-9a.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/design/outdoor/ralph/et04701.035.0000/",
-            "http://www.panzeri.it/prodotti/design/outdoor/ralph/et04744.035.0000/",
-            "http://www.panzeri.it/prodotti/design/outdoor/ralph/et04701.050.0000/",
-            "http://www.panzeri.it/prodotti/design/outdoor/ralph/et04744.050.0000/",
-            "http://www.panzeri.it/prodotti/design/outdoor/ralph/pe04701.035.0000/",
-            "http://www.panzeri.it/prodotti/design/outdoor/ralph/pe04744.035.0000/",
-            "http://www.panzeri.it/prodotti/design/outdoor/ralph/ec04701.035.0000/",
-            "http://www.panzeri.it/prodotti/design/outdoor/ralph/ec04744.035.0000/",
-            "http://www.panzeri.it/prodotti/design/outdoor/ralph/el04701.035.0000/",
-            "http://www.panzeri.it/prodotti/design/outdoor/ralph/el04744.035.0000/",
-            "http://www.panzeri.it/prodotti/design/outdoor/ralph/el04701.050.0000/",
-            "http://www.panzeri.it/prodotti/design/outdoor/ralph/el04744.050.0000/",
-            "http://www.panzeri.it/prodotti/design/outdoor/ralph/el04701.090.0000/",
-            "http://www.panzeri.it/prodotti/design/outdoor/ralph/el04744.090.0000/"
+            "https://www.panzeri.it/prodotti/design/outdoor/ralph/et04701.035.0000/",
+            "https://www.panzeri.it/prodotti/design/outdoor/ralph/et04744.035.0000/",
+            "https://www.panzeri.it/prodotti/design/outdoor/ralph/et04701.050.0000/",
+            "https://www.panzeri.it/prodotti/design/outdoor/ralph/et04744.050.0000/",
+            "https://www.panzeri.it/prodotti/design/outdoor/ralph/pe04701.035.0000/",
+            "https://www.panzeri.it/prodotti/design/outdoor/ralph/pe04744.035.0000/",
+            "https://www.panzeri.it/prodotti/design/outdoor/ralph/ec04701.035.0000/",
+            "https://www.panzeri.it/prodotti/design/outdoor/ralph/ec04744.035.0000/",
+            "https://www.panzeri.it/prodotti/design/outdoor/ralph/el04701.035.0000/",
+            "https://www.panzeri.it/prodotti/design/outdoor/ralph/el04744.035.0000/",
+            "https://www.panzeri.it/prodotti/design/outdoor/ralph/el04701.050.0000/",
+            "https://www.panzeri.it/prodotti/design/outdoor/ralph/el04744.050.0000/",
+            "https://www.panzeri.it/prodotti/design/outdoor/ralph/el04701.090.0000/",
+            "https://www.panzeri.it/prodotti/design/outdoor/ralph/el04744.090.0000/"
         ]
     },
     {
@@ -1338,7 +1307,7 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/broadway_slider_01.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/profili/broadway/xp2048track/"
+            "https://www.panzeri.it/prodotti/architectural/profili/broadway/xp2048track/"
         ]
     },
     {
@@ -1351,38 +1320,39 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/compo_XG2033_prisma.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn/xg2033-100track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn/xg2033-100track pr/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn/xg2033-200track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn/xg2033-200track pr/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn/xg2033-300track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn/xg2033-300track pr/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn/xg2033-50track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn/xg2033-50track pr/"
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn/xg2033-100track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn/xg2033-100track pr/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn/xg2033-200track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn/xg2033-200track pr/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn/xg2033-300track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn/xg2033-300track pr/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn/xg2033-50track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn/xg2033-50track pr/"
         ]
     },
     {
         "uri": "http://www.panzeri.it/prodotti/architectural/profili/brooklyn out/",
         "model": "BROOKLYN OUT",
         "projects": [
-            "http://www.panzeri.it//media/FFS/XP2033-2.jpg",
-            "http://www.panzeri.it//media/FFS/XP2033.jpg",
-            "http://www.panzeri.it//media/FFS/compo_XP2033_big_prisma.jpg",
-            "http://www.panzeri.it//media/FFS/compo_XP2033_prisma.jpg"
+            "http://www.panzeri.it//media/FFS/ventitrentatre_slider_NEW.jpg",
+            "http://www.panzeri.it//media/FFS/ventitrentatre_copertina.jpg",
+            "http://www.panzeri.it//media/FFS/Ventitrentatre.jpg",
+            "http://www.panzeri.it//media/FFS/Ventitrentatre-3.jpg",
+            "http://www.panzeri.it//media/FFS/Ventitrentare-2.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20out/xp2033-100track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20out/xp2033-100track pr/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20out/xp2033-200track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20out/xp2033-200track pr/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20out/xp2033-300track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20out/xp2033-300track pr/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20out/xp2033-50track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20out/xp2033-50track pr/"
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn%20out/xp2033-100track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn%20out/xp2033-100track pr/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn%20out/xp2033-200track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn%20out/xp2033-200track pr/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn%20out/xp2033-300track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn%20out/xp2033-300track pr/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn%20out/xp2033-50track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn%20out/xp2033-50track pr/"
         ]
     },
     {
-        "uri": "http://www.panzeri.it/prodotti/architectural/profili/brooklyn round/",
+        "uri": "https://www.panzeri.it/prodotti/design/indoor/brooklyn round/",
         "model": "BROOKLYN ROUND",
         "projects": [
             "http://www.panzeri.it//media/FFS/Panzeri_Brooklyn-Round_gallery1.jpg",
@@ -1391,16 +1361,34 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Panzeri_Brooklyn-Round_gallery4.jpg",
             "http://www.panzeri.it//media/FFS/Panzeri_Brooklyn-Round_gallery5.jpg",
             "http://www.panzeri.it//media/FFS/Panzeri_Brooklyn-Round_gallery6.jpg",
-            "http://www.panzeri.it//media/FFS/Panzeri_Brooklyn-Round_gallery7.j"
+            "http://www.panzeri.it//media/FFS/Panzeri_Brooklyn-Round_gallery7.jpg",
+            "http://www.panzeri.it//media/FFS/collage_brooklyn_round_rev2.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20round/xg23201.360.0099/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20round/xg23101.090.0099/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20round/xg23201.045.0099/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20round/xg23101.180.0099/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20round/xg23201.090.0099/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20round/xg23101.360.0099/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20round/xg23201.180.0099/"
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23201.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23202.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23219.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23101.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23102.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23119.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23101.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23102.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23119.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23201.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23202.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/l23219.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23201.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23202.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23219.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23101.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23102.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23119.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23101.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23102.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23119.360.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23201.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23202.180.0102/",
+            "https://www.panzeri.it/prodotti/design/indoor/brooklyn%20round/p23219.180.0102/"
         ]
     },
     {
@@ -1412,14 +1400,14 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/brooklyn-spot_P2033.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20trim/xg2034-100track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20trim/xg2034-100track pr/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20trim/xg2034-200track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20trim/xg2034-200track pr/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20trim/xg2034-300track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20trim/xg2034-300track pr/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20trim/xg2034-50track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/brooklyn%20trim/xg2034-50track pr/"
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn%20trim/xg2034-100track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn%20trim/xg2034-100track pr/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn%20trim/xg2034-200track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn%20trim/xg2034-200track pr/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn%20trim/xg2034-300track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn%20trim/xg2034-300track pr/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn%20trim/xg2034-50track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/brooklyn%20trim/xg2034-50track pr/"
         ]
     },
     {
@@ -1429,10 +1417,10 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Panzeri_Corner_gallery1.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/profili/corner/xg2045-100track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/corner/xg2045-200track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/corner/xg2045-300track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/corner/xg2045-50track/"
+            "https://www.panzeri.it/prodotti/architectural/profili/corner/xg2045-100track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/corner/xg2045-200track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/corner/xg2045-300track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/corner/xg2045-50track/"
         ]
     },
     {
@@ -1450,14 +1438,14 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Panzeri_Giano_gallery9.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/profili/giano/xp24646.050.0099/",
-            "http://www.panzeri.it/prodotti/architectural/profili/giano/xp24648.050.0099/",
-            "http://www.panzeri.it/prodotti/architectural/profili/giano/xp24646.100.0099/",
-            "http://www.panzeri.it/prodotti/architectural/profili/giano/xp24648.100.0099/",
-            "http://www.panzeri.it/prodotti/architectural/profili/giano/xp24646.200.0099/",
-            "http://www.panzeri.it/prodotti/architectural/profili/giano/xp24648.200.0099/",
-            "http://www.panzeri.it/prodotti/architectural/profili/giano/xp24646.300.0099/",
-            "http://www.panzeri.it/prodotti/architectural/profili/giano/xp24648.300.0099/"
+            "https://www.panzeri.it/prodotti/architectural/profili/giano/xp24646.050.0099/",
+            "https://www.panzeri.it/prodotti/architectural/profili/giano/xp24648.050.0099/",
+            "https://www.panzeri.it/prodotti/architectural/profili/giano/xp24646.100.0099/",
+            "https://www.panzeri.it/prodotti/architectural/profili/giano/xp24648.100.0099/",
+            "https://www.panzeri.it/prodotti/architectural/profili/giano/xp24646.200.0099/",
+            "https://www.panzeri.it/prodotti/architectural/profili/giano/xp24648.200.0099/",
+            "https://www.panzeri.it/prodotti/architectural/profili/giano/xp24646.300.0099/",
+            "https://www.panzeri.it/prodotti/architectural/profili/giano/xp24648.300.0099/"
         ]
     },
     {
@@ -1468,10 +1456,10 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Manhattan-2.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/profili/manhattan/xg2044-100track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/manhattan/xg2044-200track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/manhattan/xg2044-300track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/manhattan/xg2044-50track/"
+            "https://www.panzeri.it/prodotti/architectural/profili/manhattan/xg2044-100track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/manhattan/xg2044-200track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/manhattan/xg2044-300track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/manhattan/xg2044-50track/"
         ]
     },
     {
@@ -1482,33 +1470,33 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/compo_XG2038_prisma.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-60 eco/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-60 eco dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-90 eco/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-90 eco dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-90 eco em/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-60/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-60 dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-120 eco/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-120 eco dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-120 eco em/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-150 eco/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-150 eco dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-150 eco em/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-90/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-90 dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-90 em/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-120/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-120 dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-120 em/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-150/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-150 dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-120track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-150track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-240track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-60track jolly/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-60track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-90track/"
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-60 eco/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-60 eco dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-90 eco/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-90 eco dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-90 eco em/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-60/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-60 dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-120 eco/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-120 eco dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-120 eco em/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-150 eco/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-150 eco dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-150 eco em/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-90/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-90 dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-90 em/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-120/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-120 dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-120 em/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-150/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-150 dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-120track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-150track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-240track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-60track jolly/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-60track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita/xg2038-90track/"
         ]
     },
     {
@@ -1518,22 +1506,22 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XP2038.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-60 eco/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-60 eco dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-90 eco/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-90 eco dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-60/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-60 dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-120 eco/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-120 eco dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-150 eco/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-150 eco dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-90/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-90 dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-120/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-120 dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-150/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-150 dali/"
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-60 eco/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-60 eco dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-90 eco/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-90 eco dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-60/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-60 dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-120 eco/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-120 eco dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-150 eco/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-150 eco dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-90/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-90 dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-120/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-120 dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-150/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20out/xp2038-150 dali/"
         ]
     },
     {
@@ -1544,28 +1532,28 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/compo_XG2039_prisma.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-60 eco/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-60 eco dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-90 eco/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-90 eco dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-60/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-60 dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-120 eco/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-120 eco dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-150 eco/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-150 eco dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-90/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-90 dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-120/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-120 dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-150/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-150 dali/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-120track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-150track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-240track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-60track jolly/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-60track/",
-            "http://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-90track/"
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-60 eco/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-60 eco dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-90 eco/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-90 eco dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-60/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-60 dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-120 eco/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-120 eco dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-150 eco/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-150 eco dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-90/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-90 dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-120/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-120 dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-150/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-150 dali/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-120track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-150track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-240track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-60track jolly/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-60track/",
+            "https://www.panzeri.it/prodotti/architectural/profili/nolita%20trim/xg2039-90track/"
         ]
     },
     {
@@ -1576,7 +1564,7 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/compo_XG2036.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/profili/tribeca/xg2047track/"
+            "https://www.panzeri.it/prodotti/architectural/profili/tribeca/xg2047track/"
         ]
     },
     {
@@ -1589,9 +1577,9 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Joe-black.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/joe/st.xa2115/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/joe/xa2115 bla/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/joe/xa2115/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/joe/st.xa2115/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/joe/xa2115 bla/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/joe/xa2115/"
         ]
     },
     {
@@ -1603,8 +1591,8 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Roy-ottica.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/roy/xr255-43-3k/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/roy/xr255-43-4k/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/roy/xr255-43-3k/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/roy/xr255-43-4k/"
         ]
     },
     {
@@ -1615,19 +1603,11 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/joe-Q.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/joe.q/st.xa2116/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/joe.q/xa2116 bla/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/joe.q/xa2116/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/joe.q/st.xa2116/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/joe.q/xa2116 bla/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/joe.q/xa2116/"
         ]
     },
-
-
-
-
-
-
-    
-
     {
         "uri": "http://www.panzeri.it/prodotti/architectural/incassi/joe twist/",
         "model": "JOE TWIST",
@@ -1636,8 +1616,8 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/joe-twist.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/joe%20twist/st.xa2117/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/joe%20twist/xa2117/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/joe%20twist/st.xa2117/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/joe%20twist/xa2117/"
         ]
     },
     {
@@ -1647,9 +1627,8 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XGQ0998-pag613.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq0998/xgq0998/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq0998/nc xgq0998-gl/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq0998/xgq0998-gl/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq0998/xgq0998/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq0998/xgq0998-gl/"
         ]
     },
     {
@@ -1660,7 +1639,7 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XGQ0999_120204.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq0999/xgq0999/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq0999/xgq0999/"
         ]
     },
     {
@@ -1670,7 +1649,7 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XGQ1000-1.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1000/xgq1000-1/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1000/xgq1000-1/"
         ]
     },
     {
@@ -1684,9 +1663,9 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XGQ1004-GL-pag623.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1004/xgq1004/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1004/xgq1004-45/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1004/xgq1004-gl/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1004/xgq1004/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1004/xgq1004-45/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1004/xgq1004-gl/"
         ]
     },
     {
@@ -1697,7 +1676,7 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XGQ1015-2.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1015/xgq1015/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1015/xgq1015/"
         ]
     },
     {
@@ -1708,7 +1687,7 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XGQ1019-2.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1019/xgq1019/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1019/xgq1019/"
         ]
     },
     {
@@ -1718,7 +1697,7 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/xgq1025_slide.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1025/xgq1025/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1025/xgq1025/"
         ]
     },
     {
@@ -1728,7 +1707,7 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XGQ1026.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1026/xgq1026/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1026/xgq1026/"
         ]
     },
     {
@@ -1740,7 +1719,7 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XGQ1031-3.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1031/xgq1031 led/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1031/xgq1031 led/"
         ]
     },
     {
@@ -1750,10 +1729,9 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XGQ1032.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1032/xgq1032 led/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1032/xgq1032 led/"
         ]
     },
-    
     {
         "uri": "http://www.panzeri.it/prodotti/architectural/incassi/xgq1034/",
         "model": "XGQ1034",
@@ -1765,18 +1743,18 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XGQ1034-3-2.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-2 bla/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-2 whi/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-2c bla/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-2c whi/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-3 bla/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-3 whi/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-3c bla/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-3c whi/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-1 bla/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-1 whi/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-1c bla/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-1c whi/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-2 bla/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-2 whi/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-2c bla/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-2c whi/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-3 bla/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-3 whi/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-3c bla/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-3c whi/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-1 bla/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-1 whi/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-1c bla/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1034/xgq1034-1c whi/"
         ]
     },
     {
@@ -1786,8 +1764,8 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XGQ1210.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1210/xgq1210 led dim/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1210/xgq1210 led/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1210/xgq1210 led dim/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1210/xgq1210 led/"
         ]
     },
     {
@@ -1797,8 +1775,8 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XGQ1211.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1211/xgq1211 led/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgq1211/xgq1211 led dim/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1211/xgq1211 led/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgq1211/xgq1211 led dim/"
         ]
     },
     {
@@ -1809,7 +1787,7 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XGR0997-pag613.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgr0997/xgr0997/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgr0997/xgr0997/"
         ]
     },
     {
@@ -1819,7 +1797,7 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XGR1020.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgr1020/xgr1020/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgr1020/xgr1020/"
         ]
     },
     {
@@ -1830,7 +1808,7 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XGR1021-2.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgr1021/xgr1021/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgr1021/xgr1021/"
         ]
     },
     {
@@ -1840,7 +1818,7 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XGR1023.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgr1023/xgr1023/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgr1023/xgr1023/"
         ]
     },
     {
@@ -1851,7 +1829,7 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XGR1024-2.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgr1024/xgr1024/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgr1024/xgr1024/"
         ]
     },
     {
@@ -1862,7 +1840,7 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XGR1027-2.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xgr1027/xgr1027/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xgr1027/xgr1027/"
         ]
     },
     {
@@ -1873,7 +1851,7 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/XSV2008-2.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/xsv2008/xsv2008 whi/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/xsv2008/xsv2008 whi/"
         ]
     },
     {
@@ -1883,8 +1861,8 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/FP-Queens_In-XR262.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/queens%20in%2060/xr26201.060.1715/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/queens%20in%2060/xr26201.060.2515/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/queens%20in%2060/xr26201.060.1715/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/queens%20in%2060/xr26201.060.2515/"
         ]
     },
     {
@@ -1892,7 +1870,7 @@ var single_pages = [
         "model": "QUEENS IN 50 IP65",
         "projects": [],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/queens%20in%2050%20ip65/xr22501.050.2515/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/queens%20in%2050%20ip65/xr22501.050.2515/"
         ]
     },
     {
@@ -1900,8 +1878,8 @@ var single_pages = [
         "model": "QUEENS IN 40",
         "projects": [],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/incassi/queens%20in%2040/xr25401.040.1815/",
-            "http://www.panzeri.it/prodotti/architectural/incassi/queens%20in%2040/xr25401.040.2615/"
+            "https://www.panzeri.it/prodotti/architectural/incassi/queens%20in%2040/xr25401.040.1815/",
+            "https://www.panzeri.it/prodotti/architectural/incassi/queens%20in%2040/xr25401.040.2615/"
         ]
     },
     {
@@ -1916,8 +1894,8 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/brooklyn_spot_vert.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/spotlight/brooklyn%20spot/p2033 spot/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/brooklyn%20spot/p2033-01 spot/"
+            "https://www.panzeri.it/prodotti/architectural/spotlight/brooklyn%20spot/p2033 spot/",
+            "https://www.panzeri.it/prodotti/architectural/spotlight/brooklyn%20spot/p2033-01 spot/"
         ]
     },
     {
@@ -1929,37 +1907,23 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/Panzeri_Queens-Mini_gallery3.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20mini/xm748-9-01-3k/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20mini/xm748-9-02-3k/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20mini/xm748-12-01-3k/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20mini/xm748-12-02-3k/"
+            "https://www.panzeri.it/prodotti/architectural/spotlight/queens%20mini/xm748-9-01-3k/",
+            "https://www.panzeri.it/prodotti/architectural/spotlight/queens%20mini/xm748-9-02-3k/",
+            "https://www.panzeri.it/prodotti/architectural/spotlight/queens%20mini/xm748-12-01-3k/",
+            "https://www.panzeri.it/prodotti/architectural/spotlight/queens%20mini/xm748-12-02-3k/"
         ]
     },
     {
         "uri": "http://www.panzeri.it/prodotti/architectural/spotlight/queens spot/",
         "model": "QUEENS SPOT",
         "projects": [
-            "http://www.panzeri.it//media/FFS/queens-spot.jpg",
-            "http://www.panzeri.it//media/FFS/queens-spot2.jpg",
-            "http://www.panzeri.it//media/FFS/queens-spot3.jpg",
-            "http://www.panzeri.it//media/FFS/Perfetto-230-composizione-binario-bianco_R.jpg",
-            "http://www.panzeri.it//media/FFS/Queens-Spot-Bianco.jpg",
-            "http://www.panzeri.it//media/FFS/Queens-Spot-Movimento.jpg",
-            "http://www.panzeri.it//media/FFS/Queens-Spot-Nero.jpg",
             "http://www.panzeri.it//media/FFS/Queens-Spot-Nero-con-driver.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20spot/xm742-19-01-3k/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20spot/xm742-19-02-3k/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20spot/xm742-19-33-3k/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20spot/xm742-19-02-4k/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20spot/xm742-19-33-4k/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20spot/xm743-43-01-3k/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20spot/xm743-43-02-3k/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20spot/xm743-43-33-3k/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20spot/xm743-43-01-4k/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20spot/xm743-43-02-4k/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20spot/xm743-43-33-4k/"
+            "https://www.panzeri.it/prodotti/architectural/spotlight/queens%20spot/xm743-43-01-3k/",
+            "https://www.panzeri.it/prodotti/architectural/spotlight/queens%20spot/xm743-43-02-3k/",
+            "https://www.panzeri.it/prodotti/architectural/spotlight/queens%20spot/xm743-43-01-4k/",
+            "https://www.panzeri.it/prodotti/architectural/spotlight/queens%20spot/xm743-43-02-4k/"
         ]
     },
     {
@@ -1970,39 +1934,327 @@ var single_pages = [
             "http://www.panzeri.it//media/FFS/compo_binario.jpg"
         ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20compact/xm751-30-01-3k/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20compact/xm751-30-02-3k/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20compact/xm751-30-33-3k/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20compact/xm751-30-01-4k/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20compact/xm751-30-02-4k/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/queens%20compact/xm751-30-33-4k/"
+            "https://www.panzeri.it/prodotti/architectural/spotlight/queens%20compact/xm751-30-01-3k/",
+            "https://www.panzeri.it/prodotti/architectural/spotlight/queens%20compact/xm751-30-02-3k/",
+            "https://www.panzeri.it/prodotti/architectural/spotlight/queens%20compact/xm751-30-01-4k/",
+            "https://www.panzeri.it/prodotti/architectural/spotlight/queens%20compact/xm751-30-02-4k/"
         ]
     },
     {
         "uri": "http://www.panzeri.it/prodotti/architectural/spotlight/soho spot micro/",
         "model": "SOHO SPOT MICRO",
-        "projects": [],
+        "projects": [
+            "http://www.panzeri.it//media/FFS/FH-soho_spot_micro_00.jpg",
+            "http://www.panzeri.it//media/FFS/FH-soho_spot_micro_01.jpg"
+        ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/spotlight/soho%20spot%20micro/b75401.021.2516/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/soho%20spot%20micro/b75402.021.2516/"
+            "https://www.panzeri.it/prodotti/architectural/spotlight/soho%20spot%20micro/b75401.021.2516/",
+            "https://www.panzeri.it/prodotti/architectural/spotlight/soho%20spot%20micro/b75402.021.2516/"
         ]
     },
     {
         "uri": "http://www.panzeri.it/prodotti/architectural/spotlight/soho spot micro low/",
         "model": "SOHO SPOT MICRO LOW",
-        "projects": [],
+        "projects": [
+            "http://www.panzeri.it//media/FFS/FH-soho_spot_micro_low_00.jpg",
+            "http://www.panzeri.it//media/FFS/FH-soho_spot_micro_low_01.jpg"
+        ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/spotlight/soho%20spot%20micro%20low/b75301.018.2516/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/soho%20spot%20micro%20low/b75302.018.2516/"
+            "https://www.panzeri.it/prodotti/architectural/spotlight/soho%20spot%20micro%20low/b75301.018.2516/",
+            "https://www.panzeri.it/prodotti/architectural/spotlight/soho%20spot%20micro%20low/b75302.018.2516/"
         ]
     },
     {
         "uri": "http://www.panzeri.it/prodotti/architectural/spotlight/soho spot nano/",
         "model": "SOHO SPOT NANO",
-        "projects": [],
+        "projects": [
+            "http://www.panzeri.it//media/FFS/FH-soho_spot_nano_00.jpg",
+            "http://www.panzeri.it//media/FFS/FH-soho_spot_nano_01.jpg"
+        ],
         "link_varianti": [
-            "http://www.panzeri.it/prodotti/architectural/spotlight/soho%20spot%20nano/b75201.007.2516/",
-            "http://www.panzeri.it/prodotti/architectural/spotlight/soho%20spot%20nano/b75202.007.2516/"
+            "https://www.panzeri.it/prodotti/architectural/spotlight/soho%20spot%20nano/b75201.007.2516/",
+            "https://www.panzeri.it/prodotti/architectural/spotlight/soho%20spot%20nano/b75202.007.2516/"
+        ]
+    },
+    {
+        "uri": "https://www.panzeri.it/prodotti/design/indoor/bella/",
+        "model": "BELLA",
+        "projects": [
+            "http://www.panzeri.it//media/FFS/FH-bella_sosp_01.jpg",
+            "http://www.panzeri.it//media/FFS/FH-bella_sosp_02.jpg",
+            "http://www.panzeri.it//media/FFS/FH-bella_sosp_03.jpg",
+            "http://www.panzeri.it//media/FFS/FH-bella_sosp_04.jpg",
+            "http://www.panzeri.it//media/FFS/FH-bella_parete_05.jpg",
+            "http://www.panzeri.it//media/FFS/FH-bella_parete_06.jpg",
+            "http://www.panzeri.it//media/FFS/FH-bella_parete_07.jpg",
+            "http://www.panzeri.it//media/FFS/FH-bella_tav_08.jpg",
+            "http://www.panzeri.it//media/FFS/FH-bella_tav_09.jpg"
+        ],
+        "link_varianti": [
+            "https://www.panzeri.it/prodotti/design/indoor/bella/c05201.011.0209/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/c05202.011.0209/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/c05217.011.0209/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/c05219.011.0209/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/c05230.011.0209/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/m05201.011.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/m05202.011.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/m05217.011.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/m05219.011.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/m05230.011.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/m05301.011.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/m05302.011.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/m05317.011.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/m05319.011.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/m05330.011.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/l05201.011.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/l05202.011.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/l05217.011.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/l05219.011.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/l05230.011.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/l05301.011.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/l05302.011.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/l05317.011.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/l05319.011.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/l05330.011.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/x05201.011.0209/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/x05202.011.0209/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/x05217.011.0209/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/x05219.011.0209/",
+            "https://www.panzeri.it/prodotti/design/indoor/bella/x05230.011.0209/"
+        ]
+    },
+    {
+        "uri": "https://www.panzeri.it/prodotti/design/indoor/ely/",
+        "model": "ELY",
+        "projects": [
+            "http://www.panzeri.it//media/FFS/FH-ely_emy_evy_01.jpg",
+            "http://www.panzeri.it//media/FFS/FH-ely_emy_evy_02.jpg",
+            "http://www.panzeri.it//media/FFS/FH-ely_emy_evy_03.jpg",
+            "http://www.panzeri.it//media/FFS/FH-ely_emy_evy_04.jpg"
+        ],
+        "link_varianti": [
+            "https://www.panzeri.it/prodotti/design/indoor/ely/l10072.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/ely/l10073.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/ely/l10074.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/ely/l10075.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/ely/l10076.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/ely/l10077.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/ely/m10072.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/ely/m10073.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/ely/m10074.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/ely/m10075.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/ely/m10076.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/ely/m10077.000.0000/"
+        ]
+    },
+    {
+        "uri": "https://www.panzeri.it/prodotti/design/indoor/emy/",
+        "model": "EMY",
+        "projects": [
+            "http://www.panzeri.it//media/FFS/FH-ely_emy_evy_01.jpg",
+            "http://www.panzeri.it//media/FFS/FH-ely_emy_evy_02.jpg",
+            "http://www.panzeri.it//media/FFS/FH-ely_emy_evy_03.jpg",
+            "http://www.panzeri.it//media/FFS/FH-ely_emy_evy_04.jpg"
+        ],
+        "link_varianti": [
+            "https://www.panzeri.it/prodotti/design/indoor/emy/l10172.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/emy/l10173.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/emy/l10174.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/emy/l10175.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/emy/l10176.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/emy/l10177.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/emy/m10172.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/emy/m10173.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/emy/m10174.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/emy/m10175.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/emy/m10176.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/emy/m10177.000.0000/"
+        ]
+    },
+    {
+        "uri": "https://www.panzeri.it/prodotti/design/indoor/evy/",
+        "model": "EVY",
+        "projects": [
+            "http://www.panzeri.it//media/FFS/FH-ely_emy_evy_01.jpg",
+            "http://www.panzeri.it//media/FFS/FH-ely_emy_evy_02.jpg",
+            "http://www.panzeri.it//media/FFS/FH-ely_emy_evy_03.jpg",
+            "http://www.panzeri.it//media/FFS/FH-ely_emy_evy_04.jpg"
+        ],
+        "link_varianti": [
+            "https://www.panzeri.it/prodotti/design/indoor/evy/l10272.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/evy/l10273.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/evy/l10274.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/evy/l10275.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/evy/l10276.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/evy/l10277.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/evy/m10272.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/evy/m10273.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/evy/m10274.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/evy/m10275.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/evy/m10276.000.0000/",
+            "https://www.panzeri.it/prodotti/design/indoor/evy/m10277.000.0000/"
+        ]
+    },
+    {
+        "uri": "https://www.panzeri.it/prodotti/design/indoor/firefly in the sky/",
+        "model": "FIREFLY IN THE SKY",
+        "projects": [
+            "http://www.panzeri.it//media/FFS/FH-fireflyits_01.jpg",
+            "http://www.panzeri.it//media/FFS/FH-fireflyits_02.jpg",
+            "http://www.panzeri.it//media/FFS/FH-fireflyits_03.jpg",
+            "http://www.panzeri.it//media/FFS/FH-fireflyits_04.jpg",
+            "http://www.panzeri.it//media/FFS/FH-fireflyits_05.jpg",
+            "http://www.panzeri.it//media/FFS/FH-fireflyits_06.jpg"
+        ],
+        "link_varianti": [
+            "https://www.panzeri.it/prodotti/design/indoor/firefly%20in%20the%20sky/c07801.011.0214/",
+            "https://www.panzeri.it/prodotti/design/indoor/firefly%20in%20the%20sky/c07805.011.0214/",
+            "https://www.panzeri.it/prodotti/design/indoor/firefly%20in%20the%20sky/c07806.011.0214/",
+            "https://www.panzeri.it/prodotti/design/indoor/firefly%20in%20the%20sky/c07817.011.0214/",
+            "https://www.panzeri.it/prodotti/design/indoor/firefly%20in%20the%20sky/c07830.011.0214/",
+            "https://www.panzeri.it/prodotti/design/indoor/firefly%20in%20the%20sky/zc07805.011.0214/",
+            "https://www.panzeri.it/prodotti/design/indoor/firefly%20in%20the%20sky/zc07817.011.0214/",
+            "https://www.panzeri.it/prodotti/design/indoor/firefly%20in%20the%20sky/zc07830.011.0214/"
+        ]
+    },
+    {
+        "uri": "https://www.panzeri.it/prodotti/design/indoor/line/",
+        "model": "LINE",
+        "projects": [
+            "http://www.panzeri.it//media/FFS/Line-1.jpg",
+            "http://www.panzeri.it//media/FFS/Line-3.jpg",
+            "http://www.panzeri.it//media/FFS/Line-4.jpg"
+        ],
+        "link_varianti": [
+            "https://www.panzeri.it/prodotti/design/indoor/line/t03601.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/line/t03602.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/line/t03619.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/line/t03621.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/line/t03630.000.0101/",
+            "https://www.panzeri.it/prodotti/design/indoor/line/l03601.000.0100/",
+            "https://www.panzeri.it/prodotti/design/indoor/line/l03602.000.0100/",
+            "https://www.panzeri.it/prodotti/design/indoor/line/l03619.000.0100/",
+            "https://www.panzeri.it/prodotti/design/indoor/line/l03621.000.0100/",
+            "https://www.panzeri.it/prodotti/design/indoor/line/l03630.000.0100/"
+        ]
+    },
+    {
+        "uri": "https://www.panzeri.it/prodotti/design/indoor/olivia/",
+        "model": "OLIVIA",
+        "projects": [
+            "http://www.panzeri.it//media/FFS/Panzeri - Emma Clio Olivia (1).jpg",
+            "http://www.panzeri.it//media/FFS/Panzeri - Emma Clio Olivia (3).jpg",
+            "http://www.panzeri.it//media/FFS/Panzeri - Emma Clio Olivia (2).jpg",
+            "http://www.panzeri.it//media/FFS/clio_slider_01_new.jpg",
+            "http://www.panzeri.it//media/FFS/clio_slider_02_new.jpg",
+            "http://www.panzeri.it//media/FFS/clio_slider_03_new.jpg",
+            "http://www.panzeri.it//media/FFS/Panzeri - Emma Clio Olivia (4).jpg"
+        ],
+        "link_varianti": [
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09751.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09752.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09753.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09754.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09755.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09756.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09757.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09771.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09772.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09773.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09774.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09775.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09776.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/l09777.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09751.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09752.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09753.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09754.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09755.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09756.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09757.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09771.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09772.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09773.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09774.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09775.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09776.000.0200/",
+            "https://www.panzeri.it/prodotti/design/indoor/olivia/m09777.000.0200/"
+        ]
+    },
+    {
+        "uri": "https://www.panzeri.it/prodotti/design/indoor/tubino/",
+        "model": "TUBINO",
+        "projects": [
+            "http://www.panzeri.it//media/FFS/FH-tubino_01.jpg",
+            "http://www.panzeri.it//media/FFS/FH-tubino_02.jpg",
+            "http://www.panzeri.it//media/FFS/FH-tubino_03.jpg",
+            "http://www.panzeri.it//media/FFS/FH-tubino_04.jpg",
+            "http://www.panzeri.it//media/FFS/FH-tubino_05.jpg",
+            "http://www.panzeri.it//media/FFS/FH-tubino_06.jpg",
+            "http://www.panzeri.it//media/FFS/FH-tubino_07.jpg"
+        ],
+        "link_varianti": [
+            "https://www.panzeri.it/prodotti/design/indoor/tubino/t07301.002.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/tubino/t07306.002.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/tubino/c07301.001.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/tubino/c07306.001.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/tubino/a07301.001.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/tubino/a07305.001.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/tubino/a07306.001.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/tubino/a07317.001.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/tubino/a07330.001.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/tubino/x07301.001.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/tubino/x07305.001.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/tubino/x07306.001.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/tubino/x07317.001.0201/",
+            "https://www.panzeri.it/prodotti/design/indoor/tubino/x07330.001.0201/"
+        ]
+    },
+    {
+        "uri": "https://www.panzeri.it/prodotti/design/indoor/zero square/",
+        "model": "ZERO SQUARE",
+        "projects": [
+            "http://www.panzeri.it//media/FFS/FH-zero_square_01.jpg",
+            "http://www.panzeri.it//media/FFS/FH-zero_square_02.jpg",
+            "http://www.panzeri.it//media/FFS/FH-zero_square_04.jpg"
+        ],
+        "link_varianti": [
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20square/m03201.050.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20square/m03202.050.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20square/m03217.050.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20square/m03219.050.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20square/m03230.050.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20square/m03201.075.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20square/m03202.075.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20square/m03217.075.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20square/m03219.075.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20square/m03230.075.0210/"
+        ]
+    },
+    {
+        "uri": "https://www.panzeri.it/prodotti/design/indoor/zero round vertical/",
+        "model": "ZERO ROUND VERTICAL",
+        "projects": [
+            "http://www.panzeri.it//media/FFS/FH-zero_round_vertical_01.jpg",
+            "http://www.panzeri.it//media/FFS/FH-zero_round_vertical_02.jpg",
+            "http://www.panzeri.it//media/FFS/FH-zero_round_vertical_03.jpg"
+        ],
+        "link_varianti": [
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20round%20vertical/m03401.050.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20round%20vertical/m03402.050.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20round%20vertical/m03417.050.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20round%20vertical/m03419.050.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20round%20vertical/m03430.050.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20round%20vertical/m03401.075.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20round%20vertical/m03402.075.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20round%20vertical/m03417.075.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20round%20vertical/m03419.075.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20round%20vertical/m03430.075.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20round%20vertical/m03401.100.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20round%20vertical/m03402.100.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20round%20vertical/m03417.100.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20round%20vertical/m03419.100.0210/",
+            "https://www.panzeri.it/prodotti/design/indoor/zero%20round%20vertical/m03430.100.0210/"
         ]
     }
 ]

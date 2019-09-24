@@ -67,6 +67,7 @@ var arr_all_products = {
     44: {prod_page: "http://www.panzeri.it/prodotti/design/indoor/ginevra/", prod_pic: "http://www.panzeri.it/media/FP/FP-Ginevra.jpg"},
 
 
+
     //design/outdoor
     45: {prod_page: "http://www.panzeri.it/prodotti/design/outdoor/box/", prod_pic: "http://www.panzeri.it/media/FP/FP-Box-XQ144.jpg"},
     46: {prod_page: "http://www.panzeri.it/prodotti/design/outdoor/draco/", prod_pic: "http://www.panzeri.it/media/FP/FP-Draco.jpg"},
@@ -79,7 +80,7 @@ var arr_all_products = {
     51: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/broadway/", prod_pic: "http://www.panzeri.it/media/FP/FP-Broadway.jpg"},
     52: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/brooklyn/", prod_pic: "http://www.panzeri.it/media/FP/FP-Brooklyn.jpg"},
     53: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/brooklyn out/", prod_pic: "http://www.panzeri.it/media/FP/FP-Brooklyn_Out.jpg"},
-    54: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/brooklyn round/", prod_pic: "http://www.panzeri.it/media/FP/FP-Brooklyn_Round.jpg"},
+    54: {prod_page: "https://www.panzeri.it/prodotti/design/indoor/brooklyn round/", prod_pic: "http://www.panzeri.it/media/FP/FP-Brooklyn_Round.jpg"},
     55: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/brooklyn trim/", prod_pic: "http://www.panzeri.it/media/FP/FP-Brooklyn_Trim.jpg"},
     56: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/corner/", prod_pic: "http://www.panzeri.it/media/FP/FP-Corner.jpg"},
     57: {prod_page: "http://www.panzeri.it/prodotti/architectural/profili/giano/", prod_pic: "http://www.panzeri.it/media/FP/FP-Giano.jpg"},
@@ -108,29 +109,42 @@ var arr_all_products = {
 
 
     
-    77: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1032/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ1032.jpg"},
-    78: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1034/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ1034-1.jpg"},
-    79: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1210/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ1210.jpg"},
-    80: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1211/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ1211.jpg"},
-    81: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgr0997/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGR0997.jpg"},
-    82: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgr1020/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGR1020.jpg"},
-    83: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgr1021/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGR1021.jpg"},
-    84: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgr1023/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGR1023.jpg"},
-    85: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgr1024/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGR1024.jpg"},
-    86: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgr1027/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGR1027.jpg"},
-    87: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xsv2008/", prod_pic: "http://www.panzeri.it/media/FP/FP-XSV2008.jpg"},
-    88: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/queens in 60/", prod_pic: "http://www.panzeri.it/media/FP/FP-Queens_In-XR262.jpg"},
-    89: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/queens in 50 ip65/", prod_pic: "http://www.panzeri.it/media/FP/FP-queens_in_50_ip65.jpg"},
-    90: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/queens in 40/", prod_pic: "http://www.panzeri.it/media/FP/FP-queens_in_40.jpg"},
+    76: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1032/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ1032.jpg"},
+    77: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1034/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ1034-1.jpg"},
+    78: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1210/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ1210.jpg"},
+    79: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgq1211/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGQ1211.jpg"},
+    80: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgr0997/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGR0997.jpg"},
+    81: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgr1020/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGR1020.jpg"},
+    82: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgr1021/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGR1021.jpg"},
+    83: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgr1023/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGR1023.jpg"},
+    84: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgr1024/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGR1024.jpg"},
+    85: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xgr1027/", prod_pic: "http://www.panzeri.it/media/FP/FP-XGR1027.jpg"},
+    86: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/xsv2008/", prod_pic: "http://www.panzeri.it/media/FP/FP-XSV2008.jpg"},
+    87: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/queens in 60/", prod_pic: "http://www.panzeri.it/media/FP/FP-Queens_In-XR262.jpg"},
+    88: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/queens in 50 ip65/", prod_pic: "http://www.panzeri.it/media/FP/FP-queens_in_50_ip65.jpg"},
+    89: {prod_page: "http://www.panzeri.it/prodotti/architectural/incassi/queens in 40/", prod_pic: "http://www.panzeri.it/media/FP/FP-queens_in_40.jpg"},
 
         // architectural/spotlight
-    91: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/brooklyn spot/", prod_pic: "http://www.panzeri.it/media/FP/FP-Brooklyn_Spot_XM.jpg"},
-    92: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/queens mini/", prod_pic: "http://www.panzeri.it/media/FP/FP-Queens_Mini-XM748-12.jpg"},
-    93: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/queens spot/", prod_pic: "http://www.panzeri.it/media/FP/FP-Queens_Spot-XM742-19.jpg"},
-    94: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/queens compact/", prod_pic: "http://www.panzeri.it/media/FP/FP-Queens_Compact-XM751.jpg"},
-    95: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/soho spot micro/", prod_pic: "http://www.panzeri.it/media/FP/FP-soho_spot_micro.jpg"},
-    96: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/soho spot micro low/", prod_pic: "http://www.panzeri.it/media/FP/FP-soho_spot_micro_low.jpg"},
-    97: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/soho spot nano/", prod_pic: "http://www.panzeri.it/media/FP/FP-soho_spot_nano.jpg"},
+    90: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/brooklyn spot/", prod_pic: "http://www.panzeri.it/media/FP/FP-Brooklyn_Spot_XM.jpg"},
+    91: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/queens mini/", prod_pic: "http://www.panzeri.it/media/FP/FP-Queens_Mini-XM748-12.jpg"},
+    92: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/queens spot/", prod_pic: "http://www.panzeri.it/media/FP/FP-Queens_Spot-XM742-19.jpg"},
+    93: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/queens compact/", prod_pic: "http://www.panzeri.it/media/FP/FP-Queens_Compact-XM751.jpg"},
+    94: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/soho spot micro/", prod_pic: "http://www.panzeri.it/media/FP/FP-soho_spot_micro.jpg"},
+    95: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/soho spot micro low/", prod_pic: "http://www.panzeri.it/media/FP/FP-soho_spot_micro_low.jpg"},
+    96: {prod_page: "http://www.panzeri.it/prodotti/architectural/spotlight/soho spot nano/", prod_pic: "http://www.panzeri.it/media/FP/FP-soho_spot_nano.jpg"},
+
+
+    // design/indoor aggiunti sul sito nell'estetate 2019
+    97: {prod_page: "https://www.panzeri.it/prodotti/design/indoor/bella/", prod_pic: "http://www.panzeri.it/media/FP/FP-bella.jpg"},
+    98: {prod_page: "https://www.panzeri.it/prodotti/design/indoor/ely/", prod_pic: "http://www.panzeri.it/media/FP/FP-ely.jpg"},
+    99: {prod_page: "https://www.panzeri.it/prodotti/design/indoor/emy/", prod_pic: "http://www.panzeri.it/media/FP/FP-emy.jpg"},
+    100: {prod_page: "https://www.panzeri.it/prodotti/design/indoor/evy/", prod_pic: "http://www.panzeri.it/media/FP/FP-evy.jpg"},
+    101: {prod_page: "https://www.panzeri.it/prodotti/design/indoor/firefly in the sky/", prod_pic: "http://www.panzeri.it/media/FP/FP-firefly.jpg"},
+    102: {prod_page: "https://www.panzeri.it/prodotti/design/indoor/line/", prod_pic: "http://www.panzeri.it/media/FP/FP-line.jpg"},
+    103: {prod_page: "https://www.panzeri.it/prodotti/design/indoor/olivia/", prod_pic: "http://www.panzeri.it/media/FP/FP-olivia.jpg"},
+    104: {prod_page: "https://www.panzeri.it/prodotti/design/indoor/tubino/", prod_pic: "http://www.panzeri.it/media/FP/FP-tubino.jpg"},
+    105: {prod_page: "https://www.panzeri.it/prodotti/design/indoor/zero square/", prod_pic: "http://www.panzeri.it/media/FP/FP-zero_square.jpg"},
+    106: {prod_page: "https://www.panzeri.it/prodotti/design/indoor/zero round vertical/", prod_pic: "http://www.panzeri.it/media/FP/FP-zero_round_vertical.jpg"},
 }
     
 
@@ -164,7 +178,7 @@ var pages_number = _.keys(arr_all_products).length;
 
 
 
-var index = 0;
+var index = 76;
 
 
 

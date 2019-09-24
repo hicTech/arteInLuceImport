@@ -1,3 +1,0 @@
-16:25:07: PROCESSO: ../xls/flos
-16:27:02: PROCESSO: ../xls/flos
-17:19:06: PROCESSO: ../xls/flos

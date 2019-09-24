@@ -1,7 +1,0 @@
-17:19:19: PROCESSO: ../xls/panzeri
-17:27:57: PROCESSO: ../xls/panzeri
-17:29:18: PROCESSO: ../xls/panzeri
-17:35:03: PROCESSO: ../xls/panzeri
-17:38:34: PROCESSO: ../xls/panzeri
-17:40:50: PROCESSO: ../xls/panzeri
-17:42:13: PROCESSO: ../xls/panzeri
