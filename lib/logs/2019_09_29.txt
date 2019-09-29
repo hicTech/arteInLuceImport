@@ -1,0 +1,3 @@
+09:39:56: PROCESSO: ../xls/foscarini
+09:39:57: PROCESSO: ../xls/vistosi
+09:40:05: PROCESSO: ../xls/panzeri
