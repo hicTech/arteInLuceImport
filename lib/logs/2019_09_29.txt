@@ -1,3 +1,95 @@
 09:39:56: PROCESSO: ../xls/foscarini
 09:39:57: PROCESSO: ../xls/vistosi
 09:40:05: PROCESSO: ../xls/panzeri
+15:39:51: PROCESSO: ../xls/panzeri
+19:40:06: processo: https://www.luceplan.com/it/prodotti/agave-sospensione mancano: 95
+19:40:07: processo: https://www.luceplan.com/it/prodotti/aircon-sospensione mancano: 94
+19:40:08: processo: https://www.luceplan.com/it/prodotti/any-parete mancano: 93
+19:40:09: processo: https://www.luceplan.com/it/prodotti/ascent-tavolo mancano: 92
+19:40:10: processo: https://www.luceplan.com/it/prodotti/bap-led-tavolo mancano: 91
+19:40:11: processo: https://www.luceplan.com/it/prodotti/bap-led-parete mancano: 90
+19:40:12: processo: https://www.luceplan.com/it/prodotti/berenice-terra mancano: 89
+19:40:13: processo: https://www.luceplan.com/it/prodotti/berenice-led-tavolo mancano: 88
+19:40:14: processo: https://www.luceplan.com/it/prodotti/berenice-tavolo mancano: 87
+19:40:15: processo: https://www.luceplan.com/it/prodotti/berenice-parete mancano: 86
+19:44:11: processo: https://www.luceplan.com/it/prodotti/agave-sospensione mancano: 95
+19:44:20: [object Object]
+19:44:20: processo: https://www.luceplan.com/it/prodotti/aircon-sospensione mancano: 94
+19:44:28: [object Object]
+19:44:28: processo: https://www.luceplan.com/it/prodotti/any-parete mancano: 93
+19:44:36: [object Object]
+19:44:36: processo: https://www.luceplan.com/it/prodotti/ascent-tavolo mancano: 92
+19:44:46: [object Object]
+19:44:46: processo: https://www.luceplan.com/it/prodotti/bap-led-tavolo mancano: 91
+19:44:54: [object Object]
+19:44:54: processo: https://www.luceplan.com/it/prodotti/bap-led-parete mancano: 90
+19:45:02: [object Object]
+19:45:02: processo: https://www.luceplan.com/it/prodotti/berenice-terra mancano: 89
+19:45:09: [object Object]
+19:45:10: processo: https://www.luceplan.com/it/prodotti/berenice-led-tavolo mancano: 88
+19:45:11: []
+19:45:17: processo: https://www.luceplan.com/it/prodotti/agave-sospensione mancano: 95
+19:45:24: [object Object]
+19:45:24: processo: https://www.luceplan.com/it/prodotti/aircon-sospensione mancano: 94
+19:45:30: [object Object]
+19:45:30: processo: https://www.luceplan.com/it/prodotti/any-parete mancano: 93
+19:45:36: [object Object]
+19:45:36: processo: https://www.luceplan.com/it/prodotti/ascent-tavolo mancano: 92
+19:45:44: [object Object]
+19:45:44: processo: https://www.luceplan.com/it/prodotti/bap-led-tavolo mancano: 91
+19:45:49: [object Object]
+19:45:49: processo: https://www.luceplan.com/it/prodotti/bap-led-parete mancano: 90
+19:45:55: [object Object]
+19:45:55: processo: https://www.luceplan.com/it/prodotti/berenice-terra mancano: 89
+19:46:00: [object Object]
+19:46:01: processo: https://www.luceplan.com/it/prodotti/berenice-led-tavolo mancano: 88
+19:46:06: [object Object]
+19:46:06: processo: https://www.luceplan.com/it/prodotti/berenice-tavolo mancano: 87
+19:46:12: [object Object]
+19:46:13: processo: https://www.luceplan.com/it/prodotti/berenice-parete mancano: 86
+19:46:17: []
+19:46:18: [object Object]
+19:46:18: processo: https://www.luceplan.com/it/prodotti/blow-soffitto mancano: 85
+19:46:23: [object Object]
+19:46:23: processo: https://www.luceplan.com/it/prodotti/cappuccina-tavolo mancano: 84
+19:46:28: [object Object]
+19:46:28: processo: https://www.luceplan.com/it/prodotti/cappuccina-sospensione mancano: 83
+19:46:34: [object Object]
+19:46:34: processo: https://www.luceplan.com/it/prodotti/cappuccina-terra mancano: 82
+19:46:39: [object Object]
+19:46:39: processo: https://www.luceplan.com/it/prodotti/carrara-terra mancano: 81
+19:46:46: [object Object]
+19:46:46: processo: https://www.luceplan.com/it/prodotti/chichibio-terra mancano: 80
+19:46:53: [object Object]
+19:46:53: processo: https://www.luceplan.com/it/prodotti/compendium-terra mancano: 79
+19:47:00: [object Object]
+19:47:00: processo: https://www.luceplan.com/it/prodotti/compendium-sospensione mancano: 78
+19:47:07: [object Object]
+19:47:07: processo: https://www.luceplan.com/it/prodotti/compendium-circle-sospensione mancano: 77
+19:47:15: [object Object]
+19:47:15: processo: https://www.luceplan.com/it/prodotti/compendium-plate-parete mancano: 76
+19:47:17: []
+19:47:22: [object Object]
+19:47:22: processo: https://www.luceplan.com/it/prodotti/costanza-parete mancano: 75
+19:47:29: [object Object]
+19:47:29: processo: https://www.luceplan.com/it/prodotti/costanza-led-tavolo mancano: 74
+19:47:37: [object Object]
+19:47:37: processo: https://www.luceplan.com/it/prodotti/costanza-led-terra mancano: 73
+19:47:43: [object Object]
+19:47:43: processo: https://www.luceplan.com/it/prodotti/costanza-tavolo mancano: 72
+19:47:52: [object Object]
+19:47:52: processo: https://www.luceplan.com/it/prodotti/costanza-sospensione mancano: 71
+19:48:00: [object Object]
+19:48:00: processo: https://www.luceplan.com/it/prodotti/costanza-fiends-of-hue-terra mancano: 70
+19:48:06: [object Object]
+19:48:06: processo: https://www.luceplan.com/it/prodotti/costanza-terra mancano: 69
+19:48:19: processo: https://www.luceplan.com/it/prodotti/agave-sospensione mancano: 95
+19:48:44: processo: https://www.luceplan.com/it/prodotti/agave-sospensione mancano: 95
+19:48:52: Agave
+19:48:52: processo: https://www.luceplan.com/it/prodotti/aircon-sospensione mancano: 94
+19:49:00: Aircon
+19:49:00: processo: https://www.luceplan.com/it/prodotti/any-parete mancano: 93
+19:49:09: Any
+19:49:09: processo: https://www.luceplan.com/it/prodotti/ascent-tavolo mancano: 92
+20:03:12: processo: https://www.luceplan.com/it/prodotti/agave-sospensione mancano: 95
+20:03:21: processo: https://www.luceplan.com/it/prodotti/aircon-sospensione mancano: 94
