@@ -1821,6 +1821,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 supplier_id = supplierId(supplier);
                 model = getModel(row["Descrizione"]);
                 original_model_id = row["Codice articolo"];
+
+                variante = ( _.is(row["Variante"]))? ( row["Variante"].length != 0)? row["Variante"] : undefined : undefined;
+                dimensioni = ( _.is(row["Dimensioni"]))? ( row["Dimensioni"].length != 0)? row["Dimensioni"] : undefined : undefined;
                 
                 combination_id = row["Codice articolo"];
                 model_id = modelId(model);
@@ -1831,14 +1834,14 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 quantity = 0;
                 delivery_time = "2-3 gg Italy, 5-6 days UE";
                 delivery_time_if_not_available = "Su ordinazione in 2-3 settimane";
-                color = getColor(row["Descrizione"]);
+                color = S(row["Colore"]).replaceAll("/",",").s; // prima che Monica introducesse la colonna "Colore" a mano ott.2019 getColor(row["Descrizione"]);
                 
                 dimmer = undefined;
-                led = hasLed(row["Descrizione"]);
+                led = row["Led"]; // prima che Monica introducesse la colonna "Led" a mano ott.2019 hasLed(row["Descrizione"]);
                 halogen = hasHalogen(row["Descrizione"]);
-                screw = getScrew(row["Descrizione"]);
+                screw = row["Attacco"]; // prima che Monica introducesse la colonna "Attacco" a mano ott.2019 getScrew(row["Descrizione"]);
                 switcher = undefined;
-                category = getCategory(row["Descrizione"]);
+                category = [row["Categoria"].toLowerCase()]; // prima che Monica introducesse la colonna "Categoria" a mano ott.2019  getCategory(row["Descrizione"]);
                 var clone = category.slice();
                 
                 type = getType(original_model_id);
@@ -1857,7 +1860,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 light_schema = getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "light_schema");
                 title = _.capitalize( getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "title") );
                 
-                subtitle = getSubtitle(title, category, component);
+                subtitle = row["Categoria"].toLowerCase() +" - Vistosi";// prima che Monica introducesse la colonna "Categoria" a mano ott.2019 getSubtitle(title, category, component);
                 
                 
                 desc_it = getDescription( row["Descrizione"], model,clone,component,assets_json);
@@ -1893,7 +1896,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 combination_images =        getCombinationImages(pic, null, light_schema, component, "img");
                 combination_images_alt =    getCombinationImages(pic, null, light_schema, component, "alt");
 
-                model_variant = title;
+                model_variant = variante; // prima che monica specificasse le Varianti a mano ott.2019 title;
                 title = model;
 
                 function getSubtitle(title, category, component){
@@ -4254,7 +4257,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         var hasAsset = undefined;
                         var famiglia = row["Famiglia"];
                         variante = ( _.is(row["Variante"]))? ( row["Variante"].length != 0)? row["Variante"] : undefined : undefined;
-                        
                         dimensioni = ( _.is(row["Dimensioni"]))? ( row["Dimensioni"].length != 0)? row["Dimensioni"] : undefined : undefined;
                         
                         supplier = "panzeri";
@@ -4513,6 +4515,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         
 
                     }
+                    
                 }
                 
             }
@@ -4543,9 +4546,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             supplier:               supplier,                                                       // nome del fornitore
             brand:                  supplier,                                                       // nome della marca
             supplier_id :           supplier_id,                                                    // identificativo del fonitore
-            model:                  (_.is(model))? model.toLowerCase() : undefined,                 // modello/famiglia dell'articolo
+            model:                  (_.is(model))? _.capitalize(model.toLowerCase()) : undefined,                 // modello/famiglia dell'articolo
             title:                  title,                                                          // se possibile ricostruiamo un title da mettere nella pagina dell'articolo
-            subtitle:               subtitle,                                                       // se possibile ricostruiamo un sottotitolo da mettere bella pagina dell'articolo
+            subtitle:               "<div>"+subtitle+"</div>",                                      // se possibile ricostruiamo un sottotitolo da mettere bella pagina dell'articolo sett.2019: aggiungo <div></div> per quel problema che al salvataggio eliminava il riepilogo dalla scheda prodotto
             original_model_id:      original_model_id,                                              // id originario (NON MANIPOLATO) dell'articolo
             model_id:               model_id,                                                       // identificativo della famiglia di articolo ottenuto con replace(" ","_");
             original_model:         original_model,                                                 // mi è servito solo per FOSCARINI
@@ -4562,8 +4565,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             
 
             /* siccome dimmee, led e halogen per PANZERI sono colonne inserite a mano da Monica ho dovuto fare un distinguo */
+            /* anche VISTOSI ha il led inserito a mano da Monica */
             dimmer:                 ( supplier=="panzeri" && !_.is(dimmer) )? undefined : (supplier == "panzeri" && _.is(dimmer))? dimmer.toLowerCase() : (dimmer==0 || dimmer == undefined)? "no" : "yes",
-            led:                    ( supplier=="panzeri" && !_.is(led) )? undefined : (supplier == "panzeri" && _.is(led))? led.toLowerCase() : (led==0 || led == undefined)? "no" : "yes",
+            led:                    ( (supplier=="panzeri" || supplier=="vistosi") && !_.is(led) )? undefined : ( (supplier=="panzeri" || supplier=="vistosi") && _.is(led))? led.toLowerCase() : (led==0 || led == undefined)? "no" : "yes",
             halogen:                ( supplier=="panzeri" && !_.is(halogen) )? undefined : (supplier == "panzeri" && _.is(halogen))? halogen.toLowerCase() : (halogen==0 || halogen == undefined)? "no" : "yes",                                      
             
 
@@ -5404,9 +5408,7 @@ function postProduci(json,fornitore){
         });
 
         
-        // 359 prodotti - 5791 varianti
-        // 301 prodotti - 5499 varianti
-        
+       
         
         
 
