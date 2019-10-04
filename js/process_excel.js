@@ -1874,6 +1874,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                 //otherColors = getOtherPics(model, size, category, type, color, more);
                 more = { 
                     supplier: "vistosi",
+                    nome: _.capitalize( row["Nome"] ),
                     instruction : getLightSchemaOrName(row["Descrizione"], model, clone, type, assets_json,component, halogen, "download"),
                     product_page_link: link,
                 }
@@ -5416,17 +5417,22 @@ function postProduci(json,fornitore){
         // [1]
         // creo hicid è l'id del articolo primario che viene messo a tutte le sue varianti
         // l'articolo primario viene pompato in json_prodotti col price a zero
+        // nel ott. 2019 Monica ha introdotto la colonna "Nome" che specifica appunto il nome dell'articolo
+        // per il quale dobbiamo aggregare i prodotti e poi calcolare le varianti per ognuno di essi
+        // quindi aggreghiamo per elem.more.nome
         var registro = {};
         
         _.each(json, function(elem,index){
-            if( !_.is(registro[elem.model]) ){
-                registro[elem.model] = elem.hicId;
+            
+            if( !_.is(registro[elem.more.nome]) ){
+                registro[elem.more.nome] = elem.hicId;
                 var new_elem = Object.assign({}, elem);
                 new_elem.price = 0;
+                new_elem.title = elem.more.nome;
                 json_prodotti.push(new_elem);
             }
             else{
-                elem.hicId = registro[elem.model];
+                elem.hicId = registro[elem.more.nome];
             }
             
         });
@@ -5450,7 +5456,7 @@ function postProduci(json,fornitore){
             }
             _.each(json,function(row){
                 
-                if(key == row.model){
+                if(key == row.more.nome){
                     model_info.model_variant.push(row.model_variant);
                     model_info.color.push(row.color);
                     model_info.dimmer.push(row.dimmer);
@@ -5491,7 +5497,7 @@ function postProduci(json,fornitore){
 
         // aggiungo features e attributi
         _.each(json,function(row){
-            var model = row.model;
+            var model = row.more.nome;
             _.each(registro_attributi_fatures,function(elem,key){
                 if(key == model){
                     row["features"] = inlineCSVFeaturesVistosi(elem.features);
