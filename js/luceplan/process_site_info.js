@@ -804,25 +804,7 @@ var arr_all_products =[
   ]
 
 
-var arr_all_products = [
-    
-    {
-        "name": "Agave",
-        "category": [
-          "Sospensione"
-        ],
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/agave_lamp_suspension_product_cover.jpg/51b0a6537ed798f915a0cb1c91be332e.jpg",
-        "prod_page": "https://www.luceplan.com/it/prodotti/agave-sospensione"
-      },
-      {
-        "name": "Aircon",
-        "category": [
-          "Sospensione"
-        ],
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/aircon_lamp_suspension_producthome.jpg/b52f49b714c62b0aa7c932d4386a6896.jpg",
-        "prod_page": "https://www.luceplan.com/it/prodotti/aircon-sospensione"
-      },
-]
+
 
 
 var pages_number = arr_all_products.length;
@@ -882,7 +864,7 @@ function createJsonFromAPage(body, uri, model){
         let preloaded_bodyHTML = await page.evaluate(() => document.body.innerHTML);
 
         // aspetto comunque 2 secondi per accertarmi che ogni elemento della pagina sia scaricato e renderizzato
-        await page.waitFor(2000);
+        await page.waitFor(3000);
         
         var projects_link_length = $(preloaded_bodyHTML).find(".recent-item.g4.item-caption").length;
 
@@ -895,26 +877,33 @@ function createJsonFromAPage(body, uri, model){
                 const browser2 = await puppeteer.launch();
                 const page2 = await browser2.newPage();
                 const single_project_url = "https://www.luceplan.com"+$(preloaded_bodyHTML).find(".recent-item.g4.item-caption a").eq(j-1).attr("href");
+
                 
                 await page2.goto(single_project_url);
-                await page2.waitFor(2000);
+                await page2.waitFor(3000);
                 let single_project_page = await page2.evaluate(() => document.body.innerHTML);
 
-                await page2.waitFor(4000);
+                await page2.waitFor(3000);
                 $(single_project_page).find(".flickity-button.flickity-prev-next-button.next").trigger("click");
-                await page2.waitFor(4000);
+                await page2.waitFor(3000);
                 $(single_project_page).find(".flickity-button.flickity-prev-next-button.next").trigger("click");
-                await page2.waitFor(4000);
+                await page2.waitFor(3000);
                 $(single_project_page).find(".flickity-button.flickity-prev-next-button.next").trigger("click");
-                await page2.waitFor(4000);
+                await page2.waitFor(3000);
                 $(single_project_page).find(".flickity-button.flickity-prev-next-button.next").trigger("click");
-                await page2.waitFor(4000);
+                await page2.waitFor(3000);
                 $(single_project_page).find(".flickity-button.flickity-prev-next-button.next").trigger("click");
-                await page2.waitFor(4000);
+                await page2.waitFor(3000);
+                $(single_project_page).find(".flickity-button.flickity-prev-next-button.next").trigger("click");
+                await page2.waitFor(3000);
+                $(single_project_page).find(".flickity-button.flickity-prev-next-button.next").trigger("click");
+                await page2.waitFor(3000);
+                $(single_project_page).find(".flickity-button.flickity-prev-next-button.next").trigger("click");
+                await page2.waitFor(3000);
                 $(single_project_page).find(".flickity-button.flickity-prev-next-button.next").trigger("click");
 
                 
-                
+                single_project_page = await page2.evaluate(() => document.body.innerHTML);
 
                 
 
