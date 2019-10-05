@@ -804,6 +804,26 @@ var arr_all_products =[
   ]
 
 
+var arr_all_products =[
+    {
+      "name": "Agave",
+      "category": [
+        "Sospensione"
+      ],
+      "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/agave_lamp_suspension_product_cover.jpg/51b0a6537ed798f915a0cb1c91be332e.jpg",
+      "prod_page": "https://www.luceplan.com/it/prodotti/agave-sospensione"
+    },
+    {
+      "name": "Aircon",
+      "category": [
+        "Sospensione"
+      ],
+      "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/aircon_lamp_suspension_producthome.jpg/b52f49b714c62b0aa7c932d4386a6896.jpg",
+      "prod_page": "https://www.luceplan.com/it/prodotti/aircon-sospensione"
+    }
+  ]
+
+
 
 
 
@@ -870,6 +890,8 @@ function createJsonFromAPage(body, uri, model){
 
         var projects_url = [];
 
+
+        
         apriPaginaProject(projects_link_length);
 
         async function apriPaginaProject(j){
@@ -904,20 +926,28 @@ function createJsonFromAPage(body, uri, model){
 
                 
                 single_project_page = await page2.evaluate(() => document.body.innerHTML);
-
+                
                 
 
                 $(single_project_page).find(".carousel-cell").each(function(){
-                    _.log("https://www.luceplan.com"+$(this).find("img").attr("src"))
+                  projects_url.push( "https://www.luceplan.com"+$(this).find("img").attr("src") );
                 })
                 
 
                 projects_link_length--;
-                apriPaginaProject(projects_link_length)
+                apriPaginaProject(projects_link_length);
                 await browser2.close();
                 
             }
             else{
+
+                 arr_single_product.push({
+                    uri: uri,
+                    model: model,
+                    projects : projects_url,
+                    
+                })
+
                 await browser.close();
                 index++;
                 avvia(index);
@@ -956,12 +986,7 @@ function createJsonFromAPage(body, uri, model){
 
 
 
-        arr_single_product.push({
-            uri: uri,
-            model: model,
-            projects : projects,
-            link_varianti: link_varianti,
-        })
+       
         
         */
         
