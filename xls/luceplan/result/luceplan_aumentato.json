@@ -1,0 +1,5114 @@
+[
+    {
+        "Prezzo": "44.26",
+        "Articolo": "1D120/4/1503",
+        "Descrizione": "BERENICE n°1 riflettore vetro",
+        "Gruppo": "D12",
+        "Modello": "D12/4/1",
+        "Colore": "bianco",
+        "Barcode": "8056304362964"
+    },
+    {
+        "Prezzo": "44.26",
+        "Articolo": "1D120/4/1524",
+        "Descrizione": "BERENICE n°1 riflettore vetro",
+        "Gruppo": "D12",
+        "Modello": "D12/4/1",
+        "Colore": "rosa",
+        "Barcode": "8056304362971"
+    },
+    {
+        "Prezzo": "44.26",
+        "Articolo": "1D120/4/1527",
+        "Descrizione": "BERENICE n°1 riflettore vetro",
+        "Gruppo": "D12",
+        "Modello": "D12/4/1",
+        "Colore": "giallo",
+        "Barcode": "8056304362988"
+    },
+    {
+        "Prezzo": "44.26",
+        "Articolo": "1D120/4/1537",
+        "Descrizione": "BERENICE n°1 riflettore vetro",
+        "Gruppo": "D12",
+        "Modello": "D12/4/1",
+        "Colore": "vsalvi",
+        "Barcode": "8056304362995"
+    },
+    {
+        "Prezzo": "31.15",
+        "Articolo": "1D120/5/1501",
+        "Descrizione": "BERENICE n°1 riflettore metall",
+        "Gruppo": "D12",
+        "Modello": "D12/5/1",
+        "Colore": "nero",
+        "Barcode": "8033433844400"
+    },
+    {
+        "Prezzo": "31.15",
+        "Articolo": "1D120/5/1520",
+        "Descrizione": "BERENICE n°1 riflettore metall",
+        "Gruppo": "D12",
+        "Modello": "D12/5/1",
+        "Colore": "alu",
+        "Barcode": "8033433844417"
+    },
+    {
+        "Prezzo": "31.15",
+        "Articolo": "1D120/5/1530",
+        "Descrizione": "BERENICE n°1 riflettore metall",
+        "Gruppo": "D12",
+        "Modello": "D12/5/1",
+        "Colore": "brass",
+        "Barcode": "8056304363008"
+    },
+    {
+        "Prezzo": "287.70",
+        "Articolo": "1D120=00E001",
+        "Descrizione": "BERENICE TAV.sl/str.elettron.",
+        "Gruppo": "D12",
+        "Modello": "D12EL",
+        "Colore": "nero",
+        "Barcode": "8032706713498"
+    },
+    {
+        "Prezzo": "287.70",
+        "Articolo": "1D120=00E020",
+        "Descrizione": "BERENICE TAV.sl/str.elettron.",
+        "Gruppo": "D12",
+        "Modello": "D12EL",
+        "Colore": "alu",
+        "Barcode": "8032706713504"
+    },
+    {
+        "Prezzo": "259.02",
+        "Articolo": "1D120=0PE001",
+        "Descrizione": "BEREN.perno tav.sl/str.elettr.",
+        "Gruppo": "D12",
+        "Modello": "D12ELpt",
+        "Colore": "nero",
+        "Barcode": "8032706713733"
+    },
+    {
+        "Prezzo": "259.02",
+        "Articolo": "1D120=0PE020",
+        "Descrizione": "BEREN.perno tav.sl/str.elettr.",
+        "Gruppo": "D12",
+        "Modello": "D12ELpt",
+        "Colore": "alu",
+        "Barcode": "8032706713740"
+    },
+    {
+        "Prezzo": "347.54",
+        "Articolo": "1D120=NCL001",
+        "Descrizione": "BEREN.TAV. LED 8W EU",
+        "Gruppo": "D12L",
+        "Modello": "D12LED",
+        "Colore": "nero",
+        "Barcode": "8033433844943"
+    },
+    {
+        "Prezzo": "347.54",
+        "Articolo": "1D120=NCL020",
+        "Descrizione": "BEREN.TAV. LED 8W EU",
+        "Gruppo": "D12L",
+        "Modello": "D12LED",
+        "Colore": "alu",
+        "Barcode": "8033433844950"
+    },
+    {
+        "Prezzo": "335.25",
+        "Articolo": "1D120=NPL001",
+        "Descrizione": "BEREN.PERNO TAV. LED 8W EU",
+        "Gruppo": "D12L",
+        "Modello": "D12ptLED",
+        "Colore": "nero",
+        "Barcode": "8033433846466"
+    },
+    {
+        "Prezzo": "335.25",
+        "Articolo": "1D120=NPL020",
+        "Descrizione": "BEREN.PERNO TAV. LED 8W EU",
+        "Gruppo": "D12L",
+        "Modello": "D12ptLED",
+        "Colore": "alu",
+        "Barcode": "8033433846473"
+    },
+    {
+        "Prezzo": "273.77",
+        "Articolo": "1D120=P0E001",
+        "Descrizione": "BERENICE PICC.sl/str.elettron.",
+        "Gruppo": "D12",
+        "Modello": "D12ELpi",
+        "Colore": "nero",
+        "Barcode": "8032706713443"
+    },
+    {
+        "Prezzo": "273.77",
+        "Articolo": "1D120=P0E020",
+        "Descrizione": "BERENICE PICC.sl/str.elettron.",
+        "Gruppo": "D12",
+        "Modello": "D12ELpi",
+        "Colore": "alu",
+        "Barcode": "8032706713450"
+    },
+    {
+        "Prezzo": "246.72",
+        "Articolo": "1D120A45E001",
+        "Descrizione": "BEREN. PAR.45+45 sl/str.elettr",
+        "Gruppo": "D12",
+        "Modello": "D12ELa45",
+        "Colore": "nero",
+        "Barcode": "8032706713535"
+    },
+    {
+        "Prezzo": "248.36",
+        "Articolo": "1D120A45E020",
+        "Descrizione": "BEREN. PAR.45+45 sl/str.elettr",
+        "Gruppo": "D12",
+        "Modello": "D12ELa45",
+        "Colore": "alu",
+        "Barcode": "8032706713542"
+    },
+    {
+        "Prezzo": "239.34",
+        "Articolo": "1D120AP0E001",
+        "Descrizione": "BEREN. PAR.30+30 sl/str.elettr",
+        "Gruppo": "D12",
+        "Modello": "D12ELapi",
+        "Colore": "nero",
+        "Barcode": "8032706713511"
+    },
+    {
+        "Prezzo": "241.80",
+        "Articolo": "1D120AP0E020",
+        "Descrizione": "BEREN. PAR.30+30 sl/str.elettr",
+        "Gruppo": "D12",
+        "Modello": "D12ELapi",
+        "Colore": "alu",
+        "Barcode": "8032706713528"
+    },
+    {
+        "Prezzo": "311.48",
+        "Articolo": "1D120T00E001",
+        "Descrizione": "BERENICE TERRA sl/str.elettron",
+        "Gruppo": "D12",
+        "Modello": "D12ELt",
+        "Colore": "nero",
+        "Barcode": "8032706713559"
+    },
+    {
+        "Prezzo": "312.30",
+        "Articolo": "1D120T00E020",
+        "Descrizione": "BERENICE TERRA sl/str.elettron",
+        "Gruppo": "D12",
+        "Modello": "D12ELt",
+        "Colore": "alu",
+        "Barcode": "8032706713566"
+    },
+    {
+        "Prezzo": "35.25",
+        "Articolo": "1D13=1P11N02",
+        "Descrizione": "COSTANZINA paralumi  4pz.",
+        "Gruppo": "D13P",
+        "Modello": "D13pi/1/4",
+        "Colore": "bianco",
+        "Barcode": "8033433848422"
+    },
+    {
+        "Prezzo": "169.67",
+        "Articolo": "1D13=NP00003",
+        "Descrizione": "COSTANZINA senza paralume",
+        "Gruppo": "D13P",
+        "Modello": "D13pi",
+        "Colore": "White",
+        "Barcode": "8051414541001"
+    },
+    {
+        "Prezzo": "145.08",
+        "Articolo": "1D13=NP00017",
+        "Descrizione": "COSTANZINA senza paralume",
+        "Gruppo": "D13P",
+        "Modello": "D13pi",
+        "Colore": "nero",
+        "Barcode": "8032706716086"
+    },
+    {
+        "Prezzo": "145.08",
+        "Articolo": "1D13=NP00020",
+        "Descrizione": "COSTANZINA senza paralume",
+        "Gruppo": "D13P",
+        "Modello": "D13pi",
+        "Colore": "alu",
+        "Barcode": "8032706716017"
+    },
+    {
+        "Prezzo": "212.30",
+        "Articolo": "1D13=NP00030",
+        "Descrizione": "COSTANZINA senza paralume",
+        "Gruppo": "D13P",
+        "Modello": "D13pi",
+        "Colore": "brass",
+        "Barcode": "8056304362582"
+    },
+    {
+        "Prezzo": "193.44",
+        "Articolo": "1D13=NPLC020",
+        "Descrizione": "COSTANZINA c/paral.bianco LED",
+        "Gruppo": "D13P",
+        "Modello": "D13pic.LED",
+        "Colore": "alu",
+        "Barcode": "8033433849900"
+    },
+    {
+        "Prezzo": "65.57",
+        "Articolo": "1D13001NT002",
+        "Descrizione": "COSTANZA paralumi  4pz.",
+        "Gruppo": "D13",
+        "Modello": "D13/1/4",
+        "Colore": "bianco",
+        "Barcode": "8033433848491"
+    },
+    {
+        "Prezzo": "143.44",
+        "Articolo": "1D13ANP00017",
+        "Descrizione": "COSTANZINA parete s/paralume",
+        "Gruppo": "D13P",
+        "Modello": "D13api",
+        "Colore": "nero",
+        "Barcode": "8032706716093"
+    },
+    {
+        "Prezzo": "143.44",
+        "Articolo": "1D13ANP00020",
+        "Descrizione": "COSTANZINA parete s/paralume",
+        "Gruppo": "D13P",
+        "Modello": "D13api",
+        "Colore": "alu",
+        "Barcode": "8032706716024"
+    },
+    {
+        "Prezzo": "232.79",
+        "Articolo": "1D13GE/01001",
+        "Descrizione": "COSTANZA Lady paralume",
+        "Gruppo": "D13E",
+        "Modello": "D13E/1",
+        "Colore": "nero",
+        "Barcode": "8033433841805"
+    },
+    {
+        "Prezzo": "140.98",
+        "Articolo": "1D13GE/01002",
+        "Descrizione": "COSTANZA Lady paralume",
+        "Gruppo": "D13E",
+        "Modello": "D13E/1",
+        "Colore": "bianco",
+        "Barcode": "8033433841782"
+    },
+    {
+        "Prezzo": "213.93",
+        "Articolo": "1D13GE/01008",
+        "Descrizione": "COSTANZA Lady paralume",
+        "Gruppo": "D13E",
+        "Modello": "D13E/1",
+        "Colore": "pr.red",
+        "Barcode": "8051414541032"
+    },
+    {
+        "Prezzo": "165.57",
+        "Articolo": "1D13GE/01039",
+        "Descrizione": "COSTANZA Lady paralume",
+        "Gruppo": "D13E",
+        "Modello": "D13E/1",
+        "Colore": "sh.stn",
+        "Barcode": "8056304360304"
+    },
+    {
+        "Prezzo": "930.33",
+        "Articolo": "1D13GED00017",
+        "Descrizione": "COSTANZA Lady 105W dimmer",
+        "Gruppo": "D13E",
+        "Modello": "D13E d.",
+        "Colore": "nero",
+        "Barcode": "8033433843076"
+    },
+    {
+        "Prezzo": "925.41",
+        "Articolo": "1D13GED00020",
+        "Descrizione": "COSTANZA Lady 105W dimmer",
+        "Gruppo": "D13E",
+        "Modello": "D13E d.",
+        "Colore": "alu",
+        "Barcode": "8033433841768"
+    },
+    {
+        "Prezzo": "774.59",
+        "Articolo": "1D13GEDA0020",
+        "Descrizione": "COSTANZA Lady par.105W dimmer",
+        "Gruppo": "D13E",
+        "Modello": "D13Ea d.",
+        "Colore": "alu",
+        "Barcode": "8033433843380"
+    },
+    {
+        "Prezzo": "898.36",
+        "Articolo": "1D13GEI00017",
+        "Descrizione": "COSTANZA Lady 250W on off",
+        "Gruppo": "D13E",
+        "Modello": "D13E i.",
+        "Colore": "nero",
+        "Barcode": "8033433843090"
+    },
+    {
+        "Prezzo": "898.36",
+        "Articolo": "1D13GEI00020",
+        "Descrizione": "COSTANZA Lady 250W on off",
+        "Gruppo": "D13E",
+        "Modello": "D13E i.",
+        "Colore": "alu",
+        "Barcode": "8033433841775"
+    },
+    {
+        "Prezzo": "672.95",
+        "Articolo": "1D13GEIA0020",
+        "Descrizione": "COSTANZA Lady par.250W on off",
+        "Gruppo": "D13E",
+        "Modello": "D13Ea i.",
+        "Colore": "alu",
+        "Barcode": "8033433843427"
+    },
+    {
+        "Prezzo": "165.57",
+        "Articolo": "1D13GESA0020",
+        "Descrizione": "COSTANZA Lady sas sz/paralum",
+        "Gruppo": "D13E",
+        "Modello": "D13E sas",
+        "Colore": "alu",
+        "Barcode": "8033433847128"
+    },
+    {
+        "Prezzo": "223.77",
+        "Articolo": "1D13GP/01002",
+        "Descrizione": "COSTANZA GDE paralume indoor",
+        "Gruppo": "D13G",
+        "Modello": "D13G/1",
+        "Colore": "bianco",
+        "Barcode": "8033433841898"
+    },
+    {
+        "Prezzo": "303.28",
+        "Articolo": "1D13GP/01011",
+        "Descrizione": "COSTANZA GDE paralume outdoor",
+        "Gruppo": "D13O",
+        "Modello": "D13G/1",
+        "Colore": "verde",
+        "Barcode": "8033433841904"
+    },
+    {
+        "Prezzo": "303.28",
+        "Articolo": "1D13GP/01013",
+        "Descrizione": "COSTANZA GDE paralume outdoor",
+        "Gruppo": "D13O",
+        "Modello": "D13G/1",
+        "Colore": "ruggne",
+        "Barcode": "8033433841911"
+    },
+    {
+        "Prezzo": "303.28",
+        "Articolo": "1D13GP/01028",
+        "Descrizione": "COSTANZA GDE paralume outdoor",
+        "Gruppo": "D13O",
+        "Modello": "D13G/1",
+        "Colore": "avorio",
+        "Barcode": "8033433841928"
+    },
+    {
+        "Prezzo": "560.66",
+        "Articolo": "1D13GSDH0020",
+        "Descrizione": "COSTANZA GDE sosp.3x100W dimm",
+        "Gruppo": "D13G",
+        "Modello": "D13Gs",
+        "Colore": "alu",
+        "Barcode": "8032706717038"
+    },
+    {
+        "Prezzo": "527.05",
+        "Articolo": "1D13GSIH0020",
+        "Descrizione": "COSTANZA GDE sosp.3x100W onoff",
+        "Gruppo": "D13G",
+        "Modello": "D13Gsi",
+        "Colore": "alu",
+        "Barcode": "8032706717045"
+    },
+    {
+        "Prezzo": "702.46",
+        "Articolo": "1D13GT/00013",
+        "Descrizione": "COSTANZA Gt openair 250W stelo",
+        "Gruppo": "D13O",
+        "Modello": "D13G.air",
+        "Colore": "ruggne",
+        "Barcode": "8033433841560"
+    },
+    {
+        "Prezzo": "702.46",
+        "Articolo": "1D13GT/00020",
+        "Descrizione": "COSTANZA Gt openair 250W stelo",
+        "Gruppo": "D13O",
+        "Modello": "D13G.air",
+        "Colore": "alu",
+        "Barcode": "8033433841331"
+    },
+    {
+        "Prezzo": "312.30",
+        "Articolo": "1D13GT/02013",
+        "Descrizione": "COSTANZA Gt openair base",
+        "Gruppo": "D13O",
+        "Modello": "D13G.air/2",
+        "Colore": "ruggne",
+        "Barcode": "8033433841584"
+    },
+    {
+        "Prezzo": "312.30",
+        "Articolo": "1D13GT/02020",
+        "Descrizione": "COSTANZA Gt openair base",
+        "Gruppo": "D13O",
+        "Modello": "D13G.air/2",
+        "Colore": "alu",
+        "Barcode": "8033433841355"
+    },
+    {
+        "Prezzo": "95.08",
+        "Articolo": "1D13GT/03020",
+        "Descrizione": "COSTANZA Gt openair picchetto",
+        "Gruppo": "D13O",
+        "Modello": "D13G.air/3",
+        "Colore": "alu",
+        "Barcode": "8033433841362"
+    },
+    {
+        "Prezzo": "95.08",
+        "Articolo": "1D13GT/04013",
+        "Descrizione": "COSTANZA Gt openair base fissa",
+        "Gruppo": "D13O",
+        "Modello": "D13G.air/4",
+        "Colore": "ruggne",
+        "Barcode": "8033433841744"
+    },
+    {
+        "Prezzo": "95.08",
+        "Articolo": "1D13GT/04020",
+        "Descrizione": "COSTANZA Gt openair base fissa",
+        "Gruppo": "D13O",
+        "Modello": "D13G.air/4",
+        "Colore": "alu",
+        "Barcode": "8033433841751"
+    },
+    {
+        "Prezzo": "1026.23",
+        "Articolo": "1D13GTDH0020",
+        "Descrizione": "COSTANZA GDE terra 3x100W dimm",
+        "Gruppo": "D13G",
+        "Modello": "D13Gt",
+        "Colore": "alu",
+        "Barcode": "8032706717007"
+    },
+    {
+        "Prezzo": "1017.21",
+        "Articolo": "1D13GTIH0020",
+        "Descrizione": "COSTANZA GDE terra 3x100W onof",
+        "Gruppo": "D13G",
+        "Modello": "D13Gti",
+        "Colore": "alu",
+        "Barcode": "8032706717014"
+    },
+    {
+        "Prezzo": "406.56",
+        "Articolo": "1D13L=010020",
+        "Descrizione": "COSTANZA TAV.SZ/PAR.LED ON/OFF",
+        "Gruppo": "D13L",
+        "Modello": "D13iL",
+        "Colore": "alu",
+        "Barcode": "8051414543043"
+    },
+    {
+        "Prezzo": "318.85",
+        "Articolo": "1D13LSA00020",
+        "Descrizione": "COSTANZA salisc.sz/paralum LED",
+        "Gruppo": "D13L",
+        "Modello": "D13sasL",
+        "Colore": "alu",
+        "Barcode": "8051414542701"
+    },
+    {
+        "Prezzo": "436.07",
+        "Articolo": "1D13LT000020",
+        "Descrizione": "COSTANZA terra sz/paralume LED",
+        "Gruppo": "D13L",
+        "Modello": "D13tLED",
+        "Colore": "alu",
+        "Barcode": "8051414542695"
+    },
+    {
+        "Prezzo": "16.39",
+        "Articolo": "1D13N/910000",
+        "Descrizione": "COSTANZA ACCESSORI DIFFUS.4pz",
+        "Gruppo": "D13",
+        "Modello": "D13/91",
+        "Colore": "",
+        "Barcode": "8033433848569"
+    },
+    {
+        "Prezzo": "282.79",
+        "Articolo": "1D13N=000003",
+        "Descrizione": "COSTANZA tav.sz/paralume",
+        "Gruppo": "D13",
+        "Modello": "D13",
+        "Colore": "White",
+        "Barcode": "8051414541018"
+    },
+    {
+        "Prezzo": "275.41",
+        "Articolo": "1D13N=000017",
+        "Descrizione": "COSTANZA tav.sz/paralume",
+        "Gruppo": "D13",
+        "Modello": "D13",
+        "Colore": "nero",
+        "Barcode": "8032706716536"
+    },
+    {
+        "Prezzo": "275.41",
+        "Articolo": "1D13N=000020",
+        "Descrizione": "COSTANZA tav.sz/paralume",
+        "Gruppo": "D13",
+        "Modello": "D13",
+        "Colore": "alu",
+        "Barcode": "8032706716543"
+    },
+    {
+        "Prezzo": "370.49",
+        "Articolo": "1D13N=000030",
+        "Descrizione": "COSTANZA tav.sz/paralume",
+        "Gruppo": "D13",
+        "Modello": "D13",
+        "Colore": "brass",
+        "Barcode": "8056304362599"
+    },
+    {
+        "Prezzo": "367.21",
+        "Articolo": "1D13N=00C020A",
+        "Descrizione": "COSTANZA tav.c/paralume bco EU",
+        "Gruppo": "D13",
+        "Modello": "D13c",
+        "Colore": "alu",
+        "Barcode": "8033433845087"
+    },
+    {
+        "Prezzo": "237.70",
+        "Articolo": "1D13N=010003",
+        "Descrizione": "COSTANZA tav.int.sz/paralume",
+        "Gruppo": "D13",
+        "Modello": "D13i",
+        "Colore": "White",
+        "Barcode": "8051414541131"
+    },
+    {
+        "Prezzo": "227.87",
+        "Articolo": "1D13N=010020",
+        "Descrizione": "COSTANZA tav.int.sz/paralume",
+        "Gruppo": "D13",
+        "Modello": "D13i",
+        "Colore": "alu",
+        "Barcode": "8032706716697"
+    },
+    {
+        "Prezzo": "220.49",
+        "Articolo": "1D13N=01F003",
+        "Descrizione": "COSTANZA tav.int.fissa sz/par.",
+        "Gruppo": "D13",
+        "Modello": "D13if",
+        "Colore": "White",
+        "Barcode": "8051414541148"
+    },
+    {
+        "Prezzo": "212.30",
+        "Articolo": "1D13N=01F020",
+        "Descrizione": "COSTANZA tav.int.fissa sz/par.",
+        "Gruppo": "D13",
+        "Modello": "D13if",
+        "Colore": "alu",
+        "Barcode": "8032706716734"
+    },
+    {
+        "Prezzo": "416.39",
+        "Articolo": "1D13N=0HC020",
+        "Descrizione": "COSTANZA tav.Friends of Hue EU",
+        "Gruppo": "D13H",
+        "Modello": "D13cH",
+        "Colore": "alu",
+        "Barcode": "8051414547041"
+    },
+    {
+        "Prezzo": "239.34",
+        "Articolo": "1D13NA000020",
+        "Descrizione": "COSTANZA parete sz/paralume",
+        "Gruppo": "D13",
+        "Modello": "D13a",
+        "Colore": "alu",
+        "Barcode": "8032706716611"
+    },
+    {
+        "Prezzo": "185.25",
+        "Articolo": "1D13NA01F020",
+        "Descrizione": "COSTANZA parete int.fissa s/pa",
+        "Gruppo": "D13",
+        "Modello": "D13aif",
+        "Colore": "alu",
+        "Barcode": "8032706716819"
+    },
+    {
+        "Prezzo": "235.25",
+        "Articolo": "1D13NPT00020",
+        "Descrizione": "COSTANZA pernotav.sz/paralume",
+        "Gruppo": "D13",
+        "Modello": "D13pt",
+        "Colore": "alu",
+        "Barcode": "8032706716635"
+    },
+    {
+        "Prezzo": "191.80",
+        "Articolo": "1D13NPT10020",
+        "Descrizione": "COSTANZA perno tav.int.sz/par.",
+        "Gruppo": "D13",
+        "Modello": "D13pti",
+        "Colore": "alu",
+        "Barcode": "8033433845674"
+    },
+    {
+        "Prezzo": "200.00",
+        "Articolo": "1D13NS000020",
+        "Descrizione": "COSTANZA sospens.sz/paralume",
+        "Gruppo": "D13",
+        "Modello": "D13s",
+        "Colore": "alu",
+        "Barcode": "8032706716864"
+    },
+    {
+        "Prezzo": "147.54",
+        "Articolo": "1D13NSA20020",
+        "Descrizione": "COSTANZA saliscendi sz/paralum",
+        "Gruppo": "D13",
+        "Modello": "D13sas",
+        "Colore": "alu",
+        "Barcode": "8032706716840"
+    },
+    {
+        "Prezzo": "298.36",
+        "Articolo": "1D13NT000003",
+        "Descrizione": "COSTANZA terra sz/paralume",
+        "Gruppo": "D13",
+        "Modello": "D13t",
+        "Colore": "White",
+        "Barcode": "8051414541025"
+    },
+    {
+        "Prezzo": "286.89",
+        "Articolo": "1D13NT000017",
+        "Descrizione": "COSTANZA terra sz/paralume",
+        "Gruppo": "D13",
+        "Modello": "D13t",
+        "Colore": "nero",
+        "Barcode": "8032706716659"
+    },
+    {
+        "Prezzo": "286.89",
+        "Articolo": "1D13NT000020",
+        "Descrizione": "COSTANZA terra sz/paralume",
+        "Gruppo": "D13",
+        "Modello": "D13t",
+        "Colore": "alu",
+        "Barcode": "8032706716666"
+    },
+    {
+        "Prezzo": "377.05",
+        "Articolo": "1D13NT000030",
+        "Descrizione": "COSTANZA terra sz/paralume",
+        "Gruppo": "D13",
+        "Modello": "D13t",
+        "Colore": "brass",
+        "Barcode": "8056304362605"
+    },
+    {
+        "Prezzo": "377.05",
+        "Articolo": "1D13NT00C020A",
+        "Descrizione": "COSTANZA terra c/paral.bco EU",
+        "Gruppo": "D13",
+        "Modello": "D13tc",
+        "Colore": "alu",
+        "Barcode": "8033433845100"
+    },
+    {
+        "Prezzo": "254.10",
+        "Articolo": "1D13NT010003",
+        "Descrizione": "COSTANZA terra int.sz/paralume",
+        "Gruppo": "D13",
+        "Modello": "D13ti",
+        "Colore": "White",
+        "Barcode": "8051414541186"
+    },
+    {
+        "Prezzo": "244.26",
+        "Articolo": "1D13NT010020",
+        "Descrizione": "COSTANZA terra int.sz/paralume",
+        "Gruppo": "D13",
+        "Modello": "D13ti",
+        "Colore": "alu",
+        "Barcode": "8032706716710"
+    },
+    {
+        "Prezzo": "240.98",
+        "Articolo": "1D13NT01F003",
+        "Descrizione": "COSTANZA terra int.fissa sz/p",
+        "Gruppo": "D13",
+        "Modello": "D13tif",
+        "Colore": "White",
+        "Barcode": "8051414541193"
+    },
+    {
+        "Prezzo": "231.97",
+        "Articolo": "1D13NT01F020",
+        "Descrizione": "COSTANZA terra int.fissa sz/p",
+        "Gruppo": "D13",
+        "Modello": "D13tif",
+        "Colore": "alu",
+        "Barcode": "8032706716789"
+    },
+    {
+        "Prezzo": "421.31",
+        "Articolo": "1D13NT0HC020",
+        "Descrizione": "COSTANZA ter.Friends of Hue EU",
+        "Gruppo": "D13H",
+        "Modello": "D13tcH",
+        "Colore": "alu",
+        "Barcode": "8051414546679"
+    },
+    {
+        "Prezzo": "131.97",
+        "Articolo": "1D13PNP00020",
+        "Descrizione": "COSTANZINA perno tav. s/paral.",
+        "Gruppo": "D13P",
+        "Modello": "D13pipt",
+        "Colore": "alu",
+        "Barcode": "8032706716031"
+    },
+    {
+        "Prezzo": "137.70",
+        "Articolo": "1D13SNP00002",
+        "Descrizione": "COSTANZINA sosp. s/paral. EU",
+        "Gruppo": "D13P",
+        "Modello": "D13spi",
+        "Colore": "bianco",
+        "Barcode": "8032706716178"
+    },
+    {
+        "Prezzo": "336.89",
+        "Articolo": "1D14A0000020",
+        "Descrizione": "TRAMA parete/soff.E27 3x100W",
+        "Gruppo": "D14",
+        "Modello": "D14a",
+        "Colore": "alu",
+        "Barcode": "8032700611486"
+    },
+    {
+        "Prezzo": "279.51",
+        "Articolo": "1D14A1PI0020",
+        "Descrizione": "TRAMA pi par/soff.E27 3x60W",
+        "Gruppo": "D14",
+        "Modello": "D14api",
+        "Colore": "alu",
+        "Barcode": "8032700611561"
+    },
+    {
+        "Prezzo": "459.02",
+        "Articolo": "1D14SA000020",
+        "Descrizione": "TRAMA saliscendi HAL 300W",
+        "Gruppo": "D14",
+        "Modello": "D14sa",
+        "Colore": "alu",
+        "Barcode": "8032700611585"
+    },
+    {
+        "Prezzo": "398.36",
+        "Articolo": "1D15=1ND0017",
+        "Descrizione": "LOLA dimmer piede EU",
+        "Gruppo": "D15",
+        "Modello": "D15ND",
+        "Colore": "nero",
+        "Barcode": "8051414549038"
+    },
+    {
+        "Prezzo": "398.36",
+        "Articolo": "1D15=1ND0020",
+        "Descrizione": "LOLA dimmer piede EU",
+        "Gruppo": "D15",
+        "Modello": "D15ND",
+        "Colore": "alu",
+        "Barcode": "8051414549045"
+    },
+    {
+        "Prezzo": "145.08",
+        "Articolo": "1D15A1N00017",
+        "Descrizione": "LOLA parete EU",
+        "Gruppo": "D15",
+        "Modello": "D15NA1",
+        "Colore": "nero",
+        "Barcode": "8051414549113"
+    },
+    {
+        "Prezzo": "145.08",
+        "Articolo": "1D15A1N00020",
+        "Descrizione": "LOLA parete EU",
+        "Gruppo": "D15",
+        "Modello": "D15NA1",
+        "Colore": "alu",
+        "Barcode": "8051414549120"
+    },
+    {
+        "Prezzo": "335.25",
+        "Articolo": "1D1700000020",
+        "Descrizione": "TITANIA sospens.E27 250W HAL",
+        "Gruppo": "D17",
+        "Modello": "D17",
+        "Colore": "alu",
+        "Barcode": "8032700611783"
+    },
+    {
+        "Prezzo": "43.44",
+        "Articolo": "1D170Q/01023",
+        "Descrizione": "TITANIA QUEEN coppia filtri",
+        "Gruppo": "D17Q",
+        "Modello": "D17Q/01",
+        "Colore": "azzurr",
+        "Barcode": "8056304362339"
+    },
+    {
+        "Prezzo": "43.44",
+        "Articolo": "1D170Q/01024",
+        "Descrizione": "TITANIA QUEEN coppia filtri",
+        "Gruppo": "D17Q",
+        "Modello": "D17Q/01",
+        "Colore": "rosa",
+        "Barcode": "8056304362346"
+    },
+    {
+        "Prezzo": "43.44",
+        "Articolo": "1D170Q/01027",
+        "Descrizione": "TITANIA QUEEN coppia filtri",
+        "Gruppo": "D17Q",
+        "Modello": "D17Q/01",
+        "Colore": "giallo",
+        "Barcode": "8056304362353"
+    },
+    {
+        "Prezzo": "43.44",
+        "Articolo": "1D170Q/01036",
+        "Descrizione": "TITANIA QUEEN coppia filtri",
+        "Gruppo": "D17Q",
+        "Modello": "D17Q/01",
+        "Colore": "violet",
+        "Barcode": "8056304362360"
+    },
+    {
+        "Prezzo": "178.69",
+        "Articolo": "1D170Q/02020",
+        "Descrizione": "TITANIA QUEEN acc.saliscendi",
+        "Gruppo": "D17Q",
+        "Modello": "D17Q/02",
+        "Colore": "alu",
+        "Barcode": "8032706713856"
+    },
+    {
+        "Prezzo": "875.41",
+        "Articolo": "1D170QHAL020",
+        "Descrizione": "TITANIA QUEEN sosp.2x250W HAL",
+        "Gruppo": "D17Q",
+        "Modello": "D17Q",
+        "Colore": "alu",
+        "Barcode": "8032706713788"
+    },
+    {
+        "Prezzo": "63.93",
+        "Articolo": "1D19/1N00001",
+        "Descrizione": "BAP base tavolo nero (nuova)",
+        "Gruppo": "D19",
+        "Modello": "D19/1",
+        "Colore": "nero",
+        "Barcode": "8033433847081"
+    },
+    {
+        "Prezzo": "63.93",
+        "Articolo": "1D19/1N00002",
+        "Descrizione": "BAP base bianco(nuova)",
+        "Gruppo": "D19",
+        "Modello": "D19/1",
+        "Colore": "bianco",
+        "Barcode": "8033433847098"
+    },
+    {
+        "Prezzo": "15.57",
+        "Articolo": "1D19/2000001",
+        "Descrizione": "BAP basetta per piano",
+        "Gruppo": "D19",
+        "Modello": "D19/2",
+        "Colore": "nero",
+        "Barcode": "8032700611905"
+    },
+    {
+        "Prezzo": "15.57",
+        "Articolo": "1D19/2000002",
+        "Descrizione": "BAP basetta per piano",
+        "Gruppo": "D19",
+        "Modello": "D19/2",
+        "Colore": "bianco",
+        "Barcode": "8033433844530"
+    },
+    {
+        "Prezzo": "15.57",
+        "Articolo": "1D19/3000001",
+        "Descrizione": "BAP attacco parete",
+        "Gruppo": "D19",
+        "Modello": "D19/3",
+        "Colore": "nero",
+        "Barcode": "8032700611950"
+    },
+    {
+        "Prezzo": "15.57",
+        "Articolo": "1D19/3000002",
+        "Descrizione": "BAP attacco parete",
+        "Gruppo": "D19",
+        "Modello": "D19/3",
+        "Colore": "bianco",
+        "Barcode": "8033433844547"
+    },
+    {
+        "Prezzo": "45.08",
+        "Articolo": "1D19/8000001",
+        "Descrizione": "BAP perno tavolo",
+        "Gruppo": "D19",
+        "Modello": "D19/8",
+        "Colore": "nero",
+        "Barcode": "8033433847937"
+    },
+    {
+        "Prezzo": "45.08",
+        "Articolo": "1D19/8000002",
+        "Descrizione": "BAP perno tavolo",
+        "Gruppo": "D19",
+        "Modello": "D19/8",
+        "Colore": "bianco",
+        "Barcode": "8033433847944"
+    },
+    {
+        "Prezzo": "58.20",
+        "Articolo": "1D19/9000001",
+        "Descrizione": "BAP morsetto NERO",
+        "Gruppo": "D19",
+        "Modello": "D19/9",
+        "Colore": "nero",
+        "Barcode": "8033433849368"
+    },
+    {
+        "Prezzo": "58.20",
+        "Articolo": "1D19/9000002",
+        "Descrizione": "BAP morsetto BIANCO",
+        "Gruppo": "D19",
+        "Modello": "D19/9",
+        "Colore": "bianco",
+        "Barcode": "8033433849375"
+    },
+    {
+        "Prezzo": "253.28",
+        "Articolo": "1D19LL000001",
+        "Descrizione": "BAP LED LARGE NERO/BLACK",
+        "Gruppo": "D19",
+        "Modello": "D19L.led",
+        "Colore": "nero",
+        "Barcode": "8033433847067"
+    },
+    {
+        "Prezzo": "253.28",
+        "Articolo": "1D19LL000002",
+        "Descrizione": "BAP LED LARGE BIANCO/WHITE",
+        "Gruppo": "D19",
+        "Modello": "D19L.led",
+        "Colore": "bianco",
+        "Barcode": "8033433847104"
+    },
+    {
+        "Prezzo": "40.16",
+        "Articolo": "1D2017010000",
+        "Descrizione": "METROPOLI 17 rif.1xE14 40W",
+        "Gruppo": "D20",
+        "Modello": "D20/17.1",
+        "Colore": "",
+        "Barcode": "8032700612278"
+    },
+    {
+        "Prezzo": "119.67",
+        "Articolo": "1D2017070000",
+        "Descrizione": "METROPOLI 17 rifl.LED 8W 240V",
+        "Gruppo": "D20",
+        "Modello": "D20/17.7",
+        "Colore": "",
+        "Barcode": "8056304364227"
+    },
+    {
+        "Prezzo": "19.67",
+        "Articolo": "1D20170A0000",
+        "Descrizione": "METROPOLI 17 kit per IP 65",
+        "Gruppo": "D20",
+        "Modello": "D20/17.a",
+        "Colore": "",
+        "Barcode": "8032700612261"
+    },
+    {
+        "Prezzo": "172.13",
+        "Articolo": "1D2017P00019",
+        "Descrizione": "METROPOLI cm 17 corpo,polic.",
+        "Gruppo": "D20",
+        "Modello": "D20/17p",
+        "Colore": "lucido",
+        "Barcode": "8032700612193"
+    },
+    {
+        "Prezzo": "150.00",
+        "Articolo": "1D2017P00020",
+        "Descrizione": "METROPOLI cm 17 corpo,polic.",
+        "Gruppo": "D20",
+        "Modello": "D20/17p",
+        "Colore": "alu",
+        "Barcode": "8032700612209"
+    },
+    {
+        "Prezzo": "287.70",
+        "Articolo": "1D2017P00040",
+        "Descrizione": "METROPOLI cm 17 corpo,polic.",
+        "Gruppo": "D20",
+        "Modello": "D20/17p",
+        "Colore": "br.sat",
+        "Barcode": "8056304362568"
+    },
+    {
+        "Prezzo": "180.33",
+        "Articolo": "1D2017V00019",
+        "Descrizione": "METROPOLI cm 17 corpo,vetro",
+        "Gruppo": "D20",
+        "Modello": "D20/17v",
+        "Colore": "lucido",
+        "Barcode": "8032700612247"
+    },
+    {
+        "Prezzo": "154.10",
+        "Articolo": "1D2017V00020",
+        "Descrizione": "METROPOLI cm 17 corpo,vetro",
+        "Gruppo": "D20",
+        "Modello": "D20/17v",
+        "Colore": "alu",
+        "Barcode": "8032700612254"
+    },
+    {
+        "Prezzo": "302.46",
+        "Articolo": "1D2017V00040",
+        "Descrizione": "METROPOLI cm 17 corpo,vetro",
+        "Gruppo": "D20",
+        "Modello": "D20/17v",
+        "Colore": "br.sat",
+        "Barcode": "8056304362575"
+    },
+    {
+        "Prezzo": "45.08",
+        "Articolo": "1D2027010000",
+        "Descrizione": "METROPOLI 27 rif.E27 inc.100W",
+        "Gruppo": "D20",
+        "Modello": "D20/27.1",
+        "Colore": "",
+        "Barcode": "8032700612438"
+    },
+    {
+        "Prezzo": "204.10",
+        "Articolo": "1D2027090000",
+        "Descrizione": "METROPOLI 27 rifl.LED 17W EU",
+        "Gruppo": "D20",
+        "Modello": "D20/27.9",
+        "Colore": "",
+        "Barcode": "8056304360380"
+    },
+    {
+        "Prezzo": "22.95",
+        "Articolo": "1D20270A0000",
+        "Descrizione": "METROPOLI 27 kit per IP 65",
+        "Gruppo": "D20",
+        "Modello": "D20/27.a",
+        "Colore": "",
+        "Barcode": "8032700612421"
+    },
+    {
+        "Prezzo": "218.03",
+        "Articolo": "1D2027P00019",
+        "Descrizione": "METROPOLI cm.27 corpo, polic",
+        "Gruppo": "D20",
+        "Modello": "D20/27p",
+        "Colore": "lucido",
+        "Barcode": "8032700612353"
+    },
+    {
+        "Prezzo": "186.89",
+        "Articolo": "1D2027P00020",
+        "Descrizione": "METROPOLI cm 27 corpo,polic",
+        "Gruppo": "D20",
+        "Modello": "D20/27p",
+        "Colore": "alu",
+        "Barcode": "8032700612360"
+    },
+    {
+        "Prezzo": "329.51",
+        "Articolo": "1D2027P00040",
+        "Descrizione": "METROPOLI cm 27 corpo,polic",
+        "Gruppo": "D20",
+        "Modello": "D20/27p",
+        "Colore": "br.sat",
+        "Barcode": "8056304361707"
+    },
+    {
+        "Prezzo": "233.61",
+        "Articolo": "1D2027V00019",
+        "Descrizione": "METROPOLI cm.27 corpo, vetro",
+        "Gruppo": "D20",
+        "Modello": "D20/27v",
+        "Colore": "lucido",
+        "Barcode": "8032700612407"
+    },
+    {
+        "Prezzo": "200.00",
+        "Articolo": "1D2027V00020",
+        "Descrizione": "METROPOLI cm.27 corpo,vetro",
+        "Gruppo": "D20",
+        "Modello": "D20/27v",
+        "Colore": "alu",
+        "Barcode": "8032700612414"
+    },
+    {
+        "Prezzo": "343.44",
+        "Articolo": "1D2027V00040",
+        "Descrizione": "METROPOLI cm.27 corpo,vetro",
+        "Gruppo": "D20",
+        "Modello": "D20/27v",
+        "Colore": "br.sat",
+        "Barcode": "8056304361714"
+    },
+    {
+        "Prezzo": "56.56",
+        "Articolo": "1D2038010000",
+        "Descrizione": "METROPOLI 38 rif.E27 inc.150W",
+        "Gruppo": "D20",
+        "Modello": "D20/38.1",
+        "Colore": "",
+        "Barcode": "8032700612636"
+    },
+    {
+        "Prezzo": "65.57",
+        "Articolo": "1D2038020000",
+        "Descrizione": "METROPOLI 38 rif.2xE27 inc.75W",
+        "Gruppo": "D20",
+        "Modello": "D20/38.2",
+        "Colore": "",
+        "Barcode": "8032700612643"
+    },
+    {
+        "Prezzo": "23.77",
+        "Articolo": "1D20380A0000",
+        "Descrizione": "METROPOLI 38 kit per IP 65",
+        "Gruppo": "D20",
+        "Modello": "D20/38.a",
+        "Colore": "",
+        "Barcode": "8032700612629"
+    },
+    {
+        "Prezzo": "289.34",
+        "Articolo": "1D2038P00019",
+        "Descrizione": "METROPOLI cm.38 corpo, polic",
+        "Gruppo": "D20",
+        "Modello": "D20/38p",
+        "Colore": "lucido",
+        "Barcode": "8032700612551"
+    },
+    {
+        "Prezzo": "241.80",
+        "Articolo": "1D2038P00020",
+        "Descrizione": "METROPOLI cm.38 corpo,polic",
+        "Gruppo": "D20",
+        "Modello": "D20/38p",
+        "Colore": "alu",
+        "Barcode": "8032700612568"
+    },
+    {
+        "Prezzo": "304.10",
+        "Articolo": "1D2038V00019",
+        "Descrizione": "METROPOLI cm.38 corpo, vetro",
+        "Gruppo": "D20",
+        "Modello": "D20/38v",
+        "Colore": "lucido",
+        "Barcode": "8032700612605"
+    },
+    {
+        "Prezzo": "256.56",
+        "Articolo": "1D2038V00020",
+        "Descrizione": "METROPOLI cm.38 corpo,vetro",
+        "Gruppo": "D20",
+        "Modello": "D20/38v",
+        "Colore": "alu",
+        "Barcode": "8032700612612"
+    },
+    {
+        "Prezzo": "252.46",
+        "Articolo": "1D22001E0002",
+        "Descrizione": "STRIP 2x14W G5 220/240V elettr",
+        "Gruppo": "D22",
+        "Modello": "D22/1EL",
+        "Colore": "bianco",
+        "Barcode": "8032706715812"
+    },
+    {
+        "Prezzo": "302.46",
+        "Articolo": "1D22001E0019",
+        "Descrizione": "STRIP 2x14W G5 220/240V elettr",
+        "Gruppo": "D22",
+        "Modello": "D22/1EL",
+        "Colore": "lucido",
+        "Barcode": "8032706715829"
+    },
+    {
+        "Prezzo": "263.93",
+        "Articolo": "1D22001E0020",
+        "Descrizione": "STRIP 2x14W G5 220/240V elettr",
+        "Gruppo": "D22",
+        "Modello": "D22/1EL",
+        "Colore": "alu",
+        "Barcode": "8032706719100"
+    },
+    {
+        "Prezzo": "272.13",
+        "Articolo": "1D22002E0002",
+        "Descrizione": "STRIP 2x24W G5 220/240V elettr",
+        "Gruppo": "D22",
+        "Modello": "D22/2EL",
+        "Colore": "bianco",
+        "Barcode": "8032706716215"
+    },
+    {
+        "Prezzo": "335.25",
+        "Articolo": "1D22002E0019",
+        "Descrizione": "STRIP 2x24W G5 220/240V elettr",
+        "Gruppo": "D22",
+        "Modello": "D22/2EL",
+        "Colore": "lucido",
+        "Barcode": "8032700613077"
+    },
+    {
+        "Prezzo": "278.69",
+        "Articolo": "1D22002E0020",
+        "Descrizione": "STRIP 2x24W G5 220/240V elettr",
+        "Gruppo": "D22",
+        "Modello": "D22/2EL",
+        "Colore": "alu",
+        "Barcode": "8032706719131"
+    },
+    {
+        "Prezzo": "416.39",
+        "Articolo": "1D22003E0002",
+        "Descrizione": "STRIP 4x24W G5 220/240V elettr",
+        "Gruppo": "D22",
+        "Modello": "D22/3EL",
+        "Colore": "bianco",
+        "Barcode": "8032706712705"
+    },
+    {
+        "Prezzo": "489.34",
+        "Articolo": "1D22003E0019",
+        "Descrizione": "STRIP 4x24W G5 220/240V elettr",
+        "Gruppo": "D22",
+        "Modello": "D22/3EL",
+        "Colore": "lucido",
+        "Barcode": "8032700613145"
+    },
+    {
+        "Prezzo": "427.87",
+        "Articolo": "1D22003E0020",
+        "Descrizione": "STRIP 4x24W G5 220/240V elettr",
+        "Gruppo": "D22",
+        "Modello": "D22/3EL",
+        "Colore": "alu",
+        "Barcode": "8032706719162"
+    },
+    {
+        "Prezzo": "566.39",
+        "Articolo": "1D22004E0002",
+        "Descrizione": "STRIP 6x24W G5 230/240V elettr",
+        "Gruppo": "D22",
+        "Modello": "D22/4EL",
+        "Colore": "bianco",
+        "Barcode": "8032706716192"
+    },
+    {
+        "Prezzo": "675.41",
+        "Articolo": "1D22004E0019",
+        "Descrizione": "STRIP 6x24W G5 230/240V elettr",
+        "Gruppo": "D22",
+        "Modello": "D22/4EL",
+        "Colore": "lucido",
+        "Barcode": "8032700613237"
+    },
+    {
+        "Prezzo": "575.41",
+        "Articolo": "1D22004E0020",
+        "Descrizione": "STRIP 6x24W G5 230/240V elettr",
+        "Gruppo": "D22",
+        "Modello": "D22/4EL",
+        "Colore": "alu",
+        "Barcode": "8032706719186"
+    },
+    {
+        "Prezzo": "465.57",
+        "Articolo": "1D2800000002",
+        "Descrizione": "BLOW strutt.hal dimm.E27 230V",
+        "Gruppo": "D28",
+        "Modello": "D28",
+        "Colore": "opale",
+        "Barcode": "8051414542497"
+    },
+    {
+        "Prezzo": "82.79",
+        "Articolo": "1D280P000000",
+        "Descrizione": "BLOW set 3 pale traspar.",
+        "Gruppo": "D28",
+        "Modello": "D28/1",
+        "Colore": "trasp",
+        "Barcode": "8032700614333"
+    },
+    {
+        "Prezzo": "82.79",
+        "Articolo": "1D280P000088",
+        "Descrizione": "BLOW new set 3 pale 1 x colore",
+        "Gruppo": "D28",
+        "Modello": "D28/1",
+        "Colore": "mix",
+        "Barcode": "8032706714006"
+    },
+    {
+        "Prezzo": "91.80",
+        "Articolo": "1D280P200000",
+        "Descrizione": "BLOW set 3 pale serigr.traspar",
+        "Gruppo": "D28",
+        "Modello": "D28/2",
+        "Colore": "trasp",
+        "Barcode": "8032706714112"
+    },
+    {
+        "Prezzo": "58.20",
+        "Articolo": "1D280R000000",
+        "Descrizione": "BLOW access. telecomando new",
+        "Gruppo": "D28",
+        "Modello": "D28r",
+        "Colore": "",
+        "Barcode": "8051414542558"
+    },
+    {
+        "Prezzo": "31.15",
+        "Articolo": "1D30/0200004",
+        "Descrizione": "POD LENS base fissa",
+        "Gruppo": "D30",
+        "Modello": "D30/2",
+        "Colore": "grigio",
+        "Barcode": "8032700614418"
+    },
+    {
+        "Prezzo": "22.95",
+        "Articolo": "1D30/04/0125",
+        "Descrizione": "POD LENS palo H=35cm.",
+        "Gruppo": "D30",
+        "Modello": "D30/4.1",
+        "Colore": "verde",
+        "Barcode": "8032700614463"
+    },
+    {
+        "Prezzo": "43.44",
+        "Articolo": "1D30/04/0225",
+        "Descrizione": "POD LENS palo H=120cm.",
+        "Gruppo": "D30",
+        "Modello": "D30/4.2",
+        "Colore": "verde",
+        "Barcode": "8032700614517"
+    },
+    {
+        "Prezzo": "56.56",
+        "Articolo": "1D30/04/0325",
+        "Descrizione": "POD LENS palo H=180cm.",
+        "Gruppo": "D30",
+        "Modello": "D30/4.3",
+        "Colore": "verde",
+        "Barcode": "8032700614562"
+    },
+    {
+        "Prezzo": "44.26",
+        "Articolo": "1D30/0500004",
+        "Descrizione": "POD LENS giunto 3vie",
+        "Gruppo": "D30",
+        "Modello": "D30/5",
+        "Colore": "grigio",
+        "Barcode": "8032700614579"
+    },
+    {
+        "Prezzo": "63.93",
+        "Articolo": "1D30/0600025",
+        "Descrizione": "POD LENS extra cavo 10 mt.",
+        "Gruppo": "D30",
+        "Modello": "D30/6",
+        "Colore": "verde",
+        "Barcode": "8032700614616"
+    },
+    {
+        "Prezzo": "126.23",
+        "Articolo": "1D300F/40004",
+        "Descrizione": "POD LENS el.base fluo E27 23W",
+        "Gruppo": "D30",
+        "Modello": "D30F",
+        "Colore": "grigio",
+        "Barcode": "8032700614685"
+    },
+    {
+        "Prezzo": "126.23",
+        "Articolo": "1D300F/40013",
+        "Descrizione": "POD LENS el.base fluo E27 23W",
+        "Gruppo": "D30",
+        "Modello": "D30F",
+        "Colore": "terrac",
+        "Barcode": "8032700614708"
+    },
+    {
+        "Prezzo": "126.23",
+        "Articolo": "1D300F/40025",
+        "Descrizione": "POD LENS el.base fluo E27 23W",
+        "Gruppo": "D30",
+        "Modello": "D30F",
+        "Colore": "verde",
+        "Barcode": "8032700614715"
+    },
+    {
+        "Prezzo": "110.66",
+        "Articolo": "1D31/0100020",
+        "Descrizione": "GLASSGLASS access.cavo 4mt EU",
+        "Gruppo": "D31",
+        "Modello": "D31/1",
+        "Colore": "",
+        "Barcode": "8032700614760"
+    },
+    {
+        "Prezzo": "244.26",
+        "Articolo": "1D31G/020000",
+        "Descrizione": "GLASSGLASS diffus.grande G/2",
+        "Gruppo": "D31",
+        "Modello": "D31G/2",
+        "Colore": "trasp",
+        "Barcode": "8032700614821"
+    },
+    {
+        "Prezzo": "250.00",
+        "Articolo": "1D31GH000020",
+        "Descrizione": "GLASSGLASS strutt.grande hal.",
+        "Gruppo": "D31",
+        "Modello": "D31G",
+        "Colore": "alu",
+        "Barcode": "8032700614890"
+    },
+    {
+        "Prezzo": "219.67",
+        "Articolo": "1D31P/010002",
+        "Descrizione": "GLASSGLASS diffus.picc.P/1",
+        "Gruppo": "D31",
+        "Modello": "D31P/1",
+        "Colore": "opale",
+        "Barcode": "8032700614913"
+    },
+    {
+        "Prezzo": "344.26",
+        "Articolo": "1D31P/020002",
+        "Descrizione": "GLASSGLASS diffus.picc.P/2",
+        "Gruppo": "D31",
+        "Modello": "D31P/2",
+        "Colore": "opale",
+        "Barcode": "8032700614951"
+    },
+    {
+        "Prezzo": "371.31",
+        "Articolo": "1D31P/050002",
+        "Descrizione": "GLASSGLASS diffus.picc.P/5",
+        "Gruppo": "D31",
+        "Modello": "D31P/5",
+        "Colore": "opale",
+        "Barcode": "8032700615088"
+    },
+    {
+        "Prezzo": "134.43",
+        "Articolo": "1D31P/090002",
+        "Descrizione": "GLASSGLASS diffus.picc.P/9",
+        "Gruppo": "D31",
+        "Modello": "D31P/9",
+        "Colore": "opale",
+        "Barcode": "8032706714167"
+    },
+    {
+        "Prezzo": "227.87",
+        "Articolo": "1D31PH000020",
+        "Descrizione": "GLASSGLASS strutt.piccola hal.",
+        "Gruppo": "D31",
+        "Modello": "D31P",
+        "Colore": "alu",
+        "Barcode": "8032700615149"
+    },
+    {
+        "Prezzo": "82.79",
+        "Articolo": "1D33N/010001",
+        "Descrizione": "FORTEBRACCIO base",
+        "Gruppo": "D33",
+        "Modello": "D33N/01",
+        "Colore": "nero",
+        "Barcode": "8033433841164"
+    },
+    {
+        "Prezzo": "78.69",
+        "Articolo": "1D33N/010002",
+        "Descrizione": "FORTEBRACCIO base",
+        "Gruppo": "D33",
+        "Modello": "D33N/01",
+        "Colore": "bianco",
+        "Barcode": "8032706715201"
+    },
+    {
+        "Prezzo": "78.69",
+        "Articolo": "1D33N/01000A",
+        "Descrizione": "FORTEBRACCIO base",
+        "Gruppo": "D33",
+        "Modello": "D33N/01",
+        "Colore": "metal",
+        "Barcode": "8032706713597"
+    },
+    {
+        "Prezzo": "31.97",
+        "Articolo": "1D33N/03000A",
+        "Descrizione": "FORTEBRACCIO solo att.univers.",
+        "Gruppo": "D33",
+        "Modello": "D33N/03",
+        "Colore": "metal",
+        "Barcode": "8032706713603"
+    },
+    {
+        "Prezzo": "31.97",
+        "Articolo": "1D33N/04000A",
+        "Descrizione": "FORTEBRACCIO solo morsetto",
+        "Gruppo": "D33",
+        "Modello": "D33N/04",
+        "Colore": "metal",
+        "Barcode": "8032706713610"
+    },
+    {
+        "Prezzo": "49.18",
+        "Articolo": "1D33N/05000A",
+        "Descrizione": "FORTEBRACCIO perno scrivanie",
+        "Gruppo": "D33",
+        "Modello": "D33N/05",
+        "Colore": "metal",
+        "Barcode": "8033433843069"
+    },
+    {
+        "Prezzo": "193.44",
+        "Articolo": "1D33N2GI0001",
+        "Descrizione": "FORTEBRACCIO 100W E27 int.",
+        "Gruppo": "D33",
+        "Modello": "D33N.100",
+        "Colore": "nero",
+        "Barcode": "8033433841058"
+    },
+    {
+        "Prezzo": "174.59",
+        "Articolo": "1D33N2GI0002",
+        "Descrizione": "FORTEBRACCIO 100W E27 int.",
+        "Gruppo": "D33",
+        "Modello": "D33N.100",
+        "Colore": "bianco",
+        "Barcode": "8032706715164"
+    },
+    {
+        "Prezzo": "165.57",
+        "Articolo": "1D33N2GI00AA",
+        "Descrizione": "FORTEBRACCIO 100W E27 int.",
+        "Gruppo": "D33",
+        "Modello": "D33N.100",
+        "Colore": "metal",
+        "Barcode": "8032706713658"
+    },
+    {
+        "Prezzo": "300.00",
+        "Articolo": "1D33N2LIR001",
+        "Descrizione": "FORTEBRACCIO LED 8W int.EU",
+        "Gruppo": "D33L",
+        "Modello": "D33N.led",
+        "Colore": "nero",
+        "Barcode": "8033433844622"
+    },
+    {
+        "Prezzo": "287.70",
+        "Articolo": "1D33N2LIR002",
+        "Descrizione": "FORTEBRACCIO LED 8W int.EU",
+        "Gruppo": "D33L",
+        "Modello": "D33N.led",
+        "Colore": "bianco",
+        "Barcode": "8033433844639"
+    },
+    {
+        "Prezzo": "282.79",
+        "Articolo": "1D33N2LIR0AA",
+        "Descrizione": "FORTEBRACCIO LED 8W int.EU",
+        "Gruppo": "D33L",
+        "Modello": "D33N.led",
+        "Colore": "metal",
+        "Barcode": "8033433844615"
+    },
+    {
+        "Prezzo": "145.90",
+        "Articolo": "1D33NSGI0001",
+        "Descrizione": "FORTEBRACCIO SPOT 100W E27 int",
+        "Gruppo": "D33",
+        "Modello": "D33Nsp.100",
+        "Colore": "nero",
+        "Barcode": "8033433841126"
+    },
+    {
+        "Prezzo": "135.25",
+        "Articolo": "1D33NSGI0002",
+        "Descrizione": "FORTEBRACCIO SPOT 100W E27 int",
+        "Gruppo": "D33",
+        "Modello": "D33Nsp.100",
+        "Colore": "bianco",
+        "Barcode": "8032706715065"
+    },
+    {
+        "Prezzo": "128.69",
+        "Articolo": "1D33NSGI00AA",
+        "Descrizione": "FORTEBRACCIO SPOT 100W E27 int",
+        "Gruppo": "D33",
+        "Modello": "D33Nsp.100",
+        "Colore": "metal",
+        "Barcode": "8032706713689"
+    },
+    {
+        "Prezzo": "136.07",
+        "Articolo": "1D33NSPI0001",
+        "Descrizione": "FORTEBRACCIO SPOT 60W E14 int.",
+        "Gruppo": "D33",
+        "Modello": "D33Nsp.60",
+        "Colore": "nero",
+        "Barcode": "8033433841140"
+    },
+    {
+        "Prezzo": "126.23",
+        "Articolo": "1D33NSPI0002",
+        "Descrizione": "FORTEBRACCIO SPOT 60W E14 int.",
+        "Gruppo": "D33",
+        "Modello": "D33Nsp.60",
+        "Colore": "bianco",
+        "Barcode": "8032706715089"
+    },
+    {
+        "Prezzo": "122.13",
+        "Articolo": "1D33NSPI00AA",
+        "Descrizione": "FORTEBRACCIO SPOT 60W E14 int.",
+        "Gruppo": "D33",
+        "Modello": "D33Nsp.60",
+        "Colore": "metal",
+        "Barcode": "8032706713672"
+    },
+    {
+        "Prezzo": "225.41",
+        "Articolo": "1D33NTGI0001",
+        "Descrizione": "FORTEBRACCIO TERRA 100W int.",
+        "Gruppo": "D33",
+        "Modello": "D33Nt.100",
+        "Colore": "nero",
+        "Barcode": "8033433841119"
+    },
+    {
+        "Prezzo": "227.87",
+        "Articolo": "1D33NTGI0002",
+        "Descrizione": "FORTEBRACCIO TERRA 100W int.",
+        "Gruppo": "D33",
+        "Modello": "D33Nt.100",
+        "Colore": "bianco",
+        "Barcode": "8033433841010"
+    },
+    {
+        "Prezzo": "204.10",
+        "Articolo": "1D33NTGI00AA",
+        "Descrizione": "FORTEBRACCIO TERRA 100W int.",
+        "Gruppo": "D33",
+        "Modello": "D33Nt.100",
+        "Colore": "metal",
+        "Barcode": "8033433841003"
+    },
+    {
+        "Prezzo": "333.61",
+        "Articolo": "1D370D000004",
+        "Descrizione": "CHICHIBIO 250W HAL E27 dimmer",
+        "Gruppo": "D37",
+        "Modello": "D37",
+        "Colore": "alu",
+        "Barcode": "8032706713184"
+    },
+    {
+        "Prezzo": "1340.16",
+        "Articolo": "1D380DL00001",
+        "Descrizione": "CARRARA LED 45W 3000K dimmer",
+        "Gruppo": "D38",
+        "Modello": "D38L",
+        "Colore": "nero",
+        "Barcode": "8051414548963"
+    },
+    {
+        "Prezzo": "1340.16",
+        "Articolo": "1D380DL00002",
+        "Descrizione": "CARRARA LED 45W 3000K dimmer",
+        "Gruppo": "D38",
+        "Modello": "D38L",
+        "Colore": "bianco",
+        "Barcode": "8051414548970"
+    },
+    {
+        "Prezzo": "110.66",
+        "Articolo": "1D4100/03002",
+        "Descrizione": "LIGHTDISC 40 access.sospens.",
+        "Gruppo": "D41",
+        "Modello": "D41/40/03",
+        "Colore": "bianco",
+        "Barcode": "8032706715300"
+    },
+    {
+        "Prezzo": "390.16",
+        "Articolo": "1D410055D000",
+        "Descrizione": "LIGHTDISC 40 55W T5 dimmer.",
+        "Gruppo": "D41",
+        "Modello": "D41/40.55D",
+        "Colore": "trasp",
+        "Barcode": "8032706712309"
+    },
+    {
+        "Prezzo": "390.16",
+        "Articolo": "1D410055D002",
+        "Descrizione": "LIGHTDISC 40 55W T5 dimmer.",
+        "Gruppo": "D41",
+        "Modello": "D41/40.55D",
+        "Colore": "bianco",
+        "Barcode": "8032706712323"
+    },
+    {
+        "Prezzo": "201.64",
+        "Articolo": "1D41PI220002",
+        "Descrizione": "LIGHTDISC 32 22W T5 elettron.",
+        "Gruppo": "D41",
+        "Modello": "D41/32.22",
+        "Colore": "bianco",
+        "Barcode": "8032700616108"
+    },
+    {
+        "Prezzo": "201.64",
+        "Articolo": "1D41PI22B000",
+        "Descrizione": "L.DISC 32 OPAL 22W T5 elettron",
+        "Gruppo": "D41",
+        "Modello": "D41B/32.22",
+        "Colore": "trasp",
+        "Barcode": "8032706712842"
+    },
+    {
+        "Prezzo": "62.30",
+        "Articolo": "1D49/0100002",
+        "Descrizione": "AGAVE rosone decentrato EU",
+        "Gruppo": "D49",
+        "Modello": "D49/01",
+        "Colore": "",
+        "Barcode": "8032706712293"
+    },
+    {
+        "Prezzo": "282.79",
+        "Articolo": "1D4917S00000",
+        "Descrizione": "AGAVE 17 sospens. 21W E27 fluo",
+        "Gruppo": "D49",
+        "Modello": "D49/17s",
+        "Colore": "",
+        "Barcode": "8032700616672"
+    },
+    {
+        "Prezzo": "336.89",
+        "Articolo": "1D4926S00000",
+        "Descrizione": "AGAVE 26 sospens. 21W E27 fluo",
+        "Gruppo": "D49",
+        "Modello": "D49/26s",
+        "Colore": "",
+        "Barcode": "8032700616788"
+    },
+    {
+        "Prezzo": "361.48",
+        "Articolo": "1D4970S00000",
+        "Descrizione": "AGAVE 70 sospens. 21W E27",
+        "Gruppo": "D49",
+        "Modello": "D49/70S",
+        "Colore": "",
+        "Barcode": "8056304360373"
+    },
+    {
+        "Prezzo": "510.66",
+        "Articolo": "1D5000000000",
+        "Descrizione": "AIRCON sosp.3x24W 2G11 elettr.",
+        "Gruppo": "D50",
+        "Modello": "D50",
+        "Colore": "neutro",
+        "Barcode": "8032700616863"
+    },
+    {
+        "Prezzo": "91.80",
+        "Articolo": "1D5200000031",
+        "Descrizione": "GOGGLE 42W E14 HAL",
+        "Gruppo": "D52",
+        "Modello": "D52",
+        "Colore": "irid.",
+        "Barcode": "8032700616979"
+    },
+    {
+        "Prezzo": "253.28",
+        "Articolo": "1D600=D00020",
+        "Descrizione": "MIRANDA strutt.tav.dimmer",
+        "Gruppo": "D60",
+        "Modello": "D60",
+        "Colore": "alu",
+        "Barcode": "8032706714426"
+    },
+    {
+        "Prezzo": "134.43",
+        "Articolo": "1D600V/01002",
+        "Descrizione": "MIRANDA solo vetro tav./terra",
+        "Gruppo": "D60",
+        "Modello": "D60/01",
+        "Colore": "opal",
+        "Barcode": "8032706714495"
+    },
+    {
+        "Prezzo": "191.80",
+        "Articolo": "1D60P=D00020",
+        "Descrizione": "MIRANDOLINA strutt.tav.dimmer",
+        "Gruppo": "D60P",
+        "Modello": "D60pi.D",
+        "Colore": "alu",
+        "Barcode": "8032706714334"
+    },
+    {
+        "Prezzo": "99.18",
+        "Articolo": "1D60PV/01002",
+        "Descrizione": "MIRANDOLINA solo vetro tavolo",
+        "Gruppo": "D60P",
+        "Modello": "D60pi/01",
+        "Colore": "opal",
+        "Barcode": "8032706714389"
+    },
+    {
+        "Prezzo": "965.57",
+        "Articolo": "1D6200000001",
+        "Descrizione": "PLISSE' sosp.7x42W E14",
+        "Gruppo": "D62",
+        "Modello": "D62",
+        "Colore": "nero",
+        "Barcode": "8033433843472"
+    },
+    {
+        "Prezzo": "965.57",
+        "Articolo": "1D6200000019",
+        "Descrizione": "PLISSE' sosp.7x42W E14",
+        "Gruppo": "D62",
+        "Modello": "D62",
+        "Colore": "argent",
+        "Barcode": "8032706718363"
+    },
+    {
+        "Prezzo": "361.48",
+        "Articolo": "1D630A0LE002",
+        "Descrizione": "SKY par/soff.2x5W LED E14",
+        "Gruppo": "D63L",
+        "Modello": "D63a.L",
+        "Colore": "bianco",
+        "Barcode": "8051414545207"
+    },
+    {
+        "Prezzo": "361.48",
+        "Articolo": "1D630A0LE013",
+        "Descrizione": "SKY par/soff.2x5W LED E14",
+        "Gruppo": "D63L",
+        "Modello": "D63a.L",
+        "Colore": "castgn",
+        "Barcode": "8051414545214"
+    },
+    {
+        "Prezzo": "361.48",
+        "Articolo": "1D630A0LE020",
+        "Descrizione": "SKY par/soff.2x5W LED E14",
+        "Gruppo": "D63L",
+        "Modello": "D63a.L",
+        "Colore": "alu",
+        "Barcode": "8051414545221"
+    },
+    {
+        "Prezzo": "428.69",
+        "Articolo": "1D630T1LE002",
+        "Descrizione": "SKY terra 28cm.2x5W LED E14",
+        "Gruppo": "D63L",
+        "Modello": "D63t1.L",
+        "Colore": "bianco",
+        "Barcode": "8051414545146"
+    },
+    {
+        "Prezzo": "428.69",
+        "Articolo": "1D630T1LE013",
+        "Descrizione": "SKY terra 28cm.2x5W LED E14",
+        "Gruppo": "D63L",
+        "Modello": "D63t1.L",
+        "Colore": "castgn",
+        "Barcode": "8051414545153"
+    },
+    {
+        "Prezzo": "428.69",
+        "Articolo": "1D630T1LE020",
+        "Descrizione": "SKY terra 28cm.2x5W LED E14",
+        "Gruppo": "D63L",
+        "Modello": "D63t1.L",
+        "Colore": "alu",
+        "Barcode": "8051414545160"
+    },
+    {
+        "Prezzo": "498.36",
+        "Articolo": "1D630T2LE002",
+        "Descrizione": "SKY terra 70cm.2x5W LED E14",
+        "Gruppo": "D63L",
+        "Modello": "D63t2.L",
+        "Colore": "bianco",
+        "Barcode": "8051414545177"
+    },
+    {
+        "Prezzo": "498.36",
+        "Articolo": "1D630T2LE013",
+        "Descrizione": "SKY terra 70cm.2x5W LED E14",
+        "Gruppo": "D63L",
+        "Modello": "D63t2.L",
+        "Colore": "castgn",
+        "Barcode": "8051414545184"
+    },
+    {
+        "Prezzo": "498.36",
+        "Articolo": "1D630T2LE020",
+        "Descrizione": "SKY terra 70cm.2x5W LED E14",
+        "Gruppo": "D63L",
+        "Modello": "D63t2.L",
+        "Colore": "alu",
+        "Barcode": "8051414545191"
+    },
+    {
+        "Prezzo": "189.34",
+        "Articolo": "1D6400000002",
+        "Descrizione": "LANE 22cm. hal 150W R7s",
+        "Gruppo": "D64",
+        "Modello": "D64",
+        "Colore": "bianco",
+        "Barcode": "8032706718677"
+    },
+    {
+        "Prezzo": "282.79",
+        "Articolo": "1D6603A00000",
+        "Descrizione": "HOPE  3 applique 120W R7s",
+        "Gruppo": "D66",
+        "Modello": "D66/03a",
+        "Colore": "",
+        "Barcode": "8033433846596"
+    },
+    {
+        "Prezzo": "658.20",
+        "Articolo": "1D6608A00000",
+        "Descrizione": "HOPE  8 applique 250W E27",
+        "Gruppo": "D66",
+        "Modello": "D66/08a",
+        "Colore": "",
+        "Barcode": "8033433843809"
+    },
+    {
+        "Prezzo": "9489.34",
+        "Articolo": "1D66105S0000",
+        "Descrizione": "HOPE 105 sosp.5x250W E27",
+        "Gruppo": "D66",
+        "Modello": "D66/105",
+        "Colore": "",
+        "Barcode": "8033433844981"
+    },
+    {
+        "Prezzo": "957.38",
+        "Articolo": "1D6612P00000",
+        "Descrizione": "HOPE 12 plaf.3x60W E14",
+        "Gruppo": "D66",
+        "Modello": "D66/12p",
+        "Colore": "",
+        "Barcode": "8033433845445"
+    },
+    {
+        "Prezzo": "853.28",
+        "Articolo": "1D6612S00000",
+        "Descrizione": "HOPE 12 sosp.250W E27",
+        "Gruppo": "D66",
+        "Modello": "D66/12",
+        "Colore": "",
+        "Barcode": "8033433843533"
+    },
+    {
+        "Prezzo": "1133.61",
+        "Articolo": "1D6618S00000",
+        "Descrizione": "HOPE 18 sosp.250W E27",
+        "Gruppo": "D66",
+        "Modello": "D66/18",
+        "Colore": "",
+        "Barcode": "8033433843526"
+    },
+    {
+        "Prezzo": "1203.28",
+        "Articolo": "1D6618SH0000",
+        "Descrizione": "HOPE 18 sosp.Friends of Hue EU",
+        "Gruppo": "D66",
+        "Modello": "D66/18H",
+        "Colore": "",
+        "Barcode": "8056304360533"
+    },
+    {
+        "Prezzo": "490.16",
+        "Articolo": "1D6618T01019",
+        "Descrizione": "HOPE 18 solo stelo terra",
+        "Gruppo": "D66",
+        "Modello": "D66/18t.1",
+        "Colore": "",
+        "Barcode": "8033433845476"
+    },
+    {
+        "Prezzo": "1154.92",
+        "Articolo": "1D6618TD0000",
+        "Descrizione": "HOPE 18 corpo terra dimmer E27",
+        "Gruppo": "D66",
+        "Modello": "D66/18td",
+        "Colore": "",
+        "Barcode": "8033433845452"
+    },
+    {
+        "Prezzo": "2367.21",
+        "Articolo": "1D6630P00000",
+        "Descrizione": "HOPE 30 plaf.3x105W E27 EU",
+        "Gruppo": "D66",
+        "Modello": "D66/30p",
+        "Colore": "",
+        "Barcode": "8033247789584"
+    },
+    {
+        "Prezzo": "3417.21",
+        "Articolo": "1D6642S00000",
+        "Descrizione": "HOPE 42 sosp.3x250W E27",
+        "Gruppo": "D66",
+        "Modello": "D66/42",
+        "Colore": "",
+        "Barcode": "8033433843793"
+    },
+    {
+        "Prezzo": "176.23",
+        "Articolo": "1D670PN10002",
+        "Descrizione": "ECRAN in&out LED SDW 8W EU",
+        "Gruppo": "D67P",
+        "Modello": "D67PLN1",
+        "Colore": "bianco",
+        "Barcode": "8051414548451"
+    },
+    {
+        "Prezzo": "176.23",
+        "Articolo": "1D670PN10034",
+        "Descrizione": "ECRAN in&out LED SDW 8W EU",
+        "Gruppo": "D67P",
+        "Modello": "D67PLN1",
+        "Colore": "bi/bei",
+        "Barcode": "8051414548475"
+    },
+    {
+        "Prezzo": "227.05",
+        "Articolo": "1D680/1D0002",
+        "Descrizione": "ARCHETYPE rosone DALI EU",
+        "Gruppo": "D68",
+        "Modello": "D68/1D",
+        "Colore": "",
+        "Barcode": "8056304364098"
+    },
+    {
+        "Prezzo": "177.87",
+        "Articolo": "1D680/1T0002",
+        "Descrizione": "ARCHETYPE rosone tg.fase EU",
+        "Gruppo": "D68",
+        "Modello": "D68/1T",
+        "Colore": "",
+        "Barcode": "8056304364012"
+    },
+    {
+        "Prezzo": "289.34",
+        "Articolo": "1D680C000001",
+        "Descrizione": "ARCHETYPE corpo LED 10W 2700K",
+        "Gruppo": "D68L",
+        "Modello": "D68C",
+        "Colore": "nero",
+        "Barcode": "8056304364036"
+    },
+    {
+        "Prezzo": "289.34",
+        "Articolo": "1D680C000002",
+        "Descrizione": "ARCHETYPE corpo LED 10W 2700K",
+        "Gruppo": "D68L",
+        "Modello": "D68C",
+        "Colore": "bianco",
+        "Barcode": "8056304364104"
+    },
+    {
+        "Prezzo": "289.34",
+        "Articolo": "1D680C000007",
+        "Descrizione": "ARCHETYPE corpo LED 10W 2700K",
+        "Gruppo": "D68L",
+        "Modello": "D68C",
+        "Colore": "rosso",
+        "Barcode": "8056304364111"
+    },
+    {
+        "Prezzo": "289.34",
+        "Articolo": "1D680C000023",
+        "Descrizione": "ARCHETYPE corpo LED 10W 2700K",
+        "Gruppo": "D68L",
+        "Modello": "D68C",
+        "Colore": "azzurr",
+        "Barcode": "8056304364128"
+    },
+    {
+        "Prezzo": "347.54",
+        "Articolo": "1D69000L0002",
+        "Descrizione": "Any 23cm 3x8W LED",
+        "Gruppo": "D69",
+        "Modello": "D69",
+        "Colore": "bianco",
+        "Barcode": "8033433847388"
+    },
+    {
+        "Prezzo": "293.44",
+        "Articolo": "1D69002E0002",
+        "Descrizione": "Any 63cm 1x80W 2G11",
+        "Gruppo": "D69",
+        "Modello": "D69/02",
+        "Colore": "bianco",
+        "Barcode": "8033433847401"
+    },
+    {
+        "Prezzo": "65.57",
+        "Articolo": "1D7001000002",
+        "Descrizione": "Honeycomb 1corpo+3agganci",
+        "Gruppo": "D70",
+        "Modello": "D70C/1",
+        "Colore": "bianco",
+        "Barcode": "8033247787948"
+    },
+    {
+        "Prezzo": "81.15",
+        "Articolo": "1D7002000002",
+        "Descrizione": "Honeycomb kit sospensione",
+        "Gruppo": "D70",
+        "Modello": "D70S",
+        "Colore": "bianco",
+        "Barcode": "8033247787955"
+    },
+    {
+        "Prezzo": "187.70",
+        "Articolo": "1D7003000002",
+        "Descrizione": "Honeycomb 3corpi+9agganci",
+        "Gruppo": "D70",
+        "Modello": "D70C/3",
+        "Colore": "bianco",
+        "Barcode": "8033247787962"
+    },
+    {
+        "Prezzo": "34.43",
+        "Articolo": "1D7005000002",
+        "Descrizione": "Honeycomb 5 agganci x corpo",
+        "Gruppo": "D70",
+        "Modello": "D70A",
+        "Colore": "bianco",
+        "Barcode": "8033247788013"
+    },
+    {
+        "Prezzo": "540.98",
+        "Articolo": "1D701K300002",
+        "Descrizione": "D70 KIT 3corpi+3LED+sosp",
+        "Gruppo": "D70",
+        "Modello": "D70K/3N1",
+        "Colore": "bianco",
+        "Barcode": "8051414548628"
+    },
+    {
+        "Prezzo": "826.23",
+        "Articolo": "1D701K400002",
+        "Descrizione": "D70 KIT 4corpi+6LED+sosp",
+        "Gruppo": "D70",
+        "Modello": "D70K/4N1",
+        "Colore": "bianco",
+        "Barcode": "8051414548635"
+    },
+    {
+        "Prezzo": "282.79",
+        "Articolo": "1D701L100000",
+        "Descrizione": "Honeycomb 3x7W LED SDW EU",
+        "Gruppo": "D70",
+        "Modello": "D70L/1N1",
+        "Colore": "",
+        "Barcode": "8051414548482"
+    },
+    {
+        "Prezzo": "504.10",
+        "Articolo": "1D701L200000",
+        "Descrizione": "Honeycomb 6x7W LED SDW EU",
+        "Gruppo": "D70",
+        "Modello": "D70L/2N1",
+        "Colore": "",
+        "Barcode": "8051414548499"
+    },
+    {
+        "Prezzo": "186.89",
+        "Articolo": "1D71/0AC0002",
+        "Descrizione": "Pétale copertura cerchio",
+        "Gruppo": "D71",
+        "Modello": "D71/0AC",
+        "Colore": "",
+        "Barcode": "8051414542848"
+    },
+    {
+        "Prezzo": "186.89",
+        "Articolo": "1D71/0AP0002",
+        "Descrizione": "Pétale copertura petalo",
+        "Gruppo": "D71",
+        "Modello": "D71/0AP",
+        "Colore": "",
+        "Barcode": "8051414546235"
+    },
+    {
+        "Prezzo": "198.36",
+        "Articolo": "1D71/0AP1002",
+        "Descrizione": "Pétale copertura trilobato",
+        "Gruppo": "D71",
+        "Modello": "D71/0AP1",
+        "Colore": "",
+        "Barcode": "8051414546242"
+    },
+    {
+        "Prezzo": "575.41",
+        "Articolo": "1D71/6DL0002",
+        "Descrizione": "Pétale ott.DLM DALI+LED EU",
+        "Gruppo": "D71",
+        "Modello": "D71/6DL",
+        "Colore": "",
+        "Barcode": "8051414548079"
+    },
+    {
+        "Prezzo": "1778.69",
+        "Articolo": "1D710C0L0002",
+        "Descrizione": "Pétale corpo D.120 + LED",
+        "Gruppo": "D71",
+        "Modello": "D71CL",
+        "Colore": "",
+        "Barcode": "8033433847630"
+    },
+    {
+        "Prezzo": "1778.69",
+        "Articolo": "1D710P0L0002",
+        "Descrizione": "Pétale corpo petalo + LED",
+        "Gruppo": "D71",
+        "Modello": "D71PL",
+        "Colore": "",
+        "Barcode": "8033433847647"
+    },
+    {
+        "Prezzo": "2134.43",
+        "Articolo": "1D710P1L0002",
+        "Descrizione": "Pétale corpo trilob.+ LED",
+        "Gruppo": "D71",
+        "Modello": "D71P1L",
+        "Colore": "",
+        "Barcode": "8051414540011"
+    },
+    {
+        "Prezzo": "73.77",
+        "Articolo": "1D72/1000001",
+        "Descrizione": "OTTO WATT BASE",
+        "Gruppo": "D72",
+        "Modello": "D72/1",
+        "Colore": "nero",
+        "Barcode": "8033433847715"
+    },
+    {
+        "Prezzo": "97.54",
+        "Articolo": "1D72/1000002",
+        "Descrizione": "OTTO WATT BASE",
+        "Gruppo": "D72",
+        "Modello": "D72/1",
+        "Colore": "bianco",
+        "Barcode": "8033433847722"
+    },
+    {
+        "Prezzo": "104.92",
+        "Articolo": "1D72/1000018",
+        "Descrizione": "OTTO WATT BASE",
+        "Gruppo": "D72",
+        "Modello": "D72/1",
+        "Colore": "Mirror",
+        "Barcode": "8033433847739"
+    },
+    {
+        "Prezzo": "31.15",
+        "Articolo": "1D72/2000001",
+        "Descrizione": "OTTO WATT PERNO TAV.NERO/BLACK",
+        "Gruppo": "D72",
+        "Modello": "D72/2",
+        "Colore": "nero",
+        "Barcode": "8033433847975"
+    },
+    {
+        "Prezzo": "31.15",
+        "Articolo": "1D72/2000002",
+        "Descrizione": "OTTO WATT PERNO TAV.B.CO/WHITE",
+        "Gruppo": "D72",
+        "Modello": "D72/2",
+        "Colore": "bianco",
+        "Barcode": "8033433847982"
+    },
+    {
+        "Prezzo": "33.61",
+        "Articolo": "1D72/2000018",
+        "Descrizione": "OTTO WATT PERNO TAV.MIRROR",
+        "Gruppo": "D72",
+        "Modello": "D72/2",
+        "Colore": "Mirror",
+        "Barcode": "8033433848682"
+    },
+    {
+        "Prezzo": "60.66",
+        "Articolo": "1D72/3000001",
+        "Descrizione": "OTTO WATT MORSETTO NERO/BLACK",
+        "Gruppo": "D72",
+        "Modello": "D72/3",
+        "Colore": "nero",
+        "Barcode": "8033433849177"
+    },
+    {
+        "Prezzo": "60.66",
+        "Articolo": "1D72/3000002",
+        "Descrizione": "OTTO WATT MORSETTO BIAN/WHITE",
+        "Gruppo": "D72",
+        "Modello": "D72/3",
+        "Colore": "bianco",
+        "Barcode": "8033433849566"
+    },
+    {
+        "Prezzo": "62.30",
+        "Articolo": "1D72/3000018",
+        "Descrizione": "OTTO WATT MORSETTO MIRROR",
+        "Gruppo": "D72",
+        "Modello": "D72/3",
+        "Colore": "Mirror",
+        "Barcode": "8033433849184"
+    },
+    {
+        "Prezzo": "30.33",
+        "Articolo": "1D72/4000001",
+        "Descrizione": "OTTO WATT Attacco parete blk",
+        "Gruppo": "D72",
+        "Modello": "D72/4",
+        "Colore": "nero",
+        "Barcode": "8033247789867"
+    },
+    {
+        "Prezzo": "30.33",
+        "Articolo": "1D72/4000002",
+        "Descrizione": "OTTO WATT Attacco parete wht",
+        "Gruppo": "D72",
+        "Modello": "D72/4",
+        "Colore": "bianco",
+        "Barcode": "8033247789874"
+    },
+    {
+        "Prezzo": "30.33",
+        "Articolo": "1D72/4000018",
+        "Descrizione": "OTTO WATT Attacco parete mir",
+        "Gruppo": "D72",
+        "Modello": "D72/4",
+        "Colore": "Mirror",
+        "Barcode": "8033247789881"
+    },
+    {
+        "Prezzo": "42.62",
+        "Articolo": "1D72/5000001",
+        "Descrizione": "OTTO WATT PERNO SCRIVANIA",
+        "Gruppo": "D72",
+        "Modello": "D72/5",
+        "Colore": "nero",
+        "Barcode": "8033433848699"
+    },
+    {
+        "Prezzo": "42.62",
+        "Articolo": "1D72/5000002",
+        "Descrizione": "OTTO WATT PERNO SCRIVANIA",
+        "Gruppo": "D72",
+        "Modello": "D72/5",
+        "Colore": "bianco",
+        "Barcode": "8033433848705"
+    },
+    {
+        "Prezzo": "44.26",
+        "Articolo": "1D72/5000018",
+        "Descrizione": "OTTO WATT PERNO SCRIVANIA",
+        "Gruppo": "D72",
+        "Modello": "D72/5",
+        "Colore": "Mirror",
+        "Barcode": "8033433848712"
+    },
+    {
+        "Prezzo": "42.62",
+        "Articolo": "1D72/6000001",
+        "Descrizione": "OTTO WATT adattatore USM BLACK",
+        "Gruppo": "D72",
+        "Modello": "D72/6",
+        "Colore": "nero",
+        "Barcode": "8033433849412"
+    },
+    {
+        "Prezzo": "42.62",
+        "Articolo": "1D72/6000002",
+        "Descrizione": "OTTO WATT adattatore USM WHITE",
+        "Gruppo": "D72",
+        "Modello": "D72/6",
+        "Colore": "bianco",
+        "Barcode": "8033433849429"
+    },
+    {
+        "Prezzo": "44.26",
+        "Articolo": "1D72/6000018",
+        "Descrizione": "OTTO WATT adattatore USM MIR",
+        "Gruppo": "D72",
+        "Modello": "D72/6",
+        "Colore": "Mirror",
+        "Barcode": "8033433849436"
+    },
+    {
+        "Prezzo": "327.87",
+        "Articolo": "1D720=N10001",
+        "Descrizione": "OTTO WATT SDW",
+        "Gruppo": "D72",
+        "Modello": "D72N1",
+        "Colore": "nero",
+        "Barcode": "8051414548505"
+    },
+    {
+        "Prezzo": "316.39",
+        "Articolo": "1D720=N10002",
+        "Descrizione": "OTTO WATT SDW",
+        "Gruppo": "D72",
+        "Modello": "D72N1",
+        "Colore": "bianco",
+        "Barcode": "8051414548512"
+    },
+    {
+        "Prezzo": "327.87",
+        "Articolo": "1D720=N10018",
+        "Descrizione": "OTTO WATT SDW",
+        "Gruppo": "D72",
+        "Modello": "D72N1",
+        "Colore": "Mirror",
+        "Barcode": "8051414548529"
+    },
+    {
+        "Prezzo": "177.05",
+        "Articolo": "1D730/100001",
+        "Descrizione": "Counterbalance Base",
+        "Gruppo": "D73",
+        "Modello": "D73/1",
+        "Colore": "nero",
+        "Barcode": "8051414546600"
+    },
+    {
+        "Prezzo": "724.59",
+        "Articolo": "1D73N0000001",
+        "Descrizione": "Counterbalance LED 16W EU",
+        "Gruppo": "D73",
+        "Modello": "D73N",
+        "Colore": "nero",
+        "Barcode": "8056304360557"
+    },
+    {
+        "Prezzo": "724.59",
+        "Articolo": "1D73N0000003",
+        "Descrizione": "Counterbalance LED 16W EU",
+        "Gruppo": "D73",
+        "Modello": "D73N",
+        "Colore": "White",
+        "Barcode": "8056304360564"
+    },
+    {
+        "Prezzo": "365.57",
+        "Articolo": "1D73NA000001",
+        "Descrizione": "Counterbalance Spot LED 13W EU",
+        "Gruppo": "D73",
+        "Modello": "D73NA",
+        "Colore": "nero",
+        "Barcode": "8056304363015"
+    },
+    {
+        "Prezzo": "365.57",
+        "Articolo": "1D73NA000003",
+        "Descrizione": "Counterbalance Spot LED 13W EU",
+        "Gruppo": "D73",
+        "Modello": "D73NA",
+        "Colore": "White",
+        "Barcode": "8056304363022"
+    },
+    {
+        "Prezzo": "407.38",
+        "Articolo": "1D73NT000001",
+        "Descrizione": "Counterbalance TerraLED 15W EU",
+        "Gruppo": "D73",
+        "Modello": "D73NT",
+        "Colore": "nero",
+        "Barcode": "8056304360571"
+    },
+    {
+        "Prezzo": "840.16",
+        "Articolo": "1D750T000001",
+        "Descrizione": "Nothing LED 28W terra EU",
+        "Gruppo": "D75",
+        "Modello": "D75",
+        "Colore": "nero",
+        "Barcode": "8051414542770"
+    },
+    {
+        "Prezzo": "262.30",
+        "Articolo": "1D760N100003",
+        "Descrizione": "CURL LED SDW 1x8W EU",
+        "Gruppo": "D76",
+        "Modello": "D76N1",
+        "Colore": "bianco",
+        "Barcode": "8051414548543"
+    },
+    {
+        "Prezzo": "262.30",
+        "Articolo": "1D760N100018",
+        "Descrizione": "CURL LED SDW 1x8W EU",
+        "Gruppo": "D76",
+        "Modello": "D76N1",
+        "Colore": "Mirror",
+        "Barcode": "8051414548550"
+    },
+    {
+        "Prezzo": "860.66",
+        "Articolo": "1D77NTD00001",
+        "Descrizione": "TANGO Ter.LED 3000 dim.24V EU",
+        "Gruppo": "D77",
+        "Modello": "D77NT",
+        "Colore": "nero",
+        "Barcode": "8051414547355"
+    },
+    {
+        "Prezzo": "890.98",
+        "Articolo": "1D77NTDW0001",
+        "Descrizione": "TANGO Ter.LED 2700 dim.24V EU",
+        "Gruppo": "D77",
+        "Modello": "D77NTW",
+        "Colore": "nero",
+        "Barcode": "8051414548086"
+    },
+    {
+        "Prezzo": "431.15",
+        "Articolo": "1D780=000001",
+        "Descrizione": "ASCENT tav. LED 11W 2700K EU",
+        "Gruppo": "D78",
+        "Modello": "D78",
+        "Colore": "black",
+        "Barcode": "8051414540295"
+    },
+    {
+        "Prezzo": "379.51",
+        "Articolo": "1D780PT00001",
+        "Descrizione": "ASCENT p.tav. LED 11W 2700K EU",
+        "Gruppo": "D78",
+        "Modello": "D78pt",
+        "Colore": "black",
+        "Barcode": "8051414540301"
+    },
+    {
+        "Prezzo": "1788.52",
+        "Articolo": "1D7909C000A2",
+        "Descrizione": "SILENZIO corpo D.90",
+        "Gruppo": "D79",
+        "Modello": "D79/90c",
+        "Colore": "Rmx133",
+        "Barcode": "8051414543111"
+    },
+    {
+        "Prezzo": "1788.52",
+        "Articolo": "1D7909C000A3",
+        "Descrizione": "SILENZIO corpo D.90",
+        "Gruppo": "D79",
+        "Modello": "D79/90c",
+        "Colore": "Rmx152",
+        "Barcode": "8051414543128"
+    },
+    {
+        "Prezzo": "1788.52",
+        "Articolo": "1D7909C000B1",
+        "Descrizione": "SILENZIO corpo D.90",
+        "Gruppo": "D79",
+        "Modello": "D79/90c",
+        "Colore": "Rmx242",
+        "Barcode": "8051414543135"
+    },
+    {
+        "Prezzo": "1788.52",
+        "Articolo": "1D7909C000B2",
+        "Descrizione": "SILENZIO corpo D.90",
+        "Gruppo": "D79",
+        "Modello": "D79/90c",
+        "Colore": "Rmx252",
+        "Barcode": "8051414543142"
+    },
+    {
+        "Prezzo": "1942.62",
+        "Articolo": "1D7912C000A2",
+        "Descrizione": "SILENZIO corpo D.120",
+        "Gruppo": "D79",
+        "Modello": "D79/120c",
+        "Colore": "Rmx133",
+        "Barcode": "8051414543159"
+    },
+    {
+        "Prezzo": "1942.62",
+        "Articolo": "1D7912C000A3",
+        "Descrizione": "SILENZIO corpo D.120",
+        "Gruppo": "D79",
+        "Modello": "D79/120c",
+        "Colore": "Rmx152",
+        "Barcode": "8051414543166"
+    },
+    {
+        "Prezzo": "1942.62",
+        "Articolo": "1D7912C000B1",
+        "Descrizione": "SILENZIO corpo D.120",
+        "Gruppo": "D79",
+        "Modello": "D79/120c",
+        "Colore": "Rmx242",
+        "Barcode": "8051414543173"
+    },
+    {
+        "Prezzo": "1942.62",
+        "Articolo": "1D7912C000B2",
+        "Descrizione": "SILENZIO corpo D.120",
+        "Gruppo": "D79",
+        "Modello": "D79/120c",
+        "Colore": "Rmx252",
+        "Barcode": "8051414543180"
+    },
+    {
+        "Prezzo": "2376.23",
+        "Articolo": "1D7915C000A2",
+        "Descrizione": "SILENZIO corpo D.150",
+        "Gruppo": "D79",
+        "Modello": "D79/150c",
+        "Colore": "Rmx133",
+        "Barcode": "8051414543197"
+    },
+    {
+        "Prezzo": "2376.23",
+        "Articolo": "1D7915C000A3",
+        "Descrizione": "SILENZIO corpo D.150",
+        "Gruppo": "D79",
+        "Modello": "D79/150c",
+        "Colore": "Rmx152",
+        "Barcode": "8051414543203"
+    },
+    {
+        "Prezzo": "2376.23",
+        "Articolo": "1D7915C000B1",
+        "Descrizione": "SILENZIO corpo D.150",
+        "Gruppo": "D79",
+        "Modello": "D79/150c",
+        "Colore": "Rmx242",
+        "Barcode": "8051414543210"
+    },
+    {
+        "Prezzo": "2376.23",
+        "Articolo": "1D7915C000B2",
+        "Descrizione": "SILENZIO corpo D.150",
+        "Gruppo": "D79",
+        "Modello": "D79/150c",
+        "Colore": "Rmx252",
+        "Barcode": "8051414543227"
+    },
+    {
+        "Prezzo": "272.13",
+        "Articolo": "1D800A000002",
+        "Descrizione": "ILLUSION LED 17W 3000K EU",
+        "Gruppo": "D80",
+        "Modello": "D80",
+        "Colore": "bianco",
+        "Barcode": "8051414540325"
+    },
+    {
+        "Prezzo": "140.16",
+        "Articolo": "1D810/100000",
+        "Descrizione": "COMP.driver 60W T/DALI EU",
+        "Gruppo": "D81",
+        "Modello": "D81/10",
+        "Colore": "",
+        "Barcode": "8056304363053"
+    },
+    {
+        "Prezzo": "165.57",
+        "Articolo": "1D810/110000",
+        "Descrizione": "COMP.driver 100W T/DALI EU",
+        "Gruppo": "D81",
+        "Modello": "D81/11",
+        "Colore": "",
+        "Barcode": "8056304363060"
+    },
+    {
+        "Prezzo": "211.48",
+        "Articolo": "1D810/120000",
+        "Descrizione": "COMP.driver 150W T/DALI EU",
+        "Gruppo": "D81",
+        "Modello": "D81/12",
+        "Colore": "",
+        "Barcode": "8056304363077"
+    },
+    {
+        "Prezzo": "18.03",
+        "Articolo": "1D810/200001",
+        "Descrizione": "COMPENDIUM collegam.corpi D81s",
+        "Gruppo": "D81",
+        "Modello": "D81/2",
+        "Colore": "nero",
+        "Barcode": "8051414546464"
+    },
+    {
+        "Prezzo": "44.26",
+        "Articolo": "1D810/300001",
+        "Descrizione": "COMPENDIUM coll.ang.corpi D81s",
+        "Gruppo": "D81",
+        "Modello": "D81/3",
+        "Colore": "nero",
+        "Barcode": "8051414547928"
+    },
+    {
+        "Prezzo": "305.74",
+        "Articolo": "1D810/400000",
+        "Descrizione": "COMP.CIRCLE ros.DALI 60W EU",
+        "Gruppo": "D81",
+        "Modello": "D81/4",
+        "Colore": "",
+        "Barcode": "8056304361578"
+    },
+    {
+        "Prezzo": "345.90",
+        "Articolo": "1D810/500000",
+        "Descrizione": "COMP.CIRCLE ros.DALI 100W EU",
+        "Gruppo": "D81",
+        "Modello": "D81/5",
+        "Colore": "",
+        "Barcode": "8056304362940"
+    },
+    {
+        "Prezzo": "405.74",
+        "Articolo": "1D810/600000",
+        "Descrizione": "COMP.CIRCLE ros.DALI 150W EU",
+        "Gruppo": "D81",
+        "Modello": "D81/6",
+        "Colore": "",
+        "Barcode": "8056304362957"
+    },
+    {
+        "Prezzo": "205.74",
+        "Articolo": "1D810/7D0000",
+        "Descrizione": "COMPENDIUM rosone DALI EU",
+        "Gruppo": "D81",
+        "Modello": "D81/7D",
+        "Colore": "",
+        "Barcode": "8056304362018"
+    },
+    {
+        "Prezzo": "124.59",
+        "Articolo": "1D810/7T0000",
+        "Descrizione": "COMPENDIUM rosone tg.fase EU",
+        "Gruppo": "D81",
+        "Modello": "D81/7T",
+        "Colore": "",
+        "Barcode": "8056304362001"
+    },
+    {
+        "Prezzo": "158.20",
+        "Articolo": "1D810/800002",
+        "Descrizione": "COMPENDIUM copert.driver",
+        "Gruppo": "D81",
+        "Modello": "D81/8",
+        "Colore": "bianco",
+        "Barcode": "8056304363084"
+    },
+    {
+        "Prezzo": "479.51",
+        "Articolo": "1D810B000001",
+        "Descrizione": "COMPENDIUM corpo S.28W 3000K",
+        "Gruppo": "D81",
+        "Modello": "D81B",
+        "Colore": "nero",
+        "Barcode": "8056304362100"
+    },
+    {
+        "Prezzo": "479.51",
+        "Articolo": "1D810B000020",
+        "Descrizione": "COMPENDIUM corpo S.28W 3000K",
+        "Gruppo": "D81",
+        "Modello": "D81B",
+        "Colore": "alu",
+        "Barcode": "8056304362117"
+    },
+    {
+        "Prezzo": "479.51",
+        "Articolo": "1D810B000030",
+        "Descrizione": "COMPENDIUM corpo S.28W 3000K",
+        "Gruppo": "D81",
+        "Modello": "D81B",
+        "Colore": "ottone",
+        "Barcode": "8056304362124"
+    },
+    {
+        "Prezzo": "479.51",
+        "Articolo": "1D810BW00001",
+        "Descrizione": "COMPENDIUM corpo S.28W 2700K",
+        "Gruppo": "D81",
+        "Modello": "D81BW",
+        "Colore": "nero",
+        "Barcode": "8056304362070"
+    },
+    {
+        "Prezzo": "479.51",
+        "Articolo": "1D810BW00020",
+        "Descrizione": "COMPENDIUM corpo S.28W 2700K",
+        "Gruppo": "D81",
+        "Modello": "D81BW",
+        "Colore": "alu",
+        "Barcode": "8056304362087"
+    },
+    {
+        "Prezzo": "479.51",
+        "Articolo": "1D810BW00030",
+        "Descrizione": "COMPENDIUM corpo S.28W 2700K",
+        "Gruppo": "D81",
+        "Modello": "D81BW",
+        "Colore": "ottone",
+        "Barcode": "8056304362094"
+    },
+    {
+        "Prezzo": "1208.20",
+        "Articolo": "1D810C070001",
+        "Descrizione": "COMPENDIUM circle D. 72 3000K",
+        "Gruppo": "D81",
+        "Modello": "D81C07",
+        "Colore": "nero",
+        "Barcode": "8056304361516"
+    },
+    {
+        "Prezzo": "1208.20",
+        "Articolo": "1D810C070020",
+        "Descrizione": "COMPENDIUM circle D. 72 3000K",
+        "Gruppo": "D81",
+        "Modello": "D81C07",
+        "Colore": "alu",
+        "Barcode": "8056304362865"
+    },
+    {
+        "Prezzo": "1208.20",
+        "Articolo": "1D810C070030",
+        "Descrizione": "COMPENDIUM circle D. 72 3000K",
+        "Gruppo": "D81",
+        "Modello": "D81C07",
+        "Colore": "ottone",
+        "Barcode": "8056304362872"
+    },
+    {
+        "Prezzo": "1350.00",
+        "Articolo": "1D810C110001",
+        "Descrizione": "COMPENDIUM circle D.110 3000K",
+        "Gruppo": "D81",
+        "Modello": "D81C11",
+        "Colore": "nero",
+        "Barcode": "8056304361523"
+    },
+    {
+        "Prezzo": "1350.00",
+        "Articolo": "1D810C110020",
+        "Descrizione": "COMPENDIUM circle D.110 3000K",
+        "Gruppo": "D81",
+        "Modello": "D81C11",
+        "Colore": "alu",
+        "Barcode": "8056304362889"
+    },
+    {
+        "Prezzo": "1350.00",
+        "Articolo": "1D810C110030",
+        "Descrizione": "COMPENDIUM circle D.110 3000K",
+        "Gruppo": "D81",
+        "Modello": "D81C11",
+        "Colore": "ottone",
+        "Barcode": "8056304362896"
+    },
+    {
+        "Prezzo": "2186.07",
+        "Articolo": "1D810C200001",
+        "Descrizione": "COMPENDIUM circle D.200 3000K",
+        "Gruppo": "D81",
+        "Modello": "D81C20",
+        "Colore": "nero",
+        "Barcode": "8056304361530"
+    },
+    {
+        "Prezzo": "2186.07",
+        "Articolo": "1D810C200020",
+        "Descrizione": "COMPENDIUM circle D.200 3000K",
+        "Gruppo": "D81",
+        "Modello": "D81C20",
+        "Colore": "alu",
+        "Barcode": "8056304362902"
+    },
+    {
+        "Prezzo": "2186.07",
+        "Articolo": "1D810C200030",
+        "Descrizione": "COMPENDIUM circle D.200 3000K",
+        "Gruppo": "D81",
+        "Modello": "D81C20",
+        "Colore": "ottone",
+        "Barcode": "8056304362919"
+    },
+    {
+        "Prezzo": "875.41",
+        "Articolo": "1D810P000001",
+        "Descrizione": "COMP.PLATE 75W 2700K DALI EU",
+        "Gruppo": "D81",
+        "Modello": "D81P",
+        "Colore": "nero",
+        "Barcode": "8056304362858"
+    },
+    {
+        "Prezzo": "875.41",
+        "Articolo": "1D810P000020",
+        "Descrizione": "COMP.PLATE 75W 2700K DALI EU",
+        "Gruppo": "D81",
+        "Modello": "D81P",
+        "Colore": "alu",
+        "Barcode": "8056304362926"
+    },
+    {
+        "Prezzo": "875.41",
+        "Articolo": "1D810P000030",
+        "Descrizione": "COMP.PLATE 75W 2700K DALI EU",
+        "Gruppo": "D81",
+        "Modello": "D81P",
+        "Colore": "ottone",
+        "Barcode": "8056304362933"
+    },
+    {
+        "Prezzo": "899.18",
+        "Articolo": "1D810P0S0001",
+        "Descrizione": "COMP.PLATE sosp.2700K DALI EU",
+        "Gruppo": "D81",
+        "Modello": "D81PS",
+        "Colore": "nero",
+        "Barcode": "8056304365019"
+    },
+    {
+        "Prezzo": "899.18",
+        "Articolo": "1D810P0S0020",
+        "Descrizione": "COMP.PLATE sosp.2700K DALI EU",
+        "Gruppo": "D81",
+        "Modello": "D81PS",
+        "Colore": "alu",
+        "Barcode": "8056304365026"
+    },
+    {
+        "Prezzo": "899.18",
+        "Articolo": "1D810P0S0030",
+        "Descrizione": "COMP.PLATE sosp.2700K DALI EU",
+        "Gruppo": "D81",
+        "Modello": "D81PS",
+        "Colore": "brass",
+        "Barcode": "8056304365033"
+    },
+    {
+        "Prezzo": "802.46",
+        "Articolo": "1D810S0H0001",
+        "Descrizione": "COMPENDIUM S.Friends of Hue EU",
+        "Gruppo": "D81",
+        "Modello": "D81SH",
+        "Colore": "nero",
+        "Barcode": "8056304360700"
+    },
+    {
+        "Prezzo": "802.46",
+        "Articolo": "1D810S0H0020",
+        "Descrizione": "COMPENDIUM S.Friends of Hue EU",
+        "Gruppo": "D81",
+        "Modello": "D81SH",
+        "Colore": "alu",
+        "Barcode": "8056304360717"
+    },
+    {
+        "Prezzo": "802.46",
+        "Articolo": "1D810S0H0030",
+        "Descrizione": "COMPENDIUM S.Friends of Hue EU",
+        "Gruppo": "D81",
+        "Modello": "D81SH",
+        "Colore": "ottone",
+        "Barcode": "8056304360724"
+    },
+    {
+        "Prezzo": "240.98",
+        "Articolo": "1D81N/100001",
+        "Descrizione": "COMPENDIUM Base dimm.EU",
+        "Gruppo": "D81",
+        "Modello": "D81/1N",
+        "Colore": "nero",
+        "Barcode": "8056304363657"
+    },
+    {
+        "Prezzo": "490.16",
+        "Articolo": "1D81NT000001",
+        "Descrizione": "COMPENDIUM corpo T.28W 3000K",
+        "Gruppo": "D81",
+        "Modello": "D81NT",
+        "Colore": "nero",
+        "Barcode": "8056304362247"
+    },
+    {
+        "Prezzo": "490.16",
+        "Articolo": "1D81NT000020",
+        "Descrizione": "COMPENDIUM corpo T.28W 3000K",
+        "Gruppo": "D81",
+        "Modello": "D81NT",
+        "Colore": "alu",
+        "Barcode": "8056304362254"
+    },
+    {
+        "Prezzo": "490.16",
+        "Articolo": "1D81NT000030",
+        "Descrizione": "COMPENDIUM corpo T.28W 3000K",
+        "Gruppo": "D81",
+        "Modello": "D81NT",
+        "Colore": "ottone",
+        "Barcode": "8056304362261"
+    },
+    {
+        "Prezzo": "490.16",
+        "Articolo": "1D81NTW00001",
+        "Descrizione": "COMPENDIUM corpo T.28W 2700K",
+        "Gruppo": "D81",
+        "Modello": "D81NTW",
+        "Colore": "nero",
+        "Barcode": "8056304362278"
+    },
+    {
+        "Prezzo": "490.16",
+        "Articolo": "1D81NTW00020",
+        "Descrizione": "COMPENDIUM corpo T.28W 2700K",
+        "Gruppo": "D81",
+        "Modello": "D81NTW",
+        "Colore": "alu",
+        "Barcode": "8056304362285"
+    },
+    {
+        "Prezzo": "490.16",
+        "Articolo": "1D81NTW00030",
+        "Descrizione": "COMPENDIUM corpo T.28W 2700K",
+        "Gruppo": "D81",
+        "Modello": "D81NTW",
+        "Colore": "ottone",
+        "Barcode": "8056304362292"
+    },
+    {
+        "Prezzo": "49.18",
+        "Articolo": "1D83/1000001",
+        "Descrizione": "TIVEDO base",
+        "Gruppo": "D83",
+        "Modello": "D83/1",
+        "Colore": "nero",
+        "Barcode": "8051414542916"
+    },
+    {
+        "Prezzo": "49.18",
+        "Articolo": "1D83/1000004",
+        "Descrizione": "TIVEDO base",
+        "Gruppo": "D83",
+        "Modello": "D83/1",
+        "Colore": "grigio",
+        "Barcode": "8051414544125"
+    },
+    {
+        "Prezzo": "49.18",
+        "Articolo": "1D83/1000008",
+        "Descrizione": "TIVEDO base",
+        "Gruppo": "D83",
+        "Modello": "D83/1",
+        "Colore": "rosso",
+        "Barcode": "8051414544132"
+    },
+    {
+        "Prezzo": "49.18",
+        "Articolo": "1D83/1000023",
+        "Descrizione": "TIVEDO base",
+        "Gruppo": "D83",
+        "Modello": "D83/1",
+        "Colore": "azzurr",
+        "Barcode": "8051414544149"
+    },
+    {
+        "Prezzo": "27.87",
+        "Articolo": "1D83/2000018",
+        "Descrizione": "TIVEDO perno tavolo",
+        "Gruppo": "D83",
+        "Modello": "D83/2",
+        "Colore": "lucido",
+        "Barcode": "8051414543104"
+    },
+    {
+        "Prezzo": "233.61",
+        "Articolo": "1D830=000001",
+        "Descrizione": "TIVEDO LED 9W 3000K EU",
+        "Gruppo": "D83",
+        "Modello": "D83",
+        "Colore": "nero",
+        "Barcode": "8051414542909"
+    },
+    {
+        "Prezzo": "233.61",
+        "Articolo": "1D830=000004",
+        "Descrizione": "TIVEDO LED 9W 3000K EU",
+        "Gruppo": "D83",
+        "Modello": "D83",
+        "Colore": "grigio",
+        "Barcode": "8051414543937"
+    },
+    {
+        "Prezzo": "233.61",
+        "Articolo": "1D830=000008",
+        "Descrizione": "TIVEDO LED 9W 3000K EU",
+        "Gruppo": "D83",
+        "Modello": "D83",
+        "Colore": "rosso",
+        "Barcode": "8051414543944"
+    },
+    {
+        "Prezzo": "233.61",
+        "Articolo": "1D830=000023",
+        "Descrizione": "TIVEDO LED 9W 3000K EU",
+        "Gruppo": "D83",
+        "Modello": "D83",
+        "Colore": "azzurr",
+        "Barcode": "8051414543920"
+    },
+    {
+        "Prezzo": "285.25",
+        "Articolo": "1D830=001001",
+        "Descrizione": "TIVEDO LED 9W 3000K PIR EU",
+        "Gruppo": "D83",
+        "Modello": "D83pres",
+        "Colore": "nero",
+        "Barcode": "8051414542923"
+    },
+    {
+        "Prezzo": "285.25",
+        "Articolo": "1D830=001004",
+        "Descrizione": "TIVEDO LED 9W 3000K PIR EU",
+        "Gruppo": "D83",
+        "Modello": "D83pres",
+        "Colore": "grigio",
+        "Barcode": "8051414543951"
+    },
+    {
+        "Prezzo": "285.25",
+        "Articolo": "1D830=001008",
+        "Descrizione": "TIVEDO LED 9W 3000K PIR EU",
+        "Gruppo": "D83",
+        "Modello": "D83pres",
+        "Colore": "rosso",
+        "Barcode": "8051414543968"
+    },
+    {
+        "Prezzo": "285.25",
+        "Articolo": "1D830=001023",
+        "Descrizione": "TIVEDO LED 9W 3000K PIR EU",
+        "Gruppo": "D83",
+        "Modello": "D83pres",
+        "Colore": "azzurr",
+        "Barcode": "8051414543975"
+    },
+    {
+        "Prezzo": "45.90",
+        "Articolo": "1D840/100000",
+        "Descrizione": "FLY TOO trasformatore",
+        "Gruppo": "D84",
+        "Modello": "D84/1",
+        "Colore": "",
+        "Barcode": "8051414548277"
+    },
+    {
+        "Prezzo": "381.15",
+        "Articolo": "1D840A000001",
+        "Descrizione": "FLY TOO LED 26W 3000K EU",
+        "Gruppo": "D84",
+        "Modello": "D84a",
+        "Colore": "Blk/Wh",
+        "Barcode": "8051414547126"
+    },
+    {
+        "Prezzo": "381.15",
+        "Articolo": "1D840A000002",
+        "Descrizione": "FLY TOO LED 26W 3000K EU",
+        "Gruppo": "D84",
+        "Modello": "D84a",
+        "Colore": "Wh/Wh",
+        "Barcode": "8051414547133"
+    },
+    {
+        "Prezzo": "381.15",
+        "Articolo": "1D840A000038",
+        "Descrizione": "FLY TOO LED 26W 3000K EU",
+        "Gruppo": "D84",
+        "Modello": "D84a",
+        "Colore": "Wh/Tan",
+        "Barcode": "8051414547140"
+    },
+    {
+        "Prezzo": "327.05",
+        "Articolo": "1D840A010001",
+        "Descrizione": "FLY TOO rem.LED 26W 3000K EU",
+        "Gruppo": "D84",
+        "Modello": "D84a/01",
+        "Colore": "Blk/Wh",
+        "Barcode": "8051414547157"
+    },
+    {
+        "Prezzo": "327.05",
+        "Articolo": "1D840A010002",
+        "Descrizione": "FLY TOO rem.LED 26W 3000K EU",
+        "Gruppo": "D84",
+        "Modello": "D84a/01",
+        "Colore": "Wh/Wh",
+        "Barcode": "8051414547164"
+    },
+    {
+        "Prezzo": "327.05",
+        "Articolo": "1D840A010038",
+        "Descrizione": "FLY TOO rem.LED 26W 3000K EU",
+        "Gruppo": "D84",
+        "Modello": "D84a/01",
+        "Colore": "Wh/Tan",
+        "Barcode": "8051414547171"
+    },
+    {
+        "Prezzo": "104.10",
+        "Articolo": "1D860/100000",
+        "Descrizione": "MESH KIT wireless",
+        "Gruppo": "D86",
+        "Modello": "D86/1",
+        "Colore": "",
+        "Barcode": "8056304361677"
+    },
+    {
+        "Prezzo": "731.97",
+        "Articolo": "1D860/T11001",
+        "Descrizione": "MESH rosone sosp.1m tg.fase",
+        "Gruppo": "D86",
+        "Modello": "D86/T1/1",
+        "Colore": "nero",
+        "Barcode": "8056304363336"
+    },
+    {
+        "Prezzo": "668.85",
+        "Articolo": "1D860/T18001",
+        "Descrizione": "MESH rosone sosp.1m tg.f. picc",
+        "Gruppo": "D86",
+        "Modello": "D86/T1/8",
+        "Colore": "nero",
+        "Barcode": "8056304363350"
+    },
+    {
+        "Prezzo": "817.21",
+        "Articolo": "1D860/T51001",
+        "Descrizione": "MESH rosone sosp.5m tg.fase",
+        "Gruppo": "D86",
+        "Modello": "D86/T5/1",
+        "Colore": "nero",
+        "Barcode": "8056304363343"
+    },
+    {
+        "Prezzo": "766.39",
+        "Articolo": "1D860/T58001",
+        "Descrizione": "MESH rosone sosp.5m tg.f. picc",
+        "Gruppo": "D86",
+        "Modello": "D86/T5/8",
+        "Colore": "nero",
+        "Barcode": "8056304363367"
+    },
+    {
+        "Prezzo": "744.26",
+        "Articolo": "1D860/W10001",
+        "Descrizione": "MESH rosone sospensione 1m",
+        "Gruppo": "D86",
+        "Modello": "D86/W1",
+        "Colore": "nero",
+        "Barcode": "8056304361653"
+    },
+    {
+        "Prezzo": "886.89",
+        "Articolo": "1D860/W50001",
+        "Descrizione": "MESH rosone sospensione 5m",
+        "Gruppo": "D86",
+        "Modello": "D86/W5",
+        "Colore": "nero",
+        "Barcode": "8056304361660"
+    },
+    {
+        "Prezzo": "1477.05",
+        "Articolo": "1D860C551001",
+        "Descrizione": "MESH so.1m D.55 2700K tg.f EU",
+        "Gruppo": "D86",
+        "Modello": "D86C551",
+        "Colore": "nero",
+        "Barcode": "8056304362315"
+    },
+    {
+        "Prezzo": "1590.98",
+        "Articolo": "1D860C555001",
+        "Descrizione": "MESH so.5m D.55 2700K tg.f EU",
+        "Gruppo": "D86",
+        "Modello": "D86C555",
+        "Colore": "nero",
+        "Barcode": "8056304362322"
+    },
+    {
+        "Prezzo": "2681.15",
+        "Articolo": "1D860N000001",
+        "Descrizione": "MESH corpo D.100 2700K NEW",
+        "Gruppo": "D86",
+        "Modello": "D86N",
+        "Colore": "nero",
+        "Barcode": "8056304361691"
+    },
+    {
+        "Prezzo": "1981.97",
+        "Articolo": "1D860N800001",
+        "Descrizione": "MESH corpo D.80 2700K NEW",
+        "Gruppo": "D86",
+        "Modello": "D86NPI",
+        "Colore": "nero",
+        "Barcode": "8056304361684"
+    },
+    {
+        "Prezzo": "2235.25",
+        "Articolo": "1D860PLN0001",
+        "Descrizione": "MESH plaf.tg.fas D.72 2700K EU",
+        "Gruppo": "D86",
+        "Modello": "D86PLN",
+        "Colore": "nero",
+        "Barcode": "8056304362308"
+    },
+    {
+        "Prezzo": "568.85",
+        "Articolo": "1D8704800002",
+        "Descrizione": "STOCHASTIC 48 sfere+tiranti",
+        "Gruppo": "D87",
+        "Modello": "D87048",
+        "Colore": "satin",
+        "Barcode": "8056304360342"
+    },
+    {
+        "Prezzo": "568.85",
+        "Articolo": "1D8704800018",
+        "Descrizione": "STOCHASTIC 48 sfere+tiranti",
+        "Gruppo": "D87",
+        "Modello": "D87048",
+        "Colore": "metal",
+        "Barcode": "8056304360359"
+    },
+    {
+        "Prezzo": "874.59",
+        "Articolo": "1D8707200002",
+        "Descrizione": "STOCHASTIC 72 sfere+tiranti",
+        "Gruppo": "D87",
+        "Modello": "D87072",
+        "Colore": "satin",
+        "Barcode": "8056304360366"
+    },
+    {
+        "Prezzo": "874.59",
+        "Articolo": "1D8707200018",
+        "Descrizione": "STOCHASTIC 72 sfere+tiranti",
+        "Gruppo": "D87",
+        "Modello": "D87072",
+        "Colore": "metal",
+        "Barcode": "8056304360489"
+    },
+    {
+        "Prezzo": "656.56",
+        "Articolo": "1D870CC00000",
+        "Descrizione": "STOCHASTIC LED 24W 3000K EU",
+        "Gruppo": "D87",
+        "Modello": "D87CC",
+        "Colore": "",
+        "Barcode": "8056304360328"
+    },
+    {
+        "Prezzo": "656.56",
+        "Articolo": "1D870CW00000",
+        "Descrizione": "STOCHASTIC LED 24W 2700K EU",
+        "Gruppo": "D87",
+        "Modello": "D87CW",
+        "Colore": "",
+        "Barcode": "8056304360335"
+    },
+    {
+        "Prezzo": "364.75",
+        "Articolo": "1D880=DW0004",
+        "Descrizione": "CAPPUCCINA ta LED 12W 2700K EU",
+        "Gruppo": "D88",
+        "Modello": "D88W",
+        "Colore": "grigio",
+        "Barcode": "8056304364340"
+    },
+    {
+        "Prezzo": "153.28",
+        "Articolo": "1D8801000003",
+        "Descrizione": "CAPPUCCINA paralume piccolo",
+        "Gruppo": "D88",
+        "Modello": "D88/1",
+        "Colore": "Cream",
+        "Barcode": "8051414547218"
+    },
+    {
+        "Prezzo": "153.28",
+        "Articolo": "1D8801000011",
+        "Descrizione": "CAPPUCCINA paralume piccolo",
+        "Gruppo": "D88",
+        "Modello": "D88/1",
+        "Colore": "greenc",
+        "Barcode": "8051414547225"
+    },
+    {
+        "Prezzo": "153.28",
+        "Articolo": "1D8801000028",
+        "Descrizione": "CAPPUCCINA paralume piccolo",
+        "Gruppo": "D88",
+        "Modello": "D88/1",
+        "Colore": "brownp",
+        "Barcode": "8051414547232"
+    },
+    {
+        "Prezzo": "181.97",
+        "Articolo": "1D8802000003",
+        "Descrizione": "CAPPUCCINA paralume grande",
+        "Gruppo": "D88",
+        "Modello": "D88/2",
+        "Colore": "Cream",
+        "Barcode": "8051414547249"
+    },
+    {
+        "Prezzo": "181.97",
+        "Articolo": "1D8802000011",
+        "Descrizione": "CAPPUCCINA paralume grande",
+        "Gruppo": "D88",
+        "Modello": "D88/2",
+        "Colore": "greenc",
+        "Barcode": "8051414547256"
+    },
+    {
+        "Prezzo": "181.97",
+        "Articolo": "1D8802000028",
+        "Descrizione": "CAPPUCCINA paralume grande",
+        "Gruppo": "D88",
+        "Modello": "D88/2",
+        "Colore": "brownp",
+        "Barcode": "8051414547263"
+    },
+    {
+        "Prezzo": "39.34",
+        "Articolo": "1D8803000000",
+        "Descrizione": "CAPPUCCINA anticaduta piccolo",
+        "Gruppo": "D88",
+        "Modello": "D88/3",
+        "Colore": "",
+        "Barcode": "8051414547867"
+    },
+    {
+        "Prezzo": "59.84",
+        "Articolo": "1D8804000000",
+        "Descrizione": "CAPPUCCINA anticaduta grande",
+        "Gruppo": "D88",
+        "Modello": "D88/4",
+        "Colore": "",
+        "Barcode": "8051414547874"
+    },
+    {
+        "Prezzo": "313.93",
+        "Articolo": "1D880SW00004",
+        "Descrizione": "CAPPUCCINA so LED 15W 2700K EU",
+        "Gruppo": "D88",
+        "Modello": "D88SW",
+        "Colore": "grigio",
+        "Barcode": "8056304364388"
+    },
+    {
+        "Prezzo": "475.41",
+        "Articolo": "1D880TDW0004",
+        "Descrizione": "CAPPUCCINA te LED 12W 2700K EU",
+        "Gruppo": "D88",
+        "Modello": "D88TW",
+        "Colore": "grigio",
+        "Barcode": "8056304364364"
+    },
+    {
+        "Prezzo": "1674.59",
+        "Articolo": "1D890P000002",
+        "Descrizione": "SOLEIL N.Plaf.LED 35W 3000K EU",
+        "Gruppo": "D89",
+        "Modello": "D89P",
+        "Colore": "bianco",
+        "Barcode": "8051414548116"
+    },
+    {
+        "Prezzo": "1709.84",
+        "Articolo": "1D890P000035",
+        "Descrizione": "SOLEIL N.Plaf.LED 35W 3000K EU",
+        "Gruppo": "D89",
+        "Modello": "D89P",
+        "Colore": "bi/ner",
+        "Barcode": "8051414548338"
+    },
+    {
+        "Prezzo": "1674.59",
+        "Articolo": "1D890S000002",
+        "Descrizione": "SOLEIL N.Sosp.LED 35W 3000K EU",
+        "Gruppo": "D89",
+        "Modello": "D89s",
+        "Colore": "bianco",
+        "Barcode": "8051414547027"
+    },
+    {
+        "Prezzo": "1709.84",
+        "Articolo": "1D890S000035",
+        "Descrizione": "SOLEIL N.Sosp.LED 35W 3000K EU",
+        "Gruppo": "D89",
+        "Modello": "D89s",
+        "Colore": "bi/ner",
+        "Barcode": "8051414547034"
+    },
+    {
+        "Prezzo": "240.98",
+        "Articolo": "1D90NAW00002",
+        "Descrizione": "GARBI' LED 34W 2700K EU",
+        "Gruppo": "D90",
+        "Modello": "D90NW",
+        "Colore": "bianco",
+        "Barcode": "8056304361974"
+    },
+    {
+        "Prezzo": "321.31",
+        "Articolo": "1D90NAW00018",
+        "Descrizione": "GARBI' LED 34W 2700K EU",
+        "Gruppo": "D90",
+        "Modello": "D90NW",
+        "Colore": "Mirror",
+        "Barcode": "8056304361981"
+    },
+    {
+        "Prezzo": "45.08",
+        "Articolo": "1D91/0AAR000",
+        "Descrizione": "AMISOL access. antirotazione",
+        "Gruppo": "D91",
+        "Modello": "D91/0AAR",
+        "Colore": "",
+        "Barcode": "8056304361219"
+    },
+    {
+        "Prezzo": "435.25",
+        "Articolo": "1D910/100002",
+        "Descrizione": "AMISOL riflettore piccolo",
+        "Gruppo": "D91",
+        "Modello": "D91/1",
+        "Colore": "opale",
+        "Barcode": "8056304361141"
+    },
+    {
+        "Prezzo": "454.10",
+        "Articolo": "1D910/100020",
+        "Descrizione": "AMISOL riflettore piccolo",
+        "Gruppo": "D91",
+        "Modello": "D91/1",
+        "Colore": "argent",
+        "Barcode": "8056304361165"
+    },
+    {
+        "Prezzo": "454.10",
+        "Articolo": "1D910/100030",
+        "Descrizione": "AMISOL riflettore piccolo",
+        "Gruppo": "D91",
+        "Modello": "D91/1",
+        "Colore": "oro",
+        "Barcode": "8056304361172"
+    },
+    {
+        "Prezzo": "532.79",
+        "Articolo": "1D910/200002",
+        "Descrizione": "AMISOL riflettore grande",
+        "Gruppo": "D91",
+        "Modello": "D91/2",
+        "Colore": "opale",
+        "Barcode": "8056304361158"
+    },
+    {
+        "Prezzo": "567.21",
+        "Articolo": "1D910/200020",
+        "Descrizione": "AMISOL riflettore grande",
+        "Gruppo": "D91",
+        "Modello": "D91/2",
+        "Colore": "argent",
+        "Barcode": "8056304361189"
+    },
+    {
+        "Prezzo": "567.21",
+        "Articolo": "1D910/200030",
+        "Descrizione": "AMISOL riflettore grande",
+        "Gruppo": "D91",
+        "Modello": "D91/2",
+        "Colore": "oro",
+        "Barcode": "8056304361196"
+    },
+    {
+        "Prezzo": "514.75",
+        "Articolo": "1D910S000002",
+        "Descrizione": "AMISOL 53W 3000K dim.DALI EU",
+        "Gruppo": "D91",
+        "Modello": "D91S",
+        "Colore": "bianco",
+        "Barcode": "8056304361134"
+    },
+    {
+        "Prezzo": "75.41",
+        "Articolo": "1D920/200002",
+        "Descrizione": "LITA diffusore opalino 18cm",
+        "Gruppo": "D92",
+        "Modello": "D92/2",
+        "Colore": "opale",
+        "Barcode": "8056304361943"
+    },
+    {
+        "Prezzo": "125.41",
+        "Articolo": "1D920/300002",
+        "Descrizione": "LITA diffusore opalino 30cm",
+        "Gruppo": "D92",
+        "Modello": "D92/3",
+        "Colore": "opale",
+        "Barcode": "8056304361950"
+    },
+    {
+        "Prezzo": "211.48",
+        "Articolo": "1D920/400002",
+        "Descrizione": "LITA diffusore opalino 42cm",
+        "Gruppo": "D92",
+        "Modello": "D92/4",
+        "Colore": "opale",
+        "Barcode": "8056304363244"
+    },
+    {
+        "Prezzo": "116.39",
+        "Articolo": "1D920/500000",
+        "Descrizione": "LITA zavorra terra 30cm",
+        "Gruppo": "D92",
+        "Modello": "D92/5",
+        "Colore": "",
+        "Barcode": "8056304363169"
+    },
+    {
+        "Prezzo": "127.05",
+        "Articolo": "1D920/600000",
+        "Descrizione": "LITA zavorra terra 42cm",
+        "Gruppo": "D92",
+        "Modello": "D92/6",
+        "Colore": "",
+        "Barcode": "8056304363176"
+    },
+    {
+        "Prezzo": "186.07",
+        "Articolo": "1D920=180002",
+        "Descrizione": "LITA strutt.tavolo 18cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92=18",
+        "Colore": "bianco",
+        "Barcode": "8056304363251"
+    },
+    {
+        "Prezzo": "186.07",
+        "Articolo": "1D920=180099",
+        "Descrizione": "LITA strutt.tavolo 18cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92=18",
+        "Colore": "legno",
+        "Barcode": "8056304361868"
+    },
+    {
+        "Prezzo": "229.51",
+        "Articolo": "1D920=300002",
+        "Descrizione": "LITA strutt.tavolo 30cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92=30",
+        "Colore": "bianco",
+        "Barcode": "8056304363268"
+    },
+    {
+        "Prezzo": "236.07",
+        "Articolo": "1D920=300099",
+        "Descrizione": "LITA strutt.tavolo 30cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92=30",
+        "Colore": "legno",
+        "Barcode": "8056304361875"
+    },
+    {
+        "Prezzo": "99.18",
+        "Articolo": "1D920P140000",
+        "Descrizione": "LITA compl.plaf/par 14cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92P14",
+        "Colore": "",
+        "Barcode": "8056304362810"
+    },
+    {
+        "Prezzo": "41.80",
+        "Articolo": "1D920P180000",
+        "Descrizione": "LITA strutt.plaf/par 18cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92P18",
+        "Colore": "",
+        "Barcode": "8056304361813"
+    },
+    {
+        "Prezzo": "44.26",
+        "Articolo": "1D920P300000",
+        "Descrizione": "LITA strutt.plaf/par 30cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92P30",
+        "Colore": "",
+        "Barcode": "8056304361820"
+    },
+    {
+        "Prezzo": "156.56",
+        "Articolo": "1D920S140002",
+        "Descrizione": "LITA compl.sosp. D.14cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92S14",
+        "Colore": "bianco",
+        "Barcode": "8056304363220"
+    },
+    {
+        "Prezzo": "167.21",
+        "Articolo": "1D920S140099",
+        "Descrizione": "LITA compl.sosp. D.14cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92S14",
+        "Colore": "legno",
+        "Barcode": "8056304363237"
+    },
+    {
+        "Prezzo": "122.13",
+        "Articolo": "1D920S180002",
+        "Descrizione": "LITA strutt.sosp. D.18cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92S18",
+        "Colore": "bianco",
+        "Barcode": "8056304361899"
+    },
+    {
+        "Prezzo": "134.43",
+        "Articolo": "1D920S180099",
+        "Descrizione": "LITA strutt.sosp. D.18cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92S18",
+        "Colore": "legno",
+        "Barcode": "8056304361882"
+    },
+    {
+        "Prezzo": "172.13",
+        "Articolo": "1D920S300002",
+        "Descrizione": "LITA strutt.sosp. D.30cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92S30",
+        "Colore": "bianco",
+        "Barcode": "8056304361905"
+    },
+    {
+        "Prezzo": "185.25",
+        "Articolo": "1D920S300099",
+        "Descrizione": "LITA strutt.sosp. D.30cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92S30",
+        "Colore": "legno",
+        "Barcode": "8056304361912"
+    },
+    {
+        "Prezzo": "174.59",
+        "Articolo": "1D920S420002",
+        "Descrizione": "LITA strutt.sosp. D.42cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92S42",
+        "Colore": "bianco",
+        "Barcode": "8056304363206"
+    },
+    {
+        "Prezzo": "204.10",
+        "Articolo": "1D920S420099",
+        "Descrizione": "LITA strutt.sosp. D.42cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92S42",
+        "Colore": "legno",
+        "Barcode": "8056304363213"
+    },
+    {
+        "Prezzo": "381.15",
+        "Articolo": "1D920T300002",
+        "Descrizione": "LITA strutt.terra 30cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92T30",
+        "Colore": "bianco",
+        "Barcode": "8056304363152"
+    },
+    {
+        "Prezzo": "628.69",
+        "Articolo": "1D920T300099",
+        "Descrizione": "LITA strutt.terra 30cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92T30",
+        "Colore": "legno",
+        "Barcode": "8056304363145"
+    },
+    {
+        "Prezzo": "405.74",
+        "Articolo": "1D920T420002",
+        "Descrizione": "LITA strutt.terra 42cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92T42",
+        "Colore": "bianco",
+        "Barcode": "8056304363183"
+    },
+    {
+        "Prezzo": "711.48",
+        "Articolo": "1D920T420099",
+        "Descrizione": "LITA strutt.terra 42cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92T42",
+        "Colore": "legno",
+        "Barcode": "8056304363190"
+    },
+    {
+        "Prezzo": "157.38",
+        "Articolo": "1D920V140000",
+        "Descrizione": "LITA compl.appoggio 14cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92V14",
+        "Colore": "",
+        "Barcode": "8056304363138"
+    },
+    {
+        "Prezzo": "103.28",
+        "Articolo": "1D920V180000",
+        "Descrizione": "LITA strutt.appoggio 18cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92V18",
+        "Colore": "",
+        "Barcode": "8056304361844"
+    },
+    {
+        "Prezzo": "113.93",
+        "Articolo": "1D920V300000",
+        "Descrizione": "LITA strutt.appoggio 30cm EU",
+        "Gruppo": "D92",
+        "Modello": "D92V30",
+        "Colore": "",
+        "Barcode": "8056304361851"
+    },
+    {
+        "Prezzo": "1030.33",
+        "Articolo": "1D93010000A1",
+        "Descrizione": "DIADE pannelli 120",
+        "Gruppo": "D93",
+        "Modello": "D93/1",
+        "Colore": "bi/ner",
+        "Barcode": "8051414549601"
+    },
+    {
+        "Prezzo": "1030.33",
+        "Articolo": "1D93010000A2",
+        "Descrizione": "DIADE pannelli 120",
+        "Gruppo": "D93",
+        "Modello": "D93/1",
+        "Colore": "bi/blu",
+        "Barcode": "8051414549700"
+    },
+    {
+        "Prezzo": "1030.33",
+        "Articolo": "1D93010000A4",
+        "Descrizione": "DIADE pannelli 120",
+        "Gruppo": "D93",
+        "Modello": "D93/1",
+        "Colore": "bi/bei",
+        "Barcode": "8051414549717"
+    },
+    {
+        "Prezzo": "1640.16",
+        "Articolo": "1D93030000A1",
+        "Descrizione": "DIADE pannelli 180",
+        "Gruppo": "D93",
+        "Modello": "D93/3",
+        "Colore": "bi/ner",
+        "Barcode": "8056304360090"
+    },
+    {
+        "Prezzo": "1640.16",
+        "Articolo": "1D93030000A2",
+        "Descrizione": "DIADE pannelli 180",
+        "Gruppo": "D93",
+        "Modello": "D93/3",
+        "Colore": "bi/blu",
+        "Barcode": "8056304360106"
+    },
+    {
+        "Prezzo": "1640.16",
+        "Articolo": "1D93030000A4",
+        "Descrizione": "DIADE pannelli 180",
+        "Gruppo": "D93",
+        "Modello": "D93/3",
+        "Colore": "bi/bei",
+        "Barcode": "8056304360120"
+    },
+    {
+        "Prezzo": "110.66",
+        "Articolo": "1D9305000020",
+        "Descrizione": "DIADE supporti vert. 120",
+        "Gruppo": "D93",
+        "Modello": "D93/5",
+        "Colore": "alu",
+        "Barcode": "8051414549618"
+    },
+    {
+        "Prezzo": "193.44",
+        "Articolo": "1D9306000020",
+        "Descrizione": "DIADE supporti orizz. 120",
+        "Gruppo": "D93",
+        "Modello": "D93/6",
+        "Colore": "alu",
+        "Barcode": "8051414549625"
+    },
+    {
+        "Prezzo": "164.75",
+        "Articolo": "1D9307000020",
+        "Descrizione": "DIADE supporti vert.180",
+        "Gruppo": "D93",
+        "Modello": "D93/7",
+        "Colore": "alu",
+        "Barcode": "8056304360854"
+    },
+    {
+        "Prezzo": "279.51",
+        "Articolo": "1D9308000020",
+        "Descrizione": "DIADE supporti orizz.180",
+        "Gruppo": "D93",
+        "Modello": "D93/8",
+        "Colore": "alu",
+        "Barcode": "8056304360861"
+    },
+    {
+        "Prezzo": "849.18",
+        "Articolo": "1D930SDDC020",
+        "Descrizione": "DIADE dir.dif.120 3000K dim.EU",
+        "Gruppo": "D93",
+        "Modello": "D93SDDC",
+        "Colore": "alu",
+        "Barcode": "8051414549557"
+    },
+    {
+        "Prezzo": "1057.38",
+        "Articolo": "1D930SDDL020",
+        "Descrizione": "DIADE dir.dif.180 3000K dim.EU",
+        "Gruppo": "D93",
+        "Modello": "D93SDDL",
+        "Colore": "alu",
+        "Barcode": "8056304360076"
+    },
+    {
+        "Prezzo": "1018.85",
+        "Articolo": "1D930SDIC020",
+        "Descrizione": "DIADE dir.ind.120 3000K dim.EU",
+        "Gruppo": "D93",
+        "Modello": "D93SDIC",
+        "Colore": "alu",
+        "Barcode": "8056304361202"
+    },
+    {
+        "Prezzo": "1096.72",
+        "Articolo": "1D930SDIL020",
+        "Descrizione": "DIADE dir.ind.180 3000K dim.EU",
+        "Gruppo": "D93",
+        "Modello": "D93SDIL",
+        "Colore": "alu",
+        "Barcode": "8056304361264"
+    },
+    {
+        "Prezzo": "999.18",
+        "Articolo": "1D930SFIC020",
+        "Descrizione": "DIADE dir.fran.ind.120 dim.EU",
+        "Gruppo": "D93",
+        "Modello": "D93SFIC",
+        "Colore": "alu",
+        "Barcode": "8056304361745"
+    },
+    {
+        "Prezzo": "1014.75",
+        "Articolo": "1D930SFIL020",
+        "Descrizione": "DIADE dir.fran.ind.180 dim.EU",
+        "Gruppo": "D93",
+        "Modello": "D93SFIL",
+        "Colore": "alu",
+        "Barcode": "8056304361752"
+    },
+    {
+        "Prezzo": "747.54",
+        "Articolo": "1D930TFIC020",
+        "Descrizione": "DIADE ter.dir.fran.ind.dim.EU",
+        "Gruppo": "D93",
+        "Modello": "D93TFIC",
+        "Colore": "alu",
+        "Barcode": "8056304363091"
+    },
+    {
+        "Prezzo": "510.66",
+        "Articolo": "1D9310000020",
+        "Descrizione": "DIADE stelo terra",
+        "Gruppo": "D93",
+        "Modello": "D93/10",
+        "Colore": "alu",
+        "Barcode": "8056304363107"
+    },
+    {
+        "Prezzo": "263.93",
+        "Articolo": "1D9311000020",
+        "Descrizione": "DIADE base terra",
+        "Gruppo": "D93",
+        "Modello": "D93/11",
+        "Colore": "alu",
+        "Barcode": "8056304363404"
+    },
+    {
+        "Prezzo": "86.89",
+        "Articolo": "1D940/100000",
+        "Descrizione": "IVY driver 1 corpo EU",
+        "Gruppo": "D94",
+        "Modello": "D94/1",
+        "Colore": "",
+        "Barcode": "8056304363411"
+    },
+    {
+        "Prezzo": "126.23",
+        "Articolo": "1D940/200000",
+        "Descrizione": "IVY driver 3 corpi EU",
+        "Gruppo": "D94",
+        "Modello": "D94/2",
+        "Colore": "",
+        "Barcode": "8056304363114"
+    },
+    {
+        "Prezzo": "162.30",
+        "Articolo": "1D940/300000",
+        "Descrizione": "IVY driver 5 corpi EU",
+        "Gruppo": "D94",
+        "Modello": "D94/3",
+        "Colore": "",
+        "Barcode": "8056304363121"
+    },
+    {
+        "Prezzo": "461.48",
+        "Articolo": "1D940P300002",
+        "Descrizione": "IVY rasomuro 26W 2700K EU",
+        "Gruppo": "D94",
+        "Modello": "D94P3",
+        "Colore": "bianco",
+        "Barcode": "8056304361806"
+    },
+    {
+        "Prezzo": "93.44",
+        "Articolo": "1D950/010002",
+        "Descrizione": "BULBULLIA giunto lato piccolo",
+        "Gruppo": "D95",
+        "Modello": "D95/1",
+        "Colore": "bianco",
+        "Barcode": "8056304365538"
+    },
+    {
+        "Prezzo": "114.75",
+        "Articolo": "1D950/020002",
+        "Descrizione": "BULBULLIA giunto lato grande",
+        "Gruppo": "D95",
+        "Modello": "D95/2",
+        "Colore": "bianco",
+        "Barcode": "8056304365545"
+    },
+    {
+        "Prezzo": "344.26",
+        "Articolo": "1D950A300002",
+        "Descrizione": "BULBULLIA LED 17W 2700K tg.f",
+        "Gruppo": "D95",
+        "Modello": "D95A3",
+        "Colore": "bianco",
+        "Barcode": "8056304363039"
+    },
+    {
+        "Prezzo": "350.82",
+        "Articolo": "1D950A3D0002",
+        "Descrizione": "BULBULLIA LED 16W 2700K DALI",
+        "Gruppo": "D95",
+        "Modello": "D95A3D",
+        "Colore": "bianco",
+        "Barcode": "8056304364401"
+    },
+    {
+        "Prezzo": "515.57",
+        "Articolo": "1D950A500002",
+        "Descrizione": "BULBULLIA LED 27W 2700K tg.f",
+        "Gruppo": "D95",
+        "Modello": "D95A5",
+        "Colore": "bianco",
+        "Barcode": "8056304363046"
+    },
+    {
+        "Prezzo": "521.31",
+        "Articolo": "1D950A5D0002",
+        "Descrizione": "BULBULLIA LED 26W 2700K DALI",
+        "Gruppo": "D95",
+        "Modello": "D95A5D",
+        "Colore": "bianco",
+        "Barcode": "8056304364418"
+    },
+    {
+        "Prezzo": "539.34",
+        "Articolo": "1D960/1D0001",
+        "Descrizione": "FAREL ott.LED 23W 2700K DALI E",
+        "Gruppo": "D96",
+        "Modello": "D96/1D",
+        "Colore": "nero",
+        "Barcode": "8056304362629"
+    },
+    {
+        "Prezzo": "539.34",
+        "Articolo": "1D960/1D0020",
+        "Descrizione": "FAREL ott.LED 23W 2700K DALI E",
+        "Gruppo": "D96",
+        "Modello": "D96/1D",
+        "Colore": "alu",
+        "Barcode": "8056304362636"
+    },
+    {
+        "Prezzo": "539.34",
+        "Articolo": "1D960/1D0030",
+        "Descrizione": "FAREL ott.LED 23W 2700K DALI E",
+        "Gruppo": "D96",
+        "Modello": "D96/1D",
+        "Colore": "ottone",
+        "Barcode": "8056304362643"
+    },
+    {
+        "Prezzo": "609.84",
+        "Articolo": "1D960/1DW001",
+        "Descrizione": "FAREL ott.LED 25W DtW EU",
+        "Gruppo": "D96",
+        "Modello": "D96/1DW",
+        "Colore": "nero",
+        "Barcode": "8056304364166"
+    },
+    {
+        "Prezzo": "609.84",
+        "Articolo": "1D960/1DW020",
+        "Descrizione": "FAREL ott.LED 25W DtW EU",
+        "Gruppo": "D96",
+        "Modello": "D96/1DW",
+        "Colore": "alu",
+        "Barcode": "8056304364173"
+    },
+    {
+        "Prezzo": "609.84",
+        "Articolo": "1D960/1DW030",
+        "Descrizione": "FAREL ott.LED 25W DtW EU",
+        "Gruppo": "D96",
+        "Modello": "D96/1DW",
+        "Colore": "ottone",
+        "Barcode": "8056304364180"
+    },
+    {
+        "Prezzo": "680.33",
+        "Articolo": "1D960C0000A2",
+        "Descrizione": "FAREL diffusore gr.ch.+gr.scu.",
+        "Gruppo": "D96",
+        "Modello": "D96C",
+        "Colore": "grigio",
+        "Barcode": "8056304362612"
+    },
+    {
+        "Prezzo": "680.33",
+        "Articolo": "1D960C0000A3",
+        "Descrizione": "FAREL diffusore gr.scu.+b.co",
+        "Gruppo": "D96",
+        "Modello": "D96C",
+        "Colore": "grsc",
+        "Barcode": "8056304362667"
+    },
+    {
+        "Prezzo": "680.33",
+        "Articolo": "1D960C0000B2",
+        "Descrizione": "FAREL diffusore ruggin+gr.scu.",
+        "Gruppo": "D96",
+        "Modello": "D96C",
+        "Colore": "ruggne",
+        "Barcode": "8056304362674"
+    },
+    {
+        "Prezzo": "680.33",
+        "Articolo": "1D960C0000E2",
+        "Descrizione": "FAREL diffusore acquam+b.co",
+        "Gruppo": "D96",
+        "Modello": "D96C",
+        "Colore": "azzurr",
+        "Barcode": "8056304362681"
+    },
+    {
+        "Prezzo": "622.95",
+        "Articolo": "1D970/1D0001",
+        "Descrizione": "TYPTA corpo  90 t.DALI EU",
+        "Gruppo": "D97",
+        "Modello": "D97/1D",
+        "Colore": "nero",
+        "Barcode": "8056304365040"
+    },
+    {
+        "Prezzo": "622.95",
+        "Articolo": "1D970/1D0020",
+        "Descrizione": "TYPTA corpo  90 t.DALI EU",
+        "Gruppo": "D97",
+        "Modello": "D97/1D",
+        "Colore": "alu",
+        "Barcode": "8056304365057"
+    },
+    {
+        "Prezzo": "684.43",
+        "Articolo": "1D970/2D0001",
+        "Descrizione": "TYPTA corpo 120 t.DALI EU",
+        "Gruppo": "D97",
+        "Modello": "D97/2D",
+        "Colore": "nero",
+        "Barcode": "8056304365064"
+    },
+    {
+        "Prezzo": "684.43",
+        "Articolo": "1D970/2D0020",
+        "Descrizione": "TYPTA corpo  90 t.DALI EU",
+        "Gruppo": "D97",
+        "Modello": "D97/2D",
+        "Colore": "alu",
+        "Barcode": "8056304365071"
+    },
+    {
+        "Prezzo": "127.05",
+        "Articolo": "1D970/310001",
+        "Descrizione": "TRYPTA kit placchette  L.30",
+        "Gruppo": "D97",
+        "Modello": "D97/31",
+        "Colore": "nero",
+        "Barcode": "8056304365200"
+    },
+    {
+        "Prezzo": "127.05",
+        "Articolo": "1D970/310020",
+        "Descrizione": "TRYPTA kit placchette  L.30",
+        "Gruppo": "D97",
+        "Modello": "D97/31",
+        "Colore": "alu",
+        "Barcode": "8056304365217"
+    },
+    {
+        "Prezzo": "140.16",
+        "Articolo": "1D970/320001",
+        "Descrizione": "TRYPTA kit placchette  L.45",
+        "Gruppo": "D97",
+        "Modello": "D97/32",
+        "Colore": "nero",
+        "Barcode": "8056304365224"
+    },
+    {
+        "Prezzo": "140.16",
+        "Articolo": "1D970/320020",
+        "Descrizione": "TRYPTA kit placchette  L.45",
+        "Gruppo": "D97",
+        "Modello": "D97/32",
+        "Colore": "alu",
+        "Barcode": "8056304365231"
+    },
+    {
+        "Prezzo": "255.74",
+        "Articolo": "1D970C3600A1",
+        "Descrizione": "TRYPTA 1 pannello 30x60",
+        "Gruppo": "D97",
+        "Modello": "D97C36",
+        "Colore": "",
+        "Barcode": "8056304365088"
+    },
+    {
+        "Prezzo": "255.74",
+        "Articolo": "1D970C3600A2",
+        "Descrizione": "TRYPTA 1 pannello 30x60",
+        "Gruppo": "D97",
+        "Modello": "D97C36",
+        "Colore": "",
+        "Barcode": "8056304365095"
+    },
+    {
+        "Prezzo": "255.74",
+        "Articolo": "1D970C3600A3",
+        "Descrizione": "TRYPTA 1 pannello 30x60",
+        "Gruppo": "D97",
+        "Modello": "D97C36",
+        "Colore": "",
+        "Barcode": "8056304365101"
+    },
+    {
+        "Prezzo": "290.16",
+        "Articolo": "1D970C3700A1",
+        "Descrizione": "TRYPTA 1 pannello 30x75",
+        "Gruppo": "D97",
+        "Modello": "D97C37",
+        "Colore": "",
+        "Barcode": "8056304365118"
+    },
+    {
+        "Prezzo": "290.16",
+        "Articolo": "1D970C3700A2",
+        "Descrizione": "TRYPTA 1 pannello 30x75",
+        "Gruppo": "D97",
+        "Modello": "D97C37",
+        "Colore": "",
+        "Barcode": "8056304365125"
+    },
+    {
+        "Prezzo": "290.16",
+        "Articolo": "1D970C3700A3",
+        "Descrizione": "TRYPTA 1 pannello 30x75",
+        "Gruppo": "D97",
+        "Modello": "D97C37",
+        "Colore": "",
+        "Barcode": "8056304365132"
+    },
+    {
+        "Prezzo": "322.95",
+        "Articolo": "1D970C3900A1",
+        "Descrizione": "TRYPTA 1 pannello 30x90",
+        "Gruppo": "D97",
+        "Modello": "D97C39",
+        "Colore": "",
+        "Barcode": "8056304365149"
+    },
+    {
+        "Prezzo": "322.95",
+        "Articolo": "1D970C3900A2",
+        "Descrizione": "TRYPTA 1 pannello 30x90",
+        "Gruppo": "D97",
+        "Modello": "D97C39",
+        "Colore": "",
+        "Barcode": "8056304365156"
+    },
+    {
+        "Prezzo": "322.95",
+        "Articolo": "1D970C3900A3",
+        "Descrizione": "TRYPTA 1 pannello 30x90",
+        "Gruppo": "D97",
+        "Modello": "D97C39",
+        "Colore": "",
+        "Barcode": "8056304365163"
+    },
+    {
+        "Prezzo": "300.82",
+        "Articolo": "1D970C4600A1",
+        "Descrizione": "TRYPTA 1 pannello 45x60",
+        "Gruppo": "D97",
+        "Modello": "D97C46",
+        "Colore": "",
+        "Barcode": "8056304365170"
+    },
+    {
+        "Prezzo": "300.82",
+        "Articolo": "1D970C4600A2",
+        "Descrizione": "TRYPTA 1 pannello 45x60",
+        "Gruppo": "D97",
+        "Modello": "D97C46",
+        "Colore": "",
+        "Barcode": "8056304365187"
+    },
+    {
+        "Prezzo": "300.82",
+        "Articolo": "1D970C4600A3",
+        "Descrizione": "TRYPTA 1 pannello 45x60",
+        "Gruppo": "D97",
+        "Modello": "D97C46",
+        "Colore": "",
+        "Barcode": "8056304365194"
+    },
+    {
+        "Prezzo": "368.03",
+        "Articolo": "1D970C4700A1",
+        "Descrizione": "TRYPTA 1 pannello 45x75",
+        "Gruppo": "D97",
+        "Modello": "D97C47",
+        "Colore": "",
+        "Barcode": "8056304365248"
+    },
+    {
+        "Prezzo": "368.03",
+        "Articolo": "1D970C4700A2",
+        "Descrizione": "TRYPTA 1 pannello 45x75",
+        "Gruppo": "D97",
+        "Modello": "D97C47",
+        "Colore": "",
+        "Barcode": "8056304365255"
+    },
+    {
+        "Prezzo": "368.03",
+        "Articolo": "1D970C4700A3",
+        "Descrizione": "TRYPTA 1 pannello 45x75",
+        "Gruppo": "D97",
+        "Modello": "D97C47",
+        "Colore": "",
+        "Barcode": "8056304365262"
+    },
+    {
+        "Prezzo": "420.49",
+        "Articolo": "1D970C4900A1",
+        "Descrizione": "TRYPTA 1 pannello 45x90",
+        "Gruppo": "D97",
+        "Modello": "D97C49",
+        "Colore": "",
+        "Barcode": "8056304365279"
+    },
+    {
+        "Prezzo": "420.49",
+        "Articolo": "1D970C4900A2",
+        "Descrizione": "TRYPTA 1 pannello 45x90",
+        "Gruppo": "D97",
+        "Modello": "D97C49",
+        "Colore": "",
+        "Barcode": "8056304365286"
+    },
+    {
+        "Prezzo": "420.49",
+        "Articolo": "1D970C4900A3",
+        "Descrizione": "TRYPTA 1 pannello 45x90",
+        "Gruppo": "D97",
+        "Modello": "D97C49",
+        "Colore": "",
+        "Barcode": "8056304365293"
+    },
+    {
+        "Prezzo": "168.03",
+        "Articolo": "1E040/1M0000",
+        "Descrizione": "E04 ottica COB medium D.70",
+        "Gruppo": "E04",
+        "Modello": "E041M",
+        "Colore": "",
+        "Barcode": "8056304364463"
+    },
+    {
+        "Prezzo": "67.21",
+        "Articolo": "1E040/1R0000",
+        "Descrizione": "E04 ott.GU10 D.70 retrofit",
+        "Gruppo": "E04",
+        "Modello": "E041R",
+        "Colore": "",
+        "Barcode": "8056304365330"
+    },
+    {
+        "Prezzo": "168.03",
+        "Articolo": "1E040/1W0000",
+        "Descrizione": "E04 ottica COB wide D.70",
+        "Gruppo": "E04",
+        "Modello": "E041W",
+        "Colore": "",
+        "Barcode": "8056304364470"
+    },
+    {
+        "Prezzo": "213.93",
+        "Articolo": "1E040/2M0000",
+        "Descrizione": "E04 ottica COB medium D.134",
+        "Gruppo": "E04",
+        "Modello": "E042M",
+        "Colore": "",
+        "Barcode": "8056304364487"
+    },
+    {
+        "Prezzo": "143.44",
+        "Articolo": "1E040/2R0000",
+        "Descrizione": "E04 ott.G53 D.134 retrofit",
+        "Gruppo": "E04",
+        "Modello": "E042R",
+        "Colore": "",
+        "Barcode": "8056304365347"
+    },
+    {
+        "Prezzo": "213.93",
+        "Articolo": "1E040/2W0000",
+        "Descrizione": "E04 ottica COB wide D.134",
+        "Gruppo": "E04",
+        "Modello": "E042W",
+        "Colore": "",
+        "Barcode": "8056304364494"
+    },
+    {
+        "Prezzo": "178.69",
+        "Articolo": "1E040/3M0000",
+        "Descrizione": "E04 ottica DtW medium D.70",
+        "Gruppo": "E04",
+        "Modello": "E043M",
+        "Colore": "",
+        "Barcode": "8056304364449"
+    },
+    {
+        "Prezzo": "178.69",
+        "Articolo": "1E040/3W0000",
+        "Descrizione": "E04 ottica DtW wide D.70",
+        "Gruppo": "E04",
+        "Modello": "E043W",
+        "Colore": "",
+        "Barcode": "8056304364456"
+    },
+    {
+        "Prezzo": "233.61",
+        "Articolo": "1E040/4M0000",
+        "Descrizione": "E04 ottica DtW medium D.134",
+        "Gruppo": "E04",
+        "Modello": "E044M",
+        "Colore": "",
+        "Barcode": "8056304364500"
+    },
+    {
+        "Prezzo": "233.61",
+        "Articolo": "1E040/4W0000",
+        "Descrizione": "E04 ottica DtW wide D.134",
+        "Gruppo": "E04",
+        "Modello": "E044W",
+        "Colore": "",
+        "Barcode": "8056304364517"
+    },
+    {
+        "Prezzo": "100.82",
+        "Articolo": "1E0400200001",
+        "Descrizione": "E04 corpo plaf.d.70 h.279",
+        "Gruppo": "E04",
+        "Modello": "E04200",
+        "Colore": "nero",
+        "Barcode": "8056304364630"
+    },
+    {
+        "Prezzo": "100.82",
+        "Articolo": "1E0400200002",
+        "Descrizione": "E04 corpo plaf.d.70 h.279",
+        "Gruppo": "E04",
+        "Modello": "E04200",
+        "Colore": "bianco",
+        "Barcode": "8056304364647"
+    },
+    {
+        "Prezzo": "100.82",
+        "Articolo": "1E0400200020",
+        "Descrizione": "E04 corpo plaf.d.70 h.279",
+        "Gruppo": "E04",
+        "Modello": "E04200",
+        "Colore": "alu",
+        "Barcode": "8056304364654"
+    },
+    {
+        "Prezzo": "100.82",
+        "Articolo": "1E0400200030",
+        "Descrizione": "E04 corpo plaf.d.70 h.279",
+        "Gruppo": "E04",
+        "Modello": "E04200",
+        "Colore": "ottone",
+        "Barcode": "8056304364661"
+    },
+    {
+        "Prezzo": "137.70",
+        "Articolo": "1E0400220001",
+        "Descrizione": "E04 corpo plaf.d.134 h.372",
+        "Gruppo": "E04",
+        "Modello": "E04220",
+        "Colore": "nero",
+        "Barcode": "8056304364678"
+    },
+    {
+        "Prezzo": "137.70",
+        "Articolo": "1E0400220002",
+        "Descrizione": "E04 corpo plaf.d.134 h.372",
+        "Gruppo": "E04",
+        "Modello": "E04220",
+        "Colore": "bianco",
+        "Barcode": "8056304364685"
+    },
+    {
+        "Prezzo": "137.70",
+        "Articolo": "1E0400220020",
+        "Descrizione": "E04 corpo plaf.d.134 h.372",
+        "Gruppo": "E04",
+        "Modello": "E04220",
+        "Colore": "alu",
+        "Barcode": "8056304364692"
+    },
+    {
+        "Prezzo": "137.70",
+        "Articolo": "1E0400220030",
+        "Descrizione": "E04 corpo plaf.d.134 h.372",
+        "Gruppo": "E04",
+        "Modello": "E04220",
+        "Colore": "oro",
+        "Barcode": "8056304364708"
+    },
+    {
+        "Prezzo": "155.74",
+        "Articolo": "1E0400240001",
+        "Descrizione": "E04 corpo par.D.70 H.465 2x",
+        "Gruppo": "E04",
+        "Modello": "E04240",
+        "Colore": "nero",
+        "Barcode": "8056304364524"
+    },
+    {
+        "Prezzo": "155.74",
+        "Articolo": "1E0400240002",
+        "Descrizione": "E04 corpo par.D.70 H.465 2x",
+        "Gruppo": "E04",
+        "Modello": "E04240",
+        "Colore": "bianco",
+        "Barcode": "8056304364531"
+    },
+    {
+        "Prezzo": "155.74",
+        "Articolo": "1E0400240020",
+        "Descrizione": "E04 corpo par.D.70 H.465 2x",
+        "Gruppo": "E04",
+        "Modello": "E04240",
+        "Colore": "alu",
+        "Barcode": "8056304364548"
+    },
+    {
+        "Prezzo": "155.74",
+        "Articolo": "1E0400240030",
+        "Descrizione": "E04 corpo par.D.70 H.465 2x",
+        "Gruppo": "E04",
+        "Modello": "E04240",
+        "Colore": "ottone",
+        "Barcode": "8056304364555"
+    },
+    {
+        "Prezzo": "186.07",
+        "Articolo": "1E0400250001",
+        "Descrizione": "E04 corpo par.D.134 H.465 2x",
+        "Gruppo": "E04",
+        "Modello": "E04250",
+        "Colore": "nero",
+        "Barcode": "8056304364593"
+    },
+    {
+        "Prezzo": "186.07",
+        "Articolo": "1E0400250002",
+        "Descrizione": "E04 corpo par.D.134 H.465 2x",
+        "Gruppo": "E04",
+        "Modello": "E04250",
+        "Colore": "bianco",
+        "Barcode": "8056304364609"
+    },
+    {
+        "Prezzo": "186.07",
+        "Articolo": "1E0400250020",
+        "Descrizione": "E04 corpo par.D.134 H.465 2x",
+        "Gruppo": "E04",
+        "Modello": "E04250",
+        "Colore": "alu",
+        "Barcode": "8056304364616"
+    },
+    {
+        "Prezzo": "186.07",
+        "Articolo": "1E0400250030",
+        "Descrizione": "E04 corpo par.D.134 H.465 2x",
+        "Gruppo": "E04",
+        "Modello": "E04250",
+        "Colore": "ottone",
+        "Barcode": "8056304364623"
+    },
+    {
+        "Prezzo": "171.31",
+        "Articolo": "1E0400270001",
+        "Descrizione": "E04 corpo sosp.d.70 h.279",
+        "Gruppo": "E04",
+        "Modello": "E04270",
+        "Colore": "nero",
+        "Barcode": "8056304364715"
+    },
+    {
+        "Prezzo": "171.31",
+        "Articolo": "1E0400270002",
+        "Descrizione": "E04 corpo sosp.d.70 h.279",
+        "Gruppo": "E04",
+        "Modello": "E04270",
+        "Colore": "bianco",
+        "Barcode": "8056304364722"
+    },
+    {
+        "Prezzo": "171.31",
+        "Articolo": "1E0400270020",
+        "Descrizione": "E04 corpo sosp.d.70 h.279",
+        "Gruppo": "E04",
+        "Modello": "E04270",
+        "Colore": "alu",
+        "Barcode": "8056304364739"
+    },
+    {
+        "Prezzo": "171.31",
+        "Articolo": "1E0400270030",
+        "Descrizione": "E04 corpo sosp.d.70 h.279",
+        "Gruppo": "E04",
+        "Modello": "E04270",
+        "Colore": "ottone",
+        "Barcode": "8056304364746"
+    },
+    {
+        "Prezzo": "169.67",
+        "Articolo": "1E0400280001",
+        "Descrizione": "E04 corpo sosp.d.70 h.465 2x",
+        "Gruppo": "E04",
+        "Modello": "E04280",
+        "Colore": "nero",
+        "Barcode": "8056304364753"
+    },
+    {
+        "Prezzo": "169.67",
+        "Articolo": "1E0400280002",
+        "Descrizione": "E04 corpo sosp.d.70 h.465 2x",
+        "Gruppo": "E04",
+        "Modello": "E04280",
+        "Colore": "bianco",
+        "Barcode": "8056304364760"
+    },
+    {
+        "Prezzo": "169.67",
+        "Articolo": "1E0400280020",
+        "Descrizione": "E04 corpo sosp.d.70 h.465 2x",
+        "Gruppo": "E04",
+        "Modello": "E04280",
+        "Colore": "alu",
+        "Barcode": "8056304364777"
+    },
+    {
+        "Prezzo": "169.67",
+        "Articolo": "1E0400280030",
+        "Descrizione": "E04 corpo sosp.d.70 h.465 2x",
+        "Gruppo": "E04",
+        "Modello": "E04280",
+        "Colore": "ottone",
+        "Barcode": "8056304364784"
+    },
+    {
+        "Prezzo": "200.00",
+        "Articolo": "1E0400290001",
+        "Descrizione": "E04 corpo sosp.d.134 h.372 2x",
+        "Gruppo": "E04",
+        "Modello": "E04290",
+        "Colore": "nero",
+        "Barcode": "8056304364791"
+    },
+    {
+        "Prezzo": "200.00",
+        "Articolo": "1E0400290002",
+        "Descrizione": "E04 corpo sosp.d.134 h.372 2x",
+        "Gruppo": "E04",
+        "Modello": "E04290",
+        "Colore": "bianco",
+        "Barcode": "8056304364807"
+    },
+    {
+        "Prezzo": "200.00",
+        "Articolo": "1E0400290020",
+        "Descrizione": "E04 corpo sosp.d.134 h.372 2x",
+        "Gruppo": "E04",
+        "Modello": "E04290",
+        "Colore": "alu",
+        "Barcode": "8056304364814"
+    },
+    {
+        "Prezzo": "200.00",
+        "Articolo": "1E0400290030",
+        "Descrizione": "E04 corpo sosp.d.134 h.372 2x",
+        "Gruppo": "E04",
+        "Modello": "E04290",
+        "Colore": "ottone",
+        "Barcode": "8056304364821"
+    },
+    {
+        "Prezzo": "106.56",
+        "Articolo": "1E060/1M0000",
+        "Descrizione": "E06 ottica COB medium D.70",
+        "Gruppo": "E06",
+        "Modello": "E061M",
+        "Colore": "",
+        "Barcode": "8056304364883"
+    },
+    {
+        "Prezzo": "106.56",
+        "Articolo": "1E060/1W0000",
+        "Descrizione": "E06 ottica COB wide D.70",
+        "Gruppo": "E06",
+        "Modello": "E061W",
+        "Colore": "",
+        "Barcode": "8056304364890"
+    },
+    {
+        "Prezzo": "121.31",
+        "Articolo": "1E060/2M0000",
+        "Descrizione": "E06 ottica DtW medium D.70",
+        "Gruppo": "E06",
+        "Modello": "E062M",
+        "Colore": "",
+        "Barcode": "8056304364869"
+    },
+    {
+        "Prezzo": "121.31",
+        "Articolo": "1E060/2W0000",
+        "Descrizione": "E06 ottica DtW wide D.70",
+        "Gruppo": "E06",
+        "Modello": "E062W",
+        "Colore": "",
+        "Barcode": "8056304364876"
+    },
+    {
+        "Prezzo": "267.21",
+        "Articolo": "1E0600100001",
+        "Descrizione": "E06 corpo plaf.D.70 H.400 EU",
+        "Gruppo": "E06",
+        "Modello": "E06100",
+        "Colore": "nero",
+        "Barcode": "8056304365354"
+    },
+    {
+        "Prezzo": "267.21",
+        "Articolo": "1E0600100002",
+        "Descrizione": "E06 corpo plaf.D.70 H.400 EU",
+        "Gruppo": "E06",
+        "Modello": "E06100",
+        "Colore": "bianco",
+        "Barcode": "8056304365361"
+    },
+    {
+        "Prezzo": "267.21",
+        "Articolo": "1E0600100020",
+        "Descrizione": "E06 corpo plaf.D.70 H.400 EU",
+        "Gruppo": "E06",
+        "Modello": "E06100",
+        "Colore": "alu",
+        "Barcode": "8056304365378"
+    },
+    {
+        "Prezzo": "267.21",
+        "Articolo": "1E0600100030",
+        "Descrizione": "E06 corpo plaf.D.70 H.400 EU",
+        "Gruppo": "E06",
+        "Modello": "E06100",
+        "Colore": "brass",
+        "Barcode": "8056304365385"
+    },
+    {
+        "Prezzo": "302.46",
+        "Articolo": "1E0600150001",
+        "Descrizione": "E06 corpo binar.D.70 H.400 EU",
+        "Gruppo": "E06",
+        "Modello": "E06150",
+        "Colore": "nero",
+        "Barcode": "8056304365392"
+    },
+    {
+        "Prezzo": "302.46",
+        "Articolo": "1E0600150002",
+        "Descrizione": "E06 corpo binar.D.70 H.400 EU",
+        "Gruppo": "E06",
+        "Modello": "E06150",
+        "Colore": "bianco",
+        "Barcode": "8056304365408"
+    },
+    {
+        "Prezzo": "302.46",
+        "Articolo": "1E0600150020",
+        "Descrizione": "E06 corpo binar.D.70 H.400 EU",
+        "Gruppo": "E06",
+        "Modello": "E06150",
+        "Colore": "alu",
+        "Barcode": "8056304365415"
+    },
+    {
+        "Prezzo": "302.46",
+        "Articolo": "1E0600150030",
+        "Descrizione": "E06 corpo binar.D.70 H.400 EU",
+        "Gruppo": "E06",
+        "Modello": "E06150",
+        "Colore": "brass",
+        "Barcode": "8056304365422"
+    },
+    {
+        "Prezzo": "245.08",
+        "Articolo": "1E0600200001",
+        "Descrizione": "E06 corpo pl.D.70 H.400 r.fit",
+        "Gruppo": "E06",
+        "Modello": "E06200",
+        "Colore": "nero",
+        "Barcode": "8056304365439"
+    },
+    {
+        "Prezzo": "245.08",
+        "Articolo": "1E0600200002",
+        "Descrizione": "E06 corpo pl.D.70 H.400 r.fit",
+        "Gruppo": "E06",
+        "Modello": "E06200",
+        "Colore": "bianco",
+        "Barcode": "8056304365446"
+    },
+    {
+        "Prezzo": "245.08",
+        "Articolo": "1E0600200020",
+        "Descrizione": "E06 corpo pl.D.70 H.400 r.fit",
+        "Gruppo": "E06",
+        "Modello": "E06200",
+        "Colore": "alu",
+        "Barcode": "8056304365453"
+    },
+    {
+        "Prezzo": "245.08",
+        "Articolo": "1E0600200030",
+        "Descrizione": "E06 corpo pl.D.70 H.400 r.fit",
+        "Gruppo": "E06",
+        "Modello": "E06200",
+        "Colore": "brass",
+        "Barcode": "8056304365460"
+    },
+    {
+        "Prezzo": "283.61",
+        "Articolo": "1E0600250001",
+        "Descrizione": "E06 corpo bin.D.70 H.400 r.fit",
+        "Gruppo": "E06",
+        "Modello": "E06250",
+        "Colore": "nero",
+        "Barcode": "8056304365477"
+    },
+    {
+        "Prezzo": "283.61",
+        "Articolo": "1E0600250002",
+        "Descrizione": "E06 corpo bin.D.70 H.400 r.fit",
+        "Gruppo": "E06",
+        "Modello": "E06250",
+        "Colore": "bianco",
+        "Barcode": "8056304365484"
+    },
+    {
+        "Prezzo": "283.61",
+        "Articolo": "1E0600250020",
+        "Descrizione": "E06 corpo bin.D.70 H.400 r.fit",
+        "Gruppo": "E06",
+        "Modello": "E06250",
+        "Colore": "alu",
+        "Barcode": "8056304365491"
+    },
+    {
+        "Prezzo": "283.61",
+        "Articolo": "1E0600250030",
+        "Descrizione": "E06 corpo bin.D.70 H.400 r.fit",
+        "Gruppo": "E06",
+        "Modello": "E06250",
+        "Colore": "brass",
+        "Barcode": "8056304365507"
+    },
+    {
+        "Prezzo": "266.39",
+        "Articolo": "1E0800110001",
+        "Descrizione": "E08 sosp. LED 5W+rosone",
+        "Gruppo": "E08",
+        "Modello": "E08110",
+        "Colore": "nero",
+        "Barcode": "8033247787177"
+    },
+    {
+        "Prezzo": "266.39",
+        "Articolo": "1E0800110002",
+        "Descrizione": "E08 sosp. LED 5W+rosone",
+        "Gruppo": "E08",
+        "Modello": "E08110",
+        "Colore": "bianco",
+        "Barcode": "8033247787184"
+    },
+    {
+        "Prezzo": "285.25",
+        "Articolo": "1E0800110019",
+        "Descrizione": "E08 sosp. LED 5W+rosone",
+        "Gruppo": "E08",
+        "Modello": "E08110",
+        "Colore": "lucido",
+        "Barcode": "8033247787191"
+    },
+    {
+        "Prezzo": "15.57",
+        "Articolo": "1EA100096000",
+        "Descrizione": "Kit rosone x E04 sospens.5poli",
+        "Gruppo": "EA1",
+        "Modello": "EA1096",
+        "Colore": "",
+        "Barcode": "8056304364852"
+    }
+]

@@ -804,26 +804,20 @@ var arr_all_products =[
   ]
 
 
+  /*
 var arr_all_products =[
-    {
-      "name": "Agave",
-      "category": [
-        "Sospensione"
-      ],
-      "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/agave_lamp_suspension_product_cover.jpg/51b0a6537ed798f915a0cb1c91be332e.jpg",
-      "prod_page": "https://www.luceplan.com/it/prodotti/agave-sospensione"
-    },
-    {
-      "name": "Aircon",
-      "category": [
-        "Sospensione"
-      ],
-      "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/aircon_lamp_suspension_producthome.jpg/b52f49b714c62b0aa7c932d4386a6896.jpg",
-      "prod_page": "https://www.luceplan.com/it/prodotti/aircon-sospensione"
-    }
+  {
+    "name": "Costanza",
+    "category": [
+      "Tavolo"
+    ],
+    "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/costanza-d13-product-cover-1499868586.jpg/ae1a2e484d9bec7816cb9a5ca98eafdc.jpg",
+    "prod_page": "https://www.luceplan.com/it/prodotti/costanza-tavolo"
+  },
+    
   ]
 
-
+*/
 
 
 
@@ -843,13 +837,16 @@ function avvia(index){
 
 
     if(index == pages_number){
-        fs.writeFile('assets_json_intermendio.json', JSON.stringify(arr_single_product, null, 4), 'utf8', function(){
+        fs.writeFile('assets_json.json', JSON.stringify(arr_single_product, null, 4), 'utf8', function(){
             _.log("FINITO");
         });
         return true;
     }
     else{
+        var name = arr_all_products[index].name;
+        var prod_pic = arr_all_products[index].prod_pic;
         var uri = arr_all_products[index].prod_page;
+        var category = arr_all_products[index].category;
         var model = arr_all_products[index].name;
         _.log("processo: "+uri+" mancano: "+parseInt(pages_number-1-index))
         request({
@@ -857,7 +854,7 @@ function avvia(index){
             //uri : "https://www.foscarini.com/it/products/ta-twiggy-xl/",
 
         }, function(error, response, body) {
-            createJsonFromAPage(body, uri, model);
+            createJsonFromAPage(body, uri, model, name, prod_pic, category);
         });
 
     }
@@ -869,101 +866,85 @@ function avvia(index){
 
 var arr_single_product = [];
 
-function createJsonFromAPage(body, uri, model){
+function createJsonFromAPage(body, uri, model, name, prod_pic, category){
 
 
     (async() => {
         
-        const browser = await puppeteer.launch();
-        const page = await browser.newPage();
+      const browser = await puppeteer.launch();
+      const page = await browser.newPage();
 
-        await page.goto(uri);
+      await page.goto(uri);
 
-       
+
+      let preloaded_bodyHTML = await page.evaluate(() => document.body.innerHTML);
+
+      // aspetto comunque 2 secondi per accertarmi che ogni elemento della pagina sia scaricato e renderizzato
+      await page.waitFor(300);
+      
+      var $body = $(preloaded_bodyHTML);
+
+      
+      /* foto di projects */
+      var projects = [];
+      var $project_images = $body.find(".carousel-cell");
+      $project_images.each(function(){
+        if( !$(this).is(".product-det") )
+          projects.push( "http://www.luceplan.com"+$(this).find("img").attr("src") );
+      });
+
+      /* descrizione */
+      let description = $body.find(".overview p").html();
+
+      /* varianti */
+      var $buttons = $body.find(".dots-data-sheet.dots-data-sheet-euro").find(".button-euro");
+      var variations = [];
+
+      $buttons.each(function(index){
+
+        var $slide = $body.find(".slider-data-sheet-product").find(".carousel-cell").eq(index);
+        var light_schema = $slide.find(".data-sheet img").attr("src");
+        var $data_container = $slide.find(".data-sheet.g");
         
-        let preloaded_bodyHTML = await page.evaluate(() => document.body.innerHTML);
-
-        // aspetto comunque 2 secondi per accertarmi che ogni elemento della pagina sia scaricato e renderizzato
-        await page.waitFor(3000);
+        var data = {};
+        $data_container.find("p").each(function(){
+          if($(this).is(".label")){
+            let label = $(this).html();
+            let value = $(this).next().html();
+            data[label] = value
+          }
+        })
         
-        var projects_link_length = $(preloaded_bodyHTML).find(".recent-item.g4.item-caption").length;
+        variations.push({
+          name: $(this).html().replace("/","").toUpperCase(),
+          light_schema: "http://www.luceplan.com"+light_schema,
+          data : data,
+        })
+      })
+      
 
-        var projects_url = [];
+      /* video */
+      var video = $body.find(".embed-container").find("iframe").attr("src");
+      
+      await browser.close();
+      index++;
 
-
-        
-        apriPaginaProject(projects_link_length);
-
-        async function apriPaginaProject(j){
-            if(j>0){
-                const browser2 = await puppeteer.launch();
-                const page2 = await browser2.newPage();
-                const single_project_url = "https://www.luceplan.com"+$(preloaded_bodyHTML).find(".recent-item.g4.item-caption a").eq(j-1).attr("href");
-
-                
-                await page2.goto(single_project_url);
-                await page2.waitFor(3000);
-                let single_project_page = await page2.evaluate(() => document.body.innerHTML);
-
-                await page2.waitFor(3000);
-                $(single_project_page).find(".flickity-button.flickity-prev-next-button.next").trigger("click");
-                await page2.waitFor(3000);
-                $(single_project_page).find(".flickity-button.flickity-prev-next-button.next").trigger("click");
-                await page2.waitFor(3000);
-                $(single_project_page).find(".flickity-button.flickity-prev-next-button.next").trigger("click");
-                await page2.waitFor(3000);
-                $(single_project_page).find(".flickity-button.flickity-prev-next-button.next").trigger("click");
-                await page2.waitFor(3000);
-                $(single_project_page).find(".flickity-button.flickity-prev-next-button.next").trigger("click");
-                await page2.waitFor(3000);
-                $(single_project_page).find(".flickity-button.flickity-prev-next-button.next").trigger("click");
-                await page2.waitFor(3000);
-                $(single_project_page).find(".flickity-button.flickity-prev-next-button.next").trigger("click");
-                await page2.waitFor(3000);
-                $(single_project_page).find(".flickity-button.flickity-prev-next-button.next").trigger("click");
-                await page2.waitFor(3000);
-                $(single_project_page).find(".flickity-button.flickity-prev-next-button.next").trigger("click");
-
-                
-                single_project_page = await page2.evaluate(() => document.body.innerHTML);
-                
-                
-
-                $(single_project_page).find(".carousel-cell").each(function(){
-                  projects_url.push( "https://www.luceplan.com"+$(this).find("img").attr("src") );
-                })
-                
-
-                projects_link_length--;
-                apriPaginaProject(projects_link_length);
-                await browser2.close();
-                
-            }
-            else{
-
-                 arr_single_product.push({
-                    uri: uri,
-                    model: model,
-                    projects : projects_url,
-                    
-                })
-
-                await browser.close();
-                index++;
-                avvia(index);
-            }
-        }
+      arr_single_product.push({
+        name: name,
+        prod_pic: prod_pic,
+        prod_page : uri,
+        projects : projects,
+        category: category,
+        description: description,
+        video: video,
+        variations: variations
+      });
+      avvia(index);
         
         
-/*
+      /*
         
-        var projects = [];
-
-        var $project_images = $body.find(".swiper-slide");
-
-        $project_images.each(function(){
-            projects.push("http://www.panzeri.it/"+ $(this).find("img").attr("src"))
-        });
+        
 
 
         
@@ -984,10 +965,6 @@ function createJsonFromAPage(body, uri, model){
             })
         })
 
-
-
-       
-        
         */
         
 

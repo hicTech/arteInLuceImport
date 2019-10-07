@@ -161,7 +161,7 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                         
                                                         
 
-                                                        //return false;
+                                                        return false;
 
                                                         var pagination = false;
 
@@ -169,6 +169,8 @@ fs.readdir(path, function(err, cartella_fornitore) {
 
                                                         if(!randomizza)
                                                             random_number = "";
+
+                                                        
 
                                                         let xls_prodotti = json2xls(json_prodotti, {fields: ["hicId", "supplier", "brand", "category", "title", "subtitle", "desc_it", "price", "quantity", "delivery_time", "delivery_time_if_not_available","sale", "max_discount", "ean13", "features", "accessories","meta_title","meta_description","order_available", "product_images","product_images_alt"] });
                                                         fs.writeFileSync(path_cartella +"/result/"+cartella+'_prodotti_'+random_number+'.xlsx', xls_prodotti, 'binary');
@@ -4516,6 +4518,434 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                         
 
                     }
+
+                    else{
+                        /* ================================================================= LUCEPLAN */
+                        if( fornitore == "luceplan"){
+
+                            if( 
+                                row["Descrizione"].toLowerCase().indexOf(" corpo") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" driver") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" kit ") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" riflettore ") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" adattatore ") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" attacco ") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" diffus") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" base") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" basetta ") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" perno ") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" morsetto ") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" pannelli ") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" supporti ") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" pannello ") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" rosone ") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" driver ") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" stelo ") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" zavorra ") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" palo ") != -1 ||
+
+                                row["Descrizione"].toLowerCase().indexOf(" dimm") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" dim.") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf("pz.") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" anticaduta") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" filtri") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" saliscendi") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" giunto") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" trasformatore") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" access") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" ott.") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf("appoggio") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" agganci") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" sfere+tiranti") != -1 ||
+                                row["Descrizione"].toLowerCase().indexOf(" ottica ") != -1 
+                                
+                                )
+                                return undefined
+                            
+                            
+                            supplier = "luceplan";
+                            supplier_id = supplierId(supplier);
+                            original_model_id = row["Articolo"];
+                            model_id = row["Modello"];
+
+                            if( _.is( getAsset(model_id) ) ){
+                                //_.log(model_id+" -------------------- "+count++)
+                                //_.log(_.toStr(getAsset(model_id)))
+                            }
+                            else{
+
+                                _.log(row["Descrizione"]+" -------------------- "+count++)
+                            }
+
+                            // dato un id articolo ritorna l'oggetto asset di asset_json
+                            // se è undefined vuol dire che non l'ha trovato
+                            // altrimenti ritorna un oggetto in  cui in asset c'è tutto l'asset
+                            // in data i dati della variante in questione
+                            function getAsset(id){
+                                
+                                var ret = undefined;
+                                _.each(assets_json,function(asset){
+                                    if(!_.is(ret)){
+                                        _.each(asset.variations,function(variation, index){
+                                            let variant_id = S(variation.name.toLowerCase()).replaceAll(" ","").s;
+                                            let model_id_no_space = S(model_id.toLowerCase()).replaceAll(" ","").s;
+                                            if(variant_id == model_id_no_space){
+                                                ret = {
+                                                    asset: asset,
+                                                    data : asset.variations[index],
+                                                }
+                                            }
+                                        })
+                                    }
+                                });
+        
+                                return ret;
+                            }
+        
+
+
+                            /*
+        
+                            
+                            model_id = row["Codice articolo"];
+                            combination_id = model_id;
+                            component = (isComponent(model_id))? 1: 0; // recuperato dall'excel (row["Raggr. Commerciale"] == "SPAREPARTS")? 1: 0; // sono 525 "DECORATIVE" e 1084 SPAREPARTS              
+                            model = getModelName(model_id);
+                            item_id = original_model_id;
+                            hicId = getHicId(supplier_id, item_id);
+                            ean13 = undefined;
+                            max_discount = (component)? 0 : 0.14;
+                            sale = 1;
+                            price = getPrice(row["PREZZO IVA ESCL."], max_discount);
+                            quantity = 0;
+                            delivery_time = "2-3 gg Italy, 5-6 days UE";
+                            delivery_time_if_not_available = "Su ordinazione in 2-3 settimane";
+                            
+        
+                            color = getColor(model_id);
+                            desc_it = undefined;
+                            desc_en = undefined;
+                            cleaned_desc_it = getDesc(component,getAsset(model_id));
+                            cleaned_desc_en = cleaned_desc_it;
+                            dimmer = (row["Descrizione articolo"].indexOf("DIMM") != -1 )? 1: 0;
+                            led = (row["Descrizione articolo"].indexOf("LED") != -1 || row["Descrizione articolo"].toLowerCase().indexOf(" led") != -1 )? 1: 0;
+                            halogen = undefined;
+                            screw = undefined;
+                            switcher = undefined;
+                            category = ( _.is(getAsset(model_id)) )? (!isComponent(model_id))?  getAsset(model_id).category : getFatherAsset(model_id).category : undefined;
+                        
+                            type = undefined;       // è un valore unico ovvero una stringa
+        
+                            
+                            component_of = ( isComponent(model_id) ) ? getAsset(model_id).component_of : undefined;
+                            size = undefined;
+                            outdoor = (row["Descrizione articolo"].indexOf("OUT") != -1 )? 1: 0;
+                            wire_length = undefined;
+                            
+                            title = getTitle(model, component, component_of);
+                            pic = ( _.is(getAsset(model_id)))? (_.is(getAsset(model_id).img)) ? getAsset(model_id).img : getAsset(model_id).image : undefined;
+                            light_schema = getSchemaImages(model_id);
+                            subtitle = getSubtitle(model, component, component_of, category);
+                            model_variant = undefined;
+                            otherColors = undefined;
+                            projects = ( _.is(getAsset(model_id)) )? ( _.is( getAsset(model_id).other_images ) )? getAsset(model_id).other_images : undefined : undefined ;
+                            link = getSupplierSiteLink(model_id);
+                            more = getMore(model_id,link);
+        
+                            meta_title = getMetaTitle(title, subtitle, category, component, max_discount);
+                            meta_description = getMetaDescription(title, subtitle, category, component, max_discount);
+        
+                            all_images = getAllImages(pic,light_schema,projects);
+                            all_images_alt = getAllImagesAlt(pic,light_schema,projects);
+        
+                            
+        
+                            product_images =        getProductImages(pic, projects, light_schema, component, "img");
+                            product_images_alt =    getProductImages(pic, projects, light_schema, component, "alt");
+                            
+                            combination_images =        getCombinationImages(pic, projects, light_schema, component, "img");
+                            combination_images_alt =    getCombinationImages(pic, projects, light_schema, component, "alt");
+        
+                            
+        
+        
+                            function getProductImages(pic, projects, light_schema, component, caso){
+                                
+                                var arr_ret = [];
+                                if(_.is(pic)){
+                                    if(caso == "img"){
+                                        arr_ret.push(pic);
+                                    }
+                    
+                                    if(caso == "alt"){
+                                        arr_ret.push("pic");
+                                    }
+                                }
+        
+                                if( _.is(projects) && _.isArray(projects) ){
+                                    _.each(projects,function(project_img){
+                                        if(caso == "img"){
+                                            arr_ret.push(project_img)
+                                        }
+                        
+                                        if(caso == "alt"){
+                                            arr_ret.push("projects")
+                                        }
+                                    })
+                                }
+        
+                                if(caso == "img"){
+                                    return S(arr_ret.toString()).replaceAll(",","|").s;
+                                }
+                
+                                if(caso == "alt"){
+                                    return S(arr_ret.toString()).replaceAll(",","|").s;
+                                }
+                            }
+        
+                            function getCombinationImages(pic, projects, light_schema, component, caso){
+                                
+                                var arr_ret = [];
+                                if(_.is(pic)){
+                                    if(caso == "img"){
+                                        arr_ret.push(pic);
+                                    }
+                    
+                                    if(caso == "alt"){
+                                        arr_ret.push("pic");
+                                    }
+                                }
+        
+                                if(_.is(light_schema)){
+                                    if(caso == "img"){
+                                       _.each(light_schema,function(single_img){
+                                            arr_ret.push(single_img);
+                                       })
+                                    }
+                    
+                                    if(caso == "alt"){
+                                        _.each(light_schema,function(single_img){
+                                            arr_ret.push("light_schema");
+                                       })
+                                    }
+                                }
+        
+                                if(caso == "img"){
+                                    return S(arr_ret.toString()).replaceAll(",","|").s;
+                                }
+                
+                                if(caso == "alt"){
+                                    return S(arr_ret.toString()).replaceAll(",","|").s;
+                                }
+                            }
+        
+                            
+        
+                            function getModelName(model_id){
+                                var asset = getAsset(model_id);
+                                if( _.is(asset))
+                                    return asset.fullname || asset.model;
+                            }
+        
+                            function getPrice(price, max_discount){
+                                var new_price = null;
+                                // se model_id è presente in listino listino2019Flos allora prendo il prezzo da listino2019Flos
+                                _.each(listino2019Flos, function(nuovo_articolo){
+                                    var model_id_nuovo = nuovo_articolo["Codice Articolo"].trim();
+                                    if(model_id_nuovo == model_id){
+                                        new_price = parseFloat(nuovo_articolo["Prezzo iva esclusa"].replace("€ ","").replace(",","")).toFixed(2);
+                                    }
+                                })     
+        
+                                 
+        
+        
+                                var price = parseFloat(price.replace("€ ","").replace(",","")).toFixed(2);
+        
+                                if(_.is(new_price))
+                                    price = new_price;    
+                                
+                                return price;
+        
+                            }
+        
+                            function getColor(model_id){
+                                var asset = getAsset(model_id);
+                                if(_.is(asset))
+                                    if(_.is(asset.color))
+                                        return asset.color.replace("colour_","");
+                                
+                                    
+                            }
+        
+                            function getDesc(component,asset){
+                                if(component == 0 && _.is(asset))
+                                    return asset.desc;
+                            }
+        
+                            function isComponent(model_id){
+                                var asset = getAsset(model_id);
+                                if( _.is(asset) )
+                                    return _.is(asset.fullname) == true;
+                                else
+                                    return false;
+                            }
+        
+                            
+        
+        
+                            function getSchemaImages(mode_id){
+                                var ret = [];
+                                var asset = getAsset(mode_id)
+                                if( _.is(asset)){
+                                    if( _.is(asset.size_image) )
+                                        ret.push( asset.size_image );
+                                    if( _.is(asset.summary_media) ){
+                                        _.each(asset.summary_media,function(elem){
+                                            ret.push(elem);
+                                        })
+                                    }
+                                }
+        
+                                return ret;   
+                            }
+        
+                            function getFatherAsset(accessory_id){
+                                if(!isComponent(accessory_id))
+                                    return undefined;
+                                else{
+                                    var ret = undefined;
+        
+                                    _.each(assets_json,function(asset){
+                                        _.each(asset.accessories,function(accessory){
+                                            if(accessory.id == accessory_id && !_.is(ret)){
+                                                ret = asset;
+                                            }
+                                        });
+                                    });
+        
+                                    return ret;
+                                }
+                            }
+                
+                            function getMore(model_id,link){
+                                var more = undefined;
+                                var asset = getAsset(model_id);
+                                if ( _.is(asset) ){
+                                    if ( _.is( asset.more ) )
+                                        more = asset.more
+        
+                                    if( _.is(asset.downloads)){
+                                        more["downloads"] = asset.downloads;
+                                        more["product_page_link"] = link;
+                                        more["supplier"] = "flos";
+                                    }
+                                        
+                                }
+                                
+                                return more;
+                                    
+        
+                            }
+        
+                            // ritorna il link alla pagine dell'articolo sul sito del fornitore
+                            function getSupplierSiteLink(model_id){
+                                var asset = getAsset(model_id);
+                                if(_.is(asset))
+                                    if(_.is(asset.uri))
+                                        return asset.uri;
+                            }
+        
+                            function getTitle(model, component, component_of){
+                                return model;
+                            }
+        
+                            function getSubtitle(model, component, component_of, category){
+                                if(component == 0)
+                                    return _.capitalize(category)+" - Flos";
+                                else{
+                                    var asset = getAsset(component_of);
+                                    return "accessorio di "+ asset.model +" "+ asset.category+" - Flos";
+                                }
+                            }
+        
+                            
+        
+        
+                            function getMetaTitle(title, subtitle, category, component, max_discount){
+                                if(component == 0){
+                                    var ret = "Lampada da "+category+": "+title.toUpperCase()+" Flos by ArteInLuce™";
+                                    if(ret.length > 60)
+                                        ret = "Lampada "+category+": "+title.toUpperCase()+" Flos by ArteInLuce™";
+                                    if(ret.length > 60)
+                                        ret = "Lampada "+category+": "+title.toUpperCase()+" Flos ArteInLuce™";
+                                
+                                }
+                                if(component == 1){
+                                    var ret = title +" Flos by ArteInLuce™";
+                                    if(ret.length > 60)
+                                        ret = title +" Flos ArteInLuce™";
+                                    if(ret.length > 60)
+                                        ret = ret.replace("per ","");
+                                }
+        
+                                return ret;
+                            }
+        
+                            function getMetaDescription(title, subtitle, category, component, max_discount){
+                                if(component == 0){
+                                    var category = (_.is(category))? category.toUpperCase() : "";
+                                    var ret = title.toUpperCase()+" Flos: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da "+category+" in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
+                                    
+                                }
+                                if(component == 1){
+                                    var ret = title.toUpperCase()+" Flos: centinaia di altre lampade da "+category+" e relativi accessori in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
+                                }
+                                
+                                
+                                return ret;
+                            }
+        
+        
+                            function getAllImages(pic,light_schema,projects){
+                                //var ret_arr = [pic];
+                                var ret_arr = [];
+                                if(_.isArray(light_schema)){
+                                    ret_arr = ret_arr.concat(light_schema);
+                                }
+                                if(_.isArray(projects)){
+                                    ret_arr = ret_arr.concat(projects);
+                                }
+                                
+                                if(_.isArray(ret_arr))
+                                    return S(ret_arr.toString()).replaceAll(",","|").s;
+                                
+                            }
+        
+                            function getAllImagesAlt(pic,light_schema,projects){
+                                
+                                var all_images_alt = [];
+                                // var all_images_alt = (pic.length != 0)? ["pic"] : [];
+                                if(_.isArray(light_schema)){
+                                    _.each(light_schema,function(){
+                                        all_images_alt.push("light_schema");
+                                    })
+                                }
+        
+                                if(_.isArray(projects)){
+                                    _.each(projects,function(){
+                                        all_images_alt.push("projects");
+                                    })
+                                }
+        
+                                return S(all_images_alt.toString()).replaceAll(",","|").s
+                            }
+
+                            */
+        
+                        }
+                                
+                    }
                     
                 }
                 
@@ -5757,7 +6187,168 @@ function postProduci(json,fornitore){
     }
 
 
-    
+    if(fornitore=="luceplan"){
+        
+
+        var json_prodotti = [];
+        // [1]
+        // creo hicid è l'id del articolo primario che viene messo a tutte le sue varianti
+        // l'articolo primario viene pompato in json_prodotti col price a zero
+        var registro = {};
+        
+        _.each(json, function(elem,index){
+            if( !_.is(registro[elem.model]) ){
+                registro[elem.model] = elem.hicId;
+                var new_elem = Object.assign({}, elem);
+                new_elem.price = 0;
+                json_prodotti.push(new_elem);
+            }
+            else{
+                elem.hicId = registro[elem.model];
+            }
+            
+        })
+
+
+        // aggiungo gli accessori di ogni articolo
+        _.each(json, function(elem){
+            if( elem.component == 1 ){
+                var cod_component = elem.hicId;
+                var cod_item = elem.component_of;
+
+                _.each(json, function(item, index){
+                    
+                    if(!_.is(item["accessories"]))
+                        item["accessories"] = "";
+                    
+                    if(item.model_id == cod_item ){
+                        //var new_accessories = item["accessories"] + cod_component+";";
+                        item["accessories"] += (item["accessories"] != "" )? "|"+cod_component : cod_component
+
+                    }
+                    
+                    
+                });
+            }
+        });
+
+
+
+        
+        _.each(json, function(elem){
+            // aggiungo le features che sono le proprietà statiche dell'articolo
+            elem["features"] = inlineCSVFeaturesFlos(elem,["category","outdoor"])
+
+            // aggiungo attributi e valori
+            elem["attributes"] = inlineCSVFlos(elem,[["color","select"]])
+            elem["values"] = inlineCSVFlos(elem,["color"],"values")
+        });
+
+
+        function inlineCSVFeaturesFlos(obj,arr){
+            let csv = "";
+            let pos = 0;
+            _.each(arr,function(elem){
+
+                if( _.is(obj[elem]) ){
+                    var singleton = elem +" : "+ obj[elem] +" : "+ pos+":1 | ";
+                    pos++;
+                }
+                            
+                csv += (_.is(singleton))? singleton : "";
+            });
+
+            //  alle features aggiungo i dati presenti in more (more c'è solo negli articoli componento == 0)
+            if(obj.component == 0){
+                _.each(obj.more, function(feature, key){
+                    var cleaned_feature = cleanedFeature(feature);
+
+                    if(_.is(cleaned_feature)){
+                        //if(key!="descrizione_tecnica"){
+                            csv += key +' : '+ cleaned_feature +' : '+ pos +':1 | ';
+                            pos++;
+                        //}
+                        
+                    } 
+                    //var cleaned_feature = "'"+ feature.replace("<p>","").replace("</p>","") + "'";
+
+                })
+                /*
+                csv += "codice fornitore :"         +"'"+ obj.more.codice_articolo +"'"+" : "+              parseInt(pos)+" , ";
+                csv += "ambiente :"                 +"'"+ obj.more.ambiente +"'"+" : "+                     parseInt(pos+1)+" , ";
+                csv += "finitura :"                 +"'"+ obj.more.finitura +"'"+" : "+                     parseInt(pos+2)+" , ";
+                csv += "peso :"                     +"'"+ obj.more.peso +"'"+" : "+                         parseInt(pos+3)+" , ";
+                csv += "descrizione tecnica :"      +"'"+ obj.more.descrizione_tecnica +"'"+" : "+          parseInt(pos+4)+" , ";
+                csv += "emergenza :"                +"'"+ obj.more.emergenza +"'"+" : "+                    parseInt(pos+5)+" , ";
+                csv += "regolazione :"              +"'"+ obj.more.regolazione +"'"+" : "+                  parseInt(pos+6)+" , ";
+                csv += "voltaggio :"                +"'"+ obj.more.voltaggio +"'"+" : "+                    parseInt(pos+7)+" , ";
+                csv += "potenza :"                  +"'"+ obj.more.potenza +"'"+" : "+                      parseInt(pos+8)+" , ";
+                csv += "batteria :"                 +"'"+ obj.more.batteria +"'"+" : "+                     parseInt(pos+9)+" , ";
+                csv += "alimentatore incluso :"     +"'"+ obj.more.alimentatore_incluso +"'"+" : "+         parseInt(pos+10)+" , ";
+                csv += "lunghezza cavo (mm) :"      +"'"+ obj.more['lunghezza_del_cavo_(mm)'] +"'"+" : "+   parseInt(pos+11)+" , ";
+                csv += "materiale :"                +"'"+ obj.more.materiale_di_costruzione +"'"+" : "+     parseInt(pos+12)+" , ";
+                */
+            }
+           
+            
+            // tolgo l'ultima virgola
+            return csv.substring(0, csv.length - 3);
+        }
+
+        function inlineCSVFlos(obj,arr, caso){
+            
+            let pos = 0;
+            if(!_.is(caso)){ // caso dei attributes
+                var csv = "stato : select : 0 | ";                
+            }
+            else{ // caso di values
+                var csv = "nuovo : 0 | ";
+            }
+            _.each(arr,function(elem){
+
+                if(_.is(caso)){ // caso dei values
+                    if( _.is(obj[elem]) ){
+                        pos++;
+                        var singleton = obj[elem] +" : "+ pos +" | ";
+                    }
+                }
+                else{ // caso di attributes
+                    pos++;
+                    //_.log(etichetta)
+                    var etichetta = "colore"; // per flos è sempre e solo il colore il secondo attribute // (etichetta=="color")? "colore" : "nome_attributo_non_trovato";
+                    var singleton = etichetta +" : "+ elem[1] +" : "+ pos+" | ";
+                }
+                
+                csv += (_.is(singleton))? singleton : "";
+            });
+
+            // tolgo l'ultimo punto e virgola
+            return csv.substring(0, csv.length - 3);
+        }
+        
+        // in component_of invece del code metto hicId
+        _.each(json, function(elem, index){
+            var cod = elem.component_of;
+            _.each(json, function(elem2){
+                if( elem2.model_id == cod)
+                   json[index].component_of = elem2.hicId;
+            })
+        })
+
+        // ad ogni accessorio aggiungo l'hicId degli articoli di cui è accessorio
+        var registro_component_hicId = {};
+        _.each(json, function(elem){
+            if( elem.component == 1 ){
+                var component_of_hicId = elem.component_of;
+                elem.accessories = component_of_hicId;
+            }
+        });
+        
+
+        
+        
+       
+    }
 
     return {
         json_varianti : json,
