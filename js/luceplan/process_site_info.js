@@ -804,16 +804,18 @@ var arr_all_products =[
   ]
 
 
-  /*
+/*
+
 var arr_all_products =[
   {
-    "name": "Costanza",
-    "category": [
-      "Tavolo"
-    ],
-    "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/costanza-d13-product-cover-1499868586.jpg/ae1a2e484d9bec7816cb9a5ca98eafdc.jpg",
-    "prod_page": "https://www.luceplan.com/it/prodotti/costanza-tavolo"
-  },
+      "name": "Compendium Plate",
+      "category": [
+        "Parete",
+        "Soffitto"
+      ],
+      "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/CompendiumPlate-d81p-productcover.jpg/1b5ec7ff063dd958f304f236903370f0.jpg",
+      "prod_page": "https://www.luceplan.com/it/prodotti/compendium-plate-parete"
+    }
     
   ]
 
@@ -916,7 +918,7 @@ function createJsonFromAPage(body, uri, model, name, prod_pic, category){
         })
         
         variations.push({
-          name: $(this).html().replace("/","").toUpperCase(),
+          name: $(this).html().toUpperCase(),
           light_schema: "http://www.luceplan.com"+light_schema,
           data : data,
         })
@@ -925,12 +927,15 @@ function createJsonFromAPage(body, uri, model, name, prod_pic, category){
 
       /* video */
       var video = $body.find(".embed-container").find("iframe").attr("src");
+
+      /* website item name */
+      var website_name = $body.find("#product-title").text().trim();
       
       await browser.close();
       index++;
 
       arr_single_product.push({
-        name: name,
+        name: website_name,
         prod_pic: prod_pic,
         prod_page : uri,
         projects : projects,

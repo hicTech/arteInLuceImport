@@ -1,0 +1,525 @@
+[
+    {
+        "uri": "https://www.vistosi.it/prodotti/armonia/sospensione.html",
+        "model": "armonia",
+        "category": "sospensione",
+        "desc": "Giochi di circonferenze metalliche attorno a cilindri di vetro quasi a creare infiniti girotondi. Una collezione dai connotati contemporanei con sorgente LED che racchiude preziosi contenuti storici della lavorazione del vetro quali il ballotton, il rigadin dritto e ritorto, il tutto  perfezionato da tonalità avvolgenti: cristallo, fumé, ambra e ametista chiaro. <br>",
+        "variants": [
+            {
+                "name": "sospensione",
+                "model": "armonia",
+                "category": "sospensione",
+                "url": "https://www.vistosi.it/assets/immagini/prodotti2017/ARMONIA/armonia sospensione-800x800.jpg"
+            }
+        ],
+        "projects": [
+            "https://www.vistosi.it//assets/gallery/1419/5411.jpg",
+            "https://www.vistosi.it//assets/gallery/1419/5407.jpg",
+            "https://www.vistosi.it//assets/gallery/1419/5409.jpg",
+            "https://www.vistosi.it//assets/gallery/1419/5542.jpg",
+            "https://www.vistosi.it//assets/gallery/1419/5410.jpg",
+            "https://www.vistosi.it//assets/gallery/1419/5404.jpg",
+            "https://www.vistosi.it//assets/gallery/1419/5408.jpg",
+            "https://www.vistosi.it//assets/gallery/1419/5258.jpg",
+            "https://www.vistosi.it//assets/gallery/1419/5543.jpg"
+        ],
+        "more": {
+            "more_url": "https://portal.vistosi.it/eprogen/epRichiesta_risorse_pubblica_v2.jsp?cdvisttp=SP&cdvistfam=ARMON&cdling=0&fg_eur_usa=E",
+            "more": [
+                {
+                    "name": "ARMONIA SP 40",
+                    "root_model": "armonia",
+                    "category": "sospensione",
+                    "variant": "40",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ARMONSP%20%2040%20%20%20%20-.jpg",
+                    "light_system": "g9",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPARMONIA25-40-50.PDF', true, 'Istruzioni montaggio ARMONIA SP 40 G9 ', 'TECHSHEET', 'ARMONSP  40    -', 'G9');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/sospensione_ARMONIA SP 40-0.pdf"
+                },
+                {
+                    "name": "ARMONIA SP 50",
+                    "root_model": "armonia",
+                    "category": "sospensione",
+                    "variant": "50",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ARMONSP%20%2050%20%20%20%20-.jpg",
+                    "light_system": "g9",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPARMONIA25-40-50.PDF', true, 'Istruzioni montaggio ARMONIA SP 50 G9 ', 'TECHSHEET', 'ARMONSP  50    -', 'G9');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/sospensione_ARMONIA SP 50-1.pdf"
+                }
+            ]
+        }
+    },
+    {
+        "uri": "https://www.vistosi.it/prodotti/armonia/parete.html",
+        "model": "armonia",
+        "category": "parete",
+        "desc": "Giochi di circonferenze metalliche attorno a cilindri di vetro quasi a creare infiniti girotondi. Una collezione dai connotati contemporanei con sorgente LED che racchiude preziosi contenuti storici della lavorazione del vetro quali il ballotton, il rigadin dritto e ritorto, il tutto  perfezionato da tonalità avvolgenti: cristallo, fumé, ambra e ametista chiaro. <br>",
+        "variants": [
+            {
+                "name": "parete",
+                "model": "armonia",
+                "category": "parete",
+                "url": "https://www.vistosi.it/assets/immagini/prodotti2017/ARMONIA/armonia parete-800x800.jpg"
+            }
+        ],
+        "projects": [
+            "https://www.vistosi.it//assets/gallery/1419/5411.jpg",
+            "https://www.vistosi.it//assets/gallery/1419/5407.jpg",
+            "https://www.vistosi.it//assets/gallery/1419/5409.jpg",
+            "https://www.vistosi.it//assets/gallery/1419/5542.jpg",
+            "https://www.vistosi.it//assets/gallery/1419/5410.jpg",
+            "https://www.vistosi.it//assets/gallery/1419/5404.jpg",
+            "https://www.vistosi.it//assets/gallery/1419/5408.jpg",
+            "https://www.vistosi.it//assets/gallery/1419/5258.jpg",
+            "https://www.vistosi.it//assets/gallery/1419/5543.jpg"
+        ],
+        "more": {
+            "more_url": "https://portal.vistosi.it/eprogen/epRichiesta_risorse_pubblica_v2.jsp?cdvisttp=AP&cdvistfam=ARMON&cdling=0&fg_eur_usa=E",
+            "more": [
+                {
+                    "name": "ARMONIA AP 25",
+                    "root_model": "armonia",
+                    "category": "parete",
+                    "variant": "25",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/ARMONAP%20%2025%20%20%20%20-.jpg",
+                    "light_system": "g9",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/APARMONIA.PDF', true, 'Istruzioni montaggio ARMONIA AP 25 G9 ', 'TECHSHEET', 'ARMONAP  25    -', 'G9');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/parete_ARMONIA AP 25-0.pdf"
+                }
+            ]
+        }
+    },
+    {
+        "uri": "https://www.vistosi.it/prodotti/jube/sospensione.html",
+        "model": "jube",
+        "category": "sospensione",
+        "desc": "\nFascino retrò.\nL’aspetto elegante e delicato del vetro soffiato trova in Jube una nuova dimensione. Due vetri accostati, perfettamente assemblati, tanto da sembrare un pezzo unico. Il risultato è una lampada sinuosa, formata da sovrapposizioni e con colori tono su tono che le regalano un prezioso mood vintage.  Dopo la sospensione, la collezione si arricchisce di due nuove versioni tavolo, di una nuova dimensione della sospensione e una nuova applique a vetro singolo. Il vetro superiore della sospensione e tavolo è disponibile in quattro colori: fumé, terra bruciata, verde antico, cristallo; finiture \n\n\n\n",
+        "variants": [
+            {
+                "name": "sospensione sp",
+                "model": "jube",
+                "category": "sospensione",
+                "variant": "sp",
+                "url": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/JUBE_SP_sospensione.jpg"
+            },
+            {
+                "name": "sospensione sp 1g",
+                "model": "jube",
+                "category": "sospensione",
+                "variant": "sp 1g",
+                "url": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/_JUBE-SP1G_sospensione.jpg"
+            }
+        ],
+        "projects": [
+            "https://www.vistosi.it//assets/gallery/1300/5172.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5170.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5255.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5252.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5253.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5254.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5173.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5174.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5171.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5175.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5420.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5421.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5422.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5423.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5424.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5425.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5426.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5427.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5428.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5429.jpg"
+        ],
+        "more": {
+            "more_url": "https://portal.vistosi.it/eprogen/epRichiesta_risorse_pubblica_v2.jsp?cdvisttp=SP&cdvistfam=JUBE&cdling=0&fg_eur_usa=E",
+            "more": [
+                {
+                    "name": "JUBE SP 1GD1",
+                    "root_model": "jube",
+                    "category": "sospensione",
+                    "variant": "1gd1",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/JUBE%20SP%20%201%20%20GD1-.jpg",
+                    "light_system": "led",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPJUBES-P-G.PDF', true, 'Istruzioni montaggio JUBE SP 1 GRANDE DECENTRAMENTO 1 LUCE LED ', 'TECHSHEET', 'JUBE SP  1  GD1-', 'LED');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/sospensione_JUBE SP 1GD1-0.pdf"
+                },
+                {
+                    "name": "JUBE SP 1G",
+                    "root_model": "jube",
+                    "category": "sospensione",
+                    "variant": "1g",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/JUBE%20SP%20%201%20%20G%20%20-.jpg",
+                    "light_system": "led",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPJUBES-P-G.PDF', true, 'Istruzioni montaggio JUBE SP 1 GRANDE LED ', 'TECHSHEET', 'JUBE SP  1  G  -', 'LED');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/sospensione_JUBE SP 1G-1.pdf"
+                },
+                {
+                    "name": "JUBE SP 1PD1",
+                    "root_model": "jube",
+                    "category": "sospensione",
+                    "variant": "1pd1",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/JUBE%20SP%20%201%20%20PD1-.jpg",
+                    "light_system": "led",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPJUBES-P-G.PDF', true, 'Istruzioni montaggio JUBE SP 1 PICCOLO DECENTRAMENTO 1 LUCE LED ', 'TECHSHEET', 'JUBE SP  1  PD1-', 'LED');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/sospensione_JUBE SP 1PD1-2.pdf"
+                },
+                {
+                    "name": "JUBE SP 1P",
+                    "root_model": "jube",
+                    "category": "sospensione",
+                    "variant": "1p",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/JUBE%20SP%20%201%20%20P%20%20-.jpg",
+                    "light_system": "led",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPJUBES-P-G.PDF', true, 'Istruzioni montaggio JUBE SP 1 PICCOLO LED ', 'TECHSHEET', 'JUBE SP  1  P  -', 'LED');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/sospensione_JUBE SP 1P-3.pdf"
+                },
+                {
+                    "name": "JUBE SP GD1",
+                    "root_model": "jube",
+                    "category": "sospensione",
+                    "variant": "gd1",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/JUBE%20SP%20%20%20%20%20GD1-.jpg",
+                    "light_system": "led",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPJUBES-P-G.PDF', true, 'Istruzioni montaggio JUBE SP GRANDE DECENTRAMENTO 1 LUCE LED ', 'TECHSHEET', 'JUBE SP     GD1-', 'LED');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/sospensione_JUBE SP GD1-4.pdf"
+                },
+                {
+                    "name": "JUBE SP G",
+                    "root_model": "jube",
+                    "category": "sospensione",
+                    "variant": "g",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/JUBE%20SP%20%20%20%20%20G%20%20-.jpg",
+                    "light_system": "led",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPJUBES-P-G.PDF', true, 'Istruzioni montaggio JUBE SP GRANDE LED ', 'TECHSHEET', 'JUBE SP     G  -', 'LED');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/sospensione_JUBE SP G-5.pdf"
+                },
+                {
+                    "name": "JUBE SP PD1",
+                    "root_model": "jube",
+                    "category": "sospensione",
+                    "variant": "pd1",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/JUBE%20SP%20%20%20%20%20PD1-.jpg",
+                    "light_system": "led",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPJUBES-P-G.PDF', true, 'Istruzioni montaggio JUBE SP PICCOLO DECENTRAMENTO 1 LUCE LED ', 'TECHSHEET', 'JUBE SP     PD1-', 'LED');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/sospensione_JUBE SP PD1-6.pdf"
+                },
+                {
+                    "name": "JUBE SP P",
+                    "root_model": "jube",
+                    "category": "sospensione",
+                    "variant": "p",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/JUBE%20SP%20%20%20%20%20P%20%20-.jpg",
+                    "light_system": "led",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPJUBES-P-G.PDF', true, 'Istruzioni montaggio JUBE SP PICCOLO LED ', 'TECHSHEET', 'JUBE SP     P  -', 'LED');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/sospensione_JUBE SP P-7.pdf"
+                },
+                {
+                    "name": "JUBE SP S",
+                    "root_model": "jube",
+                    "category": "sospensione",
+                    "variant": "s",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/JUBE%20SP%20%20%20%20%20S%20%20-.jpg",
+                    "light_system": "led",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPJUBES-P-G.PDF', true, 'Istruzioni montaggio JUBE SP S LED ', 'TECHSHEET', 'JUBE SP     S  -', 'LED');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/sospensione_JUBE SP S-8.pdf"
+                }
+            ]
+        }
+    },
+    {
+        "uri": "https://www.vistosi.it/prodotti/jube/parete.html",
+        "model": "jube",
+        "category": "parete",
+        "desc": "\nFascino retrò.\nL’aspetto elegante e delicato del vetro soffiato trova in Jube una nuova dimensione. Due vetri accostati, perfettamente assemblati, tanto da sembrare un pezzo unico. Il risultato è una lampada sinuosa, formata da sovrapposizioni e con colori tono su tono che le regalano un prezioso mood vintage.  Dopo la sospensione, la collezione si arricchisce di due nuove versioni tavolo, di una nuova dimensione della sospensione e una nuova applique a vetro singolo. Il vetro superiore della sospensione e tavolo è disponibile in quattro colori: fumé, terra bruciata, verde antico, cristallo; finiture \n\n\n\n",
+        "variants": [
+            {
+                "name": "parete",
+                "model": "jube",
+                "category": "parete",
+                "url": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/jube (3).jpg"
+            }
+        ],
+        "projects": [
+            "https://www.vistosi.it//assets/gallery/1300/5172.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5170.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5255.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5252.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5253.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5254.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5173.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5174.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5171.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5175.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5420.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5421.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5422.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5423.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5424.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5425.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5426.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5427.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5428.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5429.jpg"
+        ],
+        "more": {
+            "more_url": "https://portal.vistosi.it/eprogen/epRichiesta_risorse_pubblica_v2.jsp?cdvisttp=AP&cdvistfam=JUBE&cdling=0&fg_eur_usa=E",
+            "more": [
+                {
+                    "name": "JUBE AP S",
+                    "root_model": "jube",
+                    "category": "parete",
+                    "variant": "s",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/JUBE%20AP%20%20%20%20%20S%20%20-.jpg",
+                    "light_system": "led",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/APJUBES.PDF', true, 'Istruzioni montaggio JUBE AP S LED ', 'TECHSHEET', 'JUBE AP     S  -', 'LED');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/parete_JUBE AP S-0.pdf"
+                }
+            ]
+        }
+    },
+    {
+        "uri": "https://www.vistosi.it/prodotti/jube/tavolo.html",
+        "model": "jube",
+        "category": "tavolo",
+        "desc": "\nFascino retrò.\nL’aspetto elegante e delicato del vetro soffiato trova in Jube una nuova dimensione. Due vetri accostati, perfettamente assemblati, tanto da sembrare un pezzo unico. Il risultato è una lampada sinuosa, formata da sovrapposizioni e con colori tono su tono che le regalano un prezioso mood vintage.  Dopo la sospensione, la collezione si arricchisce di due nuove versioni tavolo, di una nuova dimensione della sospensione e una nuova applique a vetro singolo. Il vetro superiore della sospensione e tavolo è disponibile in quattro colori: fumé, terra bruciata, verde antico, cristallo; finiture \n\n\n\n",
+        "variants": [
+            {
+                "name": "tavolo",
+                "model": "jube",
+                "category": "tavolo",
+                "url": "https://www.vistosi.it/assets/immagini/prodotti2017/JUBE/jube (1).jpg"
+            }
+        ],
+        "projects": [
+            "https://www.vistosi.it//assets/gallery/1300/5172.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5170.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5255.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5252.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5253.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5254.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5173.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5174.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5171.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5175.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5420.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5421.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5422.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5423.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5424.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5425.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5426.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5427.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5428.jpg",
+            "https://www.vistosi.it//assets/gallery/1300/5429.jpg"
+        ],
+        "more": {
+            "more_url": "https://portal.vistosi.it/eprogen/epRichiesta_risorse_pubblica_v2.jsp?cdvisttp=LT&cdvistfam=JUBE&cdling=0&fg_eur_usa=E",
+            "more": [
+                {
+                    "name": "JUBE LT G",
+                    "root_model": "jube",
+                    "category": "tavolo",
+                    "variant": "g",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/JUBE%20LT%20%20%20%20%20G%20%20-.jpg",
+                    "light_system": "led",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/LTJUBE G-P.PDF', true, 'Istruzioni montaggio JUBE LT GRANDE LED ', 'TECHSHEET', 'JUBE LT     G  -', 'LED');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/tavolo_JUBE LT G-0.pdf"
+                },
+                {
+                    "name": "JUBE LT P",
+                    "root_model": "jube",
+                    "category": "tavolo",
+                    "variant": "p",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/JUBE%20LT%20%20%20%20%20P%20%20-.jpg",
+                    "light_system": "led",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/LTJUBE G-P.PDF', true, 'Istruzioni montaggio JUBE LT PICCOLO LED ', 'TECHSHEET', 'JUBE LT     P  -', 'LED');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/tavolo_JUBE LT P-1.pdf"
+                }
+            ]
+        }
+    },
+    {
+        "uri": "https://www.vistosi.it/prodotti/tread/parete.html",
+        "model": "tread",
+        "category": "parete",
+        "desc": "La “tecnicità” dell’elemento metallico unito al diffusore in vetro soffiato conferisce a Tread uno stile “industriale”. Un oggetto che ricorda le apparecchiature elettriche vintage per la sua forma particolare, in cui il dissipatore alettato, unito al vetro soffiato, diviene elemento caratterizzante. Tread crea un’atmosfera all’avanguardia e di stile coniugando il vetro cristallo, fumé, terra bruciata e verde antico trasparente con finiture rame, oro e bronzo satinato.",
+        "variants": [
+            {
+                "name": "parete",
+                "model": "tread",
+                "category": "parete",
+                "url": "https://www.vistosi.it/assets/immagini/prodotti2017/Tread/tread (2).jpg"
+            }
+        ],
+        "projects": [
+            "https://www.vistosi.it//assets/gallery/1426/5281.jpg",
+            "https://www.vistosi.it//assets/gallery/1426/5282.jpg",
+            "https://www.vistosi.it//assets/gallery/1426/5283.jpg",
+            "https://www.vistosi.it//assets/gallery/1426/5478.jpg",
+            "https://www.vistosi.it//assets/gallery/1426/5479.jpg",
+            "https://www.vistosi.it//assets/gallery/1426/5480.jpg",
+            "https://www.vistosi.it//assets/gallery/1426/5481.jpg",
+            "https://www.vistosi.it//assets/gallery/1426/5482.jpg",
+            "https://www.vistosi.it//assets/gallery/1426/5551.jpg",
+            "https://www.vistosi.it//assets/gallery/1426/5484.jpg"
+        ],
+        "more": {
+            "more_url": "https://portal.vistosi.it/eprogen/epRichiesta_risorse_pubblica_v2.jsp?cdvisttp=AP&cdvistfam=TREAD&cdling=0&fg_eur_usa=E",
+            "more": [
+                {
+                    "name": "TREAD AP",
+                    "root_model": "tread",
+                    "category": "parete",
+                    "variant": "",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TREADAP%20%20%20%20%20%20%20%20-.jpg",
+                    "light_system": "led",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/APTREAD.PDF', true, 'Istruzioni montaggio TREAD AP LED ', 'TECHSHEET', 'TREADAP        -', 'LED');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/parete_TREAD AP-0.pdf"
+                }
+            ]
+        }
+    },
+    {
+        "uri": "https://www.vistosi.it/prodotti/tread/tavolo.html",
+        "model": "tread",
+        "category": "tavolo",
+        "desc": "La “tecnicità” dell’elemento metallico unito al diffusore in vetro soffiato conferisce a Tread uno stile “industriale”. Un oggetto che ricorda le apparecchiature elettriche vintage per la sua forma particolare, in cui il dissipatore alettato, unito al vetro soffiato, diviene elemento caratterizzante. Tread crea un’atmosfera all’avanguardia e di stile coniugando il vetro cristallo, fumé, terra bruciata e verde antico trasparente con finiture rame, oro e bronzo satinato.",
+        "variants": [
+            {
+                "name": "tavolo",
+                "model": "tread",
+                "category": "tavolo",
+                "url": "https://www.vistosi.it/assets/immagini/prodotti2017/Tread/tread tavolo 800x800.jpg"
+            }
+        ],
+        "projects": [
+            "https://www.vistosi.it//assets/gallery/1426/5281.jpg",
+            "https://www.vistosi.it//assets/gallery/1426/5282.jpg",
+            "https://www.vistosi.it//assets/gallery/1426/5283.jpg",
+            "https://www.vistosi.it//assets/gallery/1426/5478.jpg",
+            "https://www.vistosi.it//assets/gallery/1426/5479.jpg",
+            "https://www.vistosi.it//assets/gallery/1426/5480.jpg",
+            "https://www.vistosi.it//assets/gallery/1426/5481.jpg",
+            "https://www.vistosi.it//assets/gallery/1426/5482.jpg",
+            "https://www.vistosi.it//assets/gallery/1426/5551.jpg",
+            "https://www.vistosi.it//assets/gallery/1426/5484.jpg"
+        ],
+        "more": {
+            "more_url": "https://portal.vistosi.it/eprogen/epRichiesta_risorse_pubblica_v2.jsp?cdvisttp=LT&cdvistfam=TREAD&cdling=0&fg_eur_usa=E",
+            "more": [
+                {
+                    "name": "TREAD LT",
+                    "root_model": "tread",
+                    "category": "tavolo",
+                    "variant": "",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/TREADLT%20%20%20%20%20%20%20%20-.jpg",
+                    "light_system": "led",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/LTTREAD.PDF', true, 'Istruzioni montaggio TREAD LT LED ', 'TECHSHEET', 'TREADLT        -', 'LED');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/tavolo_TREAD LT-0.pdf"
+                }
+            ]
+        }
+    },
+    {
+        "uri": "https://www.vistosi.it/prodotti/puppet-ring/sospensione.html",
+        "model": "puppet-ring",
+        "category": "sospensione",
+        "desc": "L’elemento distintivo di questo modello della collezione Puppet sono i tre anelli con diametro crescente, che possono essere accostati con sequenze differenti per costituire l’armatura su cui andare ad appoggiare le preziose sfere in vetro di tre dimensioni differenti, che si fondono con la struttura grazie ad una preformatura interma al vetro soffiato. Esteticamente leggero ed elegante, Puppet Ring coniuga in modo etereo vetro e metallo. ",
+        "variants": [
+            {
+                "name": "sospensione",
+                "model": "puppet-ring",
+                "category": "sospensione",
+                "url": "https://www.vistosi.it/assets/immagini/prodotti2017/Puppet ring/puppet ring sp-800x800.jpg"
+            }
+        ],
+        "projects": [
+            "https://www.vistosi.it//assets/gallery/1422/5269.jpg",
+            "https://www.vistosi.it//assets/gallery/1422/5455.jpg",
+            "https://www.vistosi.it//assets/gallery/1422/5550.jpg",
+            "https://www.vistosi.it//assets/gallery/1422/5456.jpg",
+            "https://www.vistosi.it//assets/gallery/1422/5458.jpg",
+            "https://www.vistosi.it//assets/gallery/1422/5546.jpg",
+            "https://www.vistosi.it//assets/gallery/1422/5547.jpg",
+            "https://www.vistosi.it//assets/gallery/1422/5549.jpg",
+            "https://www.vistosi.it//assets/gallery/1422/5548.jpg"
+        ],
+        "more": {
+            "more_url": "https://portal.vistosi.it/eprogen/epRichiesta_risorse_pubblica_v2.jsp?cdvisttp=SP&cdvistfam=PUPRI&cdling=0&fg_eur_usa=E",
+            "more": [
+                {
+                    "name": "PUPPET RING SP 5",
+                    "root_model": "puppet-ring",
+                    "category": "sospensione",
+                    "variant": "puppet ring5",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/PUPRISP%20%205%20%20%20%20%20-.jpg",
+                    "light_system": "g9",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPPUPPETRING5-7-9.PDF', true, 'Istruzioni montaggio PUPPET RING SP 5 G9 ', 'TECHSHEET', 'PUPRISP  5     -', 'G9');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/sospensione_PUPPET RING SP 5-0.pdf"
+                },
+                {
+                    "name": "PUPPET RING SP 7",
+                    "root_model": "puppet-ring",
+                    "category": "sospensione",
+                    "variant": "puppet ring7",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/PUPRISP%20%207%20%20%20%20%20-.jpg",
+                    "light_system": "g9",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPPUPPETRING5-7-9.PDF', true, 'Istruzioni montaggio PUPPET RING SP 7 G9 ', 'TECHSHEET', 'PUPRISP  7     -', 'G9');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/sospensione_PUPPET RING SP 7-1.pdf"
+                },
+                {
+                    "name": "PUPPET RING SP 9",
+                    "root_model": "puppet-ring",
+                    "category": "sospensione",
+                    "variant": "puppet ring9",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/PUPRISP%20%209%20%20%20%20%20-.jpg",
+                    "light_system": "g9",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/SPPUPPETRING5-7-9.PDF', true, 'Istruzioni montaggio PUPPET RING SP 9 G9 ', 'TECHSHEET', 'PUPRISP  9     -', 'G9');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/sospensione_PUPPET RING SP 9-2.pdf"
+                }
+            ]
+        }
+    },
+    {
+        "uri": "https://www.vistosi.it/prodotti/puppet-ring/parete.html",
+        "model": "puppet-ring",
+        "category": "parete",
+        "desc": "L’elemento distintivo di questo modello della collezione Puppet sono i tre anelli con diametro crescente, che possono essere accostati con sequenze differenti per costituire l’armatura su cui andare ad appoggiare le preziose sfere in vetro di tre dimensioni differenti, che si fondono con la struttura grazie ad una preformatura interma al vetro soffiato. Esteticamente leggero ed elegante, Puppet Ring coniuga in modo etereo vetro e metallo. ",
+        "variants": [
+            {
+                "name": "parete",
+                "model": "puppet-ring",
+                "category": "parete",
+                "url": "https://www.vistosi.it/assets/immagini/prodotti2017/Puppet ring/puppet ring anteprima ap.jpg"
+            }
+        ],
+        "projects": [
+            "https://www.vistosi.it//assets/gallery/1422/5269.jpg",
+            "https://www.vistosi.it//assets/gallery/1422/5455.jpg",
+            "https://www.vistosi.it//assets/gallery/1422/5550.jpg",
+            "https://www.vistosi.it//assets/gallery/1422/5456.jpg",
+            "https://www.vistosi.it//assets/gallery/1422/5458.jpg",
+            "https://www.vistosi.it//assets/gallery/1422/5546.jpg",
+            "https://www.vistosi.it//assets/gallery/1422/5547.jpg",
+            "https://www.vistosi.it//assets/gallery/1422/5549.jpg",
+            "https://www.vistosi.it//assets/gallery/1422/5548.jpg"
+        ],
+        "more": {
+            "more_url": "https://portal.vistosi.it/eprogen/epRichiesta_risorse_pubblica_v2.jsp?cdvisttp=AP&cdvistfam=PUPRI&cdling=0&fg_eur_usa=E",
+            "more": [
+                {
+                    "name": "PUPPET RING AP 2",
+                    "root_model": "puppet-ring",
+                    "category": "parete",
+                    "variant": "puppet ring2",
+                    "light_schema": "https://portal.vistosi.it/shop/static/images/articoli/disegnitecnici/PUPRIAP%20%202%20%20%20%20%20-.jpg",
+                    "light_system": "g9",
+                    "download": "javascript:atk_send_mail_risorsa('fileresources/assembling_instructions/APPUPPETRING2.PDF', true, 'Istruzioni montaggio PUPPET RING AP 2 G9 ', 'TECHSHEET', 'PUPRIAP  2     -', 'G9');",
+                    "filename": "http://www.arteinluce.shop/assets_ecommerce/vistosi/pdf/parete_PUPPET RING AP 2-0.pdf"
+                }
+            ]
+        }
+    }
+]

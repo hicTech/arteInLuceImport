@@ -2063,14 +2063,72 @@ var single_pages = [
     }
 ]
 
+
+/* solo i nuovi indicati da Monica */
 /*
 var single_pages = [
-        {
-        "model": "tablo",
+       {
+        "model": "armonia",
         "category": "sospensione",
-        "uri": "https://www.vistosi.it/prodotti/tablo/sospensione.html",
-        "desc": "La peculiarità di questa linea sta nella grande accuratezza e abilità che richiedono soffiatura e taglio di un vetro unico. L'elemento vitreo viene fissato alla struttura di laminato personalizzato in esclusiva da Abet Laminati, senza l'ausilio di alcuna parte metallica. La forma trae ispirazione dai caratteri maschile e femminile ed è disponibile in differenti combinazioni e opzioni d'illuminazione."
+        "uri": "https://www.vistosi.it/prodotti/armonia/sospensione.html",
+        "desc": "Giochi di circonferenze metalliche attorno a cilindri di vetro quasi a creare infiniti girotondi. Una collezione dai connotati contemporanei con sorgente LED che racchiude preziosi contenuti storici della lavorazione del vetro quali il ballotton, il rigadin dritto e ritorto, il tutto  perfezionato da tonalità avvolgenti: cristallo, fumé, ambra e ametista chiaro. <br>"
     },
+    {
+        "model": "armonia",
+        "category": "parete",
+        "uri": "https://www.vistosi.it/prodotti/armonia/parete.html",
+        "desc": "Giochi di circonferenze metalliche attorno a cilindri di vetro quasi a creare infiniti girotondi. Una collezione dai connotati contemporanei con sorgente LED che racchiude preziosi contenuti storici della lavorazione del vetro quali il ballotton, il rigadin dritto e ritorto, il tutto  perfezionato da tonalità avvolgenti: cristallo, fumé, ambra e ametista chiaro. <br>"
+    },
+    {
+        "model": "jube",
+        "category": "sospensione",
+        "uri": "https://www.vistosi.it/prodotti/jube/sospensione.html",
+        "desc": "\nFascino retrò.\nL’aspetto elegante e delicato del vetro soffiato trova in Jube una nuova dimensione. Due vetri accostati, perfettamente assemblati, tanto da sembrare un pezzo unico. Il risultato è una lampada sinuosa, formata da sovrapposizioni e con colori tono su tono che le regalano un prezioso mood vintage.  Dopo la sospensione, la collezione si arricchisce di due nuove versioni tavolo, di una nuova dimensione della sospensione e una nuova applique a vetro singolo. Il vetro superiore della sospensione e tavolo è disponibile in quattro colori: fumé, terra bruciata, verde antico, cristallo; finiture \n\n\n\n"
+    },
+    {
+        "model": "jube",
+        "category": "parete",
+        "uri": "https://www.vistosi.it/prodotti/jube/parete.html",
+        "desc": "\nFascino retrò.\nL’aspetto elegante e delicato del vetro soffiato trova in Jube una nuova dimensione. Due vetri accostati, perfettamente assemblati, tanto da sembrare un pezzo unico. Il risultato è una lampada sinuosa, formata da sovrapposizioni e con colori tono su tono che le regalano un prezioso mood vintage.  Dopo la sospensione, la collezione si arricchisce di due nuove versioni tavolo, di una nuova dimensione della sospensione e una nuova applique a vetro singolo. Il vetro superiore della sospensione e tavolo è disponibile in quattro colori: fumé, terra bruciata, verde antico, cristallo; finiture \n\n\n\n"
+    },
+    {
+        "model": "jube",
+        "category": "tavolo",
+        "uri": "https://www.vistosi.it/prodotti/jube/tavolo.html",
+        "desc": "\nFascino retrò.\nL’aspetto elegante e delicato del vetro soffiato trova in Jube una nuova dimensione. Due vetri accostati, perfettamente assemblati, tanto da sembrare un pezzo unico. Il risultato è una lampada sinuosa, formata da sovrapposizioni e con colori tono su tono che le regalano un prezioso mood vintage.  Dopo la sospensione, la collezione si arricchisce di due nuove versioni tavolo, di una nuova dimensione della sospensione e una nuova applique a vetro singolo. Il vetro superiore della sospensione e tavolo è disponibile in quattro colori: fumé, terra bruciata, verde antico, cristallo; finiture \n\n\n\n"
+    },
+    
+    //{
+        //"model": "tread",
+        //"category": "sospensione",
+        //"uri": "https://www.vistosi.it/prodotti/tread/sospensione.html",
+      //  "desc": "La “tecnicità” dell’elemento metallico unito al diffusore in vetro soffiato conferisce a Tread uno stile “industriale”. Un oggetto che ricorda le apparecchiature elettriche vintage per la sua forma particolare, in cui il dissipatore alettato, unito al vetro soffiato, diviene elemento caratterizzante. Tread crea un’atmosfera all’avanguardia e di stile coniugando il vetro cristallo, fumé, terra bruciata e verde antico trasparente con finiture rame, oro e bronzo satinato."
+    //},
+    
+    {
+        "model": "tread",
+        "category": "parete",
+        "uri": "https://www.vistosi.it/prodotti/tread/parete.html",
+        "desc": "La “tecnicità” dell’elemento metallico unito al diffusore in vetro soffiato conferisce a Tread uno stile “industriale”. Un oggetto che ricorda le apparecchiature elettriche vintage per la sua forma particolare, in cui il dissipatore alettato, unito al vetro soffiato, diviene elemento caratterizzante. Tread crea un’atmosfera all’avanguardia e di stile coniugando il vetro cristallo, fumé, terra bruciata e verde antico trasparente con finiture rame, oro e bronzo satinato."
+    },
+    {
+        "model": "tread",
+        "category": "tavolo",
+        "uri": "https://www.vistosi.it/prodotti/tread/tavolo.html",
+        "desc": "La “tecnicità” dell’elemento metallico unito al diffusore in vetro soffiato conferisce a Tread uno stile “industriale”. Un oggetto che ricorda le apparecchiature elettriche vintage per la sua forma particolare, in cui il dissipatore alettato, unito al vetro soffiato, diviene elemento caratterizzante. Tread crea un’atmosfera all’avanguardia e di stile coniugando il vetro cristallo, fumé, terra bruciata e verde antico trasparente con finiture rame, oro e bronzo satinato."
+    },
+    {
+        "model": "puppet-ring",
+        "category": "sospensione",
+        "uri": "https://www.vistosi.it/prodotti/puppet-ring/sospensione.html",
+        "desc": "L’elemento distintivo di questo modello della collezione Puppet sono i tre anelli con diametro crescente, che possono essere accostati con sequenze differenti per costituire l’armatura su cui andare ad appoggiare le preziose sfere in vetro di tre dimensioni differenti, che si fondono con la struttura grazie ad una preformatura interma al vetro soffiato. Esteticamente leggero ed elegante, Puppet Ring coniuga in modo etereo vetro e metallo. "
+    },
+    {
+        "model": "puppet-ring",
+        "category": "parete",
+        "uri": "https://www.vistosi.it/prodotti/puppet-ring/parete.html",
+        "desc": "L’elemento distintivo di questo modello della collezione Puppet sono i tre anelli con diametro crescente, che possono essere accostati con sequenze differenti per costituire l’armatura su cui andare ad appoggiare le preziose sfere in vetro di tre dimensioni differenti, che si fondono con la struttura grazie ad una preformatura interma al vetro soffiato. Esteticamente leggero ed elegante, Puppet Ring coniuga in modo etereo vetro e metallo. "
+    }
 ]
 
 */

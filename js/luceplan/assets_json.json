@@ -16,7 +16,7 @@
         "description": "Un gioco di trasparenze, riflessi\ne rifrazioni consente alla luce\ndi diffondere una illuminazione di\ngrande impatto visivo. Tre filtri\ncolorati e sovrapponibili consentono\ndi colorare la lampada.\nLa struttura radiale delle centine\nin metacrilato trasparente copre\nla sorgente luminosa impedendo\nabbagliamenti e dispersioni\ndel flusso luminoso\n",
         "variations": [
             {
-                "name": "D4917S",
+                "name": "D49/17S",
                 "light_schema": "http://www.luceplan.com/assets/D49_17s_tech.png",
                 "data": {
                     "Modello": "D49/17s",
@@ -31,7 +31,7 @@
                 }
             },
             {
-                "name": "D4926S",
+                "name": "D49/26S",
                 "light_schema": "http://www.luceplan.com/assets/D49_26s_tech.png",
                 "data": {
                     "Modello": "D49/26s",
@@ -46,7 +46,7 @@
                 }
             },
             {
-                "name": "D4970S",
+                "name": "D49/70S",
                 "light_schema": "http://www.luceplan.com/assets/D49_70s_tech copia.png",
                 "data": {
                     "Modello": "D49/70s",
@@ -121,7 +121,7 @@
                 }
             },
             {
-                "name": "D6902",
+                "name": "D69/02",
                 "light_schema": "http://www.luceplan.com/assets/D69_2_tech.png",
                 "data": {
                     "Modello": "D69/02",
@@ -201,7 +201,7 @@
         "description": "Bap è una lampada specificatamente\npensata per la particolare\nluminescenza dello schermo\ndei computer. L’estrema essenzialità\ndella forma si integra con\nmovimenti studiati per mantenere\nla sorgente di luce parallela\nal piano di lavoro, garantendo\nun controllo dei riflessi e delle\ninterferenze luminose.\n",
         "variations": [
             {
-                "name": "D19L.LED + D191",
+                "name": "D19L.LED + D19/1",
                 "light_schema": "http://www.luceplan.com/assets/D19-LED-+-D19_1_tech.png",
                 "data": {
                     "Modello": "D19L.LED + D19/1",
@@ -215,7 +215,7 @@
                 }
             },
             {
-                "name": "D19L.LED + D192",
+                "name": "D19L.LED + D19/2",
                 "light_schema": "http://www.luceplan.com/assets/D19L+D19_2.png",
                 "data": {
                     "Modello": "D19L.LED + D19/2",
@@ -243,7 +243,7 @@
         "description": "Mediante l’apposito accessorio,\nBap può essere installata anche\na parete, consentendo così di\nposizionare il punto luce vicino a\nciò che si desidera illuminare.\n",
         "variations": [
             {
-                "name": "D19L.LED + D193",
+                "name": "D19L.LED + D19/3",
                 "light_schema": "http://www.luceplan.com/assets/D19-LED-+-D19_3_tech.png",
                 "data": {
                     "Modello": "D19L.LED + D19/3",
@@ -643,7 +643,7 @@
         "video": "https://player.vimeo.com/video/130554356",
         "variations": [
             {
-                "name": "D81NT  D81NTW",
+                "name": "D81NT / D81NTW",
                 "light_schema": "http://www.luceplan.com/assets/D81t_tech.png",
                 "data": {
                     "Modello": "D81NT / D81NTW",
@@ -676,7 +676,7 @@
         "video": "https://player.vimeo.com/video/130554356",
         "variations": [
             {
-                "name": "D81B  D81BW",
+                "name": "D81B / D81BW",
                 "light_schema": "http://www.luceplan.com/assets/D81s_tech.png",
                 "data": {
                     "Modello": "D81B / D81BW",
@@ -1296,7 +1296,7 @@
         ]
     },
     {
-        "name": "Counterbalance spot",
+        "name": "",
         "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/counterbalancespot-product-cover.jpg/fa26a7d37aa4a961006701f307801c0f.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/counterbalance-spot",
         "projects": [],
@@ -1996,7 +1996,7 @@
         "description": "Hope rinnova il fascino del lampadario in cristallo anche nella versione da terra. I suoi petali in policarbonato sono, infatti, lenti Fresnel piane con eccellenti proprietà riflettenti e rifrattive, agganciate in coppie mediante rametti in policarbonato stampato ad iniezione e montate su una struttura in acciaio.\n",
         "variations": [
             {
-                "name": "D6618TD",
+                "name": "D66/18TD",
                 "light_schema": "http://www.luceplan.com/assets/D66_18td_tech.png",
                 "data": {
                     "Modello": "D66/18td",
@@ -2027,7 +2027,7 @@
         "description": "Il potere diottrico delle lenti in policarbonato equivale a quello del vetro senza tuttavia vincoli di ingombro, spessore e peso. Frutto di un brillante processo progettuale e produttivo, è predisposta per accogliere ogni tipo di fonte luminosa: alogene, fluorescenti e LED a risparmio energetico.\n",
         "variations": [
             {
-                "name": "D6612P",
+                "name": "D66/12P",
                 "light_schema": "http://www.luceplan.com/assets/D66_12p_tech.png",
                 "data": {
                     "Modello": "D66/12p",
@@ -2042,7 +2042,7 @@
                 }
             },
             {
-                "name": "D6630P",
+                "name": "D66/30P",
                 "light_schema": "http://www.luceplan.com/assets/D66_30p_tech.png",
                 "data": {
                     "Modello": "D66/30p",
@@ -2077,7 +2077,7 @@
         "video": "https://player.vimeo.com/video/40516595",
         "variations": [
             {
-                "name": "D6612",
+                "name": "D66/12",
                 "light_schema": "http://www.luceplan.com/assets/D66_12_tech.png",
                 "data": {
                     "Modello": "D66/12",
@@ -2091,7 +2091,7 @@
                 }
             },
             {
-                "name": "D6618",
+                "name": "D66/18",
                 "light_schema": "http://www.luceplan.com/assets/D66_18_tech.png",
                 "data": {
                     "Modello": "D66/18",
@@ -2105,7 +2105,7 @@
                 }
             },
             {
-                "name": "D6642",
+                "name": "D66/42",
                 "light_schema": "http://www.luceplan.com/assets/D66_42_tech.png",
                 "data": {
                     "Modello": "D66/42",
@@ -2119,7 +2119,7 @@
                 }
             },
             {
-                "name": "D66105",
+                "name": "D66/105",
                 "light_schema": "http://www.luceplan.com/assets/D66_105_tech.png",
                 "data": {
                     "Modello": "D66/105",
@@ -2148,7 +2148,7 @@
         ],
         "variations": [
             {
-                "name": "D663A",
+                "name": "D66/3A",
                 "light_schema": "http://www.luceplan.com/assets/D66_3a_tech.png",
                 "data": {
                     "Modello": "D66/3a",
@@ -2162,7 +2162,7 @@
                 }
             },
             {
-                "name": "D668A",
+                "name": "D66/8A",
                 "light_schema": "http://www.luceplan.com/assets/D66_8a_tech.png",
                 "data": {
                     "Modello": "D66/8a",
@@ -2248,7 +2248,7 @@
         "description": "La regolazione telescopica dello stelo e la possibilità di rotazione a 360° sulla base, donano a Lady Costanza una elegante flessibilità, consentendo di variare a piacere l’altezza e l’orientamento nello spazio del suo diffusore. La straordinaria leggerezza della struttura e la maniglia di cui è dotata la base agevolano, inoltre, lo spostamento dell’apparecchio da un ambiente all’altro.\n",
         "variations": [
             {
-                "name": "D13E D.D13E I.",
+                "name": "D13E D./D13E I.",
                 "light_schema": "http://www.luceplan.com/assets/D13Ed_tech.png",
                 "data": {
                     "Modello": "D13E d./D13E i.",
@@ -2308,7 +2308,7 @@
         "description": "La regolazione telescopica dello stelo e la possibilità di rotazione, donano a Lady Costanza una elegante flessibilità, consentendo di variare a piacere l’altezza e l’orientamento nello spazio del suo diffusore.\n",
         "variations": [
             {
-                "name": "D13EAD.D13EAI.",
+                "name": "D13EAD./D13EAI.",
                 "light_schema": "http://www.luceplan.com/assets/D13ai_tech.png",
                 "data": {
                     "Modello": "D13Ead./D13Eai.",
@@ -2372,7 +2372,7 @@
         "description": "Sottile ed essenziale, Lightdisc è composta da due gusci in policarbonato stampato a iniezione. Lo spessore, ridotto al minimo, e la sobrietà del disegno consentono all’apparecchio di inserirsi armonicamente in ogni tipo di contesto.\n",
         "variations": [
             {
-                "name": "D4132.22 - D41B/32.22",
+                "name": "D41/32.22 - D41B/32.22",
                 "light_schema": "http://www.luceplan.com/assets/D41_32_tech.png",
                 "data": {
                     "Modello": "D41/32.22 - D41B/32.22",
@@ -2386,7 +2386,7 @@
                 }
             },
             {
-                "name": "D4140.55D",
+                "name": "D41/40.55D",
                 "light_schema": "http://www.luceplan.com/assets/D41_40_55_tech.png",
                 "data": {
                     "Modello": "D41/40.55D",
@@ -2400,7 +2400,7 @@
                 }
             },
             {
-                "name": "D4140.55D + D41/40/03",
+                "name": "D41/40.55D + D41/40/03",
                 "light_schema": "http://www.luceplan.com/assets/Tech_lightdisc_susp-1563978787.png",
                 "data": {
                     "Modello": "D41/40.55D + D41/40/03",
@@ -2906,7 +2906,7 @@
         "prod_page": "https://www.luceplan.com/it/prodotti/metropoli-parete",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/metro_01.jpg/373bbae0f30a1766c93ad8b850094a8f.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/metro_02.jpg/8f6499d7e09c100fde1c936a4875bf38.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/metro_02.jpg/839324cc5f72572f37461cdccf3fde23.jpg",
             "http://www.luceplan.com/it/img/containers/main/products/metropoli_01.jpg/bcffe29173ea0e2a9778726fcdd1f720.jpg",
             "http://www.luceplan.com/it/img/containers/main/products/metropoli_02.jpg/14ecab05ccb1addd8bc7d7c0223ec09d.jpg"
         ],
@@ -2918,7 +2918,7 @@
         "description": "Sobrio e impeccabile, il telaio in alluminio pressofuso contiene il diffusore e dispone di una serie di ottiche intercambiabili che permette di utilizzare a scelta lampadine alogene o fluorescenti, Metropoli viene ora proposta con nuove sorgenti LED per una maggiore efficienza luminosa. Il diffusore è in vetro stampato prismatizzato o policarbonato opalino (tenuta stagna).Con l’inserimento dell’apposito Kit IP65, Metropoli diventa anche a tenuta stagna per l’utilizzo in esterno. Realizzata in alluminio pressofuso e dotata di un diffusore in policarbonato opalino, Metropoli esprime, con la sua inconfondibile eleganza iconica, una piacevole continuità formale fra il dentro e il fuori dell’architettura.\n",
         "variations": [
             {
-                "name": "D2017",
+                "name": "D20/17",
                 "light_schema": "http://www.luceplan.com/assets/D20_17_tech.png",
                 "data": {
                     "Modello": "D20/17",
@@ -2933,7 +2933,7 @@
                 }
             },
             {
-                "name": "D2027",
+                "name": "D20/27",
                 "light_schema": "http://www.luceplan.com/assets/D20_27_tech.png",
                 "data": {
                     "Modello": "D20/27",
@@ -2948,7 +2948,7 @@
                 }
             },
             {
-                "name": "D2038",
+                "name": "D20/38",
                 "light_schema": "http://www.luceplan.com/assets/D20_38_tech.png",
                 "data": {
                     "Modello": "D20/38",
@@ -3003,7 +3003,7 @@
         "prod_page": "https://www.luceplan.com/it/prodotti/miranda-tavolo",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/Miranda_01.jpg/de885d9f64c4fb8c857bb61c25e393b4.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/miranda-D60-product-slider-01-1499156471.jpg/efc14f10c1fb394d9b1966a20b5b5147.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/miranda-D60-product-slider-01-1499156471.jpg/f944ec5bdc8c569cafb65a4739a369e5.jpg",
             "http://www.luceplan.com/it/img/containers/main/products/miranda-D60-product-slider-02-1499156472.jpg/9846d3b4ed58a48d2f6a789868919eb0.jpg"
         ],
         "category": [
@@ -3096,7 +3096,7 @@
         "prod_page": "https://www.luceplan.com/it/prodotti/otto-watt-tavolo",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/otto-watt/table/otootwatt-d72-product-slider-01.jpg/eeb3d300eae43de956cb90739098f240.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/otto-watt/table/ottowatt-d72-product-slider-01.jpg/67cc151f03d214f3b74fc25271a4796f.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/otto-watt/table/ottowatt-d72-product-slider-01.jpg/4c18b28b7d42bbe97495e00a8ca4cb4f.jpg",
             "http://www.luceplan.com/it/img/containers/main/products/otto-watt/table/ottowatt-d72-product-slider-02.jpg/e0c293f696a296ed7cc56c430a7874bb.jpg",
             "http://www.luceplan.com/it/img/containers/main/products/otto-watt/table/ottowatt-d72-product-slider-03.jpg/77a773c30ff7232baecdfb6768ae8282.jpg",
             "http://www.luceplan.com/it/img/containers/main/products/otto-watt/table/ottowatt-d72-product-slider-04.jpg/072a232ba444dfe6d89fc2fc14e5b5c6.jpg",
@@ -3314,7 +3314,7 @@
         "video": "https://player.vimeo.com/video/63472871",
         "variations": [
             {
-                "name": "D7990C",
+                "name": "D79/90C",
                 "light_schema": "http://www.luceplan.com/assets/D79_90c_tech.png",
                 "data": {
                     "Modello": "D79/90c",
@@ -3329,7 +3329,7 @@
                 }
             },
             {
-                "name": "D79120C",
+                "name": "D79/120C",
                 "light_schema": "http://www.luceplan.com/assets/D79_120c_tech.png",
                 "data": {
                     "Modello": "D79/120c",
@@ -3344,7 +3344,7 @@
                 }
             },
             {
-                "name": "D79150C",
+                "name": "D79/150C",
                 "light_schema": "http://www.luceplan.com/assets/D79_150c_tech.png",
                 "data": {
                     "Modello": "D79/150c",
@@ -3494,7 +3494,7 @@
         "description": "Composta da sfere di vetro\na diverse altezze, Stochastic\nconsente infinite combinazioni,\nin una sorta di libertà controllata:\nogni sfera è collegata a delle\nastine in acciaio di lunghezze\ndifferenti, che vanno agganciate\nalla struttura secondo la propria\ncreatività. La fonte luminosa,\nun doppio modulo LED ad alta\nefficienza, è racchiusa all’interno\ndelle sfere, generando una luce\nindiretta calda e soffusa, che\nsi dirige sia verso l’alto che verso\nil basso.\n",
         "variations": [
             {
-                "name": "D87CW  D87CC",
+                "name": "D87CW / D87CC",
                 "light_schema": "http://www.luceplan.com/assets/tech_stochastic-1563182307.png",
                 "data": {
                     "Modello": "D87CW / D87CC",
@@ -3525,7 +3525,7 @@
         "description": "Strip è una famiglia di lampade\nda parete, soffitto e sospensione,\ndi bassissimo spessore, la cui\nmodularità consente la realizza\n-\nzione di sequenze e accosta\n-\nmenti calibrati secondo\ngeometrie “in equilibrio”. Pochi\nelementi costruttivi di base quali\nle spalle in alluminio pressofuso,\ni profili distanziatori in alluminio\nestruso, i corpi contenitori i com\n-\nponenti elettrici, gli schermi\ndiffusori in policarbonato opali\n-\nno, consentono di realizzare\ncorpi illuminanti modulari\ndi diversa dimensione e intensità\nluminosa.\n",
         "variations": [
             {
-                "name": "D221 EL",
+                "name": "D22/1 EL",
                 "light_schema": "http://www.luceplan.com/assets/D22_1EL_tech.png",
                 "data": {
                     "Modello": "D22/1 EL",
@@ -3540,7 +3540,7 @@
                 }
             },
             {
-                "name": "D222 EL",
+                "name": "D22/2 EL",
                 "light_schema": "http://www.luceplan.com/assets/D22_2EL_tech.png",
                 "data": {
                     "Modello": "D22/2 EL",
@@ -3555,7 +3555,7 @@
                 }
             },
             {
-                "name": "D223 EL",
+                "name": "D22/3 EL",
                 "light_schema": "http://www.luceplan.com/assets/D22_3EL_tech.png",
                 "data": {
                     "Modello": "D22/3 EL",
@@ -3570,7 +3570,7 @@
                 }
             },
             {
-                "name": "D224 EL",
+                "name": "D22/4 EL",
                 "light_schema": "http://www.luceplan.com/assets/D22_4EL_tech.png",
                 "data": {
                     "Modello": "D22/4 EL",

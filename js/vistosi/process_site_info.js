@@ -37,15 +37,40 @@ var arr_all_products = [
 
 ];
 
+/* questo è l'array di tutti i prodotti presenti sul sito ad ottobre 2019 */
+var arr_all_products_2019 = [
+    "https://www.vistosi.it/prodotti/24pearls.html","https://www.vistosi.it/prodotti/alega.html","https://www.vistosi.it/prodotti/aria.html","https://www.vistosi.it/prodotti/armonia/","https://www.vistosi.it/prodotti/assiba/","https://www.vistosi.it/prodotti/aurora.html",
+    "https://www.vistosi.it/prodotti/baco.html",
+    "https://www.vistosi.it/prodotti/balance.html","https://www.vistosi.it/prodotti/bissona.html","https://www.vistosi.it/prodotti/bolle/","https://www.vistosi.it/prodotti/bot.html","https://www.vistosi.it/prodotti/candela.html",
+    "https://www.vistosi.it/prodotti/cleo.html","https://www.vistosi.it/prodotti/cloth.html","https://www.vistosi.it/prodotti/corner.html","https://www.vistosi.it/prodotti/cristallina.html","https://www.vistosi.it/prodotti/dafne.html",
+    "https://www.vistosi.it/prodotti/damasco.html","https://www.vistosi.it/prodotti/diadema.html","https://www.vistosi.it/prodotti/diamante.html","https://www.vistosi.it/prodotti/dress.html","https://www.vistosi.it/prodotti/ecos.html",
+    "https://www.vistosi.it/prodotti/essence.html","https://www.vistosi.it/prodotti/ferea.html","https://www.vistosi.it/prodotti/futura/","https://www.vistosi.it/prodotti/giogali.html","https://www.vistosi.it/prodotti/giogali-3d.html",
+    "https://www.vistosi.it/prodotti/gloria.html","https://www.vistosi.it/prodotti/goccia.html","https://www.vistosi.it/prodotti/goto.html","https://www.vistosi.it/prodotti/implode.html","https://www.vistosi.it/prodotti/incanto/","https://www.vistosi.it/prodotti/infinita.html",
+    "https://www.vistosi.it/prodotti/jo.html","https://www.vistosi.it/prodotti/jube.html","https://www.vistosi.it/prodotti/kira.html","https://www.vistosi.it/prodotti/lacrima.html","https://www.vistosi.it/prodotti/lepanto.html","https://www.vistosi.it/prodotti/lio.html",
+    "https://www.vistosi.it/prodotti/lucciola.html","https://www.vistosi.it/prodotti/medea/","https://www.vistosi.it/prodotti/mendeleev.html","https://www.vistosi.it/prodotti/mia.html","https://www.vistosi.it/prodotti/mini-giogali.html","https://www.vistosi.it/prodotti/mirage.html",
+    "https://www.vistosi.it/prodotti/moris.html","https://www.vistosi.it/prodotti/munega.html","https://www.vistosi.it/prodotti/naranza.html","https://www.vistosi.it/prodotti/naxos.html","https://www.vistosi.it/prodotti/neochic.html",
+    "https://www.vistosi.it/prodotti/nessa.html","https://www.vistosi.it/prodotti/ninfea.html","https://www.vistosi.it/prodotti/nodo.html","https://www.vistosi.it/prodotti/novecento.html","https://www.vistosi.it/prodotti/oro/","https://www.vistosi.it/prodotti/oto.html",
+    "https://www.vistosi.it/prodotti/ovalina.html","https://www.vistosi.it/prodotti/peggy/","https://www.vistosi.it/prodotti/phoenix/","https://www.vistosi.it/prodotti/plot/","https://www.vistosi.it/prodotti/poc.html","https://www.vistosi.it/prodotti/pod.html",
+    "https://www.vistosi.it/prodotti/puppet.html","https://www.vistosi.it/prodotti/puppet-ring/","https://www.vistosi.it/prodotti/riflesso/","https://www.vistosi.it/prodotti/rina.html","https://www.vistosi.it/prodotti/saba.html","https://www.vistosi.it/prodotti/sata/",
+    "https://www.vistosi.it/prodotti/scintilla/","https://www.vistosi.it/prodotti/semai.html","https://www.vistosi.it/prodotti/sissi.html","https://www.vistosi.it/prodotti/smoking.html","https://www.vistosi.it/prodotti/sogno.html","https://www.vistosi.it/prodotti/spirit.html",
+    "https://www.vistosi.it/prodotti/stardust.html","https://www.vistosi.it/prodotti/starnet.html","https://www.vistosi.it/prodotti/stone/","https://www.vistosi.it/prodotti/surface.html","https://www.vistosi.it/prodotti/tread/","https://www.vistosi.it/prodotti/trepai.html",
+    "https://www.vistosi.it/prodotti/tubes.html","https://www.vistosi.it/prodotti/vega.html","https://www.vistosi.it/prodotti/withwhite.html",
+]
 
-
+/* questi sono gli url relativi ai nuovi prodotti Vistosi indicati da Monica nella mail del  7 ottobre 2019 */
+var nuovi_prodotti = [
+    "https://www.vistosi.it/prodotti/armonia/",
+    "https://www.vistosi.it/prodotti/jube.html",
+    "https://www.vistosi.it/prodotti/tread/",
+    "https://www.vistosi.it/prodotti/puppet-ring/",
+]
 
 
 
 
 
 // elimino eventuali doppioni
-arr_all_products = _.uniq(arr_all_products);
+arr_all_products = _.uniq(nuovi_prodotti);
 var pages_number = arr_all_products.length;
 
 
@@ -59,6 +84,7 @@ function avvia(index){
 
 
     if(index == pages_number){
+        //fs.writeFile('all_products_single_pages.json', JSON.stringify(arr_single_product, null, 4), 'utf8', function(){
         fs.writeFile('all_products_single_pages.json', JSON.stringify(arr_single_product, null, 4), 'utf8', function(){
             _.log(arr_single_product);
         });

@@ -33,6 +33,7 @@
     "request": "^2.88.0",
     "rimraf": "^2.6.3",
     "string": "^3.3.3",
+    "string-similarity": "^3.0.0",
     "svg-to-png": "^4.0.0",
     "xls-to-json": "^0.5.1",
     "xlsx": "0.12.8"
