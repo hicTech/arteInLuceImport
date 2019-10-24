@@ -4807,8 +4807,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                                             }
                                                         }
                                                         else{
-                                                            if( sS.compareTwoStrings(model_id_no_space, variant_id) > 0.79){
-                                                                //_.log(model_id_no_space+" - - - - "+variant_id)
+                                                            if( sS.compareTwoStrings(model_id_no_space, variant_id) > 0.7){
+                                                                _.log("_______________________________________");
+                                                                _.log("link: "+asset.prod_page);
+                                                                _.log("codice sito: "+variant_id+" - - - - codice listino: "+model_id_no_space)
                                                                 ret = {
                                                                     id_listino: id,
                                                                     asset: asset,
