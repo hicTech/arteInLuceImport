@@ -190,6 +190,34 @@
     },
     {
         "name": "Bap LED",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/bapled_lamp_wall_producthome-1499767858.jpg/aa4a386d7d2de721bbebb97e0e2d6bd2.jpg",
+        "prod_page": "https://www.luceplan.com/it/prodotti/bap-led-parete",
+        "projects": [
+            "http://www.luceplan.com/it/img/containers/main/products/D19-bapled-product-slider-01.jpg/ae7f8aacba75ff5cea107356d7b46e45.jpg"
+        ],
+        "category": [
+            "Parete"
+        ],
+        "description": "Mediante l’apposito accessorio,\nBap può essere installata anche\na parete, consentendo così di\nposizionare il punto luce vicino a\nciò che si desidera illuminare.\n",
+        "variations": [
+            {
+                "name": "D19L.LED + D19/3",
+                "light_schema": "http://www.luceplan.com/assets/D19-LED-+-D19_3_tech.png",
+                "data": {
+                    "Modello": "D19L.LED + D19/3",
+                    "Materiale": "Corpo e testa in alluminio, giunti in nylon rinforzato con vetro",
+                    "Dimensioni": "Bracci L 50 cm - testa 30 x 2 x 2 cm",
+                    "": "Bianco, nero",
+                    "Fonte Luminosa": "LED 12W 2700K dimmer on board",
+                    "Classe Isolante": "II",
+                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
+                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Bap LED",
         "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/bapled_lamp_table_producthome.jpg/ef91b50292a53b4673cc9957f59c1d1e.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/bap-led-tavolo",
         "projects": [
@@ -221,34 +249,6 @@
                     "Modello": "D19L.LED + D19/2",
                     "Materiale": "Corpo e testa in alluminio, giunti in nylon rinforzato con vetro",
                     "Dimensioni": "bracci L 50 cm - testa 30 x 2 x 2 - attacco per piano Ø 8 cm",
-                    "": "Bianco, nero",
-                    "Fonte Luminosa": "LED 12W 2700K dimmer on board",
-                    "Classe Isolante": "II",
-                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
-                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
-                }
-            }
-        ]
-    },
-    {
-        "name": "Bap LED",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/bapled_lamp_wall_producthome-1499767858.jpg/aa4a386d7d2de721bbebb97e0e2d6bd2.jpg",
-        "prod_page": "https://www.luceplan.com/it/prodotti/bap-led-parete",
-        "projects": [
-            "http://www.luceplan.com/it/img/containers/main/products/D19-bapled-product-slider-01.jpg/ae7f8aacba75ff5cea107356d7b46e45.jpg"
-        ],
-        "category": [
-            "Parete"
-        ],
-        "description": "Mediante l’apposito accessorio,\nBap può essere installata anche\na parete, consentendo così di\nposizionare il punto luce vicino a\nciò che si desidera illuminare.\n",
-        "variations": [
-            {
-                "name": "D19L.LED + D19/3",
-                "light_schema": "http://www.luceplan.com/assets/D19-LED-+-D19_3_tech.png",
-                "data": {
-                    "Modello": "D19L.LED + D19/3",
-                    "Materiale": "Corpo e testa in alluminio, giunti in nylon rinforzato con vetro",
-                    "Dimensioni": "Bracci L 50 cm - testa 30 x 2 x 2 cm",
                     "": "Bianco, nero",
                     "Fonte Luminosa": "LED 12W 2700K dimmer on board",
                     "Classe Isolante": "II",
@@ -336,6 +336,52 @@
     },
     {
         "name": "Berenice",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/berenice_lamp_wall_producthome.jpg/0bbfbca03b19f8fe9e8e16640d987733.jpg",
+        "prod_page": "https://www.luceplan.com/it/prodotti/berenice-parete",
+        "projects": [
+            "http://www.luceplan.com/it/img/containers/main/products/berenice_wall.jpg/aa563a5751254ed1434cf794e84e08a5.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/slider_berewall.jpg/08da9b5fce4b947c12bae099ffe60835.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/Berenice-vetri-1545300984.jpg/cabe4fe65f6e5438dafdf848469b02f0.jpg"
+        ],
+        "category": [
+            "Parete"
+        ],
+        "description": "Berenice può essere installata\nanche a parete, consentendo\ncosì di posizionare il punto luce\nvicino a ciò che si desidera illuminare.\n",
+        "variations": [
+            {
+                "name": "D12ELA45 ",
+                "light_schema": "http://www.luceplan.com/assets/D12-El-a.45_tech-1492083207.png",
+                "data": {
+                    "Modello": "D12Ela45 ",
+                    "Materiale": "Parti metalliche in alluminio pressofuso, giunti in nylon rinforzato,\ntesta in rynite, riflettore parabolico in vetro pressato o in metallo\nrynite testa, parabolic reflector in pressed glass or in metal",
+                    "Dimensioni": "arms l 45 + 45 cm - head Ø 10,2 cm",
+                    "": "Alu, nero",
+                    "Finiture": "Bianco satinato, rosa, giallo, verde salvia, alu, nero, ottone",
+                    "Fonte Luminosa": "LED 2W G4 3000K\nor\n30W-12V HGST GY6,35",
+                    "Classe Isolante": "III",
+                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
+                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
+                }
+            },
+            {
+                "name": "D12ELAPI ",
+                "light_schema": "http://www.luceplan.com/assets/D12-El-a.pi_tech.png",
+                "data": {
+                    "Modello": "D12Elapi ",
+                    "Materiale": "Parti metalliche in alluminio pressofuso, giunti in nylon rinforzato,\ntesta in rynite, riflettore parabolico in vetro pressato o in metallo\nrynite testa, parabolic reflector in pressed glass or in metal",
+                    "Dimensioni": "arms l 30 + 30 cm - head Ø 10,2 cm",
+                    "": "Alu, nero",
+                    "Finiture": "Bianco satinato, rosa, giallo, verde salvia, alu, nero, ottone",
+                    "Fonte Luminosa": "LED 2W G4 3000K\nor\n30W-12V HGST GY6,35",
+                    "Classe Isolante": "III",
+                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
+                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Berenice",
         "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/berenice_lamp_table_producthome.jpg/474997ad1ecf2dca807f92cad18b6ad2.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/berenice-tavolo",
         "projects": [
@@ -396,52 +442,6 @@
         ]
     },
     {
-        "name": "Berenice",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/berenice_lamp_wall_producthome.jpg/0bbfbca03b19f8fe9e8e16640d987733.jpg",
-        "prod_page": "https://www.luceplan.com/it/prodotti/berenice-parete",
-        "projects": [
-            "http://www.luceplan.com/it/img/containers/main/products/berenice_wall.jpg/aa563a5751254ed1434cf794e84e08a5.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/slider_berewall.jpg/08da9b5fce4b947c12bae099ffe60835.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/Berenice-vetri-1545300984.jpg/cabe4fe65f6e5438dafdf848469b02f0.jpg"
-        ],
-        "category": [
-            "Parete"
-        ],
-        "description": "Berenice può essere installata\nanche a parete, consentendo\ncosì di posizionare il punto luce\nvicino a ciò che si desidera illuminare.\n",
-        "variations": [
-            {
-                "name": "D12ELA45 ",
-                "light_schema": "http://www.luceplan.com/assets/D12-El-a.45_tech-1492083207.png",
-                "data": {
-                    "Modello": "D12Ela45 ",
-                    "Materiale": "Parti metalliche in alluminio pressofuso, giunti in nylon rinforzato,\ntesta in rynite, riflettore parabolico in vetro pressato o in metallo\nrynite testa, parabolic reflector in pressed glass or in metal",
-                    "Dimensioni": "arms l 45 + 45 cm - head Ø 10,2 cm",
-                    "": "Alu, nero",
-                    "Finiture": "Bianco satinato, rosa, giallo, verde salvia, alu, nero, ottone",
-                    "Fonte Luminosa": "LED 2W G4 3000K\nor\n30W-12V HGST GY6,35",
-                    "Classe Isolante": "III",
-                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
-                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
-                }
-            },
-            {
-                "name": "D12ELAPI ",
-                "light_schema": "http://www.luceplan.com/assets/D12-El-a.pi_tech.png",
-                "data": {
-                    "Modello": "D12Elapi ",
-                    "Materiale": "Parti metalliche in alluminio pressofuso, giunti in nylon rinforzato,\ntesta in rynite, riflettore parabolico in vetro pressato o in metallo\nrynite testa, parabolic reflector in pressed glass or in metal",
-                    "Dimensioni": "arms l 30 + 30 cm - head Ø 10,2 cm",
-                    "": "Alu, nero",
-                    "Finiture": "Bianco satinato, rosa, giallo, verde salvia, alu, nero, ottone",
-                    "Fonte Luminosa": "LED 2W G4 3000K\nor\n30W-12V HGST GY6,35",
-                    "Classe Isolante": "III",
-                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
-                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
-                }
-            }
-        ]
-    },
-    {
         "name": "Blow",
         "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/blow/ceiling-wall/D28-blow-product-cover.jpg/3e8300421b000bc74274dcdabf03ea19.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/blow-soffitto",
@@ -465,37 +465,6 @@
                     "Finiture": "Pale in blu, arancio, verde o trasparenti",
                     "Fonte Luminosa": "LED E27 dimmerabile, max 105W E27",
                     "Classe Isolante": "I",
-                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
-                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
-                }
-            }
-        ]
-    },
-    {
-        "name": "Cappuccina",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/cappuccina_lamp_table_producthome.jpg/3147f8d2d65637be0bf9216cbe564004.jpg",
-        "prod_page": "https://www.luceplan.com/it/prodotti/cappuccina-tavolo",
-        "projects": [
-            "http://www.luceplan.com/it/img/containers/main/products/cappuccina/table/cappuccina-d88-product-slider-02.jpg/2520bba2c714176bcece3f872a42c3a4.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/cappuccina/table/cappuccina-d88-product-slider-03.jpg/b1b71c271c9ea05e5d73b882d577623d.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/cappuccina-family-d88-product-slider-08-1498813636.jpg/0354dd49f2ecedca0ba44e9bbcd7d3ad.jpg"
-        ],
-        "category": [
-            "Tavolo"
-        ],
-        "description": "Il decoro del tessuto, rappresenta un progetto nel progetto. I pattern sono ideati dalla designer stessa: una texture degradé a trattini molto suggestiva. Vicinissimi nella parte superiore del paralume, si diradano gradualmente verso il basso, creando una delicata sfumatura in armonia con la luce che si proietta sul tessuto e dando più spazio al colore di fondo, che diventa dominante.\n",
-        "variations": [
-            {
-                "name": "D88",
-                "light_schema": "http://www.luceplan.com/assets/D88_tech.png",
-                "data": {
-                    "Modello": "D88",
-                    "Materiale": "Alluminio pressofuso ed estruso, diffusore in vetro opalino\nParalume in tessuto accoppiato con policarbonato",
-                    "Dimensioni": "h 57 cm - base Ø 20 cm -  shade Ø 36, h 20 cm  ",
-                    "": "Grigio chiaro/glacier",
-                    "Finiture": "Marrone/pluie, verde/cochenille, crema",
-                    "Fonte Luminosa": "LED 12W 2700K",
-                    "Classe Isolante": "III",
                     "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
                     "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
                 }
@@ -528,6 +497,37 @@
                     "Finiture": "Marrone/pluie, verde/cochenille, crema",
                     "Fonte Luminosa": "LED 15W 2700K",
                     "Classe Isolante": "I",
+                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
+                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Cappuccina",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/cappuccina_lamp_table_producthome.jpg/3147f8d2d65637be0bf9216cbe564004.jpg",
+        "prod_page": "https://www.luceplan.com/it/prodotti/cappuccina-tavolo",
+        "projects": [
+            "http://www.luceplan.com/it/img/containers/main/products/cappuccina/table/cappuccina-d88-product-slider-02.jpg/2520bba2c714176bcece3f872a42c3a4.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/cappuccina/table/cappuccina-d88-product-slider-03.jpg/b1b71c271c9ea05e5d73b882d577623d.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/cappuccina-family-d88-product-slider-08-1498813636.jpg/0354dd49f2ecedca0ba44e9bbcd7d3ad.jpg"
+        ],
+        "category": [
+            "Tavolo"
+        ],
+        "description": "Il decoro del tessuto, rappresenta un progetto nel progetto. I pattern sono ideati dalla designer stessa: una texture degradé a trattini molto suggestiva. Vicinissimi nella parte superiore del paralume, si diradano gradualmente verso il basso, creando una delicata sfumatura in armonia con la luce che si proietta sul tessuto e dando più spazio al colore di fondo, che diventa dominante.\n",
+        "variations": [
+            {
+                "name": "D88",
+                "light_schema": "http://www.luceplan.com/assets/D88_tech.png",
+                "data": {
+                    "Modello": "D88",
+                    "Materiale": "Alluminio pressofuso ed estruso, diffusore in vetro opalino\nParalume in tessuto accoppiato con policarbonato",
+                    "Dimensioni": "h 57 cm - base Ø 20 cm -  shade Ø 36, h 20 cm  ",
+                    "": "Grigio chiaro/glacier",
+                    "Finiture": "Marrone/pluie, verde/cochenille, crema",
+                    "Fonte Luminosa": "LED 12W 2700K",
+                    "Classe Isolante": "III",
                     "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
                     "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
                 }
@@ -628,38 +628,6 @@
     },
     {
         "name": "Compendium",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/compendium_lamp_floor_producthome_1.jpg/087aa79e28c949470fb5b359914591b1.jpg",
-        "prod_page": "https://www.luceplan.com/it/prodotti/compendium-terra",
-        "projects": [
-            "http://www.luceplan.com/it/img/containers/main/products/Compendium_terra_1.jpg/2cb04f77560320eb8248dbc2a2cd6785.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/compendium/floor/compendium-D81t-product-slider-01.jpg/200cfe1f1aed5f6f7541313619a20e25.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/Compendium_terra_2.jpg/634e8395669d46cf3f6f57851d72a439.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/compendium.jpg/46d5586c8dc48f5a6382409d02065996.jpg"
-        ],
-        "category": [
-            "Terra"
-        ],
-        "description": "Nella versione da terra Compendium fornisce una luce diffusa nell’ambiente. Il corpo alloggia una sorgente LED ad alta efficienza e ruota liberamente sulla base per direzionare la luce verso la parete evitando l’abbagliamento diretto.\n",
-        "video": "https://player.vimeo.com/video/130554356",
-        "variations": [
-            {
-                "name": "D81NT / D81NTW",
-                "light_schema": "http://www.luceplan.com/assets/D81t_tech.png",
-                "data": {
-                    "Modello": "D81NT / D81NTW",
-                    "Materiale": "Profilo in alluminio estruso anodizzato in vari colori\nBase in lega di zinco pressofuso",
-                    "Dimensioni": "h 164 cm<br>\nbase h 16,8 cm, Ø 14 cm",
-                    "": "Nero, ottone, alu",
-                    "Fonte Luminosa": "LED 43W 2700/3000K",
-                    "Classe Isolante": "II",
-                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
-                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
-                }
-            }
-        ]
-    },
-    {
-        "name": "Compendium",
         "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/compendium_lamp_suspension_producthome.jpg/1bb8b4a5105fc1878b7dcee963411fd8.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/compendium-sospensione",
         "projects": [
@@ -685,6 +653,38 @@
                     "": "Nero, ottone, alu",
                     "Fonte Luminosa": "LED 29W or 43W 2700/3000K",
                     "Classe Isolante": "I",
+                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
+                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Compendium",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/compendium_lamp_floor_producthome_1.jpg/087aa79e28c949470fb5b359914591b1.jpg",
+        "prod_page": "https://www.luceplan.com/it/prodotti/compendium-terra",
+        "projects": [
+            "http://www.luceplan.com/it/img/containers/main/products/Compendium_terra_1.jpg/2cb04f77560320eb8248dbc2a2cd6785.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/compendium/floor/compendium-D81t-product-slider-01.jpg/200cfe1f1aed5f6f7541313619a20e25.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/Compendium_terra_2.jpg/634e8395669d46cf3f6f57851d72a439.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/compendium.jpg/46d5586c8dc48f5a6382409d02065996.jpg"
+        ],
+        "category": [
+            "Terra"
+        ],
+        "description": "Nella versione da terra Compendium fornisce una luce diffusa nell’ambiente. Il corpo alloggia una sorgente LED ad alta efficienza e ruota liberamente sulla base per direzionare la luce verso la parete evitando l’abbagliamento diretto.\n",
+        "video": "https://player.vimeo.com/video/130554356",
+        "variations": [
+            {
+                "name": "D81NT / D81NTW",
+                "light_schema": "http://www.luceplan.com/assets/D81t_tech.png",
+                "data": {
+                    "Modello": "D81NT / D81NTW",
+                    "Materiale": "Profilo in alluminio estruso anodizzato in vari colori\nBase in lega di zinco pressofuso",
+                    "Dimensioni": "h 164 cm<br>\nbase h 16,8 cm, Ø 14 cm",
+                    "": "Nero, ottone, alu",
+                    "Fonte Luminosa": "LED 43W 2700/3000K",
+                    "Classe Isolante": "II",
                     "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
                     "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
                 }
@@ -825,68 +825,6 @@
         ]
     },
     {
-        "name": "Costanza LED",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/CostanzaLED_table_lamp.jpg/0cc588e3ccc36464337366cf2cf1d9d4.jpg",
-        "prod_page": "https://www.luceplan.com/it/prodotti/costanza-led-tavolo",
-        "projects": [
-            "http://www.luceplan.com/it/img/containers/main/products/costanza-D13tfL-slider-01-1493721699.jpg/c19d1446347cd2b9a37f775877dc9ce3.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/costanzatavololed-d13Led-product-slider-02-1499072822.jpg/771446bebe88232b9f09975567b2f173.jpg"
-        ],
-        "category": [
-            "Tavolo"
-        ],
-        "description": "Raffinata e discreta, consente di illuminare con grande funzionalità ed efficienza qualsiasi ambiente, grazie al basso consumo energetico e alla lunga durata della sorgente luminosa. Il modulo Led con dissipatore in alluminio si integra perfettamente con il classico paralume tronco-conico in policarbonato, immutato nella sua essenzialità, generando una luce intensa e d’atmosfera.\n",
-        "video": "https://player.vimeo.com/video/130555651",
-        "variations": [
-            {
-                "name": "D13IL",
-                "light_schema": "http://www.luceplan.com/assets/D13iL_tech.png",
-                "data": {
-                    "Modello": "D13iL",
-                    "Materiale": "stelo in alluminio, paralume intercambiabile in policarbonato serigrafato",
-                    "Dimensioni": "h 76/110 cm, base 18 x 18 cm, shade Ø 40, h 28 cm ",
-                    "": "Alu",
-                    "Finiture": "Bianco, bianco nebbia, cipria, nocciola, rosa mistico, verde alchimia\nBlu petrolio, giallo vivo, rosso primario, grigio cemento, nero liquirizia",
-                    "Fonte Luminosa": "LED 23W 2700K",
-                    "Classe Isolante": "II",
-                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
-                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
-                }
-            }
-        ]
-    },
-    {
-        "name": "Costanza LED",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/CostanzaLED_floor_lamp.jpg/2c39ca0f422e8ccd1a7ca427fc6026ea.jpg",
-        "prod_page": "https://www.luceplan.com/it/prodotti/costanza-led-terra",
-        "projects": [
-            "http://www.luceplan.com/it/img/containers/main/products/costanzaledterra-d13tL-product-slider.jpg/8868465cda8d4ea7c96b2ef41105e983.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/costanza-led/floor/white-thumb.jpg/62f3a70f4c0a852d0df2e16800f43f6e.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/costanzaledterra-d13tL-product-slider-03.jpg/403fddeb89814f4e8eb1e85bc9d4b564.jpg"
-        ],
-        "category": [
-            "Terra"
-        ],
-        "description": "La tecnologia Led ha consentito di rinnovare Costanza, mantenendone le caratteristiche che l’hanno resa inimitabile: alte prestazioni in termini di illuminamento diffuso e comfort visivo, grazie anche alla dimmerabilità sensoriale tramite la classica astina a sfioramento, unite al paralume intercambiabile in policarbonato. Una svolta contemporanea per un grande classico.\n",
-        "variations": [
-            {
-                "name": "D13TL",
-                "light_schema": "http://www.luceplan.com/assets/D13tL_tech.png",
-                "data": {
-                    "Modello": "D13tL",
-                    "Materiale": "aluminium stem interchangeable polycarbonate silkscreened shade.",
-                    "Dimensioni": "h 120/160 cm, base 18 x 18 cm, shade Ø 40, h 28 cm ",
-                    "": "Alu",
-                    "Finiture": "White, mistic white, comfort green, edgy pink, soft skin, shaded stone.\nPrimary red, liquorice black, petroleum blue, smart yellow, concrete grey.",
-                    "Fonte Luminosa": "LED 23W 2700K",
-                    "Classe Isolante": "II",
-                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
-                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
-                }
-            }
-        ]
-    },
-    {
         "name": "Costanza",
         "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/costanza-d13-product-cover-1499868586.jpg/ae1a2e484d9bec7816cb9a5ca98eafdc.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/costanza-tavolo",
@@ -966,7 +904,7 @@
     },
     {
         "name": "Costanza",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Costanza-d13s-product-cover.jpg/22020c6c52b9c90ff838559ac98fbd2a.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Costanza-d13s-product-cover.jpg/bdc5dd066c97d76d650001c77fe33568.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/costanza-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/Costanzaled-sospensione-d13s-product-slider05.jpg/0c9efbb2923623e163826bedb330f00b.jpg",
@@ -1010,8 +948,39 @@
         ]
     },
     {
+        "name": "Costanza LED",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/CostanzaLED_table_lamp.jpg/0cc588e3ccc36464337366cf2cf1d9d4.jpg",
+        "prod_page": "https://www.luceplan.com/it/prodotti/costanza-led-tavolo",
+        "projects": [
+            "http://www.luceplan.com/it/img/containers/main/products/costanza-D13tfL-slider-01-1493721699.jpg/c19d1446347cd2b9a37f775877dc9ce3.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/costanzatavololed-d13Led-product-slider-02-1499072822.jpg/771446bebe88232b9f09975567b2f173.jpg"
+        ],
+        "category": [
+            "Tavolo"
+        ],
+        "description": "Raffinata e discreta, consente di illuminare con grande funzionalità ed efficienza qualsiasi ambiente, grazie al basso consumo energetico e alla lunga durata della sorgente luminosa. Il modulo Led con dissipatore in alluminio si integra perfettamente con il classico paralume tronco-conico in policarbonato, immutato nella sua essenzialità, generando una luce intensa e d’atmosfera.\n",
+        "video": "https://player.vimeo.com/video/130555651",
+        "variations": [
+            {
+                "name": "D13IL",
+                "light_schema": "http://www.luceplan.com/assets/D13iL_tech.png",
+                "data": {
+                    "Modello": "D13iL",
+                    "Materiale": "stelo in alluminio, paralume intercambiabile in policarbonato serigrafato",
+                    "Dimensioni": "h 76/110 cm, base 18 x 18 cm, shade Ø 40, h 28 cm ",
+                    "": "Alu",
+                    "Finiture": "Bianco, bianco nebbia, cipria, nocciola, rosa mistico, verde alchimia\nBlu petrolio, giallo vivo, rosso primario, grigio cemento, nero liquirizia",
+                    "Fonte Luminosa": "LED 23W 2700K",
+                    "Classe Isolante": "II",
+                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
+                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
+                }
+            }
+        ]
+    },
+    {
         "name": "Costanza Friends of Hue",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/terra_cover.jpg/0bb8a708a5e7965668f90a598d889e7a.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/terra_cover.jpg/8812b5d022831ef8d0dfe8d3e0da75e3.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/costanza-fiends-of-hue-terra",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/costanza-foh_floor.jpg/fcfca353f2995b7701c9b2ccf4311d7b.jpg",
@@ -1040,7 +1009,7 @@
     },
     {
         "name": "Costanza",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Costanza_terra_slide.jpg/83d7d89543fb42144c9b1327b5588bfe.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Costanza_terra_slide.jpg/ad2f3c017536b8fb10b6f7191e8f18fa.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/costanza-terra",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/Costanzaterra-d13t-product-slider-11-1498819557.jpg/f1edb818d32c072c7657078c53ca2895.jpg",
@@ -1102,7 +1071,38 @@
     },
     {
         "name": "Costanza LED",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/costanzaLED_lamp_suspension_producthome.jpg/f1d7e12c8002bbbc27691706d79c9433.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/CostanzaLED_floor_lamp.jpg/2c39ca0f422e8ccd1a7ca427fc6026ea.jpg",
+        "prod_page": "https://www.luceplan.com/it/prodotti/costanza-led-terra",
+        "projects": [
+            "http://www.luceplan.com/it/img/containers/main/products/costanzaledterra-d13tL-product-slider.jpg/8868465cda8d4ea7c96b2ef41105e983.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/costanza-led/floor/white-thumb.jpg/62f3a70f4c0a852d0df2e16800f43f6e.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/costanzaledterra-d13tL-product-slider-03.jpg/403fddeb89814f4e8eb1e85bc9d4b564.jpg"
+        ],
+        "category": [
+            "Terra"
+        ],
+        "description": "La tecnologia Led ha consentito di rinnovare Costanza, mantenendone le caratteristiche che l’hanno resa inimitabile: alte prestazioni in termini di illuminamento diffuso e comfort visivo, grazie anche alla dimmerabilità sensoriale tramite la classica astina a sfioramento, unite al paralume intercambiabile in policarbonato. Una svolta contemporanea per un grande classico.\n",
+        "variations": [
+            {
+                "name": "D13TL",
+                "light_schema": "http://www.luceplan.com/assets/D13tL_tech.png",
+                "data": {
+                    "Modello": "D13tL",
+                    "Materiale": "aluminium stem interchangeable polycarbonate silkscreened shade.",
+                    "Dimensioni": "h 120/160 cm, base 18 x 18 cm, shade Ø 40, h 28 cm ",
+                    "": "Alu",
+                    "Finiture": "White, mistic white, comfort green, edgy pink, soft skin, shaded stone.\nPrimary red, liquorice black, petroleum blue, smart yellow, concrete grey.",
+                    "Fonte Luminosa": "LED 23W 2700K",
+                    "Classe Isolante": "II",
+                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
+                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Costanza LED",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/costanzaLED_lamp_suspension_producthome.jpg/287b80fd617c5f52a6a2c64dc9f616a9.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/costanza-led-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/costaled_susp.jpg/31f97a51d319ff8ba8f00179173d1cd8.jpg"
@@ -1131,7 +1131,7 @@
     },
     {
         "name": "Costanza Friends of Hue",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/TABLE_COVER.jpg/0ef1a56acbb7942fb15149b0026bafbf.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/TABLE_COVER.jpg/2504608cb669b257c290ce80077a616b.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/costanza-fiends-of-hue-tavolo",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/costanza-foh_table.jpg/34dd23014ca6768d0e32effd1836d5a3.jpg",
@@ -1296,15 +1296,35 @@
         ]
     },
     {
-        "name": "",
+        "name": "Counterbalance spot",
         "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/counterbalancespot-product-cover.jpg/fa26a7d37aa4a961006701f307801c0f.jpg",
-        "prod_page": "https://www.luceplan.com/it/prodotti/counterbalance-spot",
-        "projects": [],
+        "prod_page": "https://www.luceplan.com/it/prodotti/counterbalance-spot-parete",
+        "projects": [
+            "http://www.luceplan.com/it/img/containers/main/products/counterbalancespot-d73a-product-slider-01-1493722399.jpg/ba3b769dc68b70da16a4007c982f687f.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/counterbalancespot-d73a-product-slider-1493722401.jpg/193d6615a5fb8ee73f52bc3aa3dfece8.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/Counterbalance-d73a-product-slider-08.jpg/31b6e50b64ddac9efb56268892036f0f.jpg"
+        ],
         "category": [
             "Soffitto",
             "Parete"
         ],
-        "variations": []
+        "description": "Nella declinazione spot a parete o soffitto, la lampada Counterbalance, priva del lungo braccio e del sistema di bilanciamento che ne contraddistingue le versioni d’origine a parete, conserva il caratteristico riflettore orientabile a calotta e si arricchisce di una inedita finitura bianca, condivisa con gli altri modelli della famiglia.\n",
+        "variations": [
+            {
+                "name": "D73NA",
+                "light_schema": "http://www.luceplan.com/assets/D73a_tech.png",
+                "data": {
+                    "Modello": "D73NA",
+                    "Materiale": "struttura in acciaio verniciato, testa in alluminio",
+                    "Dimensioni": "l 27,9, head Ø 8,5 cm",
+                    "": "Nero, bianco",
+                    "Fonte Luminosa": "LED 13W 2700K dimmerabile taglio di fase",
+                    "Classe Isolante": "I",
+                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
+                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
+                }
+            }
+        ]
     },
     {
         "name": "Counterbalance",
@@ -1373,7 +1393,7 @@
     },
     {
         "name": "E04 ceiling",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/E04-product-cover-1500296037.jpg/f24f33244549bb5a4f17bbf5ff07f87d.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/E04-product-cover-1500296037.jpg/1fc99e0ed9925cebe447a447ec681788.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/e04-ceiling-parete",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/slider_E04_ceiling.jpg/6c3c8b6edb0e87939c4593b5ded545c3.jpg",
@@ -1419,7 +1439,7 @@
     },
     {
         "name": "E04 suspension",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/E04-product-cover-1501582403.jpg/e75426007b1590e1f62c8a00da839d92.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/E04-product-cover-1501582403.jpg/854fc87c061e3c390a9d602ddbfb3318.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/e04-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/slider_E04_suspension.jpg/590758b136e98f0d8b2885e7cfc80be6.jpg",
@@ -1477,7 +1497,7 @@
     },
     {
         "name": "E06",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/e06/ceiling-wall/E06-product-cover.jpg/d664faef9c4b6b5bb1b1260f7e10a52e.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/e06/ceiling-wall/E06-product-cover.jpg/039c2a0846bca16a143f1a18963ea63b.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/e06-parete",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/slider_E06.jpg/c5b5310fdee869f59e810b7b3d6ab35f.jpg",
@@ -1520,7 +1540,7 @@
     },
     {
         "name": "Farel",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/cover_Farel-1531388717.jpg/012e5b3b9b4f342c6d52d13009184657.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/cover_Farel-1531388717.jpg/ee4a06979474f6595ddddcd9138122e3.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/farel-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/FAREL_SLIDER_2.jpg/85e19adf2334b4655a542420b8b8643a.jpg",
@@ -1553,7 +1573,7 @@
     },
     {
         "name": "Fortebraccio",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/fortebraccio-d33t-product-cover.jpg/dbd8e4c70403b18c98943b993fc5fdd3.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/fortebraccio-d33t-product-cover.jpg/a301b7826c9184b4ffd7f332d8950375.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/fortebraccio-terra",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/fortebraccio-d33-thumb.jpg/8c17691c5ec71a5382c0f70138b73b4b.jpg",
@@ -1583,38 +1603,7 @@
     },
     {
         "name": "Fortebraccio",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/forte_3-1506088601.jpg/95aa36cf3b7df900edcded6406d14a82.jpg",
-        "prod_page": "https://www.luceplan.com/it/prodotti/fortebraccio-parete",
-        "projects": [
-            "http://www.luceplan.com/it/img/containers/main/products/fortebraccio-d33a-product-slider-02-1499079048.jpg/4a55172dd333d191f0d62a797996b915.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/forte_4.jpg/f709a236f972b70872ab0d9d32d36698.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/forteusa_wall.jpg/4043c0439d2911e5503835f7359b5f42.jpg"
-        ],
-        "category": [
-            "Soffitto",
-            "Parete"
-        ],
-        "description": "Fortebraccio è anche disponibile nella versione spot a parete e soffitto. L’iconica maniglia conferisce al progetto un aspetto formale carismatico e risolve in modo intelligente il problema della direzionalità dell’emissione luminosa. Progettata per essere impugnata e manovrata con agilità.\n",
-        "variations": [
-            {
-                "name": "D33N.100",
-                "light_schema": "http://www.luceplan.com/assets/D33N100wall_tech-1498638104.png",
-                "data": {
-                    "Modello": "D33N.100",
-                    "Materiale": "Bracci in lamiera di ferro tranciata e imbutita, stelo in acciaio verniciato\nSnodi in micropressofusione di zama a basso spessore",
-                    "Dimensioni": "arms l 44+35,5, head Ø 16 cm",
-                    "": "Metal, bianco, nero soft touch",
-                    "Fonte Luminosa": "LED filament E27, 70W HSGSA E27",
-                    "Classe Isolante": "II",
-                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
-                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
-                }
-            }
-        ]
-    },
-    {
-        "name": "Fortebraccio",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/fortebraccio-d33-product-cover.jpg/c23547c050f14ddaccc794c21136fe9c.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/fortebraccio-d33-product-cover.jpg/f3f23084921be83197ee21d273a3e504.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/fortebraccio-tavolo",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/fortebraccio/table/fortebraccio-D33-product-slider-02.jpg/cf6d7eb3cd46d6b5a85ce616dfdf59ed.jpg",
@@ -1648,7 +1637,38 @@
     },
     {
         "name": "Fortebraccio",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/fortebraccio-d33Nsp60-product-cover.jpg/ead27c37fbfc6a893a3b46e510fe8ff8.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/forte_3-1506088601.jpg/d17ccdb4c0375806982b5980f310d4bf.jpg",
+        "prod_page": "https://www.luceplan.com/it/prodotti/fortebraccio-parete",
+        "projects": [
+            "http://www.luceplan.com/it/img/containers/main/products/fortebraccio-d33a-product-slider-02-1499079048.jpg/4a55172dd333d191f0d62a797996b915.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/forte_4.jpg/f709a236f972b70872ab0d9d32d36698.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/forteusa_wall.jpg/4043c0439d2911e5503835f7359b5f42.jpg"
+        ],
+        "category": [
+            "Soffitto",
+            "Parete"
+        ],
+        "description": "Fortebraccio è anche disponibile nella versione spot a parete e soffitto. L’iconica maniglia conferisce al progetto un aspetto formale carismatico e risolve in modo intelligente il problema della direzionalità dell’emissione luminosa. Progettata per essere impugnata e manovrata con agilità.\n",
+        "variations": [
+            {
+                "name": "D33N.100",
+                "light_schema": "http://www.luceplan.com/assets/D33N100wall_tech-1498638104.png",
+                "data": {
+                    "Modello": "D33N.100",
+                    "Materiale": "Bracci in lamiera di ferro tranciata e imbutita, stelo in acciaio verniciato\nSnodi in micropressofusione di zama a basso spessore",
+                    "Dimensioni": "arms l 44+35,5, head Ø 16 cm",
+                    "": "Metal, bianco, nero soft touch",
+                    "Fonte Luminosa": "LED filament E27, 70W HSGSA E27",
+                    "Classe Isolante": "II",
+                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
+                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Fortebraccio",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/fortebraccio-d33Nsp60-product-cover.jpg/e7832df0b32bdf3cfe4eaf460392f822.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/fortebraccio-spot",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/Spot_web.jpg/fa86d554f3bd7ce2063f45867df902e1.jpg",
@@ -1696,7 +1716,7 @@
     },
     {
         "name": "Fortebraccio LED",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/fortebraccio-d33Nled-product-cover.jpg/6c2c0a5b78468db8c7c49f0f2596f3f3.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/fortebraccio-d33Nled-product-cover.jpg/4bf6df84593a29737fc68de1668cdef5.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/fortebraccio-led-tavolo",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/FORTELED.jpg/8afc8b20ca57690fcb85fbf393caf384.jpg",
@@ -1725,7 +1745,7 @@
     },
     {
         "name": "Garbì",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/garbi-product-cover.jpg/cf3f426e4745c81240461d11a3da5568.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/garbi-product-cover.jpg/b266607192df3f499716922c5fa24f19.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/garbi-parete",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/garbi-D90-product-slider01.jpg/419319f1a72748d0276c72a0af1c0502.jpg",
@@ -1756,7 +1776,7 @@
     },
     {
         "name": "GlassGlass",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/glassglass-d31-product-cover.jpg/fe3e76ec2d21267b3a163801d865d508.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/glassglass-d31-product-cover.jpg/ddd26da93fd750096a0741aff8a0f09f.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/glassglass-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/glassglass/suspension/glassglass-d31-product-slider-01.jpg/3ca148d250adc81be467f357fec3058c.jpg",
@@ -1802,7 +1822,7 @@
     },
     {
         "name": "Goggle",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/goggle-d52-product-cover.jpg/5f9140958f7e5ae689a5145d4ae0dc82.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/goggle-d52-product-cover.jpg/00093675a022a8a9f009863115f9010b.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/goggle-parete",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/goggle.jpg/6d09b1fea740c313a2812e5c5299f172.jpg",
@@ -1832,7 +1852,7 @@
     },
     {
         "name": "Grande Costanza",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/grandecostanza-d13gs-product-cover.jpg/e2d90508f5ef571fe9b4171f53e63fd1.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/grandecostanza-d13gs-product-cover.jpg/8a8ba81591fa321b43596fb868e09a43.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/grande-costanza-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/D13Gs-grandecostanza-product-cover-02-1499073196.jpg/e0ad5acbed2ab4eb1fd8b8b8e2c55aaf.jpg",
@@ -1878,7 +1898,7 @@
     },
     {
         "name": "Grande Costanza",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/grandecostanza-d13Gt-product-cover.jpg/97157392d3adad358dfea474ff6c2cad.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/grandecostanza-d13Gt-product-cover.jpg/68fd963bfdfc1de32f17e5071524d6b0.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/grande-costanza-terra",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/GCostanza_1.jpg/9813353e9c46e1d2d71b8704d612cf6a.jpg",
@@ -1924,7 +1944,7 @@
     },
     {
         "name": "Grande Costanza Open Air",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/grandecostanzaopenair_lamp_floor_producthome_US.jpg/c61059e94365dba17300bbfcf27bce78.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/grandecostanzaopenair_lamp_floor_producthome_US.jpg/b6c9f03d77c8e5597ce78e3dd76238cf.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/grande-costanza-open-air-esterno",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/grandecostanzaopenait-d13G-product-slider-02-1497013148.jpg/0425f747a7c95589b2d6bdbe00be3b40.jpg",
@@ -1954,7 +1974,7 @@
     },
     {
         "name": "Honeycomb",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/honeycomb-d70-product-slider-1500295631.jpg/e45dc07edeaf5c120719d58a5469dcf7.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/honeycomb-d70-product-slider-1500295631.jpg/a909362c4047cfd73a27bb1e59c5136d.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/honeycomb-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/honeycomb/suspension/honeycomb-d70-product-slider.jpg/9c17fde52793688333dc3edf244727f2.jpg",
@@ -1983,38 +2003,7 @@
     },
     {
         "name": "Hope",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/hope_lamp_floor_producthome_US.jpg/fd54c4debc187b7e1e73f4427d620652.jpg",
-        "prod_page": "https://www.luceplan.com/it/prodotti/hope-terra",
-        "projects": [
-            "http://www.luceplan.com/it/img/containers/main/products/hope_floor_01.jpg/aa2820604f924584b48cc401d5785bb0.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/hope_floor_02.jpg/e4accebae0376cd4cb3e3dd0fb85ee21.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/D66_8TD_.jpg/4711ee5e5a5eb6b99a106625cd544810.jpg"
-        ],
-        "category": [
-            "Terra"
-        ],
-        "description": "Hope rinnova il fascino del lampadario in cristallo anche nella versione da terra. I suoi petali in policarbonato sono, infatti, lenti Fresnel piane con eccellenti proprietà riflettenti e rifrattive, agganciate in coppie mediante rametti in policarbonato stampato ad iniezione e montate su una struttura in acciaio.\n",
-        "variations": [
-            {
-                "name": "D66/18TD",
-                "light_schema": "http://www.luceplan.com/assets/D66_18td_tech.png",
-                "data": {
-                    "Modello": "D66/18td",
-                    "Materiale": "Struttura in acciaio lucido e policarbonato trasparente\nbracci in policarbonato trasparente, lenti prismatiche",
-                    "Dimensioni": "h 198, Ø 72",
-                    "": "lucido e trasparente",
-                    "Finiture": "trasparente",
-                    "Fonte Luminosa": "LED E27 dimmerabile, 105W HSGSA E28",
-                    "Classe Isolante": "II",
-                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
-                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
-                }
-            }
-        ]
-    },
-    {
-        "name": "Hope",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/hopeceiling-d66-product-cober.jpg/98f2593e96d10191869ad9ed32a020ca.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/hopeceiling-d66-product-cober.jpg/d9de2422b67770a91b7a75b971561f12.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/hope-soffitto",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/hopeceiling-d66_30p-product-slider-02-1499091626.jpg/e604fb454e6558af822ff3210472a5bd.jpg",
@@ -2060,7 +2049,81 @@
     },
     {
         "name": "Hope",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/hope-d66-product-cover.jpg/c21b1de244eca8520049ada63c178ab4.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/hope_lamp_floor_producthome_US.jpg/3dbaf1c99857c3cea892abb9fde9fad4.jpg",
+        "prod_page": "https://www.luceplan.com/it/prodotti/hope-terra",
+        "projects": [
+            "http://www.luceplan.com/it/img/containers/main/products/hope_floor_01.jpg/aa2820604f924584b48cc401d5785bb0.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/hope_floor_02.jpg/e4accebae0376cd4cb3e3dd0fb85ee21.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/D66_8TD_.jpg/4711ee5e5a5eb6b99a106625cd544810.jpg"
+        ],
+        "category": [
+            "Terra"
+        ],
+        "description": "Hope rinnova il fascino del lampadario in cristallo anche nella versione da terra. I suoi petali in policarbonato sono, infatti, lenti Fresnel piane con eccellenti proprietà riflettenti e rifrattive, agganciate in coppie mediante rametti in policarbonato stampato ad iniezione e montate su una struttura in acciaio.\n",
+        "variations": [
+            {
+                "name": "D66/18TD",
+                "light_schema": "http://www.luceplan.com/assets/D66_18td_tech.png",
+                "data": {
+                    "Modello": "D66/18td",
+                    "Materiale": "Struttura in acciaio lucido e policarbonato trasparente\nbracci in policarbonato trasparente, lenti prismatiche",
+                    "Dimensioni": "h 198, Ø 72",
+                    "": "lucido e trasparente",
+                    "Finiture": "trasparente",
+                    "Fonte Luminosa": "LED E27 dimmerabile, 105W HSGSA E28",
+                    "Classe Isolante": "II",
+                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
+                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Hope",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/hopewall-d66-product-cover-1500295910.jpg/6f5fa4f35917df763e367924e54e31e1.jpg",
+        "prod_page": "https://www.luceplan.com/it/prodotti/hope-parete",
+        "projects": [
+            "http://www.luceplan.com/it/img/containers/main/products/hope_wallt.jpg/3024d1ebad9758efb094cc89e81c78cd.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/hope_w.jpg/28b8f05ceec4239d52bccdd6ac2a7e9e.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/hope_wall-1540910009.jpg/167237d7ebfe7f312301894748629cc2.jpg"
+        ],
+        "category": [
+            "Parete"
+        ],
+        "variations": [
+            {
+                "name": "D66/3A",
+                "light_schema": "http://www.luceplan.com/assets/D66_3a_tech.png",
+                "data": {
+                    "Modello": "D66/3a",
+                    "Materiale": "Struttura in acciaio lucido e policarbonato trasparente\nbracci in policarbonato trasparente, lenti prismatiche",
+                    "Dimensioni": "l 43, d 28,5, Ø 48 cm",
+                    "": "lucido e trasparente",
+                    "Finiture": "trasparente",
+                    "Fonte Luminosa": "LED dimmerabile R7s, 120W HDG R7s",
+                    "Classe Isolante": "I",
+                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
+                }
+            },
+            {
+                "name": "D66/8A",
+                "light_schema": "http://www.luceplan.com/assets/D66_8a_tech.png",
+                "data": {
+                    "Modello": "D66/8a",
+                    "Materiale": "Struttura in acciaio lucido e policarbonato trasparente\nbracci in policarbonato trasparente, lenti prismatiche",
+                    "Dimensioni": "l 61, d 45,6, Ø 61 cm",
+                    "": "lucido e trasparente",
+                    "Finiture": "trasparente",
+                    "Fonte Luminosa": "LED E27, 105W HSGSA E27, 23W FB E27",
+                    "Classe Isolante": "I",
+                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Hope",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/hope-d66-product-cover.jpg/5da7103285af26e7db8df95825615279.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/hope-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/hope_3.jpg/0b656e803fbcea032e4a5dac3d1c91d0.jpg",
@@ -2135,51 +2198,8 @@
         ]
     },
     {
-        "name": "Hope",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/hopewall-d66-product-cover-1500295910.jpg/112e59bc27b5f3350a12deba7adb4ad3.jpg",
-        "prod_page": "https://www.luceplan.com/it/prodotti/hope-parete",
-        "projects": [
-            "http://www.luceplan.com/it/img/containers/main/products/hope_wallt.jpg/3024d1ebad9758efb094cc89e81c78cd.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/hope_w.jpg/28b8f05ceec4239d52bccdd6ac2a7e9e.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/hope_wall-1540910009.jpg/167237d7ebfe7f312301894748629cc2.jpg"
-        ],
-        "category": [
-            "Parete"
-        ],
-        "variations": [
-            {
-                "name": "D66/3A",
-                "light_schema": "http://www.luceplan.com/assets/D66_3a_tech.png",
-                "data": {
-                    "Modello": "D66/3a",
-                    "Materiale": "Struttura in acciaio lucido e policarbonato trasparente\nbracci in policarbonato trasparente, lenti prismatiche",
-                    "Dimensioni": "l 43, d 28,5, Ø 48 cm",
-                    "": "lucido e trasparente",
-                    "Finiture": "trasparente",
-                    "Fonte Luminosa": "LED dimmerabile R7s, 120W HDG R7s",
-                    "Classe Isolante": "I",
-                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
-                }
-            },
-            {
-                "name": "D66/8A",
-                "light_schema": "http://www.luceplan.com/assets/D66_8a_tech.png",
-                "data": {
-                    "Modello": "D66/8a",
-                    "Materiale": "Struttura in acciaio lucido e policarbonato trasparente\nbracci in policarbonato trasparente, lenti prismatiche",
-                    "Dimensioni": "l 61, d 45,6, Ø 61 cm",
-                    "": "lucido e trasparente",
-                    "Finiture": "trasparente",
-                    "Fonte Luminosa": "LED E27, 105W HSGSA E27, 23W FB E27",
-                    "Classe Isolante": "I",
-                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
-                }
-            }
-        ]
-    },
-    {
         "name": "Javelot Macro",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/javelot-macro/ceiling-wall/javelot-d54p-product-cover.jpg/3f4c5edb3b70b4afcd837d482b6d6651.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/javelot-macro/ceiling-wall/javelot-d54p-product-cover.jpg/0f0a08fc100d764c55b0a2e8b7770e79.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/javelot-macro-parete",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/javelot-macro/ceiling-wall/javelot-d54p-product-slider.jpg/06831583d7b8348e29f1e4e384a78208.jpg",
@@ -2207,7 +2227,7 @@
     },
     {
         "name": "Javelot Macro",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/javelotmacroterra-d54-product-cover.jpg/d6012e1f5b2bff4fe28e224dbcdeafb8.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/javelotmacroterra-d54-product-cover.jpg/7ecc21e8cad5c34c9f0bf7dd7ad9eaa2.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/javelot-macro-1-esterno",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/javelot-macro/outdoor/javelot-d54t-product-slider.jpg/6c2bbcd1daa3bee3d3e099591e59b874.jpg",
@@ -2235,7 +2255,7 @@
     },
     {
         "name": "Lady Costanza",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/ladycostanza_lamp_table_producthome.jpg/87396a10270df6972d7bd67ddf6fc2ff.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/ladycostanza_lamp_table_producthome.jpg/92963ffb3be468d5b1bb492b054e8248.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/lady-costanza-terra",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/Ladycostanza-D13Et-product-slider-01-1499095049.jpg/84fee682f267f57afc63158f5585faa3.jpg",
@@ -2266,7 +2286,7 @@
     },
     {
         "name": "Lady Costanza",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/ladycostanza_lamp_suspension_producthome.jpg/946ae3a234d0e90699f9d45bf57d2155.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/ladycostanza_lamp_suspension_producthome.jpg/8b964278ecebfb30fa62c58575ea8396.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/lady-costanza-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/ladycostanzasospensione-d13Esas-product-slider-01-1499095224.jpg/64697ae865922debce7042bf4b3d28b6.jpg"
@@ -2295,7 +2315,7 @@
     },
     {
         "name": "Lady Costanza",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/ladycostanza_lamp_wall_producthome.jpg/d68d315d023566487abeec6c02bb510f.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/ladycostanza_lamp_wall_producthome.jpg/0969b8188d6434cf21f657403b853d48.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/lady-costanza-parete",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/ladycostanza-D13Et-product-slider-01-1499094383.jpg/3956d00eb216c19c00f28f0e5dd6ebfe.jpg",
@@ -2325,7 +2345,7 @@
     },
     {
         "name": "Lane",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/lane-d64-product-cover.jpg/b05c3f65f729d335aba4e148990c092c.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/lane-d64-product-cover.jpg/c8322b3bc4b5e0a2f0ce64752723dddb.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/lane-parete",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/Lane.jpg/aefb526369a207c8a8bff5276a0ff8ed.jpg",
@@ -2354,7 +2374,7 @@
     },
     {
         "name": "LightDisc",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/lightdisc-d41-product-cover.jpg/1c8052a018ff0b60c7a89dbd86915515.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/lightdisc-d41-product-cover.jpg/f58a0d150f6ffd1d506df822f46b3938.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/lightdisc-parete",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/lightdisk-D41-slider-01.jpg/ec410a8f8bc6cfd7c75c325a76c3d703.jpg",
@@ -2417,7 +2437,7 @@
     },
     {
         "name": "Lita",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/cover_Lita_wall.jpg/1df8d24a1afb292852f077aef4bd3cdb.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/cover_Lita_wall.jpg/1f5f849ed3ce35b46578a8d2aa7973a4.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/lita-wall",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/slider_LIta_wall.jpg/60d5ada7bf82e722dea0c1499c22a8f7.jpg"
@@ -2477,7 +2497,7 @@
     },
     {
         "name": "Lita",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/cover_Lita_table.jpg/97696d06f2001f45c169e9af63e39229.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/cover_Lita_table.jpg/4082e67bf716421e2f252369d30aa089.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/lita",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/Lita_slider.jpg/6454828f7258e22c5e3c13516f311d69.jpg",
@@ -2569,7 +2589,7 @@
     },
     {
         "name": "Lita",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/cover_LIta_susp.jpg/a63fc78899e8bd2f4d44ef6321ef47f3.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/cover_LIta_susp.jpg/c58f84cf8155316a6bdbbfe1e82508e9.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/lita-suspension",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/slider_LIta_susp.jpg/2a929d78b4574e7c4ec137aef3e0d7a1.jpg"
@@ -2643,7 +2663,7 @@
     },
     {
         "name": "Lita",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/cover_LIta_floor.jpg/0ca048f2d1acc2d9ed1ef6e95aae4106.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/cover_LIta_floor.jpg/88e291e30126e6dcaad706a9b172d393.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/lita-floor",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/slider_LIta_floor.jpg/579de6efdfbea3b7bf413cdb677b80d7.jpg"
@@ -2687,36 +2707,7 @@
     },
     {
         "name": "Lola",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/lola-d15-product-cover.jpg/fffab855b8384b106c2cc81a13ad0862.jpg",
-        "prod_page": "https://www.luceplan.com/it/prodotti/lola-terra",
-        "projects": [
-            "http://www.luceplan.com/it/img/containers/main/products/lola/floor/cover.jpg/08d2beb6f846c687c3504c090d65ac47.jpg",
-            "http://www.luceplan.com/it/img/containers/main/products/lola/floor/white-thumb.jpg/62f3a70f4c0a852d0df2e16800f43f6e.jpg"
-        ],
-        "category": [
-            "Terra"
-        ],
-        "description": "La leggerezza della forma e dei\nmateriali consente di muovere\nla lampada con grande libertà\ne maneggevolezza. La luce alogena,\nintensa e funzionale,\nè regolata in altezza dallo stelo\ntelescopico. Il riflettore, orientabile\nconsente un’illuminazione\na luce diffusa o diretta.\n",
-        "variations": [
-            {
-                "name": "D15ND",
-                "light_schema": "http://www.luceplan.com/assets/D15D_tech.png",
-                "data": {
-                    "Modello": "D15ND",
-                    "Materiale": "Stelo telescopico in alluminio, testa in rynite, riflettore in metallo microforato\nvetro di protezione anti-UV in Pyrex (solo per versione alogena)",
-                    "Dimensioni": "H 160/200, base Ø 48 cm",
-                    "": "alu, nero",
-                    "Fonte Luminosa": "LED dimmerabile R7s, 240W HDG R7s",
-                    "Classe Isolante": "II",
-                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
-                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
-                }
-            }
-        ]
-    },
-    {
-        "name": "Lola",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/lola/ceiling-wall/white-thumb.jpg/6f31e4223f8276e05a6b08cfdc1fa69b.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/lola/ceiling-wall/white-thumb.jpg/4374739dbcbeb7aeceb024b91f48ba93.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/lola-parete",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/lolawall_03.jpg/d16a26540c4f17f14fe07132ab7e5cd8.jpg",
@@ -2746,8 +2737,37 @@
         ]
     },
     {
+        "name": "Lola",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/lola-d15-product-cover.jpg/cff3292ffa4bddcbabf0241cde9447eb.jpg",
+        "prod_page": "https://www.luceplan.com/it/prodotti/lola-terra",
+        "projects": [
+            "http://www.luceplan.com/it/img/containers/main/products/lola/floor/cover.jpg/08d2beb6f846c687c3504c090d65ac47.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/lola/floor/white-thumb.jpg/62f3a70f4c0a852d0df2e16800f43f6e.jpg"
+        ],
+        "category": [
+            "Terra"
+        ],
+        "description": "La leggerezza della forma e dei\nmateriali consente di muovere\nla lampada con grande libertà\ne maneggevolezza. La luce alogena,\nintensa e funzionale,\nè regolata in altezza dallo stelo\ntelescopico. Il riflettore, orientabile\nconsente un’illuminazione\na luce diffusa o diretta.\n",
+        "variations": [
+            {
+                "name": "D15ND",
+                "light_schema": "http://www.luceplan.com/assets/D15D_tech.png",
+                "data": {
+                    "Modello": "D15ND",
+                    "Materiale": "Stelo telescopico in alluminio, testa in rynite, riflettore in metallo microforato\nvetro di protezione anti-UV in Pyrex (solo per versione alogena)",
+                    "Dimensioni": "H 160/200, base Ø 48 cm",
+                    "": "alu, nero",
+                    "Fonte Luminosa": "LED dimmerabile R7s, 240W HDG R7s",
+                    "Classe Isolante": "II",
+                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
+                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
+                }
+            }
+        ]
+    },
+    {
         "name": "Mesh Plafone",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Mesh_plafone_nero.jpg/83a5364faa452904375d47c88f937e62.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Mesh_plafone_nero.jpg/d0832d23d4187b4dccbec5f8cb4d2a0e.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/mesh-ceiling",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/slider_ceiling.jpg/1ecf23aac9210bedc4bbaaf8415969d8.jpg"
@@ -2775,7 +2795,7 @@
     },
     {
         "name": "Mesh",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Mesh_rosone_nero.jpg/551cbc059789a11d3cd947d985f47c70.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Mesh_rosone_nero.jpg/3728e3fb9eab21a052c7e7478296f98b.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/mesh-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/mesh-d86-product-slider02.jpg/f7800901d3a265680caff2db7eb4332d.jpg",
@@ -2852,7 +2872,7 @@
     },
     {
         "name": "Mesh wireless",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Mesh_cover.jpg/7dbb81aaa0a25c8a01ddc018de7d9ce3.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Mesh_cover.jpg/57badec53736a025f1a421cfeb2c6487.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/mesh-wireless",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/mESH_01.jpg/d809162cf595488d283e62dda7b8e60d.jpg",
@@ -2902,7 +2922,7 @@
     },
     {
         "name": "Metropoli",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/metropoli_lamp_wall_producthome.jpg/c5ca1d12cda9250cc9f6a6788a5744e1.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/metropoli_lamp_wall_producthome.jpg/88b01dd4b4867882cb2af4c16ae3a7cd.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/metropoli-parete",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/metro_01.jpg/373bbae0f30a1766c93ad8b850094a8f.jpg",
@@ -2966,7 +2986,7 @@
     },
     {
         "name": "E08 Mini mini",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/MiniMini_1-1519036791.jpg/ce67b8d0b617b24563d722360924f32b.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/MiniMini_1-1519036791.jpg/30c23508c7c614dfe18e73d35e9e486c.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/mini-mini-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/MiniMini_2.jpg/47aa6c7e657e5fff75ebb6fe44546b95.jpg",
@@ -2999,7 +3019,7 @@
     },
     {
         "name": "Miranda",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Miranda-d60-product-cover.jpg/e664564c32cbb880113779a2c8df2003.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Miranda-d60-product-cover.jpg/e41a4f73a66daeae8e7775035670dc36.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/miranda-tavolo",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/Miranda_01.jpg/de885d9f64c4fb8c857bb61c25e393b4.jpg",
@@ -3030,7 +3050,7 @@
     },
     {
         "name": "Mirandolina",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Mirandolina-d66pi-product-cover.jpg/d6e855614e7016dc3f9adcecaff47068.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Mirandolina-d66pi-product-cover.jpg/0515c66488cc22c3baf6bba729cfb9c3.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/mirandolina-tavolo",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/mirandolina.jpg/4a11afc21e28558f2dfdd344c1b7a926.jpg"
@@ -3059,7 +3079,7 @@
     },
     {
         "name": "Nothing",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Nothing-d75-product-cover.jpg/a3195df29719563bc6f93da8b370d944.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Nothing-d75-product-cover.jpg/98decd2eb28ceff320627e31073739dc.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/nothing-terra",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/nothing-d75-product-slider-06-1499157599.jpg/c402f88b273c73fbb643057f0d52606c.jpg",
@@ -3092,7 +3112,35 @@
     },
     {
         "name": "Otto Watt",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Ottowatt-d72-product-cover.jpg/625ec212cb2b181ce307af714ccd1a0e.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Ottowatt-d72a-product-cover.jpg/bf13f49161f7ffcfb26c10bb405f55cc.jpg",
+        "prod_page": "https://www.luceplan.com/it/prodotti/otto-watt-parete",
+        "projects": [
+            "http://www.luceplan.com/it/img/containers/main/products/otto-watt/ceiling-wall/ottowatt-d72a-product-slider-01.jpg/792dd63544b8ee91866d75af8cd37bd1.jpg"
+        ],
+        "category": [
+            "Parete"
+        ],
+        "description": "Otto Watt a parete è un concentrato\ndi efficienza e flessibilità.\nReinterpretando la tipologia\nclassica della lampada a molla,\nOtto Watt risulta infatti estremamente\nmaneggevole e stabile,\ngrazie alle linee snelle e al tempo\nstesso solide. L’elemento diffondente\npuò essere orientato a\n360° per una luce diretta o indiretta.\n",
+        "variations": [
+            {
+                "name": "D72N1",
+                "light_schema": "http://www.luceplan.com/assets/D72_tech.png",
+                "data": {
+                    "Modello": "D72N1",
+                    "Materiale": "Alluminio",
+                    "Dimensioni": "arms l 47 + 42,2, head 13 x 10,5 x 2 cm ",
+                    "": "bianco, nero soft-touch, mirror",
+                    "Fonte Luminosa": "LED 10W 3000K 370 lm",
+                    "Classe Isolante": "III",
+                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
+                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Otto Watt",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Ottowatt-d72-product-cover.jpg/31d3da75b1013b217adb9844379ab142.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/otto-watt-tavolo",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/otto-watt/table/otootwatt-d72-product-slider-01.jpg/eeb3d300eae43de956cb90739098f240.jpg",
@@ -3124,36 +3172,8 @@
         ]
     },
     {
-        "name": "Otto Watt",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Ottowatt-d72a-product-cover.jpg/4fabe83f109bd7882c0dc3bf953c6c38.jpg",
-        "prod_page": "https://www.luceplan.com/it/prodotti/otto-watt-parete",
-        "projects": [
-            "http://www.luceplan.com/it/img/containers/main/products/otto-watt/ceiling-wall/ottowatt-d72a-product-slider-01.jpg/792dd63544b8ee91866d75af8cd37bd1.jpg"
-        ],
-        "category": [
-            "Parete"
-        ],
-        "description": "Otto Watt a parete è un concentrato\ndi efficienza e flessibilità.\nReinterpretando la tipologia\nclassica della lampada a molla,\nOtto Watt risulta infatti estremamente\nmaneggevole e stabile,\ngrazie alle linee snelle e al tempo\nstesso solide. L’elemento diffondente\npuò essere orientato a\n360° per una luce diretta o indiretta.\n",
-        "variations": [
-            {
-                "name": "D72N1",
-                "light_schema": "http://www.luceplan.com/assets/D72_tech.png",
-                "data": {
-                    "Modello": "D72N1",
-                    "Materiale": "Alluminio",
-                    "Dimensioni": "arms l 47 + 42,2, head 13 x 10,5 x 2 cm ",
-                    "": "bianco, nero soft-touch, mirror",
-                    "Fonte Luminosa": "LED 10W 3000K 370 lm",
-                    "Classe Isolante": "III",
-                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
-                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
-                }
-            }
-        ]
-    },
-    {
         "name": "Plissé",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Plisse-d62-product-cover.jpg/a5e4641ed53cf9ee80bea584b095e9b6.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Plisse-d62-product-cover.jpg/0f7e847ef0eb96996af33d2c8e3e3664.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/plisse-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/plisse-d62-product-slider-01-1499178689.jpg/d5082aacc083a515f382acb7454db53a.jpg",
@@ -3185,7 +3205,7 @@
     },
     {
         "name": "Pod Lens",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Podlens-d30-product-slider.jpg/c921d624cc6f2af407a8b6d9f9529210.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Podlens-d30-product-slider.jpg/02ff8bde8b244565e93c4f4d4f012dd0.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/pod-lens-esterno",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/pod-lens/suspension/cover.jpg/08d2beb6f846c687c3504c090d65ac47.jpg",
@@ -3216,7 +3236,7 @@
     },
     {
         "name": "Pétale",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/petale-d71-product-cover-1501582425.jpg/e7c3821038f2653160d7c0a4d79536c2.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/petale-d71-product-cover-1501582425.jpg/fea42e332f95d10863f9f64e0172c4b6.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/petale-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/PETALE_slider.jpg/e62ffd143252e1fbc818bf5d85c2c274.jpg",
@@ -3280,7 +3300,7 @@
     },
     {
         "name": "Pétale RGB/DMX (for Americas only)",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/cover.jpg/693d55fe69b669278c26dbfef73a42a5.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/cover.jpg/52ff382e63cb397c8d359940715fa9a8.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/petale-rgbdmx-for-americas-only",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/1-1550069632.jpg/af51d78311fb67bbbde0194a7aa80186.jpg",
@@ -3298,7 +3318,7 @@
     },
     {
         "name": "Silenzio",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/silenzio_lamp_suspension_producthome.jpg/bc3ec5f45a4716294d2cb3f16a2aeb92.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/silenzio_lamp_suspension_producthome.jpg/f87177690cef3dbd4dce5bcfa30ae036.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/silenzio-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/silenzio/suspension/silenzio-d79-product-slider-06.jpg/f58929f2ab9da0ada52d686d5178f1bc.jpg",
@@ -3362,7 +3382,7 @@
     },
     {
         "name": "Sky",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/COVER-SKY.jpg/1777013fbb2394200b69676aea76bdb8.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/COVER-SKY.jpg/a5d05d1df65b4621d2762e7d4e38cf6e.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/sky-terra",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/sky/outdoor/sky-d63-product-slider-01.jpg/50535f2115836b5d1d56e617cd2bfae0.jpg",
@@ -3422,7 +3442,35 @@
     },
     {
         "name": "Soleil Noir",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/SoleilNoir-d89s-product-cover.jpg/749c60d3b1f916fdcbf353975e13cd57.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/SoleilNoir-d89p-product-cover.jpg/46bf278865deebd987350fc29bb1afbd.jpg",
+        "prod_page": "https://www.luceplan.com/it/prodotti/soleil-noir-parete",
+        "projects": [
+            "http://www.luceplan.com/it/img/containers/main/products/soleil-noir/ceiling-wall/soleilnoir-d89pproduct-cover.jpg/98abd359984981688428a1851f9b661d.jpg"
+        ],
+        "category": [
+            "Soffitto"
+        ],
+        "description": "Soleil Noir è dotata di un sistema\nottico all’avanguardia in grado\ndi garantire una diffusione omogenea\ndella luce sul diffusore.\n",
+        "variations": [
+            {
+                "name": "D89P",
+                "light_schema": "http://www.luceplan.com/assets/D89p_tech.png",
+                "data": {
+                    "Modello": "D89p",
+                    "Materiale": "Schiuma poliuretanica stampata  ",
+                    "Dimensioni": "120 x 62,5, h 18,5 cm",
+                    "": "bianco, nero/bianco",
+                    "Fonte Luminosa": "LED 35W 3000K",
+                    "Classe Isolante": "I",
+                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
+                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Soleil Noir",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/SoleilNoir-d89s-product-cover.jpg/4d2b9ccfca68bb15506591ae6bc8148b.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/soleil-noir-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/soleil-noir/suspension/soleilnoir-d89s-product-slider-01.jpg/2ea2b31fa2e291e0ed8c100af08547e2.jpg",
@@ -3450,36 +3498,8 @@
         ]
     },
     {
-        "name": "Soleil Noir",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/SoleilNoir-d89p-product-cover.jpg/93a85592ac84d2ce2f2e3a8695155a36.jpg",
-        "prod_page": "https://www.luceplan.com/it/prodotti/soleil-noir-parete",
-        "projects": [
-            "http://www.luceplan.com/it/img/containers/main/products/soleil-noir/ceiling-wall/soleilnoir-d89pproduct-cover.jpg/98abd359984981688428a1851f9b661d.jpg"
-        ],
-        "category": [
-            "Soffitto"
-        ],
-        "description": "Soleil Noir è dotata di un sistema\nottico all’avanguardia in grado\ndi garantire una diffusione omogenea\ndella luce sul diffusore.\n",
-        "variations": [
-            {
-                "name": "D89P",
-                "light_schema": "http://www.luceplan.com/assets/D89p_tech.png",
-                "data": {
-                    "Modello": "D89p",
-                    "Materiale": "Schiuma poliuretanica stampata  ",
-                    "Dimensioni": "120 x 62,5, h 18,5 cm",
-                    "": "bianco, nero/bianco",
-                    "Fonte Luminosa": "LED 35W 3000K",
-                    "Classe Isolante": "I",
-                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
-                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
-                }
-            }
-        ]
-    },
-    {
         "name": "Stochastic",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Stochastic-d87-product-cover.jpg/55190a1f65e2ff9574e179a1bcc1ced2.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Stochastic-d87-product-cover.jpg/a717e9ad066ad3a8d415e330153ae0e3.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/stochastic-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/stochastic/suspension/stochastic-d97-product-slider-03.jpg/5e2519711afc5c2861b9f665034621d8.jpg",
@@ -3512,7 +3532,7 @@
     },
     {
         "name": "Strip",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/stip-d22-product-cover-1499178940.jpg/9bad0f9d0468bbff0c29017dc71cf6df.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/stip-d22-product-cover-1499178940.jpg/ac8a97e95aaf62a5259ac440c7beb3aa.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/strip-1-parete",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/strip/ceiling-wall/strip-d22-product-slider-02.jpg/c6ac44e9e26fed74dfa4fbdf9a35f4b7.jpg",
@@ -3588,7 +3608,7 @@
     },
     {
         "name": "Synapse (for Americas only)",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Cover-1518016607.jpg/872a73fb63a7dad0bad6ad3003888d25.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Cover-1518016607.jpg/dce9a52b567c66218f3829a8445d0328.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/synapse-parete",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/Synapse_prod.jpg/0cd8e5d64b72f00246c7f47552c351c4.jpg",
@@ -3616,7 +3636,7 @@
     },
     {
         "name": "Synapse (for Americas only)",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/synapse-d74-product-cover.jpg/375a425e640e6daccee977a2ee8cbe86.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/synapse-d74-product-cover.jpg/01c008f8a3fcd513b495b75608b60527.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/synapse-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/synapse/suspension/synapse-d74-product-slider-01.jpg/7692c3b411dfbdd85f931ad49ced56e4.jpg",
@@ -3637,7 +3657,7 @@
     },
     {
         "name": "Tango",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Tango-d77-product-cover.jpg/c910b328023baa72b709d1275e3f3a10.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Tango-d77-product-cover.jpg/c7293cd9080c683f030dc06b115bf0bd.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/tango-terra",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/tango-d77-product-slider.jpg/f57ac566c3c4dfd6ffe3d715670a65d4.jpg",
@@ -3668,7 +3688,7 @@
     },
     {
         "name": "Titania",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Titania-d17-product-cover.jpg/61981d253a22de00bd2ca32de3ee6a12.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Titania-d17-product-cover.jpg/cba54565b2c98d392f9d46d3ce669056.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/titania-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/titania-d17-slideshow.jpg/58250767b370a49e270526d154b8690e.jpg",
@@ -3698,7 +3718,7 @@
     },
     {
         "name": "Queen Titania",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/QueenTitania-d17q-product-slider.jpg/6a9d262b26b55fdb149a970fb50eafe3.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/QueenTitania-d17q-product-slider.jpg/ef4afc609c419b1720e24b31a9199030.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/queen-titania-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/Queen_01.jpg/02156f1a1b40ad3f6f8a2b720df722c6.jpg",
@@ -3729,7 +3749,7 @@
     },
     {
         "name": "Trama",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/trama_lamp_suspension_productpage.jpg/c0ed5049fda917c6c88f34b7784e8599.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/trama_lamp_suspension_productpage.jpg/a3e566f2bd817e93d52a480c9cdd4f78.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/trama-sospensione",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/trama_lamp_suspension_slider.jpg/bec4ad97f43d9643eed13b3466bb8142.jpg",
@@ -3760,7 +3780,7 @@
     },
     {
         "name": "Trama",
-        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/trama-d14-product-cover.jpg/49b5e1afed4bc3a266eef39221d9de9e.jpg",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/trama-d14-product-cover.jpg/8e8ec3043cee135fba16d9c635bc8a6f.jpg",
         "prod_page": "https://www.luceplan.com/it/prodotti/trama-parete",
         "projects": [
             "http://www.luceplan.com/it/img/containers/main/products/trama_prod.jpg/1208f92f4003a8d76501e38718c06d5e.jpg",

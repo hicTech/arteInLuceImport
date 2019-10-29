@@ -207,9 +207,11 @@ fs.readdir(path, function(err, cartella_fornitore) {
 
                                                         
 
+                                                        if( process.argv[3] == "--open=true"){
+                                                            const opn = require('opn');
+                                                            opn(path_cartella +"/result/"+cartella+'_aumentato.xlsx',{wait:false});    
+                                                        }
                                                         
-                                                        const opn = require('opn');
-                                                        opn(path_cartella +"/result/"+cartella+'_aumentato.xlsx',{wait:false});
 
                                                     });
 
@@ -4578,16 +4580,16 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 let asset = getAsset(row["Modello"]);         
                                 supplier = "luceplan";
                                 supplier_id = supplierId(supplier);
-                                original_model_id = row["Articolo"];
-                                model_id = row["Articolo"];
+                                original_model_id = row["Articolo"].replace("=","").replace("/",""); // il carattere "=" rompe l'importer prestashop
+                                model_id = original_model_id;
                                 model_variant = ( _.is(asset) )? asset.id_listino : undefined;
                                 
 
 
 
                                 if( _.is( asset ) ){
-                                    //model = _.capitalize( asset.asset.name ) +" - "+ asset.asset.category.toString();
-                                    _.log(count++)
+                                    // model = _.capitalize( asset.asset.name ) +" - "+ asset.asset.category.toString();
+                                    //_.log(count++)
                                 }
                                 else{
 
@@ -4599,7 +4601,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
 
                                 combination_id = model_id;
-                                component = undefined;
+                                component = 0;
                                 model = getModelName(row["Modello"]);
                                 item_id = original_model_id;
                                 hicId = getHicId(supplier_id, item_id);
@@ -4613,18 +4615,22 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 
                                 color = row["Colore"].toLowerCase();
                                 color = (color == "black")? "nero" : (color == "white")? "bianco" : (color == "blk/wh")? "nero-bianco" : (color == "wh/wh")? "bianco-bianco" : color;
+                                color = (color.length != 0)? color : undefined;
                                 
                                 desc_it = undefined;
                                 desc_en = undefined;
                                 cleaned_desc_it = ( _.is(asset))? asset.asset.description : undefined;
                                 cleaned_desc_en = cleaned_desc_it;
                                 dimmer = (row["Descrizione"].indexOf("dimm") != -1)? 1 : 0;
-                                led = undefined;
+                                led = (row["Descrizione"].indexOf("LED") != -1)? 1 : 0;
                                 halogen = undefined;
                                 screw = undefined;
-                                switcher = undefined;
-                                category = undefined;
-                            
+                                switcher = (row["Descrizione"].toLowerCase().indexOf("on off") != -1 || row["Descrizione"].toLowerCase().indexOf("onof") != -1 || row["Descrizione"].toLowerCase().indexOf("on/off") != -1)? 1 : 0;;
+                                category = ( _.is(asset))? asset.asset.category.toString() : undefined;
+
+                                
+
+                                
                                 type = undefined;       // è un valore unico ovvero una stringa
 
                                 
@@ -4633,31 +4639,30 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 outdoor = undefined;
                                 wire_length = undefined;
                                 
-                                /*
                                 title = getTitle(model, component, component_of);
-                                pic = ( _.is(getAsset(model_id)))? (_.is(getAsset(model_id).img)) ? getAsset(model_id).img : getAsset(model_id).image : undefined;
-                                light_schema = getSchemaImages(model_id);
+                                
+
+                                pic = ( _.is(asset))? asset.asset.prod_pic : undefined;
+                                light_schema = ( _.is(asset))? asset.data.light_schema : undefined;
                                 subtitle = getSubtitle(model, component, component_of, category);
-                                model_variant = undefined;
                                 otherColors = undefined;
-                                projects = ( _.is(getAsset(model_id)) )? ( _.is( getAsset(model_id).other_images ) )? getAsset(model_id).other_images : undefined : undefined ;
-                                link = getSupplierSiteLink(model_id);
-                                more = getMore(model_id,link);
-
-                                //meta_title = getMetaTitle(title, subtitle, category, component, max_discount);
-                                //meta_description = getMetaDescription(title, subtitle, category, component, max_discount);
-
-                                all_images = getAllImages(pic,light_schema,projects);
-                                all_images_alt = getAllImagesAlt(pic,light_schema,projects);
-
+                                projects = ( _.is(asset))? asset.asset.projects : undefined;
+                                link = ( _.is(asset))? asset.asset.prod_page : undefined;
+                                more = ( _.is(asset))? getMore(asset) : undefined;
                                 
 
-                                product_images =        getProductImages(pic, projects, light_schema, component, "img");
-                                product_images_alt =    getProductImages(pic, projects, light_schema, component, "alt");
+                                meta_title = (_.is(asset))? getMetaTitle(title, subtitle, category, component, max_discount) : undefined;
+                                meta_description = (_.is(asset))?  getMetaDescription(title, subtitle, category, component, max_discount) : undefined;
+
+                                all_images = (_.is(asset))? getAllImages(pic,light_schema,projects) : undefined;
+                                all_images_alt = (_.is(asset))? getAllImagesAlt(pic,light_schema,projects) : undefined
+
+                                product_images = (_.is(asset))? getProductImages(pic, projects, light_schema, component, "img") : undefined;
+                                product_images_alt = (_.is(asset))? getProductImages(pic, projects, light_schema, component, "alt") : undefined;
                                 
-                                combination_images =        getCombinationImages(pic, projects, light_schema, component, "img");
-                                combination_images_alt =    getCombinationImages(pic, projects, light_schema, component, "alt");
-*/
+                                combination_images = (_.is(asset))? getCombinationImages(pic, projects, light_schema, component, "img") : undefined;
+                                combination_images_alt = (_.is(asset))? getCombinationImages(pic, projects, light_schema, component, "alt") : undefined;
+
                                 
 
 
@@ -4696,7 +4701,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 }
 
                                 function getCombinationImages(pic, projects, light_schema, component, caso){
-                                    
+                                    light_schema = [light_schema]
                                     var arr_ret = [];
                                     if(_.is(pic)){
                                         if(caso == "img"){
@@ -4710,9 +4715,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                                     if(_.is(light_schema)){
                                         if(caso == "img"){
-                                        _.each(light_schema,function(single_img){
+                                            _.each(light_schema,function(single_img){
                                                 arr_ret.push(single_img);
-                                        })
+                                            })
                                         }
                         
                                         if(caso == "alt"){
@@ -4751,13 +4756,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                         
                                 }
 
-                                function getDesc(component,asset){
-                                    if(component == 0 && _.is(asset))
-                                        return asset.desc;
-                                }
-
                               
-                                
 
                                 // dato un id articolo ritorna l'oggetto asset di asset_json
                                 // se è undefined vuol dire che non l'ha trovato
@@ -4808,9 +4807,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                                         }
                                                         else{
                                                             if( sS.compareTwoStrings(model_id_no_space, variant_id) > 0.7){
-                                                                _.log("_______________________________________");
-                                                                _.log("link: "+asset.prod_page);
-                                                                _.log("codice sito: "+variant_id+" - - - - codice listino: "+model_id_no_space)
+                                                                //_.log("_______________________________________");
+                                                                //_.log("link: "+asset.prod_page);
+                                                                //_.log("codice sito: "+variant_id+" - - - - codice listino: "+model_id_no_space)
                                                                 ret = {
                                                                     id_listino: id,
                                                                     asset: asset,
@@ -4870,25 +4869,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                     }
                                 }
                     
-                                function getMore(model_id,link){
-                                    var more = undefined;
-                                    var asset = getAsset(model_id);
-                                    if ( _.is(asset) ){
-                                        if ( _.is( asset.more ) )
-                                            more = asset.more
-
-                                        if( _.is(asset.downloads)){
-                                            more["downloads"] = asset.downloads;
-                                            more["product_page_link"] = link;
-                                            more["supplier"] = "flos";
-                                        }
-                                            
-                                    }
-                                    
-                                    return more;
-                                        
-
-                                }
+                                
 
                                 // ritorna il link alla pagine dell'articolo sul sito del fornitore
                                 function getSupplierSiteLink(model_id){
@@ -4904,10 +4885,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                                 function getSubtitle(model, component, component_of, category){
                                     if(component == 0)
-                                        return _.capitalize(category)+" - Flos";
+                                        return _.capitalize(category)+" - Luceplan";
                                     else{
                                         var asset = getAsset(component_of);
-                                        return "accessorio di "+ asset.model +" "+ asset.category+" - Flos";
+                                        return "accessorio di "+ asset.model +" "+ asset.category+" - Luceplan";
                                     }
                                 }
 
@@ -4916,17 +4897,17 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                                 function getMetaTitle(title, subtitle, category, component, max_discount){
                                     if(component == 0){
-                                        var ret = "Lampada da "+category+": "+title.toUpperCase()+" Flos by ArteInLuce™";
+                                        var ret = "Lampada da "+category+": "+title.toUpperCase()+" Luceplan by ArteInLuce™";
                                         if(ret.length > 60)
-                                            ret = "Lampada "+category+": "+title.toUpperCase()+" Flos by ArteInLuce™";
+                                            ret = "Lampada "+category+": "+title.toUpperCase()+" Luceplan by ArteInLuce™";
                                         if(ret.length > 60)
-                                            ret = "Lampada "+category+": "+title.toUpperCase()+" Flos ArteInLuce™";
+                                            ret = "Lampada "+category+": "+title.toUpperCase()+" Luceplan ArteInLuce™";
                                     
                                     }
                                     if(component == 1){
-                                        var ret = title +" Flos by ArteInLuce™";
+                                        var ret = title +" Luceplan by ArteInLuce™";
                                         if(ret.length > 60)
-                                            ret = title +" Flos ArteInLuce™";
+                                            ret = title +" Luceplan ArteInLuce™";
                                         if(ret.length > 60)
                                             ret = ret.replace("per ","");
                                     }
@@ -4937,11 +4918,11 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 function getMetaDescription(title, subtitle, category, component, max_discount){
                                     if(component == 0){
                                         var category = (_.is(category))? category.toUpperCase() : "";
-                                        var ret = title.toUpperCase()+" Flos: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da "+category+" in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
+                                        var ret = title.toUpperCase()+" Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da "+category+" in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
                                         
                                     }
                                     if(component == 1){
-                                        var ret = title.toUpperCase()+" Flos: centinaia di altre lampade da "+category+" e relativi accessori in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
+                                        var ret = title.toUpperCase()+" Luceplan: centinaia di altre lampade da "+category+" e relativi accessori in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
                                     }
                                     
                                     
@@ -4965,7 +4946,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 }
 
                                 function getAllImagesAlt(pic,light_schema,projects){
-                                    
                                     var all_images_alt = [];
                                     // var all_images_alt = (pic.length != 0)? ["pic"] : [];
                                     if(_.isArray(light_schema)){
@@ -4982,7 +4962,20 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                                     return S(all_images_alt.toString()).replaceAll(",","|").s
                                 }
-                   
+
+                                function getMore(asset){
+                                    
+                                    var new_asset = JSON.parse(JSON.stringify(asset.data)); // clono asset.data
+                                    new_asset["product_page_link"] = asset.asset.prod_page;
+                                    new_asset["supplier"] = "luceplan";
+                                    if(_.is(asset.asset.video)){
+                                        var escaped_video_url = escape(asset.asset.video)
+                                        new_asset["video"] = [escaped_video_url];
+                                    }
+                                    //_.log(_.toStr(JSON.stringify(new_asset)));                                      
+                                    return new_asset;
+                                    
+                                }
 
                             }
                                 
@@ -5012,6 +5005,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             return (_.isArray(category))? category.toString().toLowerCase() : (_.is(category))? category.toLowerCase() : "";
                 
         }
+
+        //_.log(_.toStr(more))
         
 
         return{
@@ -5545,9 +5540,7 @@ function postProduci(json,fornitore){
        
     }
 
-
-
-
+    
     if(fornitore=="foscarini"){
         var model_no_longer_available = [
             {
@@ -5851,7 +5844,6 @@ function postProduci(json,fornitore){
     }
 
 
-
     if(fornitore=="vistosi"){
        
 
@@ -6076,7 +6068,6 @@ function postProduci(json,fornitore){
         
     }
 
-    
 
     if(fornitore=="panzeri"){
         
@@ -6238,6 +6229,14 @@ function postProduci(json,fornitore){
         // l'articolo primario viene pompato in json_prodotti col price a zero
         var registro = {};
         
+
+        /// eliminiamo i prodotti che non hanno il model
+        json = _.filter(json,function(elem){
+            if( !_.is(elem.model) || elem.model == "")
+                return false;
+            return true;
+        });
+
         _.each(json, function(elem,index){
             if( !_.is(registro[elem.model]) ){
                 registro[elem.model] = elem.hicId;
@@ -6279,15 +6278,15 @@ function postProduci(json,fornitore){
         
         _.each(json, function(elem){
             // aggiungo le features che sono le proprietà statiche dell'articolo
-            elem["features"] = inlineCSVFeaturesFlos(elem,["category","outdoor"])
+            elem["features"] = inlineCSVFeaturesLuceplan(elem,["category","outdoor"])
 
             // aggiungo attributi e valori
-            elem["attributes"] = inlineCSVFlos(elem,[["color","select"]])
-            elem["values"] = inlineCSVFlos(elem,["color"],"values")
+            elem["attributes"] = inlineCSVLuceplan(elem,[["color","select"],["combination_id","select"],["led","radio"]])
+            elem["values"] = inlineCSVLuceplan(elem,["color","combination_id","led"],"values")
         });
 
 
-        function inlineCSVFeaturesFlos(obj,arr){
+        function inlineCSVFeaturesLuceplan(obj,arr){
             let csv = "";
             let pos = 0;
             _.each(arr,function(elem){
@@ -6315,21 +6314,7 @@ function postProduci(json,fornitore){
                     //var cleaned_feature = "'"+ feature.replace("<p>","").replace("</p>","") + "'";
 
                 })
-                /*
-                csv += "codice fornitore :"         +"'"+ obj.more.codice_articolo +"'"+" : "+              parseInt(pos)+" , ";
-                csv += "ambiente :"                 +"'"+ obj.more.ambiente +"'"+" : "+                     parseInt(pos+1)+" , ";
-                csv += "finitura :"                 +"'"+ obj.more.finitura +"'"+" : "+                     parseInt(pos+2)+" , ";
-                csv += "peso :"                     +"'"+ obj.more.peso +"'"+" : "+                         parseInt(pos+3)+" , ";
-                csv += "descrizione tecnica :"      +"'"+ obj.more.descrizione_tecnica +"'"+" : "+          parseInt(pos+4)+" , ";
-                csv += "emergenza :"                +"'"+ obj.more.emergenza +"'"+" : "+                    parseInt(pos+5)+" , ";
-                csv += "regolazione :"              +"'"+ obj.more.regolazione +"'"+" : "+                  parseInt(pos+6)+" , ";
-                csv += "voltaggio :"                +"'"+ obj.more.voltaggio +"'"+" : "+                    parseInt(pos+7)+" , ";
-                csv += "potenza :"                  +"'"+ obj.more.potenza +"'"+" : "+                      parseInt(pos+8)+" , ";
-                csv += "batteria :"                 +"'"+ obj.more.batteria +"'"+" : "+                     parseInt(pos+9)+" , ";
-                csv += "alimentatore incluso :"     +"'"+ obj.more.alimentatore_incluso +"'"+" : "+         parseInt(pos+10)+" , ";
-                csv += "lunghezza cavo (mm) :"      +"'"+ obj.more['lunghezza_del_cavo_(mm)'] +"'"+" : "+   parseInt(pos+11)+" , ";
-                csv += "materiale :"                +"'"+ obj.more.materiale_di_costruzione +"'"+" : "+     parseInt(pos+12)+" , ";
-                */
+               
             }
            
             
@@ -6337,7 +6322,7 @@ function postProduci(json,fornitore){
             return csv.substring(0, csv.length - 3);
         }
 
-        function inlineCSVFlos(obj,arr, caso){
+        function inlineCSVLuceplan(obj,arr, caso){
             
             let pos = 0;
             if(!_.is(caso)){ // caso dei attributes
@@ -6356,8 +6341,8 @@ function postProduci(json,fornitore){
                 }
                 else{ // caso di attributes
                     pos++;
-                    //_.log(etichetta)
-                    var etichetta = "colore"; // per flos è sempre e solo il colore il secondo attribute // (etichetta=="color")? "colore" : "nome_attributo_non_trovato";
+                    
+                    var etichetta = (elem[0] == "color")? "colore" : (elem[0] == "combination_id")? "combinazione" : (elem[0] == "led")? "led" : ""; // per flos è sempre e solo il colore il secondo attribute // (etichetta=="color")? "colore" : "nome_attributo_non_trovato";
                     var singleton = etichetta +" : "+ elem[1] +" : "+ pos+" | ";
                 }
                 
