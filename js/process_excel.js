@@ -4583,9 +4583,11 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 original_model_id = row["Articolo"].replace("=","").replace("/",""); // il carattere "=" rompe l'importer prestashop
                                 model_id = original_model_id;
                                 model_variant = ( _.is(asset) )? asset.id_listino : undefined;
+                                variante = ( _.is(row["Variante"]))? ( row["Variante"].length != 0)? row["Variante"] : undefined : undefined;
+                                dimensioni = ( _.is(row["Dimensioni"]))? ( row["Dimensioni"].length != 0)? row["Dimensioni"] : undefined : undefined;
                                 
 
-
+                                ean13 = row["Barcode"];
 
                                 if( _.is( asset ) ){
                                     // model = _.capitalize( asset.asset.name ) +" - "+ asset.asset.category.toString();
@@ -4621,8 +4623,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 desc_en = undefined;
                                 cleaned_desc_it = ( _.is(asset))? asset.asset.description : undefined;
                                 cleaned_desc_en = cleaned_desc_it;
-                                dimmer = (row["Descrizione"].indexOf("dimm") != -1)? 1 : 0;
-                                led = (row["Descrizione"].indexOf("LED") != -1)? 1 : 0;
+                                dimmer = row["Dimmer"];
+                                led = row["Led"];
                                 halogen = undefined;
                                 screw = undefined;
                                 switcher = (row["Descrizione"].toLowerCase().indexOf("on off") != -1 || row["Descrizione"].toLowerCase().indexOf("onof") != -1 || row["Descrizione"].toLowerCase().indexOf("on/off") != -1)? 1 : 0;;
@@ -4639,12 +4641,13 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 outdoor = undefined;
                                 wire_length = undefined;
                                 
-                                title = getTitle(model, component, component_of);
+                                title = row["Nome"]; // li ha messi Monica a mano
+                                subtitle = row["Categoria"]+" - Luceplan";
                                 
 
                                 pic = ( _.is(asset))? asset.asset.prod_pic : undefined;
                                 light_schema = ( _.is(asset))? asset.data.light_schema : undefined;
-                                subtitle = getSubtitle(model, component, component_of, category);
+                                
                                 otherColors = undefined;
                                 projects = ( _.is(asset))? asset.asset.projects : undefined;
                                 link = ( _.is(asset))? asset.asset.prod_page : undefined;
@@ -4879,18 +4882,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                             return asset.uri;
                                 }
 
-                                function getTitle(model, component, component_of){
-                                    return model;
-                                }
 
-                                function getSubtitle(model, component, component_of, category){
-                                    if(component == 0)
-                                        return _.capitalize(category)+" - Luceplan";
-                                    else{
-                                        var asset = getAsset(component_of);
-                                        return "accessorio di "+ asset.model +" "+ asset.category+" - Luceplan";
-                                    }
-                                }
+
+
 
                                 
 
@@ -5069,7 +5063,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             
 
 
-             // alcune colonne aggiunte custom da Monica per Panzeri
+             // alcune colonne aggiunte custom da Monica per Panzeri e Luceplan
             variante:               variante,
             dimensioni:             dimensioni,
 
@@ -6281,8 +6275,8 @@ function postProduci(json,fornitore){
             elem["features"] = inlineCSVFeaturesLuceplan(elem,["category","outdoor"])
 
             // aggiungo attributi e valori
-            elem["attributes"] = inlineCSVLuceplan(elem,[["color","select"],["combination_id","select"],["led","radio"]])
-            elem["values"] = inlineCSVLuceplan(elem,["color","combination_id","led"],"values")
+            elem["attributes"] = inlineCSVLuceplan(elem,[["color","select"],["variante","select"],["led","radio"],["dimmer","radio"],["dimensioni","select"]])
+            elem["values"] = inlineCSVLuceplan(elem,["color","variante","led","dimmer","dimensioni"],"values")
         });
 
 
@@ -6340,10 +6334,13 @@ function postProduci(json,fornitore){
                     }
                 }
                 else{ // caso di attributes
-                    pos++;
                     
-                    var etichetta = (elem[0] == "color")? "colore" : (elem[0] == "combination_id")? "combinazione" : (elem[0] == "led")? "led" : ""; // per flos è sempre e solo il colore il secondo attribute // (etichetta=="color")? "colore" : "nome_attributo_non_trovato";
-                    var singleton = etichetta +" : "+ elem[1] +" : "+ pos+" | ";
+                    if( _.is(obj[elem[0]]) ){
+                        pos++;
+                        var etichetta = (elem[0] == "color")? "colore" : (elem[0] == "variante")? "variante" : (elem[0] == "led")? "led" : (elem[0] == "dimmer")? "dimmer" : (elem[0] == "dimensioni")? "dimensioni" : ""; // per flos è sempre e solo il colore il secondo attribute // (etichetta=="color")? "colore" : "nome_attributo_non_trovato";
+                        var singleton = etichetta +" : "+ elem[1] +" : "+ pos+" | ";
+                    }
+
                 }
                 
                 csv += (_.is(singleton))? singleton : "";
