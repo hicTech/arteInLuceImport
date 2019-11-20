@@ -4666,7 +4666,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 combination_images = (_.is(asset))? getCombinationImages(pic, projects, light_schema, component, "img") : undefined;
                                 combination_images_alt = (_.is(asset))? getCombinationImages(pic, projects, light_schema, component, "alt") : undefined;
 
-                                
+                                accessori = row["Accessori"];
+
 
 
                                 function getProductImages(pic, projects, light_schema, component, caso){
@@ -5066,6 +5067,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
              // alcune colonne aggiunte custom da Monica per Panzeri e Luceplan
             variante:               variante,
             dimensioni:             dimensioni,
+
+            // campo castom per luceplan per cui Monica ha aggiunto a mano il codice accessori per ogni articolo
+            accessori:              accessori,
 
 
         }
@@ -6247,26 +6251,13 @@ function postProduci(json,fornitore){
 
         // aggiungo gli accessori di ogni articolo
         _.each(json, function(elem){
-            if( elem.component == 1 ){
-                var cod_component = elem.hicId;
-                var cod_item = elem.component_of;
-
-                _.each(json, function(item, index){
-                    
-                    if(!_.is(item["accessories"]))
-                        item["accessories"] = "";
-                    
-                    if(item.model_id == cod_item ){
-                        //var new_accessories = item["accessories"] + cod_component+";";
-                        item["accessories"] += (item["accessories"] != "" )? "|"+cod_component : cod_component
-
-                    }
-                    
-                    
-                });
-            }
+            if(_.is(elem.accessori) && elem.accessori != "")
+                elem["accessories"] = S(elem.accessori).replaceAll(",","|").s
+            
         });
 
+
+        
 
 
         
