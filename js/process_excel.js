@@ -4608,7 +4608,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 item_id = original_model_id;
                                 hicId = getHicId(supplier_id, item_id);
                                 ean13 = undefined;
-                                max_discount = (component)? 0 : 0.18;
+                                max_discount = (component)? 0 : 0.15;
                                 sale = 1;
                                 price = row["Prezzo"];
                                 quantity = 0;
