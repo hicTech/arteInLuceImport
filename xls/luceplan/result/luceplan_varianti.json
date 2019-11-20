@@ -62,6 +62,8 @@
         "meta_description": "AGAVE SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "dimensioni": "Ø 17cm",
+        "accessori": "1D49/0100002",
+        "accessories": "1D49/0100002",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D49/17S : 2:1 | light_schema : http//www.luceplan.com/assets/D49_17s_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/agave-sospensione : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
         "values": "nuovo : 0 | no : 1 | no : 2 | Ø 17cm : 3"
@@ -129,6 +131,8 @@
         "meta_description": "AGAVE SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "dimensioni": "Ø 26cm",
+        "accessori": "1D49/0100002",
+        "accessories": "1D49/0100002",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D49/26S : 2:1 | light_schema : http//www.luceplan.com/assets/D49_26s_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/agave-sospensione : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
         "values": "nuovo : 0 | no : 1 | no : 2 | Ø 26cm : 3"
@@ -196,6 +200,8 @@
         "meta_description": "AGAVE SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "dimensioni": "Ø 70cm",
+        "accessori": "1D49/0100002",
+        "accessories": "1D49/0100002",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D49/70S : 2:1 | light_schema : http//www.luceplan.com/assets/D49_70s_tech copia.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/agave-sospensione : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
         "values": "nuovo : 0 | no : 1 | no : 2 | Ø 70cm : 3"
@@ -258,6 +264,7 @@
         "meta_title": "Lampada Sospensione: AIRCON SOSPSENSIONE Luceplan ArteInLuce™",
         "meta_description": "AIRCON SOSPSENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D50 : 2:1 | light_schema : http//www.luceplan.com/assets/D50_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/aircon-sospensione : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
         "values": "nuovo : 0 | no : 1 | no : 2"
@@ -322,6 +329,7 @@
         "meta_title": "Lampada da Parete: ANY Luceplan by ArteInLuce™",
         "meta_description": "ANY Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | name : D69 : 2:1 | light_schema : http//www.luceplan.com/assets/D69_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/any-parete : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
         "values": "nuovo : 0 | yes : 1 | no : 2"
@@ -386,6 +394,7 @@
         "meta_title": "Lampada da Parete: ANY Luceplan by ArteInLuce™",
         "meta_description": "ANY Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | name : D69/02 : 2:1 | light_schema : http//www.luceplan.com/assets/D69_2_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/any-parete : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
         "values": "nuovo : 0 | no : 1 | no : 2"
@@ -459,6 +468,7 @@
         "meta_description": "ASCENT Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TAVOLO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "variante": "con base",
+        "accessori": "",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | name : D78 : 2:1 | light_schema : http//www.luceplan.com/assets/D78_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/ascent-tavolo : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | con base : 1 | no : 2 | no : 3"
@@ -532,6 +542,7 @@
         "meta_description": "ASCENT Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TAVOLO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "variante": "con perno",
+        "accessori": "",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | name : D78P.T. : 2:1 | light_schema : http//www.luceplan.com/assets/D78pt_tech-1491992386.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/ascent-tavolo : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | con perno : 1 | no : 2 | no : 3"
@@ -598,6 +609,7 @@
         "meta_description": "BERENICE TAVOLO LED Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TAVOLO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "variante": "con base",
+        "accessori": "",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | name : D12 LED : 2:1 | light_schema : http//www.luceplan.com/assets/D12-EL_tech-1498634582.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/berenice-led-tavolo : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | variante : select : 2 | led : radio : 3 | dimmer : radio : 4",
         "values": "nuovo : 0 | nero : 1 | con base : 2 | no : 3 | no : 4"
@@ -664,6 +676,7 @@
         "meta_description": "BERENICE TAVOLO LED Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TAVOLO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "variante": "con base",
+        "accessori": "",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | name : D12 LED : 2:1 | light_schema : http//www.luceplan.com/assets/D12-EL_tech-1498634582.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/berenice-led-tavolo : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | variante : select : 2 | led : radio : 3 | dimmer : radio : 4",
         "values": "nuovo : 0 | alluminio : 1 | con base : 2 | no : 3 | no : 4"
@@ -728,6 +741,7 @@
         "meta_title": "Lampada Parete,Soffitto: COMPENDIUM PLATE Luceplan ArteInLuce™",
         "meta_description": "COMPENDIUM PLATE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE,SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : parete,soffitto : 0:1 | outdoor : no : 1:1 | name : D81P : 2:1 | light_schema : http//www.luceplan.com/assets/D81P-1536063889.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/compendium-plate-parete : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | nero : 1 | no : 2 | no : 3"
@@ -792,6 +806,7 @@
         "meta_title": "Lampada Parete,Soffitto: COMPENDIUM PLATE Luceplan ArteInLuce™",
         "meta_description": "COMPENDIUM PLATE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE,SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : parete,soffitto : 0:1 | outdoor : no : 1:1 | name : D81P : 2:1 | light_schema : http//www.luceplan.com/assets/D81P-1536063889.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/compendium-plate-parete : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | alluminio : 1 | no : 2 | no : 3"
@@ -856,6 +871,7 @@
         "meta_title": "Lampada Parete,Soffitto: COMPENDIUM PLATE Luceplan ArteInLuce™",
         "meta_description": "COMPENDIUM PLATE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE,SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : parete,soffitto : 0:1 | outdoor : no : 1:1 | name : D81P : 2:1 | light_schema : http//www.luceplan.com/assets/D81P-1536063889.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/compendium-plate-parete : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | ottone : 1 | no : 2 | no : 3"
@@ -920,6 +936,7 @@
         "meta_title": "Lampada Parete,Soffitto: COMPENDIUM PLATE SOSPENSIONE Luceplan ArteInLuce™",
         "meta_description": "COMPENDIUM PLATE SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE,SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : parete,soffitto : 0:1 | outdoor : no : 1:1 | name : D81P : 2:1 | light_schema : http//www.luceplan.com/assets/D81P-1536063889.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/compendium-plate-parete : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | nero : 1 | no : 2 | no : 3"
@@ -984,6 +1001,7 @@
         "meta_title": "Lampada Parete,Soffitto: COMPENDIUM PLATE SOSPENSIONE Luceplan ArteInLuce™",
         "meta_description": "COMPENDIUM PLATE SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE,SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : parete,soffitto : 0:1 | outdoor : no : 1:1 | name : D81P : 2:1 | light_schema : http//www.luceplan.com/assets/D81P-1536063889.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/compendium-plate-parete : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | alluminio : 1 | no : 2 | no : 3"
@@ -1048,6 +1066,7 @@
         "meta_title": "Lampada Parete,Soffitto: COMPENDIUM PLATE SOSPENSIONE Luceplan ArteInLuce™",
         "meta_description": "COMPENDIUM PLATE SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE,SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : parete,soffitto : 0:1 | outdoor : no : 1:1 | name : D81P : 2:1 | light_schema : http//www.luceplan.com/assets/D81P-1536063889.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/compendium-plate-parete : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | ottone : 1 | no : 2 | no : 3"
@@ -1115,6 +1134,7 @@
         "meta_title": "Lampada da Terra: COUNTERBALANCE Luceplan by ArteInLuce™",
         "meta_description": "COUNTERBALANCE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TERRA in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D73NT : 2:1 | light_schema : http//www.luceplan.com/assets/D73Nt_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/counterbalance-floor-terra : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | nero : 1 | no : 2 | no : 3"
@@ -1182,6 +1202,7 @@
         "meta_title": "Lampada da Terra: COUNTERBALANCE Luceplan by ArteInLuce™",
         "meta_description": "COUNTERBALANCE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TERRA in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D73NT : 2:1 | light_schema : http//www.luceplan.com/assets/D73Nt_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/counterbalance-floor-terra : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | bianco : 1 | no : 2 | no : 3"
@@ -1249,6 +1270,7 @@
         "meta_title": "Lampada Terra: COUNTERBALANCE SPOT Luceplan by ArteInLuce™",
         "meta_description": "COUNTERBALANCE SPOT Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TERRA in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D73NT : 2:1 | light_schema : http//www.luceplan.com/assets/D73Nt_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/counterbalance-floor-terra : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | nero : 1 | no : 2 | no : 3"
@@ -1316,6 +1338,7 @@
         "meta_title": "Lampada Terra: COUNTERBALANCE SPOT Luceplan by ArteInLuce™",
         "meta_description": "COUNTERBALANCE SPOT Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TERRA in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D73NT : 2:1 | light_schema : http//www.luceplan.com/assets/D73Nt_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/counterbalance-floor-terra : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | bianco : 1 | no : 2 | no : 3"
@@ -1382,6 +1405,8 @@
         "meta_title": "Lampada da Terra: COUNTERBALANCE Luceplan by ArteInLuce™",
         "meta_description": "COUNTERBALANCE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TERRA in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "1D730/100001",
+        "accessories": "1D730/100001",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D73NT : 2:1 | light_schema : http//www.luceplan.com/assets/D73Nt_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/counterbalance-floor-terra : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
         "values": "nuovo : 0 | no : 1 | no : 2"
@@ -1447,6 +1472,7 @@
         "meta_title": "Lampada da Parete: GARBÌ Luceplan by ArteInLuce™",
         "meta_description": "GARBÌ Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | name : D90 : 2:1 | light_schema : http//www.luceplan.com/assets/D90_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/garbi-parete : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | bianco : 1 | no : 2 | no : 3"
@@ -1512,6 +1538,7 @@
         "meta_title": "Lampada da Parete: GARBÌ Luceplan by ArteInLuce™",
         "meta_description": "GARBÌ Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | name : D90 : 2:1 | light_schema : http//www.luceplan.com/assets/D90_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/garbi-parete : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | metal/bianco : 1 | no : 2 | no : 3"
@@ -1574,6 +1601,7 @@
         "meta_description": "HOPE PARETE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "dimensioni": "Ø 48cm",
+        "accessori": "",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | name : D66/3A : 2:1 | light_schema : http//www.luceplan.com/assets/D66_3a_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-parete : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
         "values": "nuovo : 0 | no : 1 | no : 2 | Ø 48cm : 3"
@@ -1636,6 +1664,7 @@
         "meta_description": "HOPE PARETE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "dimensioni": "Ø 61cm",
+        "accessori": "",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | name : D66/8A : 2:1 | light_schema : http//www.luceplan.com/assets/D66_8a_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-parete : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
         "values": "nuovo : 0 | no : 1 | no : 2 | Ø 61cm : 3"
@@ -1706,6 +1735,7 @@
         "meta_description": "HOPE SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "dimensioni": "Ø 200cm",
+        "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D66/105 : 2:1 | light_schema : http//www.luceplan.com/assets/D66_105_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-sospensione : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
         "values": "nuovo : 0 | no : 1 | no : 2 | Ø 200cm : 3"
@@ -1771,6 +1801,7 @@
         "meta_description": "HOPE PLAFONIERA Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "dimensioni": "Ø 69 cm",
+        "accessori": "",
         "features": "category : soffitto : 0:1 | outdoor : no : 1:1 | name : D66/12P : 2:1 | light_schema : http//www.luceplan.com/assets/D66_12p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-soffitto : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
         "values": "nuovo : 0 | no : 1 | no : 2 | Ø 69 cm : 3"
@@ -1836,6 +1867,7 @@
         "meta_description": "HOPE SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "dimensioni": "Ø 61cm",
+        "accessori": "",
         "features": "category : soffitto : 0:1 | outdoor : no : 1:1 | name : D66/12P : 2:1 | light_schema : http//www.luceplan.com/assets/D66_12p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-soffitto : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
         "values": "nuovo : 0 | no : 1 | no : 2 | Ø 61cm : 3"
@@ -1901,6 +1933,7 @@
         "meta_description": "HOPE SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "dimensioni": "Ø 72cm",
+        "accessori": "",
         "features": "category : soffitto : 0:1 | outdoor : no : 1:1 | name : D66/12P : 2:1 | light_schema : http//www.luceplan.com/assets/D66_12p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-soffitto : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
         "values": "nuovo : 0 | no : 1 | no : 2 | Ø 72cm : 3"
@@ -1965,6 +1998,7 @@
         "meta_title": "Lampada Terra: HOPE FRIENDS OF HUE Luceplan by ArteInLuce™",
         "meta_description": "HOPE FRIENDS OF HUE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TERRA in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D66/18TD : 2:1 | light_schema : http//www.luceplan.com/assets/D66_18td_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-terra : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
         "values": "nuovo : 0 | no : 1 | no : 2"
@@ -2030,6 +2064,7 @@
         "meta_description": "HOPE PLAFONIERA Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "dimensioni": "Ø 109 cm",
+        "accessori": "",
         "features": "category : soffitto : 0:1 | outdoor : no : 1:1 | name : D66/30P : 2:1 | light_schema : http//www.luceplan.com/assets/D66_30p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-soffitto : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
         "values": "nuovo : 0 | no : 1 | no : 2 | Ø 109 cm : 3"
@@ -2100,6 +2135,7 @@
         "meta_description": "HOPE SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "dimensioni": "Ø 110 cm",
+        "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D66/42 : 2:1 | light_schema : http//www.luceplan.com/assets/D66_42_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-sospensione : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
         "values": "nuovo : 0 | no : 1 | no : 2 | Ø 110 cm : 3"
@@ -2162,6 +2198,7 @@
         "meta_title": "Lampada da Parete: LANE Luceplan by ArteInLuce™",
         "meta_description": "LANE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | name : D64 : 2:1 | light_schema : http//www.luceplan.com/assets/D64_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/lane-parete : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
         "values": "nuovo : 0 | no : 1 | no : 2"
@@ -2178,7 +2215,7 @@
         "model_id": "1D860C551001",
         "item_id": "1D860C551001",
         "hicId": "lucep_1D860C551001",
-        "price": "",
+        "price": "1477.05",
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
@@ -2234,6 +2271,8 @@
         "order_available": "2",
         "variante": "L cavi 1mt",
         "dimensioni": "Ø 55cm",
+        "accessori": "1D860/100000",
+        "accessories": "1D860/100000",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86C555 : 2:1 | light_schema : http//www.luceplan.com/assets/D86C555-1533305506.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
         "values": "nuovo : 0 | L cavi 1mt : 1 | no : 2 | no : 3 | Ø 55cm : 4"
@@ -2250,7 +2289,7 @@
         "model_id": "1D860C555001",
         "item_id": "1D860C555001",
         "hicId": "lucep_1D860C551001",
-        "price": "",
+        "price": "1590.98",
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
@@ -2306,6 +2345,8 @@
         "order_available": "2",
         "variante": "L cavi 5mt",
         "dimensioni": "Ø 55cm",
+        "accessori": "1D860/100000",
+        "accessories": "1D860/100000",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86C555 : 2:1 | light_schema : http//www.luceplan.com/assets/D86C555-1533305506.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
         "values": "nuovo : 0 | L cavi 5mt : 1 | no : 2 | no : 3 | Ø 55cm : 4"
@@ -2322,7 +2363,7 @@
         "model_id": "1D860PLN0001",
         "item_id": "1D860PLN0001",
         "hicId": "lucep_1D860PLN0001",
-        "price": "",
+        "price": "2235.25",
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
@@ -2367,6 +2408,7 @@
         "meta_title": "Lampada da Soffitto: MESH PLAFONIERA Luceplan by ArteInLuce™",
         "meta_description": "MESH PLAFONIERA Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : soffitto : 0:1 | outdoor : no : 1:1 | name : D86PL : 2:1 | light_schema : http//www.luceplan.com/assets/D86PL_tech-1520327059.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-ceiling : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
         "values": "nuovo : 0 | no : 1 | no : 2"
@@ -2436,6 +2478,7 @@
         "meta_title": "Lampada da Terra: NOTHING Luceplan by ArteInLuce™",
         "meta_description": "NOTHING Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TERRA in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D75 : 2:1 | light_schema : http//www.luceplan.com/assets/D75_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/nothing-terra : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | nero : 1 | no : 2 | no : 3"
@@ -2498,6 +2541,7 @@
         "meta_title": "Lampada Soffitto: SOLEIL PLAFONIERA Luceplan by ArteInLuce™",
         "meta_description": "SOLEIL PLAFONIERA Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : soffitto : 0:1 | outdoor : no : 1:1 | name : D89P : 2:1 | light_schema : http//www.luceplan.com/assets/D89p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/soleil-noir-parete : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | bianco : 1 | no : 2 | no : 3"
@@ -2560,6 +2604,7 @@
         "meta_title": "Lampada Soffitto: SOLEIL PLAFONIERA Luceplan by ArteInLuce™",
         "meta_description": "SOLEIL PLAFONIERA Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : soffitto : 0:1 | outdoor : no : 1:1 | name : D89P : 2:1 | light_schema : http//www.luceplan.com/assets/D89p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/soleil-noir-parete : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | nero/bianco : 1 | no : 2 | no : 3"
@@ -2623,6 +2668,7 @@
         "meta_title": "Lampada Sospensione: SOLEIL SOSPENSIONE Luceplan ArteInLuce™",
         "meta_description": "SOLEIL SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D89S : 2:1 | light_schema : http//www.luceplan.com/assets/D89s_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/soleil-noir-sospensione : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | bianco : 1 | no : 2 | no : 3"
@@ -2686,6 +2732,7 @@
         "meta_title": "Lampada Sospensione: SOLEIL SOSPENSIONE Luceplan ArteInLuce™",
         "meta_description": "SOLEIL SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D89S : 2:1 | light_schema : http//www.luceplan.com/assets/D89s_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/soleil-noir-sospensione : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | nero/bianco : 1 | no : 2 | no : 3"
@@ -2751,6 +2798,7 @@
         "meta_description": "TRAMA Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOFFITTO,PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "variante": "Ø 64 cm",
+        "accessori": "",
         "features": "category : soffitto,parete : 0:1 | outdoor : no : 1:1 | name : D14 A.PI : 2:1 | light_schema : http//www.luceplan.com/assets/D14api_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/trama-parete : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | Ø 64 cm : 1 | no : 2 | no : 3"
@@ -2816,6 +2864,7 @@
         "meta_description": "TRAMA Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOFFITTO,PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "variante": "Ø 50cm",
+        "accessori": "",
         "features": "category : soffitto,parete : 0:1 | outdoor : no : 1:1 | name : D14 A.PI : 2:1 | light_schema : http//www.luceplan.com/assets/D14api_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/trama-parete : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | Ø 50cm : 1 | no : 2 | no : 3"
@@ -2879,6 +2928,7 @@
         "meta_title": "Lampada Sospensione: TITANIA SOSPENSIONE Luceplan ArteInLuce™",
         "meta_description": "TITANIA SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D17 : 2:1 | light_schema : http//www.luceplan.com/assets/D17_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/titania-sospensione : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
         "values": "nuovo : 0 | no : 1 | no : 2"
@@ -2943,6 +2993,7 @@
         "meta_title": "Lampada Sospensione: TITANIA QUEEN KIT SOSPENSIONE Luceplan ArteInLuce™",
         "meta_description": "TITANIA QUEEN KIT SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D17Q : 2:1 | light_schema : http//www.luceplan.com/assets/D17Q_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/queen-titania-sospensione : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
         "values": "nuovo : 0 | no : 1 | no : 2"
@@ -3006,6 +3057,8 @@
         "meta_title": "Lampada Sospensione: TITANIA QUEEN SOSPENSIONE Luceplan ArteInLuce™",
         "meta_description": "TITANIA QUEEN SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "1D170Q/01023,1D170Q/01024,1D170Q/01027,1D170Q/01036,1D170Q/02020",
+        "accessories": "1D170Q/01023|1D170Q/01024|1D170Q/01027|1D170Q/01036|1D170Q/02020",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D17 : 2:1 | light_schema : http//www.luceplan.com/assets/D17_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/titania-sospensione : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
         "values": "nuovo : 0 | no : 1 | no : 2"
@@ -3077,6 +3130,7 @@
         "meta_title": "Lampada Tavolo: COSTANZA TAVOLO COMPLETA Luceplan ArteInLuce™",
         "meta_description": "COSTANZA TAVOLO COMPLETA Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TAVOLO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | name : D13 : 2:1 | light_schema : http//www.luceplan.com/assets/D13_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/costanza-tavolo : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
         "values": "nuovo : 0 | no : 1 | no : 2"
@@ -3148,6 +3202,7 @@
         "meta_title": "Lampada Tavolo: COSTANZA TERRA COMPLETA Luceplan ArteInLuce™",
         "meta_description": "COSTANZA TERRA COMPLETA Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TAVOLO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | name : D13 : 2:1 | light_schema : http//www.luceplan.com/assets/D13_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/costanza-tavolo : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
         "values": "nuovo : 0 | no : 1 | no : 2"
@@ -3210,6 +3265,7 @@
         "meta_title": "Lampada Tavolo: COSTANZA FRIENDS TAVOLO COMPLETA Luceplan ArteInLuce™",
         "meta_description": "COSTANZA FRIENDS TAVOLO COMPLETA Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TAVOLO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | name : D13C.H : 2:1 | light_schema : http//www.luceplan.com/assets/D13_tech-1492006428.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/costanza-fiends-of-hue-tavolo : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
         "values": "nuovo : 0 | no : 1 | no : 2"
@@ -3272,6 +3328,7 @@
         "meta_title": "Lampada Terra: COSTANZA FRIENDS TERRA COMPLETA Luceplan ArteInLuce™",
         "meta_description": "COSTANZA FRIENDS TERRA COMPLETA Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TERRA in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D13T.C.H : 2:1 | light_schema : http//www.luceplan.com/assets/D13t_tech-1492011302.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/costanza-fiends-of-hue-terra : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
         "values": "nuovo : 0 | no : 1 | no : 2"
@@ -3336,6 +3393,7 @@
         "meta_title": "Lampada Sospensione: COSTANZA GRANDE SOSPENSIONE Luceplan ArteInLuce™",
         "meta_description": "COSTANZA GRANDE SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D13GS.I. : 2:1 | light_schema : http//www.luceplan.com/assets/D13Gsi_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/grande-costanza-sospensione : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
         "values": "nuovo : 0 | no : 1 | no : 2"
@@ -3400,6 +3458,7 @@
         "meta_title": "Lampada Terra: COSTANZA  GRANDE TERRA Luceplan ArteInLuce™",
         "meta_description": "COSTANZA  GRANDE TERRA Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TERRA in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D13G T.I. : 2:1 | light_schema : http//www.luceplan.com/assets/D13Gti_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/grande-costanza-terra : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
         "values": "nuovo : 0 | no : 1 | no : 2"
@@ -3462,6 +3521,7 @@
         "meta_description": "HOPE PARETE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "dimensioni": "Ø 48cm",
+        "accessori": "",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | name : D66/3A : 2:1 | light_schema : http//www.luceplan.com/assets/D66_3a_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-parete : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
         "values": "nuovo : 0 | no : 1 | no : 2 | Ø 48cm : 3"
@@ -3524,6 +3584,7 @@
         "meta_description": "HOPE PARETE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "dimensioni": "Ø 61cm",
+        "accessori": "",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | name : D66/8A : 2:1 | light_schema : http//www.luceplan.com/assets/D66_8a_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-parete : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
         "values": "nuovo : 0 | no : 1 | no : 2 | Ø 61cm : 3"
@@ -3594,6 +3655,7 @@
         "meta_description": "HOPE SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "dimensioni": "Ø 200cm",
+        "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D66/105 : 2:1 | light_schema : http//www.luceplan.com/assets/D66_105_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-sospensione : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
         "values": "nuovo : 0 | no : 1 | no : 2 | Ø 200cm : 3"
@@ -3659,6 +3721,7 @@
         "meta_description": "HOPE PLAFONIERA Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "dimensioni": "Ø 69 cm",
+        "accessori": "",
         "features": "category : soffitto : 0:1 | outdoor : no : 1:1 | name : D66/12P : 2:1 | light_schema : http//www.luceplan.com/assets/D66_12p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-soffitto : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
         "values": "nuovo : 0 | no : 1 | no : 2 | Ø 69 cm : 3"
@@ -3724,6 +3787,7 @@
         "meta_description": "HOPE SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "dimensioni": "Ø 61cm",
+        "accessori": "",
         "features": "category : soffitto : 0:1 | outdoor : no : 1:1 | name : D66/12P : 2:1 | light_schema : http//www.luceplan.com/assets/D66_12p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-soffitto : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
         "values": "nuovo : 0 | no : 1 | no : 2 | Ø 61cm : 3"
@@ -3789,6 +3853,7 @@
         "meta_description": "HOPE SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "dimensioni": "Ø 72cm",
+        "accessori": "",
         "features": "category : soffitto : 0:1 | outdoor : no : 1:1 | name : D66/12P : 2:1 | light_schema : http//www.luceplan.com/assets/D66_12p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-soffitto : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
         "values": "nuovo : 0 | no : 1 | no : 2 | Ø 72cm : 3"
@@ -3853,6 +3918,7 @@
         "meta_title": "Lampada Terra: HOPE FRIENDS OF HUE Luceplan by ArteInLuce™",
         "meta_description": "HOPE FRIENDS OF HUE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da TERRA in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D66/18TD : 2:1 | light_schema : http//www.luceplan.com/assets/D66_18td_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-terra : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
         "values": "nuovo : 0 | no : 1 | no : 2"
@@ -3918,6 +3984,7 @@
         "meta_description": "HOPE PLAFONIERA Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "dimensioni": "Ø 109 cm",
+        "accessori": "",
         "features": "category : soffitto : 0:1 | outdoor : no : 1:1 | name : D66/30P : 2:1 | light_schema : http//www.luceplan.com/assets/D66_30p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-soffitto : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
         "values": "nuovo : 0 | no : 1 | no : 2 | Ø 109 cm : 3"
@@ -3988,6 +4055,7 @@
         "meta_description": "HOPE SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "dimensioni": "Ø 110 cm",
+        "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D66/42 : 2:1 | light_schema : http//www.luceplan.com/assets/D66_42_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-sospensione : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
         "values": "nuovo : 0 | no : 1 | no : 2 | Ø 110 cm : 3"
@@ -4051,6 +4119,7 @@
         "meta_title": "Lampada Sospensione: LITA SOSPENSIONE Luceplan ArteInLuce™",
         "meta_description": "LITA SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D92S18 : 2:1 | light_schema : http//www.luceplan.com/assets/D92S18.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/lita-suspension : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | bianco : 1 | no : 2 | no : 3"
@@ -4114,6 +4183,7 @@
         "meta_title": "Lampada Sospensione: LITA SOSPENSIONE Luceplan ArteInLuce™",
         "meta_description": "LITA SOSPENSIONE Luceplan: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOSPENSIONE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
+        "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D92S18 : 2:1 | light_schema : http//www.luceplan.com/assets/D92S18.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/lita-suspension : 5:1 | supplier : luceplan : 6:1",
         "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
         "values": "nuovo : 0 | legno : 1 | no : 2 | no : 3"
