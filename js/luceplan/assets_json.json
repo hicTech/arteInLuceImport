@@ -3824,5 +3824,132 @@
                 }
             }
         ]
+    },
+    {
+        "name": "Curl",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/curl-d76-thumb-1498213503.jpg/1695989ce6ffc125f967e11f33813036.jpg",
+        "prod_page": "https://www.luceplan.com/it/prodotti/curl-tavolo",
+        "projects": [
+            "http://www.luceplan.com/it/img/containers/main/products/curl/table/curl-D76-product-slider-01.jpg/d55ac463e0afa80ef052165c6893594c.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/curl/table/curl-D76-product-slider-02.jpg/677d152bc80ced04b598fd67274ed1e0.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/curl/table/curl-D76-product-slider-03.jpg/8ad67ed47e6fe2600a4d94f15f0d6179.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/curl/table/curl-D76-product-slider-04.jpg/6e0d96e26e11f6ed2b26f50437b6af7b.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/curl-D76-product-slider-05.jpg/8f176fd32c369406a5d9268361dec526.jpg"
+        ],
+        "category": [
+            "Tavolo"
+        ],
+        "description": "Curl è una lampada dalle dimensioni molto calibrate e con una naturale presenza scultorea. La tipologia di riferimento è la lampada da tavolino, un apparecchio al quale si chiede di fornire una luce diffusa, possibilmente schermata, e di creare un’atmosfera riposante. La forma della base consente a Curl di assumere più posizioni; al suo centro è collocato un interruttore/dimmer.\n",
+        "variations": [
+            {
+                "name": "D76N1",
+                "light_schema": "http://www.luceplan.com/assets/D76N1_tech.png",
+                "data": {
+                    "Modello": "D76N1",
+                    "Materiale": "policarbonato stampato ad iniezione",
+                    "Dimensioni": "l 21, h 26 cm",
+                    "": "bianco, mirror",
+                    "Finiture": "bianco",
+                    "Fonte Luminosa": "LED 8W 3000K",
+                    "Classe Isolante": "III",
+                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
+                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Écran in&out",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/ecran_lamp_light_wall_thumb.jpg/c22332613ac5bbc9660559916fb5b2ef.jpg",
+        "prod_page": "https://www.luceplan.com/it/prodotti/ecran-ineout-parete",
+        "projects": [
+            "http://www.luceplan.com/it/img/containers/main/products/ecran_lamp_light_wall.jpg/9e380e5ad76080ec92c4f63ae49ac120.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/ecr.jpg/58967d291813b743fc85c3baa0c493f4.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/ecran-ineout/ceiling-wall/ecran-D67PLN1-product-slider-02.jpg/50a36627ed8f614b34f50db8879f5031.jpg"
+        ],
+        "category": [
+            "Parete"
+        ],
+        "variations": [
+            {
+                "name": "D67P",
+                "light_schema": "http://www.luceplan.com/assets/D67p_tech.png",
+                "data": {
+                    "Modello": "D67P",
+                    "Materiale": "policarbonato stampato ad iniezione",
+                    "Dimensioni": "Ø 18,5, d 14,5 cm",
+                    "": "bianco opalino, sabbia",
+                    "Finiture": "Opalino",
+                    "Fonte Luminosa": "LED 8W 3000K",
+                    "Classe Isolante": "II",
+                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
+                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Hope Friends of Hue",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Thumb_FOH.jpg/2ecadc009410d4fce6dc5d44513b7285.jpg",
+        "prod_page": "https://www.luceplan.com/it/prodotti/hope-friends-of-hue",
+        "projects": [
+            "http://www.luceplan.com/it/img/containers/main/products/Slider_FOH_1-1564060659.jpg/7a43a7cf06327c73945845b253ca81b4.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/Slider_FOH_2-1564060664.jpg/59057975095d56acbd96184caf1db394.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/Slider_FOH_3-1564060669.jpg/de58c68f9cfe7c3e8a0fb97badb644d1.jpg"
+        ],
+        "category": [
+            "Sospensione"
+        ],
+        "description": "Hope è dotata di una lampadina e un bridge Philips Hue che, mediante l’utilizzo della Hue App installata su smart device consente di regolare non solo l’intensità della luce, ma anche la tonalità di colore, dal bianco caldo al bianco freddo.\n",
+        "variations": [
+            {
+                "name": "D66/18H",
+                "light_schema": "http://www.luceplan.com/assets/Tech_D66_18H.png",
+                "data": {
+                    "Modello": "D66/18H",
+                    "Materiale": "Struttura in acciaio lucido e policarbonato trasparente, bracci in policarbonato trasparente, lenti prismatiche",
+                    "Dimensioni": "H max 270 cm\nØ 72 cm",
+                    "": "Lucido e trasparente",
+                    "Finiture": "Trasparente",
+                    "Fonte Luminosa": "LED white ambience Hue 2200-6500K E27",
+                    "Classe Isolante": "II",
+                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
+                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Illusion",
+        "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/illusion-d80-thumb.jpg/3e4fa5324c5978102474f5d5212597e6.jpg",
+        "prod_page": "https://www.luceplan.com/it/prodotti/illusion-parete",
+        "projects": [
+            "http://www.luceplan.com/it/img/containers/main/products/illusion/ceiling-wall/illusion-d80-product-slider-01.jpg/96f04f5907d1c23deb2493572b55fe54.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/illusion/ceiling-wall/illusion-d80-product-slider-02.jpg/3c0165dfa65e75c35b1866eccc8d8f74.jpg",
+            "http://www.luceplan.com/it/img/containers/main/products/illusion-d80-product-slider-03-1499090718.jpg/da820f53d7e1d219e9f48a458d71b9fe.jpg"
+        ],
+        "category": [
+            "Soffitto",
+            "Parete"
+        ],
+        "description": "Molto piu sottile di una tradizionale applique, Illusion è una lampada da parete a LED con una importante riduzione dei consumi. L’aspetto di una sfera inscritta in un quadrato è generato dall’effetto ottico della lente Fresnel e il corpo lampada planare ha uno spessore di soli 4 centimetri.\n",
+        "video": "https://player.vimeo.com/video/63477465",
+        "variations": [
+            {
+                "name": "D80",
+                "light_schema": "http://www.luceplan.com/assets/D80_tech.png",
+                "data": {
+                    "Modello": "D80",
+                    "Materiale": "Struttura in alluminio, film a basso spessore con lente fresnel in policarbonato trasparente",
+                    "Dimensioni": "23 x 23 x 4 cm",
+                    "": "bianco",
+                    "Finiture": "trasparente",
+                    "Fonte Luminosa": "LED 17W main power 3000K",
+                    "Classe Isolante": "II",
+                    "Brochure": "Scarica la brochure<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">",
+                    "Scheda tecnica": "Scarica la scheda tecnica<img src=\"/assets/img/arrow-grey-down.svg\" alt=\"download file\">"
+                }
+            }
+        ]
     }
 ]

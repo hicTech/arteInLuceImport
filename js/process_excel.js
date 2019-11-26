@@ -4529,46 +4529,44 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             if( fornitore == "luceplan"){
 
                                 if( 
-                                row["Descrizione"].indexOf("STRIP ") == 0 || // la pagina di stip sul sito da un 404
-                                row["Descrizione"].toLowerCase().indexOf(" corpo") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" stelo") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" picchetto") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" strutt") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf("copertura") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" driver") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" kit ") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" riflettore ") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" adattatore ") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" attacco ") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" diffus") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" base") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" basetta ") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf("perno") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" morsetto ") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" pannelli ") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" supporti ") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" pannello ") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" rosone ") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" driver ") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" stelo ") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" zavorra ") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" palo ") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" dimm") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" dim.") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf("pz.") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" anticaduta") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" filtri") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" saliscendi") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" giunto") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" trasformatore") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" access") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" ott.") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf("appoggio") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" agganci") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" sfere+tiranti") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" set ") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" solo ") != -1 ||
-                                row["Descrizione"].toLowerCase().indexOf(" ottica ") != -1 
+                                    row["Descrizione"].indexOf("STRIP ") == 0 || // la pagina di stip sul sito da un 404
+                                    row["Descrizione"].toLowerCase().indexOf(" corpo") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" stelo") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" picchetto") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" strutt") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf("copertura") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" driver") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" kit ") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" riflettore ") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" adattatore ") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" attacco ") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" diffus") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" base") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" basetta ") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf("perno") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" morsetto ") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" pannelli ") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" supporti ") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" pannello ") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" rosone ") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" driver ") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" stelo ") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" zavorra ") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" palo ") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf("pz.") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" anticaduta") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" filtri") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" saliscendi") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" giunto") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" trasformatore") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" access") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" ott.") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf("appoggio") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" agganci") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" sfere+tiranti") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" set ") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" solo ") != -1 ||
+                                    row["Descrizione"].toLowerCase().indexOf(" ottica ") != -1 
                                 
                                 ){
                                     return undefined
@@ -4576,7 +4574,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             
                                
 
-                            
+                                
                                 let asset = getAsset(row["Modello"]);         
                                 supplier = "luceplan";
                                 supplier_id = supplierId(supplier);
@@ -4628,7 +4626,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 halogen = undefined;
                                 screw = undefined;
                                 switcher = (row["Descrizione"].toLowerCase().indexOf("on off") != -1 || row["Descrizione"].toLowerCase().indexOf("onof") != -1 || row["Descrizione"].toLowerCase().indexOf("on/off") != -1)? 1 : 0;;
-                                category = ( _.is(asset))? asset.asset.category.toString() : undefined;
+                                category = row["Categoria"];
 
                                 
 
@@ -4828,7 +4826,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                             })
                                         }
                                     });
-            
+                                    
                                     return ret;
                                 }
 
@@ -6236,14 +6234,14 @@ function postProduci(json,fornitore){
         });
 
         _.each(json, function(elem,index){
-            if( !_.is(registro[elem.model]) ){
-                registro[elem.model] = elem.hicId;
+            if( !_.is(registro[elem.title]) ){
+                registro[elem.title] = elem.hicId;
                 var new_elem = Object.assign({}, elem);
                 new_elem.price = 0;
                 json_prodotti.push(new_elem);
             }
             else{
-                elem.hicId = registro[elem.model];
+                elem.hicId = registro[elem.title];
             }
             
         })

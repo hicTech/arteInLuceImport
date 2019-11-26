@@ -803,22 +803,50 @@ var arr_all_products = [
   }
 ];
 
-/*
 
-var arr_all_products =[
+// da un successivo excell luceplan sistemato da Monica sono emersi altri prodotti
+var alcuni_aggiunti_a_mano =[
   {
-      "name": "Compendium Plate",
+      "name": "Curl",
       "category": [
-        "Parete",
-        "Soffitto"
+        "Tavolo"
       ],
-      "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/CompendiumPlate-d81p-productcover.jpg/1b5ec7ff063dd958f304f236903370f0.jpg",
-      "prod_page": "https://www.luceplan.com/it/prodotti/compendium-plate-parete"
-    }
+      "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/curl-d76-thumb-1498213503.jpg/1695989ce6ffc125f967e11f33813036.jpg",
+      "prod_page": "https://www.luceplan.com/it/prodotti/curl-tavolo"
+   },
+   {
+      "name": "Ecran",
+      "category": [
+        "Parete"
+      ],
+      "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/ecran_lamp_light_wall_thumb.jpg/c22332613ac5bbc9660559916fb5b2ef.jpg",
+      "prod_page": "https://www.luceplan.com/it/prodotti/ecran-ineout-parete"
+   },
+   {
+      "name": "Hope Friends of Hue",
+      "category": [
+        "Sospensione"
+      ],
+      "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/Thumb_FOH.jpg/2ecadc009410d4fce6dc5d44513b7285.jpg",
+      "prod_page": "https://www.luceplan.com/it/prodotti/hope-friends-of-hue"
+   },
+   {
+      "name": "Illusione",
+      "category": [
+        "Soffitto",
+        "Parete"
+      ],
+      "prod_pic": "https://www.luceplan.com/it/img/containers/main/products/illusion-d80-thumb.jpg/3e4fa5324c5978102474f5d5212597e6.jpg",
+      "prod_page": "https://www.luceplan.com/it/prodotti/illusion-parete"
+   },
+
     
   ]
 
-*/
+ arr_all_products = arr_all_products.concat(alcuni_aggiunti_a_mano)
+
+
+
 
 
 
