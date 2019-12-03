@@ -1,0 +1,297 @@
+12:03:34: PROCESSO: ../xls/flos
+12:03:40: PROCESSO: ../xls/luceplan
+12:03:50: PROCESSO: ../xls/luceplan
+12:11:12: PROCESSO: ../xls/luceplan
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:12: 1
+12:11:12: 0
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:12: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:11:13: 
+12:12:18: PROCESSO: ../xls/luceplan
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: 1
+12:12:18: 0
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:18: undefined
+12:12:19: undefined
+12:12:19: undefined
+12:12:19: undefined
+12:12:19: undefined
+12:12:19: undefined
+12:12:19: undefined
+12:12:19: undefined
+12:12:19: undefined
+12:12:19: undefined
+12:12:19: undefined
+12:12:19: undefined
+12:12:19: undefined
+12:12:19: undefined
+12:12:19: undefined
+12:13:04: PROCESSO: ../xls/luceplan
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: 1
+12:13:05: 0
+12:13:05: 1
+12:13:05: 0
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:05: undefined
+12:13:34: PROCESSO: ../xls/luceplan
+12:18:15: PROCESSO: ../xls/luceplan
+12:40:33: PROCESSO: ../xls/luceplan

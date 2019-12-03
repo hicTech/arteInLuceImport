@@ -4621,8 +4621,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 desc_en = undefined;
                                 cleaned_desc_it = ( _.is(asset))? asset.asset.description : undefined;
                                 cleaned_desc_en = cleaned_desc_it;
-                                dimmer = row["Dimmer"];
-                                led = row["Led"];
+                                
+                                dimmer = (!_.is(row["Dimmer"]) || row["Dimmer"] == "")? undefined : row["Dimmer"];
+                                led = (!_.is(row["Led"]) || row["Led"] == "")? undefined : row["Led"];
+                                
                                 halogen = undefined;
                                 screw = undefined;
                                 switcher = (row["Descrizione"].toLowerCase().indexOf("on off") != -1 || row["Descrizione"].toLowerCase().indexOf("onof") != -1 || row["Descrizione"].toLowerCase().indexOf("on/off") != -1)? 1 : 0;;
@@ -5025,10 +5027,11 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             desc_en:                cleaned_desc_en,                                                // la descrizione in inglese 
             
 
-            /* siccome dimmee, led e halogen per PANZERI sono colonne inserite a mano da Monica ho dovuto fare un distinguo */
+            /* siccome dimmer, led e halogen per PANZERI sono colonne inserite a mano da Monica ho dovuto fare un distinguo */
             /* anche VISTOSI ha il led inserito a mano da Monica */
-            dimmer:                 ( supplier=="panzeri" && !_.is(dimmer) )? undefined : (supplier == "panzeri" && _.is(dimmer))? dimmer.toLowerCase() : (dimmer==0 || dimmer == undefined)? "no" : "yes",
-            led:                    ( (supplier=="panzeri" || supplier=="vistosi") && !_.is(led) )? undefined : ( (supplier=="panzeri" || supplier=="vistosi") && _.is(led))? led.toLowerCase() : (led==0 || led == undefined)? "no" : "yes",
+            /* anche LUCEPLAN ha il led e dimmer inserito a mano da Monica */
+            dimmer:                 ( (supplier=="panzeri" && !_.is(dimmer)) || (supplier=="luceplan" && !_.is(dimmer)) )? undefined : ( (supplier == "panzeri" && _.is(dimmer)) || (supplier == "luceplan" && _.is(dimmer)))? dimmer.toLowerCase() : (dimmer==0 || dimmer == undefined)? "no" : "yes",
+            led:                    ( (supplier=="panzeri" || supplier=="vistosi" || supplier=="luceplan") && !_.is(led) )? undefined : ( (supplier=="panzeri" || supplier=="vistosi" || supplier=="luceplan") && _.is(led))? led.toLowerCase() : (led==0 || led == undefined)? "no" : "yes",
             halogen:                ( supplier=="panzeri" && !_.is(halogen) )? undefined : (supplier == "panzeri" && _.is(halogen))? halogen.toLowerCase() : (halogen==0 || halogen == undefined)? "no" : "yes",                                      
             
 

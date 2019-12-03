@@ -17,8 +17,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Un gioco di trasparenze, riflessi\ne rifrazioni consente alla luce\ndi diffondere una illuminazione di\ngrande impatto visivo. Tre filtri\ncolorati e sovrapponibili consentono\ndi colorare la lampada.\nLa struttura radiale delle centine\nin metacrilato trasparente copre\nla sorgente luminosa impedendo\nabbagliamenti e dispersioni\ndel flusso luminoso\n",
         "desc_en": "Un gioco di trasparenze, riflessi\ne rifrazioni consente alla luce\ndi diffondere una illuminazione di\ngrande impatto visivo. Tre filtri\ncolorati e sovrapponibili consentono\ndi colorare la lampada.\nLa struttura radiale delle centine\nin metacrilato trasparente copre\nla sorgente luminosa impedendo\nabbagliamenti e dispersioni\ndel flusso luminoso\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -65,8 +63,8 @@
         "accessori": "1D49/0100002",
         "accessories": "1D49/0100002",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D49/17S : 2:1 | light_schema : http//www.luceplan.com/assets/D49_17s_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/agave-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
-        "values": "nuovo : 0 | no : 1 | no : 2 | Ø 17cm : 3"
+        "attributes": "stato : select : 0 | dimensioni : select : 1",
+        "values": "nuovo : 0 | Ø 17cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -86,8 +84,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Un gioco di trasparenze, riflessi\ne rifrazioni consente alla luce\ndi diffondere una illuminazione di\ngrande impatto visivo. Tre filtri\ncolorati e sovrapponibili consentono\ndi colorare la lampada.\nLa struttura radiale delle centine\nin metacrilato trasparente copre\nla sorgente luminosa impedendo\nabbagliamenti e dispersioni\ndel flusso luminoso\n",
         "desc_en": "Un gioco di trasparenze, riflessi\ne rifrazioni consente alla luce\ndi diffondere una illuminazione di\ngrande impatto visivo. Tre filtri\ncolorati e sovrapponibili consentono\ndi colorare la lampada.\nLa struttura radiale delle centine\nin metacrilato trasparente copre\nla sorgente luminosa impedendo\nabbagliamenti e dispersioni\ndel flusso luminoso\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -133,8 +129,8 @@
         "dimensioni": "Ø 26cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D49/26S : 2:1 | light_schema : http//www.luceplan.com/assets/D49_26s_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/agave-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
-        "values": "nuovo : 0 | no : 1 | no : 2 | Ø 26cm : 3"
+        "attributes": "stato : select : 0 | dimensioni : select : 1",
+        "values": "nuovo : 0 | Ø 26cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -154,8 +150,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Un gioco di trasparenze, riflessi\ne rifrazioni consente alla luce\ndi diffondere una illuminazione di\ngrande impatto visivo. Tre filtri\ncolorati e sovrapponibili consentono\ndi colorare la lampada.\nLa struttura radiale delle centine\nin metacrilato trasparente copre\nla sorgente luminosa impedendo\nabbagliamenti e dispersioni\ndel flusso luminoso\n",
         "desc_en": "Un gioco di trasparenze, riflessi\ne rifrazioni consente alla luce\ndi diffondere una illuminazione di\ngrande impatto visivo. Tre filtri\ncolorati e sovrapponibili consentono\ndi colorare la lampada.\nLa struttura radiale delle centine\nin metacrilato trasparente copre\nla sorgente luminosa impedendo\nabbagliamenti e dispersioni\ndel flusso luminoso\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -201,8 +195,8 @@
         "dimensioni": "Ø 70cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D49/70S : 2:1 | light_schema : http//www.luceplan.com/assets/D49_70s_tech copia.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/agave-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
-        "values": "nuovo : 0 | no : 1 | no : 2 | Ø 70cm : 3"
+        "attributes": "stato : select : 0 | dimensioni : select : 1",
+        "values": "nuovo : 0 | Ø 70cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -222,8 +216,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "La struttura in policarbonato,\nleggera e orientabile, è composta\nda un riflettore opalino e da\nun diffusore colorato semitrasparente.\nLa luce, diretta verso\nil basso e soffusa verso l’alto,\nè generata da tre lampadine\na risparmio energetico.\n",
         "desc_en": "La struttura in policarbonato,\nleggera e orientabile, è composta\nda un riflettore opalino e da\nun diffusore colorato semitrasparente.\nLa luce, diretta verso\nil basso e soffusa verso l’alto,\nè generata da tre lampadine\na risparmio energetico.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -264,8 +256,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D50 : 2:1 | light_schema : http//www.luceplan.com/assets/D50_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/aircon-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | no : 2"
+        "attributes": "stato : select : 0",
+        "values": "nuovo : 0"
     },
     {
         "supplier": "luceplan",
@@ -285,7 +277,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Essenziale come un segno e mai uguale a se stessa. Any è una lampada da parete versatile, orientabile in qualsiasi direzione con eleganti effetti di modanatura e rilievo.\n",
         "desc_en": "Essenziale come un segno e mai uguale a se stessa. Any è una lampada da parete versatile, orientabile in qualsiasi direzione con eleganti effetti di modanatura e rilievo.\n",
-        "dimmer": "no",
         "led": "yes",
         "halogen": "no",
         "switcher": "no",
@@ -329,8 +320,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | name : D69 : 2:1 | light_schema : http//www.luceplan.com/assets/D69_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/any-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | yes : 1 | no : 2"
+        "attributes": "stato : select : 0 | led : radio : 1",
+        "values": "nuovo : 0 | yes : 1"
     },
     {
         "supplier": "luceplan",
@@ -350,7 +341,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Essenziale come un segno e mai uguale a se stessa. Any è una lampada da parete versatile, orientabile in qualsiasi direzione con eleganti effetti di modanatura e rilievo.\n",
         "desc_en": "Essenziale come un segno e mai uguale a se stessa. Any è una lampada da parete versatile, orientabile in qualsiasi direzione con eleganti effetti di modanatura e rilievo.\n",
-        "dimmer": "no",
         "led": "no",
         "halogen": "no",
         "switcher": "no",
@@ -394,8 +384,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | name : D69/02 : 2:1 | light_schema : http//www.luceplan.com/assets/D69_2_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/any-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | no : 2"
+        "attributes": "stato : select : 0 | led : radio : 1",
+        "values": "nuovo : 0 | no : 1"
     },
     {
         "supplier": "luceplan",
@@ -415,8 +405,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Intimista e concettuale, Ascent\nesprime numerosi gradi di intensita\nluminosa, attraverso una\ndimmerizzazione molto puntuale,\nresa possibile dalla scheda elettronica\ncollocata nella testa.\nI circuiti presenti sullo stelo\ntrasmettono degli input al microprocessore\nche interpreta\nil cambio di stato della lampada\nemettendo, di conseguenza,\ndiversi livelli di luce.\n",
         "desc_en": "Intimista e concettuale, Ascent\nesprime numerosi gradi di intensita\nluminosa, attraverso una\ndimmerizzazione molto puntuale,\nresa possibile dalla scheda elettronica\ncollocata nella testa.\nI circuiti presenti sullo stelo\ntrasmettono degli input al microprocessore\nche interpreta\nil cambio di stato della lampada\nemettendo, di conseguenza,\ndiversi livelli di luce.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -468,8 +456,8 @@
         "variante": "con base",
         "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D78 : 2:1 | light_schema : http//www.luceplan.com/assets/D78_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/ascent-tavolo : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | con base : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | variante : select : 1",
+        "values": "nuovo : 0 | con base : 1"
     },
     {
         "supplier": "luceplan",
@@ -489,8 +477,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Intimista e concettuale, Ascent\nesprime numerosi gradi di intensita\nluminosa, attraverso una\ndimmerizzazione molto puntuale,\nresa possibile dalla scheda elettronica\ncollocata nella testa.\nI circuiti presenti sullo stelo\ntrasmettono degli input al microprocessore\nche interpreta\nil cambio di stato della lampada\nemettendo, di conseguenza,\ndiversi livelli di luce.\n",
         "desc_en": "Intimista e concettuale, Ascent\nesprime numerosi gradi di intensita\nluminosa, attraverso una\ndimmerizzazione molto puntuale,\nresa possibile dalla scheda elettronica\ncollocata nella testa.\nI circuiti presenti sullo stelo\ntrasmettono degli input al microprocessore\nche interpreta\nil cambio di stato della lampada\nemettendo, di conseguenza,\ndiversi livelli di luce.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -542,8 +528,8 @@
         "variante": "con perno",
         "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D78P.T. : 2:1 | light_schema : http//www.luceplan.com/assets/D78pt_tech-1491992386.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/ascent-tavolo : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | con perno : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | variante : select : 1",
+        "values": "nuovo : 0 | con perno : 1"
     },
     {
         "supplier": "luceplan",
@@ -564,8 +550,6 @@
         "color": "nero",
         "desc_it": "Una sorgente LED per un classico\ndi Luceplan. Berenice viene\nproposta con una sorgente LED\nad altissima efficienza in grado\ndi fornire una straordinaria quantità\ndi luce a bassi consumi.\n",
         "desc_en": "Una sorgente LED per un classico\ndi Luceplan. Berenice viene\nproposta con una sorgente LED\nad altissima efficienza in grado\ndi fornire una straordinaria quantità\ndi luce a bassi consumi.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -609,8 +593,8 @@
         "variante": "con base",
         "accessori": "",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | name : D12 LED : 2:1 | light_schema : http//www.luceplan.com/assets/D12-EL_tech-1498634582.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/berenice-led-tavolo : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | variante : select : 2 | led : radio : 3 | dimmer : radio : 4",
-        "values": "nuovo : 0 | nero : 1 | con base : 2 | no : 3 | no : 4"
+        "attributes": "stato : select : 0 | colore : select : 1 | variante : select : 2",
+        "values": "nuovo : 0 | nero : 1 | con base : 2"
     },
     {
         "supplier": "luceplan",
@@ -631,8 +615,6 @@
         "color": "alluminio",
         "desc_it": "Una sorgente LED per un classico\ndi Luceplan. Berenice viene\nproposta con una sorgente LED\nad altissima efficienza in grado\ndi fornire una straordinaria quantità\ndi luce a bassi consumi.\n",
         "desc_en": "Una sorgente LED per un classico\ndi Luceplan. Berenice viene\nproposta con una sorgente LED\nad altissima efficienza in grado\ndi fornire una straordinaria quantità\ndi luce a bassi consumi.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -676,8 +658,8 @@
         "variante": "con base",
         "accessori": "",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | name : D12 LED : 2:1 | light_schema : http//www.luceplan.com/assets/D12-EL_tech-1498634582.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/berenice-led-tavolo : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | variante : select : 2 | led : radio : 3 | dimmer : radio : 4",
-        "values": "nuovo : 0 | alluminio : 1 | con base : 2 | no : 3 | no : 4"
+        "attributes": "stato : select : 0 | colore : select : 1 | variante : select : 2",
+        "values": "nuovo : 0 | alluminio : 1 | con base : 2"
     },
     {
         "supplier": "luceplan",
@@ -698,8 +680,6 @@
         "color": "nero",
         "desc_it": "Stampata in un unico corpo di poliuretano espanso, Carrara è un Luminator scultoreo ed essenziale. Diffonde una luce indiretta comandata da un regolatore dell’intensità.\n",
         "desc_en": "Stampata in un unico corpo di poliuretano espanso, Carrara è un Luminator scultoreo ed essenziale. Diffonde una luce indiretta comandata da un regolatore dell’intensità.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -740,8 +720,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D38L : 2:1 | light_schema : http//www.luceplan.com/assets/D38_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/carrara-terra : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | nero : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | nero : 1"
     },
     {
         "supplier": "luceplan",
@@ -762,8 +742,6 @@
         "color": "bianco",
         "desc_it": "Stampata in un unico corpo di poliuretano espanso, Carrara è un Luminator scultoreo ed essenziale. Diffonde una luce indiretta comandata da un regolatore dell’intensità.\n",
         "desc_en": "Stampata in un unico corpo di poliuretano espanso, Carrara è un Luminator scultoreo ed essenziale. Diffonde una luce indiretta comandata da un regolatore dell’intensità.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -804,8 +782,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D38L : 2:1 | light_schema : http//www.luceplan.com/assets/D38_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/carrara-terra : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | bianco : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | bianco : 1"
     },
     {
         "supplier": "luceplan",
@@ -825,8 +803,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Non è una lampada da terra né\nun centro volta: è l’uno e l’altra al\ntempo stesso. Facile da montare\ne da installare, grazie alla sua\neccellente versatilità risolve con\neffetto immediato ogni problematica\nrelativa all’ubicazione dei\npunti luce.\n",
         "desc_en": "Non è una lampada da terra né\nun centro volta: è l’uno e l’altra al\ntempo stesso. Facile da montare\ne da installare, grazie alla sua\neccellente versatilità risolve con\neffetto immediato ogni problematica\nrelativa all’ubicazione dei\npunti luce.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -869,8 +845,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D37 : 2:1 | light_schema : http//www.luceplan.com/assets/D37_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/chichibio-terra : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | no : 2"
+        "attributes": "stato : select : 0",
+        "values": "nuovo : 0"
     },
     {
         "supplier": "luceplan",
@@ -891,8 +867,6 @@
         "color": "nero",
         "desc_it": "Compendium Plate è un’ulteriore estensione dell’alfabeto luminoso della famiglia Compendium, declinata\nora da Daniel Rybakken anche in versione plafoniera e\napplique. Il suo profilo esterno in estruso di alluminio\nanodizzato mantiene la sottigliezza dello spessore originario, creando una superficie quasi complanare alla parete.\nNonostante le sue dimensioni estremamente sottili,\nCompendium Plate garantisce una straordinaria\nefficienza luminosa unita a grande pulizia formale e ad\nun’estrema eleganza.\n",
         "desc_en": "Compendium Plate è un’ulteriore estensione dell’alfabeto luminoso della famiglia Compendium, declinata\nora da Daniel Rybakken anche in versione plafoniera e\napplique. Il suo profilo esterno in estruso di alluminio\nanodizzato mantiene la sottigliezza dello spessore originario, creando una superficie quasi complanare alla parete.\nNonostante le sue dimensioni estremamente sottili,\nCompendium Plate garantisce una straordinaria\nefficienza luminosa unita a grande pulizia formale e ad\nun’estrema eleganza.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -934,8 +908,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : parete/soffitto : 0:1 | outdoor : no : 1:1 | name : D81P : 2:1 | light_schema : http//www.luceplan.com/assets/D81P-1536063889.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/compendium-plate-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | nero : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | nero : 1"
     },
     {
         "supplier": "luceplan",
@@ -956,8 +930,6 @@
         "color": "alluminio",
         "desc_it": "Compendium Plate è un’ulteriore estensione dell’alfabeto luminoso della famiglia Compendium, declinata\nora da Daniel Rybakken anche in versione plafoniera e\napplique. Il suo profilo esterno in estruso di alluminio\nanodizzato mantiene la sottigliezza dello spessore originario, creando una superficie quasi complanare alla parete.\nNonostante le sue dimensioni estremamente sottili,\nCompendium Plate garantisce una straordinaria\nefficienza luminosa unita a grande pulizia formale e ad\nun’estrema eleganza.\n",
         "desc_en": "Compendium Plate è un’ulteriore estensione dell’alfabeto luminoso della famiglia Compendium, declinata\nora da Daniel Rybakken anche in versione plafoniera e\napplique. Il suo profilo esterno in estruso di alluminio\nanodizzato mantiene la sottigliezza dello spessore originario, creando una superficie quasi complanare alla parete.\nNonostante le sue dimensioni estremamente sottili,\nCompendium Plate garantisce una straordinaria\nefficienza luminosa unita a grande pulizia formale e ad\nun’estrema eleganza.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -999,8 +971,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : parete/soffitto : 0:1 | outdoor : no : 1:1 | name : D81P : 2:1 | light_schema : http//www.luceplan.com/assets/D81P-1536063889.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/compendium-plate-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | alluminio : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | alluminio : 1"
     },
     {
         "supplier": "luceplan",
@@ -1021,8 +993,6 @@
         "color": "ottone",
         "desc_it": "Compendium Plate è un’ulteriore estensione dell’alfabeto luminoso della famiglia Compendium, declinata\nora da Daniel Rybakken anche in versione plafoniera e\napplique. Il suo profilo esterno in estruso di alluminio\nanodizzato mantiene la sottigliezza dello spessore originario, creando una superficie quasi complanare alla parete.\nNonostante le sue dimensioni estremamente sottili,\nCompendium Plate garantisce una straordinaria\nefficienza luminosa unita a grande pulizia formale e ad\nun’estrema eleganza.\n",
         "desc_en": "Compendium Plate è un’ulteriore estensione dell’alfabeto luminoso della famiglia Compendium, declinata\nora da Daniel Rybakken anche in versione plafoniera e\napplique. Il suo profilo esterno in estruso di alluminio\nanodizzato mantiene la sottigliezza dello spessore originario, creando una superficie quasi complanare alla parete.\nNonostante le sue dimensioni estremamente sottili,\nCompendium Plate garantisce una straordinaria\nefficienza luminosa unita a grande pulizia formale e ad\nun’estrema eleganza.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -1064,8 +1034,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : parete/soffitto : 0:1 | outdoor : no : 1:1 | name : D81P : 2:1 | light_schema : http//www.luceplan.com/assets/D81P-1536063889.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/compendium-plate-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | ottone : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | ottone : 1"
     },
     {
         "supplier": "luceplan",
@@ -1086,8 +1056,6 @@
         "color": "nero",
         "desc_it": "Compendium Plate è un’ulteriore estensione dell’alfabeto luminoso della famiglia Compendium, declinata\nora da Daniel Rybakken anche in versione plafoniera e\napplique. Il suo profilo esterno in estruso di alluminio\nanodizzato mantiene la sottigliezza dello spessore originario, creando una superficie quasi complanare alla parete.\nNonostante le sue dimensioni estremamente sottili,\nCompendium Plate garantisce una straordinaria\nefficienza luminosa unita a grande pulizia formale e ad\nun’estrema eleganza.\n",
         "desc_en": "Compendium Plate è un’ulteriore estensione dell’alfabeto luminoso della famiglia Compendium, declinata\nora da Daniel Rybakken anche in versione plafoniera e\napplique. Il suo profilo esterno in estruso di alluminio\nanodizzato mantiene la sottigliezza dello spessore originario, creando una superficie quasi complanare alla parete.\nNonostante le sue dimensioni estremamente sottili,\nCompendium Plate garantisce una straordinaria\nefficienza luminosa unita a grande pulizia formale e ad\nun’estrema eleganza.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -1129,8 +1097,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D81P : 2:1 | light_schema : http//www.luceplan.com/assets/D81P-1536063889.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/compendium-plate-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | nero : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | nero : 1"
     },
     {
         "supplier": "luceplan",
@@ -1151,8 +1119,6 @@
         "color": "alluminio",
         "desc_it": "Compendium Plate è un’ulteriore estensione dell’alfabeto luminoso della famiglia Compendium, declinata\nora da Daniel Rybakken anche in versione plafoniera e\napplique. Il suo profilo esterno in estruso di alluminio\nanodizzato mantiene la sottigliezza dello spessore originario, creando una superficie quasi complanare alla parete.\nNonostante le sue dimensioni estremamente sottili,\nCompendium Plate garantisce una straordinaria\nefficienza luminosa unita a grande pulizia formale e ad\nun’estrema eleganza.\n",
         "desc_en": "Compendium Plate è un’ulteriore estensione dell’alfabeto luminoso della famiglia Compendium, declinata\nora da Daniel Rybakken anche in versione plafoniera e\napplique. Il suo profilo esterno in estruso di alluminio\nanodizzato mantiene la sottigliezza dello spessore originario, creando una superficie quasi complanare alla parete.\nNonostante le sue dimensioni estremamente sottili,\nCompendium Plate garantisce una straordinaria\nefficienza luminosa unita a grande pulizia formale e ad\nun’estrema eleganza.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -1194,8 +1160,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D81P : 2:1 | light_schema : http//www.luceplan.com/assets/D81P-1536063889.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/compendium-plate-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | alluminio : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | alluminio : 1"
     },
     {
         "supplier": "luceplan",
@@ -1216,8 +1182,6 @@
         "color": "ottone",
         "desc_it": "Compendium Plate è un’ulteriore estensione dell’alfabeto luminoso della famiglia Compendium, declinata\nora da Daniel Rybakken anche in versione plafoniera e\napplique. Il suo profilo esterno in estruso di alluminio\nanodizzato mantiene la sottigliezza dello spessore originario, creando una superficie quasi complanare alla parete.\nNonostante le sue dimensioni estremamente sottili,\nCompendium Plate garantisce una straordinaria\nefficienza luminosa unita a grande pulizia formale e ad\nun’estrema eleganza.\n",
         "desc_en": "Compendium Plate è un’ulteriore estensione dell’alfabeto luminoso della famiglia Compendium, declinata\nora da Daniel Rybakken anche in versione plafoniera e\napplique. Il suo profilo esterno in estruso di alluminio\nanodizzato mantiene la sottigliezza dello spessore originario, creando una superficie quasi complanare alla parete.\nNonostante le sue dimensioni estremamente sottili,\nCompendium Plate garantisce una straordinaria\nefficienza luminosa unita a grande pulizia formale e ad\nun’estrema eleganza.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -1259,8 +1223,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D81P : 2:1 | light_schema : http//www.luceplan.com/assets/D81P-1536063889.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/compendium-plate-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | ottone : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | ottone : 1"
     },
     {
         "supplier": "luceplan",
@@ -1281,8 +1245,6 @@
         "color": "nero",
         "desc_it": "Nella versione da terra, Counterbalance conserva il caratteristico riflettore orientabile a calotta in alluminio regolabile in altezza grazie a un semplice meccanismo a scorrimento lungo lo stelo\n",
         "desc_en": "Nella versione da terra, Counterbalance conserva il caratteristico riflettore orientabile a calotta in alluminio regolabile in altezza grazie a un semplice meccanismo a scorrimento lungo lo stelo\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -1327,8 +1289,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | name : D73NT : 2:1 | light_schema : http//www.luceplan.com/assets/D73Nt_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/counterbalance-floor-terra : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | nero : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | nero : 1"
     },
     {
         "supplier": "luceplan",
@@ -1349,8 +1311,6 @@
         "color": "bianco",
         "desc_it": "Nella versione da terra, Counterbalance conserva il caratteristico riflettore orientabile a calotta in alluminio regolabile in altezza grazie a un semplice meccanismo a scorrimento lungo lo stelo\n",
         "desc_en": "Nella versione da terra, Counterbalance conserva il caratteristico riflettore orientabile a calotta in alluminio regolabile in altezza grazie a un semplice meccanismo a scorrimento lungo lo stelo\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -1395,8 +1355,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | name : D73NT : 2:1 | light_schema : http//www.luceplan.com/assets/D73Nt_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/counterbalance-floor-terra : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | bianco : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | bianco : 1"
     },
     {
         "supplier": "luceplan",
@@ -1417,8 +1377,6 @@
         "color": "nero",
         "desc_it": "Nella versione da terra, Counterbalance conserva il caratteristico riflettore orientabile a calotta in alluminio regolabile in altezza grazie a un semplice meccanismo a scorrimento lungo lo stelo\n",
         "desc_en": "Nella versione da terra, Counterbalance conserva il caratteristico riflettore orientabile a calotta in alluminio regolabile in altezza grazie a un semplice meccanismo a scorrimento lungo lo stelo\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -1463,8 +1421,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : parete,soffitto : 0:1 | outdoor : no : 1:1 | name : D73NT : 2:1 | light_schema : http//www.luceplan.com/assets/D73Nt_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/counterbalance-floor-terra : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | nero : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | nero : 1"
     },
     {
         "supplier": "luceplan",
@@ -1485,8 +1443,6 @@
         "color": "bianco",
         "desc_it": "Nella versione da terra, Counterbalance conserva il caratteristico riflettore orientabile a calotta in alluminio regolabile in altezza grazie a un semplice meccanismo a scorrimento lungo lo stelo\n",
         "desc_en": "Nella versione da terra, Counterbalance conserva il caratteristico riflettore orientabile a calotta in alluminio regolabile in altezza grazie a un semplice meccanismo a scorrimento lungo lo stelo\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -1531,8 +1487,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : parete,soffitto : 0:1 | outdoor : no : 1:1 | name : D73NT : 2:1 | light_schema : http//www.luceplan.com/assets/D73Nt_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/counterbalance-floor-terra : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | bianco : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | bianco : 1"
     },
     {
         "supplier": "luceplan",
@@ -1552,8 +1508,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Nella versione da terra, Counterbalance conserva il caratteristico riflettore orientabile a calotta in alluminio regolabile in altezza grazie a un semplice meccanismo a scorrimento lungo lo stelo\n",
         "desc_en": "Nella versione da terra, Counterbalance conserva il caratteristico riflettore orientabile a calotta in alluminio regolabile in altezza grazie a un semplice meccanismo a scorrimento lungo lo stelo\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -1599,8 +1553,8 @@
         "accessori": "1D730/100001",
         "accessories": "1D730/100001",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D73NT : 2:1 | light_schema : http//www.luceplan.com/assets/D73Nt_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/counterbalance-floor-terra : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | no : 2"
+        "attributes": "stato : select : 0",
+        "values": "nuovo : 0"
     },
     {
         "supplier": "luceplan",
@@ -1621,8 +1575,6 @@
         "color": "bianco",
         "desc_it": "Curl è una lampada dalle dimensioni molto calibrate e con una naturale presenza scultorea. La tipologia di riferimento è la lampada da tavolino, un apparecchio al quale si chiede di fornire una luce diffusa, possibilmente schermata, e di creare un’atmosfera riposante. La forma della base consente a Curl di assumere più posizioni; al suo centro è collocato un interruttore/dimmer.\n",
         "desc_en": "Curl è una lampada dalle dimensioni molto calibrate e con una naturale presenza scultorea. La tipologia di riferimento è la lampada da tavolino, un apparecchio al quale si chiede di fornire una luce diffusa, possibilmente schermata, e di creare un’atmosfera riposante. La forma della base consente a Curl di assumere più posizioni; al suo centro è collocato un interruttore/dimmer.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -1667,8 +1619,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | name : D76N1 : 2:1 | light_schema : http//www.luceplan.com/assets/D76N1_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/curl-tavolo : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | bianco : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | bianco : 1"
     },
     {
         "supplier": "luceplan",
@@ -1689,8 +1641,6 @@
         "color": "mirror",
         "desc_it": "Curl è una lampada dalle dimensioni molto calibrate e con una naturale presenza scultorea. La tipologia di riferimento è la lampada da tavolino, un apparecchio al quale si chiede di fornire una luce diffusa, possibilmente schermata, e di creare un’atmosfera riposante. La forma della base consente a Curl di assumere più posizioni; al suo centro è collocato un interruttore/dimmer.\n",
         "desc_en": "Curl è una lampada dalle dimensioni molto calibrate e con una naturale presenza scultorea. La tipologia di riferimento è la lampada da tavolino, un apparecchio al quale si chiede di fornire una luce diffusa, possibilmente schermata, e di creare un’atmosfera riposante. La forma della base consente a Curl di assumere più posizioni; al suo centro è collocato un interruttore/dimmer.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -1735,8 +1685,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | name : D76N1 : 2:1 | light_schema : http//www.luceplan.com/assets/D76N1_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/curl-tavolo : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | mirror : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | mirror : 1"
     },
     {
         "supplier": "luceplan",
@@ -1756,8 +1706,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una innovativa lampada da terra\na luce indiretta. Montata su un\nbasamento triangolare in acciaio,\nla struttura articolata della lampada,\ncomposta da tre steli\nmobili in alluminio muniti di giunti\nin elastomero, si dispone con\ndocilità ad un fluido movimento\nmeccanico di torsione generato\nin corrispondenza della parte\nmediana degli steli. Un movimento\nche si propaga, fino alla\nsommità della lampada, ossia in\ncorrispondenza del riflettore,\nanch’esso triangolare, determinandone\nl’inclinazione e consentendo\nin tal modo di indirizzarne\na piacere la luce.\n",
         "desc_en": "Una innovativa lampada da terra\na luce indiretta. Montata su un\nbasamento triangolare in acciaio,\nla struttura articolata della lampada,\ncomposta da tre steli\nmobili in alluminio muniti di giunti\nin elastomero, si dispone con\ndocilità ad un fluido movimento\nmeccanico di torsione generato\nin corrispondenza della parte\nmediana degli steli. Un movimento\nche si propaga, fino alla\nsommità della lampada, ossia in\ncorrispondenza del riflettore,\nanch’esso triangolare, determinandone\nl’inclinazione e consentendo\nin tal modo di indirizzarne\na piacere la luce.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -1803,8 +1751,8 @@
         "variante": "3000k",
         "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D77NT - D77NTW : 2:1 | light_schema : http//www.luceplan.com/assets/D77t_tech-1492079961.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/tango-terra : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | 3000k : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | variante : select : 1",
+        "values": "nuovo : 0 | 3000k : 1"
     },
     {
         "supplier": "luceplan",
@@ -1824,8 +1772,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una innovativa lampada da terra\na luce indiretta. Montata su un\nbasamento triangolare in acciaio,\nla struttura articolata della lampada,\ncomposta da tre steli\nmobili in alluminio muniti di giunti\nin elastomero, si dispone con\ndocilità ad un fluido movimento\nmeccanico di torsione generato\nin corrispondenza della parte\nmediana degli steli. Un movimento\nche si propaga, fino alla\nsommità della lampada, ossia in\ncorrispondenza del riflettore,\nanch’esso triangolare, determinandone\nl’inclinazione e consentendo\nin tal modo di indirizzarne\na piacere la luce.\n",
         "desc_en": "Una innovativa lampada da terra\na luce indiretta. Montata su un\nbasamento triangolare in acciaio,\nla struttura articolata della lampada,\ncomposta da tre steli\nmobili in alluminio muniti di giunti\nin elastomero, si dispone con\ndocilità ad un fluido movimento\nmeccanico di torsione generato\nin corrispondenza della parte\nmediana degli steli. Un movimento\nche si propaga, fino alla\nsommità della lampada, ossia in\ncorrispondenza del riflettore,\nanch’esso triangolare, determinandone\nl’inclinazione e consentendo\nin tal modo di indirizzarne\na piacere la luce.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -1871,8 +1817,8 @@
         "variante": "2700k",
         "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D77NT - D77NTW : 2:1 | light_schema : http//www.luceplan.com/assets/D77t_tech-1492079961.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/tango-terra : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | 2700k : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | variante : select : 1",
+        "values": "nuovo : 0 | 2700k : 1"
     },
     {
         "supplier": "luceplan",
@@ -1891,8 +1837,6 @@
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "color": "bianco",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -1935,8 +1879,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : parete,outdoor : 0:1 | outdoor : no : 1:1 | name : D67P : 2:1 | light_schema : http//www.luceplan.com/assets/D67p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/ecran-ineout-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | bianco : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | bianco : 1"
     },
     {
         "supplier": "luceplan",
@@ -1955,8 +1899,6 @@
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "color": "sabbia",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -1999,8 +1941,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : parete,outdoor : 0:1 | outdoor : no : 1:1 | name : D67P : 2:1 | light_schema : http//www.luceplan.com/assets/D67p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/ecran-ineout-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | sabbia : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | sabbia : 1"
     },
     {
         "supplier": "luceplan",
@@ -2021,8 +1963,6 @@
         "color": "bianco",
         "desc_it": "Applique che sembra prendere forma dalla parete stessa, disegnata in un unico volume pieno fatto di superfici morbide e regolari che si incontrano creando spigoli netti che, illuminati, diventano segni grafici. Quando è accesa, la luce del LED rimbalza sulla parete caricando di contrasto la lampada e scivola poi all’interno della bocca, illuminandola e andando a disegnare delicatamente un arco sulla parete.\n",
         "desc_en": "Applique che sembra prendere forma dalla parete stessa, disegnata in un unico volume pieno fatto di superfici morbide e regolari che si incontrano creando spigoli netti che, illuminati, diventano segni grafici. Quando è accesa, la luce del LED rimbalza sulla parete caricando di contrasto la lampada e scivola poi all’interno della bocca, illuminandola e andando a disegnare delicatamente un arco sulla parete.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -2065,8 +2005,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | name : D90 : 2:1 | light_schema : http//www.luceplan.com/assets/D90_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/garbi-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | bianco : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | bianco : 1"
     },
     {
         "supplier": "luceplan",
@@ -2087,8 +2027,6 @@
         "color": "metal/bianco",
         "desc_it": "Applique che sembra prendere forma dalla parete stessa, disegnata in un unico volume pieno fatto di superfici morbide e regolari che si incontrano creando spigoli netti che, illuminati, diventano segni grafici. Quando è accesa, la luce del LED rimbalza sulla parete caricando di contrasto la lampada e scivola poi all’interno della bocca, illuminandola e andando a disegnare delicatamente un arco sulla parete.\n",
         "desc_en": "Applique che sembra prendere forma dalla parete stessa, disegnata in un unico volume pieno fatto di superfici morbide e regolari che si incontrano creando spigoli netti che, illuminati, diventano segni grafici. Quando è accesa, la luce del LED rimbalza sulla parete caricando di contrasto la lampada e scivola poi all’interno della bocca, illuminandola e andando a disegnare delicatamente un arco sulla parete.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -2131,8 +2069,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | name : D90 : 2:1 | light_schema : http//www.luceplan.com/assets/D90_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/garbi-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | metal/bianco : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | metal/bianco : 1"
     },
     {
         "supplier": "luceplan",
@@ -2150,8 +2088,6 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -2194,8 +2130,8 @@
         "dimensioni": "Ø 48cm",
         "accessori": "",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | name : D66/3A : 2:1 | light_schema : http//www.luceplan.com/assets/D66_3a_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
-        "values": "nuovo : 0 | no : 1 | no : 2 | Ø 48cm : 3"
+        "attributes": "stato : select : 0 | dimensioni : select : 1",
+        "values": "nuovo : 0 | Ø 48cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -2213,8 +2149,6 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -2257,8 +2191,8 @@
         "dimensioni": "Ø 61cm",
         "accessori": "",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | name : D66/8A : 2:1 | light_schema : http//www.luceplan.com/assets/D66_8a_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
-        "values": "nuovo : 0 | no : 1 | no : 2 | Ø 61cm : 3"
+        "attributes": "stato : select : 0 | dimensioni : select : 1",
+        "values": "nuovo : 0 | Ø 61cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -2278,8 +2212,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Leggerissima e scomponibile, Hope ripropone la magia dei lampadari della tradizione, interpretandola con sofisticate tecnologie moderne e materiali contemporanei. Una serie di sottili lenti Fresnel di policarbonato moltiplica la luce della sorgente luminosa, ricreando un gradevole effetto sfavillante, festoso, punteggiato da tanti piccoli riflessi.\n",
         "desc_en": "Leggerissima e scomponibile, Hope ripropone la magia dei lampadari della tradizione, interpretandola con sofisticate tecnologie moderne e materiali contemporanei. Una serie di sottili lenti Fresnel di policarbonato moltiplica la luce della sorgente luminosa, ricreando un gradevole effetto sfavillante, festoso, punteggiato da tanti piccoli riflessi.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -2328,8 +2260,8 @@
         "dimensioni": "Ø 200cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D66/105 : 2:1 | light_schema : http//www.luceplan.com/assets/D66_105_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
-        "values": "nuovo : 0 | no : 1 | no : 2 | Ø 200cm : 3"
+        "attributes": "stato : select : 0 | dimensioni : select : 1",
+        "values": "nuovo : 0 | Ø 200cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -2349,8 +2281,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Il potere diottrico delle lenti in policarbonato equivale a quello del vetro senza tuttavia vincoli di ingombro, spessore e peso. Frutto di un brillante processo progettuale e produttivo, è predisposta per accogliere ogni tipo di fonte luminosa: alogene, fluorescenti e LED a risparmio energetico.\n",
         "desc_en": "Il potere diottrico delle lenti in policarbonato equivale a quello del vetro senza tuttavia vincoli di ingombro, spessore e peso. Frutto di un brillante processo progettuale e produttivo, è predisposta per accogliere ogni tipo di fonte luminosa: alogene, fluorescenti e LED a risparmio energetico.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -2394,8 +2324,8 @@
         "dimensioni": "Ø 69 cm",
         "accessori": "",
         "features": "category : soffitto : 0:1 | outdoor : no : 1:1 | name : D66/12P : 2:1 | light_schema : http//www.luceplan.com/assets/D66_12p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-soffitto : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
-        "values": "nuovo : 0 | no : 1 | no : 2 | Ø 69 cm : 3"
+        "attributes": "stato : select : 0 | dimensioni : select : 1",
+        "values": "nuovo : 0 | Ø 69 cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -2415,8 +2345,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Il potere diottrico delle lenti in policarbonato equivale a quello del vetro senza tuttavia vincoli di ingombro, spessore e peso. Frutto di un brillante processo progettuale e produttivo, è predisposta per accogliere ogni tipo di fonte luminosa: alogene, fluorescenti e LED a risparmio energetico.\n",
         "desc_en": "Il potere diottrico delle lenti in policarbonato equivale a quello del vetro senza tuttavia vincoli di ingombro, spessore e peso. Frutto di un brillante processo progettuale e produttivo, è predisposta per accogliere ogni tipo di fonte luminosa: alogene, fluorescenti e LED a risparmio energetico.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -2460,8 +2388,8 @@
         "dimensioni": "Ø 61cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D66/12P : 2:1 | light_schema : http//www.luceplan.com/assets/D66_12p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-soffitto : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
-        "values": "nuovo : 0 | no : 1 | no : 2 | Ø 61cm : 3"
+        "attributes": "stato : select : 0 | dimensioni : select : 1",
+        "values": "nuovo : 0 | Ø 61cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -2481,8 +2409,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Il potere diottrico delle lenti in policarbonato equivale a quello del vetro senza tuttavia vincoli di ingombro, spessore e peso. Frutto di un brillante processo progettuale e produttivo, è predisposta per accogliere ogni tipo di fonte luminosa: alogene, fluorescenti e LED a risparmio energetico.\n",
         "desc_en": "Il potere diottrico delle lenti in policarbonato equivale a quello del vetro senza tuttavia vincoli di ingombro, spessore e peso. Frutto di un brillante processo progettuale e produttivo, è predisposta per accogliere ogni tipo di fonte luminosa: alogene, fluorescenti e LED a risparmio energetico.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -2526,8 +2452,8 @@
         "dimensioni": "Ø 72cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D66/12P : 2:1 | light_schema : http//www.luceplan.com/assets/D66_12p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-soffitto : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
-        "values": "nuovo : 0 | no : 1 | no : 2 | Ø 72cm : 3"
+        "attributes": "stato : select : 0 | dimensioni : select : 1",
+        "values": "nuovo : 0 | Ø 72cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -2547,8 +2473,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Hope rinnova il fascino del lampadario in cristallo anche nella versione da terra. I suoi petali in policarbonato sono, infatti, lenti Fresnel piane con eccellenti proprietà riflettenti e rifrattive, agganciate in coppie mediante rametti in policarbonato stampato ad iniezione e montate su una struttura in acciaio.\n",
         "desc_en": "Hope rinnova il fascino del lampadario in cristallo anche nella versione da terra. I suoi petali in policarbonato sono, infatti, lenti Fresnel piane con eccellenti proprietà riflettenti e rifrattive, agganciate in coppie mediante rametti in policarbonato stampato ad iniezione e montate su una struttura in acciaio.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -2591,8 +2515,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D66/18TD : 2:1 | light_schema : http//www.luceplan.com/assets/D66_18td_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-terra : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | no : 2"
+        "attributes": "stato : select : 0",
+        "values": "nuovo : 0"
     },
     {
         "supplier": "luceplan",
@@ -2612,8 +2536,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Il potere diottrico delle lenti in policarbonato equivale a quello del vetro senza tuttavia vincoli di ingombro, spessore e peso. Frutto di un brillante processo progettuale e produttivo, è predisposta per accogliere ogni tipo di fonte luminosa: alogene, fluorescenti e LED a risparmio energetico.\n",
         "desc_en": "Il potere diottrico delle lenti in policarbonato equivale a quello del vetro senza tuttavia vincoli di ingombro, spessore e peso. Frutto di un brillante processo progettuale e produttivo, è predisposta per accogliere ogni tipo di fonte luminosa: alogene, fluorescenti e LED a risparmio energetico.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -2657,8 +2579,8 @@
         "dimensioni": "Ø 109 cm",
         "accessori": "",
         "features": "category : soffitto : 0:1 | outdoor : no : 1:1 | name : D66/30P : 2:1 | light_schema : http//www.luceplan.com/assets/D66_30p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-soffitto : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
-        "values": "nuovo : 0 | no : 1 | no : 2 | Ø 109 cm : 3"
+        "attributes": "stato : select : 0 | dimensioni : select : 1",
+        "values": "nuovo : 0 | Ø 109 cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -2678,8 +2600,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Leggerissima e scomponibile, Hope ripropone la magia dei lampadari della tradizione, interpretandola con sofisticate tecnologie moderne e materiali contemporanei. Una serie di sottili lenti Fresnel di policarbonato moltiplica la luce della sorgente luminosa, ricreando un gradevole effetto sfavillante, festoso, punteggiato da tanti piccoli riflessi.\n",
         "desc_en": "Leggerissima e scomponibile, Hope ripropone la magia dei lampadari della tradizione, interpretandola con sofisticate tecnologie moderne e materiali contemporanei. Una serie di sottili lenti Fresnel di policarbonato moltiplica la luce della sorgente luminosa, ricreando un gradevole effetto sfavillante, festoso, punteggiato da tanti piccoli riflessi.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -2728,8 +2648,8 @@
         "dimensioni": "Ø 110 cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D66/42 : 2:1 | light_schema : http//www.luceplan.com/assets/D66_42_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
-        "values": "nuovo : 0 | no : 1 | no : 2 | Ø 110 cm : 3"
+        "attributes": "stato : select : 0 | dimensioni : select : 1",
+        "values": "nuovo : 0 | Ø 110 cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -2749,8 +2669,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Molto piu sottile di una tradizionale applique, Illusion è una lampada da parete a LED con una importante riduzione dei consumi. L’aspetto di una sfera inscritta in un quadrato è generato dall’effetto ottico della lente Fresnel e il corpo lampada planare ha uno spessore di soli 4 centimetri.\n",
         "desc_en": "Molto piu sottile di una tradizionale applique, Illusion è una lampada da parete a LED con una importante riduzione dei consumi. L’aspetto di una sfera inscritta in un quadrato è generato dall’effetto ottico della lente Fresnel e il corpo lampada planare ha uno spessore di soli 4 centimetri.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -2796,8 +2714,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : parete/soffitto : 0:1 | outdoor : no : 1:1 | name : D80 : 2:1 | light_schema : http//www.luceplan.com/assets/D80_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/illusion-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | no : 2"
+        "attributes": "stato : select : 0",
+        "values": "nuovo : 0"
     },
     {
         "supplier": "luceplan",
@@ -2817,8 +2735,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Lane è una striscia in alluminio che racchiude e, al tempo stesso, rilascia una gradevole luce indiretta verso l’alto e il basso della parete. Estremamente pulita ed essenziale, è progettata in diverse lunghezze a seconda della sorgente luminosa.\n",
         "desc_en": "Lane è una striscia in alluminio che racchiude e, al tempo stesso, rilascia una gradevole luce indiretta verso l’alto e il basso della parete. Estremamente pulita ed essenziale, è progettata in diverse lunghezze a seconda della sorgente luminosa.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -2859,8 +2775,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : parete/soffitto : 0:1 | outdoor : no : 1:1 | name : D64 : 2:1 | light_schema : http//www.luceplan.com/assets/D64_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/lane-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | no : 2"
+        "attributes": "stato : select : 0",
+        "values": "nuovo : 0"
     },
     {
         "supplier": "luceplan",
@@ -2880,8 +2796,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -2933,8 +2847,8 @@
         "dimensioni": "Ø 80cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 1mt : 1 | no : 2 | no : 3 | Ø 80cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 1mt : 1 | Ø 80cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -2954,8 +2868,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -3007,8 +2919,8 @@
         "dimensioni": "Ø 80cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 2mt : 1 | no : 2 | no : 3 | Ø 80cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 2mt : 1 | Ø 80cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -3028,8 +2940,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -3081,8 +2991,8 @@
         "dimensioni": "Ø 80cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 3mt : 1 | no : 2 | no : 3 | Ø 80cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 3mt : 1 | Ø 80cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -3102,8 +3012,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -3155,8 +3063,8 @@
         "dimensioni": "Ø 80cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 4mt : 1 | no : 2 | no : 3 | Ø 80cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 4mt : 1 | Ø 80cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -3176,8 +3084,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -3229,8 +3135,8 @@
         "dimensioni": "Ø 80cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 5mt : 1 | no : 2 | no : 3 | Ø 80cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 5mt : 1 | Ø 80cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -3250,8 +3156,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -3303,8 +3207,8 @@
         "dimensioni": "Ø 100cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 1mt : 1 | no : 2 | no : 3 | Ø 100cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 1mt : 1 | Ø 100cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -3324,8 +3228,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -3377,8 +3279,8 @@
         "dimensioni": "Ø 100cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 2mt : 1 | no : 2 | no : 3 | Ø 100cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 2mt : 1 | Ø 100cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -3398,8 +3300,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -3451,8 +3351,8 @@
         "dimensioni": "Ø 100cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 3mt : 1 | no : 2 | no : 3 | Ø 100cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 3mt : 1 | Ø 100cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -3472,8 +3372,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -3525,8 +3423,8 @@
         "dimensioni": "Ø 100cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 4mt : 1 | no : 2 | no : 3 | Ø 100cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 4mt : 1 | Ø 100cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -3546,8 +3444,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -3599,8 +3495,8 @@
         "dimensioni": "Ø 100cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 5mt : 1 | no : 2 | no : 3 | Ø 100cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 5mt : 1 | Ø 100cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -3620,8 +3516,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -3673,8 +3567,8 @@
         "dimensioni": "Ø 80cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 1mt : 1 | no : 2 | no : 3 | Ø 80cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 1mt : 1 | Ø 80cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -3694,8 +3588,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -3747,8 +3639,8 @@
         "dimensioni": "Ø 80cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 2mt : 1 | no : 2 | no : 3 | Ø 80cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 2mt : 1 | Ø 80cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -3768,8 +3660,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -3821,8 +3711,8 @@
         "dimensioni": "Ø 80cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 3mt : 1 | no : 2 | no : 3 | Ø 80cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 3mt : 1 | Ø 80cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -3842,8 +3732,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -3895,8 +3783,8 @@
         "dimensioni": "Ø 80cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 4mt : 1 | no : 2 | no : 3 | Ø 80cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 4mt : 1 | Ø 80cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -3916,8 +3804,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -3969,8 +3855,8 @@
         "dimensioni": "Ø 80cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 5mt : 1 | no : 2 | no : 3 | Ø 80cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 5mt : 1 | Ø 80cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -3990,8 +3876,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -4043,8 +3927,8 @@
         "dimensioni": "Ø 100cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 1mt : 1 | no : 2 | no : 3 | Ø 100cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 1mt : 1 | Ø 100cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -4064,8 +3948,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -4117,8 +3999,8 @@
         "dimensioni": "Ø 100cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 2mt : 1 | no : 2 | no : 3 | Ø 100cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 2mt : 1 | Ø 100cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -4138,8 +4020,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -4191,8 +4071,8 @@
         "dimensioni": "Ø 100cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 3mt : 1 | no : 2 | no : 3 | Ø 100cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 3mt : 1 | Ø 100cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -4212,8 +4092,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -4265,8 +4143,8 @@
         "dimensioni": "Ø 100cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 4mt : 1 | no : 2 | no : 3 | Ø 100cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 4mt : 1 | Ø 100cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -4286,8 +4164,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -4339,8 +4215,8 @@
         "dimensioni": "Ø 100cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86NPI : 2:1 | light_schema : http//www.luceplan.com/assets/D86NPI-1533305339.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 5mt : 1 | no : 2 | no : 3 | Ø 100cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 5mt : 1 | Ø 100cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -4360,8 +4236,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -4413,8 +4287,8 @@
         "accessori": "1D860/100000",
         "accessories": "1D860/100000",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86C555 : 2:1 | light_schema : http//www.luceplan.com/assets/D86C555-1533305506.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 1mt : 1 | no : 2 | no : 3 | Ø 55cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 1mt : 1 | Ø 55cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -4434,8 +4308,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
         "desc_en": "Una lampada dal forte impatto\nscenografico, la struttura leggera,\nquasi trasparente, composta\nda una rete di cavi flessibili all’incrocio\ndei quali sono posizionate\nle sorgenti LED, nasconde\nle complessità del progetto e,\nsmaterializzandosi, lascia spazio\nsoltanto alla luce, unica e vera\nprotagonista. La particolare struttura\npermette un’eccezionale\nlibertà nella gestione della luminanza:\nè infatti possibile controllare\nl’intensità della luce e scegliere\nquali settori della lampada\nilluminare.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -4486,8 +4358,8 @@
         "dimensioni": "Ø 55cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D86C555 : 2:1 | light_schema : http//www.luceplan.com/assets/D86C555-1533305506.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3 | dimensioni : select : 4",
-        "values": "nuovo : 0 | L cavi 5mt : 1 | no : 2 | no : 3 | Ø 55cm : 4"
+        "attributes": "stato : select : 0 | variante : select : 1 | dimensioni : select : 2",
+        "values": "nuovo : 0 | L cavi 5mt : 1 | Ø 55cm : 2"
     },
     {
         "supplier": "luceplan",
@@ -4507,8 +4379,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "La famiglia Mesh si arricchisce di\nuna nuova versione a soffitto con 96 punti luce. La particolare struttura consente una libertà eccezionale nel controllo dell'intensità luminosa.\n",
         "desc_en": "La famiglia Mesh si arricchisce di\nuna nuova versione a soffitto con 96 punti luce. La particolare struttura consente una libertà eccezionale nel controllo dell'intensità luminosa.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -4548,8 +4418,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : soffitto : 0:1 | outdoor : no : 1:1 | name : D86PL : 2:1 | light_schema : http//www.luceplan.com/assets/D86PL_tech-1520327059.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/mesh-ceiling : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | no : 2"
+        "attributes": "stato : select : 0",
+        "values": "nuovo : 0"
     },
     {
         "supplier": "luceplan",
@@ -4570,8 +4440,6 @@
         "color": "nero",
         "desc_it": "É un progetto estremamente concettuale che restituisce ai LED la loro essenza: ‘piccoli nulla’ capaci però di illuminare i nostri ambienti. Nothing è una lamiera in alluminio su cui vengono accoppiati circuiti elettronici e LED: un’esilissima superficie piatta tagliata a laser.\n",
         "desc_en": "É un progetto estremamente concettuale che restituisce ai LED la loro essenza: ‘piccoli nulla’ capaci però di illuminare i nostri ambienti. Nothing è una lamiera in alluminio su cui vengono accoppiati circuiti elettronici e LED: un’esilissima superficie piatta tagliata a laser.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -4618,8 +4486,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D75 : 2:1 | light_schema : http//www.luceplan.com/assets/D75_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/nothing-terra : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | nero : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | nero : 1"
     },
     {
         "supplier": "luceplan",
@@ -4640,8 +4508,6 @@
         "color": "bianco",
         "desc_it": "Soleil Noir è dotata di un sistema\nottico all’avanguardia in grado\ndi garantire una diffusione omogenea\ndella luce sul diffusore.\n",
         "desc_en": "Soleil Noir è dotata di un sistema\nottico all’avanguardia in grado\ndi garantire una diffusione omogenea\ndella luce sul diffusore.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -4681,8 +4547,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : soffitto : 0:1 | outdoor : no : 1:1 | name : D89P : 2:1 | light_schema : http//www.luceplan.com/assets/D89p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/soleil-noir-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | bianco : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | bianco : 1"
     },
     {
         "supplier": "luceplan",
@@ -4703,8 +4569,6 @@
         "color": "nero/bianco",
         "desc_it": "Soleil Noir è dotata di un sistema\nottico all’avanguardia in grado\ndi garantire una diffusione omogenea\ndella luce sul diffusore.\n",
         "desc_en": "Soleil Noir è dotata di un sistema\nottico all’avanguardia in grado\ndi garantire una diffusione omogenea\ndella luce sul diffusore.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -4744,8 +4608,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : soffitto : 0:1 | outdoor : no : 1:1 | name : D89P : 2:1 | light_schema : http//www.luceplan.com/assets/D89p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/soleil-noir-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | nero/bianco : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | nero/bianco : 1"
     },
     {
         "supplier": "luceplan",
@@ -4766,8 +4630,6 @@
         "color": "bianco",
         "desc_it": "Sostenuta da un solo cavo asimmetrico,\nla lampada mantiene il\nsuo equilibrio baricentrico grazie\nagli spessori del corpo che variano\nda 8 a 25 mm e si propone\ncome elemento illuminante snello\ne aereo, in grado di portare\nluce con discrezione ed eleganza.\nÈ un oggetto che sfida le leggi\ndella statica, grazie alla tecnologia\nche permette un design al\nlimite dell’impossibile.\n",
         "desc_en": "Sostenuta da un solo cavo asimmetrico,\nla lampada mantiene il\nsuo equilibrio baricentrico grazie\nagli spessori del corpo che variano\nda 8 a 25 mm e si propone\ncome elemento illuminante snello\ne aereo, in grado di portare\nluce con discrezione ed eleganza.\nÈ un oggetto che sfida le leggi\ndella statica, grazie alla tecnologia\nche permette un design al\nlimite dell’impossibile.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -4808,8 +4670,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D89S : 2:1 | light_schema : http//www.luceplan.com/assets/D89s_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/soleil-noir-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | bianco : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | bianco : 1"
     },
     {
         "supplier": "luceplan",
@@ -4830,8 +4692,6 @@
         "color": "nero/bianco",
         "desc_it": "Sostenuta da un solo cavo asimmetrico,\nla lampada mantiene il\nsuo equilibrio baricentrico grazie\nagli spessori del corpo che variano\nda 8 a 25 mm e si propone\ncome elemento illuminante snello\ne aereo, in grado di portare\nluce con discrezione ed eleganza.\nÈ un oggetto che sfida le leggi\ndella statica, grazie alla tecnologia\nche permette un design al\nlimite dell’impossibile.\n",
         "desc_en": "Sostenuta da un solo cavo asimmetrico,\nla lampada mantiene il\nsuo equilibrio baricentrico grazie\nagli spessori del corpo che variano\nda 8 a 25 mm e si propone\ncome elemento illuminante snello\ne aereo, in grado di portare\nluce con discrezione ed eleganza.\nÈ un oggetto che sfida le leggi\ndella statica, grazie alla tecnologia\nche permette un design al\nlimite dell’impossibile.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -4872,8 +4732,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D89S : 2:1 | light_schema : http//www.luceplan.com/assets/D89s_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/soleil-noir-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | nero/bianco : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | nero/bianco : 1"
     },
     {
         "supplier": "luceplan",
@@ -4893,8 +4753,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Nella applicazione a parete\no soffitto, l’apparecchio è dotato\ndi distanziali che consentono\nuna adeguata ventilazione.\nInoltre la particolare forma delle\ncerniere permette una facile\napertura per la sostituzione delle\nlampadine e un completo sganciamento\ndella coppa/diffusore\nper la manutenzione.\n",
         "desc_en": "Nella applicazione a parete\no soffitto, l’apparecchio è dotato\ndi distanziali che consentono\nuna adeguata ventilazione.\nInoltre la particolare forma delle\ncerniere permette una facile\napertura per la sostituzione delle\nlampadine e un completo sganciamento\ndella coppa/diffusore\nper la manutenzione.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -4938,8 +4796,8 @@
         "variante": "Ø 64 cm",
         "accessori": "",
         "features": "category : parete,soffitto : 0:1 | outdoor : no : 1:1 | name : D14 A.PI : 2:1 | light_schema : http//www.luceplan.com/assets/D14api_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/trama-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | Ø 64 cm : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | variante : select : 1",
+        "values": "nuovo : 0 | Ø 64 cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -4959,8 +4817,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Nella applicazione a parete\no soffitto, l’apparecchio è dotato\ndi distanziali che consentono\nuna adeguata ventilazione.\nInoltre la particolare forma delle\ncerniere permette una facile\napertura per la sostituzione delle\nlampadine e un completo sganciamento\ndella coppa/diffusore\nper la manutenzione.\n",
         "desc_en": "Nella applicazione a parete\no soffitto, l’apparecchio è dotato\ndi distanziali che consentono\nuna adeguata ventilazione.\nInoltre la particolare forma delle\ncerniere permette una facile\napertura per la sostituzione delle\nlampadine e un completo sganciamento\ndella coppa/diffusore\nper la manutenzione.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -5004,8 +4860,8 @@
         "variante": "Ø 50cm",
         "accessori": "",
         "features": "category : parete,soffitto : 0:1 | outdoor : no : 1:1 | name : D14 A.PI : 2:1 | light_schema : http//www.luceplan.com/assets/D14api_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/trama-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | variante : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | Ø 50cm : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | variante : select : 1",
+        "values": "nuovo : 0 | Ø 50cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -5025,8 +4881,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Leggera e versatile, si colora\ngrazie a una coppia di filtri in\npolicarbonato che non interferisce\ncon l’emissione di luce\nbianca. L’orditura delle centine\nin alluminio riflette la luce e\nnasconde la lampadina in un\nvolume trasparente e sorprendente.\nIl contrappeso sferico\npermette la regolazione\ndell’altezza.\n",
         "desc_en": "Leggera e versatile, si colora\ngrazie a una coppia di filtri in\npolicarbonato che non interferisce\ncon l’emissione di luce\nbianca. L’orditura delle centine\nin alluminio riflette la luce e\nnasconde la lampadina in un\nvolume trasparente e sorprendente.\nIl contrappeso sferico\npermette la regolazione\ndell’altezza.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -5068,8 +4922,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D17 : 2:1 | light_schema : http//www.luceplan.com/assets/D17_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/titania-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | no : 2"
+        "attributes": "stato : select : 0",
+        "values": "nuovo : 0"
     },
     {
         "supplier": "luceplan",
@@ -5089,8 +4943,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Raddoppiata nelle dimensioni\ne nell’impatto visivo, è progettata\nper l’illuminazione dei grandi\nambienti. Una coppia di filtri\nintercambiabili consente di colorare\nil corpo in alluminio senza\ninterferire con l’emissione di luce\nbianca.\n",
         "desc_en": "Raddoppiata nelle dimensioni\ne nell’impatto visivo, è progettata\nper l’illuminazione dei grandi\nambienti. Una coppia di filtri\nintercambiabili consente di colorare\nil corpo in alluminio senza\ninterferire con l’emissione di luce\nbianca.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -5133,8 +4985,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : sospensione, accessorio : 0:1 | outdoor : no : 1:1 | name : D17Q : 2:1 | light_schema : http//www.luceplan.com/assets/D17Q_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/queen-titania-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | no : 2"
+        "attributes": "stato : select : 0",
+        "values": "nuovo : 0"
     },
     {
         "supplier": "luceplan",
@@ -5154,8 +5006,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Leggera e versatile, si colora\ngrazie a una coppia di filtri in\npolicarbonato che non interferisce\ncon l’emissione di luce\nbianca. L’orditura delle centine\nin alluminio riflette la luce e\nnasconde la lampadina in un\nvolume trasparente e sorprendente.\nIl contrappeso sferico\npermette la regolazione\ndell’altezza.\n",
         "desc_en": "Leggera e versatile, si colora\ngrazie a una coppia di filtri in\npolicarbonato che non interferisce\ncon l’emissione di luce\nbianca. L’orditura delle centine\nin alluminio riflette la luce e\nnasconde la lampadina in un\nvolume trasparente e sorprendente.\nIl contrappeso sferico\npermette la regolazione\ndell’altezza.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -5198,8 +5048,8 @@
         "accessori": "1D170Q/01023,1D170Q/01024,1D170Q/01027,1D170Q/01036,1D170Q/02020",
         "accessories": "1D170Q/01023|1D170Q/01024|1D170Q/01027|1D170Q/01036|1D170Q/02020",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D17 : 2:1 | light_schema : http//www.luceplan.com/assets/D17_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/titania-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | no : 2"
+        "attributes": "stato : select : 0",
+        "values": "nuovo : 0"
     },
     {
         "supplier": "luceplan",
@@ -5219,8 +5069,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Coniugando tradizione e tecnologia,\nCostanza declina il classico\nin forma contemporanea. Il paralume\nintercambiabile di policarbonato\ndiffonde una luce calda\ne gradevole. Il dimmer sensoriale\nad astina permette di regolare\nl’accensione e lo spegnimento\npassando per quattro livelli\ndi intensità luminosa.\n<br>\n",
         "desc_en": "Coniugando tradizione e tecnologia,\nCostanza declina il classico\nin forma contemporanea. Il paralume\nintercambiabile di policarbonato\ndiffonde una luce calda\ne gradevole. Il dimmer sensoriale\nad astina permette di regolare\nl’accensione e lo spegnimento\npassando per quattro livelli\ndi intensità luminosa.\n<br>\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -5270,8 +5118,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | name : D13 : 2:1 | light_schema : http//www.luceplan.com/assets/D13_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/costanza-tavolo : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | no : 2"
+        "attributes": "stato : select : 0",
+        "values": "nuovo : 0"
     },
     {
         "supplier": "luceplan",
@@ -5291,8 +5139,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Coniugando tradizione e tecnologia,\nCostanza declina il classico\nin forma contemporanea. Il paralume\nintercambiabile di policarbonato\ndiffonde una luce calda\ne gradevole. Il dimmer sensoriale\nad astina permette di regolare\nl’accensione e lo spegnimento\npassando per quattro livelli\ndi intensità luminosa.\n<br>\n",
         "desc_en": "Coniugando tradizione e tecnologia,\nCostanza declina il classico\nin forma contemporanea. Il paralume\nintercambiabile di policarbonato\ndiffonde una luce calda\ne gradevole. Il dimmer sensoriale\nad astina permette di regolare\nl’accensione e lo spegnimento\npassando per quattro livelli\ndi intensità luminosa.\n<br>\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -5342,8 +5188,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D13 : 2:1 | light_schema : http//www.luceplan.com/assets/D13_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/costanza-tavolo : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | no : 2"
+        "attributes": "stato : select : 0",
+        "values": "nuovo : 0"
     },
     {
         "supplier": "luceplan",
@@ -5363,8 +5209,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Costanza Friends of Hue è dotata di una lampadina e un bridge Philips Hue che, mediante l’utilizzo della Hue App installata su smart device, consente di riprodurre tutte le tonalità della luce bianca e dell’intero spettro colori, per una totale personalizzazione della luce da parte dell’utilizzatore.\n",
         "desc_en": "Costanza Friends of Hue è dotata di una lampadina e un bridge Philips Hue che, mediante l’utilizzo della Hue App installata su smart device, consente di riprodurre tutte le tonalità della luce bianca e dell’intero spettro colori, per una totale personalizzazione della luce da parte dell’utilizzatore.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -5405,8 +5249,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | name : D13C.H : 2:1 | light_schema : http//www.luceplan.com/assets/D13_tech-1492006428.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/costanza-fiends-of-hue-tavolo : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | no : 2"
+        "attributes": "stato : select : 0",
+        "values": "nuovo : 0"
     },
     {
         "supplier": "luceplan",
@@ -5426,8 +5270,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Costanza Friends of Hue è dotata di una lampadina e un bridge Philips Hue che, mediante l’utilizzo della Hue App installata su smart device, consente di riprodurre tutte le tonalità della luce bianca e dell’intero spettro colori, per una totale personalizzazione della luce da parte dell’utilizzatore.\n",
         "desc_en": "Costanza Friends of Hue è dotata di una lampadina e un bridge Philips Hue che, mediante l’utilizzo della Hue App installata su smart device, consente di riprodurre tutte le tonalità della luce bianca e dell’intero spettro colori, per una totale personalizzazione della luce da parte dell’utilizzatore.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -5468,8 +5310,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1 | name : D13T.C.H : 2:1 | light_schema : http//www.luceplan.com/assets/D13t_tech-1492011302.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/costanza-fiends-of-hue-terra : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | no : 2"
+        "attributes": "stato : select : 0",
+        "values": "nuovo : 0"
     },
     {
         "supplier": "luceplan",
@@ -5490,7 +5332,6 @@
         "desc_it": "Una lampada tanto visibile quanto leggera ed equilibrata. Il sottile paralume in policarbonato diffonde una luce avvolgente capace di illuminare con calore sia gli spazi domestici che quelli pubblici.\n",
         "desc_en": "Una lampada tanto visibile quanto leggera ed equilibrata. Il sottile paralume in policarbonato diffonde una luce avvolgente capace di illuminare con calore sia gli spazi domestici che quelli pubblici.\n",
         "dimmer": "yes",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -5533,8 +5374,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D13GS.I. : 2:1 | light_schema : http//www.luceplan.com/assets/D13Gsi_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/grande-costanza-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | yes : 2"
+        "attributes": "stato : select : 0 | dimmer : radio : 1",
+        "values": "nuovo : 0 | yes : 1"
     },
     {
         "supplier": "luceplan",
@@ -5555,7 +5396,6 @@
         "desc_it": "Una lampada tanto visibile quanto leggera ed equilibrata. Il sottile paralume in policarbonato diffonde una luce avvolgente capace di illuminare con calore sia gli spazi domestici che quelli pubblici.\n",
         "desc_en": "Una lampada tanto visibile quanto leggera ed equilibrata. Il sottile paralume in policarbonato diffonde una luce avvolgente capace di illuminare con calore sia gli spazi domestici che quelli pubblici.\n",
         "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "yes",
         "component": 0,
@@ -5598,8 +5438,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D13GS.I. : 2:1 | light_schema : http//www.luceplan.com/assets/D13Gsi_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/grande-costanza-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | no : 2"
+        "attributes": "stato : select : 0 | dimmer : radio : 1",
+        "values": "nuovo : 0 | no : 1"
     },
     {
         "supplier": "luceplan",
@@ -5620,7 +5460,6 @@
         "desc_it": "Una lampada tanto visibile quanto leggera ed equilibrata. Il sottile paralume in policarbonato diffonde una luce avvolgente capace di illuminare con calore sia gli spazi domestici che quelli pubblici.\n",
         "desc_en": "Una lampada tanto visibile quanto leggera ed equilibrata. Il sottile paralume in policarbonato diffonde una luce avvolgente capace di illuminare con calore sia gli spazi domestici che quelli pubblici.\n",
         "dimmer": "yes",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -5663,8 +5502,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D13G S. : 2:1 | light_schema : http//www.luceplan.com/assets/D13Gs_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/grande-costanza-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | yes : 2"
+        "attributes": "stato : select : 0 | dimmer : radio : 1",
+        "values": "nuovo : 0 | yes : 1"
     },
     {
         "supplier": "luceplan",
@@ -5685,7 +5524,6 @@
         "desc_it": "Tradizione e innovazione si incontrano anche nella declinazione da terra di questo classico di Luceplan in formato maxi. Stelo in alluminio e paralume in policarbonato concorrono a valorizzare i grandi spazi con la proverbiale leggerezza e l’intensità luminosa di questa lampada, disponibile nelle versioni con interruttore o dimmer ad astina.\n",
         "desc_en": "Tradizione e innovazione si incontrano anche nella declinazione da terra di questo classico di Luceplan in formato maxi. Stelo in alluminio e paralume in policarbonato concorrono a valorizzare i grandi spazi con la proverbiale leggerezza e l’intensità luminosa di questa lampada, disponibile nelle versioni con interruttore o dimmer ad astina.\n",
         "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "yes",
         "component": 0,
@@ -5728,8 +5566,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1 | name : D13G T.I. : 2:1 | light_schema : http//www.luceplan.com/assets/D13Gti_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/grande-costanza-terra : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | no : 2"
+        "attributes": "stato : select : 0 | dimmer : radio : 1",
+        "values": "nuovo : 0 | no : 1"
     },
     {
         "supplier": "luceplan",
@@ -5747,8 +5585,6 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -5791,8 +5627,8 @@
         "dimensioni": "Ø 48cm",
         "accessori": "",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | name : D66/3A : 2:1 | light_schema : http//www.luceplan.com/assets/D66_3a_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
-        "values": "nuovo : 0 | no : 1 | no : 2 | Ø 48cm : 3"
+        "attributes": "stato : select : 0 | dimensioni : select : 1",
+        "values": "nuovo : 0 | Ø 48cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -5810,8 +5646,6 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -5854,8 +5688,8 @@
         "dimensioni": "Ø 61cm",
         "accessori": "",
         "features": "category : parete : 0:1 | outdoor : no : 1:1 | name : D66/8A : 2:1 | light_schema : http//www.luceplan.com/assets/D66_8a_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-parete : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
-        "values": "nuovo : 0 | no : 1 | no : 2 | Ø 61cm : 3"
+        "attributes": "stato : select : 0 | dimensioni : select : 1",
+        "values": "nuovo : 0 | Ø 61cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -5875,8 +5709,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Leggerissima e scomponibile, Hope ripropone la magia dei lampadari della tradizione, interpretandola con sofisticate tecnologie moderne e materiali contemporanei. Una serie di sottili lenti Fresnel di policarbonato moltiplica la luce della sorgente luminosa, ricreando un gradevole effetto sfavillante, festoso, punteggiato da tanti piccoli riflessi.\n",
         "desc_en": "Leggerissima e scomponibile, Hope ripropone la magia dei lampadari della tradizione, interpretandola con sofisticate tecnologie moderne e materiali contemporanei. Una serie di sottili lenti Fresnel di policarbonato moltiplica la luce della sorgente luminosa, ricreando un gradevole effetto sfavillante, festoso, punteggiato da tanti piccoli riflessi.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -5925,8 +5757,8 @@
         "dimensioni": "Ø 200cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D66/105 : 2:1 | light_schema : http//www.luceplan.com/assets/D66_105_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
-        "values": "nuovo : 0 | no : 1 | no : 2 | Ø 200cm : 3"
+        "attributes": "stato : select : 0 | dimensioni : select : 1",
+        "values": "nuovo : 0 | Ø 200cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -5946,8 +5778,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Il potere diottrico delle lenti in policarbonato equivale a quello del vetro senza tuttavia vincoli di ingombro, spessore e peso. Frutto di un brillante processo progettuale e produttivo, è predisposta per accogliere ogni tipo di fonte luminosa: alogene, fluorescenti e LED a risparmio energetico.\n",
         "desc_en": "Il potere diottrico delle lenti in policarbonato equivale a quello del vetro senza tuttavia vincoli di ingombro, spessore e peso. Frutto di un brillante processo progettuale e produttivo, è predisposta per accogliere ogni tipo di fonte luminosa: alogene, fluorescenti e LED a risparmio energetico.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -5991,8 +5821,8 @@
         "dimensioni": "Ø 69 cm",
         "accessori": "",
         "features": "category : soffitto : 0:1 | outdoor : no : 1:1 | name : D66/12P : 2:1 | light_schema : http//www.luceplan.com/assets/D66_12p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-soffitto : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
-        "values": "nuovo : 0 | no : 1 | no : 2 | Ø 69 cm : 3"
+        "attributes": "stato : select : 0 | dimensioni : select : 1",
+        "values": "nuovo : 0 | Ø 69 cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -6012,8 +5842,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Il potere diottrico delle lenti in policarbonato equivale a quello del vetro senza tuttavia vincoli di ingombro, spessore e peso. Frutto di un brillante processo progettuale e produttivo, è predisposta per accogliere ogni tipo di fonte luminosa: alogene, fluorescenti e LED a risparmio energetico.\n",
         "desc_en": "Il potere diottrico delle lenti in policarbonato equivale a quello del vetro senza tuttavia vincoli di ingombro, spessore e peso. Frutto di un brillante processo progettuale e produttivo, è predisposta per accogliere ogni tipo di fonte luminosa: alogene, fluorescenti e LED a risparmio energetico.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -6057,8 +5885,8 @@
         "dimensioni": "Ø 61cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D66/12P : 2:1 | light_schema : http//www.luceplan.com/assets/D66_12p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-soffitto : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
-        "values": "nuovo : 0 | no : 1 | no : 2 | Ø 61cm : 3"
+        "attributes": "stato : select : 0 | dimensioni : select : 1",
+        "values": "nuovo : 0 | Ø 61cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -6078,8 +5906,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Il potere diottrico delle lenti in policarbonato equivale a quello del vetro senza tuttavia vincoli di ingombro, spessore e peso. Frutto di un brillante processo progettuale e produttivo, è predisposta per accogliere ogni tipo di fonte luminosa: alogene, fluorescenti e LED a risparmio energetico.\n",
         "desc_en": "Il potere diottrico delle lenti in policarbonato equivale a quello del vetro senza tuttavia vincoli di ingombro, spessore e peso. Frutto di un brillante processo progettuale e produttivo, è predisposta per accogliere ogni tipo di fonte luminosa: alogene, fluorescenti e LED a risparmio energetico.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -6123,8 +5949,8 @@
         "dimensioni": "Ø 72cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D66/12P : 2:1 | light_schema : http//www.luceplan.com/assets/D66_12p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-soffitto : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
-        "values": "nuovo : 0 | no : 1 | no : 2 | Ø 72cm : 3"
+        "attributes": "stato : select : 0 | dimensioni : select : 1",
+        "values": "nuovo : 0 | Ø 72cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -6144,8 +5970,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Hope rinnova il fascino del lampadario in cristallo anche nella versione da terra. I suoi petali in policarbonato sono, infatti, lenti Fresnel piane con eccellenti proprietà riflettenti e rifrattive, agganciate in coppie mediante rametti in policarbonato stampato ad iniezione e montate su una struttura in acciaio.\n",
         "desc_en": "Hope rinnova il fascino del lampadario in cristallo anche nella versione da terra. I suoi petali in policarbonato sono, infatti, lenti Fresnel piane con eccellenti proprietà riflettenti e rifrattive, agganciate in coppie mediante rametti in policarbonato stampato ad iniezione e montate su una struttura in acciaio.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -6188,8 +6012,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D66/18TD : 2:1 | light_schema : http//www.luceplan.com/assets/D66_18td_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-terra : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2",
-        "values": "nuovo : 0 | no : 1 | no : 2"
+        "attributes": "stato : select : 0",
+        "values": "nuovo : 0"
     },
     {
         "supplier": "luceplan",
@@ -6209,8 +6033,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Il potere diottrico delle lenti in policarbonato equivale a quello del vetro senza tuttavia vincoli di ingombro, spessore e peso. Frutto di un brillante processo progettuale e produttivo, è predisposta per accogliere ogni tipo di fonte luminosa: alogene, fluorescenti e LED a risparmio energetico.\n",
         "desc_en": "Il potere diottrico delle lenti in policarbonato equivale a quello del vetro senza tuttavia vincoli di ingombro, spessore e peso. Frutto di un brillante processo progettuale e produttivo, è predisposta per accogliere ogni tipo di fonte luminosa: alogene, fluorescenti e LED a risparmio energetico.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -6254,8 +6076,8 @@
         "dimensioni": "Ø 109 cm",
         "accessori": "",
         "features": "category : soffitto : 0:1 | outdoor : no : 1:1 | name : D66/30P : 2:1 | light_schema : http//www.luceplan.com/assets/D66_30p_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-soffitto : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
-        "values": "nuovo : 0 | no : 1 | no : 2 | Ø 109 cm : 3"
+        "attributes": "stato : select : 0 | dimensioni : select : 1",
+        "values": "nuovo : 0 | Ø 109 cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -6275,8 +6097,6 @@
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
         "desc_it": "Leggerissima e scomponibile, Hope ripropone la magia dei lampadari della tradizione, interpretandola con sofisticate tecnologie moderne e materiali contemporanei. Una serie di sottili lenti Fresnel di policarbonato moltiplica la luce della sorgente luminosa, ricreando un gradevole effetto sfavillante, festoso, punteggiato da tanti piccoli riflessi.\n",
         "desc_en": "Leggerissima e scomponibile, Hope ripropone la magia dei lampadari della tradizione, interpretandola con sofisticate tecnologie moderne e materiali contemporanei. Una serie di sottili lenti Fresnel di policarbonato moltiplica la luce della sorgente luminosa, ricreando un gradevole effetto sfavillante, festoso, punteggiato da tanti piccoli riflessi.\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -6325,8 +6145,8 @@
         "dimensioni": "Ø 110 cm",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D66/42 : 2:1 | light_schema : http//www.luceplan.com/assets/D66_42_tech.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/hope-sospensione : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | led : radio : 1 | dimmer : radio : 2 | dimensioni : select : 3",
-        "values": "nuovo : 0 | no : 1 | no : 2 | Ø 110 cm : 3"
+        "attributes": "stato : select : 0 | dimensioni : select : 1",
+        "values": "nuovo : 0 | Ø 110 cm : 1"
     },
     {
         "supplier": "luceplan",
@@ -6347,8 +6167,6 @@
         "color": "bianco",
         "desc_it": "Il diffusore in vetro soffiato opalino - la cui superficie è scandita dalla ripetizione di lievi cuspidi verticali\n",
         "desc_en": "Il diffusore in vetro soffiato opalino - la cui superficie è scandita dalla ripetizione di lievi cuspidi verticali\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -6389,8 +6207,8 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D92S18 : 2:1 | light_schema : http//www.luceplan.com/assets/D92S18.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/lita-suspension : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | bianco : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | bianco : 1"
     },
     {
         "supplier": "luceplan",
@@ -6411,8 +6229,6 @@
         "color": "legno",
         "desc_it": "Il diffusore in vetro soffiato opalino - la cui superficie è scandita dalla ripetizione di lievi cuspidi verticali\n",
         "desc_en": "Il diffusore in vetro soffiato opalino - la cui superficie è scandita dalla ripetizione di lievi cuspidi verticali\n",
-        "dimmer": "no",
-        "led": "no",
         "halogen": "no",
         "switcher": "no",
         "component": 0,
@@ -6453,7 +6269,7 @@
         "order_available": "2",
         "accessori": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1 | name : D92S18 : 2:1 | light_schema : http//www.luceplan.com/assets/D92S18.png : 3:1 | data : [object Object] : 4:1 | product_page_link : https//www.luceplan.com/it/prodotti/lita-suspension : 5:1 | supplier : luceplan : 6:1",
-        "attributes": "stato : select : 0 | colore : select : 1 | led : radio : 2 | dimmer : radio : 3",
-        "values": "nuovo : 0 | legno : 1 | no : 2 | no : 3"
+        "attributes": "stato : select : 0 | colore : select : 1",
+        "values": "nuovo : 0 | legno : 1"
     }
 ]
