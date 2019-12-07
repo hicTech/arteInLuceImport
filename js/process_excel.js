@@ -5070,7 +5070,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             dimensioni:             dimensioni,
 
             // campo castom per luceplan per cui Monica ha aggiunto a mano il codice accessori per ogni articolo
-            accessori:              accessori,
+            //accessori:              accessori,
 
 
         }
