@@ -4973,6 +4973,340 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 }
 
                             }
+
+                            else{
+                                /* ================================================================= GIARNIERI */
+                                    if( fornitore == "giarnieri"){
+        
+                                        
+                                    
+                                       
+        
+                                        
+                                        let asset = getAsset(row["Nome"]);  
+                                        
+                                        if(!_.is(asset)){
+                                            // Modelli presenti sull'excel e non sul sito
+                                            _.log(row["Nome"]);
+                                            //_.log(count++)
+                                        }  
+                                            
+                                        
+                                        supplier = "giarnieri";
+                                        supplier_id = supplierId(supplier);
+                                        original_model_id = row["Articolo"].replace(" ","_").replace(" ","_").replace(" ","_").replace(" ","_"); // può avere diversi spazi
+                                        model_id = original_model_id;
+                                        model_variant = original_model_id;
+                                        variante =  undefined;
+                                        dimensioni = undefined;
+                                        
+                                        combination_id = model_id;
+                                        component = 0;
+                                        model = row["Modello"]+" "+row["Categoria"];
+                                        item_id = original_model_id;
+                                        hicId = getHicId(supplier_id, item_id);
+                                        ean13 = undefined;
+                                        max_discount = 0.1;
+                                        sale = 1;
+                                        price = row["Prezzo"].replace(".00 €","").replace(",","");
+                                        quantity = 0;
+                                        delivery_time = "2-3 gg Italy, 5-6 days UE";
+                                        delivery_time_if_not_available = "Su ordinazione in 2-3 settimane";
+                                        
+                                        color = row["Colore"].toLowerCase();
+                                        
+                                        /*
+                                        desc_it = undefined;
+                                        desc_en = undefined;
+                                        cleaned_desc_it = ( _.is(asset))? asset.asset.description : undefined;
+                                        cleaned_desc_en = cleaned_desc_it;
+                                        */
+
+                                        dimmer = undefined;
+                                        led = undefined;
+                                        
+                                        halogen = undefined;
+                                        screw = undefined;
+                                        switcher =  undefined;
+                                        category = row["Categoria"];
+        
+                                        
+        
+                                        
+                                        type = undefined;       // è un valore unico ovvero una stringa
+        
+                                        
+                                        component_of = undefined;
+                                        size = undefined;
+                                        outdoor = undefined;
+                                        wire_length = undefined;
+                                        
+                                        title = row["Nome"]; // li ha messi Monica a mano
+                                        subtitle = row["Categoria"]+" - Giarnieri";
+
+                                        pic = ( _.is(asset))? asset.prod_pic : undefined;
+                                        light_schema = ( _.is(asset))? asset.light_schema : undefined;
+
+                                        projects = ( _.is(asset))? asset.projects : undefined;
+                                        link = ( _.is(asset))? asset.prod_page : undefined;
+
+                                        meta_title = (_.is(asset))? getMetaTitle(title, subtitle, category, component, max_discount) : undefined;
+                                        meta_description = (_.is(asset))?  getMetaDescription(title, subtitle, category, component, max_discount) : undefined;
+
+                                        all_images = (_.is(asset))? getAllImages(pic,light_schema,projects) : undefined;
+                                        all_images_alt = (_.is(asset))? getAllImagesAlt(pic,light_schema,projects) : undefined
+        
+                                        product_images = (_.is(asset))? getProductImages(pic, projects, light_schema, component, "img") : undefined;
+                                        product_images_alt = (_.is(asset))? getProductImages(pic, projects, light_schema, component, "alt") : undefined;
+                                        
+                                        combination_images = (_.is(asset))? getCombinationImages(pic, projects, light_schema, component, "img") : undefined;
+                                        combination_images_alt = (_.is(asset))? getCombinationImages(pic, projects, light_schema, component, "alt") : undefined;
+        
+                                        
+                                        /*
+                                        
+                                        
+                                        otherColors = undefined;
+                                        
+                                        
+                                        more = ( _.is(asset))? getMore(asset) : undefined;
+                                        
+        
+                                       
+                                        
+        
+                                        accessori = row["Accessori"];
+        
+                                        */
+        
+                                        function getProductImages(pic, projects, light_schema, component, caso){
+                                            
+                                            var arr_ret = [];
+                                            if(_.is(pic)){
+                                                if(caso == "img"){
+                                                    arr_ret.push(pic);
+                                                }
+                                
+                                                if(caso == "alt"){
+                                                    arr_ret.push("pic");
+                                                }
+                                            }
+        
+                                            if( _.is(projects) && _.isArray(projects) ){
+                                                _.each(projects,function(project_img){
+                                                    if(caso == "img"){
+                                                        arr_ret.push(project_img)
+                                                    }
+                                    
+                                                    if(caso == "alt"){
+                                                        arr_ret.push("projects")
+                                                    }
+                                                })
+                                            }
+        
+                                            if(caso == "img"){
+                                                return S(arr_ret.toString()).replaceAll(",","|").s;
+                                            }
+                            
+                                            if(caso == "alt"){
+                                                return S(arr_ret.toString()).replaceAll(",","|").s;
+                                            }
+                                        }
+        
+                                        function getCombinationImages(pic, projects, light_schema, component, caso){
+                                            light_schema = [light_schema]
+                                            var arr_ret = [];
+                                            if(_.is(pic)){
+                                                if(caso == "img"){
+                                                    arr_ret.push(pic);
+                                                }
+                                
+                                                if(caso == "alt"){
+                                                    arr_ret.push("pic");
+                                                }
+                                            }
+        
+                                            if(_.is(light_schema)){
+                                                if(caso == "img"){
+                                                    _.each(light_schema,function(single_img){
+                                                        arr_ret.push(single_img);
+                                                    })
+                                                }
+                                
+                                                if(caso == "alt"){
+                                                    _.each(light_schema,function(single_img){
+                                                        arr_ret.push("light_schema");
+                                                })
+                                                }
+                                            }
+        
+                                            if(caso == "img"){
+                                                return S(arr_ret.toString()).replaceAll(",","|").s;
+                                            }
+                            
+                                            if(caso == "alt"){
+                                                return S(arr_ret.toString()).replaceAll(",","|").s;
+                                            }
+                                        }
+        
+                                        
+        
+        
+                                        function getAsset(nome){
+                                            var nome = nome.toLowerCase();
+                                            
+                                            var ret = undefined;
+                                            _.each(assets_json,function(asset){
+                                                if(!_.is(ret)){
+                                                    asset_name = asset.name.toLowerCase().replace("-"," ");
+                                                    if(nome == asset_name)
+                                                        ret = asset;
+                                                }
+                                            });
+                                            
+                                            return ret;
+                                            
+                                        }
+        
+                                        function normalizzaCodice(cod){
+                                            return S(cod.toLowerCase()).replaceAll(" ","").replaceAll(".","").s
+                                        }
+        
+        
+        
+        
+                                        function getSchemaImages(mode_id){
+                                            var ret = [];
+                                            var asset = getAsset(mode_id)
+                                            if( _.is(asset)){
+                                                if( _.is(asset.size_image) )
+                                                    ret.push( asset.size_image );
+                                                if( _.is(asset.summary_media) ){
+                                                    _.each(asset.summary_media,function(elem){
+                                                        ret.push(elem);
+                                                    })
+                                                }
+                                            }
+        
+                                            return ret;   
+                                        }
+        
+                                        function getFatherAsset(accessory_id){
+                                            if(!isComponent(accessory_id))
+                                                return undefined;
+                                            else{
+                                                var ret = undefined;
+        
+                                                _.each(assets_json,function(asset){
+                                                    _.each(asset.accessories,function(accessory){
+                                                        if(accessory.id == accessory_id && !_.is(ret)){
+                                                            ret = asset;
+                                                        }
+                                                    });
+                                                });
+        
+                                                return ret;
+                                            }
+                                        }
+                            
+                                        
+        
+                                        // ritorna il link alla pagine dell'articolo sul sito del fornitore
+                                        function getSupplierSiteLink(model_id){
+                                            var asset = getAsset(model_id);
+                                            if(_.is(asset))
+                                                if(_.is(asset.uri))
+                                                    return asset.uri;
+                                        }
+        
+        
+        
+        
+                                        function getMetaTitle(title, subtitle, category, component, max_discount){
+                                            if(component == 0){
+                                                var ret = "Lampada da "+category+": "+title.toUpperCase()+" Giarnieri by ArteInLuce™";
+                                                if(ret.length > 60)
+                                                    ret = "Lampada "+category+": "+title.toUpperCase()+" Giarnieri by ArteInLuce™";
+                                                if(ret.length > 60)
+                                                    ret = "Lampada "+category+": "+title.toUpperCase()+" Giarnieri ArteInLuce™";
+                                            
+                                            }
+                                            if(component == 1){
+                                                var ret = title +" Giarnieri by ArteInLuce™";
+                                                if(ret.length > 60)
+                                                    ret = title +" Giarnieri ArteInLuce™";
+                                                if(ret.length > 60)
+                                                    ret = ret.replace("per ","");
+                                            }
+        
+                                            return ret;
+                                        }
+        
+                                        function getMetaDescription(title, subtitle, category, component, max_discount){
+                                            if(component == 0){
+                                                var category = (_.is(category))? category.toUpperCase() : "";
+                                                var ret = title.toUpperCase()+" Giarnieri: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da "+category+" in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
+                                                
+                                            }
+                                            if(component == 1){
+                                                var ret = title.toUpperCase()+" Giarnieri: centinaia di altre lampade da "+category+" e relativi accessori in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
+                                            }
+                                            
+                                            
+                                            return ret;
+                                        }
+        
+        
+                                        function getAllImages(pic,light_schema,projects){
+                                            //var ret_arr = [pic];
+                                            var ret_arr = [];
+                                            if(_.isArray(light_schema)){
+                                                ret_arr = ret_arr.concat(light_schema);
+                                            }
+                                            if(_.isArray(projects)){
+                                                ret_arr = ret_arr.concat(projects);
+                                            }
+                                            
+                                            if(_.isArray(ret_arr))
+                                                return S(ret_arr.toString()).replaceAll(",","|").s;
+                                            
+                                        }
+        
+                                        function getAllImagesAlt(pic,light_schema,projects){
+                                            var all_images_alt = [];
+                                            // var all_images_alt = (pic.length != 0)? ["pic"] : [];
+                                            if(_.isArray(light_schema)){
+                                                _.each(light_schema,function(){
+                                                    all_images_alt.push("light_schema");
+                                                })
+                                            }
+        
+                                            if(_.isArray(projects)){
+                                                _.each(projects,function(){
+                                                    all_images_alt.push("projects");
+                                                })
+                                            }
+        
+                                            return S(all_images_alt.toString()).replaceAll(",","|").s
+                                        }
+        
+                                        function getMore(asset){
+                                            
+                                            var new_asset = JSON.parse(JSON.stringify(asset.data)); // clono asset.data
+                                            new_asset["product_page_link"] = asset.asset.prod_page;
+                                            new_asset["supplier"] = "luceplan";
+                                            if(_.is(asset.asset.video)){
+                                                var escaped_video_url = escape(asset.asset.video)
+                                                new_asset["video"] = [escaped_video_url];
+                                            }
+                                            //_.log(_.toStr(JSON.stringify(new_asset)));                                      
+                                            return new_asset;
+                                            
+                                        }
+        
+                                    }
+                                        
+                            }
                                 
                     }
                     
@@ -6309,6 +6643,153 @@ function postProduci(json,fornitore){
         }
 
         function inlineCSVLuceplan(obj,arr, caso){
+            
+            let pos = 0;
+            if(!_.is(caso)){ // caso dei attributes
+                var csv = "stato : select : 0 | ";                
+            }
+            else{ // caso di values
+                var csv = "nuovo : 0 | ";
+            }
+            _.each(arr,function(elem){
+
+                if(_.is(caso)){ // caso dei values
+                    if( _.is(obj[elem]) ){
+                        pos++;
+                        var singleton = obj[elem] +" : "+ pos +" | ";
+                    }
+                }
+                else{ // caso di attributes
+                    
+                    if( _.is(obj[elem[0]]) ){
+                        pos++;
+                        var etichetta = (elem[0] == "color")? "colore" : (elem[0] == "variante")? "variante" : (elem[0] == "led")? "led" : (elem[0] == "dimmer")? "dimmer" : (elem[0] == "dimensioni")? "dimensioni" : ""; // per flos è sempre e solo il colore il secondo attribute // (etichetta=="color")? "colore" : "nome_attributo_non_trovato";
+                        var singleton = etichetta +" : "+ elem[1] +" : "+ pos+" | ";
+                    }
+
+                }
+                
+                csv += (_.is(singleton))? singleton : "";
+            });
+
+            // tolgo l'ultimo punto e virgola
+            return csv.substring(0, csv.length - 3);
+        }
+        
+        // in component_of invece del code metto hicId
+        _.each(json, function(elem, index){
+            var cod = elem.component_of;
+            _.each(json, function(elem2){
+                if( elem2.model_id == cod)
+                   json[index].component_of = elem2.hicId;
+            })
+        })
+
+        // ad ogni accessorio aggiungo l'hicId degli articoli di cui è accessorio
+        var registro_component_hicId = {};
+        _.each(json, function(elem){
+            if( elem.component == 1 ){
+                var component_of_hicId = elem.component_of;
+                elem.accessories = component_of_hicId;
+            }
+        });
+        
+
+        
+        
+       
+    }
+
+    if(fornitore=="giarnieri"){
+        
+
+        var json_prodotti = [];
+        // [1]
+        // creo hicid è l'id del articolo primario che viene messo a tutte le sue varianti
+        // l'articolo primario viene pompato in json_prodotti col price a zero
+        var registro = {};
+        
+
+        /// eliminiamo i prodotti che non hanno il model
+        json = _.filter(json,function(elem){
+            if( !_.is(elem.model) || elem.model == "")
+                return false;
+            return true;
+        });
+
+        _.each(json, function(elem,index){
+            if( !_.is(registro[elem.title]) ){
+                registro[elem.title] = elem.hicId;
+                var new_elem = Object.assign({}, elem);
+                new_elem.price = 0;
+                json_prodotti.push(new_elem);
+            }
+            else{
+                elem.hicId = registro[elem.title];
+            }
+            
+        })
+
+
+        // aggiungo gli accessori di ogni articolo
+        _.each(json, function(elem){
+            if(_.is(elem.accessori) && elem.accessori != "")
+                elem["accessories"] = S(elem.accessori).replaceAll(",","|").s
+            
+        });
+
+
+        
+
+
+        
+        _.each(json, function(elem){
+            // aggiungo le features che sono le proprietà statiche dell'articolo
+            elem["features"] = inlineCSVFeaturesGiarnieri(elem,["category","outdoor"])
+
+            // aggiungo attributi e valori
+            elem["attributes"] = inlineCSVGiarnieri(elem,[["color","select"]])
+            elem["values"] = inlineCSVGiarnieri(elem,["color"],"values")
+        });
+
+
+        function inlineCSVFeaturesGiarnieri(obj,arr){
+            let csv = "";
+            let pos = 0;
+            _.each(arr,function(elem){
+
+                if( _.is(obj[elem]) ){
+                    var singleton = elem +" : "+ obj[elem] +" : "+ pos+":1 | ";
+                    pos++;
+                }
+                            
+                csv += (_.is(singleton))? singleton : "";
+            });
+
+            //  alle features aggiungo i dati presenti in more (more c'è solo negli articoli componento == 0)
+            if(obj.component == 0){
+                _.each(obj.more, function(feature, key){
+                    var cleaned_feature = cleanedFeature(feature);
+
+                    if(_.is(cleaned_feature)){
+                        //if(key!="descrizione_tecnica"){
+                            csv += key +' : '+ cleaned_feature +' : '+ pos +':1 | ';
+                            pos++;
+                        //}
+                        
+                    } 
+                    //var cleaned_feature = "'"+ feature.replace("<p>","").replace("</p>","") + "'";
+
+                })
+               
+            }
+           
+            
+            // tolgo l'ultima virgola
+            return csv.substring(0, csv.length - 3);
+        }
+
+        function inlineCSVGiarnieri(obj,arr, caso){
             
             let pos = 0;
             if(!_.is(caso)){ // caso dei attributes

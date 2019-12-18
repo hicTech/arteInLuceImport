@@ -140,7 +140,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume',ottone",
+        "color": "fumè,ottone",
         "desc_it": "Giochi di circonferenze metalliche attorno a cilindri di vetro quasi a creare infiniti girotondi. Una collezione dai connotati contemporanei con sorgente LED che racchiude preziosi contenuti storici della lavorazione del vetro quali il ballotton, il rigadin dritto e ritorto, il tutto  perfezionato da tonalità avvolgenti: cristallo, fumé, ambra e ametista chiaro. <br>",
         "desc_en": "Giochi di circonferenze metalliche attorno a cilindri di vetro quasi a creare infiniti girotondi. Una collezione dai connotati contemporanei con sorgente LED che racchiude preziosi contenuti storici della lavorazione del vetro quali il ballotton, il rigadin dritto e ritorto, il tutto  perfezionato da tonalità avvolgenti: cristallo, fumé, ambra e ametista chiaro. <br>",
         "dimmer": "no",
@@ -186,7 +186,7 @@
         "order_available": "2",
         "features": "model_variant : undefined : 0 : 1 | dimmer : no : 1 : 1 | led :  : 2 : 1 | halogen : no : 3 : 1 | screw :  : 4 : 1 | switcher : no : 5 : 1",
         "attributes": "stato : select : 0 | colore : select : 1",
-        "values": "nuovo : 0 | fume',ottone : 1"
+        "values": "nuovo : 0 | fumè,ottone : 1"
     },
     {
         "supplier": "vistosi",
@@ -203,7 +203,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume',rame",
+        "color": "fumè,rame",
         "desc_it": "Giochi di circonferenze metalliche attorno a cilindri di vetro quasi a creare infiniti girotondi. Una collezione dai connotati contemporanei con sorgente LED che racchiude preziosi contenuti storici della lavorazione del vetro quali il ballotton, il rigadin dritto e ritorto, il tutto  perfezionato da tonalità avvolgenti: cristallo, fumé, ambra e ametista chiaro. <br>",
         "desc_en": "Giochi di circonferenze metalliche attorno a cilindri di vetro quasi a creare infiniti girotondi. Una collezione dai connotati contemporanei con sorgente LED che racchiude preziosi contenuti storici della lavorazione del vetro quali il ballotton, il rigadin dritto e ritorto, il tutto  perfezionato da tonalità avvolgenti: cristallo, fumé, ambra e ametista chiaro. <br>",
         "dimmer": "no",
@@ -249,7 +249,7 @@
         "order_available": "2",
         "features": "model_variant : undefined : 0 : 1 | dimmer : no : 1 : 1 | led :  : 2 : 1 | halogen : no : 3 : 1 | screw :  : 4 : 1 | switcher : no : 5 : 1",
         "attributes": "stato : select : 0 | colore : select : 1",
-        "values": "nuovo : 0 | fume',rame : 1"
+        "values": "nuovo : 0 | fumè,rame : 1"
     },
     {
         "supplier": "vistosi",
@@ -503,7 +503,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume'",
+        "color": "fumè",
         "desc_it": "Il vetro bianco satinato e la forma ideata per uno spazio angolare rendono Corner perfetta per ambienti dalla luce intima, come le stanze da letto.",
         "desc_en": "Il vetro bianco satinato e la forma ideata per uno spazio angolare rendono Corner perfetta per ambienti dalla luce intima, come le stanze da letto.",
         "dimmer": "no",
@@ -543,7 +543,7 @@
         "variante": "satinato",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | satinato : 1 | fume' : 2"
+        "values": "nuovo : 0 | satinato : 1 | fumè : 2"
     },
     {
         "supplier": "vistosi",
@@ -561,7 +561,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume'",
+        "color": "fumè",
         "desc_it": "Il vetro bianco satinato e la forma ideata per uno spazio angolare rendono Corner perfetta per ambienti dalla luce intima, come le stanze da letto.",
         "desc_en": "Il vetro bianco satinato e la forma ideata per uno spazio angolare rendono Corner perfetta per ambienti dalla luce intima, come le stanze da letto.",
         "dimmer": "no",
@@ -601,7 +601,7 @@
         "variante": "lucido",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | lucido : 1 | fume' : 2"
+        "values": "nuovo : 0 | lucido : 1 | fumè : 2"
     },
     {
         "supplier": "vistosi",
@@ -1203,7 +1203,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume'",
+        "color": "fumè",
         "desc_it": "Le linee eleganti e discrete di Dafne ne fanno una lampada da parete adatta ai più vari stili d'arredamento.",
         "desc_en": "Le linee eleganti e discrete di Dafne ne fanno una lampada da parete adatta ai più vari stili d'arredamento.",
         "dimmer": "no",
@@ -1244,7 +1244,7 @@
         "variante": "satinato",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | switcher : no : 2 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2 | alogena : radio : 3 | attacco : radio : 4",
-        "values": "nuovo : 0 | satinato : 1 | fume' : 2 | si : 3 | R7S : 4"
+        "values": "nuovo : 0 | satinato : 1 | fumè : 2 | si : 3 | R7S : 4"
     },
     {
         "supplier": "vistosi",
@@ -1262,7 +1262,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume'",
+        "color": "fumè",
         "desc_it": "Le linee eleganti e discrete di Dafne ne fanno una lampada da parete adatta ai più vari stili d'arredamento.",
         "desc_en": "Le linee eleganti e discrete di Dafne ne fanno una lampada da parete adatta ai più vari stili d'arredamento.",
         "dimmer": "no",
@@ -1303,7 +1303,7 @@
         "variante": "satinato",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | switcher : no : 2 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2 | alogena : radio : 3 | attacco : radio : 4",
-        "values": "nuovo : 0 | satinato : 1 | fume' : 2 | no : 3 | E27 : 4"
+        "values": "nuovo : 0 | satinato : 1 | fumè : 2 | no : 3 | E27 : 4"
     },
     {
         "supplier": "vistosi",
@@ -1321,7 +1321,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume'",
+        "color": "fumè",
         "desc_it": "Le linee eleganti e discrete di Dafne ne fanno una lampada da parete adatta ai più vari stili d'arredamento.",
         "desc_en": "Le linee eleganti e discrete di Dafne ne fanno una lampada da parete adatta ai più vari stili d'arredamento.",
         "dimmer": "no",
@@ -1362,7 +1362,7 @@
         "variante": "lucido",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | switcher : no : 2 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2 | alogena : radio : 3 | attacco : radio : 4",
-        "values": "nuovo : 0 | lucido : 1 | fume' : 2 | si : 3 | R7S : 4"
+        "values": "nuovo : 0 | lucido : 1 | fumè : 2 | si : 3 | R7S : 4"
     },
     {
         "supplier": "vistosi",
@@ -1380,7 +1380,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume'",
+        "color": "fumè",
         "desc_it": "Le linee eleganti e discrete di Dafne ne fanno una lampada da parete adatta ai più vari stili d'arredamento.",
         "desc_en": "Le linee eleganti e discrete di Dafne ne fanno una lampada da parete adatta ai più vari stili d'arredamento.",
         "dimmer": "no",
@@ -1421,7 +1421,7 @@
         "variante": "lucido",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | switcher : no : 2 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2 | alogena : radio : 3 | attacco : radio : 4",
-        "values": "nuovo : 0 | lucido : 1 | fume' : 2 | no : 3 | E27 : 4"
+        "values": "nuovo : 0 | lucido : 1 | fumè : 2 | no : 3 | E27 : 4"
     },
     {
         "supplier": "vistosi",
@@ -3564,7 +3564,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume',marrone",
+        "color": "fumè,marrone",
         "desc_it": "Collezione di lampade a sospensione in vetro soffiato disponibile in tre esclusive colorazioni abbinate a differenti finiture dell'anello metallico. Il vetro soffiato è in pezzo unico ma la particolare lavorazione lo rende di colore trasparente nella parte superiore e di colore diffusore nella parte inferiore.",
         "desc_en": "Collezione di lampade a sospensione in vetro soffiato disponibile in tre esclusive colorazioni abbinate a differenti finiture dell'anello metallico. Il vetro soffiato è in pezzo unico ma la particolare lavorazione lo rende di colore trasparente nella parte superiore e di colore diffusore nella parte inferiore.",
         "dimmer": "no",
@@ -3607,7 +3607,7 @@
         "order_available": "2",
         "features": "model_variant : undefined : 0 : 1 | dimmer : no : 1 : 1 | led :  : 2 : 1 | halogen : no : 3 : 1 | screw :  : 4 : 1 | switcher : no : 5 : 1",
         "attributes": "stato : select : 0 | colore : select : 1",
-        "values": "nuovo : 0 | fume',marrone : 1"
+        "values": "nuovo : 0 | fumè,marrone : 1"
     },
     {
         "supplier": "vistosi",
@@ -8972,7 +8972,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume'",
+        "color": "fumè",
         "desc_it": "\nFascino retrò.\nL’aspetto elegante e delicato del vetro soffiato trova in Jube una nuova dimensione. Due vetri accostati, perfettamente assemblati, tanto da sembrare un pezzo unico. Il risultato è una lampada sinuosa, formata da sovrapposizioni e con colori tono su tono che le regalano un prezioso mood vintage.  Dopo la sospensione, la collezione si arricchisce di due nuove versioni tavolo, di una nuova dimensione della sospensione e una nuova applique a vetro singolo. Il vetro superiore della sospensione e tavolo è disponibile in quattro colori: fumé, terra bruciata, verde antico, cristallo; finiture \n\n\n\n",
         "desc_en": "\nFascino retrò.\nL’aspetto elegante e delicato del vetro soffiato trova in Jube una nuova dimensione. Due vetri accostati, perfettamente assemblati, tanto da sembrare un pezzo unico. Il risultato è una lampada sinuosa, formata da sovrapposizioni e con colori tono su tono che le regalano un prezioso mood vintage.  Dopo la sospensione, la collezione si arricchisce di due nuove versioni tavolo, di una nuova dimensione della sospensione e una nuova applique a vetro singolo. Il vetro superiore della sospensione e tavolo è disponibile in quattro colori: fumé, terra bruciata, verde antico, cristallo; finiture \n\n\n\n",
         "dimmer": "no",
@@ -9029,7 +9029,7 @@
         "order_available": "2",
         "features": "model_variant : undefined : 0 : 1 | dimmer : no : 1 : 1 | led :  : 2 : 1 | halogen : no : 3 : 1 | screw :  : 4 : 1 | switcher : no : 5 : 1",
         "attributes": "stato : select : 0 | colore : select : 1",
-        "values": "nuovo : 0 | fume' : 1"
+        "values": "nuovo : 0 | fumè : 1"
     },
     {
         "supplier": "vistosi",
@@ -9705,7 +9705,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume'",
+        "color": "fumè",
         "desc_it": "Design discreto ed essenziale per esaltare la resa del vetro soffiato satinato sono le caratteristiche di Ovalina.",
         "desc_en": "Design discreto ed essenziale per esaltare la resa del vetro soffiato satinato sono le caratteristiche di Ovalina.",
         "dimmer": "no",
@@ -9746,7 +9746,7 @@
         "variante": "satinato",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | switcher : no : 2 : 1",
         "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2 | alogena : radio : 3 | attacco : radio : 4",
-        "values": "nuovo : 0 | satinato : 1 | fume' : 2 | si : 3 | R7S : 4"
+        "values": "nuovo : 0 | satinato : 1 | fumè : 2 | si : 3 | R7S : 4"
     },
     {
         "supplier": "vistosi",
@@ -9764,7 +9764,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume'",
+        "color": "fumè",
         "desc_it": "Design discreto ed essenziale per esaltare la resa del vetro soffiato satinato sono le caratteristiche di Ovalina.",
         "desc_en": "Design discreto ed essenziale per esaltare la resa del vetro soffiato satinato sono le caratteristiche di Ovalina.",
         "dimmer": "no",
@@ -9805,7 +9805,7 @@
         "variante": "satinato",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | switcher : no : 2 : 1",
         "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2 | alogena : radio : 3 | attacco : radio : 4",
-        "values": "nuovo : 0 | satinato : 1 | fume' : 2 | no : 3 | E27 : 4"
+        "values": "nuovo : 0 | satinato : 1 | fumè : 2 | no : 3 | E27 : 4"
     },
     {
         "supplier": "vistosi",
@@ -9823,7 +9823,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume'",
+        "color": "fumè",
         "desc_it": "Design discreto ed essenziale per esaltare la resa del vetro soffiato satinato sono le caratteristiche di Ovalina.",
         "desc_en": "Design discreto ed essenziale per esaltare la resa del vetro soffiato satinato sono le caratteristiche di Ovalina.",
         "dimmer": "no",
@@ -9864,7 +9864,7 @@
         "variante": "lucido",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | switcher : no : 2 : 1",
         "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2 | alogena : radio : 3 | attacco : radio : 4",
-        "values": "nuovo : 0 | lucido : 1 | fume' : 2 | si : 3 | R7S : 4"
+        "values": "nuovo : 0 | lucido : 1 | fumè : 2 | si : 3 | R7S : 4"
     },
     {
         "supplier": "vistosi",
@@ -9882,7 +9882,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume'",
+        "color": "fumè",
         "desc_it": "Design discreto ed essenziale per esaltare la resa del vetro soffiato satinato sono le caratteristiche di Ovalina.",
         "desc_en": "Design discreto ed essenziale per esaltare la resa del vetro soffiato satinato sono le caratteristiche di Ovalina.",
         "dimmer": "no",
@@ -9923,7 +9923,7 @@
         "variante": "lucido",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | switcher : no : 2 : 1",
         "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2 | alogena : radio : 3 | attacco : radio : 4",
-        "values": "nuovo : 0 | lucido : 1 | fume' : 2 | no : 3 | E27 : 4"
+        "values": "nuovo : 0 | lucido : 1 | fumè : 2 | no : 3 | E27 : 4"
     },
     {
         "supplier": "vistosi",
@@ -10653,7 +10653,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume' trasparente",
+        "color": "fumè trasparente",
         "desc_it": "Collezione di lampadari con diffusori in vetro soffiato sfumato e rigato irregolarmente. Le braccia del lampadario sono appese singolarmente a piacere del cliente. ",
         "desc_en": "Collezione di lampadari con diffusori in vetro soffiato sfumato e rigato irregolarmente. Le braccia del lampadario sono appese singolarmente a piacere del cliente. ",
         "dimmer": "no",
@@ -10696,7 +10696,7 @@
         "variante": "finitura nero",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura nero : 1 | fume' trasparente : 2"
+        "values": "nuovo : 0 | finitura nero : 1 | fumè trasparente : 2"
     },
     {
         "supplier": "vistosi",
@@ -11087,7 +11087,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume' trasparente",
+        "color": "fumè trasparente",
         "desc_it": "La “tecnicità” dell’elemento metallico unito al diffusore in vetro soffiato conferisce a Tread uno stile “industriale”. Un oggetto che ricorda le apparecchiature elettriche vintage per la sua forma particolare, in cui il dissipatore alettato, unito al vetro soffiato, diviene elemento caratterizzante. Tread crea un’atmosfera all’avanguardia e di stile coniugando il vetro cristallo, fumé, terra bruciata e verde antico trasparente con finiture rame, oro e bronzo satinato.",
         "desc_en": "La “tecnicità” dell’elemento metallico unito al diffusore in vetro soffiato conferisce a Tread uno stile “industriale”. Un oggetto che ricorda le apparecchiature elettriche vintage per la sua forma particolare, in cui il dissipatore alettato, unito al vetro soffiato, diviene elemento caratterizzante. Tread crea un’atmosfera all’avanguardia e di stile coniugando il vetro cristallo, fumé, terra bruciata e verde antico trasparente con finiture rame, oro e bronzo satinato.",
         "dimmer": "no",
@@ -11135,7 +11135,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | fume' trasparente : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | fumè trasparente : 2"
     },
     {
         "supplier": "vistosi",
@@ -11153,7 +11153,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume' trasparente",
+        "color": "fumè trasparente",
         "desc_it": "La “tecnicità” dell’elemento metallico unito al diffusore in vetro soffiato conferisce a Tread uno stile “industriale”. Un oggetto che ricorda le apparecchiature elettriche vintage per la sua forma particolare, in cui il dissipatore alettato, unito al vetro soffiato, diviene elemento caratterizzante. Tread crea un’atmosfera all’avanguardia e di stile coniugando il vetro cristallo, fumé, terra bruciata e verde antico trasparente con finiture rame, oro e bronzo satinato.",
         "desc_en": "La “tecnicità” dell’elemento metallico unito al diffusore in vetro soffiato conferisce a Tread uno stile “industriale”. Un oggetto che ricorda le apparecchiature elettriche vintage per la sua forma particolare, in cui il dissipatore alettato, unito al vetro soffiato, diviene elemento caratterizzante. Tread crea un’atmosfera all’avanguardia e di stile coniugando il vetro cristallo, fumé, terra bruciata e verde antico trasparente con finiture rame, oro e bronzo satinato.",
         "dimmer": "no",
@@ -11201,7 +11201,7 @@
         "variante": "finitura ottone",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura ottone : 1 | fume' trasparente : 2"
+        "values": "nuovo : 0 | finitura ottone : 1 | fumè trasparente : 2"
     },
     {
         "supplier": "vistosi",
@@ -11219,7 +11219,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume' trasparente",
+        "color": "fumè trasparente",
         "desc_it": "La “tecnicità” dell’elemento metallico unito al diffusore in vetro soffiato conferisce a Tread uno stile “industriale”. Un oggetto che ricorda le apparecchiature elettriche vintage per la sua forma particolare, in cui il dissipatore alettato, unito al vetro soffiato, diviene elemento caratterizzante. Tread crea un’atmosfera all’avanguardia e di stile coniugando il vetro cristallo, fumé, terra bruciata e verde antico trasparente con finiture rame, oro e bronzo satinato.",
         "desc_en": "La “tecnicità” dell’elemento metallico unito al diffusore in vetro soffiato conferisce a Tread uno stile “industriale”. Un oggetto che ricorda le apparecchiature elettriche vintage per la sua forma particolare, in cui il dissipatore alettato, unito al vetro soffiato, diviene elemento caratterizzante. Tread crea un’atmosfera all’avanguardia e di stile coniugando il vetro cristallo, fumé, terra bruciata e verde antico trasparente con finiture rame, oro e bronzo satinato.",
         "dimmer": "no",
@@ -11267,7 +11267,7 @@
         "variante": "finitura rame",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : select : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura rame : 1 | fume' trasparente : 2"
+        "values": "nuovo : 0 | finitura rame : 1 | fumè trasparente : 2"
     },
     {
         "supplier": "vistosi",
@@ -13058,7 +13058,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume',bianco",
+        "color": "fumè,bianco",
         "desc_it": "\nFascino retrò.\nL’aspetto elegante e delicato del vetro soffiato trova in Jube una nuova dimensione. Due vetri accostati, perfettamente assemblati, tanto da sembrare un pezzo unico. Il risultato è una lampada sinuosa, formata da sovrapposizioni e con colori tono su tono che le regalano un prezioso mood vintage.  Dopo la sospensione, la collezione si arricchisce di due nuove versioni tavolo, di una nuova dimensione della sospensione e una nuova applique a vetro singolo. Il vetro superiore della sospensione e tavolo è disponibile in quattro colori: fumé, terra bruciata, verde antico, cristallo; finiture \n\n\n\n",
         "desc_en": "\nFascino retrò.\nL’aspetto elegante e delicato del vetro soffiato trova in Jube una nuova dimensione. Due vetri accostati, perfettamente assemblati, tanto da sembrare un pezzo unico. Il risultato è una lampada sinuosa, formata da sovrapposizioni e con colori tono su tono che le regalano un prezioso mood vintage.  Dopo la sospensione, la collezione si arricchisce di due nuove versioni tavolo, di una nuova dimensione della sospensione e una nuova applique a vetro singolo. Il vetro superiore della sospensione e tavolo è disponibile in quattro colori: fumé, terra bruciata, verde antico, cristallo; finiture \n\n\n\n",
         "dimmer": "no",
@@ -13116,7 +13116,7 @@
         "order_available": "2",
         "features": "model_variant : undefined : 0 : 1 | dimmer : no : 1 : 1 | led :  : 2 : 1 | halogen : no : 3 : 1 | screw :  : 4 : 1 | switcher : no : 5 : 1",
         "attributes": "stato : select : 0 | colore : select : 1",
-        "values": "nuovo : 0 | fume',bianco : 1"
+        "values": "nuovo : 0 | fumè,bianco : 1"
     },
     {
         "supplier": "vistosi",
@@ -13358,7 +13358,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "fume'",
+        "color": "fumè",
         "desc_it": "\nFascino retrò.\nL’aspetto elegante e delicato del vetro soffiato trova in Jube una nuova dimensione. Due vetri accostati, perfettamente assemblati, tanto da sembrare un pezzo unico. Il risultato è una lampada sinuosa, formata da sovrapposizioni e con colori tono su tono che le regalano un prezioso mood vintage.  Dopo la sospensione, la collezione si arricchisce di due nuove versioni tavolo, di una nuova dimensione della sospensione e una nuova applique a vetro singolo. Il vetro superiore della sospensione e tavolo è disponibile in quattro colori: fumé, terra bruciata, verde antico, cristallo; finiture \n\n\n\n",
         "desc_en": "\nFascino retrò.\nL’aspetto elegante e delicato del vetro soffiato trova in Jube una nuova dimensione. Due vetri accostati, perfettamente assemblati, tanto da sembrare un pezzo unico. Il risultato è una lampada sinuosa, formata da sovrapposizioni e con colori tono su tono che le regalano un prezioso mood vintage.  Dopo la sospensione, la collezione si arricchisce di due nuove versioni tavolo, di una nuova dimensione della sospensione e una nuova applique a vetro singolo. Il vetro superiore della sospensione e tavolo è disponibile in quattro colori: fumé, terra bruciata, verde antico, cristallo; finiture \n\n\n\n",
         "dimmer": "no",
@@ -13416,7 +13416,7 @@
         "order_available": "2",
         "features": "model_variant : undefined : 0 : 1 | dimmer : no : 1 : 1 | led :  : 2 : 1 | halogen : no : 3 : 1 | screw :  : 4 : 1 | switcher : no : 5 : 1",
         "attributes": "stato : select : 0 | colore : select : 1",
-        "values": "nuovo : 0 | fume' : 1"
+        "values": "nuovo : 0 | fumè : 1"
     },
     {
         "supplier": "vistosi",
@@ -38858,7 +38858,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -38913,7 +38913,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -38931,7 +38931,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -38986,7 +38986,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -39880,7 +39880,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,anco",
+        "color": "cristallo,bianco",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -39935,7 +39935,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,anco : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,bianco : 2"
     },
     {
         "supplier": "vistosi",
@@ -40245,7 +40245,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -40300,7 +40300,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -40318,7 +40318,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -40373,7 +40373,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -41876,7 +41876,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -41931,7 +41931,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -41949,7 +41949,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -42004,7 +42004,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -43336,7 +43336,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -43391,7 +43391,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -43409,7 +43409,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -43464,7 +43464,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -44796,7 +44796,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -44851,7 +44851,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -44869,7 +44869,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -44924,7 +44924,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -45964,7 +45964,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -46019,7 +46019,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -46037,7 +46037,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -46092,7 +46092,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -47132,7 +47132,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -47187,7 +47187,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -47205,7 +47205,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -47260,7 +47260,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -48592,7 +48592,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,trasparente",
+        "color": "cristallo,traspararente",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -48647,7 +48647,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,trasparente : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,traspararente : 2"
     },
     {
         "supplier": "vistosi",
@@ -48665,7 +48665,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -48720,7 +48720,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -48738,7 +48738,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -48793,7 +48793,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -50125,7 +50125,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -50180,7 +50180,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -50198,7 +50198,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -50253,7 +50253,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -51585,7 +51585,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -51640,7 +51640,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -51658,7 +51658,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -51713,7 +51713,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -52803,7 +52803,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,traspar",
+        "color": "cristallo,trasparente",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -52846,7 +52846,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,traspar : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,trasparente : 2"
     },
     {
         "supplier": "vistosi",
@@ -52864,7 +52864,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,traspar",
+        "color": "cristallo,trasparente",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -52907,7 +52907,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,traspar : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,trasparente : 2"
     },
     {
         "supplier": "vistosi",
@@ -52925,7 +52925,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -52968,7 +52968,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -52986,7 +52986,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -53029,7 +53029,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -53047,7 +53047,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "nero",
+        "color": "cristallo,ro",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -53090,7 +53090,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | nero : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,ro : 2"
     },
     {
         "supplier": "vistosi",
@@ -53108,7 +53108,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "nero",
+        "color": "cristallo,ro",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -53151,7 +53151,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | nero : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,ro : 2"
     },
     {
         "supplier": "vistosi",
@@ -53169,7 +53169,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,nero",
+        "color": "cristallo,nichel,nero",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -53212,7 +53212,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,nero : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,nichel,nero : 2"
     },
     {
         "supplier": "vistosi",
@@ -53230,7 +53230,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,nero",
+        "color": "cristallo,nichel,nero",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -53273,7 +53273,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,nero : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,nichel,nero : 2"
     },
     {
         "supplier": "vistosi",
@@ -53840,7 +53840,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "bianco",
+        "color": "cristallo,bianco",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -53883,7 +53883,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | bianco : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,bianco : 2"
     },
     {
         "supplier": "vistosi",
@@ -54145,7 +54145,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,traspar",
+        "color": "cristallo,trasparente",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -54188,7 +54188,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,traspar : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,trasparente : 2"
     },
     {
         "supplier": "vistosi",
@@ -54206,7 +54206,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -54249,7 +54249,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -54267,7 +54267,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -54310,7 +54310,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -54328,7 +54328,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "nero",
+        "color": "cristallo,ro",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -54371,7 +54371,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | nero : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,ro : 2"
     },
     {
         "supplier": "vistosi",
@@ -54389,7 +54389,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,nero",
+        "color": "cristallo,ro",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -54432,7 +54432,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,nero : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,ro : 2"
     },
     {
         "supplier": "vistosi",
@@ -54450,7 +54450,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,nero",
+        "color": "cristallo,ro",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -54493,7 +54493,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,nero : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,ro : 2"
     },
     {
         "supplier": "vistosi",
@@ -55121,7 +55121,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "bianco",
+        "color": "cristallo,bianco",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -55164,7 +55164,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | bianco : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,bianco : 2"
     },
     {
         "supplier": "vistosi",
@@ -55182,7 +55182,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "bianco",
+        "color": "cristallo,bianco",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -55225,7 +55225,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | bianco : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,bianco : 2"
     },
     {
         "supplier": "vistosi",
@@ -55365,7 +55365,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,trasparte",
+        "color": "cristallo,trasparente",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -55408,7 +55408,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,trasparte : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,trasparente : 2"
     },
     {
         "supplier": "vistosi",
@@ -55487,7 +55487,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -55530,7 +55530,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -55548,7 +55548,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -55591,7 +55591,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -55609,7 +55609,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "nero",
+        "color": "cristallo,ro",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -55652,7 +55652,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | nero : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,ro : 2"
     },
     {
         "supplier": "vistosi",
@@ -55670,7 +55670,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "nero",
+        "color": "cristallo,ro",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -55713,7 +55713,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | nero : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,ro : 2"
     },
     {
         "supplier": "vistosi",
@@ -55731,7 +55731,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo, nero",
+        "color": "cristallo,nichel,nero",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -55774,7 +55774,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo, nero : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,nichel,nero : 2"
     },
     {
         "supplier": "vistosi",
@@ -55792,7 +55792,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo, nero",
+        "color": "cristallo,nichel,nero",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -55835,7 +55835,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo, nero : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,nichel,nero : 2"
     },
     {
         "supplier": "vistosi",
@@ -56341,7 +56341,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,anco",
+        "color": "cristallo,bianco",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -56384,7 +56384,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,anco : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,bianco : 2"
     },
     {
         "supplier": "vistosi",
@@ -56402,7 +56402,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,anco",
+        "color": "cristallo,bianco",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -56445,7 +56445,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,anco : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,bianco : 2"
     },
     {
         "supplier": "vistosi",
@@ -56707,7 +56707,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -56750,7 +56750,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -56768,7 +56768,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -56811,7 +56811,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -56829,7 +56829,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "nero",
+        "color": "cristallo,ro",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -56872,7 +56872,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | nero : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,ro : 2"
     },
     {
         "supplier": "vistosi",
@@ -56890,7 +56890,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "nero",
+        "color": "cristallo,ro",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -56933,7 +56933,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | nero : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,ro : 2"
     },
     {
         "supplier": "vistosi",
@@ -57561,7 +57561,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "bianco",
+        "color": "cristallo,bianco",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -57604,7 +57604,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | bianco : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,bianco : 2"
     },
     {
         "supplier": "vistosi",
@@ -57622,7 +57622,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "bianco",
+        "color": "cristallo,bianco",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -57665,7 +57665,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | bianco : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,bianco : 2"
     },
     {
         "supplier": "vistosi",
@@ -58415,7 +58415,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -58458,7 +58458,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -58476,7 +58476,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -58519,7 +58519,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -58537,7 +58537,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "nero",
+        "color": "cristallo,nero",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -58580,7 +58580,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | nero : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,nero : 2"
     },
     {
         "supplier": "vistosi",
@@ -58598,7 +58598,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "mero",
+        "color": "cristallo,nero",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -58641,7 +58641,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | mero : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,nero : 2"
     },
     {
         "supplier": "vistosi",
@@ -59635,7 +59635,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -59678,7 +59678,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -59696,7 +59696,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -59739,7 +59739,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -60855,7 +60855,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -60898,7 +60898,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -60916,7 +60916,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -60959,7 +60959,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -60977,7 +60977,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "nero",
+        "color": "cristallo,nero",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -61020,7 +61020,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | nero : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,nero : 2"
     },
     {
         "supplier": "vistosi",
@@ -61038,7 +61038,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "nero",
+        "color": "cristallo,nero",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -61081,7 +61081,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | nero : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,nero : 2"
     },
     {
         "supplier": "vistosi",
@@ -61526,7 +61526,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -61569,7 +61569,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -61587,7 +61587,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -61630,7 +61630,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -61648,7 +61648,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "nero",
+        "color": "cristallo,ro",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -61691,7 +61691,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | nero : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,ro : 2"
     },
     {
         "supplier": "vistosi",
@@ -61709,7 +61709,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "nero",
+        "color": "cristallo,ro",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -61752,7 +61752,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | nero : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,ro : 2"
     },
     {
         "supplier": "vistosi",
@@ -62258,7 +62258,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "bianco",
+        "color": "cristallo,bianco",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -62301,7 +62301,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | bianco : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,bianco : 2"
     },
     {
         "supplier": "vistosi",
@@ -62319,7 +62319,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "bianco",
+        "color": "cristallo,bianco",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -62362,7 +62362,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | bianco : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,bianco : 2"
     },
     {
         "supplier": "vistosi",
@@ -62624,7 +62624,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -62667,7 +62667,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo : 2"
     },
     {
         "supplier": "vistosi",
@@ -62746,7 +62746,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "nero",
+        "color": "cristallo,nero",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -62789,7 +62789,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | nero : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,nero : 2"
     },
     {
         "supplier": "vistosi",
@@ -62807,7 +62807,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "nero",
+        "color": "cristallo,nero",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -62850,7 +62850,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | nero : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,nero : 2"
     },
     {
         "supplier": "vistosi",
@@ -62868,7 +62868,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,nichel,nero",
+        "color": "cristallo,nero",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -62911,7 +62911,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,nichel,nero : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,nero : 2"
     },
     {
         "supplier": "vistosi",
@@ -62929,7 +62929,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,nichel,nero",
+        "color": "cristallo,nero",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -62972,7 +62972,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,nichel,nero : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,nero : 2"
     },
     {
         "supplier": "vistosi",
@@ -63600,7 +63600,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "bianco",
+        "color": "cristallo,bianco",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -63643,7 +63643,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | bianco : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,bianco : 2"
     },
     {
         "supplier": "vistosi",
@@ -63661,7 +63661,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "bianco",
+        "color": "cristallo,bianco",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -63704,7 +63704,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | bianco : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,bianco : 2"
     },
     {
         "supplier": "vistosi",
@@ -63966,7 +63966,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -64009,7 +64009,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -64027,7 +64027,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -64070,7 +64070,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -64088,7 +64088,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "nero",
+        "color": "cristallo,ro",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -64131,7 +64131,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | nero : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,ro : 2"
     },
     {
         "supplier": "vistosi",
@@ -64149,7 +64149,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "nero",
+        "color": "cristallo,ro",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -64192,7 +64192,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | nero : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,ro : 2"
     },
     {
         "supplier": "vistosi",
@@ -64820,7 +64820,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "bianco",
+        "color": "cristallo,bianco",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -64863,7 +64863,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | bianco : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,bianco : 2"
     },
     {
         "supplier": "vistosi",
@@ -64881,7 +64881,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "bianco",
+        "color": "cristallo,bianco",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -64924,7 +64924,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | bianco : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,bianco : 2"
     },
     {
         "supplier": "vistosi",
@@ -65308,7 +65308,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "nero",
+        "color": "cristallo,nero",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -65351,7 +65351,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | nero : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,nero : 2"
     },
     {
         "supplier": "vistosi",
@@ -65369,7 +65369,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "nero",
+        "color": "cristallo,nero",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -65412,7 +65412,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | nero : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,nero : 2"
     },
     {
         "supplier": "vistosi",
@@ -65430,7 +65430,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,nichel,nero",
+        "color": "cristallo,nero",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -65473,7 +65473,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,nichel,nero : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,nero : 2"
     },
     {
         "supplier": "vistosi",
@@ -65491,7 +65491,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,nichel,nero",
+        "color": "cristallo,nero",
         "desc_it": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "desc_en": "La versione ridotta di Giogali, che permette di impiegare i ganci in cristallo per installazioni a parete di minori dimensioni, standard o su misura.",
         "dimmer": "no",
@@ -65534,7 +65534,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,nichel,nero : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,nero : 2"
     },
     {
         "supplier": "vistosi",
@@ -65796,7 +65796,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,cristall argento",
+        "color": "cristallo,argento",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -65851,7 +65851,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,cristall argento : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,argento : 2"
     },
     {
         "supplier": "vistosi",
@@ -65942,7 +65942,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "bianco",
+        "color": "cristallo,bianco",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -65997,7 +65997,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | bianco : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,bianco : 2"
     },
     {
         "supplier": "vistosi",
@@ -66088,7 +66088,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,trasparente",
+        "color": "cristallo,trasparante",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -66143,7 +66143,7 @@
         "variante": "finitura cromo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,trasparente : 2"
+        "values": "nuovo : 0 | finitura cromo : 1 | cristallo,trasparante : 2"
     },
     {
         "supplier": "vistosi",
@@ -66161,7 +66161,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,trasparente",
+        "color": "cristallo,trasparante",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -66216,7 +66216,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,trasparente : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,trasparante : 2"
     },
     {
         "supplier": "vistosi",
@@ -66234,7 +66234,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "cristallo,fume",
+        "color": "cristallo,fume'",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -66289,7 +66289,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,fume' : 2"
     },
     {
         "supplier": "vistosi",
@@ -66307,7 +66307,7 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "color": "nero",
+        "color": "cristallo,nero",
         "desc_it": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "desc_en": "Un sistema decorativo d'illuminazione basato sull'elemento del gancio di cristallo componibile. Disponibile in diversi colori, montabile in versione da tavolo, da soffitto, sospensione, da parete. Può essere impiegato in grandi lampadari e strutture di qualsiasi dimensione.",
         "dimmer": "no",
@@ -66362,7 +66362,7 @@
         "variante": "finitura bronzo",
         "features": "dimmer : no : 0 : 1 | led :  : 1 : 1 | halogen : no : 2 : 1 | screw :  : 3 : 1 | switcher : no : 4 : 1",
         "attributes": "stato : select : 0 | variante : radio : 1 | colore : select : 2",
-        "values": "nuovo : 0 | finitura bronzo : 1 | nero : 2"
+        "values": "nuovo : 0 | finitura bronzo : 1 | cristallo,nero : 2"
     },
     {
         "supplier": "vistosi",
