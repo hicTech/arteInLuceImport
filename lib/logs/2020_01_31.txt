@@ -440,3 +440,43 @@
 18:39:24: processo: https://pentalight.it/collezione/clash/ mancano: 34
 18:39:33: processo: https://pentalight.it/collezione/clip/ mancano: 33
 18:40:56: processo: https://pentalight.it/collezione/elisabeth/ mancano: 32
+18:52:13: PROCESSO: ../xls/diesel
+18:52:18: PROCESSO: ../xls/penta
+18:53:27: PROCESSO: ../xls/penta
+18:53:45: PROCESSO: ../xls/penta
+18:54:06: PROCESSO: ../xls/giarnieri
+18:54:06: Drop S3
+18:54:06: Drop S4
+18:54:06: Drop S5
+18:54:06: Drop S6
+18:54:06: Orione A125
+18:54:06: Orione A125
+18:54:06: Orione A125
+18:54:06: Orione A125
+18:54:06: Orione A300
+18:54:06: Orione A300
+18:54:06: Orione A300
+18:54:06: Orione A300
+18:54:06: Orione B
+18:54:06: Orione B
+18:54:06: Orione B
+18:54:06: Orione B
+18:54:06: Orione D
+18:54:06: Orione D
+18:54:06: Orione D
+18:54:06: Orione D
+18:55:14: processo: https://pentalight.it/collezione/acorn/ mancano: 41
+18:55:23: processo: https://pentalight.it/collezione/altura/ mancano: 40
+18:55:31: processo: https://pentalight.it/collezione/angolo/ mancano: 39
+18:55:42: processo: https://pentalight.it/collezione/aprile/ mancano: 38
+18:55:51: processo: https://pentalight.it/collezione/bag-outdoor/ mancano: 37
+18:56:00: processo: https://pentalight.it/collezione/chi/ mancano: 36
+18:56:07: processo: https://pentalight.it/collezione/china/ mancano: 35
+18:56:15: processo: https://pentalight.it/collezione/clash/ mancano: 34
+18:57:38: processo: https://pentalight.it/collezione/clip/ mancano: 33
+18:57:46: processo: https://pentalight.it/collezione/elisabeth/ mancano: 32
+18:57:53: processo: https://pentalight.it/collezione/enoki/ mancano: 31
+18:58:01: processo: https://pentalight.it/collezione/feel/ mancano: 30
+18:58:09: processo: https://pentalight.it/collezione/glifo/ mancano: 29
+18:58:18: processo: https://pentalight.it/collezione/glo/ mancano: 28
+18:59:41: processo: https://pentalight.it/collezione/hang-out/ mancano: 27
