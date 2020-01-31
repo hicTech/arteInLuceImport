@@ -1,0 +1,1986 @@
+[
+    {
+        "Prezzo": "540.00 €",
+        "Articolo": "ALLEN AL AB",
+        "Modello": "ALLEN AL AB",
+        "Colore": "Oro/Anticato bronzo",
+        "Nome": "Allen AL",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "460.00 €",
+        "Articolo": "ALLEN AL B",
+        "Modello": "ALLEN AL B",
+        "Colore": "bianco opaco",
+        "Nome": "Allen AL",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "540.00 €",
+        "Articolo": "ALLEN AL O",
+        "Modello": "ALLEN AL O",
+        "Colore": "Nero/oro opaco",
+        "Nome": "Allen AL",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "540.00 €",
+        "Articolo": "ALLEN AL P",
+        "Modello": "ALLEN AL P",
+        "Colore": "Grigio chiaro/piombo opaco",
+        "Nome": "Allen AL",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "374.00 €",
+        "Articolo": "ALLEN AM AB",
+        "Modello": "ALLEN AM AB",
+        "Colore": "Oro/Anticato bronzo",
+        "Nome": "Allen AM",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "320.00 €",
+        "Articolo": "ALLEN AM B",
+        "Modello": "ALLEN AM B",
+        "Colore": "bianco opaco",
+        "Nome": "Allen AM",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "374.00 €",
+        "Articolo": "ALLEN AM O",
+        "Modello": "ALLEN AM O",
+        "Colore": "Nero/oro opaco",
+        "Nome": "Allen AM",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "374.00 €",
+        "Articolo": "ALLEN AM P",
+        "Modello": "ALLEN AM P",
+        "Colore": "Grigio chiaro/piombo opaco",
+        "Nome": "Allen AM",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "224.00 €",
+        "Articolo": "ALLEN AS AB",
+        "Modello": "ALLEN AS AB",
+        "Colore": "Oro/Anticato bronzo",
+        "Nome": "Allen AS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "192.00 €",
+        "Articolo": "ALLEN AS B",
+        "Modello": "ALLEN AS B",
+        "Colore": "bianco opaco",
+        "Nome": "Allen AS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "224.00 €",
+        "Articolo": "ALLEN AS O",
+        "Modello": "ALLEN AS O",
+        "Colore": "Nero/oro opaco",
+        "Nome": "Allen AS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "224.00 €",
+        "Articolo": "ALLEN AS P",
+        "Modello": "ALLEN AS P",
+        "Colore": "Grigio chiaro/piombo opaco",
+        "Nome": "Allen AS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "140.00 €",
+        "Articolo": "BABOL A AA",
+        "Modello": "BABOL A AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Babol A",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "140.00 €",
+        "Articolo": "BABOL A AB",
+        "Modello": "BABOL A AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Babol A",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "104.00 €",
+        "Articolo": "BABOL A B",
+        "Modello": "BABOL A B",
+        "Colore": "bianco opaco",
+        "Nome": "Babol A",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "140.00 €",
+        "Articolo": "BABOL A O",
+        "Modello": "BABOL A O",
+        "Colore": "oro opaco",
+        "Nome": "Babol A",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "140.00 €",
+        "Articolo": "BABOL A P",
+        "Modello": "BABOL A P",
+        "Colore": "piombo opaco",
+        "Nome": "Babol A",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "104.00 €",
+        "Articolo": "BABOL A T",
+        "Modello": "BABOL A T",
+        "Colore": "tortora",
+        "Nome": "Babol A",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "220.00 €",
+        "Articolo": "BILDE PS B",
+        "Modello": "BILDE PS B",
+        "Colore": "bianco opaco",
+        "Nome": "Bilde PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "254.00 €",
+        "Articolo": "BILDE PS O",
+        "Modello": "BILDE PS O",
+        "Colore": "oro opaco",
+        "Nome": "Bilde PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "254.00 €",
+        "Articolo": "BILDE PS P",
+        "Modello": "BILDE PS P",
+        "Colore": "piombo opaco",
+        "Nome": "Bilde PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "460.00 €",
+        "Articolo": "BILDE PL B",
+        "Modello": "BILDE PL B",
+        "Colore": "bianco opaco",
+        "Nome": "Bilde PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "540.00 €",
+        "Articolo": "BILDE PL O",
+        "Modello": "BILDE PL O",
+        "Colore": "oro bianco",
+        "Nome": "Bilde PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "540.00 €",
+        "Articolo": "BILDE PL P",
+        "Modello": "BILDE PL P",
+        "Colore": "piombo opaco",
+        "Nome": "Bilde PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "270.00 €",
+        "Articolo": "BILDE PM B",
+        "Modello": "BILDE PM B",
+        "Colore": "bianco opaco",
+        "Nome": "Bilde PM",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "320.00 €",
+        "Articolo": "BILDE PM O",
+        "Modello": "BILDE PM O",
+        "Colore": "oro bianco",
+        "Nome": "Bilde PM",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "320.00 €",
+        "Articolo": "BILDE PM P",
+        "Modello": "BILDE PM P",
+        "Colore": "piombo opaco",
+        "Nome": "Bilde PM",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "280.00 €",
+        "Articolo": "BLOB A B",
+        "Modello": "BLOB A B",
+        "Colore": "bianco opaco",
+        "Nome": "Blob A",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "280.00 €",
+        "Articolo": "BLOB A N",
+        "Modello": "BLOB A N",
+        "Colore": "nero opaco",
+        "Nome": "Blob A",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "280.00 €",
+        "Articolo": "BLOB A T",
+        "Modello": "BLOB A T",
+        "Colore": "tortora",
+        "Nome": "Blob A",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "430.00 €",
+        "Articolo": "BLOB PS B",
+        "Modello": "BLOB PS B",
+        "Colore": "bianco opaco",
+        "Nome": "Blob PS",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "430.00 €",
+        "Articolo": "BLOB PS N",
+        "Modello": "BLOB PS N",
+        "Colore": "nero opaco",
+        "Nome": "Blob PS",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "430.00 €",
+        "Articolo": "BLOB PS T",
+        "Modello": "BLOB PS T",
+        "Colore": "tortora",
+        "Nome": "Blob PS",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "480.00 €",
+        "Articolo": "BLOB PL B",
+        "Modello": "BLOB PL B",
+        "Colore": "bianco opaco",
+        "Nome": "Blob PL",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "480.00 €",
+        "Articolo": "BLOB PL N",
+        "Modello": "BLOB PL N",
+        "Colore": "nero opaco",
+        "Nome": "Blob PL",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "480.00 €",
+        "Articolo": "BLOB PL T",
+        "Modello": "BLOB PL T",
+        "Colore": "tortora",
+        "Nome": "Blob PL",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "240.00 €",
+        "Articolo": "CORBA A AA",
+        "Modello": "CORBA A AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Corba A",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "240.00 €",
+        "Articolo": "CORBA A AB",
+        "Modello": "CORBA A AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Corba A",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "196.00 €",
+        "Articolo": "CORBA A B",
+        "Modello": "CORBA A B",
+        "Colore": "bianco opaco",
+        "Nome": "Corba A",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "240.00 €",
+        "Articolo": "CORBA A O",
+        "Modello": "CORBA A O",
+        "Colore": "oro opaco",
+        "Nome": "Corba A",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "240.00 €",
+        "Articolo": "CORBA A P",
+        "Modello": "CORBA A P",
+        "Colore": "piombo opaco",
+        "Nome": "Corba A",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "196.00 €",
+        "Articolo": "CORBA A T",
+        "Modello": "CORBA A T",
+        "Colore": "tortora",
+        "Nome": "Corba A",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "188.00 €",
+        "Articolo": "DROP A AA",
+        "Modello": "DROP A AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Drop A",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "188.00 €",
+        "Articolo": "DROP A AB",
+        "Modello": "DROP A AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Drop A",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "170.00 €",
+        "Articolo": "DROP A B",
+        "Modello": "DROP A B",
+        "Colore": "bianco opaco",
+        "Nome": "Drop A",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "188.00 €",
+        "Articolo": "DROP A O",
+        "Modello": "DROP A O",
+        "Colore": "oro opaco",
+        "Nome": "Drop A",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "170.00 €",
+        "Articolo": "DROP A T",
+        "Modello": "DROP A T",
+        "Colore": "tortora",
+        "Nome": "Drop A",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "432.00 €",
+        "Articolo": "DROP PM AA",
+        "Modello": "DROP PM AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Drop PM",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "432.00 €",
+        "Articolo": "DROP PM AB",
+        "Modello": "DROP PM AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Drop PM",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "390.00 €",
+        "Articolo": "DROP PM B",
+        "Modello": "DROP PM B",
+        "Colore": "bianco opaco",
+        "Nome": "Drop PM",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "432.00 €",
+        "Articolo": "DROP PM O",
+        "Modello": "DROP PM O",
+        "Colore": "oro opaco",
+        "Nome": "Drop PM",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "390.00 €",
+        "Articolo": "DROP PM T",
+        "Modello": "DROP PM T",
+        "Colore": "tortora",
+        "Nome": "Drop PM",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "432.00 €",
+        "Articolo": "DROP SM AA",
+        "Modello": "DROP SM AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Drop SM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "432.00 €",
+        "Articolo": "DROP SM AB",
+        "Modello": "DROP SM AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Drop SM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "390.00 €",
+        "Articolo": "DROP SM B",
+        "Modello": "DROP SM B",
+        "Colore": "bianco opaco",
+        "Nome": "Drop SM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "432.00 €",
+        "Articolo": "DROP SM O",
+        "Modello": "DROP SM O",
+        "Colore": "oro opaco",
+        "Nome": "Drop SM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "390.00 €",
+        "Articolo": "DROP SM T",
+        "Modello": "DROP SM T",
+        "Colore": "tortora",
+        "Nome": "Drop SM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "720.00 €",
+        "Articolo": "DROP S2 MINI AA",
+        "Modello": "DROP S2 MINI AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Drop S2 Mini",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "720.00 €",
+        "Articolo": "DROP S2 MINI AB",
+        "Modello": "DROP S2 MINI AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Drop S2 Mini",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "650.00 €",
+        "Articolo": "DROP S2 MINI B",
+        "Modello": "DROP S2 MINI B",
+        "Colore": "bianco opaco",
+        "Nome": "Drop S2 Mini",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "720.00 €",
+        "Articolo": "DROP S2 MINI O",
+        "Modello": "DROP S2 MINI O",
+        "Colore": "oro opaco",
+        "Nome": "Drop S2 Mini",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "650.00 €",
+        "Articolo": "DROP S2 MINI T",
+        "Modello": "DROP S2 MINI T",
+        "Colore": "tortora",
+        "Nome": "Drop S2 Mini",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "1,064.00 €",
+        "Articolo": "DROP S2 AA",
+        "Modello": "DROP S2 AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Drop S2",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "1,064.00 €",
+        "Articolo": "DROP S2 AB",
+        "Modello": "DROP S2 AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Drop S3",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "960.00 €",
+        "Articolo": "DROP S2 B",
+        "Modello": "DROP S2 B",
+        "Colore": "bianco opaco",
+        "Nome": "Drop S4",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "1,064.00 €",
+        "Articolo": "DROP S2 O",
+        "Modello": "DROP S2 O",
+        "Colore": "oro opaco",
+        "Nome": "Drop S5",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "960.00 €",
+        "Articolo": "DROP S2 T",
+        "Modello": "DROP S2 T",
+        "Colore": "tortora",
+        "Nome": "Drop S6",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "200.00 €",
+        "Articolo": "KAMAK AL B",
+        "Modello": "KAMAK AL B",
+        "Colore": "bianco opaco",
+        "Nome": "Kamak AL",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "222.00 €",
+        "Articolo": "KAMAK AL T",
+        "Modello": "KAMAK AL T",
+        "Colore": "tortora",
+        "Nome": "Kamak AL",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "170.00 €",
+        "Articolo": "KAMAK AS B",
+        "Modello": "KAMAK AS B",
+        "Colore": "bianco opaco",
+        "Nome": "Kamak AS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "186.00 €",
+        "Articolo": "KAMAK AS T",
+        "Modello": "KAMAK AS T",
+        "Colore": "tortora",
+        "Nome": "Kamak AS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "388.00 €",
+        "Articolo": "MIKADO AL AA",
+        "Modello": "MIKADO AL AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Mikado AL",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "388.00 €",
+        "Articolo": "MIKADO AL AB",
+        "Modello": "MIKADO AL AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Mikado AL",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "348.00 €",
+        "Articolo": "MIKADO AL B",
+        "Modello": "MIKADO AL B",
+        "Colore": "bianco opaco",
+        "Nome": "Mikado AL",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "348.00 €",
+        "Articolo": "MIKADO AL T",
+        "Modello": "MIKADO AL T",
+        "Colore": "tortora",
+        "Nome": "Mikado AL",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "235.00 €",
+        "Articolo": "MIKADO AS AA",
+        "Modello": "MIKADO AS AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Mikado AS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "235.00 €",
+        "Articolo": "MIKADO AS AB",
+        "Modello": "MIKADO AS AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Mikado AS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "210.00 €",
+        "Articolo": "MIKADO AS B",
+        "Modello": "MIKADO AS B",
+        "Colore": "bianco opaco",
+        "Nome": "Mikado AS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "210.00 €",
+        "Articolo": "MIKADO AS T",
+        "Modello": "MIKADO AS T",
+        "Colore": "tortora",
+        "Nome": "Mikado AS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "780.00 €",
+        "Articolo": "MIKADO PL AA",
+        "Modello": "MIKADO PL AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Mikado PL",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "780.00 €",
+        "Articolo": "MIKADO PL AB",
+        "Modello": "MIKADO PL AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Mikado PL",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "698.00 €",
+        "Articolo": "MIKADO PL B",
+        "Modello": "MIKADO PL B",
+        "Colore": "bianco opaco",
+        "Nome": "Mikado PL",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "698.00 €",
+        "Articolo": "MIKADO PL T",
+        "Modello": "MIKADO PL T",
+        "Colore": "tortora",
+        "Nome": "Mikado PL",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "600.00 €",
+        "Articolo": "MIKADO PM AA",
+        "Modello": "MIKADO PM AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Mikado PM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "600.00 €",
+        "Articolo": "MIKADO PM AB",
+        "Modello": "MIKADO PM AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Mikado PM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "540.00 €",
+        "Articolo": "MIKADO PM B",
+        "Modello": "MIKADO PM B",
+        "Colore": "bianco opaco",
+        "Nome": "Mikado PM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "540.00 €",
+        "Articolo": "MIKADO PM T",
+        "Modello": "MIKADO PM T",
+        "Colore": "tortora",
+        "Nome": "Mikado PM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "464.00 €",
+        "Articolo": "MIKADO PS AA",
+        "Modello": "MIKADO PS AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Mikado PS",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "464.00 €",
+        "Articolo": "MIKADO PS AB",
+        "Modello": "MIKADO PS AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Mikado PS",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "420.00 €",
+        "Articolo": "MIKADO PS B",
+        "Modello": "MIKADO PS B",
+        "Colore": "bianco opaco",
+        "Nome": "Mikado PS",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "420.00 €",
+        "Articolo": "MIKADO PS T",
+        "Modello": "MIKADO PS T",
+        "Colore": "tortora",
+        "Nome": "Mikado PS",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "150.00 €",
+        "Articolo": "ORIONE A125 B",
+        "Modello": "ORIONE A125 B",
+        "Colore": "bianco opaco",
+        "Nome": "Orione A125",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "174.00 €",
+        "Articolo": "ORIONE A125 O",
+        "Modello": "ORIONE A125 O",
+        "Colore": "oro opaco",
+        "Nome": "Orione A125",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "174.00 €",
+        "Articolo": "ORIONE A125 P",
+        "Modello": "ORIONE A125 P",
+        "Colore": "piombo opaco",
+        "Nome": "Orione A125",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "150.00 €",
+        "Articolo": "ORIONE A125 T",
+        "Modello": "ORIONE A125 T",
+        "Colore": "tortora",
+        "Nome": "Orione A125",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "160.00 €",
+        "Articolo": "ORIONE A300 B",
+        "Modello": "ORIONE A300 B",
+        "Colore": "bianco opaco",
+        "Nome": "Orione A300",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "184.00 €",
+        "Articolo": "ORIONE A300 O",
+        "Modello": "ORIONE A300 O",
+        "Colore": "oro opaco",
+        "Nome": "Orione A300",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "184.00 €",
+        "Articolo": "ORIONE A300 P",
+        "Modello": "ORIONE A300 P",
+        "Colore": "piombo opaco",
+        "Nome": "Orione A300",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "160.00 €",
+        "Articolo": "ORIONE A300 T",
+        "Modello": "ORIONE A300 T",
+        "Colore": "tortora",
+        "Nome": "Orione A300",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "110.00 €",
+        "Articolo": "ORIONE B B",
+        "Modello": "ORIONE B B",
+        "Colore": "bianco opaco",
+        "Nome": "Orione B",
+        "Categoria": "parete,accessorio"
+    },
+    {
+        "Prezzo": "120.00 €",
+        "Articolo": "ORIONE B O",
+        "Modello": "ORIONE B O",
+        "Colore": "oro opaco",
+        "Nome": "Orione B",
+        "Categoria": "parete,accessorio"
+    },
+    {
+        "Prezzo": "120.00 €",
+        "Articolo": "ORIONE B P",
+        "Modello": "ORIONE B P",
+        "Colore": "piombo opaco",
+        "Nome": "Orione B",
+        "Categoria": "parete,accessorio"
+    },
+    {
+        "Prezzo": "110.00 €",
+        "Articolo": "ORIONE B T",
+        "Modello": "ORIONE B T",
+        "Colore": "tortora",
+        "Nome": "Orione B",
+        "Categoria": "parete,accessorio"
+    },
+    {
+        "Prezzo": "26.00 €",
+        "Articolo": "ORIONE D B",
+        "Modello": "ORIONE D B",
+        "Colore": "bianco opaco",
+        "Nome": "Orione D",
+        "Categoria": "parete,accessorio"
+    },
+    {
+        "Prezzo": "32.00 €",
+        "Articolo": "ORIONE D O",
+        "Modello": "ORIONE D O",
+        "Colore": "oro opaco",
+        "Nome": "Orione D",
+        "Categoria": "parete,accessorio"
+    },
+    {
+        "Prezzo": "32.00 €",
+        "Articolo": "ORIONE D P",
+        "Modello": "ORIONE D P",
+        "Colore": "piombo opaco",
+        "Nome": "Orione D",
+        "Categoria": "parete,accessorio"
+    },
+    {
+        "Prezzo": "26.00 €",
+        "Articolo": "ORIONE D T",
+        "Modello": "ORIONE D T",
+        "Colore": "tortora",
+        "Nome": "Orione D",
+        "Categoria": "parete,accessorio"
+    },
+    {
+        "Prezzo": "612.00 €",
+        "Articolo": "PIXEL PL AA",
+        "Modello": "PIXEL PL AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Pixel PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "612.00 €",
+        "Articolo": "PIXEL PL AB",
+        "Modello": "PIXEL PL AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Pixel PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "520.00 €",
+        "Articolo": "PIXEL PL B",
+        "Modello": "PIXEL PL B",
+        "Colore": "bianco opaco",
+        "Nome": "Pixel PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "612.00 €",
+        "Articolo": "PIXEL PL P",
+        "Modello": "PIXEL PL P",
+        "Colore": "piombo opaco",
+        "Nome": "Pixel PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "520.00 €",
+        "Articolo": "PIXEL PL T",
+        "Modello": "PIXEL PL T",
+        "Colore": "tortora",
+        "Nome": "Pixel PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "354.00 €",
+        "Articolo": "PIXEL PM AA",
+        "Modello": "PIXEL PM AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Pixel PM",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "354.00 €",
+        "Articolo": "PIXEL PM AB",
+        "Modello": "PIXEL PM AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Pixel PM",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "300.00 €",
+        "Articolo": "PIXEL PM B",
+        "Modello": "PIXEL PM B",
+        "Colore": "bianco opaco",
+        "Nome": "Pixel PM",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "354.00 €",
+        "Articolo": "PIXEL PM P",
+        "Modello": "PIXEL PM P",
+        "Colore": "piombo opaco",
+        "Nome": "Pixel PM",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "300.00 €",
+        "Articolo": "PIXEL PM T",
+        "Modello": "PIXEL PM T",
+        "Colore": "tortora",
+        "Nome": "Pixel PM",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "280.00 €",
+        "Articolo": "PIXEL PS AA",
+        "Modello": "PIXEL PS AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Pixel PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "280.00 €",
+        "Articolo": "PIXEL PS AB",
+        "Modello": "PIXEL PS AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Pixel PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "240.00 €",
+        "Articolo": "PIXEL PS B",
+        "Modello": "PIXEL PS B",
+        "Colore": "bianco opaco",
+        "Nome": "Pixel PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "280.00 €",
+        "Articolo": "PIXEL PS P",
+        "Modello": "PIXEL PS P",
+        "Colore": "piombo opaco",
+        "Nome": "Pixel PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "240.00 €",
+        "Articolo": "PIXEL PS T",
+        "Modello": "PIXEL PS T",
+        "Colore": "tortora",
+        "Nome": "Pixel PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "604.00 €",
+        "Articolo": "PIXEL R PM AA",
+        "Modello": "PIXEL R PM AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Pixel R PM",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "604.00 €",
+        "Articolo": "PIXEL R PM AB",
+        "Modello": "PIXEL R PM AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Pixel R PM",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "546.00 €",
+        "Articolo": "PIXEL R PM B",
+        "Modello": "PIXEL R PM B",
+        "Colore": "bianco opaco",
+        "Nome": "Pixel R PM",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "604.00 €",
+        "Articolo": "PIXEL R PM P",
+        "Modello": "PIXEL R PM P",
+        "Colore": "piombo opaco",
+        "Nome": "Pixel R PM",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "546.00 €",
+        "Articolo": "PIXEL R PM T",
+        "Modello": "PIXEL R PM T",
+        "Colore": "tortora",
+        "Nome": "Pixel R PM",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "386.00 €",
+        "Articolo": "PIXEL R PS AA",
+        "Modello": "PIXEL R PS AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Pixel R PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "386.00 €",
+        "Articolo": "PIXEL R PS AB",
+        "Modello": "PIXEL R PS AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Pixel R PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "348.00 €",
+        "Articolo": "PIXEL R PS B",
+        "Modello": "PIXEL R PS B",
+        "Colore": "bianco opaco",
+        "Nome": "Pixel R PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "386.00 €",
+        "Articolo": "PIXEL R PS P",
+        "Modello": "PIXEL R PS P",
+        "Colore": "piombo opaco",
+        "Nome": "Pixel R PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "348.00 €",
+        "Articolo": "PIXEL R PS T",
+        "Modello": "PIXEL R PS T",
+        "Colore": "tortora",
+        "Nome": "Pixel R PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "464.00 €",
+        "Articolo": "RAKE AL AA",
+        "Modello": "RAKE AL AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Rake AL",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "430.00 €",
+        "Articolo": "RAKE AL B",
+        "Modello": "RAKE AL B",
+        "Colore": "bianco opaco",
+        "Nome": "Rake AL",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "430.00 €",
+        "Articolo": "RAKE AL N",
+        "Modello": "RAKE AL N",
+        "Colore": "nero opaco",
+        "Nome": "Rake AL",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "464.00 €",
+        "Articolo": "RAKE AL O",
+        "Modello": "RAKE AL O",
+        "Colore": "oro opaco",
+        "Nome": "Rake AL",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "430.00 €",
+        "Articolo": "RAKE AL T",
+        "Modello": "RAKE AL T",
+        "Colore": "tortora",
+        "Nome": "Rake AL",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "840.00 €",
+        "Articolo": "RAKE AXL AA",
+        "Modello": "RAKE AXL AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Rake AXL",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "780.00 €",
+        "Articolo": "RAKE AXL B",
+        "Modello": "RAKE AXL B",
+        "Colore": "bianco opaco",
+        "Nome": "Rake AXL",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "780.00 €",
+        "Articolo": "RAKE AXL N",
+        "Modello": "RAKE AXL N",
+        "Colore": "nero opaco",
+        "Nome": "Rake AXL",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "840.00 €",
+        "Articolo": "RAKE AXL O",
+        "Modello": "RAKE AXL O",
+        "Colore": "oro opaco",
+        "Nome": "Rake AXL",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "780.00 €",
+        "Articolo": "RAKE AXL T",
+        "Modello": "RAKE AXL T",
+        "Colore": "tortora",
+        "Nome": "Rake AXL",
+        "Categoria": "parete/soffitto"
+    },
+    {
+        "Prezzo": "248.00 €",
+        "Articolo": "RAKE AXS AA",
+        "Modello": "RAKE AXS AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Rake AXS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "230.00 €",
+        "Articolo": "RAKE AXS B",
+        "Modello": "RAKE AXS B",
+        "Colore": "bianco opaco",
+        "Nome": "Rake AXS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "230.00 €",
+        "Articolo": "RAKE AXS N",
+        "Modello": "RAKE AXS N",
+        "Colore": "nero opaco",
+        "Nome": "Rake AXS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "248.00 €",
+        "Articolo": "RAKE AXS O",
+        "Modello": "RAKE AXS O",
+        "Colore": "oro opaco",
+        "Nome": "Rake AXS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "230.00 €",
+        "Articolo": "RAKE AXS T",
+        "Modello": "RAKE AXS T",
+        "Colore": "tortora",
+        "Nome": "Rake AXS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "290.00 €",
+        "Articolo": "RAKE AS AA",
+        "Modello": "RAKE AS AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Rake AS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "270.00 €",
+        "Articolo": "RAKE AS B",
+        "Modello": "RAKE AS B",
+        "Colore": "bianco opaco",
+        "Nome": "Rake AS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "270.00 €",
+        "Articolo": "RAKE AS N",
+        "Modello": "RAKE AS N",
+        "Colore": "nero opaco",
+        "Nome": "Rake AS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "290.00 €",
+        "Articolo": "RAKE AS O",
+        "Modello": "RAKE AS O",
+        "Colore": "oro opaco",
+        "Nome": "Rake AS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "270.00 €",
+        "Articolo": "RAKE AS T",
+        "Modello": "RAKE AS T",
+        "Colore": "tortora",
+        "Nome": "Rake AS",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "345.00 €",
+        "Articolo": "RAKE AM AA",
+        "Modello": "RAKE AM AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Rake AM",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "320.00 €",
+        "Articolo": "RAKE AM B",
+        "Modello": "RAKE AM B",
+        "Colore": "bianco opaco",
+        "Nome": "Rake AM",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "320.00 €",
+        "Articolo": "RAKE AM N",
+        "Modello": "RAKE AM N",
+        "Colore": "nero opaco",
+        "Nome": "Rake AM",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "345.00 €",
+        "Articolo": "RAKE AM O",
+        "Modello": "RAKE AM O",
+        "Colore": "oro opaco",
+        "Nome": "Rake AM",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "320.00 €",
+        "Articolo": "RAKE AM T",
+        "Modello": "RAKE AM T",
+        "Colore": "tortora",
+        "Nome": "Rake AM",
+        "Categoria": "parete"
+    },
+    {
+        "Prezzo": "320.00 €",
+        "Articolo": "REVIEW PS B",
+        "Modello": "REVIEW PS B",
+        "Colore": "bianco opaco",
+        "Nome": "Review PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "430.00 €",
+        "Articolo": "REVIEW PM B",
+        "Modello": "REVIEW PM B",
+        "Colore": "bianco opaco",
+        "Nome": "Review PM",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "780.00 €",
+        "Articolo": "REVIEW PL B",
+        "Modello": "REVIEW PL B",
+        "Colore": "bianco opaco",
+        "Nome": "Review PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "506.00 €",
+        "Articolo": "SPOKE Q PL B",
+        "Modello": "SPOKE Q PL B",
+        "Colore": "bianco opaco",
+        "Nome": "Spoke Q PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "620.00 €",
+        "Articolo": "SPOKE Q PL O",
+        "Modello": "SPOKE Q PL O",
+        "Colore": "oro opaco",
+        "Nome": "Spoke Q PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "620.00 €",
+        "Articolo": "SPOKE Q PL P",
+        "Modello": "SPOKE Q PL P",
+        "Colore": "piombo opaco",
+        "Nome": "Spoke Q PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "506.00 €",
+        "Articolo": "SPOKE Q PL T",
+        "Modello": "SPOKE Q PL T",
+        "Colore": "tortora",
+        "Nome": "Spoke Q PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "360.00 €",
+        "Articolo": "SPOKE Q PS B",
+        "Modello": "SPOKE Q PS B",
+        "Colore": "bianco opaco",
+        "Nome": "Spoke Q PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "440.00 €",
+        "Articolo": "SPOKE Q PS O",
+        "Modello": "SPOKE Q PS O",
+        "Colore": "oro opaco",
+        "Nome": "Spoke Q PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "440.00 €",
+        "Articolo": "SPOKE Q PS P",
+        "Modello": "SPOKE Q PS P",
+        "Colore": "piombo opaco",
+        "Nome": "Spoke Q PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "360.00 €",
+        "Articolo": "SPOKE Q PS T",
+        "Modello": "SPOKE Q PS T",
+        "Colore": "tortora",
+        "Nome": "Spoke Q PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "506.00 €",
+        "Articolo": "SPOKE Q SL B",
+        "Modello": "SPOKE Q SL B",
+        "Colore": "bianco opaco",
+        "Nome": "Spoke Q SL",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "620.00 €",
+        "Articolo": "SPOKE Q SL N",
+        "Modello": "SPOKE Q SL N",
+        "Colore": "nero opaco",
+        "Nome": "Spoke Q SL",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "620.00 €",
+        "Articolo": "SPOKE Q SL P",
+        "Modello": "SPOKE Q SL P",
+        "Colore": "piombo opaco",
+        "Nome": "Spoke Q SL",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "506.00 €",
+        "Articolo": "SPOKE Q SL T",
+        "Modello": "SPOKE Q SL T",
+        "Colore": "tortora",
+        "Nome": "Spoke Q SL",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "360.00 €",
+        "Articolo": "SPOKE Q SS B",
+        "Modello": "SPOKE Q SS B",
+        "Colore": "bianco opaco",
+        "Nome": "Spoke Q SS",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "440.00 €",
+        "Articolo": "SPOKE Q SS N",
+        "Modello": "SPOKE Q SS N",
+        "Colore": "nero opaco",
+        "Nome": "Spoke Q SS",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "440.00 €",
+        "Articolo": "SPOKE Q SS P",
+        "Modello": "SPOKE Q SS P",
+        "Colore": "piombo opaco",
+        "Nome": "Spoke Q SS",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "360.00 €",
+        "Articolo": "SPOKE Q SS T",
+        "Modello": "SPOKE Q SS T",
+        "Colore": "tortora",
+        "Nome": "Spoke Q SS",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "460.00 €",
+        "Articolo": "SPOKE T PL B",
+        "Modello": "SPOKE T PL B",
+        "Colore": "bianco opaco",
+        "Nome": "Spoke T PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "560.00 €",
+        "Articolo": "SPOKE T PL O",
+        "Modello": "SPOKE T PL O",
+        "Colore": "oro opaco",
+        "Nome": "Spoke T PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "560.00 €",
+        "Articolo": "SPOKE T PL P",
+        "Modello": "SPOKE T PL P",
+        "Colore": "piombo opaco",
+        "Nome": "Spoke T PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "460.00 €",
+        "Articolo": "SPOKE T PL T",
+        "Modello": "SPOKE T PL T",
+        "Colore": "tortora",
+        "Nome": "Spoke T PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "340.00 €",
+        "Articolo": "SPOKE T PS B",
+        "Modello": "SPOKE T PS B",
+        "Colore": "bianco opaco",
+        "Nome": "Spoke T PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "414.00 €",
+        "Articolo": "SPOKE T PS O",
+        "Modello": "SPOKE T PS O",
+        "Colore": "oro opaco",
+        "Nome": "Spoke T PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "414.00 €",
+        "Articolo": "SPOKE T PS P",
+        "Modello": "SPOKE T PS P",
+        "Colore": "piombo opaco",
+        "Nome": "Spoke T PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "340.00 €",
+        "Articolo": "SPOKE T PS T",
+        "Modello": "SPOKE T PS T",
+        "Colore": "tortora",
+        "Nome": "Spoke T PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "460.00 €",
+        "Articolo": "SPOKE T SL B",
+        "Modello": "SPOKE T SL B",
+        "Colore": "bianco opaco",
+        "Nome": "Spoke T SL",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "560.00 €",
+        "Articolo": "SPOKE T SL O",
+        "Modello": "SPOKE T SL O",
+        "Colore": "oro opaco",
+        "Nome": "Spoke T SL",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "560.00 €",
+        "Articolo": "SPOKE T SL P",
+        "Modello": "SPOKE T SL P",
+        "Colore": "piombo opaco",
+        "Nome": "Spoke T SL",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "460.00 €",
+        "Articolo": "SPOKE T SL T",
+        "Modello": "SPOKE T SL T",
+        "Colore": "tortora",
+        "Nome": "Spoke T SL",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "340.00 €",
+        "Articolo": "SPOKE T SS B",
+        "Modello": "SPOKE T SS B",
+        "Colore": "bianco opaco",
+        "Nome": "Spoke T SS",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "414.00 €",
+        "Articolo": "SPOKE T SS O",
+        "Modello": "SPOKE T SS O",
+        "Colore": "oro opaco",
+        "Nome": "Spoke T SS",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "414.00 €",
+        "Articolo": "SPOKE T SS P",
+        "Modello": "SPOKE T SS P",
+        "Colore": "piombo opaco",
+        "Nome": "Spoke T SS",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "340.00 €",
+        "Articolo": "SPOKE T SS T",
+        "Modello": "SPOKE T SS T",
+        "Colore": "tortora",
+        "Nome": "Spoke T SS",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "292.00 €",
+        "Articolo": "STEP AL AA",
+        "Modello": "STEP AL AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Step AL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "292.00 €",
+        "Articolo": "STEP AL AB",
+        "Modello": "STEP AL AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Step AL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "254.00 €",
+        "Articolo": "STEP AL B",
+        "Modello": "STEP AL B",
+        "Colore": "bianco opaco",
+        "Nome": "Step AL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "254.00 €",
+        "Articolo": "STEP AL N",
+        "Modello": "STEP AL N",
+        "Colore": "nero opaco",
+        "Nome": "Step AL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "292.00 €",
+        "Articolo": "STEP AL O",
+        "Modello": "STEP AL O",
+        "Colore": "oro opaco",
+        "Nome": "Step AL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "254.00 €",
+        "Articolo": "STEP AL T",
+        "Modello": "STEP AL T",
+        "Colore": "tortora",
+        "Nome": "Step AL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "162.00 €",
+        "Articolo": "STEP AS AA",
+        "Modello": "STEP AS AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Step AS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "162.00 €",
+        "Articolo": "STEP AS AB",
+        "Modello": "STEP AS AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Step AS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "140.00 €",
+        "Articolo": "STEP AS B",
+        "Modello": "STEP AS B",
+        "Colore": "bianco opaco",
+        "Nome": "Step AS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "140.00 €",
+        "Articolo": "STEP AS N",
+        "Modello": "STEP AS N",
+        "Colore": "nero opaco",
+        "Nome": "Step AS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "162.00 €",
+        "Articolo": "STEP AS O",
+        "Modello": "STEP AS O",
+        "Colore": "oro opaco",
+        "Nome": "Step AS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "140.00 €",
+        "Articolo": "STEP AS T",
+        "Modello": "STEP AS T",
+        "Colore": "tortora",
+        "Nome": "Step AS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "496.00 €",
+        "Articolo": "STEP PM AA",
+        "Modello": "STEP PM AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Step PM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "496.00 €",
+        "Articolo": "STEP PM AB",
+        "Modello": "STEP PM AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Step PM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "430.00 €",
+        "Articolo": "STEP PM B",
+        "Modello": "STEP PM B",
+        "Colore": "bianco opaco",
+        "Nome": "Step PM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "430.00 €",
+        "Articolo": "STEP PM N",
+        "Modello": "STEP PM N",
+        "Colore": "nero opaco",
+        "Nome": "Step PM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "496.00 €",
+        "Articolo": "STEP PM O",
+        "Modello": "STEP PM O",
+        "Colore": "oro opaco",
+        "Nome": "Step PM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "430.00 €",
+        "Articolo": "STEP PM T",
+        "Modello": "STEP PM T",
+        "Colore": "tortora",
+        "Nome": "Step PM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "392.00 €",
+        "Articolo": "STEP PS AA",
+        "Modello": "STEP PS AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Step PS",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "392.00 €",
+        "Articolo": "STEP PS AB",
+        "Modello": "STEP PS AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Step PS",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "340.00 €",
+        "Articolo": "STEP PS B",
+        "Modello": "STEP PS B",
+        "Colore": "bianco opaco",
+        "Nome": "Step PS",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "340.00 €",
+        "Articolo": "STEP PS N",
+        "Modello": "STEP PS N",
+        "Colore": "nero opaco",
+        "Nome": "Step PS",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "392.00 €",
+        "Articolo": "STEP PS O",
+        "Modello": "STEP PS O",
+        "Colore": "oro opaco",
+        "Nome": "Step PS",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "340.00 €",
+        "Articolo": "STEP PS T",
+        "Modello": "STEP PS T",
+        "Colore": "tortora",
+        "Nome": "Step PS",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "580.00 €",
+        "Articolo": "SURF PL AA",
+        "Modello": "SURF PL AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Surf PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "580.00 €",
+        "Articolo": "SURF PL AB",
+        "Modello": "SURF PL AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Surf PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "480.00 €",
+        "Articolo": "SURF PL B",
+        "Modello": "SURF PL B",
+        "Colore": "bianco opaco",
+        "Nome": "Surf PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "580.00 €",
+        "Articolo": "SURF PL P",
+        "Modello": "SURF PL P",
+        "Colore": "piombo opaco",
+        "Nome": "Surf PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "480.00 €",
+        "Articolo": "SURF PL T",
+        "Modello": "SURF PL T",
+        "Colore": "tortora",
+        "Nome": "Surf PL",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "430.00 €",
+        "Articolo": "SURF PM AA",
+        "Modello": "SURF PM AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Surf PM",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "430.00 €",
+        "Articolo": "SURF PM AB",
+        "Modello": "SURF PM AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Surf PM",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "360.00 €",
+        "Articolo": "SURF PM B",
+        "Modello": "SURF PM B",
+        "Colore": "bianco opaco",
+        "Nome": "Surf PM",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "430.00 €",
+        "Articolo": "SURF PM P",
+        "Modello": "SURF PM P",
+        "Colore": "piombo opaco",
+        "Nome": "Surf PM",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "360.00 €",
+        "Articolo": "SURF PM T",
+        "Modello": "SURF PM T",
+        "Colore": "tortora",
+        "Nome": "Surf PM",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "316.00 €",
+        "Articolo": "SURF PS AA",
+        "Modello": "SURF PS AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Surf PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "316.00 €",
+        "Articolo": "SURF PS AB",
+        "Modello": "SURF PS AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Surf PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "260.00 €",
+        "Articolo": "SURF PS B",
+        "Modello": "SURF PS B",
+        "Colore": "bianco opaco",
+        "Nome": "Surf PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "316.00 €",
+        "Articolo": "SURF PS P",
+        "Modello": "SURF PS P",
+        "Colore": "piombo opaco",
+        "Nome": "Surf PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "260.00 €",
+        "Articolo": "SURF PS T",
+        "Modello": "SURF PS T",
+        "Colore": "tortora",
+        "Nome": "Surf PS",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "628.00 €",
+        "Articolo": "SURF SL AA",
+        "Modello": "SURF SL AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Surf SL",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "628.00 €",
+        "Articolo": "SURF SL AB",
+        "Modello": "SURF SL AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Surf SL",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "520.00 €",
+        "Articolo": "SURF SL B",
+        "Modello": "SURF SL B",
+        "Colore": "bianco opaco",
+        "Nome": "Surf SL",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "628.00 €",
+        "Articolo": "SURF SL P",
+        "Modello": "SURF SL P",
+        "Colore": "piombo opaco",
+        "Nome": "Surf SL",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "520.00 €",
+        "Articolo": "SURF SL T",
+        "Modello": "SURF SL T",
+        "Colore": "tortora",
+        "Nome": "Surf SL",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "506.00 €",
+        "Articolo": "SURF SM AA",
+        "Modello": "SURF SM AA",
+        "Colore": "anticato acciaio",
+        "Nome": "Surf SM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "506.00 €",
+        "Articolo": "SURF SM AB",
+        "Modello": "SURF SM AB",
+        "Colore": "anticato bronzo",
+        "Nome": "Surf SM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "420.00 €",
+        "Articolo": "SURF SM B",
+        "Modello": "SURF SM B",
+        "Colore": "bianco opaco",
+        "Nome": "Surf SM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "506.00 €",
+        "Articolo": "SURF SM P",
+        "Modello": "SURF SM P",
+        "Colore": "piombo opaco",
+        "Nome": "Surf SM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "420.00 €",
+        "Articolo": "SURF SM T",
+        "Modello": "SURF SM T",
+        "Colore": "tortora",
+        "Nome": "Surf SM",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "480.00 €",
+        "Articolo": "TILT S B",
+        "Modello": "TILT S B",
+        "Colore": "bianco opaco",
+        "Nome": "Tilt S",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "580.00 €",
+        "Articolo": "TILT S O",
+        "Modello": "TILT S O",
+        "Colore": "oro opaco",
+        "Nome": "Tilt S",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "580.00 €",
+        "Articolo": "TILT S P",
+        "Modello": "TILT S P",
+        "Colore": "piombo opaco",
+        "Nome": "Tilt S",
+        "Categoria": "Sospensione"
+    },
+    {
+        "Prezzo": "196.00 €",
+        "Articolo": "WOW A B",
+        "Modello": "WOW A B",
+        "Colore": "bianco opaco",
+        "Nome": "Wow A",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "240.00 €",
+        "Articolo": "WOW A O",
+        "Modello": "WOW A O",
+        "Colore": "oro opaco",
+        "Nome": "Wow A",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "240.00 €",
+        "Articolo": "WOW A P",
+        "Modello": "WOW A P",
+        "Colore": "piombo opaco",
+        "Nome": "Wow A",
+        "Categoria": "soffitto"
+    },
+    {
+        "Prezzo": "196.00 €",
+        "Articolo": "WOW A T",
+        "Modello": "WOW A T",
+        "Colore": "tortora",
+        "Nome": "Wow A",
+        "Categoria": "soffitto"
+    }
+]

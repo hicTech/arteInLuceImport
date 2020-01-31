@@ -1,0 +1,939 @@
+[
+    {
+        "name": "Allen AL",
+        "prod_pic": "https://www.giarnierilight.com/file/allen_AL_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/allen-al/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/allen_AL_ambientata_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/allen_gruppo_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/allen_particolare_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/allen_AL.png",
+        "description": "\n\tLampada con struttura in alluminio estruso, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco/bianco opaco, grigio chiaro/piombo opaco,<br>\n\tnero/oro opaco ed oro/anticato bronzo.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Allen AM",
+        "prod_pic": "https://www.giarnierilight.com/file/allen_AM_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/allen-am/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/allen_gruppo_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/allen_particolare_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/allen_AM.png",
+        "description": "\n\tLampada con struttura in alluminio estruso, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco/bianco opaco, grigio chiaro/piombo opaco,<br>\n\tnero/oro opaco ed oro/anticato bronzo.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Allen AS",
+        "prod_pic": "https://www.giarnierilight.com/file/allen_AS_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/allen-as/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/allen_AS_ambientata_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/allen_gruppo_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/allen_particolare_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/allen_AS.png",
+        "description": "\n\tLampada con struttura in alluminio estruso, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco/bianco opaco, grigio chiaro/piombo opaco,<br>\n\tnero/oro opaco ed oro/anticato bronzo.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Aster E3",
+        "prod_pic": "https://www.giarnierilight.com/file/aster_E3_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/aster-e3/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/aster_ambientata_02_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/aster_E3_gruppo_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/aster_E3.png",
+        "description": "\n\tLampada con struttura in alluminio e<br>\n\tdiffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco.<br>\n\tSorgente luminosa lampadina E27.<br>\n\tLampadina non inclusa.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra incamiciato, ambra<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Aster E5",
+        "prod_pic": "https://www.giarnierilight.com/file/aster_E5_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/aster-e5/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/aster_ambientata_03_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/aster_E5.png",
+        "description": "\n\tLampada con struttura in alluminio e<br>\n\tdiffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco.<br>\n\tSorgente luminosa lampadina E27.<br>\n\tLampadina non inclusa.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra incamiciato, ambra<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Aster E7",
+        "prod_pic": "https://www.giarnierilight.com/file/aster_multipla_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/aster-e7/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/aster_ambientata_04_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/aster_E7.png",
+        "description": "\n\tLampada con struttura in alluminio e<br>\n\tdiffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco.<br>\n\tSorgente luminosa lampadina E27.<br>\n\tLampadina non inclusa.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra incamiciato, ambra<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Aster ES",
+        "prod_pic": "https://www.giarnierilight.com/file/aster_piccola_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/aster-es/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/aster_ambientata_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/aster_gruppo_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/aster_ES.png",
+        "description": "\n\tLampada con struttura in alluminio e<br>\n\tdiffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco.<br>\n\tSorgente luminosa lampadina E27.<br>\n\tLampadina non inclusa.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra incamiciato, ambra<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Aster EXL",
+        "prod_pic": "https://www.giarnierilight.com/file/aster_grande_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/aster-exl/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/aster_ambientata_05_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/file/aster_piccola_apertura.jpg",
+            "https://www.giarnierilight.com/images/made/file/aster_EXL_grandi_gruppo_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/aster_EXL.png",
+        "description": "\n\tLampada con struttura in alluminio e<br>\n\tdiffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco.<br>\n\tSorgente luminosa lampadina E27.<br>\n\tLampadina non inclusa.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra incamiciato, ambra<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Babol A",
+        "prod_pic": "https://www.giarnierilight.com/file/babol_A_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/babol/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/babol_A_ambientata_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/babol_A_gruppo_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/babol_A_ambientata_02_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/babol_A_2019.png",
+        "description": "\n\tLampada con struttura in alluminio pressofuso, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco, tortora, piombo opaco, oro opaco, anticato acciaio ed anticato bronzo.<br>\n\tSorgente luminosa lampadine Gx53 LED 3000K incluse. Illuminazione indiretta."
+    },
+    {
+        "name": "Bell L3",
+        "prod_pic": "https://www.giarnierilight.com/file/bell_BI_piccola_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/bell-l3/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/bell_AM_piccola_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/bell_BI_piccola_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/bell_gruppo_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/bell_L3.png",
+        "description": "\n\tLampada con struttura in alluminio<br>\n\tpressofuso e diffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco.<br>\n\tSorgente luminosa Led dimmerabile.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra incamiciato, ambra<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Bell L5",
+        "prod_pic": "https://www.giarnierilight.com/file/bell_BT_multipla_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/bell-l5/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/bell_multipla_02_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/bell_gruppo_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/bell_L5.png",
+        "description": "\n\tLampada con struttura in alluminio<br>\n\tpressofuso e diffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco.<br>\n\tSorgente luminosa Led dimmerabile.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra incamiciato, ambra<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Bell L7",
+        "prod_pic": "https://www.giarnierilight.com/file/bell_L7_BT_multipla_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/bell-l7/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/bell_multipla_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/bell_gruppo_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/bell_L7.png",
+        "description": "\n\tLampada con struttura in alluminio<br>\n\tpressofuso e diffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco.<br>\n\tSorgente luminosa Led dimmerabile.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra incamiciato, ambra<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Bell LL",
+        "prod_pic": "https://www.giarnierilight.com/file/bell_AM_grande_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/bell-ll/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/bell_AM_grande_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/file/bell_BT_particolare.jpg",
+            "https://www.giarnierilight.com/images/made/file/bell_gruppo_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/bell_LL.png",
+        "description": "\n\tLampada con struttura in alluminio<br>\n\tpressofuso e diffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco.<br>\n\tSorgente luminosa Led dimmerabile.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra incamiciato, ambra<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Bell LS",
+        "prod_pic": "https://www.giarnierilight.com/file/bell_BI_piccola_LS_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/bell-ls/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/bell_BI_piccola_02_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/bell_gruppo_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/bell_LS.png",
+        "description": "\n\tLampada con struttura in alluminio<br>\n\tpressofuso e diffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco.<br>\n\tSorgente luminosa Led dimmerabile.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra incamiciato, ambra<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Bilde PL",
+        "prod_pic": "https://www.giarnierilight.com/file/bilde_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/bilde-pl/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/bilde_ambientata_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/bilde_ambientata_02_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/bilde_particolare_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/bilde_ambientata_03_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/bilde_PL.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\tpiombo opaco ed oro opaco.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Bilde PM",
+        "prod_pic": "https://www.giarnierilight.com/file/bilde_PM_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/bilde-pm/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/bilde_ambientata_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/bilde_ambientata_02_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/bilde_particolare_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/bilde_ambientata_03_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/bilde_famiglia_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/bilde_PM.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\tpiombo opaco ed oro opaco.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Bilde PS",
+        "prod_pic": "https://www.giarnierilight.com/file/bilde_PS_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/bilde-ps/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/bilde_ambientata_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/bilde_ambientata_02_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/bilde_particolare_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/bilde_ambientata_03_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/bilde_famiglia_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/bilde_PS.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\tpiombo opaco ed oro opaco.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Blob A",
+        "prod_pic": "https://www.giarnierilight.com/file/blob_A_apertura_2018.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/blob-a/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/blob_A_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/blob_ambientata_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/blob_particolare_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/blob_a_2019.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\tnero opaco e tortora.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Blob PL",
+        "prod_pic": "https://www.giarnierilight.com/file/blob_PL_apertura_2018.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/blob-pl/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/blob_PL_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/blob_PL_ambientata_2018_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/blob_pl_2019.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\tnero opaco e tortora.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Blob PS",
+        "prod_pic": "https://www.giarnierilight.com/file/blob_PS_apertura_2018.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/blob-ps/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/blob_PS_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/blob_ambientata_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/blob_ambientata_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/blob_particolare_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/blob_ps_2019.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\tnero opaco e tortora.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Corba A",
+        "prod_pic": "https://www.giarnierilight.com/file/corba_A_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/corba/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/corba_A_ambientata_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/corba_A_ambientata_02_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/corba_A_ambientata_03_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/file/corba_A_anticato_brunito.jpg",
+            "https://www.giarnierilight.com/file/corba_A_bianco.jpg",
+            "https://www.giarnierilight.com/file/corba_A_oro.jpg",
+            "https://www.giarnierilight.com/file/corba_A_piombo.jpg",
+            "https://www.giarnierilight.com/file/corba_A_tortora.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/corba_A.png",
+        "description": "\n\tLampada con struttura in alluminio pressofuso, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco, tortora, piombo opaco, oro opaco, anticato acciaio ed anticato bronzo.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Drop A",
+        "prod_pic": "https://www.giarnierilight.com/file/drop_A_apertura_2018.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/drop-a1/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/drop_A_ambientata_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_particolare_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_gruppo_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_A_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_A_tortora_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_A_acciaio_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_A_bronzo_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_A_oro_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_A_grigio_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_gruppo_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/drop_a_2019.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, oro opaco, anticato acciaio ed<br>\n\tanticato bronzo.<br>\n\tSorgente luminosa COB LED<br>\n\tdimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Drop PM",
+        "prod_pic": "https://www.giarnierilight.com/file/drop_PL_2019_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/drop-pm/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/drop_PL_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_gruppo_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_particolare_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_gruppo_2019_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/drop_PM_2019.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, oro opaco, anticato acciaio ed<br>\n\tanticato bronzo.<br>\n\tSorgente luminosa COB LED<br>\n\tdimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Drop S2",
+        "prod_pic": "https://www.giarnierilight.com/file/drop_S2_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/drop-s2/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/drop_S2_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_particolare_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_S2_ambientata_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_gruppo_2019_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/drop_S2_2019.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, oro opaco, anticato acciaio ed<br>\n\tanticato bronzo.<br>\n\tSorgente luminosa COB LED dimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Drop S2-Mini",
+        "prod_pic": "https://www.giarnierilight.com/file/drop_S2_mini_apertura_2018.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/drop-s2mini/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/drop_S2_mini_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_S2_mini_ambientata_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_gruppo_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_particolare_2019_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/drop_S2_mini_2019.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, oro opaco, anticato acciaio ed<br>\n\tanticato bronzo.<br>\n\tSorgente luminosa COB LED dimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Drop SM",
+        "prod_pic": "https://www.giarnierilight.com/file/drop_SM_apertura_2019.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/drop-sm/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/drop_S_ambientata_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_particolare_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/drop_gruppo_2019_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/drop_SM_2019.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, oro opaco, anticato acciaio ed<br>\n\tanticato bronzo.<br>\n\tSorgente luminosa COB LED dimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Kamak AL",
+        "prod_pic": "https://www.giarnierilight.com/file/kamak_apertura_2019.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/kamak-al/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/kamak_particolare_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/kamak_ambientata_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/kamak_A_L_ambientata_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/kamak_tortora_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/kamak_bianco_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/kamak_a.png",
+        "description": "\n\tLampada con struttura in alluminio, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco e tortora.<br>\n\tSorgente luminosa COB LED dimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Kamak AS",
+        "prod_pic": "/images/made/file/kamak_ambientata_2019_400_400_s_c1.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/kamak-as/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/kamak_ambientata_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/kamak_gruppo_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/kamak_particolare_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/kamak_tortora_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/kamak_bianco_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/kamak_a.png",
+        "description": "\n\tLampada con struttura in alluminio, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco, nero<br>\n\topaco, marrone, senape e tortora.<br>\n\tSorgente luminosa COB LED dimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Mikado AL",
+        "prod_pic": "https://www.giarnierilight.com/file/mikado_A_apertura_2018.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/mikado-al/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/mikado_emo_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/mikado_AL_ambientata_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/mikado_ambientata_01_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/mikado_particolare_2018_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/mikado_AL_2019.png",
+        "description": "\n\tLampada con struttura in alluminio, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco, tortora, anticato acciaio ed anticato bronzo.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Mikado AS",
+        "prod_pic": "https://www.giarnierilight.com/file/mikado_AS_apertura_2019.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/mikado-as/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/mikado_emo_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/mikado_ambientata_01_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/mikado_particolare_2018_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/mikado_AS_2019.png",
+        "description": "\n\tLampada con struttura in alluminio, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco, tortora, anticato acciaio ed anticato bronzo.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Mikado PL",
+        "prod_pic": "https://www.giarnierilight.com/file/mikado_PL_apertura_ok_2019.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/mikado-pl/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/mikado_PL_ambientata_ok_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/mikado_particolare_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/mikado_ambientata-03_2018_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/mikado_PL_2019.png",
+        "description": "\n\tLampada con struttura in alluminio, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco, tortora, anticato acciaio ed anticato bronzo.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Mikado PM",
+        "prod_pic": "https://www.giarnierilight.com/file/mikado_PM_apertura_2018.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/mikado-pm/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/mikado_PM_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/mikado_ambientata-03_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/mikado_particolare_2018_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/mikado_PM_2019.png",
+        "description": "\n\tLampada con struttura in alluminio, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco, tortora, anticato acciaio ed anticato bronzo.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Mikado PS",
+        "prod_pic": "https://www.giarnierilight.com/file/mikado_PS_apertura_2018.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/mikado-ps/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/mikado_PS_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/mikado_ambientata-03_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/mikado_particolare_2018_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/mikado_PS_2019.png",
+        "description": "\n\tLampada con struttura in alluminio, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco, tortora, anticato acciaio ed anticato bronzo.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Orione A",
+        "prod_pic": "https://www.giarnierilight.com/file/orione_apertura_2019.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/orione-a125/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/orione_ambientata_01_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/orione_particolare_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/orione_ambientata-01_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/orione_ambientata-02_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/orione_ambientata-03_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/orione_ambientata-04_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/orione_ambientata-05_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/orione_ambientata-06_2018_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/orione_D_2019.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei seguenti colori:<br>\n\tbianco opaco, tortora, piombo opaco<br>\n\tcon cavo di alimentazione bianco.<br>\n\tOro opaco con cavo di alimentazione nero.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Pixel PL",
+        "prod_pic": "https://www.giarnierilight.com/file/pixel_PL_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/pixel-pl/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/pixel_ambientata_03_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/pixel_particolare_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/pixel_P_L_ambientata_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/pixel_particolare_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/pixel_P_ambientata_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/pixel_PL.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, piombo opaco, anticato acciaio<br>\n\ted anticato bronzo.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Pixel PM",
+        "prod_pic": "https://www.giarnierilight.com/file/pixel_PM_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/pixel-pm2/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/pixel_ambientata_03_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/pixel_particolare_2019_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/pixel_PM.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, piombo opaco, anticato acciaio<br>\n\ted anticato bronzo.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Pixel PS",
+        "prod_pic": "https://www.giarnierilight.com/file/pixel_PS_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/pixel-ps1/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/pixel_ambientata_03_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/pixel_particolare_2019_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/pixel_PS.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, piombo opaco, anticato acciaio<br>\n\ted anticato bronzo.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Pixel R-PM",
+        "prod_pic": "https://www.giarnierilight.com/file/pixel_R_PM_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/pixel-r-pm/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/pixel_ambientata_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/pixel_ambientata_02_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/pixel_particolare_02_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/pixel_particolare_2019_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/pixel_R_PM.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, piombo opaco, anticato acciaio<br>\n\ted anticato bronzo.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Pixel R-PS",
+        "prod_pic": "https://www.giarnierilight.com/file/pixel_R_PS_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/pixel-r-ps/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/pixel_ambientata_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/pixel_ambientata_02_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/pixel_particolare_02_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/pixel_particolare_2019_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/pixel_R_PS.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, piombo opaco, anticato acciaio<br>\n\ted anticato bronzo.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Plissè L3-E3C",
+        "prod_pic": "https://www.giarnierilight.com/file/plisse_VT_multipla_3led_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/plisse-l3/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/plisse_VT_multipla_3led_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/plisse_L3_foto_ambientata_part_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/plisse_L3.png",
+        "description": "\n\tLampada con struttura in alluminio<br>\n\tpressofuso e diffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco e in due varianti di<br>\n\tsorgente luminosa:<br>\n\tLed dimmerabile o lampadina E27.<br>\n\tLampadina non inclusa nella versione E27.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra trasparente, cristallo<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente. Illuminazione diretta."
+    },
+    {
+        "name": "Plissè L5-E5C",
+        "prod_pic": "https://www.giarnierilight.com/file/plisse_BI_multipla_5led_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/plisse-l5/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/plisse_BT_multipla_5led_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/plisse_L3_foto_ambientata_part_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/plisse_L5.png",
+        "description": "\n\tLampada con struttura in alluminio<br>\n\tpressofuso e diffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco e in due varianti di<br>\n\tsorgente luminosa:<br>\n\tLed dimmerabile o lampadina E27.<br>\n\tLampadina non inclusa nella versione E27.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra trasparente, cristallo<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente. Illuminazione diretta."
+    },
+    {
+        "name": "Plissè L7-E7C",
+        "prod_pic": "https://www.giarnierilight.com/file/plisse_BT_multipla_7led_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/plisse-l7/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/plisse_BT_multipla_7led_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/plisse_L3_foto_ambientata_part_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/plisse_L7.png",
+        "description": "\n\tLampada con struttura in alluminio<br>\n\tpressofuso e diffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco e in due varianti di<br>\n\tsorgente luminosa:<br>\n\tLed dimmerabile o lampadina E27.<br>\n\tLampadina non inclusa nella versione E27.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra trasparente, cristallo<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente. Illuminazione diretta."
+    },
+    {
+        "name": "Plissè LL-ELC",
+        "prod_pic": "https://www.giarnierilight.com/file/plisse_BI_grande_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/plisse-ll/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/plisse_VT_grande_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/plisse_foto_ambientata_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/plisse_BI_grande_01_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/plisse_LL.png",
+        "description": "\n\tLampada con struttura in alluminio<br>\n\tpressofuso e diffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco e in due varianti di<br>\n\tsorgente luminosa:<br>\n\tLed dimmerabile o lampadina E27.<br>\n\tLampadina non inclusa nella versione E27.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra trasparente, cristallo<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente. Illuminazione diretta."
+    },
+    {
+        "name": "Plissè LS-ESC",
+        "prod_pic": "https://www.giarnierilight.com/file/plisse_LS_piccola_apertura_2019.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/plisse-ls/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/plisse_CT_piccola_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/plisse_VT_grande_01_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/plisse_LS.png",
+        "description": "\n\tLampada con struttura in alluminio<br>\n\tpressofuso e diffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco e in due varianti di<br>\n\tsorgente luminosa:<br>\n\tLed dimmerabile o lampadina E27.<br>\n\tLampadina non inclusa nella versione E27.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra trasparente, cristallo<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente. Illuminazione diretta."
+    },
+    {
+        "name": "Plug A",
+        "prod_pic": "https://www.giarnierilight.com/file/plug_A_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/plug/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/plug_A_ambientata_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/plug_A_ambientata_02_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/file/plug_A_acciaio_2019.jpg",
+            "https://www.giarnierilight.com/file/plug_A_bronzo_2019.jpg",
+            "https://www.giarnierilight.com/file/plug_A_bianco_2019.jpg",
+            "https://www.giarnierilight.com/file/plug_A_oro_2019.jpg",
+            "https://www.giarnierilight.com/file/plug_A_grigio_2019.jpg",
+            "https://www.giarnierilight.com/file/plug_A_tortora_2019.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/plug_A.png",
+        "description": "\n\tLampada con struttura in alluminio pressofuso, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco, tortora, piombo opaco, oro opaco, anticato acciaio ed anticato bronzo.<br>\n\tSorgente luminosa COB LED dimmerabile. Illuminazione indiretta."
+    },
+    {
+        "name": "Rake AL",
+        "prod_pic": "https://www.giarnierilight.com/file/rake_AL_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/rake-al/it",
+        "projects": [
+            "https://www.giarnierilight.com/file/rake_AL_apertura.jpg",
+            "https://www.giarnierilight.com/images/made/file/rake_gruppo_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/rake_al_2019.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, nero, oro opaco ed anticato<br>\n\tacciaio.<br>\n\tSorgente luminosa LED con alimentatore<br>\n\tdimmerarabile incluso (Push).<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Rake AM",
+        "prod_pic": "https://www.giarnierilight.com/file/rake_AM_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/rake-am/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/rake_ambientata_02_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/rake_AM.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, nero, oro opaco ed anticato acciaio.<br>\n\tSorgente luminosa LED con alimentatore<br>\n\tdimmerarabile incluso (Push).<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Rake AS",
+        "prod_pic": "https://www.giarnierilight.com/file/rake_AS_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/rake-as/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/rake_ambientata_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/rake_AS_particolare_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/rake_AS.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, nero, oro opaco ed anticato acciaio.<br>\n\tSorgente luminosa LED con alimentatore<br>\n\tdimmerarabile incluso (Push).<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Rake AXL",
+        "prod_pic": "https://www.giarnierilight.com/file/rake_AXL_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/rake-axl/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/rake_AL_ambientata_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/rake_ambientata_03_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/rake_gruppo_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/rake_AXL.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, nero, oro opaco ed anticato<br>\n\tacciaio.<br>\n\tSorgente luminosa LED con alimentatore<br>\n\tdimmerarabile incluso (Push).<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Rake AXS",
+        "prod_pic": "https://www.giarnierilight.com/file/rake_AXS_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/rake-axs/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/rake_ambientata_01_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/rake_AXS.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, nero, oro opaco ed anticato acciaio.<br>\n\tSorgente luminosa LED con alimentatore<br>\n\tdimmerarabile incluso (Push).<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Rantan E3",
+        "prod_pic": "https://www.giarnierilight.com/file/rantan_E3_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/rantan-e3/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/rantan_particolare_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/rantan_ambientata_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/file/rantan_E3_apertura.jpg",
+            "https://www.giarnierilight.com/file/rantan_E3_media_apertura.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/rantan_E3.png",
+        "description": "\n\tLampada con struttura in alluminio<br>\n\te diffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco.<br>\n\tSorgente luminosa lampadina E27.<br>\n\tLampadina non inclusa.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra trasparente, cristallo<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Rantan E5",
+        "prod_pic": "https://www.giarnierilight.com/file/rantan_E5_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/rantan-e5/it",
+        "projects": [
+            "https://www.giarnierilight.com/file/rantan_E5_apertura.jpg",
+            "https://www.giarnierilight.com/file/rantan_E5_piccola.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/rantan_E5.png",
+        "description": "\n\tLampada con struttura in alluminio<br>\n\te diffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco.<br>\n\tSorgente luminosa lampadina E27.<br>\n\tLampadina non inclusa.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra trasparente, cristallo<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Rantan E7",
+        "prod_pic": "https://www.giarnierilight.com/file/rantan_E7_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/rantan-e7/it",
+        "projects": [
+            "https://www.giarnierilight.com/file/rantan_E7_piccola.jpg",
+            "https://www.giarnierilight.com/file/rantan_E7_media.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/rantan_E7.png",
+        "description": "\n\tLampada con struttura in alluminio<br>\n\te diffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco.<br>\n\tSorgente luminosa lampadina E27.<br>\n\tLampadina non inclusa.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra trasparente, cristallo<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Rantan EL",
+        "prod_pic": "https://www.giarnierilight.com/file/rantan_grande_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/rantan-el/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/rantan_grande_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/file/rantan_grande_apertura.jpg",
+            "https://www.giarnierilight.com/images/made/file/rantan_ambientata_02_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/rantan_EL.png",
+        "description": "\n\tLampada con struttura in alluminio<br>\n\te diffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco.<br>\n\tSorgente luminosa lampadina E27.<br>\n\tLampadina non inclusa.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra trasparente, cristallo<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Rantan ES",
+        "prod_pic": "https://www.giarnierilight.com/file/rantan_piccola_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/rantan-es1/it",
+        "projects": [
+            "https://www.giarnierilight.com/file/rantan_piccola_apertura.jpg",
+            "https://www.giarnierilight.com/file/rantan_media_apertura.jpg",
+            "https://www.giarnierilight.com/images/made/file/rantan_piccola_media_gruppo_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/rantan_ES_media.png",
+        "description": "\n\tLampada con struttura in alluminio<br>\n\te diffusore in vetro soffiato.<br>\n\tStruttura disponibile nei colori bianco<br>\n\topaco o nero opaco.<br>\n\tSorgente luminosa lampadina E27.<br>\n\tLampadina non inclusa.<br>\n\tDiffusore in vetro disponibile in bianco<br>\n\tincamiciato, ambra trasparente, cristallo<br>\n\ttrasparente, blu trasparente o verde<br>\n\ttrasparente.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Review PL",
+        "prod_pic": "https://www.giarnierilight.com/file/review_PL_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/review-pl/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/review_PL_ambientata_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/review_PL.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco.<br>\n\tSorgente luminosa LED con alimentatore<br>\n\tdimmerabile incluso (Push).<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Review PM",
+        "prod_pic": "https://www.giarnierilight.com/file/review_PM_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/review-pm/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/review_particolare_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/review_PM_2019_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/review_PM.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco.<br>\n\tSorgente luminosa LED con alimentatore<br>\n\tdimmerabile incluso (Push).<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Review PS",
+        "prod_pic": "https://www.giarnierilight.com/file/review_PS_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/review-ps/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/review_particolare_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/review_PS_2019_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/review_PS.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco.<br>\n\tSorgente luminosa LED con alimentatore<br>\n\tdimmerabile incluso (Push).<br>\n\tIlluminazione indiretta."
+    },
+    {
+        "name": "Spoke Q-PL",
+        "prod_pic": "https://www.giarnierilight.com/file/spoke_Q_PL_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/spoke-q-pl/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/spoke_quadra_ambientata_04_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/spoke_particolare_02_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/spoke_Q_PL.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, piombo opaco ed oro opaco.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Spoke Q-PS",
+        "prod_pic": "https://www.giarnierilight.com/file/spoke_Q_PS_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/spoke-q-ps/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/spoke_quadra_ambientata_04_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/spoke_particolare_02_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/spoke_Q_PS.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, piombo opaco ed oro opaco.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Spoke Q-SL",
+        "prod_pic": "https://www.giarnierilight.com/file/spoke_Q_SL_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/spoke-q-sl/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/spoke_quadra_ambientata_03_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/spoke_quadrata_ambientata_05_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/spoke_particolare_02_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/spoke_Q_SL.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, piombo opaco ed oro opaco.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta ed indiretta."
+    },
+    {
+        "name": "Spoke Q-SS",
+        "prod_pic": "https://www.giarnierilight.com/file/spoke_Q_SS_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/spoke-q-ss/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/spoke_quadra_ambientata_03_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/spoke_quadrata_ambientata_05_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/spoke_particolare_02_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/spoke_Q_SS.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, piombo opaco ed oro opaco.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta ed indiretta."
+    },
+    {
+        "name": "Spoke T-PL",
+        "prod_pic": "https://www.giarnierilight.com/file/spoke_T_PL_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/spoke-pl/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/spoke_particolare_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/spoke_tonda_ambientata_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/spoke_P_L_ambientata_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/spoke_T_PL_2019.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, piombo opaco ed oro opaco.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Spoke T-PS",
+        "prod_pic": "https://www.giarnierilight.com/file/spoke_T_PS_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/spoke-ps/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/spoke_tonda_ambientata_01_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/spoke_T_PS.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, piombo opaco ed oro opaco.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Spoke T-SL",
+        "prod_pic": "https://www.giarnierilight.com/file/spoke_T_SL_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/spoke-s-l/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/spoke_tonda_ambientata_02_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/spoke_T_SL.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, piombo opaco ed oro opaco.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta ed indiretta."
+    },
+    {
+        "name": "Spoke T-SS",
+        "prod_pic": "https://www.giarnierilight.com/file/spoke_T_SS_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/spoke-s-s/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/spoke_tonda_ambientata_02_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/spoke_T_SS.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\ttortora, piombo opaco ed oro opaco.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta ed indiretta."
+    },
+    {
+        "name": "Step AL",
+        "prod_pic": "https://www.giarnierilight.com/file/step_apertura_2019.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/step-al/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/step_A_L_ambientata_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/file/step_apertura_2019.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/step_al_2019.png",
+        "description": "\n\tLampada con struttura in alluminio, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco, tortora, nero opaco, oro opaco, anticato acciaio ed anticato bronzo.<br>\n\tSorgente luminosa COB LED dimmerabile. Illuminazione indiretta."
+    },
+    {
+        "name": "Step AS",
+        "prod_pic": "https://www.giarnierilight.com/file/step_AS_apertura_2018.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/step-as/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/step_AS_ambientata_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/step_ambientata_03_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/step_ambientata_04_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/step_A_acciaio_anticato_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/step_A_bronzo_anticato_2018_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/step_A_tortora_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/file/step_variante_oro_apertura.jpg",
+            "https://www.giarnierilight.com/images/made/file/step_A_bianco_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/step_A_nero_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/step_as_2019.png",
+        "description": "\n\tLampada con struttura in alluminio, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco, tortora, nero opaco, oro opaco, anticato acciaio ed anticato bronzo.<br>\n\tSorgente luminosa COB LED dimmerabile. Illuminazione indiretta."
+    },
+    {
+        "name": "Step PM",
+        "prod_pic": "https://www.giarnierilight.com/file/step_P_apertura_2019.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/step-pm/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/step_ambientata_02_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/step_P_gruppo_2019_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/step_pm_2019.png",
+        "description": "\n\tLampada con struttura in alluminio, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco, tortora, nero opaco, oro opaco, anticato acciaio ed anticato bronzo.<br>\n\tSorgente luminosa COB LED dimmerabile. Illuminazione indiretta."
+    },
+    {
+        "name": "Step PS",
+        "prod_pic": "https://www.giarnierilight.com/file/step_P_apertura_2019.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/step-ps/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/step_ambientata_02_2019_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/step_P_gruppo_2019_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/step_ps_2019.png",
+        "description": "\n\tLampada con struttura in alluminio, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco, tortora, nero opaco, oro opaco, anticato acciaio ed anticato bronzo.<br>\n\tSorgente luminosa COB LED dimmerabile. Illuminazione indiretta."
+    },
+    {
+        "name": "Surf PL",
+        "prod_pic": "https://www.giarnierilight.com/file/surf_PL_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/surf-pl/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/surf_P_ambientata_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/surf_ambientata_02_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/surf_particolare_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/surf_ambientata_03_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/surf_PL.png",
+        "description": "\n\tLampada con struttura in alluminio, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco, tortora, piombo opaco, anticato acciaio ed anticato bronzo.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Surf PM",
+        "prod_pic": "https://www.giarnierilight.com/file/surf_PM_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/surf-pm/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/surf_P_ambientata_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/surf_ambientata_02_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/surf_particolare_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/surf_ambientata_03_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/surf_PM.png",
+        "description": "\n\tLampada con struttura in alluminio, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco, tortora, piombo opaco, anticato acciaio ed anticato bronzo.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Surf PS",
+        "prod_pic": "https://www.giarnierilight.com/file/surf_PS_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/surf-ps/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/surf_ambientata_02_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/surf_particolare_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/surf_ambientata_03_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/surf_PS.png",
+        "description": "\n\tLampada con struttura in alluminio, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco, tortora, piombo opaco, anticato acciaio ed anticato bronzo.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta."
+    },
+    {
+        "name": "Surf SL",
+        "prod_pic": "https://www.giarnierilight.com/file/surf_SL_apertura_2019.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/surf-sl/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/surf_ambientata_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/surf_ambientata_02_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/surf_ambientata_03_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/surf_SL.png",
+        "description": "\n\tLampada con struttura in alluminio, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco, tortora, piombo opaco, anticato acciaio ed anticato bronzo.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta ed indiretta."
+    },
+    {
+        "name": "Surf SM",
+        "prod_pic": "https://www.giarnierilight.com/file/surf_SM_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/surf-ss/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/surf_ambientata_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/surf_ambientata_02_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/surf_ambientata_03_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/surf_SM.png",
+        "description": "\n\tLampada con struttura in alluminio, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco, tortora, piombo opaco, anticato acciaio ed anticato bronzo.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta ed indiretta."
+    },
+    {
+        "name": "Tilt S",
+        "prod_pic": "https://www.giarnierilight.com/file/tilt_S_bianca_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/tilt-s1/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/tilt_S_ambientata_04_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/tilt_S_ambientata_03_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/tilt_S_ambientata_02_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/tilt_S_ambientata_01_780_780_s_c1.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/tilt_S.png",
+        "description": "\n\tLampada con struttura in alluminio,<br>\n\tdiffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco,<br>\n\tpiombo opaco ed oro opaco.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione diretta ed indiretta."
+    },
+    {
+        "name": "Wow A",
+        "prod_pic": "https://www.giarnierilight.com/file/wow_grigio_apertura.jpg",
+        "prod_page": "https://www.giarnierilight.com/prodotto/wow/it",
+        "projects": [
+            "https://www.giarnierilight.com/images/made/file/wow_ambientata_01_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/wow_ambientata_02_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/images/made/file/wow_particolare_780_780_s_c1.jpg",
+            "https://www.giarnierilight.com/file/wow_bianca.jpg",
+            "https://www.giarnierilight.com/file/wow_oro.jpg",
+            "https://www.giarnierilight.com/file/wow_tortora.jpg"
+        ],
+        "light_schema": "https://www.giarnierilight.com/file/wow_A.png",
+        "description": "\n\tLampada con struttura in alluminio pressofuso, diffusore in metacrilato.<br>\n\tDisponibile nei colori bianco opaco, tortora, piombo ed oro opaco.<br>\n\tSorgente luminosa LED dimmerabile.<br>\n\tIlluminazione indiretta."
+    }
+]
