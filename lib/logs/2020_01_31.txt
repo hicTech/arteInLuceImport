@@ -1,0 +1,442 @@
+10:54:51: PROCESSO: ../xls/flos
+10:54:52: PROCESSO: ../xls/diesel
+10:54:53: PROCESSO: ../xls/foscarini
+10:54:53: PROCESSO: ../xls/giarnieri
+10:54:59: PROCESSO: ../xls/flos
+11:00:08: PROCESSO: ../xls/penta
+11:05:31: PROCESSO: ../xls/penta
+11:06:27: PROCESSO: ../xls/penta
+11:08:21: PROCESSO: ../xls/penta
+11:08:45: PROCESSO: ../xls/penta
+11:11:46: PROCESSO: ../xls/penta
+11:11:54: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+11:12:33: PROCESSO: ../xls/luceplan
+11:13:26: PROCESSO: ../xls/penta
+11:13:45: PROCESSO: ../xls/penta
+11:14:33: PROCESSO: ../xls/penta
+11:15:41: PROCESSO: ../xls/penta
+15:41:34: processo: https://pentalight.it/collezione/acorn/ mancano: 2
+15:43:01: processo: https://pentalight.it/collezione/acorn/ mancano: 2
+15:44:09: processo: https://pentalight.it/collezione/acorn/ mancano: 2
+15:44:23: processo: https://pentalight.it/collezione/altura/ mancano: 1
+15:44:31: processo: https://pentalight.it/collezione/angolo/ mancano: 0
+15:44:41: FINITO
+15:45:34: processo: https://pentalight.it/collezione/acorn/ mancano: 2
+15:45:44: [object Object]
+15:45:44: processo: https://pentalight.it/collezione/altura/ mancano: 1
+15:45:52: [object Object]
+15:45:52: processo: https://pentalight.it/collezione/angolo/ mancano: 0
+15:46:05: [object Object]
+15:46:05: FINITO
+15:50:45: processo: https://pentalight.it/collezione/acorn/ mancano: 2
+15:51:26: processo: https://pentalight.it/collezione/acorn/ mancano: 2
+15:51:49: processo: https://pentalight.it/collezione/acorn/ mancano: 2
+15:51:58: https://pentalight.it/en/prodotto/acorn-sospensione/
+15:51:58: processo: https://pentalight.it/collezione/altura/ mancano: 1
+15:52:06: https://pentalight.it/en/collezione/altura/
+15:52:06: processo: https://pentalight.it/collezione/angolo/ mancano: 0
+15:52:14: https://pentalight.it/en/prodotto/angolo/
+15:52:14: FINITO
+15:53:27: processo: https://pentalight.it/collezione/acorn/ mancano: 2
+15:53:35: processo: https://pentalight.it/collezione/altura/ mancano: 1
+15:53:43: processo: https://pentalight.it/collezione/angolo/ mancano: 0
+15:53:55: FINITO
+17:03:57: processo: https://pentalight.it/collezione/acorn/ mancano: 2
+17:04:06: processo: https://pentalight.it/collezione/altura/ mancano: 1
+17:04:17: processo: https://pentalight.it/collezione/acorn/ mancano: 35
+17:04:26: processo: https://pentalight.it/collezione/altura/ mancano: 34
+17:04:35: processo: https://pentalight.it/collezione/angolo/ mancano: 33
+17:04:43: processo: https://pentalight.it/collezione/aprile/ mancano: 32
+17:04:51: processo: https://pentalight.it/collezione/bag-outdoor/ mancano: 31
+17:04:59: processo: https://pentalight.it/collezione/chi/ mancano: 30
+17:05:07: processo: https://pentalight.it/collezione/china/ mancano: 29
+17:05:15: processo: https://pentalight.it/collezione/clash/ mancano: 28
+17:05:24: processo: https://pentalight.it/collezione/clip/ mancano: 27
+17:05:32: processo: https://pentalight.it/collezione/elisabeth/ mancano: 26
+17:05:41: processo: https://pentalight.it/collezione/enoki/ mancano: 25
+17:05:51: processo: https://pentalight.it/collezione/feel/ mancano: 24
+17:05:59: processo: https://pentalight.it/collezione/glifo/ mancano: 23
+17:06:08: processo: https://pentalight.it/collezione/glo/ mancano: 22
+17:06:16: processo: https://pentalight.it/collezione/hang-out/ mancano: 21
+17:06:24: processo: https://pentalight.it/collezione/jacqueline/ mancano: 20
+17:06:33: processo: https://pentalight.it/collezione/je-suis/ mancano: 19
+17:06:41: processo: https://pentalight.it/collezione/jei-jei/ mancano: 18
+17:06:48: processo: https://pentalight.it/collezione/klint/ mancano: 17
+17:06:57: processo: https://pentalight.it/collezione/lit/ mancano: 16
+17:07:05: processo: https://pentalight.it/collezione/ludo/ mancano: 15
+17:07:10: processo: https://pentalight.it/collezione/lula/ mancano: 14
+17:07:19: processo: https://pentalight.it/collezione/mami/ mancano: 13
+17:07:27: processo: https://pentalight.it/collezione/mira/ mancano: 12
+17:07:37: processo: https://pentalight.it/collezione/mom/ mancano: 11
+17:07:45: processo: https://pentalight.it/collezione/morsetto/ mancano: 10
+17:07:54: processo: https://pentalight.it/collezione/narciso/ mancano: 9
+17:08:02: processo: https://pentalight.it/collezione/new-classic/ mancano: 8
+17:08:10: processo: https://pentalight.it/collezione/polar/ mancano: 7
+17:08:20: processo: https://pentalight.it/collezione/pop/ mancano: 6
+17:08:36: processo: https://pentalight.it/collezione/sop/ mancano: 5
+17:08:53: processo: https://pentalight.it/collezione/sospensioni-in-tessuto/ mancano: 4
+17:10:44: processo: https://pentalight.it/collezione/acorn/ mancano: 1
+17:10:53: processo: https://pentalight.it/collezione/altura/ mancano: 0
+17:11:01: FINITO
+17:12:11: processo: https://pentalight.it/collezione/acorn/ mancano: 41
+17:12:20: processo: https://pentalight.it/collezione/altura/ mancano: 40
+17:12:30: processo: https://pentalight.it/collezione/angolo/ mancano: 39
+17:12:42: processo: https://pentalight.it/collezione/aprile/ mancano: 38
+17:12:51: processo: https://pentalight.it/collezione/bag-outdoor/ mancano: 37
+17:13:01: processo: https://pentalight.it/collezione/chi/ mancano: 36
+17:13:10: processo: https://pentalight.it/collezione/china/ mancano: 35
+17:13:18: processo: https://pentalight.it/collezione/clash/ mancano: 34
+17:13:28: processo: https://pentalight.it/collezione/clip/ mancano: 33
+17:13:36: processo: https://pentalight.it/collezione/elisabeth/ mancano: 32
+17:13:44: processo: https://pentalight.it/collezione/enoki/ mancano: 31
+17:13:52: processo: https://pentalight.it/collezione/feel/ mancano: 30
+17:14:01: processo: https://pentalight.it/collezione/glifo/ mancano: 29
+17:14:09: processo: https://pentalight.it/collezione/glo/ mancano: 28
+17:14:19: processo: https://pentalight.it/collezione/hang-out/ mancano: 27
+17:14:27: processo: https://pentalight.it/collezione/jacqueline/ mancano: 26
+17:14:36: processo: https://pentalight.it/collezione/je-suis/ mancano: 25
+17:14:45: processo: https://pentalight.it/collezione/jei-jei/ mancano: 24
+17:14:54: processo: https://pentalight.it/collezione/klint/ mancano: 23
+17:15:04: processo: https://pentalight.it/collezione/lit/ mancano: 22
+17:15:13: processo: https://pentalight.it/collezione/ludo/ mancano: 21
+17:15:19: processo: https://pentalight.it/collezione/lula/ mancano: 20
+17:15:27: processo: https://pentalight.it/collezione/mami/ mancano: 19
+17:15:36: processo: https://pentalight.it/collezione/mira/ mancano: 18
+17:15:45: processo: https://pentalight.it/collezione/mom/ mancano: 17
+17:15:52: processo: https://pentalight.it/collezione/morsetto/ mancano: 16
+17:16:03: processo: https://pentalight.it/collezione/narciso/ mancano: 15
+17:16:11: processo: https://pentalight.it/collezione/new-classic/ mancano: 14
+17:16:20: processo: https://pentalight.it/collezione/polar/ mancano: 13
+17:16:28: processo: https://pentalight.it/collezione/pop/ mancano: 12
+17:16:37: processo: https://pentalight.it/collezione/sop/ mancano: 11
+17:16:45: processo: https://pentalight.it/collezione/sospensioni-in-tessuto/ mancano: 10
+17:16:51: processo: https://pentalight.it/collezione/spoon/ mancano: 9
+17:17:00: processo: https://pentalight.it/collezione/storm/ mancano: 8
+17:17:08: processo: https://pentalight.it/collezione/taaac/ mancano: 7
+17:17:16: processo: https://pentalight.it/collezione/tic-toc/ mancano: 6
+17:17:25: processo: https://pentalight.it/collezione/tile/ mancano: 5
+17:17:33: processo: https://pentalight.it/collezione/tosca/ mancano: 4
+17:17:40: processo: https://pentalight.it/collezione/vela/ mancano: 3
+17:17:49: processo: https://pentalight.it/collezione/wonder/ mancano: 2
+17:17:57: processo: https://pentalight.it/collezione/woody/ mancano: 1
+17:18:06: processo: https://pentalight.it/collezione/yan/ mancano: 0
+17:18:14: FINITO
+17:27:45: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 2
+17:28:00: processo: https://pentalight.it/en/collezione/altura/ mancano: 1
+17:28:17: processo: https://pentalight.it/en/prodotto/angolo/ mancano: 0
+17:28:22: FINITO
+17:29:19: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 2
+17:29:20: processo: https://pentalight.it/en/collezione/altura/ mancano: 1
+17:29:26: processo: https://pentalight.it/en/prodotto/angolo/ mancano: 0
+17:29:27: FINITO
+17:35:41: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 2
+17:35:42: processo: https://pentalight.it/en/collezione/altura/ mancano: 1
+17:37:08: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 2
+17:37:10: processo: https://pentalight.it/en/collezione/altura/ mancano: 1
+17:37:17: processo: https://pentalight.it/en/prodotto/angolo/ mancano: 0
+17:37:18: FINITO
+17:37:52: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 2
+17:38:33: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 2
+17:38:34: processo: https://pentalight.it/en/collezione/altura/ mancano: 1
+17:39:44: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 2
+17:39:45: processo: https://pentalight.it/en/collezione/altura/ mancano: 1
+17:39:51: processo: https://pentalight.it/en/prodotto/angolo/ mancano: 0
+17:39:52: FINITO
+17:40:08: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 2
+17:40:09: processo: https://pentalight.it/en/collezione/altura/ mancano: 1
+17:40:15: processo: https://pentalight.it/en/prodotto/angolo/ mancano: 0
+17:40:16: FINITO
+17:41:28: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 2
+17:41:54: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 2
+17:43:09: processo: https://pentalight.it/en/collezione/altura/ mancano: 1
+17:43:17: processo: https://pentalight.it/en/prodotto/angolo/ mancano: 0
+17:43:18: FINITO
+17:45:00: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 41
+17:45:01: processo: https://pentalight.it/en/collezione/altura/ mancano: 40
+17:45:36: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 41
+17:45:37: processo: https://pentalight.it/en/collezione/altura/ mancano: 40
+17:45:44: -----------trovato sotto prodotto
+17:45:44: -----------trovato sotto prodotto
+17:45:44: processo: https://pentalight.it/en/prodotto/angolo/ mancano: 39
+17:45:44: processo: https://pentalight.it/en/prodotto/aprile-applique/ mancano: 38
+17:45:45: processo: https://pentalight.it/en/prodotto/bag-outdoor-da-terra/ mancano: 37
+17:45:46: processo: https://pentalight.it/en/collezione/chi/ mancano: 36
+17:46:02: -----------trovato sotto prodotto
+17:46:02: -----------trovato sotto prodotto
+17:46:02: -----------trovato sotto prodotto
+17:46:02: -----------trovato sotto prodotto
+17:46:02: processo: https://pentalight.it/en/collezione/china/ mancano: 35
+17:46:11: -----------trovato sotto prodotto
+17:46:11: -----------trovato sotto prodotto
+17:46:11: processo: https://pentalight.it/en/prodotto/clash-applique/ mancano: 34
+17:46:12: processo: https://pentalight.it/en/prodotto/clip-sospensione/ mancano: 33
+17:46:13: processo: https://pentalight.it/en/collezione/elisabeth/ mancano: 32
+17:46:19: -----------trovato sotto prodotto
+17:46:19: -----------trovato sotto prodotto
+17:46:19: -----------trovato sotto prodotto
+17:46:19: processo: https://pentalight.it/en/prodotto/enoki-applique/ mancano: 31
+17:46:27: processo: https://pentalight.it/en/prodotto/feel/ mancano: 30
+17:46:28: processo: https://pentalight.it/en/prodotto/glifo/ mancano: 29
+17:46:28: processo: https://pentalight.it/en/collezione/glo/ mancano: 28
+17:46:35: -----------trovato sotto prodotto
+17:46:35: -----------trovato sotto prodotto
+17:46:35: -----------trovato sotto prodotto
+17:46:35: -----------trovato sotto prodotto
+17:46:35: processo: https://pentalight.it/en/prodotto/hang-out-sospensione/ mancano: 27
+17:46:38: processo: https://pentalight.it/en/prodotto/jacqueline-lampada-tavolo/ mancano: 26
+17:46:40: processo: https://pentalight.it/en/collezione/je-suis/ mancano: 25
+17:46:48: -----------trovato sotto prodotto
+17:46:48: -----------trovato sotto prodotto
+17:46:48: processo: https://pentalight.it/en/collezione/jei-jei/ mancano: 24
+17:46:54: -----------trovato sotto prodotto
+17:46:54: -----------trovato sotto prodotto
+17:46:54: processo: https://pentalight.it/en/prodotto/klint-da-tavolo/ mancano: 23
+17:46:55: processo: https://pentalight.it/en/prodotto/lit-sospensione/ mancano: 22
+17:46:56: processo: https://pentalight.it/en/prodotto/ludo/ mancano: 21
+17:46:57: processo: https://pentalight.it/en/collezione/lula/ mancano: 20
+17:47:04: -----------trovato sotto prodotto
+17:47:04: -----------trovato sotto prodotto
+17:47:04: processo: https://pentalight.it/en/collezione/mami/ mancano: 19
+17:47:51: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 41
+17:47:53: processo: https://pentalight.it/en/collezione/altura/ mancano: 40
+17:48:00: -----------trovato sotto prodotto
+17:48:00: -----------trovato sotto prodotto
+17:48:00: processo: https://pentalight.it/en/prodotto/angolo/ mancano: 39
+17:48:01: processo: https://pentalight.it/en/prodotto/aprile-applique/ mancano: 38
+17:48:02: processo: https://pentalight.it/en/prodotto/bag-outdoor-da-terra/ mancano: 37
+17:48:03: processo: https://pentalight.it/en/collezione/chi/ mancano: 36
+17:48:18: -----------trovato sotto prodotto
+17:48:18: -----------trovato sotto prodotto
+17:48:18: -----------trovato sotto prodotto
+17:48:18: -----------trovato sotto prodotto
+17:48:18: processo: https://pentalight.it/en/collezione/china/ mancano: 35
+17:48:25: -----------trovato sotto prodotto
+17:48:25: -----------trovato sotto prodotto
+17:48:25: processo: https://pentalight.it/en/prodotto/clash-applique/ mancano: 34
+17:48:26: processo: https://pentalight.it/en/prodotto/clip-sospensione/ mancano: 33
+17:48:27: processo: https://pentalight.it/en/collezione/elisabeth/ mancano: 32
+17:48:34: -----------trovato sotto prodotto
+17:48:34: -----------trovato sotto prodotto
+17:48:34: -----------trovato sotto prodotto
+17:48:34: processo: https://pentalight.it/en/prodotto/enoki-applique/ mancano: 31
+17:48:35: processo: https://pentalight.it/en/prodotto/feel/ mancano: 30
+17:48:36: processo: https://pentalight.it/en/prodotto/glifo/ mancano: 29
+17:48:37: processo: https://pentalight.it/en/collezione/glo/ mancano: 28
+17:48:44: -----------trovato sotto prodotto
+17:48:44: -----------trovato sotto prodotto
+17:48:44: -----------trovato sotto prodotto
+17:48:44: -----------trovato sotto prodotto
+17:48:44: processo: https://pentalight.it/en/prodotto/hang-out-sospensione/ mancano: 27
+17:48:45: processo: https://pentalight.it/en/prodotto/jacqueline-lampada-tavolo/ mancano: 26
+17:48:45: processo: https://pentalight.it/en/collezione/je-suis/ mancano: 25
+17:48:53: -----------trovato sotto prodotto
+17:48:53: -----------trovato sotto prodotto
+17:48:53: processo: https://pentalight.it/en/collezione/jei-jei/ mancano: 24
+17:49:00: -----------trovato sotto prodotto
+17:49:00: -----------trovato sotto prodotto
+17:49:00: processo: https://pentalight.it/en/prodotto/klint-da-tavolo/ mancano: 23
+17:49:01: processo: https://pentalight.it/en/prodotto/lit-sospensione/ mancano: 22
+17:49:02: processo: https://pentalight.it/en/prodotto/ludo/ mancano: 21
+17:49:03: processo: https://pentalight.it/en/collezione/lula/ mancano: 20
+17:49:11: -----------trovato sotto prodotto
+17:49:11: -----------trovato sotto prodotto
+17:49:11: processo: https://pentalight.it/en/collezione/mami/ mancano: 19
+17:49:18: -----------trovato sotto prodotto
+17:49:18: -----------trovato sotto prodotto
+17:49:18: -----------trovato sotto prodotto
+17:49:18: -----------trovato sotto prodotto
+17:49:18: processo: https://pentalight.it/en/prodotto/mira-tavolo/ mancano: 18
+17:49:19: processo: https://pentalight.it/en/collezione/mom/ mancano: 17
+17:49:27: -----------trovato sotto prodotto
+17:49:27: -----------trovato sotto prodotto
+17:49:27: -----------trovato sotto prodotto
+17:49:27: processo: https://pentalight.it/en/prodotto/morsetto-tavolo/ mancano: 16
+17:49:28: processo: https://pentalight.it/en/collezione/narciso/ mancano: 15
+17:49:35: -----------trovato sotto prodotto
+17:49:35: -----------trovato sotto prodotto
+17:49:35: -----------trovato sotto prodotto
+17:49:35: processo: https://pentalight.it/en/collezione/new-classic/ mancano: 14
+17:49:43: -----------trovato sotto prodotto
+17:49:43: -----------trovato sotto prodotto
+17:49:43: processo: https://pentalight.it/en/collezione/polar/ mancano: 13
+17:49:50: -----------trovato sotto prodotto
+17:49:50: -----------trovato sotto prodotto
+17:49:50: processo: https://pentalight.it/en/prodotto/pop-applique/ mancano: 12
+17:49:51: processo: https://pentalight.it/en/prodotto/sop/ mancano: 11
+17:49:51: processo: https://pentalight.it/en/collezione/sospensioni-in-tessuto/ mancano: 10
+17:49:57: -----------trovato sotto prodotto
+17:49:57: -----------trovato sotto prodotto
+17:49:57: -----------trovato sotto prodotto
+17:49:57: -----------trovato sotto prodotto
+17:49:57: processo: https://pentalight.it/en/collezione/spoon/ mancano: 9
+17:50:04: -----------trovato sotto prodotto
+17:50:04: -----------trovato sotto prodotto
+17:50:04: -----------trovato sotto prodotto
+17:50:04: processo: https://pentalight.it/en/prodotto/storm/ mancano: 8
+17:50:05: processo: https://pentalight.it/en/prodotto/taaac-da-terra/ mancano: 7
+17:50:06: processo: https://pentalight.it/en/prodotto/tic-toc-da-tavolo/ mancano: 6
+17:50:06: processo: https://pentalight.it/en/prodotto/tile/ mancano: 5
+17:50:07: processo: https://pentalight.it/en/collezione/tosca/ mancano: 4
+17:50:22: -----------trovato sotto prodotto
+17:50:22: -----------trovato sotto prodotto
+17:50:22: processo: https://pentalight.it/en/prodotto/vela/ mancano: 3
+17:50:23: processo: https://pentalight.it/en/prodotto/wonder-a-sospensione/ mancano: 2
+17:50:24: processo: https://pentalight.it/en/prodotto/woody-a-sospensione/ mancano: 1
+17:50:25: processo: https://pentalight.it/en/prodotto/yan-sospensione/ mancano: 0
+17:50:26: FINITO
+17:51:23: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 41
+17:51:24: processo: https://pentalight.it/en/collezione/altura/ mancano: 40
+17:51:32: -----------trovato sotto prodotto
+17:51:32: -----------trovato sotto prodotto
+17:51:32: processo: https://pentalight.it/en/prodotto/angolo/ mancano: 39
+17:51:33: processo: https://pentalight.it/en/prodotto/aprile-applique/ mancano: 38
+17:51:33: processo: https://pentalight.it/en/prodotto/bag-outdoor-da-terra/ mancano: 37
+17:51:34: processo: https://pentalight.it/en/collezione/chi/ mancano: 36
+17:51:42: -----------trovato sotto prodotto
+17:51:42: -----------trovato sotto prodotto
+17:51:42: -----------trovato sotto prodotto
+17:51:42: -----------trovato sotto prodotto
+17:51:42: processo: https://pentalight.it/en/collezione/china/ mancano: 35
+17:51:49: -----------trovato sotto prodotto
+17:51:49: -----------trovato sotto prodotto
+17:51:49: processo: https://pentalight.it/en/prodotto/clash-applique/ mancano: 34
+17:51:49: processo: https://pentalight.it/en/prodotto/clip-sospensione/ mancano: 33
+17:51:50: processo: https://pentalight.it/en/collezione/elisabeth/ mancano: 32
+17:53:50: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 41
+17:54:03: processo: https://pentalight.it/en/collezione/altura/ mancano: 40
+17:55:32: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 41
+17:55:33: processo: https://pentalight.it/en/collezione/altura/ mancano: 40
+17:55:43: -----------trovato sotto prodotto
+17:55:43: -----------trovato sotto prodotto
+17:55:43: processo: https://pentalight.it/en/prodotto/angolo/ mancano: 39
+17:55:44: processo: https://pentalight.it/en/prodotto/aprile-applique/ mancano: 38
+17:55:45: processo: https://pentalight.it/en/prodotto/bag-outdoor-da-terra/ mancano: 37
+17:55:53: processo: https://pentalight.it/en/collezione/chi/ mancano: 36
+17:56:00: -----------trovato sotto prodotto
+17:56:00: -----------trovato sotto prodotto
+17:56:00: -----------trovato sotto prodotto
+17:56:00: -----------trovato sotto prodotto
+17:56:00: processo: https://pentalight.it/en/collezione/china/ mancano: 35
+17:56:10: -----------trovato sotto prodotto
+17:56:10: -----------trovato sotto prodotto
+17:56:10: processo: https://pentalight.it/en/prodotto/clash-applique/ mancano: 34
+17:56:18: processo: https://pentalight.it/en/prodotto/clip-sospensione/ mancano: 33
+17:56:19: processo: https://pentalight.it/en/collezione/elisabeth/ mancano: 32
+17:56:27: -----------trovato sotto prodotto
+17:56:27: -----------trovato sotto prodotto
+17:56:27: -----------trovato sotto prodotto
+17:56:27: processo: https://pentalight.it/en/prodotto/enoki-applique/ mancano: 31
+17:56:29: processo: https://pentalight.it/en/prodotto/feel/ mancano: 30
+17:56:30: processo: https://pentalight.it/en/prodotto/glifo/ mancano: 29
+17:56:30: processo: https://pentalight.it/en/collezione/glo/ mancano: 28
+17:56:39: -----------trovato sotto prodotto
+17:56:39: -----------trovato sotto prodotto
+17:56:39: -----------trovato sotto prodotto
+17:56:39: -----------trovato sotto prodotto
+17:56:39: processo: https://pentalight.it/en/prodotto/hang-out-sospensione/ mancano: 27
+17:56:40: processo: https://pentalight.it/en/prodotto/jacqueline-lampada-tavolo/ mancano: 26
+17:56:41: processo: https://pentalight.it/en/collezione/je-suis/ mancano: 25
+17:56:49: -----------trovato sotto prodotto
+17:56:49: -----------trovato sotto prodotto
+17:56:49: processo: https://pentalight.it/en/collezione/jei-jei/ mancano: 24
+17:56:56: -----------trovato sotto prodotto
+17:56:56: -----------trovato sotto prodotto
+17:56:56: processo: https://pentalight.it/en/prodotto/klint-da-tavolo/ mancano: 23
+17:56:57: processo: https://pentalight.it/en/prodotto/lit-sospensione/ mancano: 22
+17:56:58: processo: https://pentalight.it/en/prodotto/ludo/ mancano: 21
+17:56:58: processo: https://pentalight.it/en/collezione/lula/ mancano: 20
+17:57:08: -----------trovato sotto prodotto
+17:57:08: -----------trovato sotto prodotto
+17:57:08: processo: https://pentalight.it/en/collezione/mami/ mancano: 19
+17:57:15: -----------trovato sotto prodotto
+17:57:15: -----------trovato sotto prodotto
+17:57:15: -----------trovato sotto prodotto
+17:57:15: -----------trovato sotto prodotto
+17:57:15: processo: https://pentalight.it/en/prodotto/mira-tavolo/ mancano: 18
+17:57:16: processo: https://pentalight.it/en/collezione/mom/ mancano: 17
+17:57:23: -----------trovato sotto prodotto
+17:57:23: -----------trovato sotto prodotto
+17:57:23: -----------trovato sotto prodotto
+17:57:23: processo: https://pentalight.it/en/prodotto/morsetto-tavolo/ mancano: 16
+17:57:24: processo: https://pentalight.it/en/collezione/narciso/ mancano: 15
+17:57:31: -----------trovato sotto prodotto
+17:57:31: -----------trovato sotto prodotto
+17:57:31: -----------trovato sotto prodotto
+17:57:31: processo: https://pentalight.it/en/collezione/new-classic/ mancano: 14
+17:57:38: -----------trovato sotto prodotto
+17:57:38: -----------trovato sotto prodotto
+17:57:38: processo: https://pentalight.it/en/collezione/polar/ mancano: 13
+17:57:45: -----------trovato sotto prodotto
+17:57:45: -----------trovato sotto prodotto
+17:57:45: processo: https://pentalight.it/en/prodotto/pop-applique/ mancano: 12
+17:57:46: processo: https://pentalight.it/en/prodotto/sop/ mancano: 11
+17:57:47: processo: https://pentalight.it/en/collezione/sospensioni-in-tessuto/ mancano: 10
+17:57:53: -----------trovato sotto prodotto
+17:57:53: -----------trovato sotto prodotto
+17:57:53: -----------trovato sotto prodotto
+17:57:53: -----------trovato sotto prodotto
+17:57:53: processo: https://pentalight.it/en/collezione/spoon/ mancano: 9
+17:58:01: -----------trovato sotto prodotto
+17:58:01: -----------trovato sotto prodotto
+17:58:01: -----------trovato sotto prodotto
+17:58:01: processo: https://pentalight.it/en/prodotto/storm/ mancano: 8
+17:58:09: processo: https://pentalight.it/en/prodotto/taaac-da-terra/ mancano: 7
+17:58:10: processo: https://pentalight.it/en/prodotto/tic-toc-da-tavolo/ mancano: 6
+17:58:11: processo: https://pentalight.it/en/prodotto/tile/ mancano: 5
+17:58:12: processo: https://pentalight.it/en/collezione/tosca/ mancano: 4
+17:58:19: -----------trovato sotto prodotto
+17:58:19: -----------trovato sotto prodotto
+17:58:19: processo: https://pentalight.it/en/prodotto/vela/ mancano: 3
+17:58:20: processo: https://pentalight.it/en/prodotto/wonder-a-sospensione/ mancano: 2
+17:58:28: processo: https://pentalight.it/en/prodotto/woody-a-sospensione/ mancano: 1
+17:58:29: processo: https://pentalight.it/en/prodotto/yan-sospensione/ mancano: 0
+17:58:30: FINITO
+18:01:27: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 3
+18:01:28: processo: https://pentalight.it/en/collezione/altura/ mancano: 2
+18:01:35: -----------trovato sotto prodotto
+18:01:35: -----------trovato sotto prodotto
+18:01:35: processo: https://pentalight.it/en/prodotto/angolo/ mancano: 1
+18:01:36: processo: https://pentalight.it/en/prodotto/aprile-applique/ mancano: 0
+18:01:37: FINITO
+18:04:51: processo: https://pentalight.it/collezione/acorn/ mancano: 1
+18:05:48: processo: https://pentalight.it/collezione/acorn/ mancano: 1
+18:05:57: processo: https://pentalight.it/collezione/altura/ mancano: 0
+18:06:05: FINITO
+18:09:13: processo: https://pentalight.it/collezione/acorn/ mancano: 1
+18:09:24: processo: https://pentalight.it/collezione/altura/ mancano: 0
+18:09:33: FINITO
+18:09:51: processo: https://pentalight.it/collezione/acorn/ mancano: 41
+18:11:14: processo: https://pentalight.it/collezione/altura/ mancano: 40
+18:12:36: processo: https://pentalight.it/collezione/angolo/ mancano: 39
+18:12:46: processo: https://pentalight.it/collezione/aprile/ mancano: 38
+18:12:55: processo: https://pentalight.it/collezione/bag-outdoor/ mancano: 37
+18:14:18: processo: https://pentalight.it/collezione/chi/ mancano: 36
+18:14:26: processo: https://pentalight.it/collezione/china/ mancano: 35
+18:14:34: processo: https://pentalight.it/collezione/clash/ mancano: 34
+18:14:42: processo: https://pentalight.it/collezione/clip/ mancano: 33
+18:14:50: processo: https://pentalight.it/collezione/elisabeth/ mancano: 32
+18:14:58: processo: https://pentalight.it/collezione/enoki/ mancano: 31
+18:15:55: processo: https://pentalight.it/collezione/acorn/ mancano: 41
+18:16:04: processo: https://pentalight.it/collezione/altura/ mancano: 40
+18:23:51: processo: https://pentalight.it/collezione/acorn/ mancano: 41
+18:24:00: processo: https://pentalight.it/collezione/altura/ mancano: 40
+18:24:08: processo: https://pentalight.it/collezione/angolo/ mancano: 39
+18:24:19: processo: https://pentalight.it/collezione/aprile/ mancano: 38
+18:24:28: processo: https://pentalight.it/collezione/bag-outdoor/ mancano: 37
+18:24:36: processo: https://pentalight.it/collezione/chi/ mancano: 36
+18:24:43: processo: https://pentalight.it/collezione/china/ mancano: 35
+18:24:50: processo: https://pentalight.it/collezione/clash/ mancano: 34
+18:26:13: processo: https://pentalight.it/collezione/clip/ mancano: 33
+18:26:21: processo: https://pentalight.it/collezione/elisabeth/ mancano: 32
+18:26:32: processo: https://pentalight.it/collezione/enoki/ mancano: 31
+18:26:41: processo: https://pentalight.it/collezione/feel/ mancano: 30
+18:35:48: processo: https://pentalight.it/collezione/acorn/ mancano: 41
+18:37:17: processo: https://pentalight.it/collezione/altura/ mancano: 40
+18:37:26: processo: https://pentalight.it/collezione/angolo/ mancano: 39
+18:38:49: processo: https://pentalight.it/collezione/aprile/ mancano: 38
+18:38:58: processo: https://pentalight.it/collezione/bag-outdoor/ mancano: 37
+18:39:08: processo: https://pentalight.it/collezione/chi/ mancano: 36
+18:39:16: processo: https://pentalight.it/collezione/china/ mancano: 35
+18:39:24: processo: https://pentalight.it/collezione/clash/ mancano: 34
+18:39:33: processo: https://pentalight.it/collezione/clip/ mancano: 33
+18:40:56: processo: https://pentalight.it/collezione/elisabeth/ mancano: 32
