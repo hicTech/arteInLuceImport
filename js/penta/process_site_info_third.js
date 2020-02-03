@@ -1,8 +1,31 @@
-[
+var _ = require("../../lib/_node.js");
+var S = require('string');
+var request = require("request");
+var fs = require('fs');
+const puppeteer = require('puppeteer');
+
+var jsdom = require("jsdom");
+const { JSDOM } = jsdom;
+const { window } = new JSDOM();
+const { document } = (new JSDOM('')).window;
+global.document = document;
+
+var $ = jQuery = require('jquery')(window);
+
+
+
+// tutto il json info_second.json copiato e incollato
+var arr_all_products = [
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/glo-applique/",
+        "prod_name": "glo-applique"
+    },
+    /*
     {
         "prod_page": "https://pentalight.it/en/prodotto/acorn-sospensione/",
         "prod_name": "acorn-sospensione"
     },
+    
     {
         "prod_page": "https://pentalight.it/en/prodotto/altura/",
         "prod_name": "altura"
@@ -11,6 +34,7 @@
         "prod_page": "https://pentalight.it/en/prodotto/altura-sospensione/",
         "prod_name": "altura-sospensione"
     },
+    
     {
         "prod_page": "https://pentalight.it/en/prodotto/angolo/",
         "prod_name": "angolo"
@@ -78,10 +102,6 @@
     {
         "prod_page": "https://pentalight.it/en/prodotto/glifo/",
         "prod_name": "glifo"
-    },
-    {
-        "prod_page": "https://pentalight.it/en/prodotto/glo-applique/",
-        "prod_name": "glo-applique"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/glo-da-terra/",
@@ -279,4 +299,180 @@
         "prod_page": "https://pentalight.it/en/prodotto/yan-sospensione/",
         "prod_name": "yan-sospensione"
     }
+    */
 ]
+
+
+
+var pages_number = arr_all_products.length;
+
+
+
+var index = 0;
+
+
+
+
+avvia(index);
+
+function avvia(index){
+
+
+
+    if(index == pages_number){
+        fs.writeFile('assets.json', JSON.stringify(arr_single_product, null, 4), 'utf8', function(){
+            _.log("FINITO");
+        });
+        return true;
+    }
+    else{
+        var name = arr_all_products[index].prod_name;
+        //var prod_pic = arr_all_products[index].prod_pic;
+        var uri = arr_all_products[index].prod_page;
+        //var category = arr_all_products[index].category;
+        //var model = arr_all_products[index].name;
+        _.log("processo: "+uri+" mancano: "+parseInt(pages_number-1-index))
+        request({
+            uri: encodeURI(uri),
+            //uri : "https://www.foscarini.com/it/products/ta-twiggy-xl/",
+
+        }, function(error, response, body) {
+            //createJsonFromAPage(body, uri, model, name, prod_pic, category);
+
+            
+            createJsonFromAPage(name, uri);
+        });
+
+    }
+}
+
+
+
+
+
+var arr_single_product = [];
+
+//function createJsonFromAPage(body, uri, model, name, prod_pic, category){
+function createJsonFromAPage(name, uri){
+
+
+            (async() => {
+                
+            const browser = await puppeteer.launch({
+                args: ['--lang=it-IT,it']
+            });
+            const page = await browser.newPage();
+
+            await page.goto(uri);
+
+            await page.setExtraHTTPHeaders({
+                'Accept-Language': 'it'
+            });
+
+
+            let preloaded_bodyHTML = await page.evaluate(() => document.body.innerHTML);
+
+            // aspetto comunque un po per accertarmi che ogni elemento della pagina sia scaricato e renderizzato
+            await page.waitFor(2000);
+            
+            var $body = $(preloaded_bodyHTML);
+
+            // prod_pic
+            var prod_pic = $body.find(".front_bk_secondo").attr("style");
+                prod_pic = S(prod_pic).between("background-image: url(", ")").s;
+            
+
+            // desc
+            var desc = $body.find(".wk_product_content").eq(0).text();
+                desc = S(desc).replaceAll("\n","").s.trim()
+            
+            //projects
+            var projects = [];
+
+            //light-schema
+            var light_schema = [];
+            $body.find(".wk_measure_img").each(function(){
+                light_schema.push($(this).attr("src"))
+            })
+            
+            $body.find("[data-gallery] img").each(function(){
+                
+                if(_.is($(this).attr("srcset"))){
+                    var srcset_arr = $(this).attr("srcset").split(", ");
+                    var img = srcset_arr[srcset_arr.length -  1].trim().replace(" 2000w","")
+                    projects.push( img )
+                }
+                    
+                
+            });
+
+            var video = $body.find("video source").attr("src")
+
+            arr_single_product.push({
+                prod_page : uri,
+                prod_name : name,
+                prod_pic: prod_pic,
+                desc: desc,
+                projects : projects,
+                light_schema : light_schema,
+                video: video,
+            });
+
+            /*
+
+
+                         arr_single_product.push({
+                            uri: uri,
+                            model : model,
+                            category: (category == "Tavolo")? "tavolo" : (category == "Pavimento")? "terra" : (category == "Muro/Soffitto")? "soffitto" : "sospensione",
+                            code: getCode(variation.sku),
+                            desc :desc,
+                            size_image: size_image,
+                            color: variation.attributes.attribute_pa_color,
+                            image: variation.image.url,
+                            secondary_image: secondary_image,
+                            summary_media : summary_media,
+                            other_images: filteredImages(other_images,variation.image.url,secondary_image),
+                            downloads : downloads,
+                            more: more,
+                            accessories: getAccessories(model),
+                        })
+
+
+
+
+                         arr_single_product.push({
+                            name: website_name,
+                            prod_pic: prod_pic,
+                            prod_page : uri,
+                            projects : projects,
+                            category: category,
+                            description: description,
+                            video: video,
+                            variations: variations
+                        });
+
+                        */
+
+           
+            
+            
+            
+            await browser.close();
+            index++;
+
+            avvia(index);
+                
+        
+
+
+            })();
+
+        
+
+    
+
+}
+
+
+

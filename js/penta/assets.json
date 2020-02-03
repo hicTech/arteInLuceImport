@@ -1,0 +1,19 @@
+[
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/glo-applique/",
+        "prod_name": "glo-applique",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2015/12/Glo-wall-1-1400x1400.jpg",
+        "desc": "Glo è un’icona della nostra collezione, una sfera di vetro che esalta il riverbero della luce, in un gioco di riflessioni e rimandi tra la lampada e lo spazio o fra le lampade tra loro. La ricca palette e le diverse misure della variante sospesa sono un invito alla composizione.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2017/06/Glo_wall-lamp-VERTI-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/49A1921.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Glo_04_HI_RES-1400x933.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Glo_03_HI_RES-ORIZZ-1400x1224.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2017/06/Glo-wall-medium-1.svg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Glo-wall-mini-1.svg"
+        ],
+        "video": "https://pentalight.it/wp-content/uploads/2019/09/pentalight_GLO_v04-1.mp4"
+    }
+]

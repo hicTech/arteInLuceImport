@@ -18,7 +18,7 @@ var $ = jQuery = require('jquery')(window);
 var arr_all_products = [
     {
         "prod_page": "https://pentalight.it/en/prodotto/acorn-sospensione/",
-        "prod_name": "acorn"
+        "prod_name": "acorn-sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/collezione/altura/",
@@ -30,14 +30,11 @@ var arr_all_products = [
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/aprile-applique/",
-        "prod_name": "aprile"
+        "prod_name": "aprile-applique"
     },
-
-
-    /*
     {
         "prod_page": "https://pentalight.it/en/prodotto/bag-outdoor-da-terra/",
-        "prod_name": "bag-outdoor"
+        "prod_name": "bag-outdoor-da-terra"
     },
     {
         "prod_page": "https://pentalight.it/en/collezione/chi/",
@@ -49,11 +46,11 @@ var arr_all_products = [
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/clash-applique/",
-        "prod_name": "clash"
+        "prod_name": "clash-applique"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/clip-sospensione/",
-        "prod_name": "clip"
+        "prod_name": "clip-sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/collezione/elisabeth/",
@@ -61,7 +58,7 @@ var arr_all_products = [
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/enoki-applique/",
-        "prod_name": "enoki"
+        "prod_name": "enoki-applique"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/feel/",
@@ -77,11 +74,11 @@ var arr_all_products = [
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/hang-out-sospensione/",
-        "prod_name": "hang-out"
+        "prod_name": "hang-out-sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/jacqueline-lampada-tavolo/",
-        "prod_name": "jacqueline"
+        "prod_name": "jacqueline-lampada-tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/collezione/je-suis/",
@@ -93,11 +90,11 @@ var arr_all_products = [
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/klint-da-tavolo/",
-        "prod_name": "klint"
+        "prod_name": "klint-da-tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/lit-sospensione/",
-        "prod_name": "lit"
+        "prod_name": "lit-sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/ludo/",
@@ -113,7 +110,7 @@ var arr_all_products = [
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/mira-tavolo/",
-        "prod_name": "mira"
+        "prod_name": "mira-tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/collezione/mom/",
@@ -121,7 +118,7 @@ var arr_all_products = [
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/morsetto-tavolo/",
-        "prod_name": "morsetto"
+        "prod_name": "morsetto-tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/collezione/narciso/",
@@ -137,7 +134,7 @@ var arr_all_products = [
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/pop-applique/",
-        "prod_name": "pop"
+        "prod_name": "pop-applique"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/sop/",
@@ -157,11 +154,11 @@ var arr_all_products = [
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/taaac-da-terra/",
-        "prod_name": "taaac"
+        "prod_name": "taaac-da-terra"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/tic-toc-da-tavolo/",
-        "prod_name": "tic-toc"
+        "prod_name": "tic-toc-da-tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/tile/",
@@ -177,19 +174,17 @@ var arr_all_products = [
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/wonder-a-sospensione/",
-        "prod_name": "wonder"
+        "prod_name": "wonder-a-sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/woody-a-sospensione/",
-        "prod_name": "woody"
+        "prod_name": "woody-a-sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/yan-sospensione/",
-        "prod_name": "yan"
+        "prod_name": "yan-sospensione"
     }
-    */
 ]
-
 
 
 

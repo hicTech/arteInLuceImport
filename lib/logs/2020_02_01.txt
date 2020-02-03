@@ -1,0 +1,199 @@
+16:10:31: processo: https://pentalight.it/collezione/acorn/ mancano: 41
+16:10:42: processo: https://pentalight.it/collezione/altura/ mancano: 40
+16:10:53: processo: https://pentalight.it/collezione/angolo/ mancano: 39
+16:11:03: processo: https://pentalight.it/collezione/aprile/ mancano: 38
+16:11:13: processo: https://pentalight.it/collezione/bag-outdoor/ mancano: 37
+16:11:23: processo: https://pentalight.it/collezione/chi/ mancano: 36
+16:11:33: processo: https://pentalight.it/collezione/china/ mancano: 35
+16:11:45: processo: https://pentalight.it/collezione/clash/ mancano: 34
+16:11:56: processo: https://pentalight.it/collezione/clip/ mancano: 33
+16:12:05: processo: https://pentalight.it/collezione/elisabeth/ mancano: 32
+16:12:14: processo: https://pentalight.it/collezione/enoki/ mancano: 31
+16:12:22: processo: https://pentalight.it/collezione/feel/ mancano: 30
+16:12:30: processo: https://pentalight.it/collezione/glifo/ mancano: 29
+16:12:39: processo: https://pentalight.it/collezione/glo/ mancano: 28
+16:12:48: processo: https://pentalight.it/collezione/hang-out/ mancano: 27
+16:12:57: processo: https://pentalight.it/collezione/jacqueline/ mancano: 26
+16:13:06: processo: https://pentalight.it/collezione/je-suis/ mancano: 25
+16:13:14: processo: https://pentalight.it/collezione/jei-jei/ mancano: 24
+16:13:23: processo: https://pentalight.it/collezione/klint/ mancano: 23
+16:13:33: processo: https://pentalight.it/collezione/lit/ mancano: 22
+16:13:42: processo: https://pentalight.it/collezione/ludo/ mancano: 21
+16:13:47: processo: https://pentalight.it/collezione/lula/ mancano: 20
+16:13:54: processo: https://pentalight.it/collezione/mami/ mancano: 19
+16:14:04: processo: https://pentalight.it/collezione/mira/ mancano: 18
+16:14:13: processo: https://pentalight.it/collezione/mom/ mancano: 17
+16:14:22: processo: https://pentalight.it/collezione/morsetto/ mancano: 16
+16:14:33: processo: https://pentalight.it/collezione/narciso/ mancano: 15
+16:14:43: processo: https://pentalight.it/collezione/new-classic/ mancano: 14
+16:14:54: processo: https://pentalight.it/collezione/polar/ mancano: 13
+16:15:03: processo: https://pentalight.it/collezione/pop/ mancano: 12
+16:15:13: processo: https://pentalight.it/collezione/sop/ mancano: 11
+16:15:24: processo: https://pentalight.it/collezione/sospensioni-in-tessuto/ mancano: 10
+16:15:32: processo: https://pentalight.it/collezione/spoon/ mancano: 9
+16:15:43: processo: https://pentalight.it/collezione/storm/ mancano: 8
+16:15:52: processo: https://pentalight.it/collezione/taaac/ mancano: 7
+16:16:02: processo: https://pentalight.it/collezione/tic-toc/ mancano: 6
+16:16:12: processo: https://pentalight.it/collezione/tile/ mancano: 5
+16:16:21: processo: https://pentalight.it/collezione/tosca/ mancano: 4
+16:16:29: processo: https://pentalight.it/collezione/vela/ mancano: 3
+16:16:39: processo: https://pentalight.it/collezione/wonder/ mancano: 2
+16:16:50: processo: https://pentalight.it/collezione/woody/ mancano: 1
+16:17:00: processo: https://pentalight.it/collezione/yan/ mancano: 0
+16:17:13: FINITO
+16:17:57: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 41
+16:17:58: processo: https://pentalight.it/en/collezione/altura/ mancano: 40
+16:18:09: -----------trovato sotto prodotto
+16:18:09: -----------trovato sotto prodotto
+16:18:09: processo: https://pentalight.it/en/prodotto/angolo/ mancano: 39
+16:18:10: processo: https://pentalight.it/en/prodotto/aprile-applique/ mancano: 38
+16:18:11: processo: https://pentalight.it/en/prodotto/bag-outdoor-da-terra/ mancano: 37
+16:18:12: processo: https://pentalight.it/en/collezione/chi/ mancano: 36
+16:18:26: -----------trovato sotto prodotto
+16:18:26: -----------trovato sotto prodotto
+16:18:26: -----------trovato sotto prodotto
+16:18:26: -----------trovato sotto prodotto
+16:18:26: processo: https://pentalight.it/en/collezione/china/ mancano: 35
+16:18:36: -----------trovato sotto prodotto
+16:18:36: -----------trovato sotto prodotto
+16:18:36: processo: https://pentalight.it/en/prodotto/clash-applique/ mancano: 34
+16:18:37: processo: https://pentalight.it/en/prodotto/clip-sospensione/ mancano: 33
+16:18:38: processo: https://pentalight.it/en/collezione/elisabeth/ mancano: 32
+16:18:46: -----------trovato sotto prodotto
+16:18:46: -----------trovato sotto prodotto
+16:18:46: -----------trovato sotto prodotto
+16:18:46: processo: https://pentalight.it/en/prodotto/enoki-applique/ mancano: 31
+16:18:47: processo: https://pentalight.it/en/prodotto/feel/ mancano: 30
+16:18:48: processo: https://pentalight.it/en/prodotto/glifo/ mancano: 29
+16:18:49: processo: https://pentalight.it/en/collezione/glo/ mancano: 28
+16:18:59: -----------trovato sotto prodotto
+16:18:59: -----------trovato sotto prodotto
+16:18:59: -----------trovato sotto prodotto
+16:18:59: -----------trovato sotto prodotto
+16:18:59: processo: https://pentalight.it/en/prodotto/hang-out-sospensione/ mancano: 27
+16:19:00: processo: https://pentalight.it/en/prodotto/jacqueline-lampada-tavolo/ mancano: 26
+16:19:01: processo: https://pentalight.it/en/collezione/je-suis/ mancano: 25
+16:19:09: -----------trovato sotto prodotto
+16:19:09: -----------trovato sotto prodotto
+16:19:09: processo: https://pentalight.it/en/collezione/jei-jei/ mancano: 24
+16:19:16: -----------trovato sotto prodotto
+16:19:16: -----------trovato sotto prodotto
+16:19:16: processo: https://pentalight.it/en/prodotto/klint-da-tavolo/ mancano: 23
+16:19:17: processo: https://pentalight.it/en/prodotto/lit-sospensione/ mancano: 22
+16:19:18: processo: https://pentalight.it/en/prodotto/ludo/ mancano: 21
+16:19:19: processo: https://pentalight.it/en/collezione/lula/ mancano: 20
+16:19:27: -----------trovato sotto prodotto
+16:19:27: -----------trovato sotto prodotto
+16:19:27: processo: https://pentalight.it/en/collezione/mami/ mancano: 19
+16:19:36: -----------trovato sotto prodotto
+16:19:36: -----------trovato sotto prodotto
+16:19:36: -----------trovato sotto prodotto
+16:19:36: -----------trovato sotto prodotto
+16:19:36: processo: https://pentalight.it/en/prodotto/mira-tavolo/ mancano: 18
+16:19:37: processo: https://pentalight.it/en/collezione/mom/ mancano: 17
+16:19:45: -----------trovato sotto prodotto
+16:19:45: -----------trovato sotto prodotto
+16:19:45: -----------trovato sotto prodotto
+16:19:45: processo: https://pentalight.it/en/prodotto/morsetto-tavolo/ mancano: 16
+16:19:46: processo: https://pentalight.it/en/collezione/narciso/ mancano: 15
+16:19:55: -----------trovato sotto prodotto
+16:19:55: -----------trovato sotto prodotto
+16:19:55: -----------trovato sotto prodotto
+16:19:55: processo: https://pentalight.it/en/collezione/new-classic/ mancano: 14
+16:20:03: -----------trovato sotto prodotto
+16:20:03: -----------trovato sotto prodotto
+16:20:03: processo: https://pentalight.it/en/collezione/polar/ mancano: 13
+16:20:11: -----------trovato sotto prodotto
+16:20:11: -----------trovato sotto prodotto
+16:20:11: processo: https://pentalight.it/en/prodotto/pop-applique/ mancano: 12
+16:20:11: processo: https://pentalight.it/en/prodotto/sop/ mancano: 11
+16:20:12: processo: https://pentalight.it/en/collezione/sospensioni-in-tessuto/ mancano: 10
+16:20:19: -----------trovato sotto prodotto
+16:20:19: -----------trovato sotto prodotto
+16:20:19: -----------trovato sotto prodotto
+16:20:19: -----------trovato sotto prodotto
+16:20:19: processo: https://pentalight.it/en/collezione/spoon/ mancano: 9
+16:20:27: -----------trovato sotto prodotto
+16:20:27: -----------trovato sotto prodotto
+16:20:27: -----------trovato sotto prodotto
+16:20:27: processo: https://pentalight.it/en/prodotto/storm/ mancano: 8
+16:20:28: processo: https://pentalight.it/en/prodotto/taaac-da-terra/ mancano: 7
+16:20:30: processo: https://pentalight.it/en/prodotto/tic-toc-da-tavolo/ mancano: 6
+16:20:31: processo: https://pentalight.it/en/prodotto/tile/ mancano: 5
+16:20:32: processo: https://pentalight.it/en/collezione/tosca/ mancano: 4
+16:20:39: -----------trovato sotto prodotto
+16:20:39: -----------trovato sotto prodotto
+16:20:40: processo: https://pentalight.it/en/prodotto/vela/ mancano: 3
+16:20:41: processo: https://pentalight.it/en/prodotto/wonder-a-sospensione/ mancano: 2
+16:20:42: processo: https://pentalight.it/en/prodotto/woody-a-sospensione/ mancano: 1
+16:20:42: processo: https://pentalight.it/en/prodotto/yan-sospensione/ mancano: 0
+16:20:43: FINITO
+17:18:12: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 2
+17:18:22: processo: https://pentalight.it/en/prodotto/altura/ mancano: 1
+17:18:31: processo: https://pentalight.it/en/prodotto/altura-sospensione/ mancano: 0
+17:18:39: FINITO
+17:21:07: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+17:21:16: FINITO
+17:22:04: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+17:22:13: FINITO
+17:25:42: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+17:25:52: FINITO
+17:27:49: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+17:27:57: FINITO
+17:29:15: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+17:29:24: FINITO
+17:31:25: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+17:31:35: FINITO
+17:35:42: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+17:35:53: FINITO
+17:41:33: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+17:41:46: FINITO
+17:54:26: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+17:54:38: FINITO
+17:56:07: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+17:56:17: FINITO
+17:57:01: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+17:57:13: FINITO
+17:57:48: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+17:58:03: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+17:58:16: FINITO
+17:58:29: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+17:58:41: FINITO
+18:00:10: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+18:00:21: [object HTMLImageElement]
+18:00:21: [object HTMLImageElement]
+18:00:21: [object HTMLImageElement]
+18:00:21: FINITO
+18:00:53: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+18:01:09: FINITO
+18:01:41: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+18:01:52: FINITO
+18:02:01: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+18:02:12: FINITO
+18:05:39: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+18:05:53: FINITO
+18:07:24: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+18:07:55: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+18:08:08: FINITO
+18:09:21: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+18:09:33: FINITO
+18:09:42: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 4
+18:09:54: processo: https://pentalight.it/en/prodotto/altura/ mancano: 3
+18:10:09: processo: https://pentalight.it/en/prodotto/altura-sospensione/ mancano: 2
+18:10:22: processo: https://pentalight.it/en/prodotto/angolo/ mancano: 1
+18:10:36: processo: https://pentalight.it/en/prodotto/aprile-applique/ mancano: 0
+18:10:49: FINITO
+18:11:45: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+18:11:56: FINITO
+18:12:28: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+18:12:41: FINITO
+18:12:59: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+18:13:10: FINITO
+18:13:40: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+18:13:52: FINITO
+18:22:17: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+18:22:28: FINITO
+18:23:20: processo: https://pentalight.it/en/prodotto/acorn-sospensione/ mancano: 0
+18:23:33: FINITO
+19:16:05: processo: https://pentalight.it/en/prodotto/glo-applique/ mancano: 0
+19:16:17: FINITO
