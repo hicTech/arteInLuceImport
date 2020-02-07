@@ -1,0 +1,425 @@
+[
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/ludo/",
+        "prod_name": "ludo",
+        "prod_pic": null,
+        "desc": "",
+        "projects": [],
+        "light_schema": []
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/lula-da-tavolo/",
+        "prod_name": "lula-da-tavolo",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2015/12/Lula-1-1400x1400.jpg",
+        "desc": "Un sottile stelo metallico sorregge un corpo illuminante in vetro dalle linee morbide e femminili.Nasce così Lula, lampada da tavolo e da terra che decora lo spazio con eleganza.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2016/02/49A8781-2-verti-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/02/49A8798-orizz-1400x933.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/02/49A8911-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/02/49A0188-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/02/Lula_table-1400x1025.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2016/02/Lula-tavolo-large.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/Lula-tavolo-small.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/lula-da-terra/",
+        "prod_name": "lula-da-terra",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2016/02/Lula-floor-1400x1400.jpg",
+        "desc": "Un sottile stelo metallico sorregge un corpo illuminante in vetro dalle linee morbide e femminili.Nasce così Lula, lampada da tavolo e da terra che decora lo spazio con eleganza.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2016/02/Lula_floor-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/02/LULA-image-06-1400x934.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/02/Lula_floor_detail-933x1400.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2016/02/Lula-floor.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/mami-a-sospensione/",
+        "prod_name": "mami-a-sospensione",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2016/02/mami-sospensione-1-1400x1400.jpg",
+        "desc": "Tra design e arte, Mamì è una collezione dall’eleganza versatile. Merito del modulo ovale in vetro soffiato bianco, reinterpretato in chiave modernista nelle configurazioni sospese e più lineare nelle varianti da tavolo, da terra e applique.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2016/02/mami-sosp-1183x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/02/mami-asta-orizzontale-1400x993.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/02/Mami_stem-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/02/MAMI_MAXI_SPIRALE_BIANCA-1050x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/02/mami_metal_detail-1400x933.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2016/02/mami-sospensione-maxi.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/mami-sospensione-xl.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/mami-sospensione-large.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/mami-sospensione-medium.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/mami-sospensione-small.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/mami-orizzontale.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/mami-asta-fissa-large.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/mami-asta-fissa-medium.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/mami-asta-fissa-small.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/mami-ceiling-large.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/mami-ceiling-small.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/mami-da-terra/",
+        "prod_name": "mami-da-terra",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2016/01/PRODOTTO-MAMI_TERRA_STILL-1049x1400.jpg",
+        "desc": "Tra design e arte, Mamì è una collezione dall’eleganza versatile. Merito del modulo ovale in vetro soffiato bianco, reinterpretato in chiave modernista nelle configurazioni sospese e più lineare nelle varianti da tavolo, da terra e applique.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2016/01/Mami_floor-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/01/1K3G9319.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/01/Mami_still_terra-933x1400.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2016/01/Mami-terra.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/mami-da-tavolo/",
+        "prod_name": "mami-da-tavolo",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2016/02/Mami-tavolo-1400x1400.jpg",
+        "desc": "Tra design e arte, Mamì è una collezione dall’eleganza versatile. Merito del modulo ovale in vetro soffiato bianco, reinterpretato in chiave modernista nelle configurazioni sospese e più lineare nelle varianti da tavolo, da terra e applique.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2016/01/Mami_table-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/01/1K3G9319.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/01/Mami_table_still-933x1400.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2016/01/Mami-tavolo.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/mami-applique/",
+        "prod_name": "mami-applique",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2016/01/mami-applique-1400x1400.jpg",
+        "desc": "Tra design e arte, Mamì è una collezione dall’eleganza versatile. Merito del modulo ovale in vetro soffiato bianco, reinterpretato in chiave modernista nelle configurazioni sospese e più lineare nelle varianti da tavolo, da terra e applique.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2016/01/Mami_wall-lamp_4light_verti-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/01/Mami_wall_still-1-1400x933.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/01/Mami_wall-lamp-933x1400.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2016/01/Mami-wall-large.svg",
+            "https://pentalight.it/wp-content/uploads/2016/01/mami-wall-medium.svg",
+            "https://pentalight.it/wp-content/uploads/2016/01/mami-wall-small.svg",
+            "https://pentalight.it/wp-content/uploads/2016/01/mami-wall-4luci.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/mira-tavolo/",
+        "prod_name": "mira-tavolo",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2019/10/Mira-table-1400x1400.jpg",
+        "desc": "Come nel mito classico Narciso guarda la sua immagine riflessa nell’acqua, così il cono dell’omonima lampada si sdoppia per diffondere e riemettere la luce delicata del corpo illuminante.Omaggio alla musica la versione da tavolo, con diffusore audio bluetooth.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG_20181213_161511-1050x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso_04_LOW_RES.jpg",
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG_20181213_161502-910x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG_20181214_121413-1050x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0028-1050x1400.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG_20181213_161502-455x700.jpg",
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG_20181213_161511-525x700.jpg",
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG_20181214_121413-525x700.jpg",
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0008-1-525x700.jpg",
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0028-525x700.jpg",
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0028-525x700.jpg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/mom-sospensione/",
+        "prod_name": "mom-sospensione",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2016/10/Mom-1400x1400.jpg",
+        "desc": "Sono ispirate alla tradizione veneziana le lampade Mom, che nella forma e nelle finiture opache si rifanno ai classici vasi in vetro di Murano. Disponibili anche nellevarianti da tavolo e applique, in versione lucida sono simili a pietre preziose.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2016/10/mom-opache-sosp-999x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/10/MoM_cluster_01-1183x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/10/MoM_01-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/10/MoM_06-copia-1156x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/10/MoM_02-copia-923x1400.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2016/10/MoM-low-sospensione.svg",
+            "https://pentalight.it/wp-content/uploads/2016/10/MoM-tall-sospensione.svg",
+            "https://pentalight.it/wp-content/uploads/2016/10/MoM-slim-sospensione.svg",
+            "https://pentalight.it/wp-content/uploads/2016/10/MoM-fatty-sospensione.svg",
+            "https://pentalight.it/wp-content/uploads/2016/10/MoM-little-sospensione.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/mom-applique/",
+        "prod_name": "mom-applique",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2017/06/Mom-wall-lamp-1400x1400.jpg",
+        "desc": "Sono ispirate alla tradizione veneziana le lampade Mom, che nella forma e nelle finiture opache si rifanno ai classici vasi in vetro di Murano. Disponibili anche nellevarianti da tavolo e applique, in versione lucida sono simili a pietre preziose.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2017/06/MoM_wall-lamp-verti-934x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/MoM_wall_still-1400x1193.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/MoM_wall_still_-933x1400.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2017/06/MoM-fatty-wall.svg",
+            "https://pentalight.it/wp-content/uploads/2017/06/MoM-slim-wall.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/mom-tavolo/",
+        "prod_name": "mom-tavolo",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2017/06/Mom-tavolo-1400x1400.jpg",
+        "desc": "Sono ispirate alla tradizione veneziana le lampade Mom, che nella forma e nelle finiture opache si rifanno ai classici vasi in vetro di Murano. Disponibili anche nellevarianti da tavolo e applique, in versione lucida sono simili a pietre preziose.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2017/06/MoM_table-lamp_verti-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/MoM_Little_table_still_oriz-1400x927.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/MoM_table_black-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Mom_low_still-1400x1114.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/MoM_table_detail-933x1400.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2017/06/MoM-low-tavolo.svg",
+            "https://pentalight.it/wp-content/uploads/2017/06/MoM-tall-tavolo.svg",
+            "https://pentalight.it/wp-content/uploads/2017/06/MoM-fatty-tavolo.svg",
+            "https://pentalight.it/wp-content/uploads/2017/06/MoM-little-tavolo.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/morsetto-tavolo/",
+        "prod_name": "morsetto-tavolo",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2019/10/morsetto_FOTO-933x1400.jpg",
+        "desc": "Come nel mito classico Narciso guarda la sua immagine riflessa nell’acqua, così il cono dell’omonima lampada si sdoppia per diffondere e riemettere la luce delicata del corpo illuminante.Omaggio alla musica la versione da tavolo, con diffusore audio bluetooth.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG_20181213_161511-1050x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso_04_LOW_RES.jpg",
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG_20181213_161502-910x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG_20181214_121413-1050x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0028-1050x1400.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG_20181213_161502-455x700.jpg",
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG_20181213_161511-525x700.jpg",
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG_20181214_121413-525x700.jpg",
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0008-1-525x700.jpg",
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0028-525x700.jpg",
+            "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0028-525x700.jpg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/narciso-sospensione/",
+        "prod_name": "narciso-sospensione",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2017/06/Narciso-sospensione-1-1400x1400.jpg",
+        "desc": "Come nel mito classico Narciso guarda la sua immagine riflessa nell’acqua, così il cono dell’omonima lampada si sdoppia per diffondere e riemettere la luce delicata del corpo illuminante.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso_suspension-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso_suspension_detail_01-1400x933.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso_suspension_detail-933x1400.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso-sospensione.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/narciso-terra/",
+        "prod_name": "narciso-terra",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2017/06/Narciso-terra_-1400x1400.jpg",
+        "desc": "Come nel mito classico Narciso guarda la sua immagine riflessa nell’acqua, così il cono dell’omonima lampada si sdoppia per diffondere e riemettere la luce delicata del corpo illuminante.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso_floor_01-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso_low-floor-1400x739.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso_floor_-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso_floor_still-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso_low_still-933x1400.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso-terra.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/narciso-tavolo/",
+        "prod_name": "narciso-tavolo",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2015/12/Narciso-1-1400x1400.jpg",
+        "desc": "Come nel mito classico Narciso guarda la sua immagine riflessa nell’acqua, così il cono dell’omonima lampada si sdoppia per diffondere e riemettere la luce delicata del corpo illuminante.Omaggio alla musica la versione da tavolo, con diffusore audio bluetooth.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso_table_-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso_table_graphite-1400x1008.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso_gold_detail-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso_graphite_01_still-1-1400x1210.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso_04_LOW_RES.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso-tavolo-large-filo.svg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso-tavolo-large.svg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Narciso-tavolo-small.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/new-classic-da-tavolo/",
+        "prod_name": "new-classic-da-tavolo",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2015/12/New-Classic-1-1400x1400.jpg",
+        "desc": "Reinterpretazione sofisticata del classico abat-jour, New classic ha una base a bottiglia in vetro di diverse forme e un paralume in tessuto – o in materiale traslucido, per un ulteriore tocco di modernità.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2016/01/NC_Bon-Ton_table_verti-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/01/NC_Desir_orizz-1400x1207.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/01/NC_Pascia-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/01/NC_blue_detail_slide-1400x1359.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/01/NC_Bon-Ton_shade-slide-1400x933.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2016/01/NC-Bon-ton-tavolo.svg",
+            "https://pentalight.it/wp-content/uploads/2016/01/NC-Desir-tavolo.svg",
+            "https://pentalight.it/wp-content/uploads/2016/01/NC-Pascia-tavolo.svg",
+            "https://pentalight.it/wp-content/uploads/2016/01/NC-paralume-semicono.svg",
+            "https://pentalight.it/wp-content/uploads/2016/01/NC-paralume-high-cylinder.svg",
+            "https://pentalight.it/wp-content/uploads/2016/01/NC-paralume-low-cylinder.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/new-classic-da-terra/",
+        "prod_name": "new-classic-da-terra",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2016/01/NewClassic_floor_verti-933x1400.jpg",
+        "desc": "Reinterpretazione sofisticata del classico abat-jour, New classic ha una base a bottiglia in vetro di diverse forme e un paralume in tessuto – o in materiale traslucido, per un ulteriore tocco di modernità.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2016/01/NewClassic_floor_verti-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/01/NewClassic_detail_terra-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/01/BonTon_floor_still-933x1400.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2016/01/NC-Bon-ton-terra.svg",
+            "https://pentalight.it/wp-content/uploads/2016/01/NC-paralume-low-semicone.svg",
+            "https://pentalight.it/wp-content/uploads/2016/01/NC-paralume-high-semicone.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/polar-da-tavolo/",
+        "prod_name": "polar-da-tavolo",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2017/06/Polar-tavolo-1400x1400.jpg",
+        "desc": "Polar è un volume puro di vetro soffiato opalino che diffonde un chiarore caldo e morbido. Un totem di luceche rende subito accogliente qualsiasi spazio.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2016/01/Polar_table-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/01/Polar_table_still_orizz-1400x1170.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/01/Polar_base-933x1400.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2016/01/Polar-tavolo.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/polar-da-terra/",
+        "prod_name": "polar-da-terra",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2017/06/Polar-terra-1400x1400.jpg",
+        "desc": "Polar è un volume puro di vetro soffiato opalino che diffonde un chiarore caldo e morbido. Un totem di luce che rende subito accogliente qualsiasi spazio.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2016/01/Polar_floor-1182x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/01/Polar_still-1400x1182.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/01/POLAR-image-03-1050x1400.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2016/01/Polar-terra.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/pop-applique/",
+        "prod_name": "pop-applique",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2015/12/Pop-1-1400x1400.jpg",
+        "desc": "Una lampada dalle forme giocose, un oggetto indisciplinato che mescola ironia ed eleganza: Pop è un applique sferica che dipinge sulla parete luci e ombre inattese.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2017/06/Pop-Recuperato-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Pop_06_HI_RES-1400x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Pop_02_HI_RES-1076x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Pop_06_bianco_HI_RES-1120x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Pop_04_oro_rosa_HI_RES-1126x1400.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2017/06/Pop.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/sop/",
+        "prod_name": "sop",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2019/10/SOP_KITCHEN-1120x1400.jpg",
+        "desc": "SOP è una lampada a sospensione.  La forma, che richiama l’eleganza dei vasi e delle ampolle del periodo greco e romano, è esagonale. SOP è un unico e affusolato blocco di cemento chiuso all’estremità inferiore da un led che richiama la forma e l’eleganza di un pistillo di un fiore.  L’utilizzo del cemento, materiale estremamente contemporaneo, consente un abbinamento perfetto di SOP con l’ambiente e il contesto in cui viene inserita. La lampada risulta essere un elemento discreto tono su tono, di contrasto quando è colorata.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2019/10/SOP_KITCHEN-1120x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2019/10/SOP_PICCIOLO_DETT.jpg",
+            "https://pentalight.it/wp-content/uploads/2019/10/SOP_LOUNGE.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2019/10/Sop_large-1.svg",
+            "https://pentalight.it/wp-content/uploads/2019/10/sop_medium-1.svg",
+            "https://pentalight.it/wp-content/uploads/2019/10/sop_small-1.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/vanity-applique/",
+        "prod_name": "vanity-applique",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2016/01/Vanity-1400x1400.jpg",
+        "desc": "La stessa morbida qualità della luce e la bellezza tattile delle sospensioni in tessuto in versione applique.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2016/01/VANITY-RECTANGULAR-Version-image-01-1400x1006.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2016/01/Vanity-small-rectangular.svg",
+            "https://pentalight.it/wp-content/uploads/2016/01/Vanity-large-rectangular.svg",
+            "https://pentalight.it/wp-content/uploads/2016/01/Vanity-small-round.svg",
+            "https://pentalight.it/wp-content/uploads/2016/01/Vanity-large-round.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/sospensioni-tessuto/",
+        "prod_name": "sospensioni-tessuto",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2016/02/Cylinder_fabric-933x1400.jpg",
+        "desc": "Un oggetto dalle linee pulite che diventa protagonista dello spazio, esaltando attraverso la luce la morbidezza del tessuto.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2016/02/Cylinder_fabric-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/02/Double-cylinder_still-1-1400x1299.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/02/Low-cylinder_still-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/02/sosp-tessuto_5_06-1183x1400.jpg",
+            "2000w"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2016/02/Sosp.-20-cilindro.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/sosp.-30-cilindro.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/sosp.-40-cilindro.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/sosp.-50-cilindro.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/sosp.-60-cilindro.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/sosp.-70-cilindro.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/sosp.-80-cilindro.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/sosp.-100-cilindro.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/sosp.-double-large.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/sosp.-double-small.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/sosp.-high-cylinder-contrappeso.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/sosp.-high-cylinder.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/sosp.-low-cylinder-60.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/sosp.-low-cylinder-80.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/sosp.-low-cylinder-100.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/sosp.-square-60.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/sosp.-square-80.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/sosp.-square-100.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/XL-sosp-120-cilindro.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/XL-sosp-150-cilindro.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/XL-sosp-180-cilindro.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/XL-sosp-200-cilindro.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/XL-sosp-200-rectangular.svg",
+            "https://pentalight.it/wp-content/uploads/2016/02/XL-sosp-250-rectangular.svg"
+        ]
+    },
+    {
+        "prod_page": "https://pentalight.it/en/prodotto/luxury-suspension/",
+        "prod_name": "luxury-suspension",
+        "prod_pic": "https://pentalight.it/wp-content/uploads/2016/01/Luxury_still.slide_-1400x762.jpg",
+        "desc": "Luxury è una sospensione in tessuto resa più ricca dalla lavorazione a plissé. È disponibile nelle forme semiconica, cilindrica e rettangolare.",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2016/02/SOSPENSIONI-Tessuto-image-08-1-1130x1400.jpg"
+        ],
+        "light_schema": [
+            "https://pentalight.it/wp-content/uploads/2016/01/Luxury-cilindro-60.svg",
+            "https://pentalight.it/wp-content/uploads/2016/01/Luxury-cilindro-80.svg",
+            "https://pentalight.it/wp-content/uploads/2016/01/Luxury-cilindro-100.svg",
+            "https://pentalight.it/wp-content/uploads/2016/01/Luxury-semicone-60.svg",
+            "https://pentalight.it/wp-content/uploads/2016/01/Luxury-semicone-80.svg",
+            "https://pentalight.it/wp-content/uploads/2016/01/Luxury-semicone-100.svg",
+            "https://pentalight.it/wp-content/uploads/2016/01/Luxury-rectangular.svg"
+        ]
+    }
+]

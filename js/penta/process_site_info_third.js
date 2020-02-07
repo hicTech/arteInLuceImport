@@ -16,11 +16,12 @@ var $ = jQuery = require('jquery')(window);
 
 // tutto il json info_second.json copiato e incollato
 var arr_all_products = [
+    /*
     {
         "prod_page": "https://pentalight.it/en/prodotto/glo-applique/",
         "prod_name": "glo-applique"
     },
-    /*
+    
     {
         "prod_page": "https://pentalight.it/en/prodotto/acorn-sospensione/",
         "prod_name": "acorn-sospensione"
@@ -47,6 +48,7 @@ var arr_all_products = [
         "prod_page": "https://pentalight.it/en/prodotto/bag-outdoor-da-terra/",
         "prod_name": "bag-outdoor-da-terra"
     },
+    
     {
         "prod_page": "https://pentalight.it/en/prodotto/chi-sospensione/",
         "prod_name": "chi-sospensione"
@@ -87,6 +89,7 @@ var arr_all_products = [
         "prod_page": "https://pentalight.it/en/prodotto/elisabeth-sospensione/",
         "prod_name": "elisabeth-sospensione"
     },
+
     {
         "prod_page": "https://pentalight.it/en/prodotto/elisabeth-applique/",
         "prod_name": "elisabeth-applique"
@@ -147,6 +150,7 @@ var arr_all_products = [
         "prod_page": "https://pentalight.it/en/prodotto/lit-sospensione/",
         "prod_name": "lit-sospensione"
     },
+    
     {
         "prod_page": "https://pentalight.it/en/prodotto/ludo/",
         "prod_name": "ludo"
@@ -239,10 +243,12 @@ var arr_all_products = [
         "prod_page": "https://pentalight.it/en/prodotto/sospensioni-tessuto/",
         "prod_name": "sospensioni-tessuto"
     },
+
     {
         "prod_page": "https://pentalight.it/en/prodotto/luxury-suspension/",
         "prod_name": "luxury-suspension"
     },
+    */
     {
         "prod_page": "https://pentalight.it/en/prodotto/club-house-appliques/",
         "prod_name": "club-house-appliques"
@@ -299,7 +305,7 @@ var arr_all_products = [
         "prod_page": "https://pentalight.it/en/prodotto/yan-sospensione/",
         "prod_name": "yan-sospensione"
     }
-    */
+
 ]
 
 
@@ -331,7 +337,13 @@ function avvia(index){
         var uri = arr_all_products[index].prod_page;
         //var category = arr_all_products[index].category;
         //var model = arr_all_products[index].name;
-        _.log("processo: "+uri+" mancano: "+parseInt(pages_number-1-index))
+        _.log("processo: "+uri+" mancano: "+parseInt(pages_number-1-index));
+
+        fs.writeFile('assets.json', JSON.stringify(arr_single_product, null, 4), 'utf8', function(){
+            _.log("non ho finito.... procedo");
+        });
+
+
         request({
             uri: encodeURI(uri),
             //uri : "https://www.foscarini.com/it/products/ta-twiggy-xl/",
@@ -379,7 +391,7 @@ function createJsonFromAPage(name, uri){
 
             // prod_pic
             var prod_pic = $body.find(".front_bk_secondo").attr("style");
-                prod_pic = S(prod_pic).between("background-image: url(", ")").s;
+                prod_pic = (_.is(prod_pic))? S(prod_pic).between("background-image: url(", ")").s : null;
             
 
             // desc
