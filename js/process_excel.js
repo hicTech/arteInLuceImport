@@ -4981,11 +4981,28 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 if( fornitore == "penta"){
 
                                     
+                                    if( 
+                                    row["Modello"].toLowerCase().indexOf("rosone") != -1 ||
+                                    row["Modello"].toLowerCase().indexOf("piastra") != -1 
                                 
+                                    ){
+                                        return undefined
+                                    }
                                 
 
                                     
-                                    let asset = getAsset(row["Modello"]);         
+                                    let asset = getAsset(row["Modello"], 0.8);
+
+                                    if(_.is(asset))
+                                        count++;
+                                    
+                                    _.log(count)
+
+
+
+
+                                    return false;
+                                    
                                     supplier = "penta";
                                     supplier_id = supplierId(supplier);
                                     original_model_id = row["Articolo"].replace("=","").replace("/",""); // il carattere "=" rompe l'importer prestashop
@@ -5154,7 +5171,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                         var asset = getAsset(model_id);
                                         
                                         if( _.is(asset))
-                                            return asset.asset.name +" - "+ asset.asset.category.toString();
+                                            return asset.prod_name +" - "+ "AGGIUNGI LA CATEGORIA" ;//asset.asset.category.toString();
                                     }
 
                                     
@@ -5174,68 +5191,28 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                     // se è undefined vuol dire che non l'ha trovato
                                     // altrimenti ritorna un oggetto in  cui in asset c'è tutto l'asset
                                     // in data i dati della variante in questione
-                                    function getAsset(id){
-                                        
+                                    function getAsset(id,weight){
+
+                                        var w = weight || 0;
                                         var ret = undefined;
                                         _.each(assets_json,function(asset){
-                                            if(!_.is(ret)){
-                                                _.each(asset.variations,function(variation, index){
-                                                    let variant_id = normalizzaCodice(variation.name); //S(variation.name.toLowerCase()).replaceAll(" ","").replaceAll(".","").s;
-                                                    let model_id_no_space = normalizzaCodice(id); //S(id.toLowerCase()).replaceAll(" ","").replaceAll(".","").s;
-                                                    if(variant_id == model_id_no_space){
-                                                        ret = {
-                                                            id_listino: id,
-                                                            asset: asset,
-                                                            data : asset.variations[index],
-                                                        }
-                                                    }
-                                                    else{
-                                                        if(variant_id == normalizzaCodice(row["Gruppo"])){
-                                                            ret = {
-                                                                id_listino: id,
-                                                                asset: asset,
-                                                                data : asset.variations[index],
-                                                            }
-                                                        }
-                                                        else{
-                                                            // gestisco altri casi particolari in cui i codici fra sito e listino non sono identici ma si capisce che stiamo parlando dello stesso
-                                                            if(model_id_no_space == "d87cc" || model_id_no_space == "d87cw"){
-                                                                if(variation.name == "D87CW / D87CC"){
-                                                                    ret = {
-                                                                        id_listino: id,
-                                                                        asset: asset,
-                                                                        data : asset.variations[index],
-                                                                    }
-                                                                }
-                                                            }
-                                                            if(model_id_no_space == "d19lled"){
-                                                                if(variation.name == "D19L.LED + D19/1"){
-                                                                    ret = {
-                                                                        id_listino: id,
-                                                                        asset: asset,
-                                                                        data : asset.variations[index],
-                                                                    }
-                                                                }
-                                                            }
-                                                            else{
-                                                                if( sS.compareTwoStrings(model_id_no_space, variant_id) > 0.7){
-                                                                    //_.log("_______________________________________");
-                                                                    //_.log("link: "+asset.prod_page);
-                                                                    //_.log("codice sito: "+variant_id+" - - - - codice listino: "+model_id_no_space)
-                                                                    ret = {
-                                                                        id_listino: id,
-                                                                        asset: asset,
-                                                                        data : asset.variations[index],
-                                                                    }
-                                                                }
-                                                                    
-                                                            }
-                                                        }
-                                                    }
-                                                    
-                                                })
+
+                                            var normalized_id = id.toLowerCase();
+                                            var nomrmalized_asset_name = asset.prod_name.toLowerCase().replace("-a-"," ").replace("-da-"," ").replace("-"," ").replace("-"," ");
+                                            var compare = sS.compareTwoStrings(nomrmalized_asset_name, normalized_id);
+
+                                            if(compare > w){
+                                                ret = asset;
+                                                //_.log(nomrmalized_asset_name+"  -------  "+normalized_id);
                                             }
-                                        });
+                                            else{
+                                                if(compare > 0.7){
+                                                    _.log(nomrmalized_asset_name+"  -------  "+normalized_id);
+                                                }
+                                            }
+                                                
+                                        })
+
                                         
                                         return ret;
                                     }
