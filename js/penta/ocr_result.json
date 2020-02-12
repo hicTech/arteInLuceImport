@@ -1,0 +1,2280 @@
+[
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/spoon-tavolo-2.png",
+        "ocr_result": [
+            "TAVOLO / TABLE",
+            "",
+            "1706-00",
+            "",
+            "45° ¥",
+            "",
+            "11",
+            "",
+            "63",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/sosp.-square-80.png",
+        "ocr_result": [
+            "1005-22",
+            "square",
+            "",
+            "80x80",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/sosp.-square-60.png",
+        "ocr_result": [
+            "1005-20",
+            "square",
+            "",
+            "60x60",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/sosp.-square-100.png",
+        "ocr_result": [
+            "1005-24",
+            "square",
+            "",
+            "100x100",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/sosp.-low-cylinder-80.png",
+        "ocr_result": [
+            "0604-21",
+            "low cylinder",
+            "",
+            "80",
+            "",
+            "20",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/sosp.-low-cylinder-60.png",
+        "ocr_result": [
+            "0604-20",
+            "low cylinder",
+            "",
+            "960",
+            "",
+            "20",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/sosp.-low-cylinder-100.png",
+        "ocr_result": [
+            "0604-22",
+            "low cylinder",
+            "",
+            "100",
+            "",
+            "20",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/sosp.-high-cylinder.png",
+        "ocr_result": [
+            "0610-20",
+            "high cylinder",
+            "",
+            "930",
+            "",
+            "100",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/sosp.-high-cylinder-contrappeso.png",
+        "ocr_result": [
+            "0605-20",
+            "high cylinder",
+            "",
+            "0)",
+            "",
+            "100",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/sosp.-double-small.png",
+        "ocr_result": [
+            "50",
+            "",
+            "9229-28",
+            "cylinder",
+            "",
+            "945",
+            "",
+            "060",
+            "",
+            "34",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/sosp.-double-large.png",
+        "ocr_result": [
+            "50",
+            "",
+            "9229-29",
+            "double cylinder",
+            "",
+            "060",
+            "",
+            "080",
+            "",
+            "34",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/sosp.-80-cilindro.png",
+        "ocr_result": [
+            "9229-26",
+            "cylinder",
+            "",
+            "980",
+            "",
+            "35",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/sosp.-70-cilindro.png",
+        "ocr_result": [
+            "9229-25",
+            "cylinder",
+            "",
+            "970",
+            "",
+            "40",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/sosp.-60-cilindro.png",
+        "ocr_result": [
+            "9229-24",
+            "cylinder",
+            "",
+            "60",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/sosp.-50-cilindro.png",
+        "ocr_result": [
+            "9229-23",
+            "cylinder",
+            "",
+            "950",
+            "",
+            "25",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/sosp.-40-cilindro.png",
+        "ocr_result": [
+            "9229-22",
+            "cylinder",
+            "",
+            "040",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/sosp.-30-cilindro.png",
+        "ocr_result": [
+            "9229-21",
+            "cylinder",
+            "",
+            "30",
+            "",
+            "40",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/sosp.-100-cilindro.png",
+        "ocr_result": [
+            "9229-27",
+            "cylinder",
+            "",
+            "9100",
+            "",
+            "50",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/sop_small-1.png",
+        "ocr_result": [
+            "1913-20",
+            "small",
+            "",
+            " ",
+            "",
+            "40",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/sop_medium-1.png",
+        "ocr_result": [
+            "1913-22",
+            "",
+            "medium",
+            "",
+            " ",
+            "",
+            "¢ 10",
+            "",
+            "46",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/mami-wall-small.png",
+        "ocr_result": [
+            "1307-31",
+            "small",
+            "",
+            "20",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/mami-wall-medium.png",
+        "ocr_result": [
+            "1307-32",
+            "medium",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/mami-wall-4luci.png",
+        "ocr_result": [
+            "1307-43",
+            "",
+            "74",
+            "",
+            "60",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/mami-sospensione-xl.png",
+        "ocr_result": [
+            "1307-25",
+            "extra large",
+            "",
+            "143",
+            "",
+            "105",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/mami-sospensione-small.png",
+        "ocr_result": [
+            "1307-21",
+            "small",
+            "",
+            "112",
+            "",
+            "58",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/mami-sospensione-medium.png",
+        "ocr_result": [
+            "1307-22",
+            "medium",
+            "",
+            "125",
+            "",
+            "85",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/mami-sospensione-maxi.png",
+        "ocr_result": [
+            "1307-24",
+            "maxi",
+            "",
+            "125",
+            "",
+            "159",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/mami-sospensione-large.png",
+        "ocr_result": [
+            "1307-23",
+            "large",
+            "",
+            "125",
+            "",
+            "85",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/mami-orizzontale.png",
+        "ocr_result": [
+            "1307-29",
+            "horizontal",
+            "",
+            "123",
+            "",
+            "48",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/mami-ceiling-small.png",
+        "ocr_result": [
+            "1307-41",
+            "small",
+            "",
+            "114",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/mami-ceiling-large.png",
+        "ocr_result": [
+            "1307-42",
+            "large",
+            "",
+            "125",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/mami-asta-fissa-small.png",
+        "ocr_result": [
+            "1307-26",
+            "small",
+            "",
+            "65",
+            "",
+            "110",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/mami-asta-fissa-medium.png",
+        "ocr_result": [
+            "1307-28",
+            "medium",
+            "",
+            "65",
+            "",
+            "110",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/mami-asta-fissa-large.png",
+        "ocr_result": [
+            "1307-27",
+            "large",
+            "",
+            "70",
+            "",
+            "115",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/jacqueline-large.png",
+        "ocr_result": [
+            "1709-03",
+            "large rechaergeable",
+            "",
+            "36",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/feel-disco-mni.png",
+        "ocr_result": [
+            "1831-91",
+            "mini",
+            "",
+            "060",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/chi-wall-small-1.png",
+        "ocr_result": [
+            "9907-31",
+            "small",
+            "",
+            "27",
+            "",
+            "14",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/chi-sospensione-media.png",
+        "ocr_result": [
+            "9907-22",
+            "medium",
+            "",
+            "035",
+            "",
+            "17",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/XL-sosp-250-rectangular.png",
+        "ocr_result": [
+            "1034-20",
+            "rectangular",
+            "",
+            "250X30",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/XL-sosp-200-rectangular.png",
+        "ocr_result": [
+            "1033-20",
+            "rectangular",
+            "",
+            "200X30",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/XL-sosp-200-cilindro.png",
+        "ocr_result": [
+            "1032-20",
+            "cylinder",
+            "",
+            "9200",
+            "",
+            "50",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/XL-sosp-180-cilindro.png",
+        "ocr_result": [
+            "1031-20",
+            "cylinder",
+            "",
+            "9180",
+            "",
+            "50",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/XL-sosp-150-cilindro.png",
+        "ocr_result": [
+            "1030-20",
+            "cylinder",
+            "",
+            "9150",
+            "",
+            "50",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/XL-sosp-120-cilindro.png",
+        "ocr_result": [
+            "1025-20",
+            "cylinder",
+            "",
+            "9120",
+            "",
+            "50",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Woody-small.png",
+        "ocr_result": [
+            "1406-21",
+            "",
+            "small",
+            "",
+            "007% xew - OZ Ul",
+            "",
+            "55",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Woody-large.png",
+        "ocr_result": [
+            "1406-23",
+            "",
+            "large",
+            "",
+            "007 Xew - 0Z UW",
+            "",
+            "106",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Wonder-small.png",
+        "ocr_result": [
+            "1504-20",
+            "mini",
+            "",
+            "16",
+            "",
+            "44",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Wonder-medium.png",
+        "ocr_result": [
+            "1504-21",
+            "medium",
+            "",
+            "21",
+            "",
+            "57",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Wonder-large.png",
+        "ocr_result": [
+            "1504-23",
+            "large",
+            "",
+            "26",
+            "",
+            "65",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Vanity-small-round.png",
+        "ocr_result": [
+            "9540-32",
+            "small round",
+            "",
+            "24x12",
+            "",
+            "22",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Vanity-small-rectangular.png",
+        "ocr_result": [
+            "9540-30",
+            "small rectangular",
+            "",
+            "24x12",
+            "",
+            "22",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Vanity-large-round.png",
+        "ocr_result": [
+            "9540-33",
+            "large round",
+            "",
+            "40x19",
+            "",
+            "33",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Vanity-large-rectangular.png",
+        "ocr_result": [
+            "9540-31",
+            "large rectangular",
+            "",
+            "40x19",
+            "",
+            "33",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Tosca-tavolo-piccola.png",
+        "ocr_result": [
+            "0601-01",
+            "small",
+            "",
+            "31",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Tosca-tavolo-grande.png",
+        "ocr_result": [
+            "0601-03",
+            "large",
+            "",
+            "41",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Tosca-shade-small.png",
+        "ocr_result": [
+            "18",
+            "",
+            "0601-91",
+            "small",
+            "",
+            "30x10",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Tosca-shade-large.png",
+        "ocr_result": [
+            "24",
+            "",
+            "0601-90",
+            "large",
+            "",
+            "40x13,5",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Tosca-shade-floor.png",
+        "ocr_result": [
+            "30",
+            "",
+            "0601-92",
+            "",
+            "50x20",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Tosca-floor.png",
+        "ocr_result": [
+            "0601-10",
+            "",
+            "162",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Toc.png",
+        "ocr_result": [
+            "1304-00",
+            "Toc",
+            "",
+            "50/60",
+            "",
+            "30",
+            "",
+            "52",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Toc-shade.png",
+        "ocr_result": [
+            "1304-91",
+            "Fabric Shade",
+            "",
+            "@50",
+            "",
+            "60",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Tic.png",
+        "ocr_result": [
+            "1303-00",
+            "Tic",
+            "",
+            "20/28",
+            "",
+            "56",
+            "",
+            "80",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Tic-glass-shade.png",
+        "ocr_result": [
+            "1303-90",
+            "Glass shade",
+            "",
+            "22",
+            "",
+            "928",
+            "",
+            "diffusore in vetro",
+            "glass shade",
+            "",
+            "48",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Tic-fabric-shade.png",
+        "ocr_result": [
+            "1303-91",
+            "Fabric Shade",
+            "",
+            "20",
+            "",
+            "928",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Taaac-2.png",
+        "ocr_result": [
+            "360° 7",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Taaac-1.png",
+        "ocr_result": [
+            "25",
+            "",
+            "050",
+            "",
+            "0808-10",
+            "",
+            "190",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Storm-small.png",
+        "ocr_result": [
+            "1704-20",
+            "mini",
+            "",
+            "c€",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Storm-medium.png",
+        "ocr_result": [
+            "1704-21",
+            "medium",
+            "",
+            "cv",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Storm-large.png",
+        "ocr_result": [
+            "1704-23",
+            "large",
+            "",
+            "Lv",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Spoon-wall.png",
+        "ocr_result": [
+            "1706-30",
+            "",
+            "11",
+            "",
+            "60",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Spoon-terra.png",
+        "ocr_result": [
+            "1706-10",
+            "",
+            "45°",
+            "",
+            "11",
+            "",
+            "135",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Sosp.-20-cilindro.png",
+        "ocr_result": [
+            "9229-20",
+            "cylinder",
+            "",
+            "020",
+            "",
+            "60",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Sop_large-1.png",
+        "ocr_result": [
+            "1913-23",
+            "",
+            "large",
+            "",
+            " ",
+            "",
+            "@12",
+            "",
+            "52",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Pop.png",
+        "ocr_result": [
+            "1705-30",
+            "",
+            "24",
+            "",
+            "25",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Polar-terra.png",
+        "ocr_result": [
+            "1106-10",
+            "",
+            "1355",
+            "",
+            "18 32",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Polar-tavolo.png",
+        "ocr_result": [
+            "20",
+            "",
+            "1106-03",
+            "",
+            "40",
+            "",
+            "64",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Narciso-terra.png",
+        "ocr_result": [
+            "1710-10",
+            "floor",
+            "",
+            "32",
+            "",
+            "27",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Narciso-tavolo-small.png",
+        "ocr_result": [
+            "1710-01",
+            "small",
+            "",
+            "rechargeable",
+            "",
+            "016",
+            "",
+            "14",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Narciso-tavolo-large.png",
+        "ocr_result": [
+            "1710-04",
+            "large",
+            "",
+            "rechargeable",
+            "audio speaker",
+            "",
+            "32",
+            "",
+            "27",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Narciso-tavolo-large-filo.png",
+        "ocr_result": [
+            "1710-03",
+            "large",
+            "",
+            "@32",
+            "",
+            "27",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Narciso-sospensione.png",
+        "ocr_result": [
+            "1710-20",
+            "",
+            "110",
+            "",
+            "135",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/NC-paralume-semicono.png",
+        "ocr_result": [
+            "0200-90",
+            "Semicone",
+            "",
+            "939",
+            "",
+            "@45",
+            "",
+            "20",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/NC-paralume-low-semicone.png",
+        "ocr_result": [
+            "0200-93",
+            "Low semicone",
+            "",
+            "959",
+            "",
+            "965",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/NC-paralume-low-cylinder.png",
+        "ocr_result": [
+            "0200-92",
+            "Low cylinder",
+            "",
+            "48",
+            "",
+            "18",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/NC-paralume-high-semicone.png",
+        "ocr_result": [
+            "0200-94",
+            "High semicone",
+            "",
+            "935",
+            "",
+            "42",
+            "",
+            "65",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/NC-paralume-high-cylinder.png",
+        "ocr_result": [
+            "0200-91",
+            "High cylinder",
+            "",
+            "930",
+            "",
+            "45",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/NC-Pascia-tavolo.png",
+        "ocr_result": [
+            "0206-00",
+            "Pascia",
+            "",
+            "44",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/NC-Desir-tavolo.png",
+        "ocr_result": [
+            "0205-00",
+            "Desir",
+            "",
+            "38",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/NC-Bon-ton-terra.png",
+        "ocr_result": [
+            "0204-10",
+            "Bon Ton",
+            "",
+            "130",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/NC-Bon-ton-tavolo.png",
+        "ocr_result": [
+            "0204-00",
+            "Bon Ton",
+            "",
+            "56",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/MoM-tall-tavolo.png",
+        "ocr_result": [
+            "1602-02",
+            "tall",
+            "",
+            "20",
+            "",
+            "44",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/MoM-tall-sospensione.png",
+        "ocr_result": [
+            "1602-22",
+            "tall",
+            "",
+            "919,8",
+            "",
+            "40",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/MoM-slim-wall.png",
+        "ocr_result": [
+            "1602-33",
+            "slim",
+            "",
+            "14",
+            "",
+            "34",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/MoM-slim-sospensione.png",
+        "ocr_result": [
+            "1602-23",
+            "slim",
+            "",
+            "@14",
+            "",
+            "31,9",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/MoM-low-tavolo.png",
+        "ocr_result": [
+            "1602-01",
+            "low",
+            "",
+            "38",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/MoM-low-sospensione.png",
+        "ocr_result": [
+            "1602-21",
+            "low",
+            "",
+            "638",
+            "",
+            "21,4",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/MoM-little-tavolo.png",
+        "ocr_result": [
+            "1602-05",
+            "little",
+            "",
+            "20",
+            "",
+            "23",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/MoM-little-sospensione.png",
+        "ocr_result": [
+            "1602-25",
+            "little",
+            "",
+            "620",
+            "",
+            "19",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/MoM-fatty-wall.png",
+        "ocr_result": [
+            "1602-34",
+            "fatty",
+            "",
+            "17",
+            "",
+            "29",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/MoM-fatty-tavolo.png",
+        "ocr_result": [
+            "1602-04",
+            "fatty",
+            "",
+            "20",
+            "",
+            "31",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/MoM-fatty-sospensione.png",
+        "ocr_result": [
+            "1602-24",
+            "fatty",
+            "",
+            "o17",
+            "",
+            "26,3",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Mami-wall-large.png",
+        "ocr_result": [
+            "1307-33",
+            "large",
+            "",
+            "40",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Mami-terra.png",
+        "ocr_result": [
+            "1307-10",
+            "",
+            "52",
+            "",
+            "035",
+            "",
+            "150",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Mami-tavolo.png",
+        "ocr_result": [
+            "1307-03",
+            "",
+            "40",
+            "",
+            "925",
+            "",
+            "56",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Luxury-semicone-80.png",
+        "ocr_result": [
+            "0607-21",
+            "semicone",
+            "",
+            "@80x70",
+            "",
+            "40",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Luxury-semicone-60.png",
+        "ocr_result": [
+            "0607-20",
+            "semicone",
+            "",
+            "60x50",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Luxury-semicone-100.png",
+        "ocr_result": [
+            "0607-22",
+            "semicone",
+            "",
+            "9100x90",
+            "",
+            "50",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Luxury-rectangular.png",
+        "ocr_result": [
+            "0607-26",
+            "rectangular",
+            "",
+            "120x30",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Luxury-cilindro-80.png",
+        "ocr_result": [
+            "0607-24",
+            "cylinder",
+            "",
+            "080",
+            "",
+            "40",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Luxury-cilindro-60.png",
+        "ocr_result": [
+            "0607-23",
+            "cylinder",
+            "",
+            "960",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Luxury-cilindro-100.png",
+        "ocr_result": [
+            "0607-25",
+            "cylinder",
+            "",
+            "100",
+            "",
+            "50",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Lula-tavolo-small.png",
+        "ocr_result": [
+            "1505-02",
+            "",
+            "o14",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Lula-tavolo-large.png",
+        "ocr_result": [
+            "1505-03",
+            "",
+            "930",
+            "",
+            "48",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Lula-floor.png",
+        "ocr_result": [
+            "1505-10",
+            "",
+            "030",
+            "",
+            "150",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Lit-small.png",
+        "ocr_result": [
+            "1912-21",
+            "small",
+            "",
+            "12",
+            "",
+            "26",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Lit-large.png",
+        "ocr_result": [
+            "1912-23",
+            "large",
+            "",
+            "20",
+            "",
+            "42",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Lit-Medium.png",
+        "ocr_result": [
+            "1912-22",
+            "medium",
+            "",
+            "16",
+            "",
+            "34",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Klint.png",
+        "ocr_result": [
+            "1301-03",
+            "",
+            "030",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/JeiJei-wall-small.png",
+        "ocr_result": [
+            "0501-30",
+            "small",
+            "6 lights",
+            "",
+            "52x31",
+            "",
+            "50",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/JeiJei-small.png",
+        "ocr_result": [
+            "min 75 - max 115",
+            "",
+            "0501-21",
+            "small",
+            "16 lights",
+            "",
+            "955",
+            "",
+            "50",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/JeiJei-medium.png",
+        "ocr_result": [
+            "otghts",
+            "0501-22",
+            "osor-22",
+            "",
+            " ",
+            "",
+            " ",
+            "",
+            " ",
+            "",
+            "g",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/JeiJei-maxi.png",
+        "ocr_result": [
+            "min 125 - max 185",
+            "",
+            "0501-24",
+            "maxi",
+            "32 lights",
+            "",
+            "9120",
+            "",
+            "120",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Jei-Jei-wall-large.png",
+        "ocr_result": [
+            "0501-33",
+            "large",
+            "8 lights",
+            "",
+            "77x40",
+            "",
+            "75",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Jei-Jei-super-maxi.png",
+        "ocr_result": [
+            "min 125 - max 185",
+            "",
+            "0501-25",
+            "supermaxi",
+            "48 lights",
+            "",
+            "0180",
+            "",
+            "120",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/JeSuis-table.png",
+        "ocr_result": [
+            "1502-03",
+            "",
+            "035",
+            "",
+            "360°",
+            "",
+            "60",
+            "",
+            "920",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/JeSuis-floor.png",
+        "ocr_result": [
+            "1502-10",
+            "",
+            "940",
+            "",
+            "360°",
+            "",
+            "158",
+            "",
+            "25",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Jacqueline-small.png",
+        "ocr_result": [
+            "1709-01",
+            "small rechaergeable",
+            "",
+            "23",
+            "",
+            "20",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Jacqueline-large-filo.png",
+        "ocr_result": [
+            "1709-04",
+            "large",
+            "",
+            "36",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Glo-wall-mini-1.png",
+        "ocr_result": [
+            "0811-30",
+            "Mini",
+            "",
+            "013",
+            "",
+            "24",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Glo-wall-medium-1.png",
+        "ocr_result": [
+            "0811-31",
+            "Medium",
+            "",
+            "@25",
+            "",
+            "40",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Glo-terra.png",
+        "ocr_result": [
+            "0811-10",
+            "",
+            "938",
+            "",
+            "180",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Glo-tavolo-mini.png",
+        "ocr_result": [
+            "0811-00",
+            "Mini",
+            "",
+            "013",
+            "",
+            "28",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Glo-tavolo-medium.png",
+        "ocr_result": [
+            "0811-01",
+            "Medium",
+            "",
+            "@25",
+            "",
+            "42",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Glo-tavolo-large.png",
+        "ocr_result": [
+            "0811-03",
+            "Large",
+            "",
+            "038",
+            "",
+            "63",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Glo-sospensione-mini-1.png",
+        "ocr_result": [
+            "0811-20",
+            "Mini",
+            "",
+            "913",
+            "",
+            "28",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Glo-sospensione-medium-1.png",
+        "ocr_result": [
+            "0811-21",
+            "Medium",
+            "",
+            "@25",
+            "",
+            "38",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Glo-sospensione-large-1.png",
+        "ocr_result": [
+            "0811-23",
+            "Large",
+            "",
+            "938",
+            "",
+            "57",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Glifo_medium-1.png",
+        "ocr_result": [
+            "1908-31",
+            "MEDIUM",
+            "",
+            "123",
+            "",
+            "67",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Glifo_large.png",
+        "ocr_result": [
+            "1908-33",
+            "LARGE",
+            "",
+            "163",
+            "",
+            "40",
+            "",
+            "80",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Feel-disco-medium.png",
+        "ocr_result": [
+            "1831-92",
+            "medium",
+            "",
+            "@80",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Feel-disco-large.png",
+        "ocr_result": [
+            "1831-93",
+            "large",
+            "",
+            "9100",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Feel-asta-mini.png",
+        "ocr_result": [
+            "1831-21",
+            "mini",
+            "",
+            "018",
+            "",
+            "52",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Feel-asta-mini-cieca.png",
+        "ocr_result": [
+            "1831-97",
+            "mini",
+            "",
+            "018",
+            "",
+            "52",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Feel-asta-medium.png",
+        "ocr_result": [
+            "1831-22",
+            "medium",
+            "",
+            "018",
+            "",
+            "97",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Feel-asta-medium-cieca.png",
+        "ocr_result": [
+            "1831-98",
+            "medium",
+            "",
+            "018",
+            "",
+            "97",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Feel-asta-large.png",
+        "ocr_result": [
+            "1831-23",
+            "large",
+            "",
+            "018",
+            "",
+            "142",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Enoki-1.png",
+        "ocr_result": [
+            "1708-30",
+            "",
+            "17",
+            "",
+            "17",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Elisabeth-tavolo-piccola.png",
+        "ocr_result": [
+            "1711-01",
+            "small",
+            "",
+            "30",
+            "",
+            "47",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Elisabeth-tavolo-grande.png",
+        "ocr_result": [
+            "1711-03",
+            "large",
+            "",
+            "40",
+            "",
+            "60",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Elisabeth-sospensione-piccola-1.png",
+        "ocr_result": [
+            "1711-21",
+            "small",
+            "",
+            "110",
+            "",
+            "100",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Elisabeth-sospensione-grande-1.png",
+        "ocr_result": [
+            "1711-23",
+            "large",
+            "",
+            "110",
+            "",
+            "100",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Elisabeth-applique.png",
+        "ocr_result": [
+            "1711-30",
+            "",
+            "23",
+            "",
+            "34",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Club-House-wall-33.png",
+        "ocr_result": [
+            "1402-33",
+            "",
+            "27,5",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Club-House-wall-32.png",
+        "ocr_result": [
+            "1402-32",
+            "",
+            "28",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Club-House-wall-31.png",
+        "ocr_result": [
+            "1402-31",
+            "",
+            "28,5",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Club-House-wall-30.png",
+        "ocr_result": [
+            "1402-30",
+            "",
+            "27",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Clip-small-open.png",
+        "ocr_result": [
+            "1707-22",
+            "mini open",
+            "",
+            "918",
+            "",
+            "19",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Clip-small-closed.png",
+        "ocr_result": [
+            "1707-21",
+            "mini closed",
+            "",
+            "018",
+            "",
+            "19",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Clip-large-open.png",
+        "ocr_result": [
+            "1707-24",
+            "large open",
+            "",
+            "@ 40",
+            "",
+            "28",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Clip-large-closed.png",
+        "ocr_result": [
+            "1707-23",
+            "large closed",
+            "",
+            "@ 40",
+            "",
+            "28",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Clash-fix.png",
+        "ocr_result": [
+            "06",
+            "",
+            "1699-30",
+            "fix",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Clash-adjustable.png",
+        "ocr_result": [
+            "45°",
+            "",
+            "1699-31",
+            "adjustable",
+            "",
+            "45° 9",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/China-terra-bassa.png",
+        "ocr_result": [
+            "0308-11",
+            "low",
+            "",
+            "33",
+            "",
+            "115",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/China-terra-alta.png",
+        "ocr_result": [
+            "0308-12",
+            "high",
+            "",
+            "033",
+            "",
+            "160",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/China-tavolo-small.png",
+        "ocr_result": [
+            "0308-01",
+            "small",
+            "",
+            "023",
+            "",
+            "22,5",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/China-tavolo-medium.png",
+        "ocr_result": [
+            "0308-00",
+            "medium",
+            "",
+            "9 33",
+            "",
+            "32",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Chi-wall-large.png",
+        "ocr_result": [
+            "9907-33",
+            "large",
+            "",
+            "37",
+            "",
+            "19",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Chi-terra.png",
+        "ocr_result": [
+            "9907-10",
+            "",
+            "045",
+            "",
+            "170",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Chi-tavolo-grande.png",
+        "ocr_result": [
+            "9907-03",
+            "large",
+            "",
+            "@45",
+            "",
+            "50",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Chi-sospensione-piccola.png",
+        "ocr_result": [
+            "9907-21",
+            "small",
+            "",
+            "@25",
+            "",
+            "12",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Chi-sospensione-maxi.png",
+        "ocr_result": [
+            "9907-24",
+            "maxi",
+            "",
+            "@ 60",
+            "",
+            "15",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Chi-sospensione-large.png",
+        "ocr_result": [
+            "9907-23",
+            "large",
+            "",
+            "045",
+            "",
+            "21",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Chi-small-tavolo.png",
+        "ocr_result": [
+            "9907-01",
+            "small",
+            "",
+            "@25",
+            "",
+            "30",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Chi-medium-tavolo.png",
+        "ocr_result": [
+            "9907-02",
+            "medium",
+            "",
+            "@35",
+            "",
+            "42",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Bag.png",
+        "ocr_result": [
+            "0802-1X",
+            "",
+            "68/ 31",
+            "",
+            "140",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Aprile.png",
+        "ocr_result": [
+            "1649-30",
+            "fatty",
+            "",
+            "25 / 9,5",
+            "",
+            "40",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Angolo-smnall-vertical.png",
+        "ocr_result": [
+            "22",
+            "",
+            "1832-1X",
+            "small vertical",
+            "IP65",
+            "",
+            "1832-10",
+            "small vertical",
+            "IP20",
+            "",
+            "32",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Angolo-small-horizontal.png",
+        "ocr_result": [
+            "22",
+            "",
+            "1832-1Y",
+            "small horizontal",
+            "IP65",
+            "",
+            "1832-11",
+            "small horizontal",
+            "IP20",
+            "",
+            "22",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Angolo-medium-vertical-1.png",
+        "ocr_result": [
+            "22",
+            "",
+            "1832-1Z",
+            "medium vertical",
+            "IP65",
+            "",
+            "1832-12",
+            "medium vertical",
+            "IP20",
+            "",
+            "52",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Angolo-medium-horiziontal-1.png",
+        "ocr_result": [
+            "22",
+            "",
+            "1832-1K",
+            "medium horizontal",
+            "IP65",
+            "",
+            "1832-13",
+            "medium horizontal",
+            "IP20",
+            "",
+            "42",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Angolo-large-vertical-1.png",
+        "ocr_result": [
+            "22",
+            "",
+            "1832-1J",
+            "large vertical",
+            "IP65",
+            "",
+            "1832-14",
+            "large vertical",
+            "IP20",
+            "",
+            "72",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Angolo-large-horizontal-1.png",
+        "ocr_result": [
+            "22",
+            "",
+            "1832-1W",
+            "",
+            "large horizontal",
+            "IP65",
+            "",
+            "1832-15",
+            "large horizontal",
+            "IP20",
+            "",
+            "62",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Altura-terra.png",
+        "ocr_result": [
+            "1907-10",
+            "",
+            "22",
+            "",
+            "226",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Altura-sosp.png",
+        "ocr_result": [
+            "1907-20",
+            "",
+            "40",
+            "",
+            "20",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Acorn-mini-2.png",
+        "ocr_result": [
+            "1501-20",
+            "mini",
+            "",
+            "@15",
+            "",
+            "22",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Acorn-medium-2.png",
+        "ocr_result": [
+            "1501-22",
+            "medium",
+            "",
+            "023",
+            "",
+            "32",
+            "\f"
+        ]
+    },
+    {
+        "file": "file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png/Acorn-Large-2.png",
+        "ocr_result": [
+            "1501-23",
+            "large",
+            "",
+            "@30",
+            "",
+            "41",
+            "\f"
+        ]
+    }
+]

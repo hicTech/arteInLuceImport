@@ -1,5 +1,4 @@
 [
-
     {
         "prod_page": "https://pentalight.it/en/prodotto/glo-applique/",
         "prod_name": "glo-applique",
@@ -15,7 +14,9 @@
             "https://pentalight.it/wp-content/uploads/2017/06/Glo-wall-medium-1.svg",
             "https://pentalight.it/wp-content/uploads/2017/06/Glo-wall-mini-1.svg"
         ],
-        "video": "https://pentalight.it/wp-content/uploads/2019/09/pentalight_GLO_v04-1.mp4"
+        "video": "https://pentalight.it/wp-content/uploads/2019/09/pentalight_GLO_v04-1.mp4",
+        "real_prod_name": "glo",
+        "category": "parete"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/acorn-sospensione/",
@@ -33,7 +34,9 @@
             "https://pentalight.it/wp-content/uploads/2015/12/Acorn-Large-2.svg",
             "https://pentalight.it/wp-content/uploads/2015/12/Acorn-medium-2.svg",
             "https://pentalight.it/wp-content/uploads/2015/12/Acorn-mini-2.svg"
-        ]
+        ],
+        "real_prod_name": "acorn",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/altura/",
@@ -49,7 +52,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2019/10/Altura-terra.svg"
-        ]
+        ],
+        "real_prod_name": "altura",
+        "category": "terra"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/altura-sospensione/",
@@ -63,7 +68,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2019/10/Altura-sosp.svg"
-        ]
+        ],
+        "real_prod_name": "altura",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/angolo/",
@@ -84,7 +91,9 @@
             "https://pentalight.it/wp-content/uploads/2018/04/Angolo-medium-vertical-1.svg",
             "https://pentalight.it/wp-content/uploads/2018/04/Angolo-small-horizontal.svg",
             "https://pentalight.it/wp-content/uploads/2018/04/Angolo-smnall-vertical.svg"
-        ]
+        ],
+        "real_prod_name": "angolo",
+        "category": "terra"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/aprile-applique/",
@@ -100,7 +109,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2017/06/Aprile.svg"
-        ]
+        ],
+        "real_prod_name": "aprile",
+        "category": "parete"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/bag-outdoor-da-terra/",
@@ -116,7 +127,10 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2015/12/Bag.svg"
-        ]
+        ],
+        "outdoor": true,
+        "real_prod_name": "bag",
+        "category": "terra"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/chi-sospensione/",
@@ -135,7 +149,9 @@
             "https://pentalight.it/wp-content/uploads/2015/12/Chi-sospensione-large.svg",
             "https://pentalight.it/wp-content/uploads/2015/12/chi-sospensione-media.svg",
             "https://pentalight.it/wp-content/uploads/2015/12/Chi-sospensione-piccola.svg"
-        ]
+        ],
+        "real_prod_name": "c'hi",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/club-house-appliques/",
@@ -150,7 +166,9 @@
             "https://pentalight.it/wp-content/uploads/2016/02/Club-House-wall-31.svg",
             "https://pentalight.it/wp-content/uploads/2016/02/Club-House-wall-32.svg",
             "https://pentalight.it/wp-content/uploads/2016/02/Club-House-wall-33.svg"
-        ]
+        ],
+        "real_prod_name": "club houses",
+        "category": "parete"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/spoon-applique/",
@@ -164,7 +182,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2017/06/Spoon-wall.svg"
-        ]
+        ],
+        "real_prod_name": "spoon",
+        "category": "parete"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/spoon-tavolo/",
@@ -180,7 +200,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2017/06/spoon-tavolo-2.svg"
-        ]
+        ],
+        "real_prod_name": "spoon",
+        "category": "tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/spoon-terra/",
@@ -194,7 +216,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2017/06/Spoon-terra.svg"
-        ]
+        ],
+        "real_prod_name": "spoon",
+        "category": "terra"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/storm/",
@@ -212,7 +236,9 @@
             "https://pentalight.it/wp-content/uploads/2017/06/Storm-large.svg",
             "https://pentalight.it/wp-content/uploads/2017/06/Storm-medium.svg",
             "https://pentalight.it/wp-content/uploads/2017/06/Storm-small.svg"
-        ]
+        ],
+        "real_prod_name": "storm",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/taaac-da-terra/",
@@ -229,7 +255,9 @@
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2016/01/Taaac-1.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/Taaac-2.svg"
-        ]
+        ],
+        "real_prod_name": "taaac",
+        "category": "terra"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/tic-toc-da-tavolo/",
@@ -249,7 +277,9 @@
             "https://pentalight.it/wp-content/uploads/2016/01/Tic-fabric-shade.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/Toc.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/Toc-shade.svg"
-        ]
+        ],
+        "real_prod_name": "tic toc",
+        "category": "tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/tile/",
@@ -270,7 +300,9 @@
             "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0008-1-525x700.jpg",
             "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0028-525x700.jpg",
             "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0028-525x700.jpg"
-        ]
+        ],
+        "real_prod_name": "tile",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/tosca-da-tavolo/",
@@ -287,7 +319,9 @@
             "https://pentalight.it/wp-content/uploads/2016/01/Tosca-tavolo-piccola.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/Tosca-shade-large.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/Tosca-shade-small.svg"
-        ]
+        ],
+        "real_prod_name": "tosca",
+        "category": "tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/tosca-da-terra/",
@@ -302,7 +336,9 @@
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2016/01/Tosca-floor.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/Tosca-shade-floor.svg"
-        ]
+        ],
+        "real_prod_name": "tosca",
+        "category": "terra"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/vela/",
@@ -323,7 +359,9 @@
             "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0008-1-525x700.jpg",
             "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0028-525x700.jpg",
             "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0028-525x700.jpg"
-        ]
+        ],
+        "real_prod_name": "vela",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/wonder-a-sospensione/",
@@ -341,7 +379,9 @@
             "https://pentalight.it/wp-content/uploads/2016/02/Wonder-large.svg",
             "https://pentalight.it/wp-content/uploads/2016/02/Wonder-medium.svg",
             "https://pentalight.it/wp-content/uploads/2016/02/Wonder-small.svg"
-        ]
+        ],
+        "real_prod_name": "wonder",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/woody-a-sospensione/",
@@ -356,7 +396,9 @@
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2016/02/Woody-large.svg",
             "https://pentalight.it/wp-content/uploads/2016/02/Woody-small.svg"
-        ]
+        ],
+        "real_prod_name": "woody",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/yan-sospensione/",
@@ -377,7 +419,9 @@
             "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0008-1-525x700.jpg",
             "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0028-525x700.jpg",
             "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0028-525x700.jpg"
-        ]
+        ],
+        "real_prod_name": "yan",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/chi-sospensione/",
@@ -396,7 +440,9 @@
             "https://pentalight.it/wp-content/uploads/2015/12/Chi-sospensione-large.svg",
             "https://pentalight.it/wp-content/uploads/2015/12/chi-sospensione-media.svg",
             "https://pentalight.it/wp-content/uploads/2015/12/Chi-sospensione-piccola.svg"
-        ]
+        ],
+        "real_prod_name": "c'hi",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/chi-terra/",
@@ -410,7 +456,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2015/12/Chi-terra.svg"
-        ]
+        ],
+        "real_prod_name": "c'hi",
+        "category": "terra"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/chi-applique/",
@@ -427,7 +475,9 @@
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2015/12/Chi-wall-large.svg",
             "https://pentalight.it/wp-content/uploads/2015/12/chi-wall-small-1.svg"
-        ]
+        ],
+        "real_prod_name": "c'hi",
+        "category": "parete"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/chi-da-tavolo/",
@@ -445,7 +495,9 @@
             "https://pentalight.it/wp-content/uploads/2015/12/Chi-tavolo-grande.svg",
             "https://pentalight.it/wp-content/uploads/2015/12/Chi-medium-tavolo.svg",
             "https://pentalight.it/wp-content/uploads/2015/12/Chi-small-tavolo.svg"
-        ]
+        ],
+        "real_prod_name": "c'hi",
+        "category": "tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/china-da-tavolo/",
@@ -462,7 +514,9 @@
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2016/01/China-tavolo-medium.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/China-tavolo-small.svg"
-        ]
+        ],
+        "real_prod_name": "china",
+        "category": "tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/china-floor-lamp/",
@@ -477,7 +531,9 @@
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2016/01/China-terra-alta.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/China-terra-bassa.svg"
-        ]
+        ],
+        "real_prod_name": "china",
+        "category": "terra"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/clash-applique/",
@@ -494,7 +550,9 @@
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2017/06/Clash-fix.svg",
             "https://pentalight.it/wp-content/uploads/2017/06/Clash-adjustable.svg"
-        ]
+        ],
+        "real_prod_name": "clash",
+        "category": "parete"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/clip-sospensione/",
@@ -513,7 +571,9 @@
             "https://pentalight.it/wp-content/uploads/2017/06/Clip-large-closed.svg",
             "https://pentalight.it/wp-content/uploads/2017/06/Clip-small-open.svg",
             "https://pentalight.it/wp-content/uploads/2017/06/Clip-small-closed.svg"
-        ]
+        ],
+        "real_prod_name": "clip",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/elisabeth-tavolo/",
@@ -530,7 +590,9 @@
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2017/06/Elisabeth-tavolo-grande.svg",
             "https://pentalight.it/wp-content/uploads/2017/06/Elisabeth-tavolo-piccola.svg"
-        ]
+        ],
+        "real_prod_name": "elisabeth",
+        "category": "tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/elisabeth-sospensione/",
@@ -545,7 +607,9 @@
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2017/06/Elisabeth-sospensione-grande-1.svg",
             "https://pentalight.it/wp-content/uploads/2017/06/Elisabeth-sospensione-piccola-1.svg"
-        ]
+        ],
+        "real_prod_name": "elisabeth",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/elisabeth-applique/",
@@ -559,7 +623,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2017/06/Elisabeth-applique.svg"
-        ]
+        ],
+        "real_prod_name": "elisabeth",
+        "category": "parete"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/enoki-applique/",
@@ -575,7 +641,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2017/06/Enoki-1.svg"
-        ]
+        ],
+        "real_prod_name": "enoki",
+        "category": "parete"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/feel/",
@@ -598,7 +666,9 @@
             "https://pentalight.it/wp-content/uploads/2018/05/Feel-disco-large.svg",
             "https://pentalight.it/wp-content/uploads/2018/05/Feel-disco-medium.svg",
             "https://pentalight.it/wp-content/uploads/2018/05/feel-disco-mni.svg"
-        ]
+        ],
+        "real_prod_name": "feel",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/glifo/",
@@ -615,7 +685,9 @@
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2019/10/Glifo_large.svg",
             "https://pentalight.it/wp-content/uploads/2019/10/Glifo_medium-1.svg"
-        ]
+        ],
+        "real_prod_name": "glifo",
+        "category": "parete"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/glo-da-terra/",
@@ -629,7 +701,9 @@
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2016/01/Glo-terra.svg"
         ],
-        "video": "https://pentalight.it/wp-content/uploads/2019/09/pentalight_GLO_v04-1.mp4"
+        "video": "https://pentalight.it/wp-content/uploads/2019/09/pentalight_GLO_v04-1.mp4",
+        "real_prod_name": "glo",
+        "category": "terra"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/glo-da-tavolo/",
@@ -647,7 +721,9 @@
             "https://pentalight.it/wp-content/uploads/2016/01/Glo-tavolo-medium.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/Glo-tavolo-mini.svg"
         ],
-        "video": "https://pentalight.it/wp-content/uploads/2019/09/pentalight_GLO_v04-1.mp4"
+        "video": "https://pentalight.it/wp-content/uploads/2019/09/pentalight_GLO_v04-1.mp4",
+        "real_prod_name": "glo",
+        "category": "tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/gli-composizione-multipla-sospensione/",
@@ -665,7 +741,9 @@
             "https://pentalight.it/wp-content/uploads/2016/01/Glo-sospensione-medium-1.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/Glo-sospensione-mini-1.svg"
         ],
-        "video": "https://pentalight.it/wp-content/uploads/2019/09/pentalight_GLO_v04-1.mp4"
+        "video": "https://pentalight.it/wp-content/uploads/2019/09/pentalight_GLO_v04-1.mp4",
+        "real_prod_name": "glo",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/hang-out-sospensione/",
@@ -697,7 +775,9 @@
             "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0008-1-525x700.jpg",
             "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0028-525x700.jpg",
             "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0028-525x700.jpg"
-        ]
+        ],
+        "real_prod_name": "hang out",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/jacqueline-lampada-tavolo/",
@@ -715,7 +795,9 @@
             "https://pentalight.it/wp-content/uploads/2017/06/Jacqueline-large-filo.svg",
             "https://pentalight.it/wp-content/uploads/2017/06/jacqueline-large.svg",
             "https://pentalight.it/wp-content/uploads/2017/06/Jacqueline-small.svg"
-        ]
+        ],
+        "real_prod_name": "jacqueline",
+        "category": "tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/je-suis-da-tavolo/",
@@ -731,7 +813,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2016/02/JeSuis-table.svg"
-        ]
+        ],
+        "real_prod_name": "je suis",
+        "category": "tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/je-suis-da-terra/",
@@ -745,7 +829,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2016/02/JeSuis-floor.svg"
-        ]
+        ],
+        "real_prod_name": "je suis",
+        "category": "terra"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/jei-jei-applique/",
@@ -760,7 +846,9 @@
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2016/01/Jei-Jei-wall-large.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/JeiJei-wall-small.svg"
-        ]
+        ],
+        "real_prod_name": "jei jei",
+        "category": "parete"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/jei-jei-sospensione/",
@@ -777,7 +865,9 @@
             "https://pentalight.it/wp-content/uploads/2016/01/JeiJei-maxi.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/JeiJei-medium.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/JeiJei-small.svg"
-        ]
+        ],
+        "real_prod_name": "jei jei",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/klint-da-tavolo/",
@@ -791,7 +881,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2016/01/Klint.svg"
-        ]
+        ],
+        "real_prod_name": "klint",
+        "category": "tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/lit-sospensione/",
@@ -809,7 +901,9 @@
             "https://pentalight.it/wp-content/uploads/2019/01/Lit-Medium.svg",
             "https://pentalight.it/wp-content/uploads/2019/01/Lit-small.svg"
         ],
-        "video": "https://pentalight.tk/wp-content/uploads/2019/09/pentalight_LIT_v04.mp4"
+        "video": "https://pentalight.tk/wp-content/uploads/2019/09/pentalight_LIT_v04.mp4",
+        "real_prod_name": "lit",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/ludo/",
@@ -817,7 +911,8 @@
         "prod_pic": null,
         "desc": "",
         "projects": [],
-        "light_schema": []
+        "light_schema": [],
+        "real_prod_name": "ludo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/lula-da-tavolo/",
@@ -834,7 +929,9 @@
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2016/02/Lula-tavolo-large.svg",
             "https://pentalight.it/wp-content/uploads/2016/02/Lula-tavolo-small.svg"
-        ]
+        ],
+        "real_prod_name": "lula",
+        "category": "tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/lula-da-terra/",
@@ -848,7 +945,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2016/02/Lula-floor.svg"
-        ]
+        ],
+        "real_prod_name": "lula",
+        "category": "terra"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/mami-a-sospensione/",
@@ -874,7 +973,9 @@
             "https://pentalight.it/wp-content/uploads/2016/02/mami-asta-fissa-small.svg",
             "https://pentalight.it/wp-content/uploads/2016/02/mami-ceiling-large.svg",
             "https://pentalight.it/wp-content/uploads/2016/02/mami-ceiling-small.svg"
-        ]
+        ],
+        "real_prod_name": "mamì",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/mami-da-terra/",
@@ -888,7 +989,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2016/01/Mami-terra.svg"
-        ]
+        ],
+        "real_prod_name": "mamì",
+        "category": "terra"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/mami-da-tavolo/",
@@ -902,7 +1005,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2016/01/Mami-tavolo.svg"
-        ]
+        ],
+        "real_prod_name": "mamì",
+        "category": "tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/mami-applique/",
@@ -919,7 +1024,9 @@
             "https://pentalight.it/wp-content/uploads/2016/01/mami-wall-medium.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/mami-wall-small.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/mami-wall-4luci.svg"
-        ]
+        ],
+        "real_prod_name": "mamì",
+        "category": "parete"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/mira-tavolo/",
@@ -940,7 +1047,9 @@
             "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0008-1-525x700.jpg",
             "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0028-525x700.jpg",
             "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0028-525x700.jpg"
-        ]
+        ],
+        "real_prod_name": "mira",
+        "category": "tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/mom-sospensione/",
@@ -960,7 +1069,9 @@
             "https://pentalight.it/wp-content/uploads/2016/10/MoM-slim-sospensione.svg",
             "https://pentalight.it/wp-content/uploads/2016/10/MoM-fatty-sospensione.svg",
             "https://pentalight.it/wp-content/uploads/2016/10/MoM-little-sospensione.svg"
-        ]
+        ],
+        "real_prod_name": "mom",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/mom-applique/",
@@ -975,7 +1086,9 @@
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2017/06/MoM-fatty-wall.svg",
             "https://pentalight.it/wp-content/uploads/2017/06/MoM-slim-wall.svg"
-        ]
+        ],
+        "real_prod_name": "mom",
+        "category": "parete"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/mom-tavolo/",
@@ -994,7 +1107,9 @@
             "https://pentalight.it/wp-content/uploads/2017/06/MoM-tall-tavolo.svg",
             "https://pentalight.it/wp-content/uploads/2017/06/MoM-fatty-tavolo.svg",
             "https://pentalight.it/wp-content/uploads/2017/06/MoM-little-tavolo.svg"
-        ]
+        ],
+        "real_prod_name": "mom",
+        "category": "tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/morsetto-tavolo/",
@@ -1015,7 +1130,9 @@
             "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0008-1-525x700.jpg",
             "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0028-525x700.jpg",
             "https://pentalight.it/wp-content/uploads/2019/01/IMG-20190114-WA0028-525x700.jpg"
-        ]
+        ],
+        "real_prod_name": "morsetto",
+        "category": "tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/narciso-sospensione/",
@@ -1029,7 +1146,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2017/06/Narciso-sospensione.svg"
-        ]
+        ],
+        "real_prod_name": "narciso",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/narciso-terra/",
@@ -1045,7 +1164,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2017/06/Narciso-terra.svg"
-        ]
+        ],
+        "real_prod_name": "narciso",
+        "category": "terra"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/narciso-tavolo/",
@@ -1063,7 +1184,9 @@
             "https://pentalight.it/wp-content/uploads/2017/06/Narciso-tavolo-large-filo.svg",
             "https://pentalight.it/wp-content/uploads/2017/06/Narciso-tavolo-large.svg",
             "https://pentalight.it/wp-content/uploads/2017/06/Narciso-tavolo-small.svg"
-        ]
+        ],
+        "real_prod_name": "narciso",
+        "category": "tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/new-classic-da-tavolo/",
@@ -1084,7 +1207,9 @@
             "https://pentalight.it/wp-content/uploads/2016/01/NC-paralume-semicono.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/NC-paralume-high-cylinder.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/NC-paralume-low-cylinder.svg"
-        ]
+        ],
+        "real_prod_name": "new classic",
+        "category": "tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/new-classic-da-terra/",
@@ -1100,7 +1225,9 @@
             "https://pentalight.it/wp-content/uploads/2016/01/NC-Bon-ton-terra.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/NC-paralume-low-semicone.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/NC-paralume-high-semicone.svg"
-        ]
+        ],
+        "real_prod_name": "new classic",
+        "category": "terra"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/polar-da-tavolo/",
@@ -1114,7 +1241,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2016/01/Polar-tavolo.svg"
-        ]
+        ],
+        "real_prod_name": "polar",
+        "category": "tavolo"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/polar-da-terra/",
@@ -1128,7 +1257,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2016/01/Polar-terra.svg"
-        ]
+        ],
+        "real_prod_name": "polar",
+        "category": "terra"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/pop-applique/",
@@ -1144,7 +1275,9 @@
         ],
         "light_schema": [
             "https://pentalight.it/wp-content/uploads/2017/06/Pop.svg"
-        ]
+        ],
+        "real_prod_name": "pop",
+        "category": "parete"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/sop/",
@@ -1160,7 +1293,9 @@
             "https://pentalight.it/wp-content/uploads/2019/10/Sop_large-1.svg",
             "https://pentalight.it/wp-content/uploads/2019/10/sop_medium-1.svg",
             "https://pentalight.it/wp-content/uploads/2019/10/sop_small-1.svg"
-        ]
+        ],
+        "real_prod_name": "sop",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/vanity-applique/",
@@ -1175,7 +1310,9 @@
             "https://pentalight.it/wp-content/uploads/2016/01/Vanity-large-rectangular.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/Vanity-small-round.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/Vanity-large-round.svg"
-        ]
+        ],
+        "real_prod_name": "vanity",
+        "category": "parete"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/sospensioni-tessuto/",
@@ -1214,7 +1351,9 @@
             "https://pentalight.it/wp-content/uploads/2016/02/XL-sosp-200-cilindro.svg",
             "https://pentalight.it/wp-content/uploads/2016/02/XL-sosp-200-rectangular.svg",
             "https://pentalight.it/wp-content/uploads/2016/02/XL-sosp-250-rectangular.svg"
-        ]
+        ],
+        "real_prod_name": "tessuto",
+        "category": "sospensione"
     },
     {
         "prod_page": "https://pentalight.it/en/prodotto/luxury-suspension/",
@@ -1232,6 +1371,8 @@
             "https://pentalight.it/wp-content/uploads/2016/01/Luxury-semicone-80.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/Luxury-semicone-100.svg",
             "https://pentalight.it/wp-content/uploads/2016/01/Luxury-rectangular.svg"
-        ]
+        ],
+        "real_prod_name": "luxury",
+        "category": "sospensione"
     }
 ]

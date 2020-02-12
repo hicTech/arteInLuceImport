@@ -16,7 +16,7 @@ var $ = jQuery = require('jquery')(window);
 
 // tutto il json info_second.json copiato e incollato
 var arr_all_products = [
-    /*
+    
     {
         "prod_page": "https://pentalight.it/en/prodotto/glo-applique/",
         "prod_name": "glo-applique"
@@ -248,7 +248,7 @@ var arr_all_products = [
         "prod_page": "https://pentalight.it/en/prodotto/luxury-suspension/",
         "prod_name": "luxury-suspension"
     },
-    */
+    
     {
         "prod_page": "https://pentalight.it/en/prodotto/club-house-appliques/",
         "prod_name": "club-house-appliques"
