@@ -170,7 +170,7 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                         
                                                         
 
-                                                        return false;
+                                                    
 
                                                         var pagination = false;
 
@@ -304,6 +304,11 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         // alcune colonne aggiunte custom da Monica per Panzeri
         var variante = undefined;
         var dimensioni = undefined;
+
+
+        // alcune colonne aggiunte custom da Monica per Penta
+        var struttura = undefined;
+        var diffusore = undefined;
 
         
 
@@ -5025,7 +5030,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 let asset = getAsset(row["Modello"], row["Categoria"]);
                                 supplier = "penta";
 
-                                title = _.capitalize(asset.real_prod_name)+" "+_.capitalize(asset.category);
+                                title = row["Modello"];
                                 subtitle = _.capitalize(asset.category)+" - Penta";
                                 
                                 supplier_id = supplierId(supplier);
@@ -5038,7 +5043,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 light_schema = getLightSchema(row["Articolo"]);
                                 variante = ""
                                 dimensioni = row["Dimensioni"];
-                                ean13 = row["Barcode"];
+                                ean13 = 0; //S(row["Barcode"]).replaceAll("-","").s;
                                 combination_id = model_id;
                                 component = 0;
                                 model = getModelName(asset);
@@ -5047,42 +5052,26 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 desc_it = undefined;
                                 desc_en = undefined;
                                 cleaned_desc_it = asset.desc;
-                                cleaned_desc_en = asset.desc;;
-                                
-                            
-                                
-                            
-                            
-                                function getLightSchema(articolo){
-                                    var ocrs = require("./penta/ocr_result.json");
-                                    var ret = undefined;
-                                    _.each(ocrs,function(ocr){
-                                        _.each(ocr.ocr_result,function(str){
-                                            if( str.indexOf("-") != -1 ){
-                            
-                                                if(str == articolo.substr(0,7))
-                                                    ret = ocr.file;
-                                            }
-                                        })
-                                    });
-                            
-                                    return ret;
-                                }
-                            
-                                function getModelName(model_id){
-                                    
-                                    
-                                    if( _.is(asset))
-                                        return asset.prod_name +" - "+ asset.category;
-                                }
-                            
-                            
-                               
-                                
-                            
-                            
-                            
-                            
+                                cleaned_desc_en = asset.desc;
+
+                                dimmer = (!_.is(row["Dimmer"]) || row["Dimmer"] == "")? undefined : row["Dimmer"];
+                                color = undefined;
+                                led = undefined;
+                                halogen = undefined;
+                                screw = undefined;
+                                component_of = undefined;
+                                wire_length = undefined;
+                                otherColors = undefined;
+                                more = undefined;
+                                size = row["Dimensioni"];
+                                outdoor = row["Outdoor"];
+
+                                pic = asset.prod_pic;
+                                projects = asset.projects;
+
+
+                                product_images = (_.is(asset))? getProductImages(pic, projects, light_schema, component, "img") : undefined;
+                                product_images_alt = (_.is(asset))? getProductImages(pic, projects, light_schema, component, "alt") : undefined;
                                 
                                 item_id = original_model_id;
                                 hicId = getHicId(supplier_id, item_id);
@@ -5094,19 +5083,20 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 delivery_time = "2-3 gg Italy, 5-6 days UE";
                                 delivery_time_if_not_available = "Su ordinazione in 2-3 settimane";
                                 
-                                color = undefined;
-                                
-                                
-                                dimmer = (!_.is(row["Dimmer"]) || row["Dimmer"] == "")? undefined : row["Dimmer"];
-                                led = (!_.is(row["Led"]) || row["Led"] == "")? undefined : row["Led"];
-                                
-                                halogen = undefined;
-                                screw = undefined;
                                 switcher = (row["Descrizione"].toLowerCase().indexOf("on off") != -1 || row["Descrizione"].toLowerCase().indexOf("onof") != -1 || row["Descrizione"].toLowerCase().indexOf("on/off") != -1)? 1 : 0;;
                                 category = row["Categoria"];
                             
+                                link = asset.prod_page;
+
+                                meta_title = (_.is(asset))? getMetaTitle(title, subtitle, category, component, max_discount) : undefined;
+                                meta_description = (_.is(asset))?  getMetaDescription(title, subtitle, category, component, max_discount) : undefined;
+
+                                combination_images = (_.is(asset))? getCombinationImages(pic, projects, light_schema, component, "img") : undefined;
+                                combination_images_alt = (_.is(asset))? getCombinationImages(pic, projects, light_schema, component, "alt") : undefined;
+
                                 
-                            
+                                struttura = row["Struttura"];
+                                diffusore = row["Diffusore"];
                                 
                                 type = undefined;       // è un valore unico ovvero una stringa
                             
@@ -5131,42 +5121,37 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             
                                     return ret;
                                 }
-                                
-                                /*
-                                component_of = undefined;
-                                size = undefined;
-                                outdoor = row["Outdoor"];
-                                wire_length = undefined;
-                                
-                                
-                                
-                                
+
+                                function getLightSchema(articolo){
+                                    var ocrs = require("./penta/ocr_result.json");
+                                    var ret = undefined;
+                                    _.each(ocrs,function(ocr){
+                                        _.each(ocr.ocr_result,function(str){
+                                            if( str.indexOf("-") != -1 ){
                             
-                                pic = ( _.is(asset))? asset.prod_pic : undefined;
-                                
-                                
-                                otherColors = undefined;
-                                projects = ( _.is(asset))? asset.projects : undefined;
-                                link = ( _.is(asset))? asset.prod_page : undefined;
-                                more = ( _.is(asset))? getMore(asset) : undefined;
-                                
+                                                if(str == articolo.substr(0,7)){
+                                                    
+                                                    var path_file = ocr.file.replace("file:///Users/macbookmarconi/Desktop/Workspace/arteInLuceImport/js/penta/assets/png","http://www.hictech.com/pngPenta")
+                                                    
+                                                    ret = path_file;
+                                                }
+                                                    
+                                            }
+                                        })
+                                    });
                             
-                                meta_title = (_.is(asset))? getMetaTitle(title, subtitle, category, component, max_discount) : undefined;
-                                meta_description = (_.is(asset))?  getMetaDescription(title, subtitle, category, component, max_discount) : undefined;
+                                    return ret;
+                                }
                             
-                                all_images = (_.is(asset))? getAllImages(pic,light_schema,projects) : undefined;
-                                all_images_alt = (_.is(asset))? getAllImagesAlt(pic,light_schema,projects) : undefined
-                            
-                                product_images = (_.is(asset))? getProductImages(pic, projects, light_schema, component, "img") : undefined;
-                                product_images_alt = (_.is(asset))? getProductImages(pic, projects, light_schema, component, "alt") : undefined;
-                                
-                                combination_images = (_.is(asset))? getCombinationImages(pic, projects, light_schema, component, "img") : undefined;
-                                combination_images_alt = (_.is(asset))? getCombinationImages(pic, projects, light_schema, component, "alt") : undefined;
-                            
-                                accessori = row["Accessori"];
+                                function getModelName(model_id){
+                                    
+                                    
+                                    if( _.is(asset))
+                                        return asset.prod_name +" - "+ asset.category;
+                                }
                             
                             
-                            
+
                                 function getProductImages(pic, projects, light_schema, component, caso){
                                     
                                     var arr_ret = [];
@@ -5200,7 +5185,41 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                         return S(arr_ret.toString()).replaceAll(",","|").s;
                                     }
                                 }
+
+                                function getMetaTitle(title, subtitle, category, component, max_discount){
+                                    if(component == 0){
+                                        var ret = "Lampada da "+category+": "+title.toUpperCase()+" Penta by ArteInLuce™";
+                                        if(ret.length > 60)
+                                            ret = "Lampada "+category+": "+title.toUpperCase()+" Penta by ArteInLuce™";
+                                        if(ret.length > 60)
+                                            ret = "Lampada "+category+": "+title.toUpperCase()+" Penta ArteInLuce™";
+                                    
+                                    }
+                                    if(component == 1){
+                                        var ret = title +" Penta by ArteInLuce™";
+                                        if(ret.length > 60)
+                                            ret = title +" Penta ArteInLuce™";
+                                        if(ret.length > 60)
+                                            ret = ret.replace("per ","");
+                                    }
                             
+                                    return ret;
+                                }
+                            
+                                function getMetaDescription(title, subtitle, category, component, max_discount){
+                                    if(component == 0){
+                                        var category = (_.is(category))? category.toUpperCase() : "";
+                                        var ret = title.toUpperCase()+" Penta: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da "+category+" in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
+                                        
+                                    }
+                                    if(component == 1){
+                                        var ret = title.toUpperCase()+" Penta: centinaia di altre lampade da "+category+" e relativi accessori in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
+                                    }
+                                    
+                                    
+                                    return ret;
+                                }
+
                                 function getCombinationImages(pic, projects, light_schema, component, caso){
                                     light_schema = [light_schema]
                                     var arr_ret = [];
@@ -5236,6 +5255,27 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                         return S(arr_ret.toString()).replaceAll(",","|").s;
                                     }
                                 }
+                                
+                                /*
+                              
+                                
+                            
+                               
+                                all_images = (_.is(asset))? getAllImages(pic,light_schema,projects) : undefined;
+                                all_images_alt = (_.is(asset))? getAllImagesAlt(pic,light_schema,projects) : undefined
+                            
+                                
+                                
+                                combination_images = (_.is(asset))? getCombinationImages(pic, projects, light_schema, component, "img") : undefined;
+                                combination_images_alt = (_.is(asset))? getCombinationImages(pic, projects, light_schema, component, "alt") : undefined;
+                            
+                                accessori = row["Accessori"];
+                            
+                            
+                            
+                                
+                            
+                                
                             
                                 
                             
@@ -5299,39 +5339,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 
                             
                             
-                                function getMetaTitle(title, subtitle, category, component, max_discount){
-                                    if(component == 0){
-                                        var ret = "Lampada da "+category+": "+title.toUpperCase()+" Penta by ArteInLuce™";
-                                        if(ret.length > 60)
-                                            ret = "Lampada "+category+": "+title.toUpperCase()+" Penta by ArteInLuce™";
-                                        if(ret.length > 60)
-                                            ret = "Lampada "+category+": "+title.toUpperCase()+" Penta ArteInLuce™";
-                                    
-                                    }
-                                    if(component == 1){
-                                        var ret = title +" Penta by ArteInLuce™";
-                                        if(ret.length > 60)
-                                            ret = title +" Penta ArteInLuce™";
-                                        if(ret.length > 60)
-                                            ret = ret.replace("per ","");
-                                    }
-                            
-                                    return ret;
-                                }
-                            
-                                function getMetaDescription(title, subtitle, category, component, max_discount){
-                                    if(component == 0){
-                                        var category = (_.is(category))? category.toUpperCase() : "";
-                                        var ret = title.toUpperCase()+" Penta: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da "+category+" in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
-                                        
-                                    }
-                                    if(component == 1){
-                                        var ret = title.toUpperCase()+" Penta: centinaia di altre lampade da "+category+" e relativi accessori in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
-                                    }
-                                    
-                                    
-                                    return ret;
-                                }
+                                
                             
                             
                                 function getAllImages(pic,light_schema,projects){
@@ -5385,8 +5393,6 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             
                             }
                             else{
-
-    
                                     
                                 /* ================================================================= GIARNIERI */
                                     if( fornitore == "giarnieri"){ 
@@ -5774,7 +5780,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             /* siccome dimmer, led e halogen per PANZERI sono colonne inserite a mano da Monica ho dovuto fare un distinguo */
             /* anche VISTOSI ha il led inserito a mano da Monica */
             /* anche LUCEPLAN ha il led e dimmer inserito a mano da Monica */
-            dimmer:                 ( (supplier=="panzeri" && !_.is(dimmer)) || (supplier=="luceplan" && !_.is(dimmer)) )? undefined : ( (supplier == "panzeri" && _.is(dimmer)) || (supplier == "luceplan" && _.is(dimmer)))? dimmer.toLowerCase() : (dimmer==0 || dimmer == undefined)? "no" : "yes",
+            /* anche PENTA ha il dimmer inserito a mano da monica */
+            dimmer:                 (supplier == "penta")? (_.is(dimmer))? dimmer : "no" : ( (supplier=="panzeri" && !_.is(dimmer)) || (supplier=="luceplan" && !_.is(dimmer)) )? undefined : ( (supplier == "panzeri" && _.is(dimmer)) || (supplier == "luceplan" && _.is(dimmer)))? dimmer.toLowerCase() : (dimmer==0 || dimmer == undefined)? "no" : "yes",
             led:                    ( (supplier=="panzeri" || supplier=="vistosi" || supplier=="luceplan") && !_.is(led) )? undefined : ( (supplier=="panzeri" || supplier=="vistosi" || supplier=="luceplan") && _.is(led))? led.toLowerCase() : (led==0 || led == undefined)? "no" : "yes",
             halogen:                ( supplier=="panzeri" && !_.is(halogen) )? undefined : (supplier == "panzeri" && _.is(halogen))? halogen.toLowerCase() : (halogen==0 || halogen == undefined)? "no" : "yes",                                      
             
@@ -5809,9 +5816,13 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             
 
 
-             // alcune colonne aggiunte custom da Monica per Panzeri e Luceplan
+            // alcune colonne aggiunte custom da Monica per Panzeri e Luceplan
             variante:               variante,
             dimensioni:             dimensioni,
+
+            // alcune colonne aggiunte custom da Monica per Penta
+            struttura:              struttura,
+            diffusore:              diffusore,
 
             // campo castom per luceplan per cui Monica ha aggiunto a mano il codice accessori per ogni articolo
             //accessori:              accessori,
@@ -7110,12 +7121,153 @@ function postProduci(json,fornitore){
        
     }
 
-    if(fornitore=="penta"){
+   if(fornitore=="penta"){
         
 
         var json_prodotti = [];
-        var json_prodotti = [];
+        // [1]
+        // creo hicid è l'id del articolo primario che viene messo a tutte le sue varianti
+        // l'articolo primario viene pompato in json_prodotti col price a zero
+        var registro = {};
+        
+
+        /// eliminiamo i prodotti che non hanno il model
+        json = _.filter(json,function(elem){
+            if( !_.is(elem.model) || elem.model == "")
+                return false;
+            return true;
+        });
+
+        _.each(json, function(elem,index){
+            if( !_.is(registro[elem.title]) ){
+                registro[elem.title] = elem.hicId;
+                var new_elem = Object.assign({}, elem);
+                new_elem.price = 0;
+                json_prodotti.push(new_elem);
+            }
+            else{
+                elem.hicId = registro[elem.title];
+            }
+            
+        })
+
+
+        // aggiungo gli accessori di ogni articolo
+        _.each(json, function(elem){
+            if(_.is(elem.accessori) && elem.accessori != "")
+                elem["accessories"] = S(elem.accessori).replaceAll(",","|").s
+            
+        });
+
+
+        
+
+
+        
+        _.each(json, function(elem){
+            // aggiungo le features che sono le proprietà statiche dell'articolo
+            elem["features"] = inlineCSVFeaturesPenta(elem,["category","outdoor"])
+
+            // aggiungo attributi e valori
+            elem["attributes"] = inlineCSVPenta(elem,[["dimmer","select"],["dimensioni","select"],["diffusore","select"],["struttura","select"]])
+            elem["values"] = inlineCSVPenta(elem,["dimmer","dimensioni","diffusore","struttura"],"values")
+        });
+
+
+        function inlineCSVFeaturesPenta(obj,arr){
+            let csv = "";
+            let pos = 0;
+            _.each(arr,function(elem){
+
+                if( _.is(obj[elem]) ){
+                    var singleton = elem +" : "+ obj[elem] +" : "+ pos+":1 | ";
+                    pos++;
+                }
+                            
+                csv += (_.is(singleton))? singleton : "";
+            });
+
+            //  alle features aggiungo i dati presenti in more (more c'è solo negli articoli componento == 0)
+            if(obj.component == 0){
+                _.each(obj.more, function(feature, key){
+                    var cleaned_feature = cleanedFeature(feature);
+
+                    if(_.is(cleaned_feature)){
+                        //if(key!="descrizione_tecnica"){
+                            csv += key +' : '+ cleaned_feature +' : '+ pos +':1 | ';
+                            pos++;
+                        //}
+                        
+                    } 
+                    //var cleaned_feature = "'"+ feature.replace("<p>","").replace("</p>","") + "'";
+
+                })
+               
+            }
+           
+            
+            // tolgo l'ultima virgola
+            return csv.substring(0, csv.length - 3);
+        }
+
+        function inlineCSVPenta(obj,arr, caso){
+            
+            let pos = 0;
+            if(!_.is(caso)){ // caso dei attributes
+                var csv = "stato : select : 0 | ";                
+            }
+            else{ // caso di values
+                var csv = "nuovo : 0 | ";
+            }
+            _.each(arr,function(elem){
+
+                if(_.is(caso)){ // caso dei values
+                    if( _.is(obj[elem]) ){
+                        pos++;
+                        var singleton = obj[elem] +" : "+ pos +" | ";
+                    }
+                }
+                else{ // caso di attributes
+                    
+                    if( _.is(obj[elem[0]]) ){
+                        pos++;
+                        var etichetta = (elem[0] == "color")? "colore" : (elem[0] == "variante")? "variante" : (elem[0] == "led")? "led" : (elem[0] == "dimmer")? "dimmer" : (elem[0] == "dimensioni")? "dimensioni" : ""; // per flos è sempre e solo il colore il secondo attribute // (etichetta=="color")? "colore" : "nome_attributo_non_trovato";
+                        var singleton = etichetta +" : "+ elem[1] +" : "+ pos+" | ";
+                    }
+
+                }
+                
+                csv += (_.is(singleton))? singleton : "";
+            });
+
+            // tolgo l'ultimo punto e virgola
+            return csv.substring(0, csv.length - 3);
+        }
+        
+        // in component_of invece del code metto hicId
+        _.each(json, function(elem, index){
+            var cod = elem.component_of;
+            _.each(json, function(elem2){
+                if( elem2.model_id == cod)
+                   json[index].component_of = elem2.hicId;
+            })
+        })
+
+        // ad ogni accessorio aggiungo l'hicId degli articoli di cui è accessorio
+        var registro_component_hicId = {};
+        _.each(json, function(elem){
+            if( elem.component == 1 ){
+                var component_of_hicId = elem.component_of;
+                elem.accessories = component_of_hicId;
+            }
+        });
+        
+
+        
+        
+       
     }
+
     if(fornitore=="giarnieri"){
         
 
