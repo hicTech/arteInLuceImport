@@ -51,7 +51,7 @@
         "struttura": "cemento grigio / grey concrete",
         "diffusore": "vetro trasparente / transparent glass",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | Dimmmable TRIAC : 1 | small suspension : 2 | vetro trasparente / transparent glass : 3 | cemento grigio / grey concrete : 4"
     },
     {
@@ -106,7 +106,7 @@
         "struttura": "legno rovere cognac / cognac oak wood",
         "diffusore": "metallo grafite opaco / matt graphite metal",
         "features": "category : terra : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | no : 1 | large horizontal : 2 | metallo grafite opaco / matt graphite metal : 3 | legno rovere cognac / cognac oak wood : 4"
     },
     {
@@ -161,8 +161,63 @@
         "struttura": "cemento grigio / grey concrete",
         "diffusore": "metallo grafite opaco / matt graphite metal",
         "features": "category : terra,outdoor : 0:1 | outdoor : yes : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | no : 1 | large horizontal : 2 | metallo grafite opaco / matt graphite metal : 3 | cemento grigio / grey concrete : 4"
+    },
+    {
+        "supplier": "penta",
+        "brand": "penta",
+        "supplier_id": "penta",
+        "model": "Aprile-applique - parete",
+        "model_variant": "1649-30-1700-DXNE",
+        "title": "Aprile",
+        "subtitle": "<div>Parete - Penta</div>",
+        "original_model_id": "1649-30-1700-DXNE",
+        "model_id": "1649-30-1700-DXNE",
+        "item_id": "1649-30-1700-DXNE",
+        "hicId": "penta_1649-30-1700-DXNE",
+        "ean13": 0,
+        "price": 0,
+        "quantity": 0,
+        "delivery_time": "2-3 gg Italy, 5-6 days UE",
+        "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
+        "desc_it": "Un quadro luminoso capace di far vibrare le pareti con una luce delicata come  quella del sole in primavera.Aprile è un’applique liberamente orientabile che esplora l’eleganza della luce, più intensa da un lato e più morbida dall’altro.",
+        "desc_en": "Un quadro luminoso capace di far vibrare le pareti con una luce delicata come  quella del sole in primavera.Aprile è un’applique liberamente orientabile che esplora l’eleganza della luce, più intensa da un lato e più morbida dall’altro.",
+        "dimmer": "Dimmable TRIAC",
+        "led": "no",
+        "halogen": "no",
+        "switcher": "no",
+        "component": 0,
+        "size": "fatty wall lamp",
+        "outdoor": "no",
+        "category": "parete",
+        "max_discount": 15,
+        "sale": 1,
+        "product_images": "https://pentalight.it/wp-content/uploads/2015/12/Aprile-1-1400x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/49A7944-1-933x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/49A7953-1400x813.jpg|https://pentalight.it/wp-content/uploads/2017/06/Aprile_02_LOW_RES.jpg|https://pentalight.it/wp-content/uploads/2017/06/Aprile_01_HI_RES-1400x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/Aprile_02_bianca_LOW_RES.jpg",
+        "product_images_alt": "pic|projects|projects|projects|projects|projects",
+        "combination_images": "https://pentalight.it/wp-content/uploads/2015/12/Aprile-1-1400x1400.jpg|http://www.hictech.com/pngPenta/Aprile.png",
+        "combination_images_alt": "pic|light_schema",
+        "combination_id": "1649-30-1700-DXNE",
+        "pic": "https://pentalight.it/wp-content/uploads/2015/12/Aprile-1-1400x1400.jpg",
+        "light_schema": "http://www.hictech.com/pngPenta/Aprile.png",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2017/06/49A7944-1-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/49A7953-1400x813.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Aprile_02_LOW_RES.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Aprile_01_HI_RES-1400x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Aprile_02_bianca_LOW_RES.jpg"
+        ],
+        "link": "https://pentalight.it/en/prodotto/aprile-applique/",
+        "meta_title": "Lampada da Parete: APRILE Penta by ArteInLuce™",
+        "meta_description": "APRILE Penta: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
+        "order_available": "2",
+        "variante": "",
+        "dimensioni": "fatty wall lamp",
+        "struttura": "metallo bonzo spazzolato / brushed bronze metal",
+        "diffusore": "",
+        "features": "category : parete : 0:1 | outdoor : no : 1:1",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | struttura : select : 3",
+        "values": "nuovo : 0 | Dimmable TRIAC : 1 | fatty wall lamp : 2 | metallo bonzo spazzolato / brushed bronze metal : 3"
     },
     {
         "supplier": "penta",
@@ -215,8 +270,8 @@
         "struttura": "termolastico bianco lucido/glossy white thermoplastic",
         "diffusore": "",
         "features": "category : terra,outdoor : 0:1 | outdoor : yes : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
-        "values": "nuovo : 0 | no : 1 | floor lamp : 2 |  : 3 | termolastico bianco lucido/glossy white thermoplastic : 4"
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | struttura : select : 3",
+        "values": "nuovo : 0 | no : 1 | floor lamp : 2 | termolastico bianco lucido/glossy white thermoplastic : 3"
     },
     {
         "supplier": "penta",
@@ -270,7 +325,7 @@
         "struttura": "metallo nickel satinato/ nickel satin metal",
         "diffusore": "vetro trasparente / transparent glass",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | no : 1 | large table lamp : 2 | vetro trasparente / transparent glass : 3 | metallo nickel satinato/ nickel satin metal : 4"
     },
     {
@@ -323,7 +378,7 @@
         "struttura": "metallo nickel satinato/ nickel satin metal",
         "diffusore": "vetro trasparente / transparent glass",
         "features": "category : terra : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | Dimmer : 1 | floor lamp : 2 | vetro trasparente / transparent glass : 3 | metallo nickel satinato/ nickel satin metal : 4"
     },
     {
@@ -378,17 +433,17 @@
         "struttura": "metallo nickel satinato/ nickel satin metal",
         "diffusore": "vetro trasparente / transparent glass",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | no : 1 | maxi suspension : 2 | vetro trasparente / transparent glass : 3 | metallo nickel satinato/ nickel satin metal : 4"
     },
     {
         "supplier": "penta",
         "brand": "penta",
         "supplier_id": "penta",
-        "model": "Chi-sospensione - sospensione",
+        "model": "Chi-applique - parete",
         "model_variant": "9907-33-2101-NXBE",
-        "title": "C'hi Soffitto",
-        "subtitle": "<div>Sospensione - Penta</div>",
+        "title": "C'hi",
+        "subtitle": "<div>Parete - Penta</div>",
         "original_model_id": "9907-33-2101-NXBE",
         "model_id": "9907-33-2101-NXBE",
         "item_id": "9907-33-2101-NXBE",
@@ -407,33 +462,33 @@
         "component": 0,
         "size": "large wall lamp",
         "outdoor": "no",
-        "category": "soffitto",
+        "category": "parete",
         "max_discount": 15,
         "sale": 1,
-        "product_images": "https://pentalight.it/wp-content/uploads/2015/12/Chi-1-1400x1400.jpg|https://pentalight.it/wp-content/uploads/2015/12/49A1314-933x1400.jpg|https://pentalight.it/wp-content/uploads/2015/12/49A1342-933x1400.jpg|https://pentalight.it/wp-content/uploads/2015/12/49A1342-933x1400.jpg|https://pentalight.it/wp-content/uploads/2015/12/CHI_SOSP_BIANCA_intera-947x1400.jpg|https://pentalight.it/wp-content/uploads/2015/12/49A2333-933x1400.jpg",
+        "product_images": "https://pentalight.it/wp-content/uploads/2015/12/chi-wall-1400x1400.jpg|https://pentalight.it/wp-content/uploads/2015/12/49A2184-933x1400.jpg|https://pentalight.it/wp-content/uploads/2015/12/Chi_wall-lamp-1400x1018.jpg|https://pentalight.it/wp-content/uploads/2015/12/CHI-Applique-image-02-1-1400x1124.jpg|https://pentalight.it/wp-content/uploads/2015/12/CHI-Applique-image-02-1-1400x1124.jpg|https://pentalight.it/wp-content/uploads/2015/12/Chi_wall-lamp-1400x1018.jpg",
         "product_images_alt": "pic|projects|projects|projects|projects|projects",
-        "combination_images": "https://pentalight.it/wp-content/uploads/2015/12/Chi-1-1400x1400.jpg|http://www.hictech.com/pngPenta/Chi-wall-large.png",
+        "combination_images": "https://pentalight.it/wp-content/uploads/2015/12/chi-wall-1400x1400.jpg|http://www.hictech.com/pngPenta/Chi-wall-large.png",
         "combination_images_alt": "pic|light_schema",
         "combination_id": "9907-33-2101-NXBE",
-        "pic": "https://pentalight.it/wp-content/uploads/2015/12/Chi-1-1400x1400.jpg",
+        "pic": "https://pentalight.it/wp-content/uploads/2015/12/chi-wall-1400x1400.jpg",
         "light_schema": "http://www.hictech.com/pngPenta/Chi-wall-large.png",
         "projects": [
-            "https://pentalight.it/wp-content/uploads/2015/12/49A1314-933x1400.jpg",
-            "https://pentalight.it/wp-content/uploads/2015/12/49A1342-933x1400.jpg",
-            "https://pentalight.it/wp-content/uploads/2015/12/49A1342-933x1400.jpg",
-            "https://pentalight.it/wp-content/uploads/2015/12/CHI_SOSP_BIANCA_intera-947x1400.jpg",
-            "https://pentalight.it/wp-content/uploads/2015/12/49A2333-933x1400.jpg"
+            "https://pentalight.it/wp-content/uploads/2015/12/49A2184-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2015/12/Chi_wall-lamp-1400x1018.jpg",
+            "https://pentalight.it/wp-content/uploads/2015/12/CHI-Applique-image-02-1-1400x1124.jpg",
+            "https://pentalight.it/wp-content/uploads/2015/12/CHI-Applique-image-02-1-1400x1124.jpg",
+            "https://pentalight.it/wp-content/uploads/2015/12/Chi_wall-lamp-1400x1018.jpg"
         ],
-        "link": "https://pentalight.it/en/prodotto/chi-sospensione/",
-        "meta_title": "Lampada da Soffitto: C'HI SOFFITTO Penta by ArteInLuce™",
-        "meta_description": "C'HI SOFFITTO Penta: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
+        "link": "https://pentalight.it/en/prodotto/chi-applique/",
+        "meta_title": "Lampada da Parete: C'HI Penta by ArteInLuce™",
+        "meta_description": "C'HI Penta: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "variante": "",
         "dimensioni": "large wall lamp",
         "struttura": "metallo nickel satinato/ nickel satin metal",
         "diffusore": "vetro trasparente / transparent glass",
-        "features": "category : soffitto : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "features": "category : parete : 0:1 | outdoor : no : 1:1",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | no : 1 | large wall lamp : 2 | vetro trasparente / transparent glass : 3 | metallo nickel satinato/ nickel satin metal : 4"
     },
     {
@@ -488,8 +543,8 @@
         "struttura": "metallo grafite opaco/matt graphite metal",
         "diffusore": "",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
-        "values": "nuovo : 0 | Dimmer : 1 | medium table lamp : 2 |  : 3 | metallo grafite opaco/matt graphite metal : 4"
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | struttura : select : 3",
+        "values": "nuovo : 0 | Dimmer : 1 | medium table lamp : 2 | metallo grafite opaco/matt graphite metal : 3"
     },
     {
         "supplier": "penta",
@@ -541,8 +596,63 @@
         "struttura": "metallo grafite opaco/matt graphite metal",
         "diffusore": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
-        "values": "nuovo : 0 | Dimmer : 1 | low floor lamp : 2 |  : 3 | metallo grafite opaco/matt graphite metal : 4"
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | struttura : select : 3",
+        "values": "nuovo : 0 | Dimmer : 1 | low floor lamp : 2 | metallo grafite opaco/matt graphite metal : 3"
+    },
+    {
+        "supplier": "penta",
+        "brand": "penta",
+        "supplier_id": "penta",
+        "model": "Clash-applique - parete",
+        "model_variant": "1699-30-0301-NXBE",
+        "title": "Clash",
+        "subtitle": "<div>Parete - Penta</div>",
+        "original_model_id": "1699-30-0301-NXBE",
+        "model_id": "1699-30-0301-NXBE",
+        "item_id": "1699-30-0301-NXBE",
+        "hicId": "penta_1699-30-0301-NXBE",
+        "ean13": 0,
+        "price": 0,
+        "quantity": 0,
+        "delivery_time": "2-3 gg Italy, 5-6 days UE",
+        "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
+        "desc_it": "Clash è un’applique che combina la leggerezza del vetro e la forza del metallo per creare un oggetto dall’estetica moderna e sofisticata, reso futuristico dalle finiturein grafite e bronzo. La parte inferiore è orientabile, una caratteristica funzionale prima che estetica.",
+        "desc_en": "Clash è un’applique che combina la leggerezza del vetro e la forza del metallo per creare un oggetto dall’estetica moderna e sofisticata, reso futuristico dalle finiturein grafite e bronzo. La parte inferiore è orientabile, una caratteristica funzionale prima che estetica.",
+        "dimmer": "no",
+        "led": "no",
+        "halogen": "no",
+        "switcher": "no",
+        "component": 0,
+        "size": "fix wall lamp",
+        "outdoor": "no",
+        "category": "parete",
+        "max_discount": 15,
+        "sale": 1,
+        "product_images": "https://pentalight.it/wp-content/uploads/2015/12/Clash-1-1400x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/49A2099_verti-1055x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/49A2150_orizz.jpg|https://pentalight.it/wp-content/uploads/2017/06/Clash_03_LOW_RES-1.jpg|https://pentalight.it/wp-content/uploads/2017/06/Clash_01_LOW_RES-1.jpg|https://pentalight.it/wp-content/uploads/2017/06/Clash_wall_still-1400x1131.jpg",
+        "product_images_alt": "pic|projects|projects|projects|projects|projects",
+        "combination_images": "https://pentalight.it/wp-content/uploads/2015/12/Clash-1-1400x1400.jpg|http://www.hictech.com/pngPenta/Clash-fix.png",
+        "combination_images_alt": "pic|light_schema",
+        "combination_id": "1699-30-0301-NXBE",
+        "pic": "https://pentalight.it/wp-content/uploads/2015/12/Clash-1-1400x1400.jpg",
+        "light_schema": "http://www.hictech.com/pngPenta/Clash-fix.png",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2017/06/49A2099_verti-1055x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/49A2150_orizz.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Clash_03_LOW_RES-1.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Clash_01_LOW_RES-1.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Clash_wall_still-1400x1131.jpg"
+        ],
+        "link": "https://pentalight.it/en/prodotto/clash-applique/",
+        "meta_title": "Lampada da Parete: CLASH Penta by ArteInLuce™",
+        "meta_description": "CLASH Penta: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
+        "order_available": "2",
+        "variante": "",
+        "dimensioni": "fix wall lamp",
+        "struttura": "metallo grafite opaco/matt graphite metal",
+        "diffusore": "vetro trasparente / transparent glass",
+        "features": "category : parete : 0:1 | outdoor : no : 1:1",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
+        "values": "nuovo : 0 | no : 1 | fix wall lamp : 2 | vetro trasparente / transparent glass : 3 | metallo grafite opaco/matt graphite metal : 4"
     },
     {
         "supplier": "penta",
@@ -596,8 +706,8 @@
         "struttura": "metallo grafite opaco/matt graphite metal",
         "diffusore": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
-        "values": "nuovo : 0 | no : 1 | large closed suspension : 2 |  : 3 | metallo grafite opaco/matt graphite metal : 4"
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | struttura : select : 3",
+        "values": "nuovo : 0 | no : 1 | large closed suspension : 2 | metallo grafite opaco/matt graphite metal : 3"
     },
     {
         "supplier": "penta",
@@ -651,7 +761,7 @@
         "struttura": "cromo nero lucido / glossy black chromed metal",
         "diffusore": "cromo nero lucido / glossy black chromed metal",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | Dimmer : 1 | large table lamp : 2 | cromo nero lucido / glossy black chromed metal : 3 | cromo nero lucido / glossy black chromed metal : 4"
     },
     {
@@ -704,17 +814,17 @@
         "struttura": "cromo nero lucido / glossy black chromed metal",
         "diffusore": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
-        "values": "nuovo : 0 | Dimmable TRIAC : 1 | large suspension : 2 |  : 3 | cromo nero lucido / glossy black chromed metal : 4"
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | struttura : select : 3",
+        "values": "nuovo : 0 | Dimmable TRIAC : 1 | large suspension : 2 | cromo nero lucido / glossy black chromed metal : 3"
     },
     {
         "supplier": "penta",
         "brand": "penta",
         "supplier_id": "penta",
-        "model": "Elisabeth-sospensione - sospensione",
+        "model": "Elisabeth-applique - parete",
         "model_variant": "1711-30-2300-DXNE",
-        "title": "Elisabeth Soffitto",
-        "subtitle": "<div>Sospensione - Penta</div>",
+        "title": "Elisabeth Parete",
+        "subtitle": "<div>Parete - Penta</div>",
         "original_model_id": "1711-30-2300-DXNE",
         "model_id": "1711-30-2300-DXNE",
         "item_id": "1711-30-2300-DXNE",
@@ -733,32 +843,87 @@
         "component": 0,
         "size": "wall lamp",
         "outdoor": "no",
-        "category": "soffitto",
+        "category": "parete",
         "max_discount": 15,
         "sale": 1,
-        "product_images": "https://pentalight.it/wp-content/uploads/2015/12/Elisabeth-sospensione-1400x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/Elisabeth_suspension_verti-933x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/Elisabeth_suspension_still_orizz-1400x1276.jpg|https://pentalight.it/wp-content/uploads/2017/06/Elisabeth_suspension_01-933x1400.jpg",
+        "product_images": "https://pentalight.it/wp-content/uploads/2015/12/Elisabeth-wall-1-1400x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/DSC0748_verti-933x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/Elisabeth_04_HI_RES-1400x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/DSC0748_verti-933x1400.jpg",
         "product_images_alt": "pic|projects|projects|projects",
-        "combination_images": "https://pentalight.it/wp-content/uploads/2015/12/Elisabeth-sospensione-1400x1400.jpg|http://www.hictech.com/pngPenta/Elisabeth-applique.png",
+        "combination_images": "https://pentalight.it/wp-content/uploads/2015/12/Elisabeth-wall-1-1400x1400.jpg|http://www.hictech.com/pngPenta/Elisabeth-applique.png",
         "combination_images_alt": "pic|light_schema",
         "combination_id": "1711-30-2300-DXNE",
-        "pic": "https://pentalight.it/wp-content/uploads/2015/12/Elisabeth-sospensione-1400x1400.jpg",
+        "pic": "https://pentalight.it/wp-content/uploads/2015/12/Elisabeth-wall-1-1400x1400.jpg",
         "light_schema": "http://www.hictech.com/pngPenta/Elisabeth-applique.png",
         "projects": [
-            "https://pentalight.it/wp-content/uploads/2017/06/Elisabeth_suspension_verti-933x1400.jpg",
-            "https://pentalight.it/wp-content/uploads/2017/06/Elisabeth_suspension_still_orizz-1400x1276.jpg",
-            "https://pentalight.it/wp-content/uploads/2017/06/Elisabeth_suspension_01-933x1400.jpg"
+            "https://pentalight.it/wp-content/uploads/2017/06/DSC0748_verti-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Elisabeth_04_HI_RES-1400x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/DSC0748_verti-933x1400.jpg"
         ],
-        "link": "https://pentalight.it/en/prodotto/elisabeth-sospensione/",
-        "meta_title": "Lampada da Soffitto: ELISABETH SOFFITTO Penta by ArteInLuce™",
-        "meta_description": "ELISABETH SOFFITTO Penta: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
+        "link": "https://pentalight.it/en/prodotto/elisabeth-applique/",
+        "meta_title": "Lampada da Parete: ELISABETH PARETE Penta by ArteInLuce™",
+        "meta_description": "ELISABETH PARETE Penta: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "variante": "",
         "dimensioni": "wall lamp",
         "struttura": "cromo nero lucido / glossy black chromed metal",
         "diffusore": "",
-        "features": "category : soffitto : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
-        "values": "nuovo : 0 | Dimmable TRIAC : 1 | wall lamp : 2 |  : 3 | cromo nero lucido / glossy black chromed metal : 4"
+        "features": "category : parete : 0:1 | outdoor : no : 1:1",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | struttura : select : 3",
+        "values": "nuovo : 0 | Dimmable TRIAC : 1 | wall lamp : 2 | cromo nero lucido / glossy black chromed metal : 3"
+    },
+    {
+        "supplier": "penta",
+        "brand": "penta",
+        "supplier_id": "penta",
+        "model": "Enoki-applique - parete",
+        "model_variant": "1708-30-0300-DXNE",
+        "title": "Enoki",
+        "subtitle": "<div>Parete - Penta</div>",
+        "original_model_id": "1708-30-0300-DXNE",
+        "model_id": "1708-30-0300-DXNE",
+        "item_id": "1708-30-0300-DXNE",
+        "hicId": "penta_1708-30-0300-DXNE",
+        "ean13": 0,
+        "price": 0,
+        "quantity": 0,
+        "delivery_time": "2-3 gg Italy, 5-6 days UE",
+        "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
+        "desc_it": "Applique che riprende forme art déco combinando una lamina di metallo a una semicupola sporgente, Enoki vive come oggetto singolo o combinata ad altri elementi simili, anche con orientamenti diversi.",
+        "desc_en": "Applique che riprende forme art déco combinando una lamina di metallo a una semicupola sporgente, Enoki vive come oggetto singolo o combinata ad altri elementi simili, anche con orientamenti diversi.",
+        "dimmer": "Dimmable TRIAC",
+        "led": "no",
+        "halogen": "no",
+        "switcher": "no",
+        "component": 0,
+        "size": "wall lamp",
+        "outdoor": "no",
+        "category": "parete",
+        "max_discount": 15,
+        "sale": 1,
+        "product_images": "https://pentalight.it/wp-content/uploads/2015/12/Enoki-1-1400x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/Enoki_verti-1182x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/Enoki_still-orizz-1400x1260.jpg|https://pentalight.it/wp-content/uploads/2017/06/Enoki_06_HI_RES-1400x933.jpg|https://pentalight.it/wp-content/uploads/2017/06/Enoki_01_HI_RES-1400x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/Enoki_07_oro_rosa_HI_RES-1400x933.jpg",
+        "product_images_alt": "pic|projects|projects|projects|projects|projects",
+        "combination_images": "https://pentalight.it/wp-content/uploads/2015/12/Enoki-1-1400x1400.jpg|http://www.hictech.com/pngPenta/Enoki-1.png",
+        "combination_images_alt": "pic|light_schema",
+        "combination_id": "1708-30-0300-DXNE",
+        "pic": "https://pentalight.it/wp-content/uploads/2015/12/Enoki-1-1400x1400.jpg",
+        "light_schema": "http://www.hictech.com/pngPenta/Enoki-1.png",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2017/06/Enoki_verti-1182x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Enoki_still-orizz-1400x1260.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Enoki_06_HI_RES-1400x933.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Enoki_01_HI_RES-1400x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Enoki_07_oro_rosa_HI_RES-1400x933.jpg"
+        ],
+        "link": "https://pentalight.it/en/prodotto/enoki-applique/",
+        "meta_title": "Lampada da Parete: ENOKI Penta by ArteInLuce™",
+        "meta_description": "ENOKI Penta: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
+        "order_available": "2",
+        "variante": "",
+        "dimensioni": "wall lamp",
+        "struttura": "metallo grafite opaco/ matt graphite metal",
+        "diffusore": "",
+        "features": "category : parete : 0:1 | outdoor : no : 1:1",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | struttura : select : 3",
+        "values": "nuovo : 0 | Dimmable TRIAC : 1 | wall lamp : 2 | metallo grafite opaco/ matt graphite metal : 3"
     },
     {
         "supplier": "penta",
@@ -811,8 +976,8 @@
         "struttura": "",
         "diffusore": "vetro viola specchiato / violet mirroring glass",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
-        "values": "nuovo : 0 | Dimmer : 1 | large table lamp : 2 | vetro viola specchiato / violet mirroring glass : 3 |  : 4"
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3",
+        "values": "nuovo : 0 | Dimmer : 1 | large table lamp : 2 | vetro viola specchiato / violet mirroring glass : 3"
     },
     {
         "supplier": "penta",
@@ -863,7 +1028,7 @@
         "struttura": "metallo cromato / chromed metal",
         "diffusore": "vetro viola specchiato / violet mirroring glass",
         "features": "category : terra : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | Dimmer : 1 | floor lamp : 2 | vetro viola specchiato / violet mirroring glass : 3 | metallo cromato / chromed metal : 4"
     },
     {
@@ -917,17 +1082,17 @@
         "struttura": "",
         "diffusore": "vetro viola specchiato / violet mirroring glass",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
-        "values": "nuovo : 0 | no : 1 | large suspension : 2 | vetro viola specchiato / violet mirroring glass : 3 |  : 4"
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3",
+        "values": "nuovo : 0 | no : 1 | large suspension : 2 | vetro viola specchiato / violet mirroring glass : 3"
     },
     {
         "supplier": "penta",
         "brand": "penta",
         "supplier_id": "penta",
-        "model": "Gli-composizione-multipla-sospensione - sospensione",
+        "model": "Glo-applique - parete",
         "model_variant": "0811-31-0619-NXBE",
-        "title": "Glo soffitto",
-        "subtitle": "<div>Sospensione - Penta</div>",
+        "title": "Glo applique",
+        "subtitle": "<div>Parete - Penta</div>",
         "original_model_id": "0811-31-0619-NXBE",
         "model_id": "0811-31-0619-NXBE",
         "item_id": "0811-31-0619-NXBE",
@@ -937,8 +1102,8 @@
         "quantity": 0,
         "delivery_time": "2-3 gg Italy, 5-6 days UE",
         "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
-        "desc_it": "Glo è un’icona della nostra collezione, una sfera di vetro che esalta il riverbero della luce, in un gioco di riflessioni e rimandi tra la lampada e lo spazio o fra le lampade tra loro. La ricca palette e le diverse misure della variante sospesa sono un invito alla composizione.",
-        "desc_en": "Glo è un’icona della nostra collezione, una sfera di vetro che esalta il riverbero della luce, in un gioco di riflessioni e rimandi tra la lampada e lo spazio o fra le lampade tra loro. La ricca palette e le diverse misure della variante sospesa sono un invito alla composizione.",
+        "desc_it": "Glo è un’icona della nostra collezione, una sfera di vetro che esalta il riverbero della luce, in un gioco di riflessioni e rimandi tra la lampada e lo spazio o fra le lampade tra loro. La ricca palette e le diverse misure della variante sospesa sono un invito alla composizione.",
+        "desc_en": "Glo è un’icona della nostra collezione, una sfera di vetro che esalta il riverbero della luce, in un gioco di riflessioni e rimandi tra la lampada e lo spazio o fra le lampade tra loro. La ricca palette e le diverse misure della variante sospesa sono un invito alla composizione.",
         "dimmer": "no",
         "led": "no",
         "halogen": "no",
@@ -946,32 +1111,32 @@
         "component": 0,
         "size": "medium wall lamp",
         "outdoor": "no",
-        "category": "soffitto",
+        "category": "parete",
         "max_discount": 15,
         "sale": 1,
-        "product_images": "https://pentalight.it/wp-content/uploads/2015/12/Glo-1-1400x1400.jpg|https://pentalight.it/wp-content/uploads/2016/01/Glo_cluster-verti-933x1400.jpg|https://pentalight.it/wp-content/uploads/2016/01/Glo_suspension-orizz-1400x1236.jpg|https://pentalight.it/wp-content/uploads/2016/01/Penta_Stand_05-1-913x1400.jpg|https://pentalight.it/wp-content/uploads/2016/01/Glo_mini_detail-933x1400.jpg",
+        "product_images": "https://pentalight.it/wp-content/uploads/2015/12/Glo-wall-1-1400x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/Glo_wall-lamp-VERTI-933x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/49A1921.jpg|https://pentalight.it/wp-content/uploads/2017/06/Glo_04_HI_RES-1400x933.jpg|https://pentalight.it/wp-content/uploads/2017/06/Glo_03_HI_RES-ORIZZ-1400x1224.jpg",
         "product_images_alt": "pic|projects|projects|projects|projects",
-        "combination_images": "https://pentalight.it/wp-content/uploads/2015/12/Glo-1-1400x1400.jpg|http://www.hictech.com/pngPenta/Glo-wall-medium-1.png",
+        "combination_images": "https://pentalight.it/wp-content/uploads/2015/12/Glo-wall-1-1400x1400.jpg|http://www.hictech.com/pngPenta/Glo-wall-medium-1.png",
         "combination_images_alt": "pic|light_schema",
         "combination_id": "0811-31-0619-NXBE",
-        "pic": "https://pentalight.it/wp-content/uploads/2015/12/Glo-1-1400x1400.jpg",
+        "pic": "https://pentalight.it/wp-content/uploads/2015/12/Glo-wall-1-1400x1400.jpg",
         "light_schema": "http://www.hictech.com/pngPenta/Glo-wall-medium-1.png",
         "projects": [
-            "https://pentalight.it/wp-content/uploads/2016/01/Glo_cluster-verti-933x1400.jpg",
-            "https://pentalight.it/wp-content/uploads/2016/01/Glo_suspension-orizz-1400x1236.jpg",
-            "https://pentalight.it/wp-content/uploads/2016/01/Penta_Stand_05-1-913x1400.jpg",
-            "https://pentalight.it/wp-content/uploads/2016/01/Glo_mini_detail-933x1400.jpg"
+            "https://pentalight.it/wp-content/uploads/2017/06/Glo_wall-lamp-VERTI-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/49A1921.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Glo_04_HI_RES-1400x933.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Glo_03_HI_RES-ORIZZ-1400x1224.jpg"
         ],
-        "link": "https://pentalight.it/en/prodotto/gli-composizione-multipla-sospensione/",
-        "meta_title": "Lampada da Soffitto: GLO SOFFITTO Penta by ArteInLuce™",
-        "meta_description": "GLO SOFFITTO Penta: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
+        "link": "https://pentalight.it/en/prodotto/glo-applique/",
+        "meta_title": "Lampada da Parete: GLO APPLIQUE Penta by ArteInLuce™",
+        "meta_description": "GLO APPLIQUE Penta: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "variante": "",
         "dimensioni": "medium wall lamp",
         "struttura": "metallo oro opaco/ matt gold metal",
         "diffusore": "vetro viola specchiato / violet mirroring glass",
-        "features": "category : soffitto : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "features": "category : parete : 0:1 | outdoor : no : 1:1",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | no : 1 | medium wall lamp : 2 | vetro viola specchiato / violet mirroring glass : 3 | metallo oro opaco/ matt gold metal : 4"
     },
     {
@@ -1026,7 +1191,7 @@
         "struttura": "metallo grafite spazzolato / brushed graphite metal",
         "diffusore": "cuoio antracite / anthracite leather",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | Dimmer : 1 | small table lamp : 2 | cuoio antracite / anthracite leather : 3 | metallo grafite spazzolato / brushed graphite metal : 4"
     },
     {
@@ -1079,17 +1244,17 @@
         "struttura": "metallo bronzo opaco / matt bronze metal",
         "diffusore": "vetro trasparente / transparent glass",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | no : 1 | super maxi suspension : 2 | vetro trasparente / transparent glass : 3 | metallo bronzo opaco / matt bronze metal : 4"
     },
     {
         "supplier": "penta",
         "brand": "penta",
         "supplier_id": "penta",
-        "model": "Jei-jei-sospensione - sospensione",
+        "model": "Jei-jei-applique - parete",
         "model_variant": "0501-33-1601-NXBE",
         "title": "Jei Jei Applique",
-        "subtitle": "<div>Sospensione - Penta</div>",
+        "subtitle": "<div>Parete - Penta</div>",
         "original_model_id": "0501-33-1601-NXBE",
         "model_id": "0501-33-1601-NXBE",
         "item_id": "0501-33-1601-NXBE",
@@ -1108,31 +1273,31 @@
         "component": 0,
         "size": "large wall lamp",
         "outdoor": "no",
-        "category": "soffitto",
+        "category": "parete",
         "max_discount": 15,
         "sale": 1,
-        "product_images": "https://pentalight.it/wp-content/uploads/2015/12/JeiJei-1400x1400.jpg|https://pentalight.it/wp-content/uploads/2016/01/Jei-Jei_maxi-933x1400.jpg|https://pentalight.it/wp-content/uploads/2016/01/JEI-JEI-Pendant-image-02-1400x1011.jpg|https://pentalight.it/wp-content/uploads/2016/01/Jei-Jei_detail-933x1400.jpg",
+        "product_images": "https://pentalight.it/wp-content/uploads/2016/01/Jei-Jei-wall-1400x1400.jpg|https://pentalight.it/wp-content/uploads/2016/01/49A2464-933x1400.jpg|https://pentalight.it/wp-content/uploads/2016/01/JEI-JEI-Applique-image-02-1-1100x1400.jpg|https://pentalight.it/wp-content/uploads/2016/01/JEI-JEI-Applique-image-01-1128x1400.jpg",
         "product_images_alt": "pic|projects|projects|projects",
-        "combination_images": "https://pentalight.it/wp-content/uploads/2015/12/JeiJei-1400x1400.jpg|http://www.hictech.com/pngPenta/Jei-Jei-wall-large.png",
+        "combination_images": "https://pentalight.it/wp-content/uploads/2016/01/Jei-Jei-wall-1400x1400.jpg|http://www.hictech.com/pngPenta/Jei-Jei-wall-large.png",
         "combination_images_alt": "pic|light_schema",
         "combination_id": "0501-33-1601-NXBE",
-        "pic": "https://pentalight.it/wp-content/uploads/2015/12/JeiJei-1400x1400.jpg",
+        "pic": "https://pentalight.it/wp-content/uploads/2016/01/Jei-Jei-wall-1400x1400.jpg",
         "light_schema": "http://www.hictech.com/pngPenta/Jei-Jei-wall-large.png",
         "projects": [
-            "https://pentalight.it/wp-content/uploads/2016/01/Jei-Jei_maxi-933x1400.jpg",
-            "https://pentalight.it/wp-content/uploads/2016/01/JEI-JEI-Pendant-image-02-1400x1011.jpg",
-            "https://pentalight.it/wp-content/uploads/2016/01/Jei-Jei_detail-933x1400.jpg"
+            "https://pentalight.it/wp-content/uploads/2016/01/49A2464-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/01/JEI-JEI-Applique-image-02-1-1100x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2016/01/JEI-JEI-Applique-image-01-1128x1400.jpg"
         ],
-        "link": "https://pentalight.it/en/prodotto/jei-jei-sospensione/",
-        "meta_title": "Lampada da Soffitto: JEI JEI APPLIQUE Penta by ArteInLuce™",
-        "meta_description": "JEI JEI APPLIQUE Penta: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da SOFFITTO in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
+        "link": "https://pentalight.it/en/prodotto/jei-jei-applique/",
+        "meta_title": "Lampada da Parete: JEI JEI APPLIQUE Penta by ArteInLuce™",
+        "meta_description": "JEI JEI APPLIQUE Penta: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
         "order_available": "2",
         "variante": "",
         "dimensioni": "large wall lamp",
         "struttura": "metallo bronzo opaco / matt bronze metal",
         "diffusore": "vetro trasparente / transparent glass",
-        "features": "category : soffitto : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "features": "category : parete : 0:1 | outdoor : no : 1:1",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | no : 1 | large wall lamp : 2 | vetro trasparente / transparent glass : 3 | metallo bronzo opaco / matt bronze metal : 4"
     },
     {
@@ -1187,7 +1352,7 @@
         "struttura": "legno rovere naturale / natural oak wood",
         "diffusore": "vetro bianco-argento / white-silver glass",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | Dimmer : 1 | table lamp : 2 | vetro bianco-argento / white-silver glass : 3 | legno rovere naturale / natural oak wood : 4"
     },
     {
@@ -1240,7 +1405,7 @@
         "struttura": "metallo grafite opaco / matt graphite metal",
         "diffusore": "tondino di vetro trasparente/ transparent glass rod",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | no : 1 | table lamp : 2 | tondino di vetro trasparente/ transparent glass rod : 3 | metallo grafite opaco / matt graphite metal : 4"
     },
     {
@@ -1294,8 +1459,8 @@
         "struttura": "vetro arancione specchiato / orange mirroring glass",
         "diffusore": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
-        "values": "nuovo : 0 | no : 1 | large suspension : 2 |  : 3 | vetro arancione specchiato / orange mirroring glass : 4"
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | struttura : select : 3",
+        "values": "nuovo : 0 | no : 1 | large suspension : 2 | vetro arancione specchiato / orange mirroring glass : 3"
     },
     {
         "supplier": "penta",
@@ -1349,7 +1514,7 @@
         "struttura": "metallo grafite opaco / mtt graphite metal",
         "diffusore": "vetro bianco lucido / glossy white glass",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | Dimmer : 1 | large table lamp : 2 | vetro bianco lucido / glossy white glass : 3 | metallo grafite opaco / mtt graphite metal : 4"
     },
     {
@@ -1402,7 +1567,7 @@
         "struttura": "metallo grafite opaco / mtt graphite metal",
         "diffusore": "vetro bianco lucido / glossy white glass",
         "features": "category : terra : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | Dimmer : 1 | floor lamp : 2 | vetro bianco lucido / glossy white glass : 3 | metallo grafite opaco / mtt graphite metal : 4"
     },
     {
@@ -1455,7 +1620,7 @@
         "struttura": "metallo bronzo spazzolato / brushed bronze metal",
         "diffusore": "vetro bianco lucido / glossy white glass",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | no : 1 | table lamp : 2 | vetro bianco lucido / glossy white glass : 3 | metallo bronzo spazzolato / brushed bronze metal : 4"
     },
     {
@@ -1508,7 +1673,7 @@
         "struttura": "metallo bronzo spazzolato / brushed bronze metal",
         "diffusore": "vetro bianco lucido / glossy white glass",
         "features": "category : terra : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | no : 1 | floor lamp : 2 | vetro bianco lucido / glossy white glass : 3 | metallo bronzo spazzolato / brushed bronze metal : 4"
     },
     {
@@ -1563,7 +1728,7 @@
         "struttura": "metallo bronzo spazzolato / brushed bronze metal",
         "diffusore": "vetro bianco lucido / glossy white glass",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | no : 1 | maxi suspension : 2 | vetro bianco lucido / glossy white glass : 3 | metallo bronzo spazzolato / brushed bronze metal : 4"
     },
     {
@@ -1618,7 +1783,7 @@
         "struttura": "metallo bronzo spazzolato / brushed bronze metal",
         "diffusore": "vetro bianco lucido / glossy white glass",
         "features": "category : soffitto : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | no : 1 | large ceiling lamp : 2 | vetro bianco lucido / glossy white glass : 3 | metallo bronzo spazzolato / brushed bronze metal : 4"
     },
     {
@@ -1671,7 +1836,7 @@
         "struttura": "metallo bronzo spazzolato / brushed bronze metal",
         "diffusore": "vetro bianco lucido / glossy white glass",
         "features": "category : parete : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | no : 1 | wall - ceiling lamp : 2 | vetro bianco lucido / glossy white glass : 3 | metallo bronzo spazzolato / brushed bronze metal : 4"
     },
     {
@@ -1726,8 +1891,8 @@
         "struttura": "",
         "diffusore": "vetro bianco opaco / matt white glass",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
-        "values": "nuovo : 0 | no : 1 | low suspension : 2 | vetro bianco opaco / matt white glass : 3 |  : 4"
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3",
+        "values": "nuovo : 0 | no : 1 | low suspension : 2 | vetro bianco opaco / matt white glass : 3"
     },
     {
         "supplier": "penta",
@@ -1781,7 +1946,7 @@
         "struttura": "metallo grafite opaco / matt graphite metal",
         "diffusore": "vetro bianco opaco / matt white glass",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | no : 1 | low table lamp : 2 | vetro bianco opaco / matt white glass : 3 | metallo grafite opaco / matt graphite metal : 4"
     },
     {
@@ -1834,7 +1999,7 @@
         "struttura": "metallo bianco opaco / matt white metal",
         "diffusore": "vetro bianco opaco / matt white glass",
         "features": "category : parete : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | no : 1 | fatty wall lamp : 2 | vetro bianco opaco / matt white glass : 3 | metallo bianco opaco / matt white metal : 4"
     },
     {
@@ -1889,8 +2054,8 @@
         "struttura": "metallo bianco opaco / matt white metal",
         "diffusore": "",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
-        "values": "nuovo : 0 | Dimmer : 1 | large table lamp : 2 |  : 3 | metallo bianco opaco / matt white metal : 4"
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | struttura : select : 3",
+        "values": "nuovo : 0 | Dimmer : 1 | large table lamp : 2 | metallo bianco opaco / matt white metal : 3"
     },
     {
         "supplier": "penta",
@@ -1944,8 +2109,8 @@
         "struttura": "metallo bianco opaco / matt white metal",
         "diffusore": "",
         "features": "category : terra : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
-        "values": "nuovo : 0 | Dimmer : 1 | floor lamp : 2 |  : 3 | metallo bianco opaco / matt white metal : 4"
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | struttura : select : 3",
+        "values": "nuovo : 0 | Dimmer : 1 | floor lamp : 2 | metallo bianco opaco / matt white metal : 3"
     },
     {
         "supplier": "penta",
@@ -1997,8 +2162,8 @@
         "struttura": "metallo bianco opaco / matt white metal",
         "diffusore": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
-        "values": "nuovo : 0 | no : 1 | suspension : 2 |  : 3 | metallo bianco opaco / matt white metal : 4"
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | struttura : select : 3",
+        "values": "nuovo : 0 | no : 1 | suspension : 2 | metallo bianco opaco / matt white metal : 3"
     },
     {
         "supplier": "penta",
@@ -2051,8 +2216,8 @@
         "struttura": "metallo bianco opaco / matt white metal",
         "diffusore": "",
         "features": "category : tavolo,outdoor : 0:1 | outdoor : yes : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
-        "values": "nuovo : 0 | Dimmer : 1 | large table lamp : 2 |  : 3 | metallo bianco opaco / matt white metal : 4"
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | struttura : select : 3",
+        "values": "nuovo : 0 | Dimmer : 1 | large table lamp : 2 | metallo bianco opaco / matt white metal : 3"
     },
     {
         "supplier": "penta",
@@ -2105,8 +2270,8 @@
         "struttura": "metallo bianco opaco / matt white metal",
         "diffusore": "",
         "features": "category : terra,outdoor : 0:1 | outdoor : yes : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
-        "values": "nuovo : 0 | Dimmer : 1 | floor lamp : 2 |  : 3 | metallo bianco opaco / matt white metal : 4"
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | struttura : select : 3",
+        "values": "nuovo : 0 | Dimmer : 1 | floor lamp : 2 | metallo bianco opaco / matt white metal : 3"
     },
     {
         "supplier": "penta",
@@ -2158,7 +2323,7 @@
         "struttura": "metallo grafite opaco / matt graphite metal",
         "diffusore": "vetro bianco opaco / matt white glass",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | Dimmer : 1 | table lamp : 2 | vetro bianco opaco / matt white glass : 3 | metallo grafite opaco / matt graphite metal : 4"
     },
     {
@@ -2211,8 +2376,63 @@
         "struttura": "metallo grafite opaco / matt graphite metal",
         "diffusore": "vetro bianco opaco / matt white glass",
         "features": "category : terra : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | Dimmer : 1 | floor lamp : 2 | vetro bianco opaco / matt white glass : 3 | metallo grafite opaco / matt graphite metal : 4"
+    },
+    {
+        "supplier": "penta",
+        "brand": "penta",
+        "supplier_id": "penta",
+        "model": "Pop-applique - parete",
+        "model_variant": "1705-30-0100-DXNE",
+        "title": "POP",
+        "subtitle": "<div>Parete - Penta</div>",
+        "original_model_id": "1705-30-0100-DXNE",
+        "model_id": "1705-30-0100-DXNE",
+        "item_id": "1705-30-0100-DXNE",
+        "hicId": "penta_1705-30-0100-DXNE",
+        "ean13": 0,
+        "price": 0,
+        "quantity": 0,
+        "delivery_time": "2-3 gg Italy, 5-6 days UE",
+        "delivery_time_if_not_available": "Su ordinazione in 2-3 settimane",
+        "desc_it": "Una lampada dalle forme giocose, un oggetto indisciplinato che mescola ironia ed eleganza: Pop è un applique sferica che dipinge sulla parete luci e ombre inattese.",
+        "desc_en": "Una lampada dalle forme giocose, un oggetto indisciplinato che mescola ironia ed eleganza: Pop è un applique sferica che dipinge sulla parete luci e ombre inattese.",
+        "dimmer": "Dimmable TRIAC",
+        "led": "no",
+        "halogen": "no",
+        "switcher": "no",
+        "component": 0,
+        "size": "wall lamp",
+        "outdoor": "no",
+        "category": "parete",
+        "max_discount": 15,
+        "sale": 1,
+        "product_images": "https://pentalight.it/wp-content/uploads/2015/12/Pop-1-1400x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/Pop-Recuperato-933x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/Pop_06_HI_RES-1400x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/Pop_02_HI_RES-1076x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/Pop_06_bianco_HI_RES-1120x1400.jpg|https://pentalight.it/wp-content/uploads/2017/06/Pop_04_oro_rosa_HI_RES-1126x1400.jpg",
+        "product_images_alt": "pic|projects|projects|projects|projects|projects",
+        "combination_images": "https://pentalight.it/wp-content/uploads/2015/12/Pop-1-1400x1400.jpg|http://www.hictech.com/pngPenta/Pop.png",
+        "combination_images_alt": "pic|light_schema",
+        "combination_id": "1705-30-0100-DXNE",
+        "pic": "https://pentalight.it/wp-content/uploads/2015/12/Pop-1-1400x1400.jpg",
+        "light_schema": "http://www.hictech.com/pngPenta/Pop.png",
+        "projects": [
+            "https://pentalight.it/wp-content/uploads/2017/06/Pop-Recuperato-933x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Pop_06_HI_RES-1400x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Pop_02_HI_RES-1076x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Pop_06_bianco_HI_RES-1120x1400.jpg",
+            "https://pentalight.it/wp-content/uploads/2017/06/Pop_04_oro_rosa_HI_RES-1126x1400.jpg"
+        ],
+        "link": "https://pentalight.it/en/prodotto/pop-applique/",
+        "meta_title": "Lampada da Parete: POP Penta by ArteInLuce™",
+        "meta_description": "POP Penta: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da PARETE in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.",
+        "order_available": "2",
+        "variante": "",
+        "dimensioni": "wall lamp",
+        "struttura": "metallo bianco opaco / matt white metal",
+        "diffusore": "",
+        "features": "category : parete : 0:1 | outdoor : no : 1:1",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | struttura : select : 3",
+        "values": "nuovo : 0 | Dimmable TRIAC : 1 | wall lamp : 2 | metallo bianco opaco / matt white metal : 3"
     },
     {
         "supplier": "penta",
@@ -2266,7 +2486,7 @@
         "struttura": "metallo grafite opaco / matt graphite metal",
         "diffusore": "cuoio nero / black leather",
         "features": "category : tavolo : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | no : 1 | table lamp : 2 | cuoio nero / black leather : 3 | metallo grafite opaco / matt graphite metal : 4"
     },
     {
@@ -2319,7 +2539,7 @@
         "struttura": "metallo grafite opaco / matt graphite metal",
         "diffusore": "cuoio nero / black leather",
         "features": "category : terra : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | no : 1 | floor lamp : 2 | cuoio nero / black leather : 3 | metallo grafite opaco / matt graphite metal : 4"
     },
     {
@@ -2374,8 +2594,8 @@
         "struttura": "metallo grafite opaco / matt graphite metal",
         "diffusore": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
-        "values": "nuovo : 0 | no : 1 | large suspension : 2 |  : 3 | metallo grafite opaco / matt graphite metal : 4"
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | struttura : select : 3",
+        "values": "nuovo : 0 | no : 1 | large suspension : 2 | metallo grafite opaco / matt graphite metal : 3"
     },
     {
         "supplier": "penta",
@@ -2429,7 +2649,7 @@
         "struttura": "metallo grafite opaco / matt graphite metal",
         "diffusore": "vetro trasparente / transparent glass",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | diffusore : select : 3 | struttura : select : 4",
         "values": "nuovo : 0 | no : 1 | large suspension : 2 | vetro trasparente / transparent glass : 3 | metallo grafite opaco / matt graphite metal : 4"
     },
     {
@@ -2482,7 +2702,7 @@
         "struttura": "marmo bianco di Carrara / white Carrara marble",
         "diffusore": "",
         "features": "category : sospensione : 0:1 | outdoor : no : 1:1",
-        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 |  : select : 3 |  : select : 4",
-        "values": "nuovo : 0 | no : 1 | large suspension : 2 |  : 3 | marmo bianco di Carrara / white Carrara marble : 4"
+        "attributes": "stato : select : 0 | dimmer : select : 1 | dimensioni : select : 2 | struttura : select : 3",
+        "values": "nuovo : 0 | no : 1 | large suspension : 2 | marmo bianco di Carrara / white Carrara marble : 3"
     }
 ]

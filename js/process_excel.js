@@ -4989,8 +4989,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             /* ================================================================= PENTA */
                             if( fornitore == "penta"){
 
+                                let asset = getAsset(row["Modello"], row["Categoria"]);
                                     
                                 if( 
+                                    !_.is(asset) || 
                                     row["Modello"].toLowerCase().indexOf("rosone") != -1 ||
                                     row["Modello"].toLowerCase().indexOf("piastra") != -1 ||
                             
@@ -5027,7 +5029,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             
                                 
                                 
-                                let asset = getAsset(row["Modello"], row["Categoria"]);
+                                
                                 supplier = "penta";
 
                                 title = row["Modello"];
@@ -5113,6 +5115,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             
                                         var asset_category = asset.category;
                                         var asset_name = asset.real_prod_name;
+                                        
                                         if(asset_name == name && category == asset_category){
                                             ret = asset;
                                         }
@@ -7222,16 +7225,17 @@ function postProduci(json,fornitore){
             _.each(arr,function(elem){
 
                 if(_.is(caso)){ // caso dei values
-                    if( _.is(obj[elem]) ){
+                    if( _.is(obj[elem]) && obj[elem] != "" ){
                         pos++;
                         var singleton = obj[elem] +" : "+ pos +" | ";
                     }
                 }
                 else{ // caso di attributes
                     
-                    if( _.is(obj[elem[0]]) ){
+                    if( _.is(obj[elem[0]]) && obj[elem[0]] != "" ){
+                        
                         pos++;
-                        var etichetta = (elem[0] == "color")? "colore" : (elem[0] == "variante")? "variante" : (elem[0] == "led")? "led" : (elem[0] == "dimmer")? "dimmer" : (elem[0] == "dimensioni")? "dimensioni" : ""; // per flos è sempre e solo il colore il secondo attribute // (etichetta=="color")? "colore" : "nome_attributo_non_trovato";
+                        var etichetta = (elem[0] == "diffusore")? "diffusore" : (elem[0] == "struttura")? "struttura" : (elem[0] == "led")? "led" : (elem[0] == "dimmer")? "dimmer" : (elem[0] == "dimensioni")? "dimensioni" : ""; // per flos è sempre e solo il colore il secondo attribute // (etichetta=="color")? "colore" : "nome_attributo_non_trovato";
                         var singleton = etichetta +" : "+ elem[1] +" : "+ pos+" | ";
                     }
 
