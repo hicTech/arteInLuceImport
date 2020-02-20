@@ -5080,7 +5080,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 
                                 max_discount = (component)? 0 : 0.15;
                                 sale = 1;
-                                price = row["Prezzo"];
+                                price = row["Prezzo"].replace(".00","").replace(" €","").replace(",","");
+                                _.log(price)
                                 quantity = 0;
                                 delivery_time = "2-3 gg Italy, 5-6 days UE";
                                 delivery_time_if_not_available = "Su ordinazione in 2-3 settimane";
