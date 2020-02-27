@@ -5058,7 +5058,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                                 dimmer = (!_.is(row["Dimmer"]) || row["Dimmer"] == "")? undefined : row["Dimmer"];
                                 color = undefined;
-                                led = undefined;
+                                led = row["Led"];
                                 halogen = undefined;
                                 screw = undefined;
                                 component_of = undefined;
@@ -5081,7 +5081,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 max_discount = (component)? 0 : 0.15;
                                 sale = 1;
                                 price = row["Prezzo"].replace(".00","").replace(" €","").replace(",","");
-                                _.log(price)
+                                
                                 quantity = 0;
                                 delivery_time = "2-3 gg Italy, 5-6 days UE";
                                 delivery_time_if_not_available = "Su ordinazione in 2-3 settimane";
@@ -5786,7 +5786,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             /* anche LUCEPLAN ha il led e dimmer inserito a mano da Monica */
             /* anche PENTA ha il dimmer inserito a mano da monica */
             dimmer:                 (supplier == "penta")? (_.is(dimmer))? dimmer : "no" : ( (supplier=="panzeri" && !_.is(dimmer)) || (supplier=="luceplan" && !_.is(dimmer)) )? undefined : ( (supplier == "panzeri" && _.is(dimmer)) || (supplier == "luceplan" && _.is(dimmer)))? dimmer.toLowerCase() : (dimmer==0 || dimmer == undefined)? "no" : "yes",
-            led:                    ( (supplier=="panzeri" || supplier=="vistosi" || supplier=="luceplan") && !_.is(led) )? undefined : ( (supplier=="panzeri" || supplier=="vistosi" || supplier=="luceplan") && _.is(led))? led.toLowerCase() : (led==0 || led == undefined)? "no" : "yes",
+            led:                    ( (supplier=="panzeri" || supplier=="vistosi" || supplier=="luceplan" || supplier=="penta") && !_.is(led) )? undefined : ( (supplier=="panzeri" || supplier=="vistosi" || supplier=="luceplan" || supplier=="penta") && _.is(led))? led.toLowerCase() : (led==0 || led == undefined)? "no" : "yes",
             halogen:                ( supplier=="panzeri" && !_.is(halogen) )? undefined : (supplier == "panzeri" && _.is(halogen))? halogen.toLowerCase() : (halogen==0 || halogen == undefined)? "no" : "yes",                                      
             
 
@@ -7173,8 +7173,8 @@ function postProduci(json,fornitore){
             elem["features"] = inlineCSVFeaturesPenta(elem,["category","outdoor"])
 
             // aggiungo attributi e valori
-            elem["attributes"] = inlineCSVPenta(elem,[["dimmer","select"],["dimensioni","select"],["diffusore","select"],["struttura","select"]])
-            elem["values"] = inlineCSVPenta(elem,["dimmer","dimensioni","diffusore","struttura"],"values")
+            elem["attributes"] = inlineCSVPenta(elem,[["dimmer","select"],["dimensioni","select"],["diffusore","select"],["struttura","select"],["led","select"]])
+            elem["values"] = inlineCSVPenta(elem,["dimmer","dimensioni","diffusore","struttura","led"],"values")
         });
 
 
