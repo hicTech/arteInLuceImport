@@ -5043,8 +5043,8 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             
                                 
                                 light_schema = getLightSchema(row["Articolo"]);
-                                variante = ""
-                                dimensioni = row["Dimensioni"];
+                                variante = row["Variante"]
+                                dimensioni = undefined; //row["Dimensioni"];
                                 ean13 = 0; //S(row["Barcode"]).replaceAll("-","").s;
                                 combination_id = model_id;
                                 component = 0;
@@ -5056,9 +5056,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 cleaned_desc_it = asset.desc;
                                 cleaned_desc_en = asset.desc;
 
-                                dimmer = (!_.is(row["Dimmer"]) || row["Dimmer"] == "")? undefined : row["Dimmer"];
+                                dimmer = undefined; //(!_.is(row["Dimmer"]) || row["Dimmer"] == "")? undefined : row["Dimmer"];
                                 color = undefined;
-                                led = row["Led"];
+                                led = undefined; //row["Led"];
                                 halogen = undefined;
                                 screw = undefined;
                                 component_of = undefined;
@@ -5066,7 +5066,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                 otherColors = undefined;
                                 more = undefined;
                                 size = row["Dimensioni"];
-                                outdoor = row["Outdoor"];
+                                outdoor = undefined; //row["Outdoor"];
 
                                 pic = asset.prod_pic;
                                 projects = asset.projects;
@@ -5110,19 +5110,50 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                             
                                     category = category.toLowerCase();
                                     category = (category == "soffitto")? "sospensione" : category;
+                                    category = category.trim().replace(" ","");
                                     name = name.toLowerCase().replace(" tavolo","").replace(" outdoor","").replace(" terra","").replace(" applique","").replace(" sospensione","").replace(" soffitto","").replace(" indoor","").replace(" lampada","").replace(" soffitto","").replace(" parete","")
-                            
+                                    // in un altra revisione monica ha aggiunto al nome stringhe del tipo "piccolo, grande, medio, maxi ecc..."
+                                    // che qui a questo punto rompono le palle quindi li sostituiamo
+                                    name = name.replace(" orizzontale","").replace(" piccolo","").replace(" medio","").replace(" grande","").replace(" extra","").replace(" 4 luci","").replace("/soffitto","").replace(" bassa","").replace(" alta","").replace(" maxi","").replace(" low","").replace(" tall","").replace(" slim","").replace(" fatty","").replace(" little","").replace(" ip44","").replace(" super","")
+                                    name = name.trim();
+
                                     _.each(assets_json,function(asset){
                             
-                                        var asset_category = asset.category;
-                                        var asset_name = asset.real_prod_name;
                                         
-                                        if(asset_name == name && category == asset_category){
+                                        var asset_name = asset.real_prod_name;
+                                        var asset_category = asset.category;
+                                            asset_category += (asset.outdoor)? ",outdoor" : "";
+                                        
+                                        // alcuni casi speciali 
+                                        if(asset_name == name && name == "angolo"){
                                             ret = asset;
                                         }
+                                        if(asset_name == name && name == "jacqueline"){
+                                            ret = asset;
+                                        }
+
+                                        if(asset_name == name && name == "mamì" && category == "parete,soffitto"){
+                                            category = "parete";
+                                        }
+
+                                        if( asset_name == name && name == "narciso" && (category == "tavolo,outdoor" || category == "terra,outdoor") ) {
+                                           category = category.replace(",outdoor","")
+                                        }
+                                        
+                                        else{
+                                            if(asset_name == name && category == asset_category){
+                                                ret = asset;
+                                            }
+                                        }
+                                        
                                             
                                     })
-                            
+
+                                    // per debbaggare ...
+                                    /*
+                                    if( !_.is(ret) && name.indexOf("rosone") == -1 && category.indexOf("accessorio") == -1)
+                                        _.log(name +" - "+category+ count++) 
+                                    */
                                     return ret;
                                 }
 
@@ -7173,8 +7204,8 @@ function postProduci(json,fornitore){
             elem["features"] = inlineCSVFeaturesPenta(elem,["category","outdoor"])
 
             // aggiungo attributi e valori
-            elem["attributes"] = inlineCSVPenta(elem,[["dimmer","select"],["dimensioni","select"],["diffusore","select"],["struttura","select"],["led","select"]])
-            elem["values"] = inlineCSVPenta(elem,["dimmer","dimensioni","diffusore","struttura","led"],"values")
+            elem["attributes"] = inlineCSVPenta(elem,[["diffusore","select"],["struttura","select"],["variante","select"]])
+            elem["values"] = inlineCSVPenta(elem,["diffusore","struttura","variante"],"values")
         });
 
 
@@ -7236,7 +7267,7 @@ function postProduci(json,fornitore){
                     if( _.is(obj[elem[0]]) && obj[elem[0]] != "" ){
                         
                         pos++;
-                        var etichetta = (elem[0] == "diffusore")? "diffusore" : (elem[0] == "struttura")? "struttura" : (elem[0] == "led")? "led" : (elem[0] == "dimmer")? "dimmer" : (elem[0] == "dimensioni")? "dimensioni" : ""; // per flos è sempre e solo il colore il secondo attribute // (etichetta=="color")? "colore" : "nome_attributo_non_trovato";
+                        var etichetta = (elem[0] == "diffusore")? "diffusore" : (elem[0] == "struttura")? "struttura" : (elem[0] == "variante")? "variante" : ""; 
                         var singleton = etichetta +" : "+ elem[1] +" : "+ pos+" | ";
                     }
 
