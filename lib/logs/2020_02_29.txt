@@ -1,2 +1,0 @@
-10:53:27: PROCESSO: ../xls/penta
-11:02:47: PROCESSO: ../xls/penta
