@@ -6,12 +6,14 @@ let nuovi = JSON.parse(rawdata_nuovi);
 
 let rawdata_vecchi = fs.readFileSync('./listino_2020.js');
 let vecchi = JSON.parse(rawdata_vecchi);
+var sS = require('string-similarity');
 
-
+var json2xls = require('json2xls');
 
 var articoli_con_prezzo_cambiato = 0;
 var articoli_nuovi = 0;
 var arr_nuovi_articoli = [];
+var arr_articoli_con_prezzo_cambiato = [];
 
 var _ = require("../../lib/_node.js");
 
@@ -23,24 +25,26 @@ var _ = require("../../lib/_node.js");
 _.each(nuovi,function(nuovo){
     if( _.isString(nuovo["CODICE"]) && nuovo["CODICE"] != "" ){
 
-        var id_nuovo_prodotto = nuovo["CODICE"].trim().replace(" ","_");
+        var id_nuovo_prodotto = nuovo["CODICE"].trim().replace("_","").replace("_","").replace(" ","").replace("","").replace("/","").replace(" ","").replace("-","").replace("/","");
         var trovato_corrispondente_articolo_vecchio = false;
        
 
         
         
         _.each(vecchi,function(vecchio){
-            var id_vecchio_prodotto = vecchio["model_id"].replace("fosca_","");
-            
+            var id_vecchio_prodotto = vecchio["Riferimento"].replace("fosca_","").trim().replace("_","").replace("_","").replace(" ","").replace("","").replace("/","").replace(" ","").replace("-","").replace("/","");
+            //_.log(id_vecchio_prodotto)
             if(id_nuovo_prodotto == id_vecchio_prodotto){
+                
                 var prezzo_nuovo_prodotto = nuovo["PREZZO IVA ESCLUSA"] * 1.22;
-                var prezzo_vecchio_prodotto = vecchio["price"];
+                var prezzo_vecchio_prodotto = vecchio["Prezzo (tasse incl.)"];
                 
                 trovato_corrispondente_articolo_vecchio =  true;
 
                 
                 if(prezzo_nuovo_prodotto != prezzo_vecchio_prodotto ){
-                        //_.log(prezzo_nuovo_prodotto+" - "+prezzo_vecchio_prodotto)
+                        _.log("prodotto: "+ vecchio["Riferimento"] +" -------- prezzo 2021: "+prezzo_nuovo_prodotto+" ------ prezzo 2020: "+prezzo_vecchio_prodotto)
+                        arr_articoli_con_prezzo_cambiato.push(nuovo);
                         articoli_con_prezzo_cambiato++;
                 }
                 
@@ -51,7 +55,7 @@ _.each(nuovi,function(nuovo){
         
         if( trovato_corrispondente_articolo_vecchio == false) {
             articoli_nuovi++;
-            arr_nuovi_articoli.push(id_nuovo_prodotto);
+            arr_nuovi_articoli.push(nuovo);
         }
         
         
@@ -67,7 +71,16 @@ _.each(nuovi,function(nuovo){
 
  _.log("trovati "+articoli_nuovi+" nuovi articoli")
 
-//_.log("ecco i nuovi articoli: "+ arr_nuovi_articoli);
+
+
+let xls_nuovi_articoli = json2xls(arr_nuovi_articoli);
+let xls_articoli_con_prezzo_cambiato = json2xls(arr_articoli_con_prezzo_cambiato);
+
+// assicurati che ci sia la cartella result
+fs.writeFileSync('nuovi_articoli_2021.xlsx', xls_nuovi_articoli, 'binary');
+fs.writeFileSync('articoli_con_prezzo_cambiato_nel_2021.xlsx', xls_articoli_con_prezzo_cambiato, 'binary');
+
+
 
 
 
