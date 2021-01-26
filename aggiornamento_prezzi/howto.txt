@@ -1,8 +1,18 @@
+da cPanel si accede a mysqladmin e si seleziona il db:
 'database_name' => 'nkgwwftv_prod',
 
-Allora il prezzo di una combinazione deve essere modificato in due table:
-    - PS_PRODUCT_ATTRIBUTE
-    - PS_PRODUCT_ATTRIBUTE_SHOP
+nella sesione esporta bisogna esportare le tabelle:
+- PS_PRODUCT_ATTRIBUTE
+- PS_PRODUCT_ATTRIBUTE_SHOP
+
+NOTA: il prezzo di una combinazione deve essere modificato in tutte e due queste tabelle.
+
+quindi nella sezion "esporta" selezionare formato json e "personalizzato - mostra tutte le possibili opzioni"
+ed esportare le due tabella separatamente (selezionando il checkbox sulla riga della tabella)
+rinomando i file json in:
+- ps_product_attribute.json
+- ps_product_atribute_shop.json
+
 
 PS_PRODUCT_ATTRIBUTE ha la colonna "reference" che è l'id del prodotto ovvero "riferimento" della combinazione
 queste due tabelle hanno entrambe la colonna (relazione) id_product_attribute 
