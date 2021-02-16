@@ -5776,7 +5776,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                     if( fornitore == "slamp"){ 
                                         
                                         
-                                        let asset = getAsset(row["description"]);  
+                                        let asset = getAsset(row["collection"], row["category"]);  
                                         
                                         // if(!_.is(asset)){
                                         //     // Modelli presenti sull'excel e non sul sito
@@ -5971,15 +5971,16 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                         
         
         
-                                        function getAsset(desc){
-                                            var desc = desc.toLowerCase();
-                                            
-                                            var ret = undefined;
+                                        function getAsset(collection, category){
+                                            collection = collection.toLowerCase();
+                                            category = category.toLowerCase();
                                             _.each(assets_json,function(asset){
-                                                _.log(sS.compareTwoStrings(desc,asset.name))
+                                                _.log(sS.compareTwoStrings(asset.name, collection));
                                             });
+
                                             
-                                            return ret;
+                                            
+                                            
                                             
                                         }
         
