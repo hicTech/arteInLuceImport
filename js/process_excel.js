@@ -5776,7 +5776,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                     if( fornitore == "slamp"){ 
                                         
                                         
-                                        // let asset = getAsset(row["Nome"]);  
+                                        let asset = getAsset(row["description"]);  
                                         
                                         // if(!_.is(asset)){
                                         //     // Modelli presenti sull'excel e non sul sito
@@ -5789,7 +5789,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                         supplier_id = supplierId(supplier);
                                         original_model_id = row["item_code"];//.replace(" ","_").replace(" ","_").replace(" ","_").replace(" ","_"); // può avere diversi spazi
                                         color = row["color"].toLowerCase();
-                                        model = getModel(row["description"],color);
+                                        //model = getModel(row["description"],color);
                                         //_.log(original_model_id)
                                         
                                         // model_id = original_model_id;
@@ -5863,19 +5863,23 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                                         function getModel(desc,color){
                                             var model = desc.toLowerCase();
-                                            _.log("sono arrivato qui");
                                             model = model.replace(color,"")
-                                                            .replace(" - "," ")
-                                                            .replace("kelvin"," ")
-                                                            .replace("2700"," ")
-                                                            .replace("3000"," ")
-                                                            .replace("large"," ")
-                                                            .replace("small"," ")
-                                                            .replace("medium"," ")
-                                                            .replace("xl"," ")
-                                                            .replace("gold"," ")
-                                                            .replace("silver"," ")
-                                                            .replace("white"," ")
+                                            .replace(" - "," ")
+                                            .replace("kelvin"," ")
+                                            .replace("2700"," ")
+                                            .replace("3000"," ")
+                                            .replace("large"," ")
+                                            .replace("small"," ")
+                                            .replace("medium"," ")
+                                            .replace("xl"," ")
+                                            .replace("gold"," ")
+                                            .replace("silver"," ")
+                                            .replace("white"," ")
+                                            .replace("opal"," ")
+                                            .replace("red"," ")
+                                            .replace("celeste"," ")
+
+
                                             .replace("table"," ")
                                             .replace("suspension"," ")
                                             .replace("fringe"," ")
@@ -5890,7 +5894,7 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                             .replace("s -"," ")
                                             
 
-                                            _.log(model)
+                                            _.log(model);
                                             return model;
                                         }
                                       
@@ -5967,21 +5971,17 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                         
         
         
-                                        // function getAsset(nome){
-                                        //     var nome = nome.toLowerCase();
+                                        function getAsset(desc){
+                                            var desc = desc.toLowerCase();
                                             
-                                        //     var ret = undefined;
-                                        //     _.each(assets_json,function(asset){
-                                        //         if(!_.is(ret)){
-                                        //             asset_name = asset.name.toLowerCase().replace("-"," ");
-                                        //             if(nome == asset_name)
-                                        //                 ret = asset;
-                                        //         }
-                                        //     });
+                                            var ret = undefined;
+                                            _.each(assets_json,function(asset){
+                                                _.log(sS.compareTwoStrings(desc,asset.name))
+                                            });
                                             
-                                        //     return ret;
+                                            return ret;
                                             
-                                        // }
+                                        }
         
                                         // function normalizzaCodice(cod){
                                         //     return S(cod.toLowerCase()).replaceAll(" ","").replaceAll(".","").s
