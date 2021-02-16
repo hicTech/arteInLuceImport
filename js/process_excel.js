@@ -5972,17 +5972,41 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         
         
                                         function getAsset(collection, category){
-                                            collection = collection.toLowerCase();
-                                            category = category.toLowerCase();
-                                            _.each(assets_json,function(asset){
-                                                _.log(sS.compareTwoStrings(asset.name, collection));
-                                            });
+                                            _.log("sono arrivato qui")
+                                                                                            // la parola suspension essendo lunga falsa il campareTwoString quindi la sostituisco con sus.
+                                            collection = collection.toLowerCase().replace(" suspension", " sus.");
+                                            category = category.toLowerCase().replace("suspension", "sus.");
+                                            
+                                            var concat = collection+" "+category;
+
+                                            for(var i = 0; i < assets_json.length; i++){
+                                                var asset = assets_json[i];
+                                                var asset_name = asset.name.replace(" suspension", " sus.")
+                                                if( asset.category.substr(0,3) == category.substr(0,3) ){
+                                                    if( sS.compareTwoStrings(asset_name, concat) > 0.8 ){
+                                                        _.log(count++)
+                                                        return asset;
+                                                    }
+                                                }
+                                                
+                                            }
+
+                                            
+                                            
+
+                                            
+
+
+                                            
+
+                                            
 
                                             
                                             
                                             
                                             
                                         }
+                                        
         
                                         // function normalizzaCodice(cod){
                                         //     return S(cod.toLowerCase()).replaceAll(" ","").replaceAll(".","").s

@@ -1,4 +1,21 @@
-[
+var _ = require("../../lib/_node.js");
+var S = require('string');
+var request = require("request");
+var fs = require('fs');
+const puppeteer = require('puppeteer');
+
+var jsdom = require("jsdom");
+const { JSDOM } = jsdom;
+const { window } = new JSDOM();
+const { document } = (new JSDOM('')).window;
+global.document = document;
+
+var $ = jQuery = require('jquery')(window);
+
+
+
+// tutto il json assets_json.json copiato e incollato
+var arr_all_products = [
   {
     "name": "la lollo suspension",
     "pic_url": "https://www.slamp.com/wp-content/uploads/2017/08/la-lollo-L-thumb-650.jpg",
@@ -834,3 +851,165 @@
     "category": "table"
   }
 ]
+
+
+
+var pages_number = arr_all_products.length;
+
+
+
+var index = 0;
+
+
+
+
+avvia(index);
+
+function avvia(index){
+
+
+
+    if(index == pages_number){
+        fs.writeFile('new_assets.json', JSON.stringify(arr_first, null, 4), 'utf8', function(){
+            _.log("FINITO");
+        });
+        return true;
+    }
+    else{
+        var name = arr_all_products[index].name;
+        //var prod_pic = arr_all_products[index].prod_pic;
+        var uri = arr_all_products[index].page_url;
+        //var category = arr_all_products[index].category;
+        //var model = arr_all_products[index].name;
+        _.log("processo: "+uri+" mancano: "+parseInt(pages_number-1-index))
+        request({
+            uri: encodeURI(uri),
+            //uri : "https://www.foscarini.com/it/products/ta-twiggy-xl/",
+
+        }, function(error, response, body) {
+            //createJsonFromAPage(body, uri, model, name, prod_pic, category);
+            createJsonFromAPage(name, uri);
+        });
+
+    }
+}
+
+
+
+
+
+var arr_first = [];
+
+//function createJsonFromAPage(body, uri, model, name, prod_pic, category){
+function createJsonFromAPage(name, uri){
+
+    (async() => {
+        
+        const browser = await puppeteer.launch();
+        const page = await browser.newPage();
+
+        await page.goto(uri);
+
+
+        let preloaded_bodyHTML = await page.evaluate(() => document.body.innerHTML);
+
+        
+        
+        // aspetto comunque un po accertarmi che ogni elemento della pagina sia scaricato e renderizzato
+        await page.waitFor(300);
+        
+        var $body = $(preloaded_bodyHTML);
+
+        console.log("--------------------------------------------------------------"+page.url());
+
+        var url = page.url();
+        arr_first.push({
+            prod_page: url,
+            prod_name: name,
+        });
+
+
+        
+        
+        /* foto di projects */
+        
+        var projects = [];
+        var $project_images = $body.find(".content_slider_product img")
+        $project_images.each(function(){
+            _.log($(this).attr("src"));
+            projects.push( $(this).attr("src") );
+        });
+        
+
+        
+
+
+
+        /* descrizione */
+        //let description = $body.find(".overview p").html();
+
+        /* varianti */
+        /*
+        var $buttons = $body.find(".dots-data-sheet.dots-data-sheet-euro").find(".button-euro");
+        var variations = [];
+
+        $buttons.each(function(index){
+
+            var $slide = $body.find(".slider-data-sheet-product").find(".carousel-cell").eq(index);
+            var light_schema = $slide.find(".data-sheet img").attr("src");
+            var $data_container = $slide.find(".data-sheet.g");
+            
+            var data = {};
+            $data_container.find("p").each(function(){
+            if($(this).is(".label")){
+                let label = $(this).html();
+                let value = $(this).next().html();
+                data[label] = value
+            }
+            })
+            
+            variations.push({
+            name: $(this).html().toUpperCase(),
+            light_schema: "http://www.luceplan.com"+light_schema,
+            data : data,
+            })
+        })
+        */
+        
+
+        /* video */
+        //var video = $body.find(".embed-container").find("iframe").attr("src");
+
+        /* website item name */
+        //var website_name = $body.find("#product-title").text().trim();
+        
+        await browser.close();
+        index++;
+
+        /*
+        arr_first.push({
+            name: website_name,
+            prod_pic: prod_pic,
+            prod_page : uri,
+            projects : projects,
+            category: category,
+            description: description,
+            video: video,
+            variations: variations
+        });
+        */
+        avvia(index);
+        
+   
+
+
+    })();
+
+
+
+    
+
+}
+
+
+
