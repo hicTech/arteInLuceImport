@@ -130,12 +130,12 @@ var arr_all_products = [
     "page_url": "https://www.slamp.com/en/products/suspension/aria-gold-suspension/",
     "category": "suspension"
   },
-  {
-    "name": "la traviata",
-    "pic_url": "https://www.slamp.com/wp-content/uploads/2019/04/la-traviata-thumb-650-1.jpg",
-    "page_url": "https://www.slamp.com/en/products/suspension/la-traviata/",
-    "category": "suspension"
-  },
+//   {
+//     "name": "la traviata",
+//     "pic_url": "https://www.slamp.com/wp-content/uploads/2019/04/la-traviata-thumb-650-1.jpg",
+//     "page_url": "https://www.slamp.com/en/products/suspension/la-traviata/",
+//     "category": "suspension"
+//   },
   {
     "name": "veli mini single couture suspension",
     "pic_url": "https://www.slamp.com/wp-content/uploads/2018/01/Veli_Mini-Single_650_Thumb.jpg",
@@ -853,6 +853,33 @@ var arr_all_products = [
 ]
 
 
+arr_all_products = [
+  {
+    "name": "veli table",
+    "pic_url": "https://www.slamp.com/wp-content/uploads/2017/08/Veli_table_650_Thumb.jpg",
+    "page_url": "https://www.slamp.com/en/products/table/veli-table/",
+    "category": "table"
+  },
+  // {
+  //   "name": "bios table",
+  //   "pic_url": "https://www.slamp.com/wp-content/uploads/2017/07/bios-tube-S_650_thumb.jpg",
+  //   "page_url": "https://www.slamp.com/en/products/table/bios-tube-table/",
+  //   "category": "table"
+  // },
+  // {
+  //   "name": "la lollo suspension",
+  //   "pic_url": "https://www.slamp.com/wp-content/uploads/2017/08/la-lollo-L-thumb-650.jpg",
+  //   "page_url": "https://www.slamp.com/en/products/suspension/la-lollo-suspension/",
+  //   "category": "suspension"
+  // },
+  // {
+  //   "name": "veli foliage suspension",
+  //   "pic_url": "https://www.slamp.com/wp-content/uploads/2020/01/veli-foliage-suspension-650.jpg",
+  //   "page_url": "https://www.slamp.com/en/products/suspension/veli-foliage-suspension/",
+  //   "category": "suspension"
+  // }
+]
+
 
 var pages_number = arr_all_products.length;
 
@@ -870,16 +897,16 @@ function avvia(index){
 
 
     if(index == pages_number){
-        fs.writeFile('new_assets.json', JSON.stringify(arr_first, null, 4), 'utf8', function(){
+        fs.writeFile('augmeneted_assets.json', JSON.stringify(arr_first, null, 4), 'utf8', function(){
             _.log("FINITO");
         });
         return true;
     }
     else{
         var name = arr_all_products[index].name;
-        //var prod_pic = arr_all_products[index].prod_pic;
+        var prod_pic = arr_all_products[index].pic_url;
         var uri = arr_all_products[index].page_url;
-        //var category = arr_all_products[index].category;
+        var category = arr_all_products[index].category;
         //var model = arr_all_products[index].name;
         _.log("processo: "+uri+" mancano: "+parseInt(pages_number-1-index))
         request({
@@ -888,7 +915,7 @@ function avvia(index){
 
         }, function(error, response, body) {
             //createJsonFromAPage(body, uri, model, name, prod_pic, category);
-            createJsonFromAPage(name, uri);
+            createJsonFromAPage(name, uri,prod_pic, category);
         });
 
     }
@@ -901,7 +928,7 @@ function avvia(index){
 var arr_first = [];
 
 //function createJsonFromAPage(body, uri, model, name, prod_pic, category){
-function createJsonFromAPage(name, uri){
+function createJsonFromAPage(name, uri,prod_pic, category){
 
     (async() => {
         
@@ -909,6 +936,7 @@ function createJsonFromAPage(name, uri){
         const page = await browser.newPage();
 
         await page.goto(uri);
+        
 
 
         let preloaded_bodyHTML = await page.evaluate(() => document.body.innerHTML);
@@ -916,17 +944,14 @@ function createJsonFromAPage(name, uri){
         
         
         // aspetto comunque un po accertarmi che ogni elemento della pagina sia scaricato e renderizzato
-        await page.waitFor(300);
+        await page.waitFor(100);
         
         var $body = $(preloaded_bodyHTML);
 
-        console.log("--------------------------------------------------------------"+page.url());
+        console.log("-----------------------------------------------------------------------------------"+page.url());
 
         var url = page.url();
-        arr_first.push({
-            prod_page: url,
-            prod_name: name,
-        });
+       
 
 
         
@@ -949,32 +974,63 @@ function createJsonFromAPage(name, uri){
         //let description = $body.find(".overview p").html();
 
         /* varianti */
-        /*
-        var $buttons = $body.find(".dots-data-sheet.dots-data-sheet-euro").find(".button-euro");
+        
+        var $sizes = $body.find("[data-slide-taglia]");
+            
+
         var variations = [];
-
-        $buttons.each(function(index){
-
-            var $slide = $body.find(".slider-data-sheet-product").find(".carousel-cell").eq(index);
-            var light_schema = $slide.find(".data-sheet img").attr("src");
-            var $data_container = $slide.find(".data-sheet.g");
-            
-            var data = {};
-            $data_container.find("p").each(function(){
-            if($(this).is(".label")){
-                let label = $(this).html();
-                let value = $(this).next().html();
-                data[label] = value
-            }
+        // se c'è la slideshow delle varie taglie
+        
+        $sizes.each(function(index){
+            var $colors = $(this).find("[data-color-name]");
+            var colors_arr = [];
+            $colors.each(function(){
+              colors_arr.push({
+                name: $(this).data("color-name"),
+                pic_url: $(this).find("img").attr("src")
+              });
             })
+
+
+            var $data_tech = $body.find("[data-tech]").eq(index);
+            var data_tech;
+            $data_tech.each(function(){
+              var pics = [];
+              $(this).find("img").each(function(){
+                pics.push($(this).attr("src"));
+              })
+
+              var details = [];
+              $(this).find(".single_detail").each(function(){
+                var name = $(this).find("span").html();
+                var data = $(this).text().replace(name,"");
+                details.push({
+                  name : ""+ name.replace(":","").toString().toLowerCase(),
+                  data : S(data).replaceAll("\n","").replaceAll("\t","").s
+                });
+              })
+
+              var tech_download = $(this).find("a").filter(function(){ return $(this).html() == "Download Technical Sheet"}).attr("href");
+              
+
+              data_tech = {
+                name: $(this).data("tech"),
+                pics: pics,
+                details: details,
+                tech_download: tech_download,
+              }
+              
+            });
+
             
+
             variations.push({
-            name: $(this).html().toUpperCase(),
-            light_schema: "http://www.luceplan.com"+light_schema,
-            data : data,
+              size: $(this).data("slide-taglia"),
+              colors: colors_arr,
+              data_tech: data_tech,
             })
         })
-        */
+      
         
 
         /* video */
@@ -986,18 +1042,16 @@ function createJsonFromAPage(name, uri){
         await browser.close();
         index++;
 
-        /*
-        arr_first.push({
-            name: website_name,
-            prod_pic: prod_pic,
-            prod_page : uri,
-            projects : projects,
+        
+         arr_first.push({
+            prod_name: name,
             category: category,
-            description: description,
-            video: video,
+            projects: projects,
+            pic: prod_pic,
+            prod_page: url,
             variations: variations
         });
-        */
+        
         avvia(index);
         
    
