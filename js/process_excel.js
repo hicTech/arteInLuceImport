@@ -162,7 +162,7 @@ fs.readdir(path, function(err, cartella_fornitore) {
 
 
 
-                                                            if( process.argv[3] == "--open=true"){
+                                                            if( process.argv[3] == "-open=true"){
                                                                 const opn = require('opn');
                                                                 opn(path_cartella +"/result/"+cartella+'_aumentato.xlsx',{wait:false});    
                                                             }
@@ -5777,71 +5777,58 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                         
                                         
                                         let asset = getAsset(row["collection"], row["category"]);  
-                                        
-                                        // if(!_.is(asset)){
-                                        //     // Modelli presenti sull'excel e non sul sito
-                                        //     _.log(row["Nome"]);
-                                        //     //_.log(count++)
-                                        // }  
+
+                                        if(!_.is(asset)){
+                                            _.log("sono arrivato qui");
+                                            _.log(row["collection"] +" - - "+ row["category"]);
+                                        }
                                             
                                         
                                         supplier = "slamp";
                                         supplier_id = supplierId(supplier);
                                         original_model_id = row["item_code"];//.replace(" ","_").replace(" ","_").replace(" ","_").replace(" ","_"); // può avere diversi spazi
+                                        original_model = original_model_id;
+                                        model_id = original_model_id;
                                         color = row["color"].toLowerCase();
-                                        //model = getModel(row["description"],color);
-                                        //_.log(original_model_id)
-                                        
-                                        // model_id = original_model_id;
-                                        // model_variant = original_model_id;
-                                        // variante =  undefined;
-                                        // dimensioni = undefined;
-                                        
-                                        // combination_id = model_id;
-                                        // component = 0;
-                                        // model = row["Modello"]+" "+row["Categoria"];
-                                        // item_id = original_model_id;
-                                        // hicId = getHicId(supplier_id, item_id);
-                                        // ean13 = undefined;
-                                        // max_discount = 0.1;
-                                        // sale = 1;
-                                        // price = row["Prezzo"].replace(".00 €","").replace(",","");
-                                        // quantity = 0;
-                                        // delivery_time = "2-3 gg Italy, 5-6 days UE";
-                                        // delivery_time_if_not_available = "Su ordinazione in 2-3 settimane";
-                                        
-                                        
-                                        
-                                        // /*
-                                        // desc_it = undefined;
-                                        // desc_en = undefined;
-                                        // cleaned_desc_it = ( _.is(asset))? asset.asset.description : undefined;
-                                        // cleaned_desc_en = cleaned_desc_it;
-                                        // */
+                                        model = row["collection"].toLowerCase();
 
-                                        // dimmer = undefined;
-                                        // led = undefined;
-                                        
-                                        // halogen = undefined;
-                                        // screw = undefined;
-                                        // switcher =  undefined;
-                                        // category = row["Categoria"];
-        
-                                        
-        
-                                        
-                                        // type = undefined;       // è un valore unico ovvero una stringa
-        
-                                        
-                                        // component_of = undefined;
-                                        // size = undefined;
-                                        // outdoor = undefined;
-                                        // wire_length = undefined;
-                                        
-                                        // title = row["Nome"]; // li ha messi Monica a mano
-                                        // subtitle = row["Categoria"]+" - slamp";
+                                        title = row["collection"].toLowerCase();
+                                        subtitle = row["category"].toLowerCase()+" - Slamp";
 
-                                        // pic = ( _.is(asset))? asset.prod_pic : undefined;
+                                        model_variant = original_model_id;
+                                        item_id = original_model_id;
+                                        hicId = getHicId(supplier_id, item_id);
+                                        ean13 = row["ean"];
+
+                                        price = row["price"].replace(" €","");
+                                        max_discount = 0.1;
+                                        sale = 1;
+                                        quantity = 0;
+                                        component = 0;
+
+                                        delivery_time = "2-3 gg Italy, 5-6 days UE";
+                                        delivery_time_if_not_available = "Su ordinazione in 2-3 settimane";
+
+                                        cleaned_desc_it = (_.is(asset))? asset.desc : "";
+                                        dimmer = row["dimmer"]
+
+                                        led = undefined;                                        
+                                        halogen = undefined;
+                                        screw = undefined;
+                                        switcher =  undefined;
+                                        // category = row["Categoria"];                                        
+                                        type = undefined;       // è un valore unico ovvero una stringa
+        
+                                        
+                                        component_of = undefined;
+                                        size = undefined;
+                                        outdoor = undefined;
+                                        wire_length = undefined;
+                                        
+                                        pic = ( _.is(asset))? asset.pic : undefined;
+
+                                        var variant = getVariant(asset, row["description"] ); // è la colletta variante fra quelle presenti in asset
+                                        
                                         // light_schema = ( _.is(asset))? asset.light_schema : undefined;
 
                                         // projects = ( _.is(asset))? asset.projects : undefined;
@@ -5896,6 +5883,35 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                                             _.log(model);
                                             return model;
+                                        }
+
+
+                                        function getVariant(asset, description){
+                                            
+                                            if(!_.is(asset) || asset.variations.length == 0)
+                                                return 0;
+                                            if(asset.variations.length == 1)
+                                                return asset.variations[0]
+                                            else{
+                                                //_.log(count++); // sono 261
+                                                _.each(asset.variations,function(variation){
+                                                    
+                                                    var size = variation.size;
+                                                    var desc = description.toLowerCase();
+                                                        desc = desc.replace(" small", " s")
+                                                        desc = desc.replace(" medium", " m")
+                                                        desc = desc.replace(" large", " l")
+                                                    if( desc.indexOf(" "+size+" ") != -1 || desc.endsWith(size) ){
+                                                        //_.log(count++)
+                                                    }
+                                                    else{
+                                                        //_.log(desc+" ----- "+size)
+                                                    }
+                                                    
+                                                        
+                                                })
+                                            }
+                                            
                                         }
                                       
                                         // function getProductImages(pic, projects, light_schema, component, caso){
@@ -5972,21 +5988,39 @@ function adjustRow(row,fornitore,assets_json, desc_json){
         
         
                                         function getAsset(collection, category){
-                                            _.log("sono arrivato qui")
+                                            
                                                                                             // la parola suspension essendo lunga falsa il campareTwoString quindi la sostituisco con sus.
                                             collection = collection.toLowerCase().replace(" suspension", " sus.");
                                             category = category.toLowerCase().replace("suspension", "sus.");
                                             
                                             var concat = collection+" "+category;
+                                            
+                                            
 
                                             for(var i = 0; i < assets_json.length; i++){
                                                 var asset = assets_json[i];
-                                                var asset_name = asset.name.replace(" suspension", " sus.")
+                                                var asset_name = asset.prod_name+" "+asset.category;
+                                                    asset_name = asset_name.replace(" suspension", " sus.")
+                                                    asset_name = asset_name.replace("table table", "table")
+                                                    asset_name = asset_name.replace("floor floor", "floor")
+                                                    asset_name = asset_name.replace("ceiling ceiling/wall", "ceiling/wall")
+                                                    asset_name = asset_name.replace("wall ceiling/wall", "ceiling/wall")
+                                                    asset_name = asset_name.replace("ceiling/ceiling/wall", "ceiling/wall")
+                                                    asset_name = asset_name.replace("sus. suspension", "sus.")
+                                                
                                                 if( asset.category.substr(0,3) == category.substr(0,3) ){
-                                                    if( sS.compareTwoStrings(asset_name, concat) > 0.8 ){
-                                                        _.log(count++)
+                                                    //_.log(asset_name+" - "+concat+" ---- "+sS.compareTwoStrings(asset_name, concat))
+                                                    if( sS.compareTwoStrings(asset_name, concat) == 1 ){
+                                                        //_.log(count++)
                                                         return asset;
                                                     }
+                                                    // else{
+                                                    //     if( sS.compareTwoStrings(asset_name, concat) > 0.7 ){
+                                                    //         _.log(asset_name+" - "+concat+" ---- "+sS.compareTwoStrings(asset_name, concat))
+                                                    //         return asset;
+                                                    //     }
+                                                    // }
+
                                                 }
                                                 
                                             }
