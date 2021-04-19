@@ -5638,7 +5638,7 @@
                         "pic_url": "https://www.slamp.com/wp-content/uploads/2017/08/Gemmy_Prisma_Amber_Suspension_Color.jpg"
                     },
                     {
-                        "name": "Amethist",
+                        "name": "amethyst",
                         "pic_url": "https://www.slamp.com/wp-content/uploads/2017/08/Gemmy_Prisma_Amethyst_Suspension_Color.jpg"
                     },
                     {
@@ -5648,10 +5648,6 @@
                     {
                         "name": "Gold",
                         "pic_url": "https://www.slamp.com/wp-content/uploads/2017/08/Gemmy_Prisma_Gold_Suspension_Color.jpg"
-                    },
-                    {
-                        "name": "",
-                        "pic_url": ""
                     }
                 ],
                 "data_tech": {
@@ -5668,7 +5664,7 @@
                         },
                         {
                             "name": "colori",
-                            "data": "Prisma, Amber, Amethist, Emerald, Gold, "
+                            "data": "Prisma, Amber, amethyst, Emerald, Gold, "
                         },
                         {
                             "name": "materiali",
@@ -10169,7 +10165,7 @@
                         "pic_url": "https://www.slamp.com/wp-content/uploads/2017/08/Gemmy_Amber_Floor_Color.jpg"
                     },
                     {
-                        "name": "Amethist",
+                        "name": "amethyst",
                         "pic_url": "https://www.slamp.com/wp-content/uploads/2017/08/Gemmy_Amethy_Floor_Color.jpg"
                     },
                     {
@@ -10199,7 +10195,7 @@
                         },
                         {
                             "name": "colori",
-                            "data": "Prisma, Amber, Amethist, Emerald, Gold, "
+                            "data": "Prisma, Amber, amethyst, Emerald, Gold, "
                         },
                         {
                             "name": "materiali",
@@ -12762,7 +12758,7 @@
                         "pic_url": "https://www.slamp.com/wp-content/uploads/2017/08/Gemmy_Amber_Table_Color.jpg"
                     },
                     {
-                        "name": "Amethist",
+                        "name": "amethyst",
                         "pic_url": "https://www.slamp.com/wp-content/uploads/2017/08/Gemmy_Ametist_Table_Color.jpg"
                     },
                     {
@@ -12792,7 +12788,7 @@
                         },
                         {
                             "name": "colori",
-                            "data": "Prism, Amber, Amethist, Emerald, Gold, "
+                            "data": "Prism, Amber, amethyst, Emerald, Gold, "
                         },
                         {
                             "name": "materiali",

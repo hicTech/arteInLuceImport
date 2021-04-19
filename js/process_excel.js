@@ -16,7 +16,8 @@ var listino2019Flos = require("./flos/listino2019.js")
     listino2019Flos = listino2019Flos();
 
 
-var listino2019Vistosi = require("./vistosi/listino2019.js")
+var listino2019Vistosi = require("./vistosi/listino2019.js");
+const { SSL_OP_LEGACY_SERVER_CONNECT } = require('constants');
     listino2019Vistosi = listino2019Vistosi();
 
 var $ = jQuery = require('jquery')(window);
@@ -167,12 +168,7 @@ fs.readdir(path, function(err, cartella_fornitore) {
                                                                 opn(path_cartella +"/result/"+cartella+'_aumentato.xlsx',{wait:false});    
                                                             }
 
-                                                            return;
-
-
-
-
-
+                                                        
 
 
                                                         fs.writeFile(path_cartella +"/result/"+cartella+'_varianti.json', JSON.stringify(json_varianti, null, 4), 'utf8', function(){
@@ -5778,9 +5774,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                         
                                         let asset = getAsset(row["collection"], row["category"]);  
 
+
                                         if(!_.is(asset)){
-                                            _.log("sono arrivato qui");
-                                            _.log(row["collection"] +" - - "+ row["category"]);
+                                            //_.log(count++);
+                                            //_.log("Modello per cui non esiste asset da sito: "+row["collection"] +" - - "+ row["category"]);
                                         }
                                             
                                         
@@ -5788,11 +5785,13 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                         supplier_id = supplierId(supplier);
                                         original_model_id = row["item_code"];//.replace(" ","_").replace(" ","_").replace(" ","_").replace(" ","_"); // può avere diversi spazi
                                         original_model = original_model_id;
+                                        combination_id = original_model_id;
                                         model_id = original_model_id;
                                         color = row["color"].toLowerCase();
                                         model = row["collection"].toLowerCase();
 
-                                        title = row["collection"].toLowerCase();
+                                        
+                                        title = row["nomeMonica"].toLowerCase();
                                         subtitle = row["category"].toLowerCase()+" - Slamp";
 
                                         model_variant = original_model_id;
@@ -5800,7 +5799,9 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                         hicId = getHicId(supplier_id, item_id);
                                         ean13 = row["ean"];
 
-                                        price = row["price"].replace(" €","");
+                                        price = row["price"].replace(" €","").replace(".00","-00").replace(".50","-50").replace(",","");
+                                        price = price.replace("-",",").replace("-",",")
+                                        
                                         max_discount = 0.1;
                                         sale = 1;
                                         quantity = 0;
@@ -5811,178 +5812,260 @@ function adjustRow(row,fornitore,assets_json, desc_json){
 
                                         cleaned_desc_it = (_.is(asset))? asset.desc : "";
                                         dimmer = row["dimmer"]
+                                        var temperature = row["temperature"]
 
                                         led = undefined;                                        
                                         halogen = undefined;
                                         screw = undefined;
                                         switcher =  undefined;
-                                        // category = row["Categoria"];                                        
+                                        category = getCategory(row["category"]);                                   
                                         type = undefined;       // è un valore unico ovvero una stringa
         
                                         
                                         component_of = undefined;
-                                        size = undefined;
+                                        size = row["size"];
                                         outdoor = undefined;
                                         wire_length = undefined;
                                         
                                         pic = ( _.is(asset))? asset.pic : undefined;
 
-                                        var variant = getVariant(asset, row["description"] ); // è la colletta variante fra quelle presenti in asset
+                                        var variant = getVariant(asset,size, row["description"],row["color"] ); // è la corretta variante fra quelle presenti in asset sempre in variant nel campo right_color trovi il colore giusto
                                         
-                                        // light_schema = ( _.is(asset))? asset.light_schema : undefined;
-
-                                        // projects = ( _.is(asset))? asset.projects : undefined;
-                                        // link = ( _.is(asset))? asset.prod_page : undefined;
-
-                                        // meta_title = (_.is(asset))? getMetaTitle(title, subtitle, category, component, max_discount) : undefined;
-                                        // meta_description = (_.is(asset))?  getMetaDescription(title, subtitle, category, component, max_discount) : undefined;
-
-                                        // all_images = (_.is(asset))? getAllImages(pic,light_schema,projects) : undefined;
-                                        // all_images_alt = (_.is(asset))? getAllImagesAlt(pic,light_schema,projects) : undefined
-        
-                                        // product_images = (_.is(asset))? getProductImages(pic, projects, light_schema, component, "img") : undefined;
-                                        // product_images_alt = (_.is(asset))? getProductImages(pic, projects, light_schema, component, "alt") : undefined;
                                         
-                                        // combination_images = (_.is(asset))? getCombinationImages(pic, projects, light_schema, component, "img") : undefined;
-                                        // combination_images_alt = (_.is(asset))? getCombinationImages(pic, projects, light_schema, component, "alt") : undefined;
-        
+                                        var size = (_.is(variant))? variant.size : "";
+                                        dimensioni = size;
+
                                         
 
-                                        function getModel(desc,color){
-                                            var model = desc.toLowerCase();
-                                            model = model.replace(color,"")
-                                            .replace(" - "," ")
-                                            .replace("kelvin"," ")
-                                            .replace("2700"," ")
-                                            .replace("3000"," ")
-                                            .replace("large"," ")
-                                            .replace("small"," ")
-                                            .replace("medium"," ")
-                                            .replace("xl"," ")
-                                            .replace("gold"," ")
-                                            .replace("silver"," ")
-                                            .replace("white"," ")
-                                            .replace("opal"," ")
-                                            .replace("red"," ")
-                                            .replace("celeste"," ")
+                                        
+                                        
 
-
-                                            .replace("table"," ")
-                                            .replace("suspension"," ")
-                                            .replace("fringe"," ")
-                                            .replace("mini"," ")
-                                            .replace("l -"," ")
-                                            .replace("m -"," ")
-                                            .replace("s -"," ")
-
-                                            .replace("ceiling/wall"," ")
-                                            .replace("applique"," ")
-                                            .replace("s -"," ")
-                                            .replace("s -"," ")
-                                            
-
-                                            _.log(model);
-                                            return model;
+                                        if(_.is(variant)){
+                                            if(_.is(variant.data_tech)){
+                                                if(_.is(variant.data_tech.pics)){
+                                                    light_schema = variant.data_tech.pics;
+                                                } 
+                                            }    
                                         }
 
+                                        
 
-                                        function getVariant(asset, description){
+                                        
+
+                                        projects = ( _.is(asset))? asset.projects : undefined;
+                                        link = ( _.is(asset))? asset.prod_page : undefined;
+
+                                        meta_title = (_.is(asset))? getMetaTitle(title, category) : undefined;
+                                        
+                                        meta_description = (_.is(asset))?  getMetaDescription(category) : undefined;
+
+                                        all_images = (_.is(asset))? getAllImages(pic,light_schema,projects) : undefined;
+                                        all_images_alt = (_.is(asset))? getAllImagesAlt(pic,light_schema,projects) : undefined
+        
+                                        product_images = (_.is(asset))? getProductImages(pic, projects, "img") : undefined;
+                                        product_images_alt = (_.is(asset))? getProductImages(pic, projects, "alt") : undefined;
+                                        
+                                        combination_images = (_.is(asset))? getCombinationImages(pic, light_schema, color, "img") : undefined;
+                                        combination_images_alt = (_.is(asset))? getCombinationImages(pic, light_schema, color, "alt") : undefined;
+        
+                                        
+                                        
+
+                                        
+
+                                        function getVariant(asset,size, description, color){
+                                            var variant;
                                             
+
+
+                                            // recupero la corretta variante
                                             if(!_.is(asset) || asset.variations.length == 0)
                                                 return 0;
-                                            if(asset.variations.length == 1)
-                                                return asset.variations[0]
+                                            if(asset.variations.length == 1){
+                                                variant = asset.variations[0];
+                                            }
                                             else{
                                                 //_.log(count++); // sono 261
+                                                
                                                 _.each(asset.variations,function(variation){
                                                     
-                                                    var size = variation.size;
-                                                    var desc = description.toLowerCase();
-                                                        desc = desc.replace(" small", " s")
-                                                        desc = desc.replace(" medium", " m")
-                                                        desc = desc.replace(" large", " l")
-                                                    if( desc.indexOf(" "+size+" ") != -1 || desc.endsWith(size) ){
-                                                        //_.log(count++)
+                                                    var variation_size = variation.size+"";
+
+                                                    if(size != "" && _.is(variation_size) ){
+
+                                                        size = size.toLowerCase();
+                                                        size = size.replace("small", "s")
+                                                        size = size.replace("medium", "m")
+                                                        size = size.replace("large", "l")
+                                                        size = size.replace("trio", "triple")
+
+
+                                                        if( variation_size.toLowerCase() == size.toLowerCase()){
+                                                            variant = variation
+                                                        }
+                                                    }else{
+                                                        var desc = description.toLowerCase();
+                                                            desc = desc.replace(" small", " s")
+                                                            desc = desc.replace(" medium", " m")
+                                                            desc = desc.replace(" large", " l")
+                                                            desc = desc.replace(" trio", " triple")
+                                                            //_.log(desc);
+                                                        
+                                                    
+                                                        if( desc.indexOf(" "+variation_size+" ") != -1 || desc.endsWith(variation_size) ){
+                                                            variant = variation
+                                                        }
+                                                        else{
+                                                            //_.log(desc+" ----- "+size+"--------"+variation_size)
+                                                        }
+
                                                     }
-                                                    else{
-                                                        //_.log(desc+" ----- "+size)
-                                                    }
+
+
+                                                    
                                                     
                                                         
                                                 })
                                             }
+
+                                            // una volta recuperata la viariante recupero il color corrispondente
+                                            if(_.is(variant) && _.is(variant.colors)){
+                                                if( variant.colors.length == 1 ){
+                                                    variant["right_color"] =  variant.colors[0];
+                                                }
+                                                    
+                                                else{
+
+                                                    if( variant.colors.length == 0 ){
+                                                        variant["right_color"] =  null;
+                                                    }
+                                                        
+                                                    else{
+                                                        var color_excel = color.toLowerCase();
+                                                        var max = 0;
+                                                        var right_color;
+
+                                                        _.each(variant.colors,function(color_asset){
+                                                            var color_asset_name = color_asset.name.toLowerCase();
+
+                                                            if(sS.compareTwoStrings(color_asset_name, color_excel) > max){
+                                                                max = sS.compareTwoStrings(color_asset_name, color_excel);
+                                                                right_color = color_asset;
+                                                            }
+                                                        });
+
+
+                                                        if(_.isObject(right_color)){
+                                                            
+                                                           variant["right_color"] = right_color;
+                                                        }
+                                                        
+                                                    }
+
+
+                                                }
+                                                
+                                                return variant
                                             
+                                            }
+                                            else{
+                                                return variant
+                                            }
+                                        }
+
+                                        function getCategory(cat){
+                                            var category = cat.toLowerCase();
+                                            if(category == "suspension")
+                                                return "sospensione";
+                                            if(category == "table")
+                                                return "tavolo";  
+                                            if(category == "floor")
+                                                return "terra";
+                                            if(category == "ceiling/wall")
+                                                return "parete"; 
                                         }
                                       
-                                        // function getProductImages(pic, projects, light_schema, component, caso){
+                                        function getProductImages(pic, projects, caso){
                                             
-                                        //     var arr_ret = [];
-                                        //     if(_.is(pic)){
-                                        //         if(caso == "img"){
-                                        //             arr_ret.push(pic);
-                                        //         }
+                                            var arr_ret = [];
+                                            if(_.is(pic)){
+                                                if(caso == "img"){
+                                                    arr_ret.push(pic);
+                                                }
                                 
-                                        //         if(caso == "alt"){
-                                        //             arr_ret.push("pic");
-                                        //         }
-                                        //     }
+                                                if(caso == "alt"){
+                                                    arr_ret.push("pic");
+                                                }
+                                            }
         
-                                        //     if( _.is(projects) && _.isArray(projects) ){
-                                        //         _.each(projects,function(project_img){
-                                        //             if(caso == "img"){
-                                        //                 arr_ret.push(project_img)
-                                        //             }
+                                            if( _.is(projects) && _.isArray(projects) ){
+                                                _.each(projects,function(project_img){
+                                                    if(caso == "img"){
+                                                        arr_ret.push(project_img)
+                                                    }
                                     
-                                        //             if(caso == "alt"){
-                                        //                 arr_ret.push("projects")
-                                        //             }
-                                        //         })
-                                        //     }
+                                                    if(caso == "alt"){
+                                                        arr_ret.push("projects")
+                                                    }
+                                                })
+                                            }
         
-                                        //     if(caso == "img"){
-                                        //         return S(arr_ret.toString()).replaceAll(",","|").s;
-                                        //     }
+                                            if(caso == "img"){
+                                                return S(arr_ret.toString()).replaceAll(",","|").s;
+                                            }
                             
-                                        //     if(caso == "alt"){
-                                        //         return S(arr_ret.toString()).replaceAll(",","|").s;
-                                        //     }
-                                        // }
+                                            if(caso == "alt"){
+                                                return S(arr_ret.toString()).replaceAll(",","|").s;
+                                            }
+                                        }
         
-                                        // function getCombinationImages(pic, projects, light_schema, component, caso){
-                                        //     light_schema = [light_schema]
-                                        //     var arr_ret = [];
-                                        //     if(_.is(pic)){
-                                        //         if(caso == "img"){
-                                        //             arr_ret.push(pic);
-                                        //         }
+                                        function getCombinationImages(pic, light_schema, color, caso){
+                                            light_schema = light_schema;
+                                            var arr_ret = [];
+                                            
+                                            if(_.is(pic)){
+                                                if(caso == "img"){
+                                                    if( !_.is(variant) )
+                                                        arr_ret.push(pic);
+                                                    else{
+                                                        
+                                                        _.each(variant.colors,function(single_color){
+                                                            if( single_color.name.toLowerCase() == color.toLowerCase() ){
+                                                                arr_ret.push(single_color.pic_url)
+                                                            }
+                                                        });
+                                                    }
+                                                }
                                 
-                                        //         if(caso == "alt"){
-                                        //             arr_ret.push("pic");
-                                        //         }
-                                        //     }
+                                                if(caso == "alt"){
+                                                    arr_ret.push("pic");
+                                                }
+                                            }
+
+                                            
         
-                                        //     if(_.is(light_schema)){
-                                        //         if(caso == "img"){
-                                        //             _.each(light_schema,function(single_img){
-                                        //                 arr_ret.push(single_img);
-                                        //             })
-                                        //         }
+                                            if(_.is(light_schema)){
+                                                if(caso == "img"){
+                                                    _.each(light_schema,function(single_img){
+                                                        arr_ret.push(single_img);
+                                                    })
+                                                }
                                 
-                                        //         if(caso == "alt"){
-                                        //             _.each(light_schema,function(single_img){
-                                        //                 arr_ret.push("light_schema");
-                                        //         })
-                                        //         }
-                                        //     }
+                                                if(caso == "alt"){
+                                                    _.each(light_schema,function(single_img){
+                                                        arr_ret.push("light_schema");
+                                                })
+                                                }
+                                            }
         
-                                        //     if(caso == "img"){
-                                        //         return S(arr_ret.toString()).replaceAll(",","|").s;
-                                        //     }
+                                            if(caso == "img"){
+                                                return S(arr_ret.toString()).replaceAll(",","|").s;
+                                            }
                             
-                                        //     if(caso == "alt"){
-                                        //         return S(arr_ret.toString()).replaceAll(",","|").s;
-                                        //     }
-                                        // }
+                                            if(caso == "alt"){
+                                                return S(arr_ret.toString()).replaceAll(",","|").s;
+                                            }
+                                        }
         
                                         
         
@@ -6042,141 +6125,64 @@ function adjustRow(row,fornitore,assets_json, desc_json){
                                         }
                                         
         
-                                        // function normalizzaCodice(cod){
-                                        //     return S(cod.toLowerCase()).replaceAll(" ","").replaceAll(".","").s
-                                        // }
+                                     
         
+                                        function getMetaTitle(title, category){
+                                            
+                                                var ret = "Lampada da "+category+": "+title.toUpperCase()+" Slamp by ArteInLuce™";
+                                                if(ret.length > 60)
+                                                    ret = "Lampada "+category+": "+title.toUpperCase()+" Slamp by ArteInLuce™";
+                                                if(ret.length > 60)
+                                                    ret = "Lampada "+category+": "+title.toUpperCase()+" Slamp ArteInLuce™";
+                                            
+                                            
         
+                                            return ret;
+                                        }
         
-        
-                                        // function getSchemaImages(mode_id){
-                                        //     var ret = [];
-                                        //     var asset = getAsset(mode_id)
-                                        //     if( _.is(asset)){
-                                        //         if( _.is(asset.size_image) )
-                                        //             ret.push( asset.size_image );
-                                        //         if( _.is(asset.summary_media) ){
-                                        //             _.each(asset.summary_media,function(elem){
-                                        //                 ret.push(elem);
-                                        //             })
-                                        //         }
-                                        //     }
-        
-                                        //     return ret;   
-                                        // }
-        
-                                        // function getFatherAsset(accessory_id){
-                                        //     if(!isComponent(accessory_id))
-                                        //         return undefined;
-                                        //     else{
-                                        //         var ret = undefined;
-        
-                                        //         _.each(assets_json,function(asset){
-                                        //             _.each(asset.accessories,function(accessory){
-                                        //                 if(accessory.id == accessory_id && !_.is(ret)){
-                                        //                     ret = asset;
-                                        //                 }
-                                        //             });
-                                        //         });
-        
-                                        //         return ret;
-                                        //     }
-                                        // }
-                            
+                                        function getMetaDescription(category){
                                         
-        
-                                        // // ritorna il link alla pagine dell'articolo sul sito del fornitore
-                                        // function getSupplierSiteLink(model_id){
-                                        //     var asset = getAsset(model_id);
-                                        //     if(_.is(asset))
-                                        //         if(_.is(asset.uri))
-                                        //             return asset.uri;
-                                        // }
-        
-        
-        
-        
-                                        // function getMetaTitle(title, subtitle, category, component, max_discount){
-                                        //     if(component == 0){
-                                        //         var ret = "Lampada da "+category+": "+title.toUpperCase()+" slamp by ArteInLuce™";
-                                        //         if(ret.length > 60)
-                                        //             ret = "Lampada "+category+": "+title.toUpperCase()+" slamp by ArteInLuce™";
-                                        //         if(ret.length > 60)
-                                        //             ret = "Lampada "+category+": "+title.toUpperCase()+" slamp ArteInLuce™";
+                                            var category = (_.is(category))? category.toUpperCase() : "";
+                                            var ret = title.toUpperCase()+" slamp: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da "+category+" in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
                                             
-                                        //     }
-                                        //     if(component == 1){
-                                        //         var ret = title +" slamp by ArteInLuce™";
-                                        //         if(ret.length > 60)
-                                        //             ret = title +" slamp ArteInLuce™";
-                                        //         if(ret.length > 60)
-                                        //             ret = ret.replace("per ","");
-                                        //     }
+                                            return ret;
+                                        }
         
-                                        //     return ret;
-                                        // }
         
-                                        // function getMetaDescription(title, subtitle, category, component, max_discount){
-                                        //     if(component == 0){
-                                        //         var category = (_.is(category))? category.toUpperCase() : "";
-                                        //         var ret = title.toUpperCase()+" slamp: SPEDIZIONE GRATUITA. Scopri centinaia di altre lampade da "+category+" in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
-                                                
-                                        //     }
-                                        //     if(component == 1){
-                                        //         var ret = title.toUpperCase()+" slamp: centinaia di altre lampade da "+category+" e relativi accessori in PRONTA CONSEGNA by ArteInLuce™. Consegna in 2-3 giorni.";
-                                        //     }
+                                        function getAllImages(pic,light_schema,projects){
+                                            //var ret_arr = [pic];
+                                            var ret_arr = [];
+                                            if(_.isArray(light_schema)){
+                                                ret_arr = ret_arr.concat(light_schema);
+                                            }
+                                            if(_.isArray(projects)){
+                                                ret_arr = ret_arr.concat(projects);
+                                            }
                                             
+                                            if(_.isArray(ret_arr))
+                                                return S(ret_arr.toString()).replaceAll(",","|").s;
                                             
-                                        //     return ret;
-                                        // }
+                                        }
         
+                                        function getAllImagesAlt(pic,light_schema,projects){
+                                            var all_images_alt = [];
+                                            // var all_images_alt = (pic.length != 0)? ["pic"] : [];
+                                            if(_.isArray(light_schema)){
+                                                _.each(light_schema,function(){
+                                                    all_images_alt.push("light_schema");
+                                                })
+                                            }
         
-                                        // function getAllImages(pic,light_schema,projects){
-                                        //     //var ret_arr = [pic];
-                                        //     var ret_arr = [];
-                                        //     if(_.isArray(light_schema)){
-                                        //         ret_arr = ret_arr.concat(light_schema);
-                                        //     }
-                                        //     if(_.isArray(projects)){
-                                        //         ret_arr = ret_arr.concat(projects);
-                                        //     }
-                                            
-                                        //     if(_.isArray(ret_arr))
-                                        //         return S(ret_arr.toString()).replaceAll(",","|").s;
-                                            
-                                        // }
+                                            if(_.isArray(projects)){
+                                                _.each(projects,function(){
+                                                    all_images_alt.push("projects");
+                                                })
+                                            }
         
-                                        // function getAllImagesAlt(pic,light_schema,projects){
-                                        //     var all_images_alt = [];
-                                        //     // var all_images_alt = (pic.length != 0)? ["pic"] : [];
-                                        //     if(_.isArray(light_schema)){
-                                        //         _.each(light_schema,function(){
-                                        //             all_images_alt.push("light_schema");
-                                        //         })
-                                        //     }
+                                            return S(all_images_alt.toString()).replaceAll(",","|").s
+                                        }
         
-                                        //     if(_.isArray(projects)){
-                                        //         _.each(projects,function(){
-                                        //             all_images_alt.push("projects");
-                                        //         })
-                                        //     }
-        
-                                        //     return S(all_images_alt.toString()).replaceAll(",","|").s
-                                        // }
-        
-                                        // function getMore(asset){
-                                            
-                                        //     var new_asset = JSON.parse(JSON.stringify(asset.data)); // clono asset.data
-                                        //     new_asset["product_page_link"] = asset.asset.prod_page;
-                                        //     new_asset["supplier"] = "luceplan";
-                                        //     if(_.is(asset.asset.video)){
-                                        //         var escaped_video_url = escape(asset.asset.video)
-                                        //         new_asset["video"] = [escaped_video_url];
-                                        //     }
-                                        //     //_.log(_.toStr(JSON.stringify(new_asset)));                                      
-                                        //     return new_asset;
-                                            
-                                        // }
+                                     
         
                                     }
                                 }
@@ -6276,9 +6282,10 @@ function adjustRow(row,fornitore,assets_json, desc_json){
             
 
 
-            // alcune colonne aggiunte custom da Monica per Panzeri e Luceplan
+            // alcune colonne aggiunte custom da Monica per Panzeri e Luceplan e Slamp
             variante:               variante,
             dimensioni:             dimensioni,
+            temperature:            temperature,
 
             // alcune colonne aggiunte custom da Monica per Penta
             struttura:              struttura,
@@ -7840,6 +7847,159 @@ function postProduci(json,fornitore){
                     if( _.is(obj[elem[0]]) ){
                         pos++;
                         var etichetta = (elem[0] == "color")? "colore" : (elem[0] == "variante")? "variante" : (elem[0] == "led")? "led" : (elem[0] == "dimmer")? "dimmer" : (elem[0] == "dimensioni")? "dimensioni" : ""; // per flos è sempre e solo il colore il secondo attribute // (etichetta=="color")? "colore" : "nome_attributo_non_trovato";
+                        var singleton = etichetta +" : "+ elem[1] +" : "+ pos+" | ";
+                    }
+
+                }
+                
+                csv += (_.is(singleton))? singleton : "";
+            });
+
+            // tolgo l'ultimo punto e virgola
+            return csv.substring(0, csv.length - 3);
+        }
+        
+        // in component_of invece del code metto hicId
+        _.each(json, function(elem, index){
+            var cod = elem.component_of;
+            _.each(json, function(elem2){
+                if( elem2.model_id == cod)
+                   json[index].component_of = elem2.hicId;
+            })
+        })
+
+        // ad ogni accessorio aggiungo l'hicId degli articoli di cui è accessorio
+        var registro_component_hicId = {};
+        _.each(json, function(elem){
+            if( elem.component == 1 ){
+                var component_of_hicId = elem.component_of;
+                elem.accessories = component_of_hicId;
+            }
+        });
+        
+
+        
+        
+       
+    }
+
+
+    if(fornitore=="slamp"){
+        
+
+        var json_prodotti = [];
+        // [1]
+        // creo hicid è l'id del articolo primario che viene messo a tutte le sue varianti
+        // l'articolo primario viene pompato in json_prodotti col price a zero
+        var registro = {};
+        
+
+        /// eliminiamo i prodotti che non hanno il model
+        json = _.filter(json,function(elem){
+            if( !_.is(elem.model) || elem.model == "")
+                return false;
+            return true;
+        });
+
+        _.each(json, function(elem,index){
+            if( !_.is(registro[elem.title]) ){
+                registro[elem.title] = elem.hicId;
+                var new_elem = Object.assign({}, elem);
+                new_elem.price = 0;
+                json_prodotti.push(new_elem);
+            }
+            else{
+                elem.hicId = registro[elem.title];
+            }
+            
+        })
+
+
+        // aggiungo gli accessori di ogni articolo
+        _.each(json, function(elem){
+            if(_.is(elem.accessori) && elem.accessori != "")
+                elem["accessories"] = S(elem.accessori).replaceAll(",","|").s
+            
+        });
+
+
+        
+
+
+        
+        _.each(json, function(elem){
+            // aggiungo le features che sono le proprietà statiche dell'articolo
+            elem["features"] = inlineCSVFeaturesSlamp(elem,["category","outdoor"])
+
+            // aggiungo attributi e valori
+            elem["attributes"] = inlineCSVSlamp(elem,[["color","select"]])
+            elem["values"] = inlineCSVSlamp(elem,["color"],"values")
+
+            elem["attributes"] = inlineCSVSlamp(elem,[["color","select"],["dimensioni","select"],["temperature","select"]])
+            elem["values"] = inlineCSVSlamp(elem,["color","dimensioni","temperature"],"values")
+            
+        });
+
+
+        function inlineCSVFeaturesSlamp(obj,arr){
+            let csv = "";
+            let pos = 0;
+            _.each(arr,function(elem){
+
+                if( _.is(obj[elem]) ){
+                    var singleton = elem +" : "+ obj[elem] +" : "+ pos+":1 | ";
+                    pos++;
+                }
+                            
+                csv += (_.is(singleton))? singleton : "";
+            });
+
+            //  alle features aggiungo i dati presenti in more (more c'è solo negli articoli componento == 0)
+            if(obj.component == 0){
+                _.each(obj.more, function(feature, key){
+                    var cleaned_feature = cleanedFeature(feature);
+
+                    if(_.is(cleaned_feature)){
+                        //if(key!="descrizione_tecnica"){
+                            csv += key +' : '+ cleaned_feature +' : '+ pos +':1 | ';
+                            pos++;
+                        //}
+                        
+                    } 
+                    //var cleaned_feature = "'"+ feature.replace("<p>","").replace("</p>","") + "'";
+
+                })
+               
+            }
+           
+            
+            // tolgo l'ultima virgola
+            return csv.substring(0, csv.length - 3);
+        }
+
+        function inlineCSVSlamp(obj,arr, caso){
+            
+            let pos = 0;
+            if(!_.is(caso)){ // caso dei attributes
+                var csv = "stato : select : 0 | ";                
+            }
+            else{ // caso di values
+                var csv = "nuovo : 0 | ";
+            }
+            _.each(arr,function(elem){
+
+                if(_.is(caso)){ // caso dei values
+                    
+                    if( _.is(obj[elem]) && obj[elem]!= "" ){
+                        pos++;
+                        var singleton = obj[elem] +" : "+ pos +" | ";
+                    }
+                }
+                else{ // caso di attributes
+                    
+                    if( _.is(obj[elem[0]]) ){
+                        pos++;
+                        var etichetta = (elem[0] == "temperature")? "temperatura" : (elem[0] == "color")? "colore" : (elem[0] == "variante")? "variante" : (elem[0] == "led")? "led" : (elem[0] == "dimmer")? "dimmer" : (elem[0] == "dimensioni")? "dimensioni" : ""; // per flos è sempre e solo il colore il secondo attribute // (etichetta=="color")? "colore" : "nome_attributo_non_trovato";
                         var singleton = etichetta +" : "+ elem[1] +" : "+ pos+" | ";
                     }
 

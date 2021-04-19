@@ -1,0 +1,829 @@
+10:26:30: PROCESSO: ../xls/slamp
+10:26:31: 0
+10:26:31: 1
+10:26:31: 2
+10:26:31: 3
+10:26:31: 4
+10:26:31: 5
+10:26:31: 6
+10:26:31: 7
+10:26:31: 8
+10:26:31: 9
+10:29:13: PROCESSO: ../xls/slamp
+10:29:14: clizia applique - mama non mama
+10:29:14: clizia applique - mama non mama
+10:29:14: clizia applique - mama non mama
+10:29:14: clizia applique - pixel
+10:29:14: clizia applique - pixel
+10:29:14: clizia applique - pixel
+10:29:14: diamond table s
+10:29:14: diamond table s
+10:29:14: 0
+10:29:14: 1
+10:29:14: 2
+10:29:14: 3
+10:29:14: 4
+10:29:14: 5
+10:29:14: 6
+10:29:14: 7
+10:29:14: 8
+10:29:14: 9
+10:29:14: idea applique - mirror
+10:29:14: idea applique - mirror
+10:29:14: idea applique - white
+10:29:14: idea applique - white
+10:29:14: idea recessed - white
+10:29:14: idea recessed - white
+10:29:14: las palmas floor l
+10:29:14: las palmas floor l
+10:29:14: las palmas floor xl
+10:29:14: las palmas floor xl
+10:29:14: mida applique - amber
+10:29:14: mida applique - amber
+10:29:14: mida applique - multicolor
+10:29:14: mida applique - multicolor
+10:29:14: mida applique - rose
+10:29:14: mida applique - rose
+10:29:14: mida applique - white-gold
+10:29:14: mida applique - white-gold
+10:29:14: mida applique - white-platinum
+10:29:14: mida applique - white-platinum
+10:29:14: veli 7 suspension - celeste
+10:29:14: veli 7 suspension - celeste
+10:29:14: veli 7 suspension - charcoal
+10:29:14: veli 7 suspension - charcoal
+10:29:14: veli 7 suspension - chilli
+10:29:14: veli 7 suspension - chilli
+10:29:14: veli 7 suspension - copper
+10:29:14: veli 7 suspension - copper
+10:29:14: veli 7 suspension - couture
+10:29:14: veli 7 suspension - couture
+10:29:14: veli 7 suspension - foliage
+10:29:14: veli 7 suspension - foliage
+10:29:14: veli 7 suspension - gold
+10:29:14: veli 7 suspension - gold
+10:29:14: veli 7 suspension - opal
+10:29:14: veli 7 suspension - opal
+10:29:14: veli 7 suspension - plum
+10:29:14: veli 7 suspension - plum
+10:29:14: veli 7 suspension - prisma
+10:29:14: veli 7 suspension - prisma
+10:29:14: veli 7 suspension - silver
+10:29:14: veli 7 suspension - silver
+10:29:14: veli mini quartet suspension - couture red wire
+10:29:14: veli mini quartet suspension - couture red wire
+10:29:14: veli mini quartet suspension - couture transparent wire
+10:29:14: veli mini quartet suspension - couture transparent wire
+10:29:14: veli mini single suspension - couture red wire
+10:29:14: veli mini single suspension - couture red wire
+10:29:14: veli mini single suspension - couture transparent wire
+10:29:14: veli mini single suspension - couture transparent wire
+10:29:14: veli mini triple suspension - couture red wire
+10:29:14: veli mini triple suspension - couture red wire
+10:29:14: veli mini triple suspension - couture transparent wire
+10:29:14: veli mini triple suspension - couture transparent wire
+10:32:06: PROCESSO: ../xls/slamp
+10:32:51: PROCESSO: ../xls/slamp
+10:32:51: L
+10:32:51: M
+10:32:51: S
+10:32:51: L
+10:32:51: M
+10:32:51: S
+10:32:51: M
+10:32:51: M
+10:32:51: S
+10:32:52: S
+10:32:52: M
+10:32:52: M
+10:32:52: S
+10:32:52: S
+10:32:52: Mini
+10:32:52: Mini
+10:32:52: Mini
+10:32:52: Mini
+10:32:52: L
+10:32:52: L
+10:32:52: M
+10:32:52: M
+10:32:52: S
+10:32:52: S
+10:32:52: XL
+10:32:52: XL
+10:32:52: L
+10:32:52: L
+10:32:52: XL
+10:32:52: XL
+10:32:52: XXL
+10:32:52: XXL
+10:32:52: M
+10:32:52: M
+10:32:52: S
+10:32:52: S
+10:32:52: L
+10:32:52: M
+10:32:52: S
+10:32:52: XL
+10:32:52: XL
+10:32:52: XXL
+10:32:52: M
+10:32:52: S
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: S
+10:32:52: S
+10:32:52: S
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: S
+10:32:52: S
+10:32:52: S
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: S
+10:32:52: S
+10:32:52: S
+10:32:52: S
+10:32:52: S
+10:32:52: S
+10:32:52: S
+10:32:52: S
+10:32:52: S
+10:32:52: S
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: M
+10:32:52: S
+10:32:52: Penta
+10:32:52: Penta
+10:32:52: Penta
+10:32:52: L
+10:32:52: L
+10:32:52: S
+10:32:52: L
+10:32:52: S
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: S
+10:32:52: S
+10:32:52: S
+10:32:52: S
+10:32:52: S
+10:32:52: L
+10:32:52: L
+10:32:52: S
+10:32:52: S
+10:32:52: S
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: XL
+10:32:52: XL
+10:32:52: XL
+10:32:52: XL
+10:32:52: 4
+10:32:52: 4
+10:32:52: 4
+10:32:52: 4
+10:32:52: 5
+10:32:52: 5
+10:32:52: 5
+10:32:52: 5
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: M
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: L
+10:32:52: M
+10:32:52: S
+10:33:57: PROCESSO: ../xls/slamp
+10:34:12: PROCESSO: ../xls/slamp
+10:34:13: l
+10:34:13: m
+10:34:13: s
+10:34:13: l
+10:34:13: m
+10:34:13: s
+10:34:13: m
+10:34:13: m
+10:34:13: s
+10:34:13: s
+10:34:13: m
+10:34:13: m
+10:34:13: s
+10:34:13: s
+10:34:13: mini
+10:34:13: mini
+10:34:13: mini
+10:34:13: mini
+10:34:13: l
+10:34:13: l
+10:34:13: m
+10:34:13: m
+10:34:13: s
+10:34:13: s
+10:34:13: xl
+10:34:13: xl
+10:34:13: l
+10:34:13: l
+10:34:13: xl
+10:34:13: xl
+10:34:13: xxl
+10:34:13: xxl
+10:34:13: m
+10:34:13: m
+10:34:13: s
+10:34:13: s
+10:34:13: l
+10:34:13: m
+10:34:13: s
+10:34:13: xl
+10:34:13: xl
+10:34:13: xxl
+10:34:13: m
+10:34:13: s
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: s
+10:34:13: s
+10:34:13: s
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: s
+10:34:13: s
+10:34:13: s
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: s
+10:34:13: s
+10:34:13: s
+10:34:13: s
+10:34:13: s
+10:34:13: s
+10:34:13: s
+10:34:13: s
+10:34:13: s
+10:34:13: s
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: m
+10:34:13: s
+10:34:13: penta
+10:34:13: penta
+10:34:13: penta
+10:34:13: l
+10:34:13: l
+10:34:13: s
+10:34:13: l
+10:34:13: s
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: s
+10:34:13: s
+10:34:13: s
+10:34:13: s
+10:34:13: s
+10:34:13: l
+10:34:13: l
+10:34:13: s
+10:34:13: s
+10:34:13: s
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: xl
+10:34:13: xl
+10:34:13: xl
+10:34:13: xl
+10:34:13: 4
+10:34:13: 4
+10:34:13: 4
+10:34:13: 4
+10:34:13: 5
+10:34:13: 5
+10:34:13: 5
+10:34:13: 5
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: m
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: l
+10:34:13: m
+10:34:13: s
+10:35:40: PROCESSO: ../xls/slamp
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:41: undefined
+10:35:42: undefined
+10:35:42: undefined
+10:35:42: undefined
+10:35:42: undefined
+10:35:42: undefined
+10:35:42: undefined
+10:35:42: undefined
+10:35:42: undefined
+10:35:42: undefined
+10:35:42: undefined
+10:35:42: undefined
+10:35:42: undefined
+10:35:42: undefined
+10:35:42: undefined
+10:36:05: PROCESSO: ../xls/slamp
+10:36:06: aria gold
+10:36:06: aria gold
+10:36:06: aria gold
+10:36:06: aria transparent
+10:36:06: aria transparent
+10:36:06: aria transparent
+10:36:06: atmosfera fringe table
+10:36:06: atmosfera fringe table
+10:36:06: atmosfera fringe table
+10:36:06: atmosfera fringe table
+10:36:06: atmosfera table
+10:36:06: atmosfera table
+10:36:06: atmosfera table
+10:36:06: atmosfera table
+10:36:06: aurora
+10:36:06: aurora
+10:36:06: aurora
+10:36:06: aurora
+10:36:06: avia
+10:36:06: avia
+10:36:06: avia
+10:36:06: avia
+10:36:06: avia
+10:36:06: avia
+10:36:06: avia
+10:36:06: avia
+10:36:06: bach floor
+10:36:06: bach floor
+10:36:06: bach floor
+10:36:06: bach floor
+10:36:06: bach floor
+10:36:06: bach floor
+10:36:06: bach table
+10:36:06: bach table
+10:36:06: bach table
+10:36:06: bach table
+10:36:06: bios ceiling/wall
+10:36:06: bios ceiling/wall
+10:36:06: bios ceiling/wall
+10:36:06: cactus floor
+10:36:06: cactus floor
+10:36:06: cactus floor
+10:36:06: cactus table
+10:36:06: cactus table
+10:36:06: ceremony suspension
+10:36:06: ceremony suspension
+10:36:06: ceremony suspension
+10:36:06: ceremony suspension
+10:36:06: ceremony suspension
+10:36:06: ceremony suspension
+10:36:06: chantal suspension
+10:36:06: chantal suspension
+10:36:06: chantal suspension
+10:36:06: chantal suspension
+10:36:06: chantal suspension
+10:36:06: chantal suspension
+10:36:06: clizia ceiling/wall
+10:36:06: clizia ceiling/wall
+10:36:06: clizia ceiling/wall
+10:36:06: clizia ceiling/wall
+10:36:06: clizia pixel ceiling/wall
+10:36:06: clizia ceiling/wall
+10:36:06: clizia ceiling/wall
+10:36:06: clizia ceiling/wall
+10:36:06: clizia ceiling/wall
+10:36:06: clizia ceiling/wall
+10:36:06: clizia ceiling/wall
+10:36:06: clizia ceiling/wall
+10:36:06: clizia pixel ceiling/wall
+10:36:06: clizia ceiling/wall
+10:36:06: clizia ceiling/wall
+10:36:06: clizia suspension
+10:36:06: clizia suspension
+10:36:06: clizia suspension
+10:36:06: clizia suspension
+10:36:06: clizia suspension
+10:36:06: clizia suspension
+10:36:06: clizia pixel suspension
+10:36:06: clizia pixel suspension
+10:36:06: clizia suspension
+10:36:06: clizia suspension
+10:36:06: clizia suspension
+10:36:06: clizia suspension
+10:36:06: clizia suspension
+10:36:06: clizia suspension
+10:36:06: clizia suspension
+10:36:06: clizia pixel suspension
+10:36:06: clizia pixel suspension
+10:36:06: clizia suspension
+10:36:06: clizia suspension
+10:36:06: dafne ceiling/wall
+10:36:06: dafne ceiling/wall
+10:36:06: dafne ceiling/wall
+10:36:06: dimple suspension
+10:36:06: dimple suspension
+10:36:06: dimple suspension
+10:36:06: étoile suspension
+10:36:06: fabula ceiling/wall
+10:36:06: fabula ceiling/wall
+10:36:06: fabula suspension
+10:36:06: fabula suspension
+10:36:06: flora suspension
+10:36:06: flora suspension
+10:36:06: flora suspension
+10:36:06: flora suspension
+10:36:06: flora suspension
+10:36:06: flora suspension
+10:36:06: flora suspension
+10:36:06: flora suspension
+10:36:06: flora suspension
+10:36:06: flora suspension
+10:36:06: hanami suspension
+10:36:06: hanami suspension
+10:36:06: hanami suspension
+10:36:06: hanami suspension
+10:36:06: la belle étoile suspension
+10:36:06: la belle étoile suspension
+10:36:06: la lollo suspension
+10:36:06: la lollo suspension
+10:36:06: la lollo suspension
+10:36:06: la lollo suspension
+10:36:06: la lollo suspension
+10:36:06: la lollo suspension
+10:36:06: la lollo suspension
+10:36:06: la lollo suspension
+10:36:06: la lollo suspension
+10:36:06: la lollo suspension
+10:36:06: la lollo suspension
+10:36:06: la lollo suspension
+10:36:06: la lollona
+10:36:06: la lollona
+10:36:06: la lollona
+10:36:06: la lollona
+10:36:06: la lollona
+10:36:06: la lollona
+10:36:06: la lollona
+10:36:06: la lollona
+10:36:06: mida ceiling/wall
+10:36:06: mida ceiling/wall
+10:36:06: mida ceiling/wall
+10:36:06: mida ceiling/wall
+10:36:06: mida ceiling/wall
+10:36:06: mida ceiling/wall
+10:36:06: mida ceiling/wall
+10:36:06: mida ceiling/wall
+10:36:06: mida ceiling/wall
+10:36:06: mida ceiling/wall
+10:36:06: veli ceiling/wall
+10:36:06: veli ceiling/wall
+10:36:06: veli ceiling/wall
+10:36:06: veli ceiling/wall
+10:36:06: veli ceiling/wall
+10:36:06: veli ceiling/wall
+10:36:06: veli ceiling/wall
+10:36:06: veli ceiling/wall
+10:36:06: veli ceiling/wall
+10:36:06: veli ceiling/wall
+10:36:06: veli ceiling/wall
+10:36:06: veli ceiling/wall
+10:36:06: veli ceiling/wall
+10:36:06: veli ceiling/wall
+10:36:06: veli ceiling/wall
+10:36:06: veli ceiling/wall
+10:36:06: veli ceiling/wall
+10:36:06: veli ceiling/wall
+10:36:06: veli ceiling/wall
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: veli suspension
+10:36:06: venti ceiling/wall
+10:36:06: venti ceiling/wall
+10:36:06: venti ceiling/wall
+10:36:53: PROCESSO: ../xls/slamp
+10:36:54: large
+10:36:54: large
+10:36:54: large
+10:36:54: large
+10:36:54: mini
+10:36:54: mini
+10:36:54: mini
+10:36:54: mini
+10:36:54: mini
+10:36:54: mini
+10:36:54: mini
+10:36:54: mini
+10:37:16: PROCESSO: ../xls/slamp
+10:37:17: mini
+10:37:17: l
+10:37:17: mini
+10:37:17: l
+10:37:17: mini
+10:37:17: l
+10:37:17: mini
+10:37:17: l
+10:37:17: mini
+10:37:17: l
+10:37:17: mini
+10:37:17: l
+10:37:51: PROCESSO: ../xls/slamp
+10:37:51: mini
+10:37:51: l
+10:37:51: mini
+10:37:51: l
+10:37:51: mini
+10:37:51: l
+10:37:51: mini
+10:37:51: l
+10:37:51: mini
+10:37:51: l
+10:37:51: mini
+10:37:51: l
+10:38:04: PROCESSO: ../xls/slamp
+10:38:05: l
+10:38:05: l
+10:38:05: l
+10:38:05: l
+10:38:05: mini
+10:38:05: mini
+10:38:05: mini
+10:38:05: mini
+10:38:05: mini
+10:38:05: mini
+10:38:05: mini
+10:38:05: mini
+10:38:27: PROCESSO: ../xls/slamp
+10:38:28: mini
+10:38:28: l
+10:38:28: mini
+10:38:28: l
+10:38:28: mini
+10:38:28: l
+10:38:28: mini
+10:38:28: l
+10:38:28: mini
+10:38:28: l
+10:38:28: mini
+10:38:28: l
+10:51:16: PROCESSO: ../xls/slamp
+10:55:17: PROCESSO: ../xls/slamp
+11:00:55: PROCESSO: ../xls/slamp
+11:08:04: PROCESSO: ../xls/slamp
+11:17:41: PROCESSO: ../xls/slamp

@@ -1,0 +1,2 @@
+18:24:41: PROCESSO: ../xls/slamp
+18:24:52: PROCESSO: ../xls/slamp

@@ -11,7 +11,7 @@ quindi nella sezion "esporta" selezionare formato json e "personalizzato - mostr
 ed esportare le due tabella separatamente (selezionando il checkbox sulla riga della tabella)
 rinomando i file json in:
 - ps_product_attribute.json
-- ps_product_atribute_shop.json
+- ps_product_attribute_shop.json
 
 
 PS_PRODUCT_ATTRIBUTE ha la colonna "reference" che è l'id del prodotto ovvero "riferimento" della combinazione
@@ -19,7 +19,7 @@ queste due tabelle hanno entrambe la colonna (relazione) id_product_attribute
 
 PASSI:
 1) per ognuna di queste due tabella da mysqladmin devi esportare il json esport (Personalizzato - mostra tutte le possibili opzioni) selezioni la tabella in questione;
-2) per ciò che concerne il nuovo listino coi nuovi prezzi bisogna predisporre un json coposto come:
+2) per ciò che concerne il nuovo listino (listino_2021.js) del fornitore in questione bisogna convertirlo e generare un json del tipo:
     [
         {
             "cod": "F3391033",
