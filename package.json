@@ -37,7 +37,7 @@
     "string-similarity": "^3.0.0",
     "svg-to-png": "^4.0.0",
     "xls-to-json": "^0.5.1",
-    "xlsx": "0.12.8"
+    "xlsx": "0.18.5"
   },
   "devDependencies": {
     "should": "~13.2.1",
